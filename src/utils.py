@@ -1,7 +1,17 @@
 import re
 import unicodedata
 import json
+import logging
+import time
 from pathlib import Path
+from typing import Dict, Any
+
+# Configure Logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger("BibleRAG")
 
 class HebrewProcessor:
     @staticmethod
@@ -62,3 +72,12 @@ def append_jsonl(path: Path, item: dict):
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, 'a', encoding='utf-8') as f:
         f.write(json.dumps(item, ensure_ascii=False) + "\n")
+
+def timer(func):
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        end = time.time()
+        logger.info(f"Function {func.__name__} took {end - start:.2f} seconds")
+        return result
+    return wrapper
