@@ -56,11 +56,12 @@ BIBLE_CATALOG = [
 
 BOOK_MAPPING = {
     book["hebrew"]: {
+        "index": index,
         "en": book["english"],
         "slug": book["trans"],
         "number_of_chapters": book["number_of_chapters"],
     }
-    for book in BIBLE_CATALOG
+    for index, book in enumerate(BIBLE_CATALOG, start=1)
 }
 
 
@@ -276,6 +277,7 @@ def parse_chapter(raw_text: str, source_file: str) -> dict:
         text_plain = clean_text(remove_niqqud(text_with_niqqud))
 
         verse_id = (
+            f"_{book_info['index']:02d}_"
             f"{book_info['slug']}_"
             f"{chapter:03d}_"
             f"{current_verse:03d}"
@@ -318,7 +320,11 @@ def parse_chapter(raw_text: str, source_file: str) -> dict:
         "book_en": book_info["en"],
         "book_slug": book_info["slug"],
         "chapter": chapter,
-        "chapter_id": f"{book_info['slug']}_{chapter:03d}",
+        "chapter_id": (
+            f"_{book_info['index']:02d}_"
+            f"{book_info['slug']}_"
+            f"{chapter:03d}"
+        ),
         "ref": f"{book} {to_otiot(chapter)}",
         "ref_en": f"{book_info['en']} {chapter}",
         "source_file": source_file,
