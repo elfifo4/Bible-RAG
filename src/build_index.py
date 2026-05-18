@@ -46,7 +46,10 @@ def main():
             append_jsonl(ALL_CHUNKS_JSONL, chunk)
 
     print("Ingestion complete. Now building vector index...")
-    # build_vector_index() # To be implemented in retrieval.py or here
+    from src.retrieval import VectorRetriever
+    retriever = VectorRetriever()
+    retriever.build_index()
+    print(f"Vector index built and saved to {VECTOR_DB_PATH}")
 
 if __name__ == "__main__":
     main()

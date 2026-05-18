@@ -9,6 +9,7 @@ class VectorRetriever:
         from sentence_transformers import SentenceTransformer
         import faiss
 
+        print(f"Loading embedding model: {model_name}...")
         self.model = SentenceTransformer(model_name)
         self.index = None
         self.chunks = []
@@ -16,10 +17,13 @@ class VectorRetriever:
 
     def _load_chunks(self):
         if not ALL_CHUNKS_JSONL.exists():
+            print(f"Warning: {ALL_CHUNKS_JSONL} not found. Did you run build_index?")
             return
+        print(f"Loading chunks from {ALL_CHUNKS_JSONL}...")
         with open(ALL_CHUNKS_JSONL, 'r', encoding='utf-8') as f:
             for line in f:
                 self.chunks.append(json.loads(line))
+        print(f"Loaded {len(self.chunks)} chunks.")
 
     def build_index(self):
         import faiss
