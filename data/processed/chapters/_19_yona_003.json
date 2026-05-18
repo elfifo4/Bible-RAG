@@ -1,18 +1,14 @@
 {
   "book": "יונה",
   "book_en": "Jonah",
-  "book_slug": "yona",
   "chapter": 3,
   "chapter_id": "_19_yona_003",
   "ref": "יונה ג",
-  "ref_en": "Jonah 3",
-  "source_file": "_19_yona-03.txt",
   "verses": [
     {
       "verse_id": "_19_yona_003_001",
       "book": "יונה",
       "book_en": "Jonah",
-      "book_slug": "yona",
       "chapter": 3,
       "verse": 1,
       "ref": "יונה ג:א",
@@ -30,7 +26,6 @@
       "verse_id": "_19_yona_003_002",
       "book": "יונה",
       "book_en": "Jonah",
-      "book_slug": "yona",
       "chapter": 3,
       "verse": 2,
       "ref": "יונה ג:ב",
@@ -48,7 +43,6 @@
       "verse_id": "_19_yona_003_003",
       "book": "יונה",
       "book_en": "Jonah",
-      "book_slug": "yona",
       "chapter": 3,
       "verse": 3,
       "ref": "יונה ג:ג",
@@ -66,7 +60,6 @@
       "verse_id": "_19_yona_003_004",
       "book": "יונה",
       "book_en": "Jonah",
-      "book_slug": "yona",
       "chapter": 3,
       "verse": 4,
       "ref": "יונה ג:ד",
@@ -84,7 +77,6 @@
       "verse_id": "_19_yona_003_005",
       "book": "יונה",
       "book_en": "Jonah",
-      "book_slug": "yona",
       "chapter": 3,
       "verse": 5,
       "ref": "יונה ג:ה",
@@ -102,7 +94,6 @@
       "verse_id": "_19_yona_003_006",
       "book": "יונה",
       "book_en": "Jonah",
-      "book_slug": "yona",
       "chapter": 3,
       "verse": 6,
       "ref": "יונה ג:ו",
@@ -120,7 +111,6 @@
       "verse_id": "_19_yona_003_007",
       "book": "יונה",
       "book_en": "Jonah",
-      "book_slug": "yona",
       "chapter": 3,
       "verse": 7,
       "ref": "יונה ג:ז",
@@ -138,7 +128,6 @@
       "verse_id": "_19_yona_003_008",
       "book": "יונה",
       "book_en": "Jonah",
-      "book_slug": "yona",
       "chapter": 3,
       "verse": 8,
       "ref": "יונה ג:ח",
@@ -156,7 +145,6 @@
       "verse_id": "_19_yona_003_009",
       "book": "יונה",
       "book_en": "Jonah",
-      "book_slug": "yona",
       "chapter": 3,
       "verse": 9,
       "ref": "יונה ג:ט",
@@ -174,7 +162,6 @@
       "verse_id": "_19_yona_003_010",
       "book": "יונה",
       "book_en": "Jonah",
-      "book_slug": "yona",
       "chapter": 3,
       "verse": 10,
       "ref": "יונה ג:י",
@@ -188,5 +175,6 @@
       },
       "source_file": "_19_yona-03.txt"
     }
-  ]
+  ],
+  "source_file": "_19_yona-03.txt"
 }

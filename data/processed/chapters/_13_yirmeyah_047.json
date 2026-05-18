@@ -1,18 +1,14 @@
 {
   "book": "ירמיהו",
   "book_en": "Jeremiah",
-  "book_slug": "yirmeyah",
   "chapter": 47,
   "chapter_id": "_13_yirmeyah_047",
   "ref": "ירמיהו מז",
-  "ref_en": "Jeremiah 47",
-  "source_file": "_13_yirmeyah-47.txt",
   "verses": [
     {
       "verse_id": "_13_yirmeyah_047_001",
       "book": "ירמיהו",
       "book_en": "Jeremiah",
-      "book_slug": "yirmeyah",
       "chapter": 47,
       "verse": 1,
       "ref": "ירמיהו מז:א",
@@ -30,12 +26,11 @@
       "verse_id": "_13_yirmeyah_047_002",
       "book": "ירמיהו",
       "book_en": "Jeremiah",
-      "book_slug": "yirmeyah",
       "chapter": 47,
       "verse": 2,
       "ref": "ירמיהו מז:ב",
       "ref_en": "Jeremiah 47:2",
-      "text_original": "כֹּ֣ה ׀ אָמַ֣ר יְהֹוָ֗ה הִנֵּה־מַ֜יִם עֹלִ֤ים מִצָּפוֹן֙ וְהָיוּ֙ לְנַ֣חַל שׁוֹטֵ֔ף וְיִשְׁטְפוּ֙ אֶ֣רֶץ וּמְלוֹאָ֔הּ עִ֖יר וְיֹ֣שְׁבֵי בָ֑הּ וְזָֽעֲקוּ֙ הָֽאָדָ֔ם וְהֵילִ֕ל כֹּ֖ל יוֹשֵׁ֥ב הָאָֽרֶץ׃",
+      "text_original": "כֹּ֣ה ׀ אָמַ֣ר יְהֹוָ֗ה הִנֵּה־מַ֜יִם עֹלִ֤ים מִצָּפוֹן֙ וְהָיוּ֙ לְנַ֣חַל שׁוֹטֵ֔ף וְיִשְׁטְפוּ֙ אֶ֣רֶץ וּמְלוֹאָ֔הּ עִ֖יר וְיֹ֣שְׁבֵי בָ֑הּ וְזָֽעֲקוּ֙ הָֽאָדָ֔ם וְהֵילִ֕ל כֹּ֖ל יוֹשֵׁ֥ב הָאָֽרֶץ׃",
       "text_with_niqqud": "כֹּה אָמַר יְהֹוָה הִנֵּה מַיִם עֹלִים מִצָּפוֹן וְהָיוּ לְנַחַל שׁוֹטֵף וְיִשְׁטְפוּ אֶרֶץ וּמְלוֹאָהּ עִיר וְיֹשְׁבֵי בָהּ וְזָעֲקוּ הָאָדָם וְהֵילִל כֹּל יוֹשֵׁב הָאָרֶץ",
       "text_plain": "כה אמר יהוה הנה מים עלים מצפון והיו לנחל שוטף וישטפו ארץ ומלואה עיר וישבי בה וזעקו האדם והילל כל יושב הארץ",
       "markers": {
@@ -48,7 +43,6 @@
       "verse_id": "_13_yirmeyah_047_003",
       "book": "ירמיהו",
       "book_en": "Jeremiah",
-      "book_slug": "yirmeyah",
       "chapter": 47,
       "verse": 3,
       "ref": "ירמיהו מז:ג",
@@ -66,7 +60,6 @@
       "verse_id": "_13_yirmeyah_047_004",
       "book": "ירמיהו",
       "book_en": "Jeremiah",
-      "book_slug": "yirmeyah",
       "chapter": 47,
       "verse": 4,
       "ref": "ירמיהו מז:ד",
@@ -84,7 +77,6 @@
       "verse_id": "_13_yirmeyah_047_005",
       "book": "ירמיהו",
       "book_en": "Jeremiah",
-      "book_slug": "yirmeyah",
       "chapter": 47,
       "verse": 5,
       "ref": "ירמיהו מז:ה",
@@ -102,7 +94,6 @@
       "verse_id": "_13_yirmeyah_047_006",
       "book": "ירמיהו",
       "book_en": "Jeremiah",
-      "book_slug": "yirmeyah",
       "chapter": 47,
       "verse": 6,
       "ref": "ירמיהו מז:ו",
@@ -120,7 +111,6 @@
       "verse_id": "_13_yirmeyah_047_007",
       "book": "ירמיהו",
       "book_en": "Jeremiah",
-      "book_slug": "yirmeyah",
       "chapter": 47,
       "verse": 7,
       "ref": "ירמיהו מז:ז",
@@ -136,5 +126,6 @@
       },
       "source_file": "_13_yirmeyah-47.txt"
     }
-  ]
+  ],
+  "source_file": "_13_yirmeyah-47.txt"
 }

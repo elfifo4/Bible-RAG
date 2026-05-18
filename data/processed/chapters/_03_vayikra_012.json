@@ -1,18 +1,14 @@
 {
   "book": "ויקרא",
   "book_en": "Leviticus",
-  "book_slug": "vayikra",
   "chapter": 12,
   "chapter_id": "_03_vayikra_012",
   "ref": "ויקרא יב",
-  "ref_en": "Leviticus 12",
-  "source_file": "_03_vayikra-12.txt",
   "verses": [
     {
       "verse_id": "_03_vayikra_012_001",
       "book": "ויקרא",
       "book_en": "Leviticus",
-      "book_slug": "vayikra",
       "chapter": 12,
       "verse": 1,
       "ref": "ויקרא יב:א",
@@ -33,7 +29,6 @@
       "verse_id": "_03_vayikra_012_002",
       "book": "ויקרא",
       "book_en": "Leviticus",
-      "book_slug": "vayikra",
       "chapter": 12,
       "verse": 2,
       "ref": "ויקרא יב:ב",
@@ -51,7 +46,6 @@
       "verse_id": "_03_vayikra_012_003",
       "book": "ויקרא",
       "book_en": "Leviticus",
-      "book_slug": "vayikra",
       "chapter": 12,
       "verse": 3,
       "ref": "ויקרא יב:ג",
@@ -69,7 +63,6 @@
       "verse_id": "_03_vayikra_012_004",
       "book": "ויקרא",
       "book_en": "Leviticus",
-      "book_slug": "vayikra",
       "chapter": 12,
       "verse": 4,
       "ref": "ויקרא יב:ד",
@@ -89,7 +82,6 @@
       "verse_id": "_03_vayikra_012_005",
       "book": "ויקרא",
       "book_en": "Leviticus",
-      "book_slug": "vayikra",
       "chapter": 12,
       "verse": 5,
       "ref": "ויקרא יב:ה",
@@ -107,12 +99,11 @@
       "verse_id": "_03_vayikra_012_006",
       "book": "ויקרא",
       "book_en": "Leviticus",
-      "book_slug": "vayikra",
       "chapter": 12,
       "verse": 6,
       "ref": "ויקרא יב:ו",
       "ref_en": "Leviticus 12:6",
-      "text_original": "וּבִמְלֹ֣את ׀ יְמֵ֣י טָֽהֳרָ֗הּ לְבֵן֮ א֣וֹ לְבַת֒ תָּבִ֞יא כֶּ֤בֶשׂ בֶּן־שְׁנָתוֹ֙ לְעֹלָ֔ה וּבֶן־יוֹנָ֥ה אוֹ־תֹ֖ר לְחַטָּ֑את אֶל־פֶּ֥תַח אֹֽהֶל־מוֹעֵ֖ד אֶל־הַכֹּהֵֽן׃",
+      "text_original": "וּבִמְלֹ֣את ׀ יְמֵ֣י טָֽהֳרָ֗הּ לְבֵן֮ א֣וֹ לְבַת֒ תָּבִ֞יא כֶּ֤בֶשׂ בֶּן־שְׁנָתוֹ֙ לְעֹלָ֔ה וּבֶן־יוֹנָ֥ה אוֹ־תֹ֖ר לְחַטָּ֑את אֶל־פֶּ֥תַח אֹֽהֶל־מוֹעֵ֖ד אֶל־הַכֹּהֵֽן׃",
       "text_with_niqqud": "וּבִמְלֹאת יְמֵי טָהֳרָהּ לְבֵן אוֹ לְבַת תָּבִיא כֶּבֶשׂ בֶּן שְׁנָתוֹ לְעֹלָה וּבֶן יוֹנָה אוֹ תֹר לְחַטָּאת אֶל פֶּתַח אֹהֶל מוֹעֵד אֶל הַכֹּהֵן",
       "text_plain": "ובמלאת ימי טהרה לבן או לבת תביא כבש בן שנתו לעלה ובן יונה או תר לחטאת אל פתח אהל מועד אל הכהן",
       "markers": {
@@ -125,7 +116,6 @@
       "verse_id": "_03_vayikra_012_007",
       "book": "ויקרא",
       "book_en": "Leviticus",
-      "book_slug": "vayikra",
       "chapter": 12,
       "verse": 7,
       "ref": "ויקרא יב:ז",
@@ -143,7 +133,6 @@
       "verse_id": "_03_vayikra_012_008",
       "book": "ויקרא",
       "book_en": "Leviticus",
-      "book_slug": "vayikra",
       "chapter": 12,
       "verse": 8,
       "ref": "ויקרא יב:ח",
@@ -160,5 +149,6 @@
       },
       "source_file": "_03_vayikra-12.txt"
     }
-  ]
+  ],
+  "source_file": "_03_vayikra-12.txt"
 }

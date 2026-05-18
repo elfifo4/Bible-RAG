@@ -1,18 +1,14 @@
 {
   "book": "דברי הימים ב",
   "book_en": "2 Chronicles",
-  "book_slug": "divrei_hayamim_b",
   "chapter": 27,
   "chapter_id": "_39_divrei_hayamim_b_027",
   "ref": "דברי הימים ב כז",
-  "ref_en": "2 Chronicles 27",
-  "source_file": "_39_divrei_hayamim_b-27.txt",
   "verses": [
     {
       "verse_id": "_39_divrei_hayamim_b_027_001",
       "book": "דברי הימים ב",
       "book_en": "2 Chronicles",
-      "book_slug": "divrei_hayamim_b",
       "chapter": 27,
       "verse": 1,
       "ref": "דברי הימים ב כז:א",
@@ -30,7 +26,6 @@
       "verse_id": "_39_divrei_hayamim_b_027_002",
       "book": "דברי הימים ב",
       "book_en": "2 Chronicles",
-      "book_slug": "divrei_hayamim_b",
       "chapter": 27,
       "verse": 2,
       "ref": "דברי הימים ב כז:ב",
@@ -48,7 +43,6 @@
       "verse_id": "_39_divrei_hayamim_b_027_003",
       "book": "דברי הימים ב",
       "book_en": "2 Chronicles",
-      "book_slug": "divrei_hayamim_b",
       "chapter": 27,
       "verse": 3,
       "ref": "דברי הימים ב כז:ג",
@@ -66,7 +60,6 @@
       "verse_id": "_39_divrei_hayamim_b_027_004",
       "book": "דברי הימים ב",
       "book_en": "2 Chronicles",
-      "book_slug": "divrei_hayamim_b",
       "chapter": 27,
       "verse": 4,
       "ref": "דברי הימים ב כז:ד",
@@ -84,7 +77,6 @@
       "verse_id": "_39_divrei_hayamim_b_027_005",
       "book": "דברי הימים ב",
       "book_en": "2 Chronicles",
-      "book_slug": "divrei_hayamim_b",
       "chapter": 27,
       "verse": 5,
       "ref": "דברי הימים ב כז:ה",
@@ -102,7 +94,6 @@
       "verse_id": "_39_divrei_hayamim_b_027_006",
       "book": "דברי הימים ב",
       "book_en": "2 Chronicles",
-      "book_slug": "divrei_hayamim_b",
       "chapter": 27,
       "verse": 6,
       "ref": "דברי הימים ב כז:ו",
@@ -120,7 +111,6 @@
       "verse_id": "_39_divrei_hayamim_b_027_007",
       "book": "דברי הימים ב",
       "book_en": "2 Chronicles",
-      "book_slug": "divrei_hayamim_b",
       "chapter": 27,
       "verse": 7,
       "ref": "דברי הימים ב כז:ז",
@@ -138,7 +128,6 @@
       "verse_id": "_39_divrei_hayamim_b_027_008",
       "book": "דברי הימים ב",
       "book_en": "2 Chronicles",
-      "book_slug": "divrei_hayamim_b",
       "chapter": 27,
       "verse": 8,
       "ref": "דברי הימים ב כז:ח",
@@ -156,7 +145,6 @@
       "verse_id": "_39_divrei_hayamim_b_027_009",
       "book": "דברי הימים ב",
       "book_en": "2 Chronicles",
-      "book_slug": "divrei_hayamim_b",
       "chapter": 27,
       "verse": 9,
       "ref": "דברי הימים ב כז:ט",
@@ -172,5 +160,6 @@
       },
       "source_file": "_39_divrei_hayamim_b-27.txt"
     }
-  ]
+  ],
+  "source_file": "_39_divrei_hayamim_b-27.txt"
 }

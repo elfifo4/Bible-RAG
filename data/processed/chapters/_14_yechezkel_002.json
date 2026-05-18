@@ -1,18 +1,14 @@
 {
   "book": "יחזקאל",
   "book_en": "Ezekiel",
-  "book_slug": "yechezkel",
   "chapter": 2,
   "chapter_id": "_14_yechezkel_002",
   "ref": "יחזקאל ב",
-  "ref_en": "Ezekiel 2",
-  "source_file": "_14_yechezkel-02.txt",
   "verses": [
     {
       "verse_id": "_14_yechezkel_002_001",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 2,
       "verse": 1,
       "ref": "יחזקאל ב:א",
@@ -30,7 +26,6 @@
       "verse_id": "_14_yechezkel_002_002",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 2,
       "verse": 2,
       "ref": "יחזקאל ב:ב",
@@ -50,7 +45,6 @@
       "verse_id": "_14_yechezkel_002_003",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 2,
       "verse": 3,
       "ref": "יחזקאל ב:ג",
@@ -68,7 +62,6 @@
       "verse_id": "_14_yechezkel_002_004",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 2,
       "verse": 4,
       "ref": "יחזקאל ב:ד",
@@ -86,7 +79,6 @@
       "verse_id": "_14_yechezkel_002_005",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 2,
       "verse": 5,
       "ref": "יחזקאל ב:ה",
@@ -106,7 +98,6 @@
       "verse_id": "_14_yechezkel_002_006",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 2,
       "verse": 6,
       "ref": "יחזקאל ב:ו",
@@ -124,7 +115,6 @@
       "verse_id": "_14_yechezkel_002_007",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 2,
       "verse": 7,
       "ref": "יחזקאל ב:ז",
@@ -144,7 +134,6 @@
       "verse_id": "_14_yechezkel_002_008",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 2,
       "verse": 8,
       "ref": "יחזקאל ב:ח",
@@ -162,7 +151,6 @@
       "verse_id": "_14_yechezkel_002_009",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 2,
       "verse": 9,
       "ref": "יחזקאל ב:ט",
@@ -180,7 +168,6 @@
       "verse_id": "_14_yechezkel_002_010",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 2,
       "verse": 10,
       "ref": "יחזקאל ב:י",
@@ -196,5 +183,6 @@
       },
       "source_file": "_14_yechezkel-02.txt"
     }
-  ]
+  ],
+  "source_file": "_14_yechezkel-02.txt"
 }

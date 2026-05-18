@@ -1,18 +1,14 @@
 {
   "book": "ישעיהו",
   "book_en": "Isaiah",
-  "book_slug": "yeshaaya",
   "chapter": 35,
   "chapter_id": "_12_yeshaaya_035",
   "ref": "ישעיהו לה",
-  "ref_en": "Isaiah 35",
-  "source_file": "_12_yeshaaya-35.txt",
   "verses": [
     {
       "verse_id": "_12_yeshaaya_035_001",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 35,
       "verse": 1,
       "ref": "ישעיהו לה:א",
@@ -30,7 +26,6 @@
       "verse_id": "_12_yeshaaya_035_002",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 35,
       "verse": 2,
       "ref": "ישעיהו לה:ב",
@@ -50,7 +45,6 @@
       "verse_id": "_12_yeshaaya_035_003",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 35,
       "verse": 3,
       "ref": "ישעיהו לה:ג",
@@ -68,7 +62,6 @@
       "verse_id": "_12_yeshaaya_035_004",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 35,
       "verse": 4,
       "ref": "ישעיהו לה:ד",
@@ -86,7 +79,6 @@
       "verse_id": "_12_yeshaaya_035_005",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 35,
       "verse": 5,
       "ref": "ישעיהו לה:ה",
@@ -104,7 +96,6 @@
       "verse_id": "_12_yeshaaya_035_006",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 35,
       "verse": 6,
       "ref": "ישעיהו לה:ו",
@@ -122,7 +113,6 @@
       "verse_id": "_12_yeshaaya_035_007",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 35,
       "verse": 7,
       "ref": "ישעיהו לה:ז",
@@ -140,7 +130,6 @@
       "verse_id": "_12_yeshaaya_035_008",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 35,
       "verse": 8,
       "ref": "ישעיהו לה:ח",
@@ -158,7 +147,6 @@
       "verse_id": "_12_yeshaaya_035_009",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 35,
       "verse": 9,
       "ref": "ישעיהו לה:ט",
@@ -176,7 +164,6 @@
       "verse_id": "_12_yeshaaya_035_010",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 35,
       "verse": 10,
       "ref": "ישעיהו לה:י",
@@ -192,5 +179,6 @@
       },
       "source_file": "_12_yeshaaya-35.txt"
     }
-  ]
+  ],
+  "source_file": "_12_yeshaaya-35.txt"
 }

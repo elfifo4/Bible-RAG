@@ -1,18 +1,14 @@
 {
   "book": "קהלת",
   "book_en": "Ecclesiastes",
-  "book_slug": "koheleth",
   "chapter": 11,
   "chapter_id": "_33_koheleth_011",
   "ref": "קהלת יא",
-  "ref_en": "Ecclesiastes 11",
-  "source_file": "_33_koheleth-11.txt",
   "verses": [
     {
       "verse_id": "_33_koheleth_011_001",
       "book": "קהלת",
       "book_en": "Ecclesiastes",
-      "book_slug": "koheleth",
       "chapter": 11,
       "verse": 1,
       "ref": "קהלת יא:א",
@@ -30,7 +26,6 @@
       "verse_id": "_33_koheleth_011_002",
       "book": "קהלת",
       "book_en": "Ecclesiastes",
-      "book_slug": "koheleth",
       "chapter": 11,
       "verse": 2,
       "ref": "קהלת יא:ב",
@@ -48,7 +43,6 @@
       "verse_id": "_33_koheleth_011_003",
       "book": "קהלת",
       "book_en": "Ecclesiastes",
-      "book_slug": "koheleth",
       "chapter": 11,
       "verse": 3,
       "ref": "קהלת יא:ג",
@@ -66,7 +60,6 @@
       "verse_id": "_33_koheleth_011_004",
       "book": "קהלת",
       "book_en": "Ecclesiastes",
-      "book_slug": "koheleth",
       "chapter": 11,
       "verse": 4,
       "ref": "קהלת יא:ד",
@@ -84,7 +77,6 @@
       "verse_id": "_33_koheleth_011_005",
       "book": "קהלת",
       "book_en": "Ecclesiastes",
-      "book_slug": "koheleth",
       "chapter": 11,
       "verse": 5,
       "ref": "קהלת יא:ה",
@@ -102,7 +94,6 @@
       "verse_id": "_33_koheleth_011_006",
       "book": "קהלת",
       "book_en": "Ecclesiastes",
-      "book_slug": "koheleth",
       "chapter": 11,
       "verse": 6,
       "ref": "קהלת יא:ו",
@@ -120,7 +111,6 @@
       "verse_id": "_33_koheleth_011_007",
       "book": "קהלת",
       "book_en": "Ecclesiastes",
-      "book_slug": "koheleth",
       "chapter": 11,
       "verse": 7,
       "ref": "קהלת יא:ז",
@@ -138,7 +128,6 @@
       "verse_id": "_33_koheleth_011_008",
       "book": "קהלת",
       "book_en": "Ecclesiastes",
-      "book_slug": "koheleth",
       "chapter": 11,
       "verse": 8,
       "ref": "קהלת יא:ח",
@@ -156,7 +145,6 @@
       "verse_id": "_33_koheleth_011_009",
       "book": "קהלת",
       "book_en": "Ecclesiastes",
-      "book_slug": "koheleth",
       "chapter": 11,
       "verse": 9,
       "ref": "קהלת יא:ט",
@@ -174,7 +162,6 @@
       "verse_id": "_33_koheleth_011_010",
       "book": "קהלת",
       "book_en": "Ecclesiastes",
-      "book_slug": "koheleth",
       "chapter": 11,
       "verse": 10,
       "ref": "קהלת יא:י",
@@ -188,5 +175,6 @@
       },
       "source_file": "_33_koheleth-11.txt"
     }
-  ]
+  ],
+  "source_file": "_33_koheleth-11.txt"
 }

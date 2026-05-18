@@ -1,18 +1,14 @@
 {
   "book": "ישעיהו",
   "book_en": "Isaiah",
-  "book_slug": "yeshaaya",
   "chapter": 20,
   "chapter_id": "_12_yeshaaya_020",
   "ref": "ישעיהו כ",
-  "ref_en": "Isaiah 20",
-  "source_file": "_12_yeshaaya-20.txt",
   "verses": [
     {
       "verse_id": "_12_yeshaaya_020_001",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 20,
       "verse": 1,
       "ref": "ישעיהו כ:א",
@@ -30,7 +26,6 @@
       "verse_id": "_12_yeshaaya_020_002",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 20,
       "verse": 2,
       "ref": "ישעיהו כ:ב",
@@ -50,7 +45,6 @@
       "verse_id": "_12_yeshaaya_020_003",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 20,
       "verse": 3,
       "ref": "ישעיהו כ:ג",
@@ -68,7 +62,6 @@
       "verse_id": "_12_yeshaaya_020_004",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 20,
       "verse": 4,
       "ref": "ישעיהו כ:ד",
@@ -86,7 +79,6 @@
       "verse_id": "_12_yeshaaya_020_005",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 20,
       "verse": 5,
       "ref": "ישעיהו כ:ה",
@@ -104,7 +96,6 @@
       "verse_id": "_12_yeshaaya_020_006",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 20,
       "verse": 6,
       "ref": "ישעיהו כ:ו",
@@ -120,5 +111,6 @@
       },
       "source_file": "_12_yeshaaya-20.txt"
     }
-  ]
+  ],
+  "source_file": "_12_yeshaaya-20.txt"
 }

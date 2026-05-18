@@ -1,18 +1,14 @@
 {
   "book": "יואל",
   "book_en": "Joel",
-  "book_slug": "yoel",
   "chapter": 3,
   "chapter_id": "_16_yoel_003",
   "ref": "יואל ג",
-  "ref_en": "Joel 3",
-  "source_file": "_16_yoel-03.txt",
   "verses": [
     {
       "verse_id": "_16_yoel_003_001",
       "book": "יואל",
       "book_en": "Joel",
-      "book_slug": "yoel",
       "chapter": 3,
       "verse": 1,
       "ref": "יואל ג:א",
@@ -30,7 +26,6 @@
       "verse_id": "_16_yoel_003_002",
       "book": "יואל",
       "book_en": "Joel",
-      "book_slug": "yoel",
       "chapter": 3,
       "verse": 2,
       "ref": "יואל ג:ב",
@@ -48,7 +43,6 @@
       "verse_id": "_16_yoel_003_003",
       "book": "יואל",
       "book_en": "Joel",
-      "book_slug": "yoel",
       "chapter": 3,
       "verse": 3,
       "ref": "יואל ג:ג",
@@ -66,7 +60,6 @@
       "verse_id": "_16_yoel_003_004",
       "book": "יואל",
       "book_en": "Joel",
-      "book_slug": "yoel",
       "chapter": 3,
       "verse": 4,
       "ref": "יואל ג:ד",
@@ -84,7 +77,6 @@
       "verse_id": "_16_yoel_003_005",
       "book": "יואל",
       "book_en": "Joel",
-      "book_slug": "yoel",
       "chapter": 3,
       "verse": 5,
       "ref": "יואל ג:ה",
@@ -98,5 +90,6 @@
       },
       "source_file": "_16_yoel-03.txt"
     }
-  ]
+  ],
+  "source_file": "_16_yoel-03.txt"
 }

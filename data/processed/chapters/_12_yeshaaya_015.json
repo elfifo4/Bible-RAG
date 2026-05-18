@@ -1,18 +1,14 @@
 {
   "book": "ישעיהו",
   "book_en": "Isaiah",
-  "book_slug": "yeshaaya",
   "chapter": 15,
   "chapter_id": "_12_yeshaaya_015",
   "ref": "ישעיהו טו",
-  "ref_en": "Isaiah 15",
-  "source_file": "_12_yeshaaya-15.txt",
   "verses": [
     {
       "verse_id": "_12_yeshaaya_015_001",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 15,
       "verse": 1,
       "ref": "ישעיהו טו:א",
@@ -30,7 +26,6 @@
       "verse_id": "_12_yeshaaya_015_002",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 15,
       "verse": 2,
       "ref": "ישעיהו טו:ב",
@@ -48,7 +43,6 @@
       "verse_id": "_12_yeshaaya_015_003",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 15,
       "verse": 3,
       "ref": "ישעיהו טו:ג",
@@ -66,7 +60,6 @@
       "verse_id": "_12_yeshaaya_015_004",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 15,
       "verse": 4,
       "ref": "ישעיהו טו:ד",
@@ -84,12 +77,11 @@
       "verse_id": "_12_yeshaaya_015_005",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 15,
       "verse": 5,
       "ref": "ישעיהו טו:ה",
       "ref_en": "Isaiah 15:5",
-      "text_original": "לִבִּי֙ לְמוֹאָ֣ב יִזְעָ֔ק בְּרִיחֶ֕הָ עַד־צֹ֖עַר עֶגְלַ֣ת שְׁלִֽשִׁיָּ֑ה כִּ֣י ׀ מַֽעֲלֵ֣ה הַלּוּחִ֗ית בִּבְכִי֙ יַֽעֲלֶה־בּ֔וֹ כִּ֚י דֶּ֣רֶךְ חֽוֹרֹנַ֔יִם זַֽעֲקַת־שֶׁ֖בֶר יְעֹעֵֽרוּ׃",
+      "text_original": "לִבִּי֙ לְמוֹאָ֣ב יִזְעָ֔ק בְּרִיחֶ֕הָ עַד־צֹ֖עַר עֶגְלַ֣ת שְׁלִֽשִׁיָּ֑ה כִּ֣י ׀ מַֽעֲלֵ֣ה הַלּוּחִ֗ית בִּבְכִי֙ יַֽעֲלֶה־בּ֔וֹ כִּ֚י דֶּ֣רֶךְ חֽוֹרֹנַ֔יִם זַֽעֲקַת־שֶׁ֖בֶר יְעֹעֵֽרוּ׃",
       "text_with_niqqud": "לִבִּי לְמוֹאָב יִזְעָק בְּרִיחֶהָ עַד צֹעַר עֶגְלַת שְׁלִשִׁיָּה כִּי מַעֲלֵה הַלּוּחִית בִּבְכִי יַעֲלֶה בּוֹ כִּי דֶּרֶךְ חוֹרֹנַיִם זַעֲקַת שֶׁבֶר יְעֹעֵרוּ",
       "text_plain": "לבי למואב יזעק בריחה עד צער עגלת שלשיה כי מעלה הלוחית בבכי יעלה בו כי דרך חורנים זעקת שבר יעערו",
       "markers": {
@@ -102,7 +94,6 @@
       "verse_id": "_12_yeshaaya_015_006",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 15,
       "verse": 6,
       "ref": "ישעיהו טו:ו",
@@ -120,7 +111,6 @@
       "verse_id": "_12_yeshaaya_015_007",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 15,
       "verse": 7,
       "ref": "ישעיהו טו:ז",
@@ -138,7 +128,6 @@
       "verse_id": "_12_yeshaaya_015_008",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 15,
       "verse": 8,
       "ref": "ישעיהו טו:ח",
@@ -156,7 +145,6 @@
       "verse_id": "_12_yeshaaya_015_009",
       "book": "ישעיהו",
       "book_en": "Isaiah",
-      "book_slug": "yeshaaya",
       "chapter": 15,
       "verse": 9,
       "ref": "ישעיהו טו:ט",
@@ -170,5 +158,6 @@
       },
       "source_file": "_12_yeshaaya-15.txt"
     }
-  ]
+  ],
+  "source_file": "_12_yeshaaya-15.txt"
 }

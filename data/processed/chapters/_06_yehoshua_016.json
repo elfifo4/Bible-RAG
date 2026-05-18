@@ -1,18 +1,14 @@
 {
   "book": "יהושע",
   "book_en": "Joshua",
-  "book_slug": "yehoshua",
   "chapter": 16,
   "chapter_id": "_06_yehoshua_016",
   "ref": "יהושע טז",
-  "ref_en": "Joshua 16",
-  "source_file": "_06_yehoshua-16.txt",
   "verses": [
     {
       "verse_id": "_06_yehoshua_016_001",
       "book": "יהושע",
       "book_en": "Joshua",
-      "book_slug": "yehoshua",
       "chapter": 16,
       "verse": 1,
       "ref": "יהושע טז:א",
@@ -30,7 +26,6 @@
       "verse_id": "_06_yehoshua_016_002",
       "book": "יהושע",
       "book_en": "Joshua",
-      "book_slug": "yehoshua",
       "chapter": 16,
       "verse": 2,
       "ref": "יהושע טז:ב",
@@ -48,7 +43,6 @@
       "verse_id": "_06_yehoshua_016_003",
       "book": "יהושע",
       "book_en": "Joshua",
-      "book_slug": "yehoshua",
       "chapter": 16,
       "verse": 3,
       "ref": "יהושע טז:ג",
@@ -66,7 +60,6 @@
       "verse_id": "_06_yehoshua_016_004",
       "book": "יהושע",
       "book_en": "Joshua",
-      "book_slug": "yehoshua",
       "chapter": 16,
       "verse": 4,
       "ref": "יהושע טז:ד",
@@ -84,7 +77,6 @@
       "verse_id": "_06_yehoshua_016_005",
       "book": "יהושע",
       "book_en": "Joshua",
-      "book_slug": "yehoshua",
       "chapter": 16,
       "verse": 5,
       "ref": "יהושע טז:ה",
@@ -102,7 +94,6 @@
       "verse_id": "_06_yehoshua_016_006",
       "book": "יהושע",
       "book_en": "Joshua",
-      "book_slug": "yehoshua",
       "chapter": 16,
       "verse": 6,
       "ref": "יהושע טז:ו",
@@ -120,7 +111,6 @@
       "verse_id": "_06_yehoshua_016_007",
       "book": "יהושע",
       "book_en": "Joshua",
-      "book_slug": "yehoshua",
       "chapter": 16,
       "verse": 7,
       "ref": "יהושע טז:ז",
@@ -138,7 +128,6 @@
       "verse_id": "_06_yehoshua_016_008",
       "book": "יהושע",
       "book_en": "Joshua",
-      "book_slug": "yehoshua",
       "chapter": 16,
       "verse": 8,
       "ref": "יהושע טז:ח",
@@ -156,7 +145,6 @@
       "verse_id": "_06_yehoshua_016_009",
       "book": "יהושע",
       "book_en": "Joshua",
-      "book_slug": "yehoshua",
       "chapter": 16,
       "verse": 9,
       "ref": "יהושע טז:ט",
@@ -174,7 +162,6 @@
       "verse_id": "_06_yehoshua_016_010",
       "book": "יהושע",
       "book_en": "Joshua",
-      "book_slug": "yehoshua",
       "chapter": 16,
       "verse": 10,
       "ref": "יהושע טז:י",
@@ -190,5 +177,6 @@
       },
       "source_file": "_06_yehoshua-16.txt"
     }
-  ]
+  ],
+  "source_file": "_06_yehoshua-16.txt"
 }

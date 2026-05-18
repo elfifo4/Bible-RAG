@@ -1,18 +1,14 @@
 {
   "book": "ירמיהו",
   "book_en": "Jeremiah",
-  "book_slug": "yirmeyah",
   "chapter": 45,
   "chapter_id": "_13_yirmeyah_045",
   "ref": "ירמיהו מה",
-  "ref_en": "Jeremiah 45",
-  "source_file": "_13_yirmeyah-45.txt",
   "verses": [
     {
       "verse_id": "_13_yirmeyah_045_001",
       "book": "ירמיהו",
       "book_en": "Jeremiah",
-      "book_slug": "yirmeyah",
       "chapter": 45,
       "verse": 1,
       "ref": "ירמיהו מה:א",
@@ -30,7 +26,6 @@
       "verse_id": "_13_yirmeyah_045_002",
       "book": "ירמיהו",
       "book_en": "Jeremiah",
-      "book_slug": "yirmeyah",
       "chapter": 45,
       "verse": 2,
       "ref": "ירמיהו מה:ב",
@@ -48,7 +43,6 @@
       "verse_id": "_13_yirmeyah_045_003",
       "book": "ירמיהו",
       "book_en": "Jeremiah",
-      "book_slug": "yirmeyah",
       "chapter": 45,
       "verse": 3,
       "ref": "ירמיהו מה:ג",
@@ -66,12 +60,11 @@
       "verse_id": "_13_yirmeyah_045_004",
       "book": "ירמיהו",
       "book_en": "Jeremiah",
-      "book_slug": "yirmeyah",
       "chapter": 45,
       "verse": 4,
       "ref": "ירמיהו מה:ד",
       "ref_en": "Jeremiah 45:4",
-      "text_original": "כֹּ֣ה ׀ תֹּאמַ֣ר אֵלָ֗יו כֹּ֚ה אָמַ֣ר יְהֹוָ֔ה הִנֵּ֤ה אֲשֶׁר־בָּנִ֨יתִי֙ אֲנִ֣י הֹרֵ֔ס וְאֵ֥ת אֲשֶׁר־נָטַ֖עְתִּי אֲנִ֣י נֹתֵ֑שׁ וְאֶת־כָּל־הָאָ֖רֶץ הִֽיא׃",
+      "text_original": "כֹּ֣ה ׀ תֹּאמַ֣ר אֵלָ֗יו כֹּ֚ה אָמַ֣ר יְהֹוָ֔ה הִנֵּ֤ה אֲשֶׁר־בָּנִ֨יתִי֙ אֲנִ֣י הֹרֵ֔ס וְאֵ֥ת אֲשֶׁר־נָטַ֖עְתִּי אֲנִ֣י נֹתֵ֑שׁ וְאֶת־כָּל־הָאָ֖רֶץ הִֽיא׃",
       "text_with_niqqud": "כֹּה תֹּאמַר אֵלָיו כֹּה אָמַר יְהֹוָה הִנֵּה אֲשֶׁר בָּנִיתִי אֲנִי הֹרֵס וְאֵת אֲשֶׁר נָטַעְתִּי אֲנִי נֹתֵשׁ וְאֶת כָּל הָאָרֶץ הִיא",
       "text_plain": "כה תאמר אליו כה אמר יהוה הנה אשר בניתי אני הרס ואת אשר נטעתי אני נתש ואת כל הארץ היא",
       "markers": {
@@ -84,7 +77,6 @@
       "verse_id": "_13_yirmeyah_045_005",
       "book": "ירמיהו",
       "book_en": "Jeremiah",
-      "book_slug": "yirmeyah",
       "chapter": 45,
       "verse": 5,
       "ref": "ירמיהו מה:ה",
@@ -100,5 +92,6 @@
       },
       "source_file": "_13_yirmeyah-45.txt"
     }
-  ]
+  ],
+  "source_file": "_13_yirmeyah-45.txt"
 }

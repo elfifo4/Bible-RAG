@@ -1,18 +1,14 @@
 {
   "book": "יחזקאל",
   "book_en": "Ezekiel",
-  "book_slug": "yechezkel",
   "chapter": 15,
   "chapter_id": "_14_yechezkel_015",
   "ref": "יחזקאל טו",
-  "ref_en": "Ezekiel 15",
-  "source_file": "_14_yechezkel-15.txt",
   "verses": [
     {
       "verse_id": "_14_yechezkel_015_001",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 15,
       "verse": 1,
       "ref": "יחזקאל טו:א",
@@ -30,7 +26,6 @@
       "verse_id": "_14_yechezkel_015_002",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 15,
       "verse": 2,
       "ref": "יחזקאל טו:ב",
@@ -48,7 +43,6 @@
       "verse_id": "_14_yechezkel_015_003",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 15,
       "verse": 3,
       "ref": "יחזקאל טו:ג",
@@ -66,7 +60,6 @@
       "verse_id": "_14_yechezkel_015_004",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 15,
       "verse": 4,
       "ref": "יחזקאל טו:ד",
@@ -84,7 +77,6 @@
       "verse_id": "_14_yechezkel_015_005",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 15,
       "verse": 5,
       "ref": "יחזקאל טו:ה",
@@ -104,7 +96,6 @@
       "verse_id": "_14_yechezkel_015_006",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 15,
       "verse": 6,
       "ref": "יחזקאל טו:ו",
@@ -122,7 +113,6 @@
       "verse_id": "_14_yechezkel_015_007",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 15,
       "verse": 7,
       "ref": "יחזקאל טו:ז",
@@ -140,7 +130,6 @@
       "verse_id": "_14_yechezkel_015_008",
       "book": "יחזקאל",
       "book_en": "Ezekiel",
-      "book_slug": "yechezkel",
       "chapter": 15,
       "verse": 8,
       "ref": "יחזקאל טו:ח",
@@ -156,5 +145,6 @@
       },
       "source_file": "_14_yechezkel-15.txt"
     }
-  ]
+  ],
+  "source_file": "_14_yechezkel-15.txt"
 }
