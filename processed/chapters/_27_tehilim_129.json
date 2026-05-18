@@ -1,0 +1,156 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 129,
+  "chapter_id": "_27_tehilim_129",
+  "ref": "תהילים קכט",
+  "ref_en": "Psalms 129",
+  "source_file": "_27_tehilim-129.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_129_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 129,
+      "verse": 1,
+      "ref": "תהילים קכט:א",
+      "ref_en": "Psalms 129:1",
+      "text_original": "שִׁ֗יר הַֽמַּ֫עֲל֥וֹת רַ֭בַּת צְרָר֣וּנִי מִנְּעוּרַ֑י יֹֽאמַר־נָ֝֗א יִשְׂרָאֵֽל׃",
+      "text_with_niqqud": "שִׁיר הַמַּעֲלוֹת רַבַּת צְרָרוּנִי מִנְּעוּרַי יֹאמַר נָא יִשְׂרָאֵל",
+      "text_plain": "שיר המעלות רבת צררוני מנעורי יאמר נא ישראל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-129.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_129_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 129,
+      "verse": 2,
+      "ref": "תהילים קכט:ב",
+      "ref_en": "Psalms 129:2",
+      "text_original": "רַ֭בַּת צְרָר֣וּנִי מִנְּעוּרָ֑י גַּ֝֗ם לֹא־יָ֥כְלוּ לִֽי׃",
+      "text_with_niqqud": "רַבַּת צְרָרוּנִי מִנְּעוּרָי גַּם לֹא יָכְלוּ לִי",
+      "text_plain": "רבת צררוני מנעורי גם לא יכלו לי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-129.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_129_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 129,
+      "verse": 3,
+      "ref": "תהילים קכט:ג",
+      "ref_en": "Psalms 129:3",
+      "text_original": "עַל־גַּ֭בִּי חָֽרְשׁ֣וּ חֹֽרְשִׁ֑ים הֶֽ֝אֱרִ֗יכוּ למענותם (לְמַֽעֲנִיתָֽם)׃",
+      "text_with_niqqud": "עַל גַּבִּי חָרְשׁוּ חֹרְשִׁים הֶאֱרִיכוּ למענותם (לְמַעֲנִיתָם)",
+      "text_plain": "על גבי חרשו חרשים האריכו למענותם (למעניתם)",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-129.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_129_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 129,
+      "verse": 4,
+      "ref": "תהילים קכט:ד",
+      "ref_en": "Psalms 129:4",
+      "text_original": "יְהֹוָ֥ה צַדִּ֑יק קִ֝צֵּ֗ץ עֲב֣וֹת רְשָׁעִֽים׃",
+      "text_with_niqqud": "יְהֹוָה צַדִּיק קִצֵּץ עֲבוֹת רְשָׁעִים",
+      "text_plain": "יהוה צדיק קצץ עבות רשעים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-129.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_129_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 129,
+      "verse": 5,
+      "ref": "תהילים קכט:ה",
+      "ref_en": "Psalms 129:5",
+      "text_original": "יֵ֭בֹשׁוּ וְיִסֹּ֣גוּ אָח֑וֹר כֹּ֝֗ל שֹֽׂנְאֵ֥י צִיּֽוֹן׃",
+      "text_with_niqqud": "יֵבֹשׁוּ וְיִסֹּגוּ אָחוֹר כֹּל שֹׂנְאֵי צִיּוֹן",
+      "text_plain": "יבשו ויסגו אחור כל שנאי ציון",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-129.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_129_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 129,
+      "verse": 6,
+      "ref": "תהילים קכט:ו",
+      "ref_en": "Psalms 129:6",
+      "text_original": "יִֽ֭הְיוּ כַּֽחֲצִ֣יר גַּגּ֑וֹת שֶׁקַּדְמַ֖ת שָׁלַ֣ף יָבֵֽשׁ׃",
+      "text_with_niqqud": "יִהְיוּ כַּחֲצִיר גַּגּוֹת שֶׁקַּדְמַת שָׁלַף יָבֵשׁ",
+      "text_plain": "יהיו כחציר גגות שקדמת שלף יבש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-129.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_129_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 129,
+      "verse": 7,
+      "ref": "תהילים קכט:ז",
+      "ref_en": "Psalms 129:7",
+      "text_original": "שֶׁלֹּ֤א מִלֵּ֖א כַפּ֥וֹ קוֹצֵ֗ר וְחִצְנ֥וֹ מְעַמֵּֽר׃",
+      "text_with_niqqud": "שֶׁלֹּא מִלֵּא כַפּוֹ קוֹצֵר וְחִצְנוֹ מְעַמֵּר",
+      "text_plain": "שלא מלא כפו קוצר וחצנו מעמר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-129.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_129_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 129,
+      "verse": 8,
+      "ref": "תהילים קכט:ח",
+      "ref_en": "Psalms 129:8",
+      "text_original": "וְלֹ֤א אָֽמְר֨וּ ׀ הָעֹֽבְרִ֗ים בִּרְכַּֽת־יְהֹוָ֥ה אֲלֵיכֶ֑ם בֵּרַ֥כְנוּ אֶ֝תְכֶ֗ם בְּשֵׁ֣ם יְהֹוָֽה׃",
+      "text_with_niqqud": "וְלֹא אָמְרוּ הָעֹבְרִים בִּרְכַּת יְהֹוָה אֲלֵיכֶם בֵּרַכְנוּ אֶתְכֶם בְּשֵׁם יְהֹוָה",
+      "text_plain": "ולא אמרו העברים ברכת יהוה אליכם ברכנו אתכם בשם יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-129.txt"
+    }
+  ]
+}

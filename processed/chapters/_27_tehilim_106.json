@@ -1,0 +1,876 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 106,
+  "chapter_id": "_27_tehilim_106",
+  "ref": "תהילים קו",
+  "ref_en": "Psalms 106",
+  "source_file": "_27_tehilim-106.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_106_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 1,
+      "ref": "תהילים קו:א",
+      "ref_en": "Psalms 106:1",
+      "text_original": "הַ֥לְלוּ יָ֨הּ ׀ הוֹד֣וּ לַֽיהֹוָ֣ה כִּי־ט֑וֹב כִּ֖י לְעוֹלָ֣ם חַסְדּֽוֹ׃",
+      "text_with_niqqud": "הַלְלוּ יָהּ הוֹדוּ לַיהֹוָה כִּי טוֹב כִּי לְעוֹלָם חַסְדּוֹ",
+      "text_plain": "הללו יה הודו ליהוה כי טוב כי לעולם חסדו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 2,
+      "ref": "תהילים קו:ב",
+      "ref_en": "Psalms 106:2",
+      "text_original": "מִ֗י יְ֭מַלֵּל גְּבוּר֣וֹת יְהֹוָ֑ה יַ֝שְׁמִ֗יעַ כָּל־תְּהִלָּתֽוֹ׃",
+      "text_with_niqqud": "מִי יְמַלֵּל גְּבוּרוֹת יְהֹוָה יַשְׁמִיעַ כָּל תְּהִלָּתוֹ",
+      "text_plain": "מי ימלל גבורות יהוה ישמיע כל תהלתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 3,
+      "ref": "תהילים קו:ג",
+      "ref_en": "Psalms 106:3",
+      "text_original": "אַ֭שְׁרֵי שֹֽׁמְרֵ֣י מִשְׁפָּ֑ט עֹשֵׂ֖ה צְדָקָ֣ה בְכָל־עֵֽת׃",
+      "text_with_niqqud": "אַשְׁרֵי שֹׁמְרֵי מִשְׁפָּט עֹשֵׂה צְדָקָה בְכָל עֵת",
+      "text_plain": "אשרי שמרי משפט עשה צדקה בכל עת",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 4,
+      "ref": "תהילים קו:ד",
+      "ref_en": "Psalms 106:4",
+      "text_original": "זָכְרֵ֣נִי יְ֭הֹוָה בִּרְצ֣וֹן עַמֶּ֑ךָ פָּ֝קְדֵ֗נִי בִּישֽׁוּעָתֶֽךָ׃",
+      "text_with_niqqud": "זָכְרֵנִי יְהֹוָה בִּרְצוֹן עַמֶּךָ פָּקְדֵנִי בִּישׁוּעָתֶךָ",
+      "text_plain": "זכרני יהוה ברצון עמך פקדני בישועתך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 5,
+      "ref": "תהילים קו:ה",
+      "ref_en": "Psalms 106:5",
+      "text_original": "לִרְא֤וֹת ׀ בְּט֘וֹבַ֤ת בְּחִירֶ֗יךָ לִ֭שְׂמֹחַ בְּשִׂמְחַ֣ת גּוֹיֶ֑ךָ לְ֝הִתְהַלֵּ֗ל עִם־נַֽחֲלָתֶֽךָ׃",
+      "text_with_niqqud": "לִרְאוֹת בְּטוֹבַת בְּחִירֶיךָ לִשְׂמֹחַ בְּשִׂמְחַת גּוֹיֶךָ לְהִתְהַלֵּל עִם נַחֲלָתֶךָ",
+      "text_plain": "לראות בטובת בחיריך לשמח בשמחת גויך להתהלל עם נחלתך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 6,
+      "ref": "תהילים קו:ו",
+      "ref_en": "Psalms 106:6",
+      "text_original": "חָטָ֥אנוּ עִם־אֲבוֹתֵ֗ינוּ הֶֽעֱוִ֥ינוּ הִרְשָֽׁעְנוּ׃",
+      "text_with_niqqud": "חָטָאנוּ עִם אֲבוֹתֵינוּ הֶעֱוִינוּ הִרְשָׁעְנוּ",
+      "text_plain": "חטאנו עם אבותינו העוינו הרשענו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 7,
+      "ref": "תהילים קו:ז",
+      "ref_en": "Psalms 106:7",
+      "text_original": "אֲב֘וֹתֵ֤ינוּ בְמִצְרַ֨יִם ׀ לֹֽא־הִשְׂכִּ֬ילוּ נִפְלְאוֹתֶ֗יךָ לֹ֣א זָֽ֭כְרוּ אֶת־רֹ֣ב חֲסָדֶ֑יךָ וַיַּמְר֖וּ עַל־יָ֣ם בְּיַם־סֽוּף׃",
+      "text_with_niqqud": "אֲבוֹתֵינוּ בְמִצְרַיִם לֹא הִשְׂכִּילוּ נִפְלְאוֹתֶיךָ לֹא זָכְרוּ אֶת רֹב חֲסָדֶיךָ וַיַּמְרוּ עַל יָם בְּיַם סוּף",
+      "text_plain": "אבותינו במצרים לא השכילו נפלאותיך לא זכרו את רב חסדיך וימרו על ים בים סוף",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 8,
+      "ref": "תהילים קו:ח",
+      "ref_en": "Psalms 106:8",
+      "text_original": "וַֽ֭יּוֹשִׁיעֵם לְמַ֣עַן שְׁמ֑וֹ לְ֝הוֹדִ֗יעַ אֶת־גְּבֽוּרָתֽוֹ׃",
+      "text_with_niqqud": "וַיּוֹשִׁיעֵם לְמַעַן שְׁמוֹ לְהוֹדִיעַ אֶת גְּבוּרָתוֹ",
+      "text_plain": "ויושיעם למען שמו להודיע את גבורתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 9,
+      "ref": "תהילים קו:ט",
+      "ref_en": "Psalms 106:9",
+      "text_original": "וַיִּגְעַ֣ר בְּיַם־ס֭וּף וַֽיֶּחֱרָ֑ב וַיּֽוֹלִיכֵ֥ם בַּ֝תְּהֹמ֗וֹת כַּמִּדְבָּֽר׃",
+      "text_with_niqqud": "וַיִּגְעַר בְּיַם סוּף וַיֶּחֱרָב וַיּוֹלִיכֵם בַּתְּהֹמוֹת כַּמִּדְבָּר",
+      "text_plain": "ויגער בים סוף ויחרב ויוליכם בתהמות כמדבר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 10,
+      "ref": "תהילים קו:י",
+      "ref_en": "Psalms 106:10",
+      "text_original": "וַֽ֭יּוֹשִׁיעֵם מִיַּ֣ד שׂוֹנֵ֑א וַ֝יִּגְאָלֵ֗ם מִיַּ֥ד אוֹיֵֽב׃",
+      "text_with_niqqud": "וַיּוֹשִׁיעֵם מִיַּד שׂוֹנֵא וַיִּגְאָלֵם מִיַּד אוֹיֵב",
+      "text_plain": "ויושיעם מיד שונא ויגאלם מיד אויב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 11,
+      "ref": "תהילים קו:יא",
+      "ref_en": "Psalms 106:11",
+      "text_original": "וַיְכַסּוּ־מַ֥יִם צָֽרֵיהֶ֑ם אֶחָ֥ד מֵ֝הֶ֗ם לֹ֣א נוֹתָֽר׃",
+      "text_with_niqqud": "וַיְכַסּוּ מַיִם צָרֵיהֶם אֶחָד מֵהֶם לֹא נוֹתָר",
+      "text_plain": "ויכסו מים צריהם אחד מהם לא נותר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 12,
+      "ref": "תהילים קו:יב",
+      "ref_en": "Psalms 106:12",
+      "text_original": "וַיַּֽאֲמִ֥ינוּ בִדְבָרָ֑יו יָ֝שִׁ֗ירוּ תְּהִלָּתֽוֹ׃",
+      "text_with_niqqud": "וַיַּאֲמִינוּ בִדְבָרָיו יָשִׁירוּ תְּהִלָּתוֹ",
+      "text_plain": "ויאמינו בדבריו ישירו תהלתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 13,
+      "ref": "תהילים קו:יג",
+      "ref_en": "Psalms 106:13",
+      "text_original": "מִֽ֭הֲרוּ שָֽׁכְח֣וּ מַֽעֲשָׂ֑יו לֹֽא־חִ֝כּ֗וּ לַֽעֲצָתֽוֹ׃",
+      "text_with_niqqud": "מִהֲרוּ שָׁכְחוּ מַעֲשָׂיו לֹא חִכּוּ לַעֲצָתוֹ",
+      "text_plain": "מהרו שכחו מעשיו לא חכו לעצתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_014",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 14,
+      "ref": "תהילים קו:יד",
+      "ref_en": "Psalms 106:14",
+      "text_original": "וַיִּתְאַוּ֣וּ תַֽ֭אֲוָה בַּמִּדְבָּ֑ר וַיְנַסּוּ־אֵ֝֗ל בִּֽישִׁימֽוֹן׃",
+      "text_with_niqqud": "וַיִּתְאַוּוּ תַאֲוָה בַּמִּדְבָּר וַיְנַסּוּ אֵל בִּישִׁימוֹן",
+      "text_plain": "ויתאוו תאוה במדבר וינסו אל בישימון",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_015",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 15,
+      "ref": "תהילים קו:טו",
+      "ref_en": "Psalms 106:15",
+      "text_original": "וַיִּתֵּ֣ן לָ֭הֶם שֶֽׁאֱלָתָ֑ם וַיְשַׁלַּ֖ח רָז֣וֹן בְּנַפְשָֽׁם׃",
+      "text_with_niqqud": "וַיִּתֵּן לָהֶם שֶׁאֱלָתָם וַיְשַׁלַּח רָזוֹן בְּנַפְשָׁם",
+      "text_plain": "ויתן להם שאלתם וישלח רזון בנפשם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_016",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 16,
+      "ref": "תהילים קו:טז",
+      "ref_en": "Psalms 106:16",
+      "text_original": "וַיְקַנְא֣וּ לְ֭מֹשֶׁה בַּֽמַּחֲנֶ֑ה לְ֝אַֽהֲרֹ֗ן קְד֣וֹשׁ יְהֹוָֽה׃",
+      "text_with_niqqud": "וַיְקַנְאוּ לְמֹשֶׁה בַּמַּחֲנֶה לְאַהֲרֹן קְדוֹשׁ יְהֹוָה",
+      "text_plain": "ויקנאו למשה במחנה לאהרן קדוש יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_017",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 17,
+      "ref": "תהילים קו:יז",
+      "ref_en": "Psalms 106:17",
+      "text_original": "תִּפְתַּח־אֶ֭רֶץ וַתִּבְלַ֣ע דָּתָ֑ן וַ֝תְּכַ֗ס עַל־עֲדַ֥ת אֲבִירָֽם׃",
+      "text_with_niqqud": "תִּפְתַּח אֶרֶץ וַתִּבְלַע דָּתָן וַתְּכַס עַל עֲדַת אֲבִירָם",
+      "text_plain": "תפתח ארץ ותבלע דתן ותכס על עדת אבירם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_018",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 18,
+      "ref": "תהילים קו:יח",
+      "ref_en": "Psalms 106:18",
+      "text_original": "וַתִּבְעַר־אֵ֥שׁ בַּֽעֲדָתָ֑ם לֶֽ֝הָבָ֗ה תְּלַהֵ֥ט רְשָׁעִֽים׃",
+      "text_with_niqqud": "וַתִּבְעַר אֵשׁ בַּעֲדָתָם לֶהָבָה תְּלַהֵט רְשָׁעִים",
+      "text_plain": "ותבער אש בעדתם להבה תלהט רשעים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_019",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 19,
+      "ref": "תהילים קו:יט",
+      "ref_en": "Psalms 106:19",
+      "text_original": "יַֽעֲשׂוּ־עֵ֥גֶל בְּחֹרֵ֑ב וַ֝יִּשְׁתַּֽחֲו֗וּ לְמַסֵּכָֽה׃",
+      "text_with_niqqud": "יַעֲשׂוּ עֵגֶל בְּחֹרֵב וַיִּשְׁתַּחֲווּ לְמַסֵּכָה",
+      "text_plain": "יעשו עגל בחרב וישתחוו למסכה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_020",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 20,
+      "ref": "תהילים קו:כ",
+      "ref_en": "Psalms 106:20",
+      "text_original": "וַיָּמִ֥ירוּ אֶת־כְּבוֹדָ֑ם בְּתַבְנִ֥ית שׁ֝֗וֹר אֹכֵ֥ל עֵֽשֶׂב׃",
+      "text_with_niqqud": "וַיָּמִירוּ אֶת כְּבוֹדָם בְּתַבְנִית שׁוֹר אֹכֵל עֵשֶׂב",
+      "text_plain": "וימירו את כבודם בתבנית שור אכל עשב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_021",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 21,
+      "ref": "תהילים קו:כא",
+      "ref_en": "Psalms 106:21",
+      "text_original": "שָֽׁ֭כְחוּ אֵ֣ל מֽוֹשִׁיעָ֑ם עֹשֶׂ֖ה גְדֹל֣וֹת בְּמִצְרָֽיִם׃",
+      "text_with_niqqud": "שָׁכְחוּ אֵל מוֹשִׁיעָם עֹשֶׂה גְדֹלוֹת בְּמִצְרָיִם",
+      "text_plain": "שכחו אל מושיעם עשה גדלות במצרים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_022",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 22,
+      "ref": "תהילים קו:כב",
+      "ref_en": "Psalms 106:22",
+      "text_original": "נִ֭פְלָאוֹת בְּאֶ֣רֶץ חָ֑ם נֽ֝וֹרָא֗וֹת עַל־יַם־סֽוּף׃",
+      "text_with_niqqud": "נִפְלָאוֹת בְּאֶרֶץ חָם נוֹרָאוֹת עַל יַם סוּף",
+      "text_plain": "נפלאות בארץ חם נוראות על ים סוף",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_023",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 23,
+      "ref": "תהילים קו:כג",
+      "ref_en": "Psalms 106:23",
+      "text_original": "וַיֹּ֗אמֶר לְֽהַשְׁמִ֫ידָ֥ם לוּלֵ֡י מֹ֘שֶׁ֤ה בְחִיר֗וֹ עָמַ֣ד בַּפֶּ֣רֶץ לְפָנָ֑יו לְהָשִׁ֥יב חֲ֝מָת֗וֹ מֵֽהַשְׁחִֽית׃",
+      "text_with_niqqud": "וַיֹּאמֶר לְהַשְׁמִידָם לוּלֵי מֹשֶׁה בְחִירוֹ עָמַד בַּפֶּרֶץ לְפָנָיו לְהָשִׁיב חֲמָתוֹ מֵהַשְׁחִית",
+      "text_plain": "ויאמר להשמידם לולי משה בחירו עמד בפרץ לפניו להשיב חמתו מהשחית",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_024",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 24,
+      "ref": "תהילים קו:כד",
+      "ref_en": "Psalms 106:24",
+      "text_original": "וַֽ֭יִּמְאֲסוּ בְּאֶ֣רֶץ חֶמְדָּ֑ה לֹֽא־הֶ֝אֱמִ֗ינוּ לִדְבָרֽוֹ׃",
+      "text_with_niqqud": "וַיִּמְאֲסוּ בְּאֶרֶץ חֶמְדָּה לֹא הֶאֱמִינוּ לִדְבָרוֹ",
+      "text_plain": "וימאסו בארץ חמדה לא האמינו לדברו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_025",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 25,
+      "ref": "תהילים קו:כה",
+      "ref_en": "Psalms 106:25",
+      "text_original": "וַיֵּרָֽגְנ֥וּ בְאָֽהֳלֵיהֶ֑ם לֹ֥א שָֽׁ֝מְע֗וּ בְּק֣וֹל יְהֹוָֽה׃",
+      "text_with_niqqud": "וַיֵּרָגְנוּ בְאָהֳלֵיהֶם לֹא שָׁמְעוּ בְּקוֹל יְהֹוָה",
+      "text_plain": "וירגנו באהליהם לא שמעו בקול יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_026",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 26,
+      "ref": "תהילים קו:כו",
+      "ref_en": "Psalms 106:26",
+      "text_original": "וַיִּשָּׂ֣א יָד֣וֹ לָהֶ֑ם לְהַפִּ֥יל א֝וֹתָ֗ם בַּמִּדְבָּֽר׃",
+      "text_with_niqqud": "וַיִּשָּׂא יָדוֹ לָהֶם לְהַפִּיל אוֹתָם בַּמִּדְבָּר",
+      "text_plain": "וישא ידו להם להפיל אותם במדבר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_027",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 27,
+      "ref": "תהילים קו:כז",
+      "ref_en": "Psalms 106:27",
+      "text_original": "וּלְהַפִּ֣יל זַ֭רְעָם בַּגּוֹיִ֑ם וּ֝לְזָֽרוֹתָ֗ם בָּֽאֲרָצֽוֹת׃",
+      "text_with_niqqud": "וּלְהַפִּיל זַרְעָם בַּגּוֹיִם וּלְזָרוֹתָם בָּאֲרָצוֹת",
+      "text_plain": "ולהפיל זרעם בגוים ולזרותם בארצות",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_028",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 28,
+      "ref": "תהילים קו:כח",
+      "ref_en": "Psalms 106:28",
+      "text_original": "וַ֭יִּצָּ֣מְדוּ לְבַ֣עַל פְּע֑וֹר וַ֝יֹּֽאכְל֗וּ זִבְחֵ֥י מֵתִֽים׃",
+      "text_with_niqqud": "וַיִּצָּמְדוּ לְבַעַל פְּעוֹר וַיֹּאכְלוּ זִבְחֵי מֵתִים",
+      "text_plain": "ויצמדו לבעל פעור ויאכלו זבחי מתים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_029",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 29,
+      "ref": "תהילים קו:כט",
+      "ref_en": "Psalms 106:29",
+      "text_original": "וַ֭יַּכְעִיסוּ בְּמַ֥עַלְלֵיהֶ֑ם וַתִּפְרָץ־בָּ֝֗ם מַגֵּפָֽה׃",
+      "text_with_niqqud": "וַיַּכְעִיסוּ בְּמַעַלְלֵיהֶם וַתִּפְרָץ בָּם מַגֵּפָה",
+      "text_plain": "ויכעיסו במעלליהם ותפרץ בם מגפה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_030",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 30,
+      "ref": "תהילים קו:ל",
+      "ref_en": "Psalms 106:30",
+      "text_original": "וַיַּֽעֲמֹ֣ד פִּֽ֭ינְחָס וַיְפַלֵּ֑ל וַ֝תֵּֽעָצַ֗ר הַמַּגֵּפָֽה׃",
+      "text_with_niqqud": "וַיַּעֲמֹד פִּינְחָס וַיְפַלֵּל וַתֵּעָצַר הַמַּגֵּפָה",
+      "text_plain": "ויעמד פינחס ויפלל ותעצר המגפה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_031",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 31,
+      "ref": "תהילים קו:לא",
+      "ref_en": "Psalms 106:31",
+      "text_original": "וַתֵּחָ֣שֶׁב ל֭וֹ לִצְדָקָ֑ה לְדֹ֥ר וָ֝דֹ֗ר עַד־עוֹלָֽם׃",
+      "text_with_niqqud": "וַתֵּחָשֶׁב לוֹ לִצְדָקָה לְדֹר וָדֹר עַד עוֹלָם",
+      "text_plain": "ותחשב לו לצדקה לדר ודר עד עולם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_032",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 32,
+      "ref": "תהילים קו:לב",
+      "ref_en": "Psalms 106:32",
+      "text_original": "וַ֭יַּקְצִיפוּ עַל־מֵ֥י מְרִיבָ֑ה וַיֵּ֥רַע לְ֝מֹשֶׁ֗ה בַּֽעֲבוּרָֽם׃",
+      "text_with_niqqud": "וַיַּקְצִיפוּ עַל מֵי מְרִיבָה וַיֵּרַע לְמֹשֶׁה בַּעֲבוּרָם",
+      "text_plain": "ויקציפו על מי מריבה וירע למשה בעבורם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_033",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 33,
+      "ref": "תהילים קו:לג",
+      "ref_en": "Psalms 106:33",
+      "text_original": "כִּֽי־הִמְר֥וּ אֶת־רוּח֑וֹ וַ֝יְבַטֵּ֗א בִּשְׂפָתָֽיו׃",
+      "text_with_niqqud": "כִּי הִמְרוּ אֶת רוּחוֹ וַיְבַטֵּא בִּשְׂפָתָיו",
+      "text_plain": "כי המרו את רוחו ויבטא בשפתיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_034",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 34,
+      "ref": "תהילים קו:לד",
+      "ref_en": "Psalms 106:34",
+      "text_original": "לֹֽא־הִ֭שְׁמִידוּ אֶת־הָֽעַמִּ֑ים אֲשֶׁ֤ר אָמַ֖ר יְהֹוָ֣ה לָהֶֽם׃",
+      "text_with_niqqud": "לֹא הִשְׁמִידוּ אֶת הָעַמִּים אֲשֶׁר אָמַר יְהֹוָה לָהֶם",
+      "text_plain": "לא השמידו את העמים אשר אמר יהוה להם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_035",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 35,
+      "ref": "תהילים קו:לה",
+      "ref_en": "Psalms 106:35",
+      "text_original": "וַיִּתְעָֽרְב֥וּ בַגּוֹיִ֑ם וַֽ֝יִּלְמְד֗וּ מַֽעֲשֵׂיהֶֽם׃",
+      "text_with_niqqud": "וַיִּתְעָרְבוּ בַגּוֹיִם וַיִּלְמְדוּ מַעֲשֵׂיהֶם",
+      "text_plain": "ויתערבו בגוים וילמדו מעשיהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_036",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 36,
+      "ref": "תהילים קו:לו",
+      "ref_en": "Psalms 106:36",
+      "text_original": "וַיַּֽעַבְד֥וּ אֶת־עֲצַבֵּיהֶ֑ם וַיִּֽהְי֖וּ לָהֶ֣ם לְמוֹקֵֽשׁ׃",
+      "text_with_niqqud": "וַיַּעַבְדוּ אֶת עֲצַבֵּיהֶם וַיִּהְיוּ לָהֶם לְמוֹקֵשׁ",
+      "text_plain": "ויעבדו את עצביהם ויהיו להם למוקש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_037",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 37,
+      "ref": "תהילים קו:לז",
+      "ref_en": "Psalms 106:37",
+      "text_original": "וַיִּזְבְּח֣וּ אֶת־בְּ֭נֵיהֶם וְאֶת־בְּנֽוֹתֵיהֶ֗ם לַשֵּׁדִֽים׃",
+      "text_with_niqqud": "וַיִּזְבְּחוּ אֶת בְּנֵיהֶם וְאֶת בְּנוֹתֵיהֶם לַשֵּׁדִים",
+      "text_plain": "ויזבחו את בניהם ואת בנותיהם לשדים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_038",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 38,
+      "ref": "תהילים קו:לח",
+      "ref_en": "Psalms 106:38",
+      "text_original": "וַיִּ֥שְׁפְּכ֨וּ דָ֪ם נָקִ֡י דַּם־בְּנֵ֘יהֶ֤ם וּֽבְנוֹתֵיהֶ֗ם אֲשֶׁ֣ר זִ֭בְּחוּ לַֽעֲצַבֵּ֣י כְנָ֑עַן וַתֶּֽחֱנַ֥ף הָ֝אָ֗רֶץ בַּדָּמִֽים׃",
+      "text_with_niqqud": "וַיִּשְׁפְּכוּ דָם נָקִי דַּם בְּנֵיהֶם וּבְנוֹתֵיהֶם אֲשֶׁר זִבְּחוּ לַעֲצַבֵּי כְנָעַן וַתֶּחֱנַף הָאָרֶץ בַּדָּמִים",
+      "text_plain": "וישפכו דם נקי דם בניהם ובנותיהם אשר זבחו לעצבי כנען ותחנף הארץ בדמים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_039",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 39,
+      "ref": "תהילים קו:לט",
+      "ref_en": "Psalms 106:39",
+      "text_original": "וַיִּטְמְא֥וּ בְמַֽעֲשֵׂיהֶ֑ם וַ֝יִּזְ֗נוּ בְּמַ֥עַלְלֵיהֶֽם׃",
+      "text_with_niqqud": "וַיִּטְמְאוּ בְמַעֲשֵׂיהֶם וַיִּזְנוּ בְּמַעַלְלֵיהֶם",
+      "text_plain": "ויטמאו במעשיהם ויזנו במעלליהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_040",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 40,
+      "ref": "תהילים קו:מ",
+      "ref_en": "Psalms 106:40",
+      "text_original": "וַיִּֽחַר־אַ֣ף יְהֹוָ֣ה בְּעַמּ֑וֹ וַ֝יְתָעֵ֗ב אֶת־נַֽחֲלָתֽוֹ׃",
+      "text_with_niqqud": "וַיִּחַר אַף יְהֹוָה בְּעַמּוֹ וַיְתָעֵב אֶת נַחֲלָתוֹ",
+      "text_plain": "ויחר אף יהוה בעמו ויתעב את נחלתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_041",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 41,
+      "ref": "תהילים קו:מא",
+      "ref_en": "Psalms 106:41",
+      "text_original": "וַיִּתְּנֵ֥ם בְּיַד־גּוֹיִ֑ם וַֽיִּמְשְׁל֥וּ בָ֝הֶ֗ם שֹֽׂנְאֵיהֶֽם׃",
+      "text_with_niqqud": "וַיִּתְּנֵם בְּיַד גּוֹיִם וַיִּמְשְׁלוּ בָהֶם שֹׂנְאֵיהֶם",
+      "text_plain": "ויתנם ביד גוים וימשלו בהם שנאיהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_042",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 42,
+      "ref": "תהילים קו:מב",
+      "ref_en": "Psalms 106:42",
+      "text_original": "וַיִּלְחָצ֥וּם אֽוֹיְבֵיהֶ֑ם וַ֝יִּכָּֽנְע֗וּ תַּ֣חַת יָדָֽם׃",
+      "text_with_niqqud": "וַיִּלְחָצוּם אוֹיְבֵיהֶם וַיִּכָּנְעוּ תַּחַת יָדָם",
+      "text_plain": "וילחצום אויביהם ויכנעו תחת ידם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_043",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 43,
+      "ref": "תהילים קו:מג",
+      "ref_en": "Psalms 106:43",
+      "text_original": "פְּעָמִ֥ים רַבּ֗וֹת יַצִּ֫ילֵ֥ם וְ֭הֵמָּה יַמְר֣וּ בַֽעֲצָתָ֑ם וַ֝יָּמֹ֗כּוּ בַּֽעֲו‍ֹנָֽם׃",
+      "text_with_niqqud": "פְּעָמִים רַבּוֹת יַצִּילֵם וְהֵמָּה יַמְרוּ בַעֲצָתָם וַיָּמֹכּוּ בַּעֲו‍ֹנָם",
+      "text_plain": "פעמים רבות יצילם והמה ימרו בעצתם וימכו בעו‍נם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_044",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 44,
+      "ref": "תהילים קו:מד",
+      "ref_en": "Psalms 106:44",
+      "text_original": "וַ֭יַּרְא בַּצַּ֣ר לָהֶ֑ם בְּ֝שָׁמְע֗וֹ אֶת־רִנָּתָֽם׃",
+      "text_with_niqqud": "וַיַּרְא בַּצַּר לָהֶם בְּשָׁמְעוֹ אֶת רִנָּתָם",
+      "text_plain": "וירא בצר להם בשמעו את רנתם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_045",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 45,
+      "ref": "תהילים קו:מה",
+      "ref_en": "Psalms 106:45",
+      "text_original": "וַיִּזְכֹּ֣ר לָהֶ֣ם בְּרִית֑וֹ וַ֝יִּנָּחֵ֗ם כְּרֹ֣ב חֲסָדָֽו׃",
+      "text_with_niqqud": "וַיִּזְכֹּר לָהֶם בְּרִיתוֹ וַיִּנָּחֵם כְּרֹב חֲסָדָו",
+      "text_plain": "ויזכר להם בריתו וינחם כרב חסדו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_046",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 46,
+      "ref": "תהילים קו:מו",
+      "ref_en": "Psalms 106:46",
+      "text_original": "וַיִּתֵּ֣ן אוֹתָ֣ם לְרַֽחֲמִ֑ים לִ֝פְנֵ֗י כָּל־שֽׁוֹבֵיהֶֽם׃",
+      "text_with_niqqud": "וַיִּתֵּן אוֹתָם לְרַחֲמִים לִפְנֵי כָּל שׁוֹבֵיהֶם",
+      "text_plain": "ויתן אותם לרחמים לפני כל שוביהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_047",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 47,
+      "ref": "תהילים קו:מז",
+      "ref_en": "Psalms 106:47",
+      "text_original": "הֽוֹשִׁיעֵ֨נוּ ׀ יְהֹ֘וָ֤ה אֱלֹהֵ֗ינוּ וְקַבְּצֵֽנוּ֮ מִֽן־הַגּ֫וֹיִ֥ם לְ֭הֹדוֹת לְשֵׁ֣ם קָדְשֶׁ֑ךָ לְ֝הִשְׁתַּבֵּ֗חַ בִּתְהִלָּתֶֽךָ׃",
+      "text_with_niqqud": "הוֹשִׁיעֵנוּ יְהֹוָה אֱלֹהֵינוּ וְקַבְּצֵנוּ מִן הַגּוֹיִם לְהֹדוֹת לְשֵׁם קָדְשֶׁךָ לְהִשְׁתַּבֵּחַ בִּתְהִלָּתֶךָ",
+      "text_plain": "הושיענו יהוה אלהינו וקבצנו מן הגוים להדות לשם קדשך להשתבח בתהלתך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_106_048",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 106,
+      "verse": 48,
+      "ref": "תהילים קו:מח",
+      "ref_en": "Psalms 106:48",
+      "text_original": "בָּ֤רֽוּךְ יְהֹוָ֨ה אֱלֹהֵ֪י יִשְׂרָאֵ֡ל מִן־הָ֤עוֹלָ֨ם ׀ וְעַ֬ד הָֽעוֹלָ֗ם וְאָמַ֖ר כָּל־הָעָ֥ם אָמֵ֗ן הַֽלְלוּ־יָֽהּ׃",
+      "text_with_niqqud": "בָּרוּךְ יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל מִן הָעוֹלָם וְעַד הָעוֹלָם וְאָמַר כָּל הָעָם אָמֵן הַלְלוּ יָהּ",
+      "text_plain": "ברוך יהוה אלהי ישראל מן העולם ועד העולם ואמר כל העם אמן הללו יה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-106.txt"
+    }
+  ]
+}

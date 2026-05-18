@@ -1,0 +1,246 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 76,
+  "chapter_id": "_27_tehilim_076",
+  "ref": "תהילים עו",
+  "ref_en": "Psalms 76",
+  "source_file": "_27_tehilim-076.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_076_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 1,
+      "ref": "תהילים עו:א",
+      "ref_en": "Psalms 76:1",
+      "text_original": "לַמְנַצֵּ֥חַ בִּנְגִינֹ֑ת מִזְמ֖וֹר לְאָסָ֣ף שִֽׁיר׃",
+      "text_with_niqqud": "לַמְנַצֵּחַ בִּנְגִינֹת מִזְמוֹר לְאָסָף שִׁיר",
+      "text_plain": "למנצח בנגינת מזמור לאסף שיר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_076_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 2,
+      "ref": "תהילים עו:ב",
+      "ref_en": "Psalms 76:2",
+      "text_original": "נוֹדָ֣ע בִּֽיהוּדָ֣ה אֱלֹהִ֑ים בְּ֝יִשְׂרָאֵ֗ל גָּד֥וֹל שְׁמֽוֹ׃",
+      "text_with_niqqud": "נוֹדָע בִּיהוּדָה אֱלֹהִים בְּיִשְׂרָאֵל גָּדוֹל שְׁמוֹ",
+      "text_plain": "נודע ביהודה אלהים בישראל גדול שמו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_076_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 3,
+      "ref": "תהילים עו:ג",
+      "ref_en": "Psalms 76:3",
+      "text_original": "וַיְהִ֣י בְשָׁלֵ֣ם סוּכּ֑וֹ וּמְע֖וֹנָת֣וֹ בְצִיּֽוֹן׃",
+      "text_with_niqqud": "וַיְהִי בְשָׁלֵם סוּכּוֹ וּמְעוֹנָתוֹ בְצִיּוֹן",
+      "text_plain": "ויהי בשלם סוכו ומעונתו בציון",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_076_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 4,
+      "ref": "תהילים עו:ד",
+      "ref_en": "Psalms 76:4",
+      "text_original": "שָׁ֭מָּה שִׁבַּ֣ר רִשְׁפֵי־קָ֑שֶׁת מָגֵ֬ן וְחֶ֖רֶב וּמִלְחָמָ֣ה סֶֽלָה׃",
+      "text_with_niqqud": "שָׁמָּה שִׁבַּר רִשְׁפֵי קָשֶׁת מָגֵן וְחֶרֶב וּמִלְחָמָה סֶלָה",
+      "text_plain": "שמה שבר רשפי קשת מגן וחרב ומלחמה סלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_076_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 5,
+      "ref": "תהילים עו:ה",
+      "ref_en": "Psalms 76:5",
+      "text_original": "נָ֭אוֹר אַתָּ֥ה אַדִּ֗יר מֵֽהַרְרֵי־טָֽרֶף׃",
+      "text_with_niqqud": "נָאוֹר אַתָּה אַדִּיר מֵהַרְרֵי טָרֶף",
+      "text_plain": "נאור אתה אדיר מהררי טרף",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_076_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 6,
+      "ref": "תהילים עו:ו",
+      "ref_en": "Psalms 76:6",
+      "text_original": "אֶשְׁתּֽוֹלְל֨וּ ׀ אַבִּ֣ירֵי לֵ֭ב נָמ֣וּ שְׁנָתָ֑ם וְלֹֽא־מָצְא֖וּ כָל־אַנְשֵׁי־חַ֣יִל יְדֵיהֶֽם׃",
+      "text_with_niqqud": "אֶשְׁתּוֹלְלוּ אַבִּירֵי לֵב נָמוּ שְׁנָתָם וְלֹא מָצְאוּ כָל אַנְשֵׁי חַיִל יְדֵיהֶם",
+      "text_plain": "אשתוללו אבירי לב נמו שנתם ולא מצאו כל אנשי חיל ידיהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_076_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 7,
+      "ref": "תהילים עו:ז",
+      "ref_en": "Psalms 76:7",
+      "text_original": "מִ֭גַּעֲרָ֣תְךָ אֱלֹהֵ֣י יַֽעֲקֹ֑ב נִ֝רְדָּ֗ם וְרֶ֣כֶב וָסֽוּס׃",
+      "text_with_niqqud": "מִגַּעֲרָתְךָ אֱלֹהֵי יַעֲקֹב נִרְדָּם וְרֶכֶב וָסוּס",
+      "text_plain": "מגערתך אלהי יעקב נרדם ורכב וסוס",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_076_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 8,
+      "ref": "תהילים עו:ח",
+      "ref_en": "Psalms 76:8",
+      "text_original": "אַתָּ֤ה ׀ נ֥וֹרָא אַ֗תָּה וּמִֽי־יַעֲמֹ֥ד לְפָנֶ֗יךָ מֵאָ֥ז אַפֶּֽךָ׃",
+      "text_with_niqqud": "אַתָּה נוֹרָא אַתָּה וּמִי יַעֲמֹד לְפָנֶיךָ מֵאָז אַפֶּךָ",
+      "text_plain": "אתה נורא אתה ומי יעמד לפניך מאז אפך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_076_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 9,
+      "ref": "תהילים עו:ט",
+      "ref_en": "Psalms 76:9",
+      "text_original": "מִ֭שָּׁמַיִם הִשְׁמַ֣עְתָּ דִּ֑ין אֶ֖רֶץ יָֽרְאָ֣ה וְשָׁקָֽטָה׃",
+      "text_with_niqqud": "מִשָּׁמַיִם הִשְׁמַעְתָּ דִּין אֶרֶץ יָרְאָה וְשָׁקָטָה",
+      "text_plain": "משמים השמעת דין ארץ יראה ושקטה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_076_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 10,
+      "ref": "תהילים עו:י",
+      "ref_en": "Psalms 76:10",
+      "text_original": "בְּקוּם־לַמִּשְׁפָּ֥ט אֱלֹהִ֑ים לְהוֹשִׁ֖יעַ כָּל־עַנְוֵי־אֶ֣רֶץ סֶֽלָה׃",
+      "text_with_niqqud": "בְּקוּם לַמִּשְׁפָּט אֱלֹהִים לְהוֹשִׁיעַ כָּל עַנְוֵי אֶרֶץ סֶלָה",
+      "text_plain": "בקום למשפט אלהים להושיע כל ענוי ארץ סלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_076_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 11,
+      "ref": "תהילים עו:יא",
+      "ref_en": "Psalms 76:11",
+      "text_original": "כִּֽי־חֲמַ֣ת אָדָ֣ם תּוֹדֶ֑ךָּ שְׁאֵרִ֖ית חֵמֹ֣ת תַּחְגֹּֽר׃",
+      "text_with_niqqud": "כִּי חֲמַת אָדָם תּוֹדֶךָּ שְׁאֵרִית חֵמֹת תַּחְגֹּר",
+      "text_plain": "כי חמת אדם תודך שארית חמת תחגר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_076_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 12,
+      "ref": "תהילים עו:יב",
+      "ref_en": "Psalms 76:12",
+      "text_original": "נִ֥דְר֣וּ וְשַׁלְּמוּ֮ לַֽיהֹוָ֪ה אֱֽלֹהֵ֫יכֶ֥ם כָּל־סְבִיבָ֑יו יֹבִ֥ילוּ שַׁ֝֗י לַמּוֹרָֽא׃",
+      "text_with_niqqud": "נִדְרוּ וְשַׁלְּמוּ לַיהֹוָה אֱלֹהֵיכֶם כָּל סְבִיבָיו יֹבִילוּ שַׁי לַמּוֹרָא",
+      "text_plain": "נדרו ושלמו ליהוה אלהיכם כל סביביו יבילו שי למורא",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_076_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 76,
+      "verse": 13,
+      "ref": "תהילים עו:יג",
+      "ref_en": "Psalms 76:13",
+      "text_original": "יִ֭בְצֹר ר֣וּחַ נְגִידִ֑ים נ֝וֹרָ֗א לְמַלְכֵי־אָֽרֶץ׃",
+      "text_with_niqqud": "יִבְצֹר רוּחַ נְגִידִים נוֹרָא לְמַלְכֵי אָרֶץ",
+      "text_plain": "יבצר רוח נגידים נורא למלכי ארץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-076.txt"
+    }
+  ]
+}

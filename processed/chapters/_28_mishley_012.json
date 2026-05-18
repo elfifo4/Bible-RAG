@@ -1,0 +1,516 @@
+{
+  "book": "משלי",
+  "book_en": "Proverbs",
+  "book_slug": "mishley",
+  "chapter": 12,
+  "chapter_id": "_28_mishley_012",
+  "ref": "משלי יב",
+  "ref_en": "Proverbs 12",
+  "source_file": "_28_mishley-12.txt",
+  "verses": [
+    {
+      "verse_id": "_28_mishley_012_001",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 1,
+      "ref": "משלי יב:א",
+      "ref_en": "Proverbs 12:1",
+      "text_original": "אֹהֵ֣ב מ֭וּסָר אֹ֣הֵֽב דָּ֑עַת וְשׂוֹנֵ֖א תוֹכַ֣חַת בָּֽעַר׃",
+      "text_with_niqqud": "אֹהֵב מוּסָר אֹהֵב דָּעַת וְשׂוֹנֵא תוֹכַחַת בָּעַר",
+      "text_plain": "אהב מוסר אהב דעת ושונא תוכחת בער",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_002",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 2,
+      "ref": "משלי יב:ב",
+      "ref_en": "Proverbs 12:2",
+      "text_original": "ט֗וֹב יָפִ֣יק רָ֭צוֹן מֵֽיְהֹוָ֑ה וְאִ֖ישׁ מְזִמּ֣וֹת יַרְשִֽׁיעַ׃",
+      "text_with_niqqud": "טוֹב יָפִיק רָצוֹן מֵיְהֹוָה וְאִישׁ מְזִמּוֹת יַרְשִׁיעַ",
+      "text_plain": "טוב יפיק רצון מיהוה ואיש מזמות ירשיע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_003",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 3,
+      "ref": "משלי יב:ג",
+      "ref_en": "Proverbs 12:3",
+      "text_original": "לֹֽא־יִכּ֣וֹן אָדָ֣ם בְּרֶ֑שַׁע וְשֹׁ֥רֶשׁ צַ֝דִּיקִ֗ים בַּל־יִמּֽוֹט׃",
+      "text_with_niqqud": "לֹא יִכּוֹן אָדָם בְּרֶשַׁע וְשֹׁרֶשׁ צַדִּיקִים בַּל יִמּוֹט",
+      "text_plain": "לא יכון אדם ברשע ושרש צדיקים בל ימוט",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_004",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 4,
+      "ref": "משלי יב:ד",
+      "ref_en": "Proverbs 12:4",
+      "text_original": "אֵֽשֶׁת־חַ֭יִל עֲטֶ֣רֶת בַּעְלָ֑הּ וּכְרָקָ֖ב בְּעַצְמוֹתָ֣יו מְבִישָֽׁה׃",
+      "text_with_niqqud": "אֵשֶׁת חַיִל עֲטֶרֶת בַּעְלָהּ וּכְרָקָב בְּעַצְמוֹתָיו מְבִישָׁה",
+      "text_plain": "אשת חיל עטרת בעלה וכרקב בעצמותיו מבישה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_005",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 5,
+      "ref": "משלי יב:ה",
+      "ref_en": "Proverbs 12:5",
+      "text_original": "מַחְשְׁב֣וֹת צַדִּיקִ֣ים מִשְׁפָּ֑ט תַּחְבֻּל֖וֹת רְשָׁעִ֣ים מִרְמָֽה׃",
+      "text_with_niqqud": "מַחְשְׁבוֹת צַדִּיקִים מִשְׁפָּט תַּחְבֻּלוֹת רְשָׁעִים מִרְמָה",
+      "text_plain": "מחשבות צדיקים משפט תחבלות רשעים מרמה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_006",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 6,
+      "ref": "משלי יב:ו",
+      "ref_en": "Proverbs 12:6",
+      "text_original": "דִּבְרֵ֣י רְשָׁעִ֣ים אֱרָב־דָּ֑ם וּפִ֥י יְ֝שָׁרִ֗ים יַצִּילֵֽם׃",
+      "text_with_niqqud": "דִּבְרֵי רְשָׁעִים אֱרָב דָּם וּפִי יְשָׁרִים יַצִּילֵם",
+      "text_plain": "דברי רשעים ארב דם ופי ישרים יצילם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_007",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 7,
+      "ref": "משלי יב:ז",
+      "ref_en": "Proverbs 12:7",
+      "text_original": "הָפ֣וֹךְ רְשָׁעִ֣ים וְאֵינָ֑ם וּבֵ֖ית צַדִּיקִ֣ים יַֽעֲמֹֽד׃",
+      "text_with_niqqud": "הָפוֹךְ רְשָׁעִים וְאֵינָם וּבֵית צַדִּיקִים יַעֲמֹד",
+      "text_plain": "הפוך רשעים ואינם ובית צדיקים יעמד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_008",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 8,
+      "ref": "משלי יב:ח",
+      "ref_en": "Proverbs 12:8",
+      "text_original": "לְֽפִי־שִׂ֭כְלוֹ יְהֻלַּל־אִ֑ישׁ וְנַֽעֲוֵה־לֵ֝֗ב יִֽהְיֶ֥ה לָבֽוּז׃",
+      "text_with_niqqud": "לְפִי שִׂכְלוֹ יְהֻלַּל אִישׁ וְנַעֲוֵה לֵב יִהְיֶה לָבוּז",
+      "text_plain": "לפי שכלו יהלל איש ונעוה לב יהיה לבוז",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_009",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 9,
+      "ref": "משלי יב:ט",
+      "ref_en": "Proverbs 12:9",
+      "text_original": "ט֣וֹב נִ֭קְלֶה וְעֶ֣בֶד ל֑וֹ מִ֝מִּתְכַּבֵּ֗ד וַֽחֲסַר־לָֽחֶם׃",
+      "text_with_niqqud": "טוֹב נִקְלֶה וְעֶבֶד לוֹ מִמִּתְכַּבֵּד וַחֲסַר לָחֶם",
+      "text_plain": "טוב נקלה ועבד לו ממתכבד וחסר לחם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_010",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 10,
+      "ref": "משלי יב:י",
+      "ref_en": "Proverbs 12:10",
+      "text_original": "יוֹדֵ֣עַ צַ֭דִּיק נֶ֣פֶשׁ בְּהֶמְתּ֑וֹ וְֽרַחֲמֵ֥י רְ֝שָׁעִ֗ים אַכְזָרִֽי׃",
+      "text_with_niqqud": "יוֹדֵעַ צַדִּיק נֶפֶשׁ בְּהֶמְתּוֹ וְרַחֲמֵי רְשָׁעִים אַכְזָרִי",
+      "text_plain": "יודע צדיק נפש בהמתו ורחמי רשעים אכזרי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_011",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 11,
+      "ref": "משלי יב:יא",
+      "ref_en": "Proverbs 12:11",
+      "text_original": "עֹבֵ֣ד אַ֭דְמָתוֹ יִֽשְׂבַּֽע־לָ֑חֶם וּמְרַדֵּ֖ף רֵיקִ֣ים חֲסַר־לֵֽב׃",
+      "text_with_niqqud": "עֹבֵד אַדְמָתוֹ יִשְׂבַּע לָחֶם וּמְרַדֵּף רֵיקִים חֲסַר לֵב",
+      "text_plain": "עבד אדמתו ישבע לחם ומרדף ריקים חסר לב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_012",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 12,
+      "ref": "משלי יב:יב",
+      "ref_en": "Proverbs 12:12",
+      "text_original": "חָמַ֣ד רָ֭שָׁע מְצ֣וֹד רָעִ֑ים וְשֹׁ֖רֶשׁ צַדִּיקִ֣ים יִתֵּֽן׃",
+      "text_with_niqqud": "חָמַד רָשָׁע מְצוֹד רָעִים וְשֹׁרֶשׁ צַדִּיקִים יִתֵּן",
+      "text_plain": "חמד רשע מצוד רעים ושרש צדיקים יתן",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_013",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 13,
+      "ref": "משלי יב:יג",
+      "ref_en": "Proverbs 12:13",
+      "text_original": "בְּפֶ֣שַׁע שְׂ֭פָתַיִם מוֹקֵ֣שׁ רָ֑ע וַיֵּצֵ֖א מִצָּרָ֣ה צַדִּֽיק׃",
+      "text_with_niqqud": "בְּפֶשַׁע שְׂפָתַיִם מוֹקֵשׁ רָע וַיֵּצֵא מִצָּרָה צַדִּיק",
+      "text_plain": "בפשע שפתים מוקש רע ויצא מצרה צדיק",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_014",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 14,
+      "ref": "משלי יב:יד",
+      "ref_en": "Proverbs 12:14",
+      "text_original": "מִפְּרִ֣י פִי־אִ֭ישׁ יִשְׂבַּע־ט֑וֹב וּגְמ֥וּל יְדֵי־אָ֝דָ֗ם ישוב (יָשִׁ֥יב) לֽוֹ׃",
+      "text_with_niqqud": "מִפְּרִי פִי אִישׁ יִשְׂבַּע טוֹב וּגְמוּל יְדֵי אָדָם ישוב (יָשִׁיב) לוֹ",
+      "text_plain": "מפרי פי איש ישבע טוב וגמול ידי אדם ישוב (ישיב) לו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_015",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 15,
+      "ref": "משלי יב:טו",
+      "ref_en": "Proverbs 12:15",
+      "text_original": "דֶּ֣רֶךְ אֱ֭וִיל יָשָׁ֣ר בְּעֵינָ֑יו וְשֹׁמֵ֖עַ לְעֵצָ֣ה חָכָֽם׃",
+      "text_with_niqqud": "דֶּרֶךְ אֱוִיל יָשָׁר בְּעֵינָיו וְשֹׁמֵעַ לְעֵצָה חָכָם",
+      "text_plain": "דרך אויל ישר בעיניו ושמע לעצה חכם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_016",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 16,
+      "ref": "משלי יב:טז",
+      "ref_en": "Proverbs 12:16",
+      "text_original": "אֱוִ֗יל בַּ֭יּוֹם יִוָּדַ֣ע כַּעְס֑וֹ וְכֹסֶ֖ה קָל֣וֹן עָרֽוּם׃",
+      "text_with_niqqud": "אֱוִיל בַּיּוֹם יִוָּדַע כַּעְסוֹ וְכֹסֶה קָלוֹן עָרוּם",
+      "text_plain": "אויל ביום יודע כעסו וכסה קלון ערום",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_017",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 17,
+      "ref": "משלי יב:יז",
+      "ref_en": "Proverbs 12:17",
+      "text_original": "יָפִ֣יחַ אֱ֭מוּנָה יַגִּ֣יד צֶ֑דֶק וְעֵ֖ד שְׁקָרִ֣ים מִרְמָֽה׃",
+      "text_with_niqqud": "יָפִיחַ אֱמוּנָה יַגִּיד צֶדֶק וְעֵד שְׁקָרִים מִרְמָה",
+      "text_plain": "יפיח אמונה יגיד צדק ועד שקרים מרמה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_018",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 18,
+      "ref": "משלי יב:יח",
+      "ref_en": "Proverbs 12:18",
+      "text_original": "יֵ֣שׁ בּ֭וֹטֶה כְּמַדְקְר֣וֹת חָ֑רֶב וּלְשׁ֖וֹן חֲכָמִ֣ים מַרְפֵּֽא׃",
+      "text_with_niqqud": "יֵשׁ בּוֹטֶה כְּמַדְקְרוֹת חָרֶב וּלְשׁוֹן חֲכָמִים מַרְפֵּא",
+      "text_plain": "יש בוטה כמדקרות חרב ולשון חכמים מרפא",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_019",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 19,
+      "ref": "משלי יב:יט",
+      "ref_en": "Proverbs 12:19",
+      "text_original": "שְֽׂפַת־אֱ֭מֶת תִּכּ֣וֹן לָעַ֑ד וְעַד־אַ֝רְגִּ֗יעָה לְשׁ֣וֹן שָֽׁקֶר׃",
+      "text_with_niqqud": "שְׂפַת אֱמֶת תִּכּוֹן לָעַד וְעַד אַרְגִּיעָה לְשׁוֹן שָׁקֶר",
+      "text_plain": "שפת אמת תכון לעד ועד ארגיעה לשון שקר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_020",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 20,
+      "ref": "משלי יב:כ",
+      "ref_en": "Proverbs 12:20",
+      "text_original": "מִ֭רְמָה בְּלֶב־חֹ֣רְשֵׁי רָ֑ע וּֽלְיֹעֲצֵ֖י שָׁל֣וֹם שִׂמְחָֽה׃",
+      "text_with_niqqud": "מִרְמָה בְּלֶב חֹרְשֵׁי רָע וּלְיֹעֲצֵי שָׁלוֹם שִׂמְחָה",
+      "text_plain": "מרמה בלב חרשי רע וליעצי שלום שמחה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_021",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 21,
+      "ref": "משלי יב:כא",
+      "ref_en": "Proverbs 12:21",
+      "text_original": "לֹֽא־יְאֻנֶּ֣ה לַצַּדִּ֣יק כָּל־אָ֑וֶן וּ֝רְשָׁעִ֗ים מָ֣לְאוּ רָֽע׃",
+      "text_with_niqqud": "לֹא יְאֻנֶּה לַצַּדִּיק כָּל אָוֶן וּרְשָׁעִים מָלְאוּ רָע",
+      "text_plain": "לא יאנה לצדיק כל און ורשעים מלאו רע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_022",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 22,
+      "ref": "משלי יב:כב",
+      "ref_en": "Proverbs 12:22",
+      "text_original": "תּֽוֹעֲבַ֣ת יְ֭הֹוָה שִׂפְתֵי־שָׁ֑קֶר וְעֹשֵׂ֖י אֱמוּנָ֣ה רְצוֹנֽוֹ׃",
+      "text_with_niqqud": "תּוֹעֲבַת יְהֹוָה שִׂפְתֵי שָׁקֶר וְעֹשֵׂי אֱמוּנָה רְצוֹנוֹ",
+      "text_plain": "תועבת יהוה שפתי שקר ועשי אמונה רצונו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_023",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 23,
+      "ref": "משלי יב:כג",
+      "ref_en": "Proverbs 12:23",
+      "text_original": "אָדָ֣ם עָ֭רוּם כֹּ֣סֶה דָּ֑עַת וְלֵ֥ב כְּ֝סִילִ֗ים יִקְרָ֥א אִוֶּֽלֶת׃",
+      "text_with_niqqud": "אָדָם עָרוּם כֹּסֶה דָּעַת וְלֵב כְּסִילִים יִקְרָא אִוֶּלֶת",
+      "text_plain": "אדם ערום כסה דעת ולב כסילים יקרא אולת",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_024",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 24,
+      "ref": "משלי יב:כד",
+      "ref_en": "Proverbs 12:24",
+      "text_original": "יַד־חָֽרוּצִ֥ים תִּמְשׁ֑וֹל וּ֝רְמִיָּ֗ה תִּֽהְיֶ֥ה לָמַֽס׃",
+      "text_with_niqqud": "יַד חָרוּצִים תִּמְשׁוֹל וּרְמִיָּה תִּהְיֶה לָמַס",
+      "text_plain": "יד חרוצים תמשול ורמיה תהיה למס",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_025",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 25,
+      "ref": "משלי יב:כה",
+      "ref_en": "Proverbs 12:25",
+      "text_original": "דְּאָגָ֣ה בְלֶב־אִ֣ישׁ יַשְׁחֶ֑נָּה וְדָבָ֖ר ט֣וֹב יְשַׂמְּחֶֽנָּה׃",
+      "text_with_niqqud": "דְּאָגָה בְלֶב אִישׁ יַשְׁחֶנָּה וְדָבָר טוֹב יְשַׂמְּחֶנָּה",
+      "text_plain": "דאגה בלב איש ישחנה ודבר טוב ישמחנה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_026",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 26,
+      "ref": "משלי יב:כו",
+      "ref_en": "Proverbs 12:26",
+      "text_original": "יָתֵ֣ר מֵֽרֵעֵ֣הוּ צַדִּ֑יק וְדֶ֖רֶךְ רְשָׁעִ֣ים תַּתְעֵֽם׃",
+      "text_with_niqqud": "יָתֵר מֵרֵעֵהוּ צַדִּיק וְדֶרֶךְ רְשָׁעִים תַּתְעֵם",
+      "text_plain": "יתר מרעהו צדיק ודרך רשעים תתעם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_027",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 27,
+      "ref": "משלי יב:כז",
+      "ref_en": "Proverbs 12:27",
+      "text_original": "לֹֽא־יַחֲרֹ֣ךְ רְמִיָּ֣ה צֵיד֑וֹ וְהוֹן־אָדָ֖ם יָקָ֣ר חָרֽוּץ׃",
+      "text_with_niqqud": "לֹא יַחֲרֹךְ רְמִיָּה צֵידוֹ וְהוֹן אָדָם יָקָר חָרוּץ",
+      "text_plain": "לא יחרך רמיה צידו והון אדם יקר חרוץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    },
+    {
+      "verse_id": "_28_mishley_012_028",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 12,
+      "verse": 28,
+      "ref": "משלי יב:כח",
+      "ref_en": "Proverbs 12:28",
+      "text_original": "בְּאֹֽרַח־צְדָקָ֥ה חַיִּ֑ים וְדֶ֖רֶךְ נְתִיבָ֣ה אַל־מָֽוֶת׃",
+      "text_with_niqqud": "בְּאֹרַח צְדָקָה חַיִּים וְדֶרֶךְ נְתִיבָה אַל מָוֶת",
+      "text_plain": "בארח צדקה חיים ודרך נתיבה אל מות",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-12.txt"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 149,
+  "chapter_id": "_27_tehilim_149",
+  "ref": "תהילים קמט",
+  "ref_en": "Psalms 149",
+  "source_file": "_27_tehilim-149.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_149_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 149,
+      "verse": 1,
+      "ref": "תהילים קמט:א",
+      "ref_en": "Psalms 149:1",
+      "text_original": "הַ֥לְלוּ יָ֨הּ ׀ שִׁ֣ירוּ לַֽ֭יהֹוָה שִׁ֣יר חָדָ֑שׁ תְּ֝הִלָּת֗וֹ בִּקְהַ֥ל חֲסִידִֽים׃",
+      "text_with_niqqud": "הַלְלוּ יָהּ שִׁירוּ לַיהֹוָה שִׁיר חָדָשׁ תְּהִלָּתוֹ בִּקְהַל חֲסִידִים",
+      "text_plain": "הללו יה שירו ליהוה שיר חדש תהלתו בקהל חסידים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-149.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_149_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 149,
+      "verse": 2,
+      "ref": "תהילים קמט:ב",
+      "ref_en": "Psalms 149:2",
+      "text_original": "יִשְׂמַ֣ח יִשְׂרָאֵ֣ל בְּעֹשָׂ֑יו בְּנֵֽי־צִ֝יּ֗וֹן יָגִ֥ילוּ בְמַלְכָּֽם׃",
+      "text_with_niqqud": "יִשְׂמַח יִשְׂרָאֵל בְּעֹשָׂיו בְּנֵי צִיּוֹן יָגִילוּ בְמַלְכָּם",
+      "text_plain": "ישמח ישראל בעשיו בני ציון יגילו במלכם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-149.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_149_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 149,
+      "verse": 3,
+      "ref": "תהילים קמט:ג",
+      "ref_en": "Psalms 149:3",
+      "text_original": "יְהַֽלְל֣וּ שְׁמ֣וֹ בְמָח֑וֹל בְּתֹ֥ף וְ֝כִנּ֗וֹר יְזַמְּרוּ־לֽוֹ׃",
+      "text_with_niqqud": "יְהַלְלוּ שְׁמוֹ בְמָחוֹל בְּתֹף וְכִנּוֹר יְזַמְּרוּ לוֹ",
+      "text_plain": "יהללו שמו במחול בתף וכנור יזמרו לו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-149.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_149_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 149,
+      "verse": 4,
+      "ref": "תהילים קמט:ד",
+      "ref_en": "Psalms 149:4",
+      "text_original": "כִּֽי־רוֹצֶ֣ה יְהֹוָ֣ה בְּעַמּ֑וֹ יְפָאֵ֥ר עֲ֝נָוִ֗ים בִּֽישׁוּעָֽה׃",
+      "text_with_niqqud": "כִּי רוֹצֶה יְהֹוָה בְּעַמּוֹ יְפָאֵר עֲנָוִים בִּישׁוּעָה",
+      "text_plain": "כי רוצה יהוה בעמו יפאר ענוים בישועה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-149.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_149_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 149,
+      "verse": 5,
+      "ref": "תהילים קמט:ה",
+      "ref_en": "Psalms 149:5",
+      "text_original": "יַעְלְז֣וּ חֲסִידִ֣ים בְּכָב֑וֹד יְ֝רַנְּנ֗וּ עַל־מִשְׁכְּבוֹתָֽם׃",
+      "text_with_niqqud": "יַעְלְזוּ חֲסִידִים בְּכָבוֹד יְרַנְּנוּ עַל מִשְׁכְּבוֹתָם",
+      "text_plain": "יעלזו חסידים בכבוד ירננו על משכבותם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-149.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_149_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 149,
+      "verse": 6,
+      "ref": "תהילים קמט:ו",
+      "ref_en": "Psalms 149:6",
+      "text_original": "רֽוֹמְמ֣וֹת אֵ֭ל בִּגְרוֹנָ֑ם וְחֶ֖רֶב פִּֽיפִיּ֣וֹת בְּיָדָֽם׃",
+      "text_with_niqqud": "רוֹמְמוֹת אֵל בִּגְרוֹנָם וְחֶרֶב פִּיפִיּוֹת בְּיָדָם",
+      "text_plain": "רוממות אל בגרונם וחרב פיפיות בידם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-149.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_149_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 149,
+      "verse": 7,
+      "ref": "תהילים קמט:ז",
+      "ref_en": "Psalms 149:7",
+      "text_original": "לַֽעֲשׂ֣וֹת נְ֭קָמָה בַּגּוֹיִ֑ם תּֽ֝וֹכֵח֗וֹת בַּלְאֻמִּֽים׃",
+      "text_with_niqqud": "לַעֲשׂוֹת נְקָמָה בַּגּוֹיִם תּוֹכֵחוֹת בַּלְאֻמִּים",
+      "text_plain": "לעשות נקמה בגוים תוכחות בלאמים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-149.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_149_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 149,
+      "verse": 8,
+      "ref": "תהילים קמט:ח",
+      "ref_en": "Psalms 149:8",
+      "text_original": "לֶאְסֹ֣ר מַלְכֵיהֶ֣ם בְּזִקִּ֑ים וְ֝נִכְבְּדֵיהֶ֗ם בְּכַבְלֵ֥י בַרְזֶֽל׃",
+      "text_with_niqqud": "לֶאְסֹר מַלְכֵיהֶם בְּזִקִּים וְנִכְבְּדֵיהֶם בְּכַבְלֵי בַרְזֶל",
+      "text_plain": "לאסר מלכיהם בזקים ונכבדיהם בכבלי ברזל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-149.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_149_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 149,
+      "verse": 9,
+      "ref": "תהילים קמט:ט",
+      "ref_en": "Psalms 149:9",
+      "text_original": "לַֽעֲשׂ֤וֹת בָּהֶ֨ם ׀ מִשְׁפָּ֬ט כָּת֗וּב הָדָ֣ר ה֭וּא לְכָל־חֲסִידָ֗יו הַֽלְלוּ־יָֽהּ׃",
+      "text_with_niqqud": "לַעֲשׂוֹת בָּהֶם מִשְׁפָּט כָּתוּב הָדָר הוּא לְכָל חֲסִידָיו הַלְלוּ יָהּ",
+      "text_plain": "לעשות בהם משפט כתוב הדר הוא לכל חסידיו הללו יה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-149.txt"
+    }
+  ]
+}

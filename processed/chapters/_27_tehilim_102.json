@@ -1,0 +1,534 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 102,
+  "chapter_id": "_27_tehilim_102",
+  "ref": "תהילים קב",
+  "ref_en": "Psalms 102",
+  "source_file": "_27_tehilim-102.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_102_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 1,
+      "ref": "תהילים קב:א",
+      "ref_en": "Psalms 102:1",
+      "text_original": "תְּ֭פִלָּה לְעָנִ֣י כִֽי־יַעֲטֹ֑ף וְלִפְנֵ֥י יְ֝הֹוָ֗ה יִשְׁפֹּ֥ךְ שִׂיחֽוֹ׃",
+      "text_with_niqqud": "תְּפִלָּה לְעָנִי כִי יַעֲטֹף וְלִפְנֵי יְהֹוָה יִשְׁפֹּךְ שִׂיחוֹ",
+      "text_plain": "תפלה לעני כי יעטף ולפני יהוה ישפך שיחו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 2,
+      "ref": "תהילים קב:ב",
+      "ref_en": "Psalms 102:2",
+      "text_original": "יְ֭הֹוָה שִׁמְעָ֣ה תְפִלָּתִ֑י וְ֝שַׁוְעָתִ֗י אֵלֶ֥יךָ תָבֽוֹא׃",
+      "text_with_niqqud": "יְהֹוָה שִׁמְעָה תְפִלָּתִי וְשַׁוְעָתִי אֵלֶיךָ תָבוֹא",
+      "text_plain": "יהוה שמעה תפלתי ושועתי אליך תבוא",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 3,
+      "ref": "תהילים קב:ג",
+      "ref_en": "Psalms 102:3",
+      "text_original": "אַל־תַּסְתֵּ֬ר פָּנֶ֨יךָ ׀ מִמֶּֽנִּי֮ בְּי֪וֹם צַ֫ר לִ֥י הַטֵּֽה־אֵלַ֥י אָזְנֶ֑ךָ בְּי֥וֹם אֶ֝קְרָ֗א מַהֵ֥ר עֲנֵֽנִי׃",
+      "text_with_niqqud": "אַל תַּסְתֵּר פָּנֶיךָ מִמֶּנִּי בְּיוֹם צַר לִי הַטֵּה אֵלַי אָזְנֶךָ בְּיוֹם אֶקְרָא מַהֵר עֲנֵנִי",
+      "text_plain": "אל תסתר פניך ממני ביום צר לי הטה אלי אזנך ביום אקרא מהר ענני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 4,
+      "ref": "תהילים קב:ד",
+      "ref_en": "Psalms 102:4",
+      "text_original": "כִּֽי־כָל֣וּ בְעָשָׁ֣ן יָמָ֑י וְ֝עַצְמוֹתַ֗י כְּמוֹקֵ֥ד נִחָֽרוּ׃",
+      "text_with_niqqud": "כִּי כָלוּ בְעָשָׁן יָמָי וְעַצְמוֹתַי כְּמוֹקֵד נִחָרוּ",
+      "text_plain": "כי כלו בעשן ימי ועצמותי כמוקד נחרו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 5,
+      "ref": "תהילים קב:ה",
+      "ref_en": "Psalms 102:5",
+      "text_original": "הוּכָּֽה־כָעֵ֣שֶׂב וַיִּבַ֣שׁ לִבִּ֑י כִּֽי־שָׁ֝כַ֗חְתִּי מֵֽאֲכֹ֥ל לַחְמִֽי׃",
+      "text_with_niqqud": "הוּכָּה כָעֵשֶׂב וַיִּבַשׁ לִבִּי כִּי שָׁכַחְתִּי מֵאֲכֹל לַחְמִי",
+      "text_plain": "הוכה כעשב ויבש לבי כי שכחתי מאכל לחמי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 6,
+      "ref": "תהילים קב:ו",
+      "ref_en": "Psalms 102:6",
+      "text_original": "מִקּ֥וֹל אַנְחָתִ֑י דָּֽבְקָ֥ה עַ֝צְמִ֗י לִבְשָׂרִֽי׃",
+      "text_with_niqqud": "מִקּוֹל אַנְחָתִי דָּבְקָה עַצְמִי לִבְשָׂרִי",
+      "text_plain": "מקול אנחתי דבקה עצמי לבשרי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 7,
+      "ref": "תהילים קב:ז",
+      "ref_en": "Psalms 102:7",
+      "text_original": "דָּ֭מִיתִי לִקְאַ֣ת מִדְבָּ֑ר הָ֝יִ֗יתִי כְּכ֣וֹס חֳרָבֽוֹת׃",
+      "text_with_niqqud": "דָּמִיתִי לִקְאַת מִדְבָּר הָיִיתִי כְּכוֹס חֳרָבוֹת",
+      "text_plain": "דמיתי לקאת מדבר הייתי ככוס חרבות",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 8,
+      "ref": "תהילים קב:ח",
+      "ref_en": "Psalms 102:8",
+      "text_original": "שָׁקַ֥דְתִּי וָאֶֽהְיֶ֑ה כְּ֝צִפּ֗וֹר בּוֹדֵ֥ד עַל־גָּֽג׃",
+      "text_with_niqqud": "שָׁקַדְתִּי וָאֶהְיֶה כְּצִפּוֹר בּוֹדֵד עַל גָּג",
+      "text_plain": "שקדתי ואהיה כצפור בודד על גג",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 9,
+      "ref": "תהילים קב:ט",
+      "ref_en": "Psalms 102:9",
+      "text_original": "כָּל־הַ֭יּוֹם חֵֽרְפ֣וּנִי אֽוֹיְבָ֑י מְ֝הֽוֹלָלַ֗י בִּ֣י נִשְׁבָּֽעוּ׃",
+      "text_with_niqqud": "כָּל הַיּוֹם חֵרְפוּנִי אוֹיְבָי מְהוֹלָלַי בִּי נִשְׁבָּעוּ",
+      "text_plain": "כל היום חרפוני אויבי מהוללי בי נשבעו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 10,
+      "ref": "תהילים קב:י",
+      "ref_en": "Psalms 102:10",
+      "text_original": "כִּי־אֵ֭פֶר כַּלֶּ֣חֶם אָכָ֑לְתִּי וְ֝שִׁקֻּוַ֗י בִּבְכִ֥י מָסָֽכְתִּי׃",
+      "text_with_niqqud": "כִּי אֵפֶר כַּלֶּחֶם אָכָלְתִּי וְשִׁקֻּוַי בִּבְכִי מָסָכְתִּי",
+      "text_plain": "כי אפר כלחם אכלתי ושקוי בבכי מסכתי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 11,
+      "ref": "תהילים קב:יא",
+      "ref_en": "Psalms 102:11",
+      "text_original": "מִפְּנֵֽי־זַעַמְךָ֥ וְקִצְפֶּ֑ךָ כִּ֥י נְ֝שָׂאתַ֗נִי וַתַּשְׁלִיכֵֽנִי׃",
+      "text_with_niqqud": "מִפְּנֵי זַעַמְךָ וְקִצְפֶּךָ כִּי נְשָׂאתַנִי וַתַּשְׁלִיכֵנִי",
+      "text_plain": "מפני זעמך וקצפך כי נשאתני ותשליכני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 12,
+      "ref": "תהילים קב:יב",
+      "ref_en": "Psalms 102:12",
+      "text_original": "יָ֭מַי כְּצֵ֣ל נָט֑וּי וַֽ֝אֲנִ֗י כָּעֵ֥שֶׂב אִיבָֽשׁ׃",
+      "text_with_niqqud": "יָמַי כְּצֵל נָטוּי וַאֲנִי כָּעֵשֶׂב אִיבָשׁ",
+      "text_plain": "ימי כצל נטוי ואני כעשב איבש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 13,
+      "ref": "תהילים קב:יג",
+      "ref_en": "Psalms 102:13",
+      "text_original": "וְאַתָּ֣ה יְ֭הֹוָה לְעוֹלָ֣ם תֵּשֵׁ֑ב וְ֝זִכְרְךָ֗ לְדֹ֣ר וָדֹֽר׃",
+      "text_with_niqqud": "וְאַתָּה יְהֹוָה לְעוֹלָם תֵּשֵׁב וְזִכְרְךָ לְדֹר וָדֹר",
+      "text_plain": "ואתה יהוה לעולם תשב וזכרך לדר ודר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_014",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 14,
+      "ref": "תהילים קב:יד",
+      "ref_en": "Psalms 102:14",
+      "text_original": "אַתָּ֣ה תָ֭קוּם תְּרַחֵ֣ם צִיּ֑וֹן כִּי־עֵ֥ת לְ֝חֶֽנְנָ֗הּ כִּי־בָ֥א מוֹעֵֽד׃",
+      "text_with_niqqud": "אַתָּה תָקוּם תְּרַחֵם צִיּוֹן כִּי עֵת לְחֶנְנָהּ כִּי בָא מוֹעֵד",
+      "text_plain": "אתה תקום תרחם ציון כי עת לחננה כי בא מועד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_015",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 15,
+      "ref": "תהילים קב:טו",
+      "ref_en": "Psalms 102:15",
+      "text_original": "כִּֽי־רָצ֣וּ עֲ֭בָדֶיךָ אֶת־אֲבָנֶ֑יהָ וְֽאֶת־עֲפָרָ֥הּ יְחֹנֵֽנוּ׃",
+      "text_with_niqqud": "כִּי רָצוּ עֲבָדֶיךָ אֶת אֲבָנֶיהָ וְאֶת עֲפָרָהּ יְחֹנֵנוּ",
+      "text_plain": "כי רצו עבדיך את אבניה ואת עפרה יחננו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_016",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 16,
+      "ref": "תהילים קב:טז",
+      "ref_en": "Psalms 102:16",
+      "text_original": "וְיִֽירְא֣וּ ג֭וֹיִם אֶת־שֵׁ֣ם יְהֹוָ֑ה וְֽכָל־מַלְכֵ֥י הָ֝אָ֗רֶץ אֶת־כְּבוֹדֶֽךָ׃",
+      "text_with_niqqud": "וְיִירְאוּ גוֹיִם אֶת שֵׁם יְהֹוָה וְכָל מַלְכֵי הָאָרֶץ אֶת כְּבוֹדֶךָ",
+      "text_plain": "וייראו גוים את שם יהוה וכל מלכי הארץ את כבודך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_017",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 17,
+      "ref": "תהילים קב:יז",
+      "ref_en": "Psalms 102:17",
+      "text_original": "כִּֽי־בָנָ֣ה יְהֹוָ֣ה צִיּ֑וֹן נִ֝רְאָ֗ה בִּכְבוֹדֽוֹ׃",
+      "text_with_niqqud": "כִּי בָנָה יְהֹוָה צִיּוֹן נִרְאָה בִּכְבוֹדוֹ",
+      "text_plain": "כי בנה יהוה ציון נראה בכבודו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_018",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 18,
+      "ref": "תהילים קב:יח",
+      "ref_en": "Psalms 102:18",
+      "text_original": "פָּ֭נָה אֶל־תְּפִלַּ֣ת הָֽעַרְעָ֑ר וְלֹֽא־בָ֝זָ֗ה אֶת־תְּפִלָּתָֽם׃",
+      "text_with_niqqud": "פָּנָה אֶל תְּפִלַּת הָעַרְעָר וְלֹא בָזָה אֶת תְּפִלָּתָם",
+      "text_plain": "פנה אל תפלת הערער ולא בזה את תפלתם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_019",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 19,
+      "ref": "תהילים קב:יט",
+      "ref_en": "Psalms 102:19",
+      "text_original": "תִּכָּ֣תֶב זֹ֭את לְד֣וֹר אַֽחֲר֑וֹן וְעַ֥ם נִ֝בְרָ֗א יְהַלֶּל־יָֽהּ׃",
+      "text_with_niqqud": "תִּכָּתֶב זֹאת לְדוֹר אַחֲרוֹן וְעַם נִבְרָא יְהַלֶּל יָהּ",
+      "text_plain": "תכתב זאת לדור אחרון ועם נברא יהלל יה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_020",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 20,
+      "ref": "תהילים קב:כ",
+      "ref_en": "Psalms 102:20",
+      "text_original": "כִּֽי־הִ֭שְׁקִיף מִמְּר֣וֹם קָדְשׁ֑וֹ יְ֝הֹוָ֗ה מִשָּׁמַ֤יִם ׀ אֶל־אֶ֬רֶץ הִבִּֽיט׃",
+      "text_with_niqqud": "כִּי הִשְׁקִיף מִמְּרוֹם קָדְשׁוֹ יְהֹוָה מִשָּׁמַיִם אֶל אֶרֶץ הִבִּיט",
+      "text_plain": "כי השקיף ממרום קדשו יהוה משמים אל ארץ הביט",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_021",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 21,
+      "ref": "תהילים קב:כא",
+      "ref_en": "Psalms 102:21",
+      "text_original": "לִ֭שְׁמֹעַ אֶנְקַ֣ת אָסִ֑יר לְ֝פַתֵּ֗חַ בְּנֵ֣י תְמוּתָֽה׃",
+      "text_with_niqqud": "לִשְׁמֹעַ אֶנְקַת אָסִיר לְפַתֵּחַ בְּנֵי תְמוּתָה",
+      "text_plain": "לשמע אנקת אסיר לפתח בני תמותה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_022",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 22,
+      "ref": "תהילים קב:כב",
+      "ref_en": "Psalms 102:22",
+      "text_original": "לְסַפֵּ֣ר בְּ֭צִיּוֹן שֵׁ֣ם יְהֹוָ֑ה וּ֝תְהִלָּת֗וֹ בִּירֽוּשָׁלִָֽם׃",
+      "text_with_niqqud": "לְסַפֵּר בְּצִיּוֹן שֵׁם יְהֹוָה וּתְהִלָּתוֹ בִּירוּשָׁלִָם",
+      "text_plain": "לספר בציון שם יהוה ותהלתו בירושלם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_023",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 23,
+      "ref": "תהילים קב:כג",
+      "ref_en": "Psalms 102:23",
+      "text_original": "בְּהִקָּבֵ֣ץ עַמִּ֣ים יַחְדָּ֑ו וּ֝מַמְלָכ֗וֹת לַֽעֲבֹ֥ד אֶת־יְהֹוָֽה׃",
+      "text_with_niqqud": "בְּהִקָּבֵץ עַמִּים יַחְדָּו וּמַמְלָכוֹת לַעֲבֹד אֶת יְהֹוָה",
+      "text_plain": "בהקבץ עמים יחדו וממלכות לעבד את יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_024",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 24,
+      "ref": "תהילים קב:כד",
+      "ref_en": "Psalms 102:24",
+      "text_original": "עִנָּ֖ה בַדֶּ֥רֶךְ כחו (כֹּחִ֗י) קִצַּ֥ר יָמָֽי׃",
+      "text_with_niqqud": "עִנָּה בַדֶּרֶךְ כחו (כֹּחִי) קִצַּר יָמָי",
+      "text_plain": "ענה בדרך כחו (כחי) קצר ימי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_025",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 25,
+      "ref": "תהילים קב:כה",
+      "ref_en": "Psalms 102:25",
+      "text_original": "אֹמַ֗ר אֵלִ֗י אַֽל־תַּ֭עֲלֵנִי בַּֽחֲצִ֣י יָמָ֑י בְּד֖וֹר דּוֹרִ֣ים שְׁנוֹתֶֽיךָ׃",
+      "text_with_niqqud": "אֹמַר אֵלִי אַל תַּעֲלֵנִי בַּחֲצִי יָמָי בְּדוֹר דּוֹרִים שְׁנוֹתֶיךָ",
+      "text_plain": "אמר אלי אל תעלני בחצי ימי בדור דורים שנותיך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_026",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 26,
+      "ref": "תהילים קב:כו",
+      "ref_en": "Psalms 102:26",
+      "text_original": "לְ֭פָנִים הָאָ֣רֶץ יָסַ֑דְתָּ וּֽמַעֲשֵׂ֖ה יָדֶ֣יךָ שָׁמָֽיִם׃",
+      "text_with_niqqud": "לְפָנִים הָאָרֶץ יָסַדְתָּ וּמַעֲשֵׂה יָדֶיךָ שָׁמָיִם",
+      "text_plain": "לפנים הארץ יסדת ומעשה ידיך שמים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_027",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 27,
+      "ref": "תהילים קב:כז",
+      "ref_en": "Psalms 102:27",
+      "text_original": "הֵ֤מָּה ׀ יֹאבֵֽדוּ֮ וְאַתָּ֪ה תַֽ֫עֲמֹ֥ד וְ֭כֻלָּם כַּבֶּ֣גֶד יִבְל֑וּ כַּלְּב֖וּשׁ תַּֽחֲלִיפֵ֣ם וְֽיַחֲלֹֽפוּ׃",
+      "text_with_niqqud": "הֵמָּה יֹאבֵדוּ וְאַתָּה תַעֲמֹד וְכֻלָּם כַּבֶּגֶד יִבְלוּ כַּלְּבוּשׁ תַּחֲלִיפֵם וְיַחֲלֹפוּ",
+      "text_plain": "המה יאבדו ואתה תעמד וכלם כבגד יבלו כלבוש תחליפם ויחלפו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_028",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 28,
+      "ref": "תהילים קב:כח",
+      "ref_en": "Psalms 102:28",
+      "text_original": "וְאַתָּה־ה֑וּא וּ֝שְׁנוֹתֶ֗יךָ לֹ֣א יִתָּֽמּוּ׃",
+      "text_with_niqqud": "וְאַתָּה הוּא וּשְׁנוֹתֶיךָ לֹא יִתָּמּוּ",
+      "text_plain": "ואתה הוא ושנותיך לא יתמו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_102_029",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 102,
+      "verse": 29,
+      "ref": "תהילים קב:כט",
+      "ref_en": "Psalms 102:29",
+      "text_original": "בְּנֵֽי־עֲבָדֶ֥יךָ יִשְׁכּ֑וֹנוּ וְ֝זַרְעָ֗ם לְפָנֶ֥יךָ יִכּֽוֹן׃",
+      "text_with_niqqud": "בְּנֵי עֲבָדֶיךָ יִשְׁכּוֹנוּ וְזַרְעָם לְפָנֶיךָ יִכּוֹן",
+      "text_plain": "בני עבדיך ישכונו וזרעם לפניך יכון",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-102.txt"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 95,
+  "chapter_id": "_27_tehilim_095",
+  "ref": "תהילים צה",
+  "ref_en": "Psalms 95",
+  "source_file": "_27_tehilim-095.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_095_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 95,
+      "verse": 1,
+      "ref": "תהילים צה:א",
+      "ref_en": "Psalms 95:1",
+      "text_original": "לְ֭כוּ נְרַנְּנָ֣ה לַֽיהֹוָ֑ה נָ֝רִ֗יעָה לְצ֣וּר יִשְׁעֵֽנוּ׃",
+      "text_with_niqqud": "לְכוּ נְרַנְּנָה לַיהֹוָה נָרִיעָה לְצוּר יִשְׁעֵנוּ",
+      "text_plain": "לכו נרננה ליהוה נריעה לצור ישענו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-095.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_095_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 95,
+      "verse": 2,
+      "ref": "תהילים צה:ב",
+      "ref_en": "Psalms 95:2",
+      "text_original": "נְקַדְּמָ֣ה פָנָ֣יו בְּתוֹדָ֑ה בִּ֝זְמִר֗וֹת נָרִ֥יעַֽ לֽוֹ׃",
+      "text_with_niqqud": "נְקַדְּמָה פָנָיו בְּתוֹדָה בִּזְמִרוֹת נָרִיעַ לוֹ",
+      "text_plain": "נקדמה פניו בתודה בזמרות נריע לו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-095.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_095_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 95,
+      "verse": 3,
+      "ref": "תהילים צה:ג",
+      "ref_en": "Psalms 95:3",
+      "text_original": "כִּ֤י אֵ֣ל גָּד֣וֹל יְהֹוָ֑ה וּמֶ֥לֶךְ גָּ֝ד֗וֹל עַל־כָּל־אֱלֹהִֽים׃",
+      "text_with_niqqud": "כִּי אֵל גָּדוֹל יְהֹוָה וּמֶלֶךְ גָּדוֹל עַל כָּל אֱלֹהִים",
+      "text_plain": "כי אל גדול יהוה ומלך גדול על כל אלהים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-095.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_095_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 95,
+      "verse": 4,
+      "ref": "תהילים צה:ד",
+      "ref_en": "Psalms 95:4",
+      "text_original": "אֲשֶׁ֣ר בְּ֭יָדוֹ מֶחְקְרֵי־אָ֑רֶץ וְתֽוֹעֲפֹ֖ת הָרִ֣ים לֽוֹ׃",
+      "text_with_niqqud": "אֲשֶׁר בְּיָדוֹ מֶחְקְרֵי אָרֶץ וְתוֹעֲפֹת הָרִים לוֹ",
+      "text_plain": "אשר בידו מחקרי ארץ ותועפת הרים לו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-095.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_095_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 95,
+      "verse": 5,
+      "ref": "תהילים צה:ה",
+      "ref_en": "Psalms 95:5",
+      "text_original": "אֲשֶׁר־ל֣וֹ הַ֭יָּם וְה֣וּא עָשָׂ֑הוּ וְ֝יַבֶּ֗שֶׁת יָדָ֥יו יָצָֽרוּ׃",
+      "text_with_niqqud": "אֲשֶׁר לוֹ הַיָּם וְהוּא עָשָׂהוּ וְיַבֶּשֶׁת יָדָיו יָצָרוּ",
+      "text_plain": "אשר לו הים והוא עשהו ויבשת ידיו יצרו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-095.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_095_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 95,
+      "verse": 6,
+      "ref": "תהילים צה:ו",
+      "ref_en": "Psalms 95:6",
+      "text_original": "בֹּ֭אוּ נִשְׁתַּֽחֲוֶ֣ה וְנִכְרָ֑עָה נִ֝בְרְכָ֗ה לִֽפְנֵי־יְהֹוָ֥ה עֹשֵֽׂנוּ׃",
+      "text_with_niqqud": "בֹּאוּ נִשְׁתַּחֲוֶה וְנִכְרָעָה נִבְרְכָה לִפְנֵי יְהֹוָה עֹשֵׂנוּ",
+      "text_plain": "באו נשתחוה ונכרעה נברכה לפני יהוה עשנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-095.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_095_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 95,
+      "verse": 7,
+      "ref": "תהילים צה:ז",
+      "ref_en": "Psalms 95:7",
+      "text_original": "כִּ֘י ה֤וּא אֱלֹהֵ֗ינוּ וַֽאֲנַ֤חְנוּ עַ֣ם מַ֭רְעִיתוֹ וְצֹ֣אן יָד֑וֹ הַ֝יּ֗וֹם אִֽם־בְּקֹל֥וֹ תִשְׁמָֽעוּ׃",
+      "text_with_niqqud": "כִּי הוּא אֱלֹהֵינוּ וַאֲנַחְנוּ עַם מַרְעִיתוֹ וְצֹאן יָדוֹ הַיּוֹם אִם בְּקֹלוֹ תִשְׁמָעוּ",
+      "text_plain": "כי הוא אלהינו ואנחנו עם מרעיתו וצאן ידו היום אם בקלו תשמעו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-095.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_095_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 95,
+      "verse": 8,
+      "ref": "תהילים צה:ח",
+      "ref_en": "Psalms 95:8",
+      "text_original": "אַל־תַּקְשׁ֣וּ לְ֭בַבְכֶם כִּמְרִיבָ֑ה כְּי֥וֹם מַ֝סָּ֗ה בַּמִּדְבָּֽר׃",
+      "text_with_niqqud": "אַל תַּקְשׁוּ לְבַבְכֶם כִּמְרִיבָה כְּיוֹם מַסָּה בַּמִּדְבָּר",
+      "text_plain": "אל תקשו לבבכם כמריבה כיום מסה במדבר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-095.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_095_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 95,
+      "verse": 9,
+      "ref": "תהילים צה:ט",
+      "ref_en": "Psalms 95:9",
+      "text_original": "אֲשֶׁ֣ר נִ֭סּוּנִי אֲבֽוֹתֵיכֶ֑ם בְּ֝חָנ֗וּנִי גַּם־רָא֥וּ פָֽעֳלִֽי׃",
+      "text_with_niqqud": "אֲשֶׁר נִסּוּנִי אֲבוֹתֵיכֶם בְּחָנוּנִי גַּם רָאוּ פָעֳלִי",
+      "text_plain": "אשר נסוני אבותיכם בחנוני גם ראו פעלי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-095.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_095_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 95,
+      "verse": 10,
+      "ref": "תהילים צה:י",
+      "ref_en": "Psalms 95:10",
+      "text_original": "אַרְבָּ֘עִ֤ים שָׁנָ֨ה ׀ אָ֘ק֤וּט בְּד֗וֹר וָֽאֹמַ֗ר עַ֤ם תֹּעֵ֣י לֵבָ֣ב הֵ֑ם וְ֝הֵ֗ם לֹֽא־יָדְע֥וּ דְרָכָֽי׃",
+      "text_with_niqqud": "אַרְבָּעִים שָׁנָה אָקוּט בְּדוֹר וָאֹמַר עַם תֹּעֵי לֵבָב הֵם וְהֵם לֹא יָדְעוּ דְרָכָי",
+      "text_plain": "ארבעים שנה אקוט בדור ואמר עם תעי לבב הם והם לא ידעו דרכי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-095.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_095_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 95,
+      "verse": 11,
+      "ref": "תהילים צה:יא",
+      "ref_en": "Psalms 95:11",
+      "text_original": "אֲשֶׁר־נִשְׁבַּ֥עְתִּי בְאַפִּ֑י אִם־יְ֝בֹא֗וּן אֶל־מְנֽוּחָתִֽי׃",
+      "text_with_niqqud": "אֲשֶׁר נִשְׁבַּעְתִּי בְאַפִּי אִם יְבֹאוּן אֶל מְנוּחָתִי",
+      "text_plain": "אשר נשבעתי באפי אם יבאון אל מנוחתי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-095.txt"
+    }
+  ]
+}

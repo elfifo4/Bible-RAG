@@ -1,0 +1,318 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 81,
+  "chapter_id": "_27_tehilim_081",
+  "ref": "תהילים פא",
+  "ref_en": "Psalms 81",
+  "source_file": "_27_tehilim-081.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_081_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 1,
+      "ref": "תהילים פא:א",
+      "ref_en": "Psalms 81:1",
+      "text_original": "לַמְנַצֵּ֬חַ ׀ עַֽל־הַגִּתִּ֬ית לְאָסָֽף׃",
+      "text_with_niqqud": "לַמְנַצֵּחַ עַל הַגִּתִּית לְאָסָף",
+      "text_plain": "למנצח על הגתית לאסף",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 2,
+      "ref": "תהילים פא:ב",
+      "ref_en": "Psalms 81:2",
+      "text_original": "הַ֭רְנִינוּ לֵֽאלֹהִ֣ים עוּזֵּ֑נוּ הָ֝רִ֗יעוּ לֵֽאלֹהֵ֥י יַֽעֲקֹֽב׃",
+      "text_with_niqqud": "הַרְנִינוּ לֵאלֹהִים עוּזֵּנוּ הָרִיעוּ לֵאלֹהֵי יַעֲקֹב",
+      "text_plain": "הרנינו לאלהים עוזנו הריעו לאלהי יעקב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 3,
+      "ref": "תהילים פא:ג",
+      "ref_en": "Psalms 81:3",
+      "text_original": "שְֽׂאוּ־זִ֭מְרָה וּתְנוּ־תֹ֑ף כִּנּ֖וֹר נָעִ֣ים עִם־נָֽבֶל׃",
+      "text_with_niqqud": "שְׂאוּ זִמְרָה וּתְנוּ תֹף כִּנּוֹר נָעִים עִם נָבֶל",
+      "text_plain": "שאו זמרה ותנו תף כנור נעים עם נבל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 4,
+      "ref": "תהילים פא:ד",
+      "ref_en": "Psalms 81:4",
+      "text_original": "תִּקְע֣וּ בַחֹ֣דֶשׁ שׁוֹפָ֑ר בַּ֝כֵּ֗סֶה לְי֣וֹם חַגֵּֽנוּ׃",
+      "text_with_niqqud": "תִּקְעוּ בַחֹדֶשׁ שׁוֹפָר בַּכֵּסֶה לְיוֹם חַגֵּנוּ",
+      "text_plain": "תקעו בחדש שופר בכסה ליום חגנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 5,
+      "ref": "תהילים פא:ה",
+      "ref_en": "Psalms 81:5",
+      "text_original": "כִּ֤י חֹ֣ק לְיִשְׂרָאֵ֣ל ה֑וּא מִ֝שְׁפָּ֗ט לֵֽאלֹהֵ֥י יַֽעֲקֹֽב׃",
+      "text_with_niqqud": "כִּי חֹק לְיִשְׂרָאֵל הוּא מִשְׁפָּט לֵאלֹהֵי יַעֲקֹב",
+      "text_plain": "כי חק לישראל הוא משפט לאלהי יעקב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 6,
+      "ref": "תהילים פא:ו",
+      "ref_en": "Psalms 81:6",
+      "text_original": "עֵ֤דוּת ׀ בִּֽיה֘וֹסֵ֤ף שָׂמ֗וֹ בְּ֭צֵאתוֹ עַל־אֶ֣רֶץ מִצְרָ֑יִם שְׂפַ֖ת לֹֽא־יָדַ֣עְתִּי אֶשְׁמָֽע׃",
+      "text_with_niqqud": "עֵדוּת בִּיהוֹסֵף שָׂמוֹ בְּצֵאתוֹ עַל אֶרֶץ מִצְרָיִם שְׂפַת לֹא יָדַעְתִּי אֶשְׁמָע",
+      "text_plain": "עדות ביהוסף שמו בצאתו על ארץ מצרים שפת לא ידעתי אשמע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 7,
+      "ref": "תהילים פא:ז",
+      "ref_en": "Psalms 81:7",
+      "text_original": "הֲסִיר֣וֹתִי מִסֵּ֣בֶל שִׁכְמ֑וֹ כַּ֝פָּ֗יו מִדּ֥וּד תַּֽעֲבֹֽרְנָה׃",
+      "text_with_niqqud": "הֲסִירוֹתִי מִסֵּבֶל שִׁכְמוֹ כַּפָּיו מִדּוּד תַּעֲבֹרְנָה",
+      "text_plain": "הסירותי מסבל שכמו כפיו מדוד תעברנה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 8,
+      "ref": "תהילים פא:ח",
+      "ref_en": "Psalms 81:8",
+      "text_original": "בַּצָּרָ֥ה קָרָ֗אתָ וָֽאֲחַ֫לְּצֶ֥ךָּ אֶֽ֭עֶנְךָ בְּסֵ֣תֶר רַ֑עַם אֶבְחָֽנְךָ֨ עַל־מֵ֖י מְרִיבָ֣ה סֶֽלָה׃",
+      "text_with_niqqud": "בַּצָּרָה קָרָאתָ וָאֲחַלְּצֶךָּ אֶעֶנְךָ בְּסֵתֶר רַעַם אֶבְחָנְךָ עַל מֵי מְרִיבָה סֶלָה",
+      "text_plain": "בצרה קראת ואחלצך אענך בסתר רעם אבחנך על מי מריבה סלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 9,
+      "ref": "תהילים פא:ט",
+      "ref_en": "Psalms 81:9",
+      "text_original": "שְׁמַ֣ע עַ֭מִּי וְאָעִ֣ידָה בָּ֑ךְ יִ֝שְׂרָאֵ֗ל אִם־תִּֽשְׁמַֽע־לִֽי׃",
+      "text_with_niqqud": "שְׁמַע עַמִּי וְאָעִידָה בָּךְ יִשְׂרָאֵל אִם תִּשְׁמַע לִי",
+      "text_plain": "שמע עמי ואעידה בך ישראל אם תשמע לי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 10,
+      "ref": "תהילים פא:י",
+      "ref_en": "Psalms 81:10",
+      "text_original": "לֹֽא־יִהְיֶ֣ה בְ֭ךָ אֵ֣ל זָ֑ר וְלֹ֥א תִ֝שְׁתַּֽחֲוֶ֗ה לְאֵ֣ל נֵכָֽר׃",
+      "text_with_niqqud": "לֹא יִהְיֶה בְךָ אֵל זָר וְלֹא תִשְׁתַּחֲוֶה לְאֵל נֵכָר",
+      "text_plain": "לא יהיה בך אל זר ולא תשתחוה לאל נכר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 11,
+      "ref": "תהילים פא:יא",
+      "ref_en": "Psalms 81:11",
+      "text_original": "אָֽנֹכִ֨י ׀ יְהֹ֘וָ֤ה אֱלֹהֶ֗יךָ הַֽ֭מַּעַלְךָ מֵאֶ֣רֶץ מִצְרָ֑יִם הַרְחֶב־פִּ֝֗יךָ וַֽאֲמַלְאֵֽהוּ׃",
+      "text_with_niqqud": "אָנֹכִי יְהֹוָה אֱלֹהֶיךָ הַמַּעַלְךָ מֵאֶרֶץ מִצְרָיִם הַרְחֶב פִּיךָ וַאֲמַלְאֵהוּ",
+      "text_plain": "אנכי יהוה אלהיך המעלך מארץ מצרים הרחב פיך ואמלאהו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 12,
+      "ref": "תהילים פא:יב",
+      "ref_en": "Psalms 81:12",
+      "text_original": "וְלֹֽא־שָׁמַ֣ע עַמִּ֣י לְקוֹלִ֑י וְ֝יִשְׂרָאֵ֗ל לֹא־אָ֥בָה לִֽי׃",
+      "text_with_niqqud": "וְלֹא שָׁמַע עַמִּי לְקוֹלִי וְיִשְׂרָאֵל לֹא אָבָה לִי",
+      "text_plain": "ולא שמע עמי לקולי וישראל לא אבה לי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 13,
+      "ref": "תהילים פא:יג",
+      "ref_en": "Psalms 81:13",
+      "text_original": "וָֽ֭אֲשַׁלְּחֵהוּ בִּשְׁרִיר֣וּת לִבָּ֑ם יֵֽ֝לְכ֗וּ בְּֽמוֹעֲצ֖וֹתֵיהֶֽם׃",
+      "text_with_niqqud": "וָאֲשַׁלְּחֵהוּ בִּשְׁרִירוּת לִבָּם יֵלְכוּ בְּמוֹעֲצוֹתֵיהֶם",
+      "text_plain": "ואשלחהו בשרירות לבם ילכו במועצותיהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_014",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 14,
+      "ref": "תהילים פא:יד",
+      "ref_en": "Psalms 81:14",
+      "text_original": "ל֗וּ עַ֭מִּי שֹׁמֵ֣עַֽ לִ֑י יִ֝שְׂרָאֵ֗ל בִּדְרָכַ֥י יְהַלֵּֽכוּ׃",
+      "text_with_niqqud": "לוּ עַמִּי שֹׁמֵעַ לִי יִשְׂרָאֵל בִּדְרָכַי יְהַלֵּכוּ",
+      "text_plain": "לו עמי שמע לי ישראל בדרכי יהלכו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_015",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 15,
+      "ref": "תהילים פא:טו",
+      "ref_en": "Psalms 81:15",
+      "text_original": "כִּ֭מְעַט אֽוֹיְבֵיהֶ֣ם אַכְנִ֑יעַ וְעַ֥ל צָֽ֝רֵיהֶ֗ם אָשִׁ֥יב יָדִֽי׃",
+      "text_with_niqqud": "כִּמְעַט אוֹיְבֵיהֶם אַכְנִיעַ וְעַל צָרֵיהֶם אָשִׁיב יָדִי",
+      "text_plain": "כמעט אויביהם אכניע ועל צריהם אשיב ידי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_016",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 16,
+      "ref": "תהילים פא:טז",
+      "ref_en": "Psalms 81:16",
+      "text_original": "מְשַׂנְאֵ֣י יְ֭הֹוָה יְכַֽחֲשׁוּ־ל֑וֹ וִיהִ֖י עִתָּ֣ם לְעוֹלָֽם׃",
+      "text_with_niqqud": "מְשַׂנְאֵי יְהֹוָה יְכַחֲשׁוּ לוֹ וִיהִי עִתָּם לְעוֹלָם",
+      "text_plain": "משנאי יהוה יכחשו לו ויהי עתם לעולם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_081_017",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 81,
+      "verse": 17,
+      "ref": "תהילים פא:יז",
+      "ref_en": "Psalms 81:17",
+      "text_original": "וַֽ֭יַּאֲכִילֵהוּ מֵחֵ֣לֶב חִטָּ֑ה וּ֝מִצּ֗וּר דְּבַ֣שׁ אַשְׂבִּיעֶֽךָ׃",
+      "text_with_niqqud": "וַיַּאֲכִילֵהוּ מֵחֵלֶב חִטָּה וּמִצּוּר דְּבַשׁ אַשְׂבִּיעֶךָ",
+      "text_plain": "ויאכילהו מחלב חטה ומצור דבש אשביעך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-081.txt"
+    }
+  ]
+}

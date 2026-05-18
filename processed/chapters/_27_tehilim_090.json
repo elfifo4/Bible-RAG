@@ -1,0 +1,318 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 90,
+  "chapter_id": "_27_tehilim_090",
+  "ref": "תהילים צ",
+  "ref_en": "Psalms 90",
+  "source_file": "_27_tehilim-090.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_090_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 1,
+      "ref": "תהילים צ:א",
+      "ref_en": "Psalms 90:1",
+      "text_original": "תְּפִלָּה֮ לְמֹשֶׁ֪ה אִֽישׁ־הָאֱלֹ֫הִ֥ים אֲֽדֹנָ֗י מָע֣וֹן אַ֭תָּה הָיִ֥יתָ לָּ֗נוּ בְּדֹ֣ר וָדֹֽר׃",
+      "text_with_niqqud": "תְּפִלָּה לְמֹשֶׁה אִישׁ הָאֱלֹהִים אֲדֹנָי מָעוֹן אַתָּה הָיִיתָ לָּנוּ בְּדֹר וָדֹר",
+      "text_plain": "תפלה למשה איש האלהים אדני מעון אתה היית לנו בדר ודר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 2,
+      "ref": "תהילים צ:ב",
+      "ref_en": "Psalms 90:2",
+      "text_original": "בְּטֶ֤רֶם ׀ הָ֘רִ֤ים יֻלָּ֗דוּ וַתְּח֣וֹלֵֽל אֶ֣רֶץ וְתֵבֵ֑ל וּֽמֵעוֹלָ֥ם עַד־ע֝וֹלָ֗ם אַתָּ֥ה אֵֽל׃",
+      "text_with_niqqud": "בְּטֶרֶם הָרִים יֻלָּדוּ וַתְּחוֹלֵל אֶרֶץ וְתֵבֵל וּמֵעוֹלָם עַד עוֹלָם אַתָּה אֵל",
+      "text_plain": "בטרם הרים ילדו ותחולל ארץ ותבל ומעולם עד עולם אתה אל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 3,
+      "ref": "תהילים צ:ג",
+      "ref_en": "Psalms 90:3",
+      "text_original": "תָּשֵׁ֣ב אֱ֭נוֹשׁ עַד־דַּכָּ֑א וַ֝תֹּ֗אמֶר שׁ֣וּבוּ בְנֵֽי־אָדָֽם׃",
+      "text_with_niqqud": "תָּשֵׁב אֱנוֹשׁ עַד דַּכָּא וַתֹּאמֶר שׁוּבוּ בְנֵי אָדָם",
+      "text_plain": "תשב אנוש עד דכא ותאמר שובו בני אדם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 4,
+      "ref": "תהילים צ:ד",
+      "ref_en": "Psalms 90:4",
+      "text_original": "כִּ֤י אֶ֪לֶף שָׁנִ֡ים בְּֽעֵינֶ֗יךָ כְּי֣וֹם אֶ֭תְמוֹל כִּ֣י יַֽעֲבֹ֑ר וְאַשְׁמוּרָ֥ה בַלָּֽיְלָה׃",
+      "text_with_niqqud": "כִּי אֶלֶף שָׁנִים בְּעֵינֶיךָ כְּיוֹם אֶתְמוֹל כִּי יַעֲבֹר וְאַשְׁמוּרָה בַלָּיְלָה",
+      "text_plain": "כי אלף שנים בעיניך כיום אתמול כי יעבר ואשמורה בלילה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 5,
+      "ref": "תהילים צ:ה",
+      "ref_en": "Psalms 90:5",
+      "text_original": "זְ֭רַמְתָּם שֵׁנָ֣ה יִֽהְי֑וּ בַּ֝בֹּ֗קֶר כֶּֽחָצִ֥יר יַֽחֲלֹֽף׃",
+      "text_with_niqqud": "זְרַמְתָּם שֵׁנָה יִהְיוּ בַּבֹּקֶר כֶּחָצִיר יַחֲלֹף",
+      "text_plain": "זרמתם שנה יהיו בבקר כחציר יחלף",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 6,
+      "ref": "תהילים צ:ו",
+      "ref_en": "Psalms 90:6",
+      "text_original": "בַּ֭בֹּקֶר יָצִ֣יץ וְחָלָ֑ף לָ֝עֶ֗רֶב יְמוֹלֵ֥ל וְיָבֵֽשׁ׃",
+      "text_with_niqqud": "בַּבֹּקֶר יָצִיץ וְחָלָף לָעֶרֶב יְמוֹלֵל וְיָבֵשׁ",
+      "text_plain": "בבקר יציץ וחלף לערב ימולל ויבש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 7,
+      "ref": "תהילים צ:ז",
+      "ref_en": "Psalms 90:7",
+      "text_original": "כִּֽי־כָלִ֥ינוּ בְאַפֶּ֑ךָ וּֽבַחֲמָתְךָ֥ נִבְהָֽלְנוּ׃",
+      "text_with_niqqud": "כִּי כָלִינוּ בְאַפֶּךָ וּבַחֲמָתְךָ נִבְהָלְנוּ",
+      "text_plain": "כי כלינו באפך ובחמתך נבהלנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 8,
+      "ref": "תהילים צ:ח",
+      "ref_en": "Psalms 90:8",
+      "text_original": "שת (שַׁתָּ֣ה) עֲוֽ‍ֹנֹתֵ֣ינוּ לְנֶגְדֶּ֑ךָ עֲ֝לֻמֵ֗נוּ לִמְא֥וֹר פָּנֶֽיךָ׃",
+      "text_with_niqqud": "שת (שַׁתָּה) עֲו‍ֹנֹתֵינוּ לְנֶגְדֶּךָ עֲלֻמֵנוּ לִמְאוֹר פָּנֶיךָ",
+      "text_plain": "שת (שתה) עו‍נתינו לנגדך עלמנו למאור פניך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 9,
+      "ref": "תהילים צ:ט",
+      "ref_en": "Psalms 90:9",
+      "text_original": "כִּ֣י כָל־יָ֭מֵינוּ פָּנ֣וּ בְעֶבְרָתֶ֑ךָ כִּלִּ֖ינוּ שָׁנֵ֣ינוּ כְמוֹ־הֶֽגֶה׃",
+      "text_with_niqqud": "כִּי כָל יָמֵינוּ פָּנוּ בְעֶבְרָתֶךָ כִּלִּינוּ שָׁנֵינוּ כְמוֹ הֶגֶה",
+      "text_plain": "כי כל ימינו פנו בעברתך כלינו שנינו כמו הגה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 10,
+      "ref": "תהילים צ:י",
+      "ref_en": "Psalms 90:10",
+      "text_original": "יְמֵֽי־שְׁנוֹתֵ֨ינוּ בָהֶ֥ם שִׁבְעִ֪ים שָׁנָ֡ה וְאִ֤ם בִּגְבוּרֹ֨ת ׀ שְׁמ֘וֹנִ֤ים שָׁנָ֗ה וְ֭רָהְבָּם עָמָ֣ל וָאָ֑וֶן כִּי־גָ֥ז חִ֝֗ישׁ וַנָּעֻֽפָה׃",
+      "text_with_niqqud": "יְמֵי שְׁנוֹתֵינוּ בָהֶם שִׁבְעִים שָׁנָה וְאִם בִּגְבוּרֹת שְׁמוֹנִים שָׁנָה וְרָהְבָּם עָמָל וָאָוֶן כִּי גָז חִישׁ וַנָּעֻפָה",
+      "text_plain": "ימי שנותינו בהם שבעים שנה ואם בגבורת שמונים שנה ורהבם עמל ואון כי גז חיש ונעפה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 11,
+      "ref": "תהילים צ:יא",
+      "ref_en": "Psalms 90:11",
+      "text_original": "מִֽי־י֭וֹדֵעַ עֹ֣ז אַפֶּ֑ךָ וּ֝כְיִרְאָֽתְךָ֗ עֶבְרָתֶֽךָ׃",
+      "text_with_niqqud": "מִי יוֹדֵעַ עֹז אַפֶּךָ וּכְיִרְאָתְךָ עֶבְרָתֶךָ",
+      "text_plain": "מי יודע עז אפך וכיראתך עברתך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 12,
+      "ref": "תהילים צ:יב",
+      "ref_en": "Psalms 90:12",
+      "text_original": "לִמְנ֣וֹת יָ֭מֵינוּ כֵּ֣ן הוֹדַ֑ע וְ֝נָבִ֗א לְבַ֣ב חָכְמָֽה׃",
+      "text_with_niqqud": "לִמְנוֹת יָמֵינוּ כֵּן הוֹדַע וְנָבִא לְבַב חָכְמָה",
+      "text_plain": "למנות ימינו כן הודע ונבא לבב חכמה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 13,
+      "ref": "תהילים צ:יג",
+      "ref_en": "Psalms 90:13",
+      "text_original": "שׁוּבָ֣ה יְ֭הֹוָה עַד־מָתָ֑י וְ֝הִנָּחֵ֗ם עַל־עֲבָדֶֽיךָ׃",
+      "text_with_niqqud": "שׁוּבָה יְהֹוָה עַד מָתָי וְהִנָּחֵם עַל עֲבָדֶיךָ",
+      "text_plain": "שובה יהוה עד מתי והנחם על עבדיך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_014",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 14,
+      "ref": "תהילים צ:יד",
+      "ref_en": "Psalms 90:14",
+      "text_original": "שַׂבְּעֵ֣נוּ בַבֹּ֣קֶר חַסְדֶּ֑ךָ וּֽנְרַנְּנָ֥ה וְ֝נִשְׂמְחָ֗ה בְּכָל־יָמֵֽינוּ׃",
+      "text_with_niqqud": "שַׂבְּעֵנוּ בַבֹּקֶר חַסְדֶּךָ וּנְרַנְּנָה וְנִשְׂמְחָה בְּכָל יָמֵינוּ",
+      "text_plain": "שבענו בבקר חסדך ונרננה ונשמחה בכל ימינו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_015",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 15,
+      "ref": "תהילים צ:טו",
+      "ref_en": "Psalms 90:15",
+      "text_original": "שַׂ֭מְּחֵנוּ כִּימ֣וֹת עִנִּיתָ֑נוּ שְׁ֝נ֗וֹת רָאִ֥ינוּ רָעָֽה׃",
+      "text_with_niqqud": "שַׂמְּחֵנוּ כִּימוֹת עִנִּיתָנוּ שְׁנוֹת רָאִינוּ רָעָה",
+      "text_plain": "שמחנו כימות עניתנו שנות ראינו רעה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_016",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 16,
+      "ref": "תהילים צ:טז",
+      "ref_en": "Psalms 90:16",
+      "text_original": "יֵֽרָאֶ֣ה אֶל־עֲבָדֶ֣יךָ פָֽעֳלֶ֑ךָ וַ֝הֲדָֽרְךָ֗ עַל־בְּנֵיהֶֽם׃",
+      "text_with_niqqud": "יֵרָאֶה אֶל עֲבָדֶיךָ פָעֳלֶךָ וַהֲדָרְךָ עַל בְּנֵיהֶם",
+      "text_plain": "יראה אל עבדיך פעלך והדרך על בניהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_090_017",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 90,
+      "verse": 17,
+      "ref": "תהילים צ:יז",
+      "ref_en": "Psalms 90:17",
+      "text_original": "וִיהִ֤י ׀ נֹ֤עַם אֲדֹנָ֥י אֱלֹהֵ֗ינוּ עָ֫לֵ֥ינוּ וּמַֽעֲשֵׂ֣ה יָ֭דֵינוּ כּֽוֹנְנָ֥ה עָלֵ֑ינוּ וּֽמַעֲשֵׂ֥ה יָ֝דֵ֗ינוּ כּֽוֹנְנֵֽהוּ׃",
+      "text_with_niqqud": "וִיהִי נֹעַם אֲדֹנָי אֱלֹהֵינוּ עָלֵינוּ וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנָה עָלֵינוּ וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנֵהוּ",
+      "text_plain": "ויהי נעם אדני אלהינו עלינו ומעשה ידינו כוננה עלינו ומעשה ידינו כוננהו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-090.txt"
+    }
+  ]
+}

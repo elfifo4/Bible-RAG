@@ -1,0 +1,642 @@
+{
+  "book": "משלי",
+  "book_en": "Proverbs",
+  "book_slug": "mishley",
+  "chapter": 23,
+  "chapter_id": "_28_mishley_023",
+  "ref": "משלי כג",
+  "ref_en": "Proverbs 23",
+  "source_file": "_28_mishley-23.txt",
+  "verses": [
+    {
+      "verse_id": "_28_mishley_023_001",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 1,
+      "ref": "משלי כג:א",
+      "ref_en": "Proverbs 23:1",
+      "text_original": "כִּֽי־תֵ֭שֵׁב לִלְח֣וֹם אֶת־מוֹשֵׁ֑ל בִּ֥ין תָּ֝בִ֗ין אֶת־אֲשֶׁ֥ר לְפָנֶֽיךָ׃",
+      "text_with_niqqud": "כִּי תֵשֵׁב לִלְחוֹם אֶת מוֹשֵׁל בִּין תָּבִין אֶת אֲשֶׁר לְפָנֶיךָ",
+      "text_plain": "כי תשב ללחום את מושל בין תבין את אשר לפניך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_002",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 2,
+      "ref": "משלי כג:ב",
+      "ref_en": "Proverbs 23:2",
+      "text_original": "וְשַׂמְתָּ֣ שַׂכִּ֣ין בְּלֹעֶ֑ךָ אִם־בַּ֖עַל נֶ֣פֶשׁ אָֽתָּה׃",
+      "text_with_niqqud": "וְשַׂמְתָּ שַׂכִּין בְּלֹעֶךָ אִם בַּעַל נֶפֶשׁ אָתָּה",
+      "text_plain": "ושמת שכין בלעך אם בעל נפש אתה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_003",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 3,
+      "ref": "משלי כג:ג",
+      "ref_en": "Proverbs 23:3",
+      "text_original": "אַל־תִּ֭תְאָו לְמַטְעַמּוֹתָ֑יו וְ֝ה֗וּא לֶ֣חֶם כְּזָבִֽים׃",
+      "text_with_niqqud": "אַל תִּתְאָו לְמַטְעַמּוֹתָיו וְהוּא לֶחֶם כְּזָבִים",
+      "text_plain": "אל תתאו למטעמותיו והוא לחם כזבים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_004",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 4,
+      "ref": "משלי כג:ד",
+      "ref_en": "Proverbs 23:4",
+      "text_original": "אַל־תִּיגַ֥ע לְֽהַעֲשִׁ֑יר מִֽבִּינָתְךָ֥ חֲדָֽל׃",
+      "text_with_niqqud": "אַל תִּיגַע לְהַעֲשִׁיר מִבִּינָתְךָ חֲדָל",
+      "text_plain": "אל תיגע להעשיר מבינתך חדל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_005",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 5,
+      "ref": "משלי כג:ה",
+      "ref_en": "Proverbs 23:5",
+      "text_original": "התעוף (הֲתָ֤עִיף) עֵינֶ֥יךָ בּ֗וֹ וְֽאֵ֫ינֶ֥נּוּ כִּ֤י עָשֹׂ֣ה יַֽעֲשֶׂה־לּ֣וֹ כְנָפַ֑יִם כְּ֝נֶ֗שֶׁר ועיף (יָע֥וּף) הַשָּׁמָֽיִם׃",
+      "text_with_niqqud": "התעוף (הֲתָעִיף) עֵינֶיךָ בּוֹ וְאֵינֶנּוּ כִּי עָשֹׂה יַעֲשֶׂה לּוֹ כְנָפַיִם כְּנֶשֶׁר ועיף (יָעוּף) הַשָּׁמָיִם",
+      "text_plain": "התעוף (התעיף) עיניך בו ואיננו כי עשה יעשה לו כנפים כנשר ועיף (יעוף) השמים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_006",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 6,
+      "ref": "משלי כג:ו",
+      "ref_en": "Proverbs 23:6",
+      "text_original": "אַל־תִּלְחַ֗ם אֶת־לֶ֭חֶם רַ֣ע עָ֑יִן וְאַל־תִּ֝תְאָ֗ו לְמַטְעַמֹּתָֽיו׃",
+      "text_with_niqqud": "אַל תִּלְחַם אֶת לֶחֶם רַע עָיִן וְאַל תִּתְאָו לְמַטְעַמֹּתָיו",
+      "text_plain": "אל תלחם את לחם רע עין ואל תתאו למטעמתיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_007",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 7,
+      "ref": "משלי כג:ז",
+      "ref_en": "Proverbs 23:7",
+      "text_original": "כִּ֤י ׀ כְּמ֥וֹ שָׁעַ֥ר בְּנַפְשׁ֗וֹ כֶּ֫ן ה֥וּא אֱכ֣וֹל וּ֭שְׁתֵה יֹ֣אמַר לָ֑ךְ וְ֝לִבּ֗וֹ בַּל־עִמָּֽךְ׃",
+      "text_with_niqqud": "כִּי כְּמוֹ שָׁעַר בְּנַפְשׁוֹ כֶּן הוּא אֱכוֹל וּשְׁתֵה יֹאמַר לָךְ וְלִבּוֹ בַּל עִמָּךְ",
+      "text_plain": "כי כמו שער בנפשו כן הוא אכול ושתה יאמר לך ולבו בל עמך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_008",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 8,
+      "ref": "משלי כג:ח",
+      "ref_en": "Proverbs 23:8",
+      "text_original": "פִּֽתְּךָ־אָכַ֥לְתָּ תְקִיאֶ֑נָּה וְ֝שִׁחַ֗תָּ דְּבָרֶ֥יךָ הַנְּעִימִֽים׃",
+      "text_with_niqqud": "פִּתְּךָ אָכַלְתָּ תְקִיאֶנָּה וְשִׁחַתָּ דְּבָרֶיךָ הַנְּעִימִים",
+      "text_plain": "פתך אכלת תקיאנה ושחת דבריך הנעימים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_009",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 9,
+      "ref": "משלי כג:ט",
+      "ref_en": "Proverbs 23:9",
+      "text_original": "בְּאָזְנֵ֣י כְ֭סִיל אַל־תְּדַבֵּ֑ר כִּֽי־יָ֝ב֗וּז לְשֵׂ֣כֶל מִלֶּֽיךָ׃",
+      "text_with_niqqud": "בְּאָזְנֵי כְסִיל אַל תְּדַבֵּר כִּי יָבוּז לְשֵׂכֶל מִלֶּיךָ",
+      "text_plain": "באזני כסיל אל תדבר כי יבוז לשכל מליך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_010",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 10,
+      "ref": "משלי כג:י",
+      "ref_en": "Proverbs 23:10",
+      "text_original": "אַל־תַּ֭סֵּג גְּב֣וּל עוֹלָ֑ם וּבִשְׂדֵ֥י יְ֝תוֹמִ֗ים אַל־תָּבֹֽא׃",
+      "text_with_niqqud": "אַל תַּסֵּג גְּבוּל עוֹלָם וּבִשְׂדֵי יְתוֹמִים אַל תָּבֹא",
+      "text_plain": "אל תסג גבול עולם ובשדי יתומים אל תבא",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_011",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 11,
+      "ref": "משלי כג:יא",
+      "ref_en": "Proverbs 23:11",
+      "text_original": "כִּֽי־גֹאֲלָ֥ם חָזָ֑ק הֽוּא־יָרִ֖יב אֶת־רִיבָ֣ם אִתָּֽךְ׃",
+      "text_with_niqqud": "כִּי גֹאֲלָם חָזָק הוּא יָרִיב אֶת רִיבָם אִתָּךְ",
+      "text_plain": "כי גאלם חזק הוא יריב את ריבם אתך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_012",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 12,
+      "ref": "משלי כג:יב",
+      "ref_en": "Proverbs 23:12",
+      "text_original": "הָבִ֣יאָה לַמּוּסָ֣ר לִבֶּ֑ךָ וְ֝אָזְנֶ֗ךָ לְאִמְרֵי־דָֽעַת׃",
+      "text_with_niqqud": "הָבִיאָה לַמּוּסָר לִבֶּךָ וְאָזְנֶךָ לְאִמְרֵי דָעַת",
+      "text_plain": "הביאה למוסר לבך ואזנך לאמרי דעת",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_013",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 13,
+      "ref": "משלי כג:יג",
+      "ref_en": "Proverbs 23:13",
+      "text_original": "אַל־תִּמְנַ֣ע מִנַּ֣עַר מוּסָ֑ר כִּֽי־תַכֶּ֥נּוּ בַ֝שֵּׁ֗בֶט לֹ֣א יָמֽוּת׃",
+      "text_with_niqqud": "אַל תִּמְנַע מִנַּעַר מוּסָר כִּי תַכֶּנּוּ בַשֵּׁבֶט לֹא יָמוּת",
+      "text_plain": "אל תמנע מנער מוסר כי תכנו בשבט לא ימות",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_014",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 14,
+      "ref": "משלי כג:יד",
+      "ref_en": "Proverbs 23:14",
+      "text_original": "אַ֭תָּה בַּשֵּׁ֣בֶט תַּכֶּ֑נּוּ וְ֝נַפְשׁ֗וֹ מִשְּׁא֥וֹל תַּצִּֽיל׃",
+      "text_with_niqqud": "אַתָּה בַּשֵּׁבֶט תַּכֶּנּוּ וְנַפְשׁוֹ מִשְּׁאוֹל תַּצִּיל",
+      "text_plain": "אתה בשבט תכנו ונפשו משאול תציל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_015",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 15,
+      "ref": "משלי כג:טו",
+      "ref_en": "Proverbs 23:15",
+      "text_original": "בְּ֭נִי אִם־חָכַ֣ם לִבֶּ֑ךָ יִשְׂמַ֖ח לִבִּ֣י גַם־אָֽנִי׃",
+      "text_with_niqqud": "בְּנִי אִם חָכַם לִבֶּךָ יִשְׂמַח לִבִּי גַם אָנִי",
+      "text_plain": "בני אם חכם לבך ישמח לבי גם אני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_016",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 16,
+      "ref": "משלי כג:טז",
+      "ref_en": "Proverbs 23:16",
+      "text_original": "וְתַעְלֹ֥זְנָה כִלְיוֹתָ֑י בְּדַבֵּ֥ר שְׂ֝פָתֶ֗יךָ מֵֽישָׁרִֽים׃",
+      "text_with_niqqud": "וְתַעְלֹזְנָה כִלְיוֹתָי בְּדַבֵּר שְׂפָתֶיךָ מֵישָׁרִים",
+      "text_plain": "ותעלזנה כליותי בדבר שפתיך מישרים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_017",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 17,
+      "ref": "משלי כג:יז",
+      "ref_en": "Proverbs 23:17",
+      "text_original": "אַל־יְקַנֵּ֣א לִ֭בְּךָ בַּֽחַטָּאִ֑ים כִּ֥י אִם־בְּיִרְאַת־יְ֝הֹוָ֗ה כָּל־הַיּֽוֹם׃",
+      "text_with_niqqud": "אַל יְקַנֵּא לִבְּךָ בַּחַטָּאִים כִּי אִם בְּיִרְאַת יְהֹוָה כָּל הַיּוֹם",
+      "text_plain": "אל יקנא לבך בחטאים כי אם ביראת יהוה כל היום",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_018",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 18,
+      "ref": "משלי כג:יח",
+      "ref_en": "Proverbs 23:18",
+      "text_original": "כִּ֭י אִם־יֵ֣שׁ אַֽחֲרִ֑ית וְ֝תִקְוָֽתְךָ֗ לֹ֣א תִכָּרֵֽת׃",
+      "text_with_niqqud": "כִּי אִם יֵשׁ אַחֲרִית וְתִקְוָתְךָ לֹא תִכָּרֵת",
+      "text_plain": "כי אם יש אחרית ותקותך לא תכרת",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_019",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 19,
+      "ref": "משלי כג:יט",
+      "ref_en": "Proverbs 23:19",
+      "text_original": "שְׁמַע־אַתָּ֣ה בְנִ֣י וַֽחֲכָ֑ם וְאַשֵּׁ֖ר בַּדֶּ֣רֶךְ לִבֶּֽךָ׃",
+      "text_with_niqqud": "שְׁמַע אַתָּה בְנִי וַחֲכָם וְאַשֵּׁר בַּדֶּרֶךְ לִבֶּךָ",
+      "text_plain": "שמע אתה בני וחכם ואשר בדרך לבך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_020",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 20,
+      "ref": "משלי כג:כ",
+      "ref_en": "Proverbs 23:20",
+      "text_original": "אַל־תְּהִ֥י בְסֹֽבְאֵי־יָ֑יִן בְּזֹֽלְלֵ֖י בָשָׂ֣ר לָֽמוֹ׃",
+      "text_with_niqqud": "אַל תְּהִי בְסֹבְאֵי יָיִן בְּזֹלְלֵי בָשָׂר לָמוֹ",
+      "text_plain": "אל תהי בסבאי יין בזללי בשר למו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_021",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 21,
+      "ref": "משלי כג:כא",
+      "ref_en": "Proverbs 23:21",
+      "text_original": "כִּֽי־סֹבֵ֣א וְ֭זוֹלֵל יִוָּרֵ֑שׁ וּ֝קְרָעִ֗ים תַּלְבִּ֥ישׁ נוּמָֽה׃",
+      "text_with_niqqud": "כִּי סֹבֵא וְזוֹלֵל יִוָּרֵשׁ וּקְרָעִים תַּלְבִּישׁ נוּמָה",
+      "text_plain": "כי סבא וזולל יורש וקרעים תלביש נומה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_022",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 22,
+      "ref": "משלי כג:כב",
+      "ref_en": "Proverbs 23:22",
+      "text_original": "שְׁמַ֣ע לְ֭אָבִיךָ זֶ֣ה יְלָדֶ֑ךָ וְאַל־תָּ֝ב֗וּז כִּֽי־זָקְנָ֥ה אִמֶּֽךָ׃",
+      "text_with_niqqud": "שְׁמַע לְאָבִיךָ זֶה יְלָדֶךָ וְאַל תָּבוּז כִּי זָקְנָה אִמֶּךָ",
+      "text_plain": "שמע לאביך זה ילדך ואל תבוז כי זקנה אמך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_023",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 23,
+      "ref": "משלי כג:כג",
+      "ref_en": "Proverbs 23:23",
+      "text_original": "אֱמֶ֣ת קְ֭נֵה וְאַל־תִּמְכֹּ֑ר חָכְמָ֖ה וּמוּסָ֣ר וּבִינָֽה׃",
+      "text_with_niqqud": "אֱמֶת קְנֵה וְאַל תִּמְכֹּר חָכְמָה וּמוּסָר וּבִינָה",
+      "text_plain": "אמת קנה ואל תמכר חכמה ומוסר ובינה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_024",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 24,
+      "ref": "משלי כג:כד",
+      "ref_en": "Proverbs 23:24",
+      "text_original": "גול (גִּ֣יל) יָ֭גִיל אֲבִ֣י צַדִּ֑יק יולד (וְיוֹלֵ֥ד) חָ֝כָ֗ם וישמח־ (יִשְׂמַח־) בּֽוֹ׃",
+      "text_with_niqqud": "גול (גִּיל) יָגִיל אֲבִי צַדִּיק יולד (וְיוֹלֵד) חָכָם וישמח (יִשְׂמַח ) בּוֹ",
+      "text_plain": "גול (גיל) יגיל אבי צדיק יולד (ויולד) חכם וישמח (ישמח ) בו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_025",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 25,
+      "ref": "משלי כג:כה",
+      "ref_en": "Proverbs 23:25",
+      "text_original": "יִֽשְׂמַח־אָבִ֥יךָ וְאִמֶּ֑ךָ וְ֝תָגֵ֗ל יֽוֹלַדְתֶּֽךָ׃",
+      "text_with_niqqud": "יִשְׂמַח אָבִיךָ וְאִמֶּךָ וְתָגֵל יוֹלַדְתֶּךָ",
+      "text_plain": "ישמח אביך ואמך ותגל יולדתך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_026",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 26,
+      "ref": "משלי כג:כו",
+      "ref_en": "Proverbs 23:26",
+      "text_original": "תְּנָֽה־בְנִ֣י לִבְּךָ֣ לִ֑י וְ֝עֵינֶ֗יךָ דְּרָכַ֥י תרצנה (תִּצֹּֽרְנָה)׃",
+      "text_with_niqqud": "תְּנָה בְנִי לִבְּךָ לִי וְעֵינֶיךָ דְּרָכַי תרצנה (תִּצֹּרְנָה)",
+      "text_plain": "תנה בני לבך לי ועיניך דרכי תרצנה (תצרנה)",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_027",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 27,
+      "ref": "משלי כג:כז",
+      "ref_en": "Proverbs 23:27",
+      "text_original": "כִּֽי־שׁוּחָ֣ה עֲמֻקָּ֣ה זוֹנָ֑ה וּבְאֵ֥ר צָ֝רָ֗ה נָכְרִיָּֽה׃",
+      "text_with_niqqud": "כִּי שׁוּחָה עֲמֻקָּה זוֹנָה וּבְאֵר צָרָה נָכְרִיָּה",
+      "text_plain": "כי שוחה עמקה זונה ובאר צרה נכריה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_028",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 28,
+      "ref": "משלי כג:כח",
+      "ref_en": "Proverbs 23:28",
+      "text_original": "אַף־הִ֭יא כְּחֶ֣תֶף תֶּֽאֱרֹ֑ב וּ֝בֽוֹגְדִ֗ים בְּאָדָ֥ם תּוֹסִֽף׃",
+      "text_with_niqqud": "אַף הִיא כְּחֶתֶף תֶּאֱרֹב וּבוֹגְדִים בְּאָדָם תּוֹסִף",
+      "text_plain": "אף היא כחתף תארב ובוגדים באדם תוסף",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_029",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 29,
+      "ref": "משלי כג:כט",
+      "ref_en": "Proverbs 23:29",
+      "text_original": "לְמִ֨י א֥וֹי לְמִ֪י אֲב֡וֹי לְמִ֤י מדונים (מִדְיָנִ֨ים ׀) לְמִ֥י שִׂ֗יחַ לְ֭מִי פְּצָעִ֣ים חִנָּ֑ם לְ֝מִ֗י חַכְלִל֥וּת עֵינָֽיִם׃",
+      "text_with_niqqud": "לְמִי אוֹי לְמִי אֲבוֹי לְמִי מדונים (מִדְיָנִים ) לְמִי שִׂיחַ לְמִי פְּצָעִים חִנָּם לְמִי חַכְלִלוּת עֵינָיִם",
+      "text_plain": "למי אוי למי אבוי למי מדונים (מדינים ) למי שיח למי פצעים חנם למי חכללות עינים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_030",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 30,
+      "ref": "משלי כג:ל",
+      "ref_en": "Proverbs 23:30",
+      "text_original": "לַֽמְאַחֲרִ֥ים עַל־הַיָּ֑יִן לַ֝בָּאִ֗ים לַחְקֹ֥ר מִמְסָֽךְ׃",
+      "text_with_niqqud": "לַמְאַחֲרִים עַל הַיָּיִן לַבָּאִים לַחְקֹר מִמְסָךְ",
+      "text_plain": "למאחרים על היין לבאים לחקר ממסך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_031",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 31,
+      "ref": "משלי כג:לא",
+      "ref_en": "Proverbs 23:31",
+      "text_original": "אַל־תֵּ֥רֶא יַֽיִן֮ כִּ֤י יִתְאַ֫דָּ֥ם כִּֽי־יִתֵּ֣ן בכיס (בַּכּ֣וֹס) עֵינ֑וֹ יִ֝תְהַלֵּ֗ךְ בְּמֵֽישָׁרִֽים׃",
+      "text_with_niqqud": "אַל תֵּרֶא יַיִן כִּי יִתְאַדָּם כִּי יִתֵּן בכיס (בַּכּוֹס) עֵינוֹ יִתְהַלֵּךְ בְּמֵישָׁרִים",
+      "text_plain": "אל תרא יין כי יתאדם כי יתן בכיס (בכוס) עינו יתהלך במישרים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_032",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 32,
+      "ref": "משלי כג:לב",
+      "ref_en": "Proverbs 23:32",
+      "text_original": "אַֽ֭חֲרִיתוֹ כְּנָחָ֣שׁ יִשָּׁ֑ךְ וּֽכְצִפְעֹנִ֥י יַפְרִֽשׁ׃",
+      "text_with_niqqud": "אַחֲרִיתוֹ כְּנָחָשׁ יִשָּׁךְ וּכְצִפְעֹנִי יַפְרִשׁ",
+      "text_plain": "אחריתו כנחש ישך וכצפעני יפרש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_033",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 33,
+      "ref": "משלי כג:לג",
+      "ref_en": "Proverbs 23:33",
+      "text_original": "עֵ֭ינֶיךָ יִרְא֣וּ זָר֑וֹת וְ֝לִבְּךָ֗ יְדַבֵּ֥ר תַּהְפֻּכֽוֹת׃",
+      "text_with_niqqud": "עֵינֶיךָ יִרְאוּ זָרוֹת וְלִבְּךָ יְדַבֵּר תַּהְפֻּכוֹת",
+      "text_plain": "עיניך יראו זרות ולבך ידבר תהפכות",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_034",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 34,
+      "ref": "משלי כג:לד",
+      "ref_en": "Proverbs 23:34",
+      "text_original": "וְ֭הָיִיתָ כְּשֹׁכֵ֣ב בְּלֶב־יָ֑ם וּ֝כְשֹׁכֵ֗ב בְּרֹ֣אשׁ חִבֵּֽל׃",
+      "text_with_niqqud": "וְהָיִיתָ כְּשֹׁכֵב בְּלֶב יָם וּכְשֹׁכֵב בְּרֹאשׁ חִבֵּל",
+      "text_plain": "והיית כשכב בלב ים וכשכב בראש חבל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    },
+    {
+      "verse_id": "_28_mishley_023_035",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 23,
+      "verse": 35,
+      "ref": "משלי כג:לה",
+      "ref_en": "Proverbs 23:35",
+      "text_original": "הִכּ֥וּנִי בַל־חָלִֽיתִי֮ הֲלָמ֗וּנִי בַּל־יָ֫דָ֥עְתִּי מָתַ֥י אָקִ֑יץ א֝וֹסִ֗יף אֲבַקְשֶׁ֥נּוּ עֽוֹד׃",
+      "text_with_niqqud": "הִכּוּנִי בַל חָלִיתִי הֲלָמוּנִי בַּל יָדָעְתִּי מָתַי אָקִיץ אוֹסִיף אֲבַקְשֶׁנּוּ עוֹד",
+      "text_plain": "הכוני בל חליתי הלמוני בל ידעתי מתי אקיץ אוסיף אבקשנו עוד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-23.txt"
+    }
+  ]
+}

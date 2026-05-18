@@ -1,0 +1,174 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 122,
+  "chapter_id": "_27_tehilim_122",
+  "ref": "תהילים קכב",
+  "ref_en": "Psalms 122",
+  "source_file": "_27_tehilim-122.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_122_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 122,
+      "verse": 1,
+      "ref": "תהילים קכב:א",
+      "ref_en": "Psalms 122:1",
+      "text_original": "שִׁ֥יר הַֽמַּעֲל֗וֹת לְדָ֫וִ֥ד שָׂ֭מַחְתִּי בְּאֹֽמְרִ֣ים לִ֑י בֵּ֖ית יְהֹוָ֣ה נֵלֵֽךְ׃",
+      "text_with_niqqud": "שִׁיר הַמַּעֲלוֹת לְדָוִד שָׂמַחְתִּי בְּאֹמְרִים לִי בֵּית יְהֹוָה נֵלֵךְ",
+      "text_plain": "שיר המעלות לדוד שמחתי באמרים לי בית יהוה נלך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-122.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_122_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 122,
+      "verse": 2,
+      "ref": "תהילים קכב:ב",
+      "ref_en": "Psalms 122:2",
+      "text_original": "עֹֽ֭מְדוֹת הָי֣וּ רַגְלֵ֑ינוּ בִּ֝שְׁעָרַ֗יִךְ יְרֽוּשָׁלִָֽם׃",
+      "text_with_niqqud": "עֹמְדוֹת הָיוּ רַגְלֵינוּ בִּשְׁעָרַיִךְ יְרוּשָׁלִָם",
+      "text_plain": "עמדות היו רגלינו בשעריך ירושלם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-122.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_122_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 122,
+      "verse": 3,
+      "ref": "תהילים קכב:ג",
+      "ref_en": "Psalms 122:3",
+      "text_original": "יְרֽוּשָׁלִַ֥ם הַבְּנוּיָ֑ה כְּ֝עִ֗יר שֶׁחֻבְּרָה־לָּ֥הּ יַחְדָּֽו׃",
+      "text_with_niqqud": "יְרוּשָׁלִַם הַבְּנוּיָה כְּעִיר שֶׁחֻבְּרָה לָּהּ יַחְדָּו",
+      "text_plain": "ירושלם הבנויה כעיר שחברה לה יחדו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-122.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_122_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 122,
+      "verse": 4,
+      "ref": "תהילים קכב:ד",
+      "ref_en": "Psalms 122:4",
+      "text_original": "שֶׁשָּׁ֨ם עָל֪וּ שְׁבָטִ֡ים שִׁבְטֵי־יָ֭הּ עֵד֣וּת לְיִשְׂרָאֵ֑ל לְ֝הֹד֗וֹת לְשֵׁ֣ם יְהֹוָֽה׃",
+      "text_with_niqqud": "שֶׁשָּׁם עָלוּ שְׁבָטִים שִׁבְטֵי יָהּ עֵדוּת לְיִשְׂרָאֵל לְהֹדוֹת לְשֵׁם יְהֹוָה",
+      "text_plain": "ששם עלו שבטים שבטי יה עדות לישראל להדות לשם יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-122.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_122_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 122,
+      "verse": 5,
+      "ref": "תהילים קכב:ה",
+      "ref_en": "Psalms 122:5",
+      "text_original": "כִּ֤י שָׁ֨מָּה ׀ יָֽשְׁב֣וּ כִסְא֣וֹת לְמִשְׁפָּ֑ט כִּ֝סְא֗וֹת לְבֵ֣ית דָּוִֽד׃",
+      "text_with_niqqud": "כִּי שָׁמָּה יָשְׁבוּ כִסְאוֹת לְמִשְׁפָּט כִּסְאוֹת לְבֵית דָּוִד",
+      "text_plain": "כי שמה ישבו כסאות למשפט כסאות לבית דוד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-122.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_122_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 122,
+      "verse": 6,
+      "ref": "תהילים קכב:ו",
+      "ref_en": "Psalms 122:6",
+      "text_original": "שַֽׁ֭אֲלוּ שְׁל֣וֹם יְרֽוּשָׁלִָ֑ם יִ֝שְׁלָ֗יוּ אֹֽהֲבָֽיִךְ׃",
+      "text_with_niqqud": "שַׁאֲלוּ שְׁלוֹם יְרוּשָׁלִָם יִשְׁלָיוּ אֹהֲבָיִךְ",
+      "text_plain": "שאלו שלום ירושלם ישליו אהביך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-122.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_122_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 122,
+      "verse": 7,
+      "ref": "תהילים קכב:ז",
+      "ref_en": "Psalms 122:7",
+      "text_original": "יְהִֽי־שָׁל֥וֹם בְּחֵילֵ֑ךְ שַׁ֝לְוָ֗ה בְּאַרְמְנוֹתָֽיִךְ׃",
+      "text_with_niqqud": "יְהִי שָׁלוֹם בְּחֵילֵךְ שַׁלְוָה בְּאַרְמְנוֹתָיִךְ",
+      "text_plain": "יהי שלום בחילך שלוה בארמנותיך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-122.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_122_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 122,
+      "verse": 8,
+      "ref": "תהילים קכב:ח",
+      "ref_en": "Psalms 122:8",
+      "text_original": "לְ֭מַעַן אַחַ֣י וְרֵעָ֑י אֲדַבְּרָה־נָּ֖א שָׁל֣וֹם בָּֽךְ׃",
+      "text_with_niqqud": "לְמַעַן אַחַי וְרֵעָי אֲדַבְּרָה נָּא שָׁלוֹם בָּךְ",
+      "text_plain": "למען אחי ורעי אדברה נא שלום בך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-122.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_122_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 122,
+      "verse": 9,
+      "ref": "תהילים קכב:ט",
+      "ref_en": "Psalms 122:9",
+      "text_original": "לְ֭מַעַן בֵּית־יְהֹוָ֣ה אֱלֹהֵ֑ינוּ אֲבַקְשָׁ֖ה ט֣וֹב לָֽךְ׃",
+      "text_with_niqqud": "לְמַעַן בֵּית יְהֹוָה אֱלֹהֵינוּ אֲבַקְשָׁה טוֹב לָךְ",
+      "text_plain": "למען בית יהוה אלהינו אבקשה טוב לך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-122.txt"
+    }
+  ]
+}

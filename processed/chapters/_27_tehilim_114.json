@@ -1,0 +1,156 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 114,
+  "chapter_id": "_27_tehilim_114",
+  "ref": "תהילים קיד",
+  "ref_en": "Psalms 114",
+  "source_file": "_27_tehilim-114.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_114_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 114,
+      "verse": 1,
+      "ref": "תהילים קיד:א",
+      "ref_en": "Psalms 114:1",
+      "text_original": "בְּצֵ֣את יִ֭שְׂרָאֵל מִמִּצְרָ֑יִם בֵּ֥ית יַֽ֝עֲקֹ֗ב מֵעַ֥ם לֹעֵֽז׃",
+      "text_with_niqqud": "בְּצֵאת יִשְׂרָאֵל מִמִּצְרָיִם בֵּית יַעֲקֹב מֵעַם לֹעֵז",
+      "text_plain": "בצאת ישראל ממצרים בית יעקב מעם לעז",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-114.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_114_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 114,
+      "verse": 2,
+      "ref": "תהילים קיד:ב",
+      "ref_en": "Psalms 114:2",
+      "text_original": "הָֽיְתָ֣ה יְהוּדָ֣ה לְקָדְשׁ֑וֹ יִ֝שְׂרָאֵ֗ל מַמְשְׁלוֹתָֽיו׃",
+      "text_with_niqqud": "הָיְתָה יְהוּדָה לְקָדְשׁוֹ יִשְׂרָאֵל מַמְשְׁלוֹתָיו",
+      "text_plain": "היתה יהודה לקדשו ישראל ממשלותיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-114.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_114_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 114,
+      "verse": 3,
+      "ref": "תהילים קיד:ג",
+      "ref_en": "Psalms 114:3",
+      "text_original": "הַיָּ֣ם רָ֭אָה וַיָּנֹ֑ס הַ֝יַּרְדֵּ֗ן יִסֹּ֥ב לְאָחֽוֹר׃",
+      "text_with_niqqud": "הַיָּם רָאָה וַיָּנֹס הַיַּרְדֵּן יִסֹּב לְאָחוֹר",
+      "text_plain": "הים ראה וינס הירדן יסב לאחור",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-114.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_114_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 114,
+      "verse": 4,
+      "ref": "תהילים קיד:ד",
+      "ref_en": "Psalms 114:4",
+      "text_original": "הֶֽ֭הָרִים רָֽקְד֣וּ כְאֵילִ֑ים גְּ֝בָע֗וֹת כִּבְנֵי־צֹֽאן׃",
+      "text_with_niqqud": "הֶהָרִים רָקְדוּ כְאֵילִים גְּבָעוֹת כִּבְנֵי צֹאן",
+      "text_plain": "ההרים רקדו כאילים גבעות כבני צאן",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-114.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_114_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 114,
+      "verse": 5,
+      "ref": "תהילים קיד:ה",
+      "ref_en": "Psalms 114:5",
+      "text_original": "מַה־לְּךָ֣ הַ֭יָּם כִּ֣י תָנ֑וּס הַ֝יַּרְדֵּ֗ן תִּסֹּ֥ב לְאָחֽוֹר׃",
+      "text_with_niqqud": "מַה לְּךָ הַיָּם כִּי תָנוּס הַיַּרְדֵּן תִּסֹּב לְאָחוֹר",
+      "text_plain": "מה לך הים כי תנוס הירדן תסב לאחור",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-114.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_114_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 114,
+      "verse": 6,
+      "ref": "תהילים קיד:ו",
+      "ref_en": "Psalms 114:6",
+      "text_original": "הֶֽ֭הָרִים תִּרְקְד֣וּ כְאֵילִ֑ים גְּ֝בָע֗וֹת כִּבְנֵי־צֹֽאן׃",
+      "text_with_niqqud": "הֶהָרִים תִּרְקְדוּ כְאֵילִים גְּבָעוֹת כִּבְנֵי צֹאן",
+      "text_plain": "ההרים תרקדו כאילים גבעות כבני צאן",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-114.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_114_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 114,
+      "verse": 7,
+      "ref": "תהילים קיד:ז",
+      "ref_en": "Psalms 114:7",
+      "text_original": "מִלִּפְנֵ֣י אָ֭דוֹן ח֣וּלִי אָ֑רֶץ מִ֝לִּפְנֵ֗י אֱל֣וֹהַּ יַֽעֲקֹֽב׃",
+      "text_with_niqqud": "מִלִּפְנֵי אָדוֹן חוּלִי אָרֶץ מִלִּפְנֵי אֱלוֹהַּ יַעֲקֹב",
+      "text_plain": "מלפני אדון חולי ארץ מלפני אלוה יעקב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-114.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_114_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 114,
+      "verse": 8,
+      "ref": "תהילים קיד:ח",
+      "ref_en": "Psalms 114:8",
+      "text_original": "הַהֹֽפְכִ֣י הַצּ֣וּר אֲגַם־מָ֑יִם חַ֝לָּמִ֗ישׁ לְמַעְיְנוֹ־מָֽיִם׃",
+      "text_with_niqqud": "הַהֹפְכִי הַצּוּר אֲגַם מָיִם חַלָּמִישׁ לְמַעְיְנוֹ מָיִם",
+      "text_plain": "ההפכי הצור אגם מים חלמיש למעינו מים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-114.txt"
+    }
+  ]
+}

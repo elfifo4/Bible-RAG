@@ -1,0 +1,887 @@
+{
+  "book": "דברי הימים א",
+  "book_en": "1 Chronicles",
+  "book_slug": "divrei_hayamim_a",
+  "chapter": 16,
+  "chapter_id": "_38_divrei_hayamim_a_016",
+  "ref": "דברי הימים א טז",
+  "ref_en": "1 Chronicles 16",
+  "source_file": "_38_divrei_hayamim_a-16.txt",
+  "verses": [
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_001",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 1,
+      "ref": "דברי הימים א טז:א",
+      "ref_en": "1 Chronicles 16:1",
+      "text_original": "וַיָּבִ֨יאוּ֙ אֶת־אֲר֣וֹן הָֽאֱלֹהִ֔ים וַיַּצִּ֣יגוּ אֹת֔וֹ בְּת֣וֹךְ הָאֹ֔הֶל אֲשֶׁ֥ר נָֽטָה־ל֖וֹ דָּוִ֑יד וַיַּקְרִ֛יבוּ עֹל֥וֹת וּשְׁלָמִ֖ים לִפְנֵ֥י הָֽאֱלֹהִֽים׃",
+      "text_with_niqqud": "וַיָּבִיאוּ אֶת אֲרוֹן הָאֱלֹהִים וַיַּצִּיגוּ אֹתוֹ בְּתוֹךְ הָאֹהֶל אֲשֶׁר נָטָה לוֹ דָּוִיד וַיַּקְרִיבוּ עֹלוֹת וּשְׁלָמִים לִפְנֵי הָאֱלֹהִים",
+      "text_plain": "ויביאו את ארון האלהים ויציגו אתו בתוך האהל אשר נטה לו דויד ויקריבו עלות ושלמים לפני האלהים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_002",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 2,
+      "ref": "דברי הימים א טז:ב",
+      "ref_en": "1 Chronicles 16:2",
+      "text_original": "וַיְכַ֣ל דָּוִ֔יד מֵהַֽעֲל֥וֹת הָֽעֹלָ֖ה וְהַשְּׁלָמִ֑ים וַיְבָ֥רֶךְ אֶת־הָעָ֖ם בְּשֵׁ֥ם יְהֹוָֽה׃",
+      "text_with_niqqud": "וַיְכַל דָּוִיד מֵהַעֲלוֹת הָעֹלָה וְהַשְּׁלָמִים וַיְבָרֶךְ אֶת הָעָם בְּשֵׁם יְהֹוָה",
+      "text_plain": "ויכל דויד מהעלות העלה והשלמים ויברך את העם בשם יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_003",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 3,
+      "ref": "דברי הימים א טז:ג",
+      "ref_en": "1 Chronicles 16:3",
+      "text_original": "וַיְחַלֵּק֙ לְכָל־אִ֣ישׁ יִשְׂרָאֵ֔ל מֵאִ֖ישׁ וְעַד־אִשָּׁ֑ה לְאִישׁ֙ כִּכַּר־לֶ֔חֶם וְאֶשְׁפָּ֖ר וַֽאֲשִׁישָֽׁה׃",
+      "text_with_niqqud": "וַיְחַלֵּק לְכָל אִישׁ יִשְׂרָאֵל מֵאִישׁ וְעַד אִשָּׁה לְאִישׁ כִּכַּר לֶחֶם וְאֶשְׁפָּר וַאֲשִׁישָׁה",
+      "text_plain": "ויחלק לכל איש ישראל מאיש ועד אשה לאיש ככר לחם ואשפר ואשישה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_004",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 4,
+      "ref": "דברי הימים א טז:ד",
+      "ref_en": "1 Chronicles 16:4",
+      "text_original": "וַיִּתֵּ֞ן לִפְנֵ֨י אֲר֧וֹן יְהֹוָ֛ה מִן־הַלְוִיִּ֖ם מְשָֽׁרְתִ֑ים וּלְהַזְכִּיר֙ וּלְהוֹד֣וֹת וּלְהַלֵּ֔ל לַֽיהֹוָ֖ה אֱלֹהֵ֥י יִשְׂרָאֵֽל׃",
+      "text_with_niqqud": "וַיִּתֵּן לִפְנֵי אֲרוֹן יְהֹוָה מִן הַלְוִיִּם מְשָׁרְתִים וּלְהַזְכִּיר וּלְהוֹדוֹת וּלְהַלֵּל לַיהֹוָה אֱלֹהֵי יִשְׂרָאֵל",
+      "text_plain": "ויתן לפני ארון יהוה מן הלוים משרתים ולהזכיר ולהודות ולהלל ליהוה אלהי ישראל",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_005",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 5,
+      "ref": "דברי הימים א טז:ה",
+      "ref_en": "1 Chronicles 16:5",
+      "text_original": "אָסָ֥ף הָרֹ֖אשׁ וּמִשְׁנֵ֣הוּ זְכַרְיָ֑ה יְעִיאֵ֡ל וּשְׁמִֽירָמ֡וֹת וִֽיחִיאֵ֡ל וּמַתִּתְיָ֡ה וֶֽאֱלִיאָ֡ב וּבְנָיָ֩הוּ֩ וְעֹבֵ֨ד אֱדֹ֜ם וִֽיעִיאֵ֗ל בִּכְלֵ֤י נְבָלִים֙ וּבְכִנֹּר֔וֹת וְאָסָ֖ף בַּֽמְצִלְתַּ֥יִם מַשְׁמִֽיעַ׃",
+      "text_with_niqqud": "אָסָף הָרֹאשׁ וּמִשְׁנֵהוּ זְכַרְיָה יְעִיאֵל וּשְׁמִירָמוֹת וִיחִיאֵל וּמַתִּתְיָה וֶאֱלִיאָב וּבְנָיָהוּ וְעֹבֵד אֱדֹם וִיעִיאֵל בִּכְלֵי נְבָלִים וּבְכִנֹּרוֹת וְאָסָף בַּמְצִלְתַּיִם מַשְׁמִיעַ",
+      "text_plain": "אסף הראש ומשנהו זכריה יעיאל ושמירמות ויחיאל ומתתיה ואליאב ובניהו ועבד אדם ויעיאל בכלי נבלים ובכנרות ואסף במצלתים משמיע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_006",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 6,
+      "ref": "דברי הימים א טז:ו",
+      "ref_en": "1 Chronicles 16:6",
+      "text_original": "וּבְנָיָ֥הוּ וְיַֽחֲזִיאֵ֖ל הַכֹּֽהֲנִ֑ים בַּחֲצֹֽצְר֣וֹת תָּמִ֔יד לִפְנֵ֖י אֲר֥וֹן בְּרִית־הָֽאֱלֹהִֽים׃",
+      "text_with_niqqud": "וּבְנָיָהוּ וְיַחֲזִיאֵל הַכֹּהֲנִים בַּחֲצֹצְרוֹת תָּמִיד לִפְנֵי אֲרוֹן בְּרִית הָאֱלֹהִים",
+      "text_plain": "ובניהו ויחזיאל הכהנים בחצצרות תמיד לפני ארון ברית האלהים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_007",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 7,
+      "ref": "דברי הימים א טז:ז",
+      "ref_en": "1 Chronicles 16:7",
+      "text_original": "בַּיּ֣וֹם הַה֗וּא אָ֣ז נָתַ֤ן דָּוִיד֙ בָּרֹ֔אשׁ לְהֹד֖וֹת לַֽיהֹוָ֑ה בְּיַד־אָסָ֖ף וְאֶחָֽיו׃",
+      "text_with_niqqud": "בַּיּוֹם הַהוּא אָז נָתַן דָּוִיד בָּרֹאשׁ לְהֹדוֹת לַיהֹוָה בְּיַד אָסָף וְאֶחָיו",
+      "text_plain": "ביום ההוא אז נתן דויד בראש להדות ליהוה ביד אסף ואחיו",
+      "markers": {
+        "before": [],
+        "after": [
+          "ש"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_008",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 8,
+      "ref": "דברי הימים א טז:ח",
+      "ref_en": "1 Chronicles 16:8",
+      "text_original": "הוֹד֤וּ לַֽיהֹוָה֙ קִרְא֣וּ בִשְׁמ֔וֹ הוֹדִ֥יעוּ בָֽעַמִּ֖ים עֲלִֽילֹתָֽיו׃",
+      "text_with_niqqud": "הוֹדוּ לַיהֹוָה קִרְאוּ בִשְׁמוֹ הוֹדִיעוּ בָעַמִּים עֲלִילֹתָיו",
+      "text_plain": "הודו ליהוה קראו בשמו הודיעו בעמים עלילתיו",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_009",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 9,
+      "ref": "דברי הימים א טז:ט",
+      "ref_en": "1 Chronicles 16:9",
+      "text_original": "שִׁ֤ירוּ לוֹ֙ זַמְּרוּ־ל֔וֹ שִׂ֖יחוּ בְּכָל־נִפְלְאֹתָֽיו׃",
+      "text_with_niqqud": "שִׁירוּ לוֹ זַמְּרוּ לוֹ שִׂיחוּ בְּכָל נִפְלְאֹתָיו",
+      "text_plain": "שירו לו זמרו לו שיחו בכל נפלאתיו",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_010",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 10,
+      "ref": "דברי הימים א טז:י",
+      "ref_en": "1 Chronicles 16:10",
+      "text_original": "הִֽתְהַלְלוּ֙ בְּשֵׁ֣ם קָדְשׁ֔וֹ יִשְׂמַ֕ח לֵ֖ב מְבַקְשֵׁ֥י יְהֹוָֽה׃",
+      "text_with_niqqud": "הִתְהַלְלוּ בְּשֵׁם קָדְשׁוֹ יִשְׂמַח לֵב מְבַקְשֵׁי יְהֹוָה",
+      "text_plain": "התהללו בשם קדשו ישמח לב מבקשי יהוה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_011",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 11,
+      "ref": "דברי הימים א טז:יא",
+      "ref_en": "1 Chronicles 16:11",
+      "text_original": "דִּרְשׁ֤וּ יְהֹוָה֙ וְעֻזּ֔וֹ בַּקְּשׁ֥וּ פָנָ֖יו תָּמִֽיד׃",
+      "text_with_niqqud": "דִּרְשׁוּ יְהֹוָה וְעֻזּוֹ בַּקְּשׁוּ פָנָיו תָּמִיד",
+      "text_plain": "דרשו יהוה ועזו בקשו פניו תמיד",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_012",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 12,
+      "ref": "דברי הימים א טז:יב",
+      "ref_en": "1 Chronicles 16:12",
+      "text_original": "זִכְר֗וּ נִפְלְאֹתָיו֙ אֲשֶׁ֣ר עָשָׂ֔ה מֹֽפְתָ֖יו וּמִשְׁפְּטֵי־פִֽיהוּ׃",
+      "text_with_niqqud": "זִכְרוּ נִפְלְאֹתָיו אֲשֶׁר עָשָׂה מֹפְתָיו וּמִשְׁפְּטֵי פִיהוּ",
+      "text_plain": "זכרו נפלאתיו אשר עשה מפתיו ומשפטי פיהו",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_013",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 13,
+      "ref": "דברי הימים א טז:יג",
+      "ref_en": "1 Chronicles 16:13",
+      "text_original": "זֶ֚רַע יִשְׂרָאֵ֣ל עַבְדּ֔וֹ בְּנֵ֥י יַֽעֲקֹ֖ב בְּחִירָֽיו׃",
+      "text_with_niqqud": "זֶרַע יִשְׂרָאֵל עַבְדּוֹ בְּנֵי יַעֲקֹב בְּחִירָיו",
+      "text_plain": "זרע ישראל עבדו בני יעקב בחיריו",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_014",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 14,
+      "ref": "דברי הימים א טז:יד",
+      "ref_en": "1 Chronicles 16:14",
+      "text_original": "ה֚וּא יְהֹוָ֣ה אֱלֹהֵ֔ינוּ בְּכָל־הָאָ֖רֶץ מִשְׁפָּטָֽיו׃",
+      "text_with_niqqud": "הוּא יְהֹוָה אֱלֹהֵינוּ בְּכָל הָאָרֶץ מִשְׁפָּטָיו",
+      "text_plain": "הוא יהוה אלהינו בכל הארץ משפטיו",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_015",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 15,
+      "ref": "דברי הימים א טז:טו",
+      "ref_en": "1 Chronicles 16:15",
+      "text_original": "זִכְר֤וּ לְעוֹלָם֙ בְּרִית֔וֹ דָּבָ֥ר צִוָּ֖ה לְאֶ֥לֶף דּֽוֹר׃",
+      "text_with_niqqud": "זִכְרוּ לְעוֹלָם בְּרִיתוֹ דָּבָר צִוָּה לְאֶלֶף דּוֹר",
+      "text_plain": "זכרו לעולם בריתו דבר צוה לאלף דור",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_016",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 16,
+      "ref": "דברי הימים א טז:טז",
+      "ref_en": "1 Chronicles 16:16",
+      "text_original": "אֲשֶׁ֤ר כָּרַת֙ אֶת־אַבְרָהָ֔ם וּשְׁבֽוּעָת֖וֹ לְיִצְחָֽק׃",
+      "text_with_niqqud": "אֲשֶׁר כָּרַת אֶת אַבְרָהָם וּשְׁבוּעָתוֹ לְיִצְחָק",
+      "text_plain": "אשר כרת את אברהם ושבועתו ליצחק",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_017",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 17,
+      "ref": "דברי הימים א טז:יז",
+      "ref_en": "1 Chronicles 16:17",
+      "text_original": "וַיַּֽעֲמִידֶ֤הָ לְיַֽעֲקֹב֙ לְחֹ֔ק לְיִשְׂרָאֵ֖ל בְּרִ֥ית עוֹלָֽם׃",
+      "text_with_niqqud": "וַיַּעֲמִידֶהָ לְיַעֲקֹב לְחֹק לְיִשְׂרָאֵל בְּרִית עוֹלָם",
+      "text_plain": "ויעמידה ליעקב לחק לישראל ברית עולם",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_018",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 18,
+      "ref": "דברי הימים א טז:יח",
+      "ref_en": "1 Chronicles 16:18",
+      "text_original": "לֵאמֹ֗ר לְךָ֙ אֶתֵּ֣ן אֶֽרֶץ־כְּנָ֔עַן חֶ֖בֶל נַֽחֲלַתְכֶֽם׃",
+      "text_with_niqqud": "לֵאמֹר לְךָ אֶתֵּן אֶרֶץ כְּנָעַן חֶבֶל נַחֲלַתְכֶם",
+      "text_plain": "לאמר לך אתן ארץ כנען חבל נחלתכם",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_019",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 19,
+      "ref": "דברי הימים א טז:יט",
+      "ref_en": "1 Chronicles 16:19",
+      "text_original": "בִּהְיֽוֹתְכֶם֙ מְתֵ֣י מִסְפָּ֔ר כִּמְעַ֖ט וְגָרִ֥ים בָּֽהּ׃",
+      "text_with_niqqud": "בִּהְיוֹתְכֶם מְתֵי מִסְפָּר כִּמְעַט וְגָרִים בָּהּ",
+      "text_plain": "בהיותכם מתי מספר כמעט וגרים בה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_020",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 20,
+      "ref": "דברי הימים א טז:כ",
+      "ref_en": "1 Chronicles 16:20",
+      "text_original": "וַיִּֽתְהַלְּכוּ֙ מִגּ֣וֹי אֶל־גּ֔וֹי וּמִמַּמְלָכָ֖ה אֶל־עַ֥ם אַחֵֽר׃",
+      "text_with_niqqud": "וַיִּתְהַלְּכוּ מִגּוֹי אֶל גּוֹי וּמִמַּמְלָכָה אֶל עַם אַחֵר",
+      "text_plain": "ויתהלכו מגוי אל גוי ומממלכה אל עם אחר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_021",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 21,
+      "ref": "דברי הימים א טז:כא",
+      "ref_en": "1 Chronicles 16:21",
+      "text_original": "לֹֽא־הִנִּ֤יחַ לְאִישׁ֙ לְעָשְׁקָ֔ם וַיּ֥וֹכַח עֲלֵיהֶ֖ם מְלָכִֽים׃",
+      "text_with_niqqud": "לֹא הִנִּיחַ לְאִישׁ לְעָשְׁקָם וַיּוֹכַח עֲלֵיהֶם מְלָכִים",
+      "text_plain": "לא הניח לאיש לעשקם ויוכח עליהם מלכים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_022",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 22,
+      "ref": "דברי הימים א טז:כב",
+      "ref_en": "1 Chronicles 16:22",
+      "text_original": "אַֽל־תִּגְּעוּ֙ בִּמְשִׁיחָ֔י וּבִנְבִיאַ֖י אַל־תָּרֵֽעוּ׃",
+      "text_with_niqqud": "אַל תִּגְּעוּ בִּמְשִׁיחָי וּבִנְבִיאַי אַל תָּרֵעוּ",
+      "text_plain": "אל תגעו במשיחי ובנביאי אל תרעו",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר",
+          "ש"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_023",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 23,
+      "ref": "דברי הימים א טז:כג",
+      "ref_en": "1 Chronicles 16:23",
+      "text_original": "שִׁ֤ירוּ לַֽיהֹוָה֙ כָּל־הָאָ֔רֶץ בַּשְּׂר֥וּ מִיּֽוֹם־אֶל־י֖וֹם יְשֽׁוּעָתֽוֹ׃",
+      "text_with_niqqud": "שִׁירוּ לַיהֹוָה כָּל הָאָרֶץ בַּשְּׂרוּ מִיּוֹם אֶל יוֹם יְשׁוּעָתוֹ",
+      "text_plain": "שירו ליהוה כל הארץ בשרו מיום אל יום ישועתו",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_024",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 24,
+      "ref": "דברי הימים א טז:כד",
+      "ref_en": "1 Chronicles 16:24",
+      "text_original": "סַפְּר֤וּ בַגּוֹיִם֙ אֶת־כְּבוֹד֔וֹ בְּכָל־הָֽעַמִּ֖ים נִפְלְאֹתָֽיו׃",
+      "text_with_niqqud": "סַפְּרוּ בַגּוֹיִם אֶת כְּבוֹדוֹ בְּכָל הָעַמִּים נִפְלְאֹתָיו",
+      "text_plain": "ספרו בגוים את כבודו בכל העמים נפלאתיו",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_025",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 25,
+      "ref": "דברי הימים א טז:כה",
+      "ref_en": "1 Chronicles 16:25",
+      "text_original": "כִּי֩ גָד֨וֹל יְהֹוָ֤ה וּמְהֻלָּל֙ מְאֹ֔ד וְנוֹרָ֥א ה֖וּא עַל־כָּל־אֱלֹהִֽים׃",
+      "text_with_niqqud": "כִּי גָדוֹל יְהֹוָה וּמְהֻלָּל מְאֹד וְנוֹרָא הוּא עַל כָּל אֱלֹהִים",
+      "text_plain": "כי גדול יהוה ומהלל מאד ונורא הוא על כל אלהים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_026",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 26,
+      "ref": "דברי הימים א טז:כו",
+      "ref_en": "1 Chronicles 16:26",
+      "text_original": "כִּ֠י כָּל־אֱלֹהֵ֤י הָֽעַמִּים֙ אֱלִילִ֔ים וַֽיהֹוָ֖ה שָׁמַ֥יִם עָשָֽׂה׃",
+      "text_with_niqqud": "כִּי כָּל אֱלֹהֵי הָעַמִּים אֱלִילִים וַיהֹוָה שָׁמַיִם עָשָׂה",
+      "text_plain": "כי כל אלהי העמים אלילים ויהוה שמים עשה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_027",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 27,
+      "ref": "דברי הימים א טז:כז",
+      "ref_en": "1 Chronicles 16:27",
+      "text_original": "ה֤וֹד וְהָדָר֙ לְפָנָ֔יו עֹ֥ז וְחֶדְוָ֖ה בִּמְקֹמֽוֹ׃",
+      "text_with_niqqud": "הוֹד וְהָדָר לְפָנָיו עֹז וְחֶדְוָה בִּמְקֹמוֹ",
+      "text_plain": "הוד והדר לפניו עז וחדוה במקמו",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_028",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 28,
+      "ref": "דברי הימים א טז:כח",
+      "ref_en": "1 Chronicles 16:28",
+      "text_original": "הָב֤וּ לַֽיהֹוָה֙ מִשְׁפְּח֣וֹת עַמִּ֔ים הָב֥וּ לַֽיהֹוָ֖ה כָּב֥וֹד וָעֹֽז׃",
+      "text_with_niqqud": "הָבוּ לַיהֹוָה מִשְׁפְּחוֹת עַמִּים הָבוּ לַיהֹוָה כָּבוֹד וָעֹז",
+      "text_plain": "הבו ליהוה משפחות עמים הבו ליהוה כבוד ועז",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_029",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 29,
+      "ref": "דברי הימים א טז:כט",
+      "ref_en": "1 Chronicles 16:29",
+      "text_original": "הָב֥וּ לַֽיהֹוָ֖ה כְּב֣וֹד שְׁמ֑וֹ שְׂא֤וּ מִנְחָה֙ וּבֹ֣אוּ לְפָנָ֔יו הִשְׁתַּֽחֲו֥וּ לַֽיהֹוָ֖ה בְּהַדְרַת־קֹֽדֶשׁ׃",
+      "text_with_niqqud": "הָבוּ לַיהֹוָה כְּבוֹד שְׁמוֹ שְׂאוּ מִנְחָה וּבֹאוּ לְפָנָיו הִשְׁתַּחֲווּ לַיהֹוָה בְּהַדְרַת קֹדֶשׁ",
+      "text_plain": "הבו ליהוה כבוד שמו שאו מנחה ובאו לפניו השתחוו ליהוה בהדרת קדש",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_030",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 30,
+      "ref": "דברי הימים א טז:ל",
+      "ref_en": "1 Chronicles 16:30",
+      "text_original": "חִ֤ילוּ מִלְּפָנָיו֙ כָּל־הָאָ֔רֶץ אַף־תִּכּ֥וֹן תֵּבֵ֖ל בַּל־תִּמּֽוֹט׃",
+      "text_with_niqqud": "חִילוּ מִלְּפָנָיו כָּל הָאָרֶץ אַף תִּכּוֹן תֵּבֵל בַּל תִּמּוֹט",
+      "text_plain": "חילו מלפניו כל הארץ אף תכון תבל בל תמוט",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_031",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 31,
+      "ref": "דברי הימים א טז:לא",
+      "ref_en": "1 Chronicles 16:31",
+      "text_original": "יִשְׂמְח֤וּ הַשָּׁמַ֨יִם֙ וְתָגֵ֣ל הָאָ֔רֶץ וְיֹֽאמְר֥וּ בַגּוֹיִ֖ם יְהֹוָ֥ה מָלָֽךְ׃",
+      "text_with_niqqud": "יִשְׂמְחוּ הַשָּׁמַיִם וְתָגֵל הָאָרֶץ וְיֹאמְרוּ בַגּוֹיִם יְהֹוָה מָלָךְ",
+      "text_plain": "ישמחו השמים ותגל הארץ ויאמרו בגוים יהוה מלך",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_032",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 32,
+      "ref": "דברי הימים א טז:לב",
+      "ref_en": "1 Chronicles 16:32",
+      "text_original": "יִרְעַ֤ם הַיָּם֙ וּמְלוֹא֔וֹ יַֽעֲלֹ֥ץ הַשָּׂדֶ֖ה וְכָל־אֲשֶׁר־בּֽוֹ׃",
+      "text_with_niqqud": "יִרְעַם הַיָּם וּמְלוֹאוֹ יַעֲלֹץ הַשָּׂדֶה וְכָל אֲשֶׁר בּוֹ",
+      "text_plain": "ירעם הים ומלואו יעלץ השדה וכל אשר בו",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_033",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 33,
+      "ref": "דברי הימים א טז:לג",
+      "ref_en": "1 Chronicles 16:33",
+      "text_original": "אָ֥ז יְרַנְּנ֖וּ עֲצֵ֣י הַיָּ֑עַר מִלִּפְנֵ֣י יְהֹוָ֔ה כִּי־בָ֖א לִשְׁפּ֥וֹט אֶת־הָאָֽרֶץ׃",
+      "text_with_niqqud": "אָז יְרַנְּנוּ עֲצֵי הַיָּעַר מִלִּפְנֵי יְהֹוָה כִּי בָא לִשְׁפּוֹט אֶת הָאָרֶץ",
+      "text_plain": "אז ירננו עצי היער מלפני יהוה כי בא לשפוט את הארץ",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_034",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 34,
+      "ref": "דברי הימים א טז:לד",
+      "ref_en": "1 Chronicles 16:34",
+      "text_original": "הוֹד֤וּ לַֽיהֹוָה֙ כִּ֣י ט֔וֹב כִּ֥י לְעוֹלָ֖ם חַסְדּֽוֹ׃",
+      "text_with_niqqud": "הוֹדוּ לַיהֹוָה כִּי טוֹב כִּי לְעוֹלָם חַסְדּוֹ",
+      "text_plain": "הודו ליהוה כי טוב כי לעולם חסדו",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_035",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 35,
+      "ref": "דברי הימים א טז:לה",
+      "ref_en": "1 Chronicles 16:35",
+      "text_original": "וְאִמְר֕וּ הֽוֹשִׁיעֵ֨נוּ֙ אֱלֹהֵ֣י יִשְׁעֵ֔נוּ וְקַבְּצֵ֥נוּ וְהַצִּילֵ֖נוּ מִן־הַגּוֹיִ֑ם לְהֹדוֹת֙ לְשֵׁ֣ם קָדְשֶׁ֔ךָ לְהִשְׁתַּבֵּ֖חַ בִּתְהִלָּתֶֽךָ׃",
+      "text_with_niqqud": "וְאִמְרוּ הוֹשִׁיעֵנוּ אֱלֹהֵי יִשְׁעֵנוּ וְקַבְּצֵנוּ וְהַצִּילֵנוּ מִן הַגּוֹיִם לְהֹדוֹת לְשֵׁם קָדְשֶׁךָ לְהִשְׁתַּבֵּחַ בִּתְהִלָּתֶךָ",
+      "text_plain": "ואמרו הושיענו אלהי ישענו וקבצנו והצילנו מן הגוים להדות לשם קדשך להשתבח בתהלתך",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס",
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_036",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 36,
+      "ref": "דברי הימים א טז:לו",
+      "ref_en": "1 Chronicles 16:36",
+      "text_original": "בָּר֤וּךְ יְהֹוָה֙ אֱלֹהֵ֣י יִשְׂרָאֵ֔ל מִן־הָֽעוֹלָ֖ם וְעַ֣ד הָֽעֹלָ֑ם וַיֹּֽאמְר֤וּ כָל־הָעָם֙ אָמֵ֔ן וְהַלֵּ֖ל לַֽיהֹוָֽה׃",
+      "text_with_niqqud": "בָּרוּךְ יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל מִן הָעוֹלָם וְעַד הָעֹלָם וַיֹּאמְרוּ כָל הָעָם אָמֵן וְהַלֵּל לַיהֹוָה",
+      "text_plain": "ברוך יהוה אלהי ישראל מן העולם ועד העלם ויאמרו כל העם אמן והלל ליהוה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס",
+          "ר",
+          "ש"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_037",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 37,
+      "ref": "דברי הימים א טז:לז",
+      "ref_en": "1 Chronicles 16:37",
+      "text_original": "וַיַּֽעֲזָב־שָׁ֗ם לִפְנֵי֙ אֲר֣וֹן בְּרִית־יְהֹוָ֔ה לְאָסָ֖ף וּלְאֶחָ֑יו לְשָׁרֵ֞ת לִפְנֵ֧י הָֽאָר֛וֹן תָּמִ֖יד לִדְבַר־י֥וֹם בְּיוֹמֽוֹ׃",
+      "text_with_niqqud": "וַיַּעֲזָב שָׁם לִפְנֵי אֲרוֹן בְּרִית יְהֹוָה לְאָסָף וּלְאֶחָיו לְשָׁרֵת לִפְנֵי הָאָרוֹן תָּמִיד לִדְבַר יוֹם בְּיוֹמוֹ",
+      "text_plain": "ויעזב שם לפני ארון ברית יהוה לאסף ולאחיו לשרת לפני הארון תמיד לדבר יום ביומו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_038",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 38,
+      "ref": "דברי הימים א טז:לח",
+      "ref_en": "1 Chronicles 16:38",
+      "text_original": "וְעֹבֵ֥ד אֱדֹ֛ם וַֽאֲחֵיהֶ֖ם שִׁשִּׁ֣ים וּשְׁמוֹנָ֑ה וְעֹבֵ֨ד אֱדֹ֧ם בֶּן־יְדִית֛וּן וְחֹסָ֖ה לְשֹֽׁעֲרִֽים׃",
+      "text_with_niqqud": "וְעֹבֵד אֱדֹם וַאֲחֵיהֶם שִׁשִּׁים וּשְׁמוֹנָה וְעֹבֵד אֱדֹם בֶּן יְדִיתוּן וְחֹסָה לְשֹׁעֲרִים",
+      "text_plain": "ועבד אדם ואחיהם ששים ושמונה ועבד אדם בן ידיתון וחסה לשערים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_039",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 39,
+      "ref": "דברי הימים א טז:לט",
+      "ref_en": "1 Chronicles 16:39",
+      "text_original": "וְאֵ֣ת ׀ צָד֣וֹק הַכֹּהֵ֗ן וְאֶחָיו֙ הַכֹּ֣הֲנִ֔ים לִפְנֵ֖י מִשְׁכַּ֣ן יְהֹוָ֑ה בַּבָּמָ֖ה אֲשֶׁ֥ר בְּגִבְעֽוֹן׃",
+      "text_with_niqqud": "וְאֵת צָדוֹק הַכֹּהֵן וְאֶחָיו הַכֹּהֲנִים לִפְנֵי מִשְׁכַּן יְהֹוָה בַּבָּמָה אֲשֶׁר בְּגִבְעוֹן",
+      "text_plain": "ואת צדוק הכהן ואחיו הכהנים לפני משכן יהוה בבמה אשר בגבעון",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_040",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 40,
+      "ref": "דברי הימים א טז:מ",
+      "ref_en": "1 Chronicles 16:40",
+      "text_original": "לְֽהַעֲלוֹת֩ עֹל֨וֹת לַֽיהֹוָ֜ה עַל־מִזְבַּ֧ח הָֽעֹלָ֛ה תָּמִ֖יד לַבֹּ֣קֶר וְלָעָ֑רֶב וּלְכָל־הַכָּתוּב֙ בְּתוֹרַ֣ת יְהֹוָ֔ה אֲשֶׁ֥ר צִוָּ֖ה עַל־יִשְׂרָאֵֽל׃",
+      "text_with_niqqud": "לְהַעֲלוֹת עֹלוֹת לַיהֹוָה עַל מִזְבַּח הָעֹלָה תָּמִיד לַבֹּקֶר וְלָעָרֶב וּלְכָל הַכָּתוּב בְּתוֹרַת יְהֹוָה אֲשֶׁר צִוָּה עַל יִשְׂרָאֵל",
+      "text_plain": "להעלות עלות ליהוה על מזבח העלה תמיד לבקר ולערב ולכל הכתוב בתורת יהוה אשר צוה על ישראל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_041",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 41,
+      "ref": "דברי הימים א טז:מא",
+      "ref_en": "1 Chronicles 16:41",
+      "text_original": "וְעִמָּהֶם֙ הֵימָ֣ן וִֽידוּת֔וּן וּשְׁאָר֙ הַבְּרוּרִ֔ים אֲשֶׁ֥ר נִקְּב֖וּ בְּשֵׁמ֑וֹת לְהֹדוֹת֙ לַֽיהֹוָ֔ה כִּ֥י לְעוֹלָ֖ם חַסְדּֽוֹ׃",
+      "text_with_niqqud": "וְעִמָּהֶם הֵימָן וִידוּתוּן וּשְׁאָר הַבְּרוּרִים אֲשֶׁר נִקְּבוּ בְּשֵׁמוֹת לְהֹדוֹת לַיהֹוָה כִּי לְעוֹלָם חַסְדּוֹ",
+      "text_plain": "ועמהם הימן וידותון ושאר הברורים אשר נקבו בשמות להדות ליהוה כי לעולם חסדו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_042",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 42,
+      "ref": "דברי הימים א טז:מב",
+      "ref_en": "1 Chronicles 16:42",
+      "text_original": "וְעִמָּהֶם֩ הֵימָ֨ן וִֽידוּת֜וּן חֲצֹֽצְר֤וֹת וּמְצִלְתַּ֨יִם֙ לְמַשְׁמִיעִ֔ים וּכְלֵ֖י שִׁ֣יר הָֽאֱלֹהִ֑ים וּבְנֵ֥י יְדוּת֖וּן לַשָּֽׁעַר׃",
+      "text_with_niqqud": "וְעִמָּהֶם הֵימָן וִידוּתוּן חֲצֹצְרוֹת וּמְצִלְתַּיִם לְמַשְׁמִיעִים וּכְלֵי שִׁיר הָאֱלֹהִים וּבְנֵי יְדוּתוּן לַשָּׁעַר",
+      "text_plain": "ועמהם הימן וידותון חצצרות ומצלתים למשמיעים וכלי שיר האלהים ובני ידותון לשער",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_016_043",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 16,
+      "verse": 43,
+      "ref": "דברי הימים א טז:מג",
+      "ref_en": "1 Chronicles 16:43",
+      "text_original": "וַיֵּֽלְכ֥וּ כָל־הָעָ֖ם אִ֣ישׁ לְבֵית֑וֹ וַיִּסֹּ֥ב דָּוִ֖יד לְבָרֵ֥ךְ אֶת־בֵּיתֽוֹ׃",
+      "text_with_niqqud": "וַיֵּלְכוּ כָל הָעָם אִישׁ לְבֵיתוֹ וַיִּסֹּב דָּוִיד לְבָרֵךְ אֶת בֵּיתוֹ",
+      "text_plain": "וילכו כל העם איש לביתו ויסב דויד לברך את ביתו",
+      "markers": {
+        "before": [],
+        "after": [
+          "פ"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-16.txt"
+    }
+  ]
+}

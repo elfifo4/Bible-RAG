@@ -1,0 +1,246 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 96,
+  "chapter_id": "_27_tehilim_096",
+  "ref": "תהילים צו",
+  "ref_en": "Psalms 96",
+  "source_file": "_27_tehilim-096.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_096_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 1,
+      "ref": "תהילים צו:א",
+      "ref_en": "Psalms 96:1",
+      "text_original": "שִׁ֣ירוּ לַֽ֭יהֹוָה שִׁ֣יר חָדָ֑שׁ שִׁ֥ירוּ לַֽ֝יהֹוָ֗ה כָּל־הָאָֽרֶץ׃",
+      "text_with_niqqud": "שִׁירוּ לַיהֹוָה שִׁיר חָדָשׁ שִׁירוּ לַיהֹוָה כָּל הָאָרֶץ",
+      "text_plain": "שירו ליהוה שיר חדש שירו ליהוה כל הארץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_096_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 2,
+      "ref": "תהילים צו:ב",
+      "ref_en": "Psalms 96:2",
+      "text_original": "שִׁ֣ירוּ לַֽ֭יהֹוָה בָּֽרְכ֣וּ שְׁמ֑וֹ בַּשְּׂר֥וּ מִיּֽוֹם־לְ֝י֗וֹם יְשֽׁוּעָתֽוֹ׃",
+      "text_with_niqqud": "שִׁירוּ לַיהֹוָה בָּרְכוּ שְׁמוֹ בַּשְּׂרוּ מִיּוֹם לְיוֹם יְשׁוּעָתוֹ",
+      "text_plain": "שירו ליהוה ברכו שמו בשרו מיום ליום ישועתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_096_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 3,
+      "ref": "תהילים צו:ג",
+      "ref_en": "Psalms 96:3",
+      "text_original": "סַפְּר֣וּ בַגּוֹיִ֣ם כְּבוֹד֑וֹ בְּכָל־הָֽ֝עַמִּ֗ים נִפְלְאוֹתָֽיו׃",
+      "text_with_niqqud": "סַפְּרוּ בַגּוֹיִם כְּבוֹדוֹ בְּכָל הָעַמִּים נִפְלְאוֹתָיו",
+      "text_plain": "ספרו בגוים כבודו בכל העמים נפלאותיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_096_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 4,
+      "ref": "תהילים צו:ד",
+      "ref_en": "Psalms 96:4",
+      "text_original": "כִּ֥י גָ֘ד֤וֹל יְהֹוָ֣ה וּמְהֻלָּ֣ל מְאֹ֑ד נוֹרָ֥א ה֝֗וּא עַל־כָּל־אֱלֹהִֽים׃",
+      "text_with_niqqud": "כִּי גָדוֹל יְהֹוָה וּמְהֻלָּל מְאֹד נוֹרָא הוּא עַל כָּל אֱלֹהִים",
+      "text_plain": "כי גדול יהוה ומהלל מאד נורא הוא על כל אלהים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_096_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 5,
+      "ref": "תהילים צו:ה",
+      "ref_en": "Psalms 96:5",
+      "text_original": "כִּ֤י ׀ כָּל־אֱלֹהֵ֣י הָֽעַמִּ֣ים אֱלִילִ֑ים וַֽ֝יהֹוָ֗ה שָׁמַ֥יִם עָשָֽׂה׃",
+      "text_with_niqqud": "כִּי כָּל אֱלֹהֵי הָעַמִּים אֱלִילִים וַיהֹוָה שָׁמַיִם עָשָׂה",
+      "text_plain": "כי כל אלהי העמים אלילים ויהוה שמים עשה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_096_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 6,
+      "ref": "תהילים צו:ו",
+      "ref_en": "Psalms 96:6",
+      "text_original": "הוֹד־וְהָדָ֥ר לְפָנָ֑יו עֹ֥ז וְ֝תִפְאֶ֗רֶת בְּמִקְדָּשֽׁוֹ׃",
+      "text_with_niqqud": "הוֹד וְהָדָר לְפָנָיו עֹז וְתִפְאֶרֶת בְּמִקְדָּשׁוֹ",
+      "text_plain": "הוד והדר לפניו עז ותפארת במקדשו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_096_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 7,
+      "ref": "תהילים צו:ז",
+      "ref_en": "Psalms 96:7",
+      "text_original": "הָב֣וּ לַֽ֭יהֹוָה מִשְׁפְּח֣וֹת עַמִּ֑ים הָב֥וּ לַֽ֝יהֹוָ֗ה כָּב֥וֹד וָעֹֽז׃",
+      "text_with_niqqud": "הָבוּ לַיהֹוָה מִשְׁפְּחוֹת עַמִּים הָבוּ לַיהֹוָה כָּבוֹד וָעֹז",
+      "text_plain": "הבו ליהוה משפחות עמים הבו ליהוה כבוד ועז",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_096_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 8,
+      "ref": "תהילים צו:ח",
+      "ref_en": "Psalms 96:8",
+      "text_original": "הָב֣וּ לַֽ֭יהֹוָה כְּב֣וֹד שְׁמ֑וֹ שְׂאֽוּ־מִ֝נְחָ֗ה וּבֹ֥אוּ לְחַצְרוֹתָֽיו׃",
+      "text_with_niqqud": "הָבוּ לַיהֹוָה כְּבוֹד שְׁמוֹ שְׂאוּ מִנְחָה וּבֹאוּ לְחַצְרוֹתָיו",
+      "text_plain": "הבו ליהוה כבוד שמו שאו מנחה ובאו לחצרותיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_096_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 9,
+      "ref": "תהילים צו:ט",
+      "ref_en": "Psalms 96:9",
+      "text_original": "הִשְׁתַּֽחֲו֣וּ לַֽ֭יהֹוָה בְּהַדְרַת־קֹ֑דֶשׁ חִ֥ילוּ מִ֝פָּנָ֗יו כָּל־הָאָֽרֶץ׃",
+      "text_with_niqqud": "הִשְׁתַּחֲווּ לַיהֹוָה בְּהַדְרַת קֹדֶשׁ חִילוּ מִפָּנָיו כָּל הָאָרֶץ",
+      "text_plain": "השתחוו ליהוה בהדרת קדש חילו מפניו כל הארץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_096_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 10,
+      "ref": "תהילים צו:י",
+      "ref_en": "Psalms 96:10",
+      "text_original": "אִמְר֤וּ בַגּוֹיִ֨ם ׀ יְהֹ֘וָ֤ה מָלָ֗ךְ אַף־תִּכּ֣וֹן תֵּ֭בֵל בַּל־תִּמּ֑וֹט יָדִ֥ין עַ֝מִּ֗ים בְּמֵֽישָׁרִֽים׃",
+      "text_with_niqqud": "אִמְרוּ בַגּוֹיִם יְהֹוָה מָלָךְ אַף תִּכּוֹן תֵּבֵל בַּל תִּמּוֹט יָדִין עַמִּים בְּמֵישָׁרִים",
+      "text_plain": "אמרו בגוים יהוה מלך אף תכון תבל בל תמוט ידין עמים במישרים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_096_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 11,
+      "ref": "תהילים צו:יא",
+      "ref_en": "Psalms 96:11",
+      "text_original": "יִשְׂמְח֣וּ הַ֭שָּׁמַיִם וְתָגֵ֣ל הָאָ֑רֶץ יִֽרְעַ֥ם הַ֝יָּ֗ם וּמְלֹאֽוֹ׃",
+      "text_with_niqqud": "יִשְׂמְחוּ הַשָּׁמַיִם וְתָגֵל הָאָרֶץ יִרְעַם הַיָּם וּמְלֹאוֹ",
+      "text_plain": "ישמחו השמים ותגל הארץ ירעם הים ומלאו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_096_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 12,
+      "ref": "תהילים צו:יב",
+      "ref_en": "Psalms 96:12",
+      "text_original": "יַֽעֲלֹ֣ז שָׂ֭דַי וְכָל־אֲשֶׁר־בּ֑וֹ אָ֥ז יְ֝רַנְּנ֗וּ כָּל־עֲצֵי־יָֽעַר׃",
+      "text_with_niqqud": "יַעֲלֹז שָׂדַי וְכָל אֲשֶׁר בּוֹ אָז יְרַנְּנוּ כָּל עֲצֵי יָעַר",
+      "text_plain": "יעלז שדי וכל אשר בו אז ירננו כל עצי יער",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_096_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 96,
+      "verse": 13,
+      "ref": "תהילים צו:יג",
+      "ref_en": "Psalms 96:13",
+      "text_original": "לִפְנֵ֤י יְהֹוָ֨ה ׀ כִּ֬י בָ֗א כִּ֥י בָא֮ לִשְׁפֹּ֪ט הָ֫אָ֥רֶץ יִשְׁפֹּֽט־תֵּבֵ֥ל בְּצֶ֑דֶק וְ֝עַמִּ֗ים בֶּאֱמֽוּנָתֽוֹ׃",
+      "text_with_niqqud": "לִפְנֵי יְהֹוָה כִּי בָא כִּי בָא לִשְׁפֹּט הָאָרֶץ יִשְׁפֹּט תֵּבֵל בְּצֶדֶק וְעַמִּים בֶּאֱמוּנָתוֹ",
+      "text_plain": "לפני יהוה כי בא כי בא לשפט הארץ ישפט תבל בצדק ועמים באמונתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-096.txt"
+    }
+  ]
+}

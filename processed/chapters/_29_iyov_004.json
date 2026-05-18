@@ -1,0 +1,390 @@
+{
+  "book": "איוב",
+  "book_en": "Job",
+  "book_slug": "iyov",
+  "chapter": 4,
+  "chapter_id": "_29_iyov_004",
+  "ref": "איוב ד",
+  "ref_en": "Job 4",
+  "source_file": "_29_iyov-04.txt",
+  "verses": [
+    {
+      "verse_id": "_29_iyov_004_001",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 1,
+      "ref": "איוב ד:א",
+      "ref_en": "Job 4:1",
+      "text_original": "וַ֭יַּעַן אֱלִיפַ֥ז הַֽתֵּימָנִ֗י וַיֹּאמַֽר׃",
+      "text_with_niqqud": "וַיַּעַן אֱלִיפַז הַתֵּימָנִי וַיֹּאמַר",
+      "text_plain": "ויען אליפז התימני ויאמר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_002",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 2,
+      "ref": "איוב ד:ב",
+      "ref_en": "Job 4:2",
+      "text_original": "הֲנִסָּ֬ה דָבָ֣ר אֵלֶ֣יךָ תִּלְאֶ֑ה וַעְצֹ֥ר בְּ֝מִלִּ֗ין מִ֣י יוּכָֽל׃",
+      "text_with_niqqud": "הֲנִסָּה דָבָר אֵלֶיךָ תִּלְאֶה וַעְצֹר בְּמִלִּין מִי יוּכָל",
+      "text_plain": "הנסה דבר אליך תלאה ועצר במלין מי יוכל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_003",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 3,
+      "ref": "איוב ד:ג",
+      "ref_en": "Job 4:3",
+      "text_original": "הִ֭נֵּה יִסַּ֣רְתָּ רַבִּ֑ים וְיָדַ֖יִם רָפ֣וֹת תְּחַזֵּֽק׃",
+      "text_with_niqqud": "הִנֵּה יִסַּרְתָּ רַבִּים וְיָדַיִם רָפוֹת תְּחַזֵּק",
+      "text_plain": "הנה יסרת רבים וידים רפות תחזק",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_004",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 4,
+      "ref": "איוב ד:ד",
+      "ref_en": "Job 4:4",
+      "text_original": "כּ֭וֹשֵׁל יְקִימ֣וּן מִלֶּ֑יךָ וּבִרְכַּ֖יִם כֹּֽרְע֣וֹת תְּאַמֵּֽץ׃",
+      "text_with_niqqud": "כּוֹשֵׁל יְקִימוּן מִלֶּיךָ וּבִרְכַּיִם כֹּרְעוֹת תְּאַמֵּץ",
+      "text_plain": "כושל יקימון מליך וברכים כרעות תאמץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_005",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 5,
+      "ref": "איוב ד:ה",
+      "ref_en": "Job 4:5",
+      "text_original": "כִּ֤י עַתָּ֨ה ׀ תָּב֣וֹא אֵלֶ֣יךָ וַתֵּ֑לֶא תִּגַּ֥ע עָ֝דֶ֗יךָ וַתִּבָּהֵֽל׃",
+      "text_with_niqqud": "כִּי עַתָּה תָּבוֹא אֵלֶיךָ וַתֵּלֶא תִּגַּע עָדֶיךָ וַתִּבָּהֵל",
+      "text_plain": "כי עתה תבוא אליך ותלא תגע עדיך ותבהל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_006",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 6,
+      "ref": "איוב ד:ו",
+      "ref_en": "Job 4:6",
+      "text_original": "הֲלֹ֣א יִ֭רְאָֽתְךָ כִּסְלָתֶ֑ךָ תִּ֝קְוָֽתְךָ֗ וְתֹ֣ם דְּרָכֶֽיךָ׃",
+      "text_with_niqqud": "הֲלֹא יִרְאָתְךָ כִּסְלָתֶךָ תִּקְוָתְךָ וְתֹם דְּרָכֶיךָ",
+      "text_plain": "הלא יראתך כסלתך תקותך ותם דרכיך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_007",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 7,
+      "ref": "איוב ד:ז",
+      "ref_en": "Job 4:7",
+      "text_original": "זְכָר־נָ֗א מִ֤י ה֣וּא נָקִ֣י אָבָ֑ד וְ֝אֵיפֹ֗ה יְשָׁרִ֥ים נִכְחָֽדוּ׃",
+      "text_with_niqqud": "זְכָר נָא מִי הוּא נָקִי אָבָד וְאֵיפֹה יְשָׁרִים נִכְחָדוּ",
+      "text_plain": "זכר נא מי הוא נקי אבד ואיפה ישרים נכחדו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_008",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 8,
+      "ref": "איוב ד:ח",
+      "ref_en": "Job 4:8",
+      "text_original": "כַּֽאֲשֶׁ֣ר רָ֭אִיתִי חֹ֣רְשֵׁי אָ֑וֶן וְזֹֽרְעֵ֖י עָמָ֣ל יִקְצְרֻֽהוּ׃",
+      "text_with_niqqud": "כַּאֲשֶׁר רָאִיתִי חֹרְשֵׁי אָוֶן וְזֹרְעֵי עָמָל יִקְצְרֻהוּ",
+      "text_plain": "כאשר ראיתי חרשי און וזרעי עמל יקצרהו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_009",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 9,
+      "ref": "איוב ד:ט",
+      "ref_en": "Job 4:9",
+      "text_original": "מִנִּשְׁמַ֣ת אֱל֣וֹהַּ יֹאבֵ֑דוּ וּמֵר֖וּחַ אַפּ֣וֹ יִכְלֽוּ׃",
+      "text_with_niqqud": "מִנִּשְׁמַת אֱלוֹהַּ יֹאבֵדוּ וּמֵרוּחַ אַפּוֹ יִכְלוּ",
+      "text_plain": "מנשמת אלוה יאבדו ומרוח אפו יכלו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_010",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 10,
+      "ref": "איוב ד:י",
+      "ref_en": "Job 4:10",
+      "text_original": "שַֽׁאֲגַ֣ת אַ֭רְיֵה וְק֣וֹל שָׁ֑חַל וְשִׁנֵּ֖י כְפִירִ֣ים נִתָּֽעוּ׃",
+      "text_with_niqqud": "שַׁאֲגַת אַרְיֵה וְקוֹל שָׁחַל וְשִׁנֵּי כְפִירִים נִתָּעוּ",
+      "text_plain": "שאגת אריה וקול שחל ושני כפירים נתעו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_011",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 11,
+      "ref": "איוב ד:יא",
+      "ref_en": "Job 4:11",
+      "text_original": "לַ֭יִשׁ אֹבֵ֣ד מִבְּלִי־טָ֑רֶף וּבְנֵ֥י לָ֝בִ֗יא יִתְפָּרָֽדוּ׃",
+      "text_with_niqqud": "לַיִשׁ אֹבֵד מִבְּלִי טָרֶף וּבְנֵי לָבִיא יִתְפָּרָדוּ",
+      "text_plain": "ליש אבד מבלי טרף ובני לביא יתפרדו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_012",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 12,
+      "ref": "איוב ד:יב",
+      "ref_en": "Job 4:12",
+      "text_original": "וְ֭אֵלַי דָּבָ֣ר יְגֻנָּ֑ב וַתִּקַּ֥ח אָ֝זְנִ֗י שֵׁ֣מֶץ מֶֽנְהֽוּ׃",
+      "text_with_niqqud": "וְאֵלַי דָּבָר יְגֻנָּב וַתִּקַּח אָזְנִי שֵׁמֶץ מֶנְהוּ",
+      "text_plain": "ואלי דבר יגנב ותקח אזני שמץ מנהו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_013",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 13,
+      "ref": "איוב ד:יג",
+      "ref_en": "Job 4:13",
+      "text_original": "בִּ֭שְׂעִפִּים מֵֽחֶזְיֹנ֣וֹת לָ֑יְלָה בִּנְפֹ֥ל תַּ֝רְדֵּמָ֗ה עַל־אֲנָשִֽׁים׃",
+      "text_with_niqqud": "בִּשְׂעִפִּים מֵחֶזְיֹנוֹת לָיְלָה בִּנְפֹל תַּרְדֵּמָה עַל אֲנָשִׁים",
+      "text_plain": "בשעפים מחזינות לילה בנפל תרדמה על אנשים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_014",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 14,
+      "ref": "איוב ד:יד",
+      "ref_en": "Job 4:14",
+      "text_original": "פַּ֣חַד קְ֭רָאַנִי וּרְעָדָ֑ה וְרֹ֖ב עַצְמוֹתַ֣י הִפְחִֽיד׃",
+      "text_with_niqqud": "פַּחַד קְרָאַנִי וּרְעָדָה וְרֹב עַצְמוֹתַי הִפְחִיד",
+      "text_plain": "פחד קראני ורעדה ורב עצמותי הפחיד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_015",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 15,
+      "ref": "איוב ד:טו",
+      "ref_en": "Job 4:15",
+      "text_original": "וְ֭רוּחַ עַל־פָּנַ֣י יַֽחֲלֹ֑ף תְּ֝סַמֵּ֗ר שַֽׂעֲרַ֥ת בְּשָׂרִֽי׃",
+      "text_with_niqqud": "וְרוּחַ עַל פָּנַי יַחֲלֹף תְּסַמֵּר שַׂעֲרַת בְּשָׂרִי",
+      "text_plain": "ורוח על פני יחלף תסמר שערת בשרי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_016",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 16,
+      "ref": "איוב ד:טז",
+      "ref_en": "Job 4:16",
+      "text_original": "יַֽעֲמֹ֤ד ׀ וְֽלֹא־אַכִּ֬יר מַרְאֵ֗הוּ תְּ֭מוּנָה לְנֶ֣גֶד עֵינָ֑י דְּמָמָ֖ה וָק֣וֹל אֶשְׁמָֽע׃",
+      "text_with_niqqud": "יַעֲמֹד וְלֹא אַכִּיר מַרְאֵהוּ תְּמוּנָה לְנֶגֶד עֵינָי דְּמָמָה וָקוֹל אֶשְׁמָע",
+      "text_plain": "יעמד ולא אכיר מראהו תמונה לנגד עיני דממה וקול אשמע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_017",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 17,
+      "ref": "איוב ד:יז",
+      "ref_en": "Job 4:17",
+      "text_original": "הַֽ֭אֱנוֹשׁ מֵֽאֱל֣וֹהַּ יִצְדָּ֑ק אִ֥ם מֵֽ֝עֹשֵׂ֗הוּ יִטְהַר־גָּֽבֶר׃",
+      "text_with_niqqud": "הַאֱנוֹשׁ מֵאֱלוֹהַּ יִצְדָּק אִם מֵעֹשֵׂהוּ יִטְהַר גָּבֶר",
+      "text_plain": "האנוש מאלוה יצדק אם מעשהו יטהר גבר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_018",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 18,
+      "ref": "איוב ד:יח",
+      "ref_en": "Job 4:18",
+      "text_original": "הֵ֣ן בַּֽ֭עֲבָדָיו לֹ֣א יַֽאֲמִ֑ין וּ֝בְמַלְאָכָ֗יו יָשִׂ֥ים תָּֽהֳלָֽה׃",
+      "text_with_niqqud": "הֵן בַּעֲבָדָיו לֹא יַאֲמִין וּבְמַלְאָכָיו יָשִׂים תָּהֳלָה",
+      "text_plain": "הן בעבדיו לא יאמין ובמלאכיו ישים תהלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_019",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 19,
+      "ref": "איוב ד:יט",
+      "ref_en": "Job 4:19",
+      "text_original": "אַ֤ף ׀ שֹֽׁכְנֵ֬י בָֽתֵּי־חֹ֗מֶר אֲשֶׁר־בֶּֽעָפָ֥ר יְסוֹדָ֑ם יְ֝דַכְּא֗וּם לִפְנֵי־עָֽשׁ׃",
+      "text_with_niqqud": "אַף שֹׁכְנֵי בָתֵּי חֹמֶר אֲשֶׁר בֶּעָפָר יְסוֹדָם יְדַכְּאוּם לִפְנֵי עָשׁ",
+      "text_plain": "אף שכני בתי חמר אשר בעפר יסודם ידכאום לפני עש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_020",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 20,
+      "ref": "איוב ד:כ",
+      "ref_en": "Job 4:20",
+      "text_original": "מִבֹּ֣קֶר לָעֶ֣רֶב יֻכַּ֑תּוּ מִבְּלִ֥י מֵ֝שִׂ֗ים לָנֶ֥צַח יֹאבֵֽדוּ׃",
+      "text_with_niqqud": "מִבֹּקֶר לָעֶרֶב יֻכַּתּוּ מִבְּלִי מֵשִׂים לָנֶצַח יֹאבֵדוּ",
+      "text_plain": "מבקר לערב יכתו מבלי משים לנצח יאבדו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    },
+    {
+      "verse_id": "_29_iyov_004_021",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 4,
+      "verse": 21,
+      "ref": "איוב ד:כא",
+      "ref_en": "Job 4:21",
+      "text_original": "הֲלֹֽא־נִסַּ֣ע יִתְרָ֣ם בָּ֑ם יָ֝מ֗וּתוּ וְלֹ֣א בְחָכְמָֽה׃",
+      "text_with_niqqud": "הֲלֹא נִסַּע יִתְרָם בָּם יָמוּתוּ וְלֹא בְחָכְמָה",
+      "text_plain": "הלא נסע יתרם בם ימותו ולא בחכמה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-04.txt"
+    }
+  ]
+}

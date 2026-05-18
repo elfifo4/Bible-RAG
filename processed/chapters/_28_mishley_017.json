@@ -1,0 +1,516 @@
+{
+  "book": "משלי",
+  "book_en": "Proverbs",
+  "book_slug": "mishley",
+  "chapter": 17,
+  "chapter_id": "_28_mishley_017",
+  "ref": "משלי יז",
+  "ref_en": "Proverbs 17",
+  "source_file": "_28_mishley-17.txt",
+  "verses": [
+    {
+      "verse_id": "_28_mishley_017_001",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 1,
+      "ref": "משלי יז:א",
+      "ref_en": "Proverbs 17:1",
+      "text_original": "ט֤וֹב פַּ֣ת חֲ֭רֵבָה וְשַׁלְוָה־בָ֑הּ מִ֝בַּ֗יִת מָלֵ֥א זִבְחֵי־רִֽיב׃",
+      "text_with_niqqud": "טוֹב פַּת חֲרֵבָה וְשַׁלְוָה בָהּ מִבַּיִת מָלֵא זִבְחֵי רִיב",
+      "text_plain": "טוב פת חרבה ושלוה בה מבית מלא זבחי ריב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_002",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 2,
+      "ref": "משלי יז:ב",
+      "ref_en": "Proverbs 17:2",
+      "text_original": "עֶֽבֶד־מַשְׂכִּ֗יל יִ֭מְשֹׁל בְּבֵ֣ן מֵבִ֑ישׁ וּבְת֥וֹךְ אַ֝חִ֗ים יַֽחֲלֹ֥ק נַֽחֲלָֽה׃",
+      "text_with_niqqud": "עֶבֶד מַשְׂכִּיל יִמְשֹׁל בְּבֵן מֵבִישׁ וּבְתוֹךְ אַחִים יַחֲלֹק נַחֲלָה",
+      "text_plain": "עבד משכיל ימשל בבן מביש ובתוך אחים יחלק נחלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_003",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 3,
+      "ref": "משלי יז:ג",
+      "ref_en": "Proverbs 17:3",
+      "text_original": "מַצְרֵ֣ף לַ֭כֶּסֶף וְכ֣וּר לַזָּהָ֑ב וּבֹחֵ֖ן לִבּ֣וֹת יְהֹוָֽה׃",
+      "text_with_niqqud": "מַצְרֵף לַכֶּסֶף וְכוּר לַזָּהָב וּבֹחֵן לִבּוֹת יְהֹוָה",
+      "text_plain": "מצרף לכסף וכור לזהב ובחן לבות יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_004",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 4,
+      "ref": "משלי יז:ד",
+      "ref_en": "Proverbs 17:4",
+      "text_original": "מֵ֭רַע מַקְשִׁ֣יב עַל־שְׂפַת־אָ֑וֶן שֶׁ֥קֶר מֵ֝זִ֗ין עַל־לְשׁ֥וֹן הַוּֽ‍ֹת׃",
+      "text_with_niqqud": "מֵרַע מַקְשִׁיב עַל שְׂפַת אָוֶן שֶׁקֶר מֵזִין עַל לְשׁוֹן הַוּ‍ֹת",
+      "text_plain": "מרע מקשיב על שפת און שקר מזין על לשון הו‍ת",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_005",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 5,
+      "ref": "משלי יז:ה",
+      "ref_en": "Proverbs 17:5",
+      "text_original": "לֹעֵ֣ג לָ֭רָשׁ חֵרֵ֣ף עֹשֵׂ֑הוּ שָׂמֵ֥חַ לְ֝אֵ֗יד לֹ֣א יִנָּקֶֽה׃",
+      "text_with_niqqud": "לֹעֵג לָרָשׁ חֵרֵף עֹשֵׂהוּ שָׂמֵחַ לְאֵיד לֹא יִנָּקֶה",
+      "text_plain": "לעג לרש חרף עשהו שמח לאיד לא ינקה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_006",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 6,
+      "ref": "משלי יז:ו",
+      "ref_en": "Proverbs 17:6",
+      "text_original": "עֲטֶ֣רֶת זְ֭קֵנִים בְּנֵ֣י בָנִ֑ים וְתִפְאֶ֖רֶת בָּנִ֣ים אֲבוֹתָֽם׃",
+      "text_with_niqqud": "עֲטֶרֶת זְקֵנִים בְּנֵי בָנִים וְתִפְאֶרֶת בָּנִים אֲבוֹתָם",
+      "text_plain": "עטרת זקנים בני בנים ותפארת בנים אבותם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_007",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 7,
+      "ref": "משלי יז:ז",
+      "ref_en": "Proverbs 17:7",
+      "text_original": "לֹֽא־נָאוָ֣ה לְנָבָ֣ל שְׂפַת־יֶ֑תֶר אַ֝֗ף כִּֽי־לְנָדִ֥יב שְׂפַת־שָֽׁקֶר׃",
+      "text_with_niqqud": "לֹא נָאוָה לְנָבָל שְׂפַת יֶתֶר אַף כִּי לְנָדִיב שְׂפַת שָׁקֶר",
+      "text_plain": "לא נאוה לנבל שפת יתר אף כי לנדיב שפת שקר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_008",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 8,
+      "ref": "משלי יז:ח",
+      "ref_en": "Proverbs 17:8",
+      "text_original": "אֶֽבֶן־חֵ֣ן הַ֭שֹּׁחַד בְּעֵינֵ֣י בְעָלָ֑יו אֶֽל־כָּל־אֲשֶׁ֖ר יִפְנֶ֣ה יַשְׂכִּֽיל׃",
+      "text_with_niqqud": "אֶבֶן חֵן הַשֹּׁחַד בְּעֵינֵי בְעָלָיו אֶל כָּל אֲשֶׁר יִפְנֶה יַשְׂכִּיל",
+      "text_plain": "אבן חן השחד בעיני בעליו אל כל אשר יפנה ישכיל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_009",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 9,
+      "ref": "משלי יז:ט",
+      "ref_en": "Proverbs 17:9",
+      "text_original": "מְֽכַסֶּה־פֶּ֭שַׁע מְבַקֵּ֣שׁ אַֽהֲבָ֑ה וְשֹׁנֶ֥ה בְ֝דָבָ֗ר מַפְרִ֥יד אַלּֽוּף׃",
+      "text_with_niqqud": "מְכַסֶּה פֶּשַׁע מְבַקֵּשׁ אַהֲבָה וְשֹׁנֶה בְדָבָר מַפְרִיד אַלּוּף",
+      "text_plain": "מכסה פשע מבקש אהבה ושנה בדבר מפריד אלוף",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_010",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 10,
+      "ref": "משלי יז:י",
+      "ref_en": "Proverbs 17:10",
+      "text_original": "תֵּ֣חַת גְּעָרָ֣ה בְמֵבִ֑ין מֵֽהַכּ֖וֹת כְּסִ֣יל מֵאָֽה׃",
+      "text_with_niqqud": "תֵּחַת גְּעָרָה בְמֵבִין מֵהַכּוֹת כְּסִיל מֵאָה",
+      "text_plain": "תחת גערה במבין מהכות כסיל מאה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_011",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 11,
+      "ref": "משלי יז:יא",
+      "ref_en": "Proverbs 17:11",
+      "text_original": "אַךְ־מְרִ֥י יְבַקֶּשׁ־רָ֑ע וּמַלְאָ֥ךְ אַ֝כְזָרִ֗י יְשֻׁלַּח־בּֽוֹ׃",
+      "text_with_niqqud": "אַךְ מְרִי יְבַקֶּשׁ רָע וּמַלְאָךְ אַכְזָרִי יְשֻׁלַּח בּוֹ",
+      "text_plain": "אך מרי יבקש רע ומלאך אכזרי ישלח בו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_012",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 12,
+      "ref": "משלי יז:יב",
+      "ref_en": "Proverbs 17:12",
+      "text_original": "פָּג֬וֹשׁ דֹּ֣ב שַׁכּ֣וּל בְּאִ֑ישׁ וְאַל־כְּ֝סִ֗יל בְּאִוַּלְתּֽוֹ׃",
+      "text_with_niqqud": "פָּגוֹשׁ דֹּב שַׁכּוּל בְּאִישׁ וְאַל כְּסִיל בְּאִוַּלְתּוֹ",
+      "text_plain": "פגוש דב שכול באיש ואל כסיל באולתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_013",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 13,
+      "ref": "משלי יז:יג",
+      "ref_en": "Proverbs 17:13",
+      "text_original": "מֵשִׁ֣יב רָ֭עָה תַּ֣חַת טוֹבָ֑ה לֹֽא־תמיש (תָמ֥וּשׁ) רָ֝עָ֗ה מִבֵּיתֽוֹ׃",
+      "text_with_niqqud": "מֵשִׁיב רָעָה תַּחַת טוֹבָה לֹא תמיש (תָמוּשׁ) רָעָה מִבֵּיתוֹ",
+      "text_plain": "משיב רעה תחת טובה לא תמיש (תמוש) רעה מביתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_014",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 14,
+      "ref": "משלי יז:יד",
+      "ref_en": "Proverbs 17:14",
+      "text_original": "פּ֣וֹטֵֽר מַ֭יִם רֵאשִׁ֣ית מָד֑וֹן וְלִפְנֵ֥י הִ֝תְגַּלַּ֗ע הָרִ֥יב נְטֽוֹשׁ׃",
+      "text_with_niqqud": "פּוֹטֵר מַיִם רֵאשִׁית מָדוֹן וְלִפְנֵי הִתְגַּלַּע הָרִיב נְטוֹשׁ",
+      "text_plain": "פוטר מים ראשית מדון ולפני התגלע הריב נטוש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_015",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 15,
+      "ref": "משלי יז:טו",
+      "ref_en": "Proverbs 17:15",
+      "text_original": "מַצְדִּ֣יק רָ֭שָׁע וּמַרְשִׁ֣יעַ צַדִּ֑יק תּֽוֹעֲבַ֥ת יְ֝הֹוָ֗ה גַּם־שְׁנֵיהֶֽם׃",
+      "text_with_niqqud": "מַצְדִּיק רָשָׁע וּמַרְשִׁיעַ צַדִּיק תּוֹעֲבַת יְהֹוָה גַּם שְׁנֵיהֶם",
+      "text_plain": "מצדיק רשע ומרשיע צדיק תועבת יהוה גם שניהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_016",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 16,
+      "ref": "משלי יז:טז",
+      "ref_en": "Proverbs 17:16",
+      "text_original": "לָמָּה־זֶּ֣ה מְחִ֣יר בְּיַד־כְּסִ֑יל לִקְנ֖וֹת חָכְמָ֣ה וְלֶב־אָֽיִן׃",
+      "text_with_niqqud": "לָמָּה זֶּה מְחִיר בְּיַד כְּסִיל לִקְנוֹת חָכְמָה וְלֶב אָיִן",
+      "text_plain": "למה זה מחיר ביד כסיל לקנות חכמה ולב אין",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_017",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 17,
+      "ref": "משלי יז:יז",
+      "ref_en": "Proverbs 17:17",
+      "text_original": "בְּכָל־עֵ֭ת אֹהֵ֣ב הָרֵ֑עַ וְאָ֥ח לְ֝צָרָ֗ה יִוָּלֵֽד׃",
+      "text_with_niqqud": "בְּכָל עֵת אֹהֵב הָרֵעַ וְאָח לְצָרָה יִוָּלֵד",
+      "text_plain": "בכל עת אהב הרע ואח לצרה יולד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_018",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 18,
+      "ref": "משלי יז:יח",
+      "ref_en": "Proverbs 17:18",
+      "text_original": "אָדָ֣ם חֲסַר־לֵ֭ב תּוֹקֵ֣עַ כָּ֑ף עֹרֵ֥ב עֲ֝רֻבָּ֗ה לִפְנֵ֥י רֵעֵֽהוּ׃",
+      "text_with_niqqud": "אָדָם חֲסַר לֵב תּוֹקֵעַ כָּף עֹרֵב עֲרֻבָּה לִפְנֵי רֵעֵהוּ",
+      "text_plain": "אדם חסר לב תוקע כף ערב ערבה לפני רעהו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_019",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 19,
+      "ref": "משלי יז:יט",
+      "ref_en": "Proverbs 17:19",
+      "text_original": "אֹ֣הֵֽב פֶּ֭שַׁע אֹהֵ֣ב מַצָּ֑ה מַגְבִּ֥יהַּ פִּ֝תְח֗וֹ מְבַקֶּשׁ־שָֽׁבֶר׃",
+      "text_with_niqqud": "אֹהֵב פֶּשַׁע אֹהֵב מַצָּה מַגְבִּיהַּ פִּתְחוֹ מְבַקֶּשׁ שָׁבֶר",
+      "text_plain": "אהב פשע אהב מצה מגביה פתחו מבקש שבר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_020",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 20,
+      "ref": "משלי יז:כ",
+      "ref_en": "Proverbs 17:20",
+      "text_original": "עִקֶּשׁ־לֵ֭ב לֹ֣א יִמְצָא־ט֑וֹב וְנֶהְפָּ֥ךְ בִּ֝לְשׁוֹנ֗וֹ יִפּ֥וֹל בְּרָעָֽה׃",
+      "text_with_niqqud": "עִקֶּשׁ לֵב לֹא יִמְצָא טוֹב וְנֶהְפָּךְ בִּלְשׁוֹנוֹ יִפּוֹל בְּרָעָה",
+      "text_plain": "עקש לב לא ימצא טוב ונהפך בלשונו יפול ברעה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_021",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 21,
+      "ref": "משלי יז:כא",
+      "ref_en": "Proverbs 17:21",
+      "text_original": "יֹלֵ֣ד כְּ֭סִיל לְת֣וּגָה ל֑וֹ וְלֹֽא־יִ֝שְׂמַ֗ח אֲבִ֣י נָבָֽל׃",
+      "text_with_niqqud": "יֹלֵד כְּסִיל לְתוּגָה לוֹ וְלֹא יִשְׂמַח אֲבִי נָבָל",
+      "text_plain": "ילד כסיל לתוגה לו ולא ישמח אבי נבל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_022",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 22,
+      "ref": "משלי יז:כב",
+      "ref_en": "Proverbs 17:22",
+      "text_original": "לֵ֣ב שָׂ֭מֵחַ יֵיטִ֣יב גֵּהָ֑ה וְר֥וּחַ נְ֝כֵאָ֗ה תְּיַבֶּשׁ־גָּֽרֶם׃",
+      "text_with_niqqud": "לֵב שָׂמֵחַ יֵיטִיב גֵּהָה וְרוּחַ נְכֵאָה תְּיַבֶּשׁ גָּרֶם",
+      "text_plain": "לב שמח ייטיב גהה ורוח נכאה תיבש גרם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_023",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 23,
+      "ref": "משלי יז:כג",
+      "ref_en": "Proverbs 17:23",
+      "text_original": "שֹׁ֣חַד מֵ֭חֵק רָשָׁ֣ע יִקָּ֑ח לְ֝הַטּ֗וֹת אָרְח֥וֹת מִשְׁפָּֽט׃",
+      "text_with_niqqud": "שֹׁחַד מֵחֵק רָשָׁע יִקָּח לְהַטּוֹת אָרְחוֹת מִשְׁפָּט",
+      "text_plain": "שחד מחק רשע יקח להטות ארחות משפט",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_024",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 24,
+      "ref": "משלי יז:כד",
+      "ref_en": "Proverbs 17:24",
+      "text_original": "אֶת־פְּנֵ֣י מֵבִ֣ין חָכְמָ֑ה וְעֵינֵ֥י כְ֝סִ֗יל בִּקְצֵה־אָֽרֶץ׃",
+      "text_with_niqqud": "אֶת פְּנֵי מֵבִין חָכְמָה וְעֵינֵי כְסִיל בִּקְצֵה אָרֶץ",
+      "text_plain": "את פני מבין חכמה ועיני כסיל בקצה ארץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_025",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 25,
+      "ref": "משלי יז:כה",
+      "ref_en": "Proverbs 17:25",
+      "text_original": "כַּ֣עַס לְ֭אָבִיו בֵּ֣ן כְּסִ֑יל וּ֝מֶ֗מֶר לְיֽוֹלַדְתּֽוֹ׃",
+      "text_with_niqqud": "כַּעַס לְאָבִיו בֵּן כְּסִיל וּמֶמֶר לְיוֹלַדְתּוֹ",
+      "text_plain": "כעס לאביו בן כסיל וממר ליולדתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_026",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 26,
+      "ref": "משלי יז:כו",
+      "ref_en": "Proverbs 17:26",
+      "text_original": "גַּ֤ם עֲנ֣וֹשׁ לַצַּדִּ֣יק לֹא־ט֑וֹב לְהַכּ֖וֹת נְדִיבִ֣ים עַל־יֹֽשֶׁר׃",
+      "text_with_niqqud": "גַּם עֲנוֹשׁ לַצַּדִּיק לֹא טוֹב לְהַכּוֹת נְדִיבִים עַל יֹשֶׁר",
+      "text_plain": "גם ענוש לצדיק לא טוב להכות נדיבים על ישר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_027",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 27,
+      "ref": "משלי יז:כז",
+      "ref_en": "Proverbs 17:27",
+      "text_original": "חוֹשֵׂ֣ךְ אֲ֭מָרָיו יוֹדֵ֣עַ דָּ֑עַת וקר־ (יְקַר־) ר֝֗וּחַ אִ֣ישׁ תְּבוּנָֽה׃",
+      "text_with_niqqud": "חוֹשֵׂךְ אֲמָרָיו יוֹדֵעַ דָּעַת וקר (יְקַר ) רוּחַ אִישׁ תְּבוּנָה",
+      "text_plain": "חושך אמריו יודע דעת וקר (יקר ) רוח איש תבונה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    },
+    {
+      "verse_id": "_28_mishley_017_028",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 17,
+      "verse": 28,
+      "ref": "משלי יז:כח",
+      "ref_en": "Proverbs 17:28",
+      "text_original": "גַּ֤ם אֱוִ֣יל מַֽ֭חֲרִישׁ חָכָ֣ם יֵֽחָשֵׁ֑ב אֹטֵ֖ם שְׂפָתָ֣יו נָבֽוֹן׃",
+      "text_with_niqqud": "גַּם אֱוִיל מַחֲרִישׁ חָכָם יֵחָשֵׁב אֹטֵם שְׂפָתָיו נָבוֹן",
+      "text_plain": "גם אויל מחריש חכם יחשב אטם שפתיו נבון",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-17.txt"
+    }
+  ]
+}

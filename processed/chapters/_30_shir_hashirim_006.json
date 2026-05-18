@@ -1,0 +1,234 @@
+{
+  "book": "שיר השירים",
+  "book_en": "Song of Songs",
+  "book_slug": "shir_hashirim",
+  "chapter": 6,
+  "chapter_id": "_30_shir_hashirim_006",
+  "ref": "שיר השירים ו",
+  "ref_en": "Song of Songs 6",
+  "source_file": "_30_shir_hashirim-06.txt",
+  "verses": [
+    {
+      "verse_id": "_30_shir_hashirim_006_001",
+      "book": "שיר השירים",
+      "book_en": "Song of Songs",
+      "book_slug": "shir_hashirim",
+      "chapter": 6,
+      "verse": 1,
+      "ref": "שיר השירים ו:א",
+      "ref_en": "Song of Songs 6:1",
+      "text_original": "אָ֚נָה הָלַ֣ךְ דּוֹדֵ֔ךְ הַיָּפָ֖ה בַּנָּשִׁ֑ים אָ֚נָה פָּנָ֣ה דוֹדֵ֔ךְ וּנְבַקְשֶׁ֖נּוּ עִמָּֽךְ׃",
+      "text_with_niqqud": "אָנָה הָלַךְ דּוֹדֵךְ הַיָּפָה בַּנָּשִׁים אָנָה פָּנָה דוֹדֵךְ וּנְבַקְשֶׁנּוּ עִמָּךְ",
+      "text_plain": "אנה הלך דודך היפה בנשים אנה פנה דודך ונבקשנו עמך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_30_shir_hashirim-06.txt"
+    },
+    {
+      "verse_id": "_30_shir_hashirim_006_002",
+      "book": "שיר השירים",
+      "book_en": "Song of Songs",
+      "book_slug": "shir_hashirim",
+      "chapter": 6,
+      "verse": 2,
+      "ref": "שיר השירים ו:ב",
+      "ref_en": "Song of Songs 6:2",
+      "text_original": "דּוֹדִי֙ יָרַ֣ד לְגַנּ֔וֹ לַֽעֲרֻג֖וֹת הַבֹּ֑שֶׂם לִרְעוֹת֙ בַּגַּנִּ֔ים וְלִלְקֹ֖ט שֽׁוֹשַׁנִּֽים׃",
+      "text_with_niqqud": "דּוֹדִי יָרַד לְגַנּוֹ לַעֲרֻגוֹת הַבֹּשֶׂם לִרְעוֹת בַּגַּנִּים וְלִלְקֹט שׁוֹשַׁנִּים",
+      "text_plain": "דודי ירד לגנו לערגות הבשם לרעות בגנים וללקט שושנים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_30_shir_hashirim-06.txt"
+    },
+    {
+      "verse_id": "_30_shir_hashirim_006_003",
+      "book": "שיר השירים",
+      "book_en": "Song of Songs",
+      "book_slug": "shir_hashirim",
+      "chapter": 6,
+      "verse": 3,
+      "ref": "שיר השירים ו:ג",
+      "ref_en": "Song of Songs 6:3",
+      "text_original": "אֲנִ֤י לְדוֹדִי֙ וְדוֹדִ֣י לִ֔י הָֽרֹעֶ֖ה בַּשּֽׁוֹשַׁנִּֽים׃",
+      "text_with_niqqud": "אֲנִי לְדוֹדִי וְדוֹדִי לִי הָרֹעֶה בַּשּׁוֹשַׁנִּים",
+      "text_plain": "אני לדודי ודודי לי הרעה בשושנים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_30_shir_hashirim-06.txt"
+    },
+    {
+      "verse_id": "_30_shir_hashirim_006_004",
+      "book": "שיר השירים",
+      "book_en": "Song of Songs",
+      "book_slug": "shir_hashirim",
+      "chapter": 6,
+      "verse": 4,
+      "ref": "שיר השירים ו:ד",
+      "ref_en": "Song of Songs 6:4",
+      "text_original": "יָפָ֨ה אַ֤תְּ רַעְיָתִי֙ כְּתִרְצָ֔ה נָאוָ֖ה כִּירֽוּשָׁלִָ֑ם אֲיֻמָּ֖ה כַּנִּדְגָּלֽוֹת׃",
+      "text_with_niqqud": "יָפָה אַתְּ רַעְיָתִי כְּתִרְצָה נָאוָה כִּירוּשָׁלִָם אֲיֻמָּה כַּנִּדְגָּלוֹת",
+      "text_plain": "יפה את רעיתי כתרצה נאוה כירושלם אימה כנדגלות",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_30_shir_hashirim-06.txt"
+    },
+    {
+      "verse_id": "_30_shir_hashirim_006_005",
+      "book": "שיר השירים",
+      "book_en": "Song of Songs",
+      "book_slug": "shir_hashirim",
+      "chapter": 6,
+      "verse": 5,
+      "ref": "שיר השירים ו:ה",
+      "ref_en": "Song of Songs 6:5",
+      "text_original": "הָסֵ֤בִּי עֵינַ֨יִךְ֙ מִנֶּגְדִּ֔י שֶׁ֥הֵ֖ם הִרְהִיבֻ֑נִי שַׂעְרֵךְ֙ כְּעֵ֣דֶר הָֽעִזִּ֔ים שֶׁגָּֽלְשׁ֖וּ מִן־הַגִּלְעָֽד׃",
+      "text_with_niqqud": "הָסֵבִּי עֵינַיִךְ מִנֶּגְדִּי שֶׁהֵם הִרְהִיבֻנִי שַׂעְרֵךְ כְּעֵדֶר הָעִזִּים שֶׁגָּלְשׁוּ מִן הַגִּלְעָד",
+      "text_plain": "הסבי עיניך מנגדי שהם הרהיבני שערך כעדר העזים שגלשו מן הגלעד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_30_shir_hashirim-06.txt"
+    },
+    {
+      "verse_id": "_30_shir_hashirim_006_006",
+      "book": "שיר השירים",
+      "book_en": "Song of Songs",
+      "book_slug": "shir_hashirim",
+      "chapter": 6,
+      "verse": 6,
+      "ref": "שיר השירים ו:ו",
+      "ref_en": "Song of Songs 6:6",
+      "text_original": "שִׁנַּ֨יִךְ֙ כְּעֵ֣דֶר הָֽרְחֵלִ֔ים שֶֽׁעָל֖וּ מִן־הָֽרַחְצָ֑ה שֶׁכֻּלָּם֙ מַתְאִימ֔וֹת וְשַׁכֻּלָ֖ה אֵ֥ין בָּהֶֽם׃",
+      "text_with_niqqud": "שִׁנַּיִךְ כְּעֵדֶר הָרְחֵלִים שֶׁעָלוּ מִן הָרַחְצָה שֶׁכֻּלָּם מַתְאִימוֹת וְשַׁכֻּלָה אֵין בָּהֶם",
+      "text_plain": "שניך כעדר הרחלים שעלו מן הרחצה שכלם מתאימות ושכלה אין בהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_30_shir_hashirim-06.txt"
+    },
+    {
+      "verse_id": "_30_shir_hashirim_006_007",
+      "book": "שיר השירים",
+      "book_en": "Song of Songs",
+      "book_slug": "shir_hashirim",
+      "chapter": 6,
+      "verse": 7,
+      "ref": "שיר השירים ו:ז",
+      "ref_en": "Song of Songs 6:7",
+      "text_original": "כְּפֶ֤לַח הָֽרִמּוֹן֙ רַקָּתֵ֔ךְ מִבַּ֖עַד לְצַמָּתֵֽךְ׃",
+      "text_with_niqqud": "כְּפֶלַח הָרִמּוֹן רַקָּתֵךְ מִבַּעַד לְצַמָּתֵךְ",
+      "text_plain": "כפלח הרמון רקתך מבעד לצמתך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_30_shir_hashirim-06.txt"
+    },
+    {
+      "verse_id": "_30_shir_hashirim_006_008",
+      "book": "שיר השירים",
+      "book_en": "Song of Songs",
+      "book_slug": "shir_hashirim",
+      "chapter": 6,
+      "verse": 8,
+      "ref": "שיר השירים ו:ח",
+      "ref_en": "Song of Songs 6:8",
+      "text_original": "שִׁשִּׁ֥ים הֵ֨מָּה֙ מְלָכ֔וֹת וּשְׁמֹנִ֖ים פִּֽילַגְשִׁ֑ים וַֽעֲלָמ֖וֹת אֵ֥ין מִסְפָּֽר׃",
+      "text_with_niqqud": "שִׁשִּׁים הֵמָּה מְלָכוֹת וּשְׁמֹנִים פִּילַגְשִׁים וַעֲלָמוֹת אֵין מִסְפָּר",
+      "text_plain": "ששים המה מלכות ושמנים פילגשים ועלמות אין מספר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_30_shir_hashirim-06.txt"
+    },
+    {
+      "verse_id": "_30_shir_hashirim_006_009",
+      "book": "שיר השירים",
+      "book_en": "Song of Songs",
+      "book_slug": "shir_hashirim",
+      "chapter": 6,
+      "verse": 9,
+      "ref": "שיר השירים ו:ט",
+      "ref_en": "Song of Songs 6:9",
+      "text_original": "אַחַ֥ת הִיא֙ יֽוֹנָתִ֣י תַמָּתִ֔י אַחַ֥ת הִיא֙ לְאִמָּ֔הּ בָּרָ֥ה הִ֖יא לְיֽוֹלַדְתָּ֑הּ רָא֤וּהָ בָנוֹת֙ וַֽיְאַשְּׁר֔וּהָ מְלָכ֥וֹת וּפִֽילַגְשִׁ֖ים וַֽיְהַלְלֽוּהָ׃",
+      "text_with_niqqud": "אַחַת הִיא יוֹנָתִי תַמָּתִי אַחַת הִיא לְאִמָּהּ בָּרָה הִיא לְיוֹלַדְתָּהּ רָאוּהָ בָנוֹת וַיְאַשְּׁרוּהָ מְלָכוֹת וּפִילַגְשִׁים וַיְהַלְלוּהָ",
+      "text_plain": "אחת היא יונתי תמתי אחת היא לאמה ברה היא ליולדתה ראוה בנות ויאשרוה מלכות ופילגשים ויהללוה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_30_shir_hashirim-06.txt"
+    },
+    {
+      "verse_id": "_30_shir_hashirim_006_010",
+      "book": "שיר השירים",
+      "book_en": "Song of Songs",
+      "book_slug": "shir_hashirim",
+      "chapter": 6,
+      "verse": 10,
+      "ref": "שיר השירים ו:י",
+      "ref_en": "Song of Songs 6:10",
+      "text_original": "מִי־זֹ֥את הַנִּשְׁקָפָ֖ה כְּמוֹ־שָׁ֑חַר יָפָ֣ה כַלְּבָנָ֗ה בָּרָה֙ כַּֽחַמָּ֔ה אֲיֻמָּ֖ה כַּנִּדְגָּלֽוֹת׃",
+      "text_with_niqqud": "מִי זֹאת הַנִּשְׁקָפָה כְּמוֹ שָׁחַר יָפָה כַלְּבָנָה בָּרָה כַּחַמָּה אֲיֻמָּה כַּנִּדְגָּלוֹת",
+      "text_plain": "מי זאת הנשקפה כמו שחר יפה כלבנה ברה כחמה אימה כנדגלות",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_30_shir_hashirim-06.txt"
+    },
+    {
+      "verse_id": "_30_shir_hashirim_006_011",
+      "book": "שיר השירים",
+      "book_en": "Song of Songs",
+      "book_slug": "shir_hashirim",
+      "chapter": 6,
+      "verse": 11,
+      "ref": "שיר השירים ו:יא",
+      "ref_en": "Song of Songs 6:11",
+      "text_original": "אֶל־גִּנַּ֤ת אֱגוֹז֙ יָרַ֔דְתִּי לִרְא֖וֹת בְּאִבֵּ֣י הַנָּ֑חַל לִרְאוֹת֙ הֲפָֽרְחָ֣ה הַגֶּ֔פֶן הֵנֵ֖צוּ הָֽרִמֹּנִֽים׃",
+      "text_with_niqqud": "אֶל גִּנַּת אֱגוֹז יָרַדְתִּי לִרְאוֹת בְּאִבֵּי הַנָּחַל לִרְאוֹת הֲפָרְחָה הַגֶּפֶן הֵנֵצוּ הָרִמֹּנִים",
+      "text_plain": "אל גנת אגוז ירדתי לראות באבי הנחל לראות הפרחה הגפן הנצו הרמנים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_30_shir_hashirim-06.txt"
+    },
+    {
+      "verse_id": "_30_shir_hashirim_006_012",
+      "book": "שיר השירים",
+      "book_en": "Song of Songs",
+      "book_slug": "shir_hashirim",
+      "chapter": 6,
+      "verse": 12,
+      "ref": "שיר השירים ו:יב",
+      "ref_en": "Song of Songs 6:12",
+      "text_original": "לֹ֣א יָדַ֔עְתִּי נַפְשִׁ֣י שָׂמַ֔תְנִי מַרְכְּב֖וֹת עַמִּ֥י נָדִֽיב׃",
+      "text_with_niqqud": "לֹא יָדַעְתִּי נַפְשִׁי שָׂמַתְנִי מַרְכְּבוֹת עַמִּי נָדִיב",
+      "text_plain": "לא ידעתי נפשי שמתני מרכבות עמי נדיב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_30_shir_hashirim-06.txt"
+    }
+  ]
+}

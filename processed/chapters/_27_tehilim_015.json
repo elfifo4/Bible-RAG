@@ -1,0 +1,102 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 15,
+  "chapter_id": "_27_tehilim_015",
+  "ref": "תהילים טו",
+  "ref_en": "Psalms 15",
+  "source_file": "_27_tehilim-015.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_015_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 15,
+      "verse": 1,
+      "ref": "תהילים טו:א",
+      "ref_en": "Psalms 15:1",
+      "text_original": "מִזְמ֗וֹר לְדָ֫וִ֥ד יְ֭הֹוָה מִֽי־יָג֣וּר בְּאָֽהֳלֶ֑ךָ מִֽי־יִ֝שְׁכֹּ֗ן בְּהַ֣ר קָדְשֶֽׁךָ׃",
+      "text_with_niqqud": "מִזְמוֹר לְדָוִד יְהֹוָה מִי יָגוּר בְּאָהֳלֶךָ מִי יִשְׁכֹּן בְּהַר קָדְשֶׁךָ",
+      "text_plain": "מזמור לדוד יהוה מי יגור באהלך מי ישכן בהר קדשך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-015.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_015_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 15,
+      "verse": 2,
+      "ref": "תהילים טו:ב",
+      "ref_en": "Psalms 15:2",
+      "text_original": "הוֹלֵ֣ךְ תָּ֭מִים וּפֹעֵ֥ל צֶ֑דֶק וְדֹבֵ֥ר אֱ֝מֶ֗ת בִּלְבָבֽוֹ׃",
+      "text_with_niqqud": "הוֹלֵךְ תָּמִים וּפֹעֵל צֶדֶק וְדֹבֵר אֱמֶת בִּלְבָבוֹ",
+      "text_plain": "הולך תמים ופעל צדק ודבר אמת בלבבו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-015.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_015_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 15,
+      "verse": 3,
+      "ref": "תהילים טו:ג",
+      "ref_en": "Psalms 15:3",
+      "text_original": "לֹֽא־רָגַ֨ל ׀ עַל־לְשֹׁנ֗וֹ לֹֽא־עָשָׂ֣ה לְרֵעֵ֣הוּ רָעָ֑ה וְ֝חֶרְפָּ֗ה לֹֽא־נָשָׂ֥א עַל־קְרֹבֽוֹ׃",
+      "text_with_niqqud": "לֹא רָגַל עַל לְשֹׁנוֹ לֹא עָשָׂה לְרֵעֵהוּ רָעָה וְחֶרְפָּה לֹא נָשָׂא עַל קְרֹבוֹ",
+      "text_plain": "לא רגל על לשנו לא עשה לרעהו רעה וחרפה לא נשא על קרבו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-015.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_015_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 15,
+      "verse": 4,
+      "ref": "תהילים טו:ד",
+      "ref_en": "Psalms 15:4",
+      "text_original": "נִבְזֶ֤ה ׀ בְּֽעֵ֘ינָ֤יו נִמְאָ֗ס וְאֶת־יִרְאֵ֣י יְהֹוָ֣ה יְכַבֵּ֑ד נִשְׁבַּ֥ע לְ֝הָרַ֗ע וְלֹ֣א יָמִֽר׃",
+      "text_with_niqqud": "נִבְזֶה בְּעֵינָיו נִמְאָס וְאֶת יִרְאֵי יְהֹוָה יְכַבֵּד נִשְׁבַּע לְהָרַע וְלֹא יָמִר",
+      "text_plain": "נבזה בעיניו נמאס ואת יראי יהוה יכבד נשבע להרע ולא ימר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-015.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_015_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 15,
+      "verse": 5,
+      "ref": "תהילים טו:ה",
+      "ref_en": "Psalms 15:5",
+      "text_original": "כַּסְפּ֤וֹ ׀ לֹֽא־נָתַ֣ן בְּנֶֽשֶׁךְ֮ וְשֹׁ֥חַד עַל־נָקִ֗י לֹ֥א לָ֫קָ֥ח עֹֽשֵׂה־אֵ֑לֶּה לֹ֖א יִמּ֣וֹט לְעוֹלָֽם׃",
+      "text_with_niqqud": "כַּסְפּוֹ לֹא נָתַן בְּנֶשֶׁךְ וְשֹׁחַד עַל נָקִי לֹא לָקָח עֹשֵׂה אֵלֶּה לֹא יִמּוֹט לְעוֹלָם",
+      "text_plain": "כספו לא נתן בנשך ושחד על נקי לא לקח עשה אלה לא ימוט לעולם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-015.txt"
+    }
+  ]
+}

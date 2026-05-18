@@ -1,0 +1,452 @@
+{
+  "book": "דברי הימים א",
+  "book_en": "1 Chronicles",
+  "book_slug": "divrei_hayamim_a",
+  "chapter": 3,
+  "chapter_id": "_38_divrei_hayamim_a_003",
+  "ref": "דברי הימים א ג",
+  "ref_en": "1 Chronicles 3",
+  "source_file": "_38_divrei_hayamim_a-03.txt",
+  "verses": [
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_001",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 1,
+      "ref": "דברי הימים א ג:א",
+      "ref_en": "1 Chronicles 3:1",
+      "text_original": "וְאֵ֤לֶּה הָיוּ֙ בְּנֵ֣י דָוִ֔יד אֲשֶׁ֥ר נֽוֹלַד־ל֖וֹ בְּחֶבְר֑וֹן הַבְּכ֣וֹר ׀ אַמְנֹ֗ן לַֽאֲחִינֹ֨עַם֙ הַיִּזְרְעֵאלִ֔ית שֵׁנִי֙ דָּֽנִיֵּ֔אל לַֽאֲבִיגַ֖יִל הַֽכַּרְמְלִֽית׃",
+      "text_with_niqqud": "וְאֵלֶּה הָיוּ בְּנֵי דָוִיד אֲשֶׁר נוֹלַד לוֹ בְּחֶבְרוֹן הַבְּכוֹר אַמְנֹן לַאֲחִינֹעַם הַיִּזְרְעֵאלִית שֵׁנִי דָּנִיֵּאל לַאֲבִיגַיִל הַכַּרְמְלִית",
+      "text_plain": "ואלה היו בני דויד אשר נולד לו בחברון הבכור אמנן לאחינעם היזרעאלית שני דניאל לאביגיל הכרמלית",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_002",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 2,
+      "ref": "דברי הימים א ג:ב",
+      "ref_en": "1 Chronicles 3:2",
+      "text_original": "הַשְּׁלִשִׁי֙ לְאַבְשָׁל֣וֹם בֶּֽן־מַעֲכָ֔ה בַּת־תַּלְמַ֖י מֶ֣לֶךְ גְּשׁ֑וּר הָֽרְבִיעִ֖י אֲדֹֽנִיָּ֥ה בֶן־חַגִּֽית׃",
+      "text_with_niqqud": "הַשְּׁלִשִׁי לְאַבְשָׁלוֹם בֶּן מַעֲכָה בַּת תַּלְמַי מֶלֶךְ גְּשׁוּר הָרְבִיעִי אֲדֹנִיָּה בֶן חַגִּית",
+      "text_plain": "השלשי לאבשלום בן מעכה בת תלמי מלך גשור הרביעי אדניה בן חגית",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_003",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 3,
+      "ref": "דברי הימים א ג:ג",
+      "ref_en": "1 Chronicles 3:3",
+      "text_original": "הַֽחֲמִישִׁ֥י שְׁפַטְיָ֖ה לַֽאֲבִיטָ֑ל הַשִּׁשִּׁ֥י יִתְרְעָ֖ם לְעֶגְלָ֥ה אִשְׁתּֽוֹ׃",
+      "text_with_niqqud": "הַחֲמִישִׁי שְׁפַטְיָה לַאֲבִיטָל הַשִּׁשִּׁי יִתְרְעָם לְעֶגְלָה אִשְׁתּוֹ",
+      "text_plain": "החמישי שפטיה לאביטל הששי יתרעם לעגלה אשתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_004",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 4,
+      "ref": "דברי הימים א ג:ד",
+      "ref_en": "1 Chronicles 3:4",
+      "text_original": "שִׁשָּׁה֙ נֽוֹלַד־ל֣וֹ בְחֶבְר֔וֹן וַיִּ֨מְלָךְ־שָׁ֔ם שֶׁ֥בַע שָׁנִ֖ים וְשִׁשָּׁ֣ה חֳדָשִׁ֑ים וּשְׁלֹשִׁ֤ים וְשָׁלוֹשׁ֙ שָׁנָ֔ה מָלַ֖ךְ בִּירֽוּשָׁלִָֽם׃",
+      "text_with_niqqud": "שִׁשָּׁה נוֹלַד לוֹ בְחֶבְרוֹן וַיִּמְלָךְ שָׁם שֶׁבַע שָׁנִים וְשִׁשָּׁה חֳדָשִׁים וּשְׁלֹשִׁים וְשָׁלוֹשׁ שָׁנָה מָלַךְ בִּירוּשָׁלִָם",
+      "text_plain": "ששה נולד לו בחברון וימלך שם שבע שנים וששה חדשים ושלשים ושלוש שנה מלך בירושלם",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_005",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 5,
+      "ref": "דברי הימים א ג:ה",
+      "ref_en": "1 Chronicles 3:5",
+      "text_original": "וְאֵ֥לֶּה נוּלְּדוּ־ל֖וֹ בִּירֽוּשָׁלָ֑יִם שִׁ֠מְעָ֠א וְשׁוֹבָ֞ב וְנָתָ֤ן וּשְׁלֹמֹה֙ אַרְבָּעָ֔ה לְבַת־שׁ֖וּעַ בַּת־עַמִּיאֵֽל׃",
+      "text_with_niqqud": "וְאֵלֶּה נוּלְּדוּ לוֹ בִּירוּשָׁלָיִם שִׁמְעָא וְשׁוֹבָב וְנָתָן וּשְׁלֹמֹה אַרְבָּעָה לְבַת שׁוּעַ בַּת עַמִּיאֵל",
+      "text_plain": "ואלה נולדו לו בירושלים שמעא ושובב ונתן ושלמה ארבעה לבת שוע בת עמיאל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_006",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 6,
+      "ref": "דברי הימים א ג:ו",
+      "ref_en": "1 Chronicles 3:6",
+      "text_original": "וְיִבְחָ֥ר וֶאֱלִֽישָׁמָ֖ע וֶֽאֱלִיפָֽלֶט׃",
+      "text_with_niqqud": "וְיִבְחָר וֶאֱלִישָׁמָע וֶאֱלִיפָלֶט",
+      "text_plain": "ויבחר ואלישמע ואליפלט",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_007",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 7,
+      "ref": "דברי הימים א ג:ז",
+      "ref_en": "1 Chronicles 3:7",
+      "text_original": "וְנֹ֥גַהּ וְנֶ֖פֶג וְיָפִֽיעַ׃",
+      "text_with_niqqud": "וְנֹגַהּ וְנֶפֶג וְיָפִיעַ",
+      "text_plain": "ונגה ונפג ויפיע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_008",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 8,
+      "ref": "דברי הימים א ג:ח",
+      "ref_en": "1 Chronicles 3:8",
+      "text_original": "וֶאֱלִֽישָׁמָ֧ע וְאֶלְיָדָ֛ע וֶֽאֱלִיפֶ֖לֶט תִּשְׁעָֽה׃",
+      "text_with_niqqud": "וֶאֱלִישָׁמָע וְאֶלְיָדָע וֶאֱלִיפֶלֶט תִּשְׁעָה",
+      "text_plain": "ואלישמע ואלידע ואליפלט תשעה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_009",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 9,
+      "ref": "דברי הימים א ג:ט",
+      "ref_en": "1 Chronicles 3:9",
+      "text_original": "כֹּ֖ל בְּנֵ֣י דָוִ֑יד מִלְּבַ֥ד בְּֽנֵי־פִֽילַגְשִׁ֖ים וְתָמָ֥ר אֲחוֹתָֽם׃",
+      "text_with_niqqud": "כֹּל בְּנֵי דָוִיד מִלְּבַד בְּנֵי פִילַגְשִׁים וְתָמָר אֲחוֹתָם",
+      "text_plain": "כל בני דויד מלבד בני פילגשים ותמר אחותם",
+      "markers": {
+        "before": [],
+        "after": [
+          "פ"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_010",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 10,
+      "ref": "דברי הימים א ג:י",
+      "ref_en": "1 Chronicles 3:10",
+      "text_original": "וּבֶן־שְׁלֹמֹ֖ה רְחַבְעָ֑ם אֲבִיָּ֥ה בְנ֛וֹ אָסָ֥א בְנ֖וֹ יְהֽוֹשָׁפָ֥ט בְּנֽוֹ׃",
+      "text_with_niqqud": "וּבֶן שְׁלֹמֹה רְחַבְעָם אֲבִיָּה בְנוֹ אָסָא בְנוֹ יְהוֹשָׁפָט בְּנוֹ",
+      "text_plain": "ובן שלמה רחבעם אביה בנו אסא בנו יהושפט בנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_011",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 11,
+      "ref": "דברי הימים א ג:יא",
+      "ref_en": "1 Chronicles 3:11",
+      "text_original": "יוֹרָ֥ם בְּנ֛וֹ אֲחַזְיָ֥הוּ בְנ֖וֹ יוֹאָ֥שׁ בְּנֽוֹ׃",
+      "text_with_niqqud": "יוֹרָם בְּנוֹ אֲחַזְיָהוּ בְנוֹ יוֹאָשׁ בְּנוֹ",
+      "text_plain": "יורם בנו אחזיהו בנו יואש בנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_012",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 12,
+      "ref": "דברי הימים א ג:יב",
+      "ref_en": "1 Chronicles 3:12",
+      "text_original": "אֲמַצְיָ֧הוּ בְנ֛וֹ עֲזַרְיָ֥ה בְנ֖וֹ יוֹתָ֥ם בְּנֽוֹ׃",
+      "text_with_niqqud": "אֲמַצְיָהוּ בְנוֹ עֲזַרְיָה בְנוֹ יוֹתָם בְּנוֹ",
+      "text_plain": "אמציהו בנו עזריה בנו יותם בנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_013",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 13,
+      "ref": "דברי הימים א ג:יג",
+      "ref_en": "1 Chronicles 3:13",
+      "text_original": "אָחָ֥ז בְּנ֛וֹ חִזְקִיָּ֥הוּ בְנ֖וֹ מְנַשֶּׁ֥ה בְנֽוֹ׃",
+      "text_with_niqqud": "אָחָז בְּנוֹ חִזְקִיָּהוּ בְנוֹ מְנַשֶּׁה בְנוֹ",
+      "text_plain": "אחז בנו חזקיהו בנו מנשה בנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_014",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 14,
+      "ref": "דברי הימים א ג:יד",
+      "ref_en": "1 Chronicles 3:14",
+      "text_original": "אָמ֥וֹן בְּנ֖וֹ יֹֽאשִׁיָּ֥הוּ בְנֽוֹ׃",
+      "text_with_niqqud": "אָמוֹן בְּנוֹ יֹאשִׁיָּהוּ בְנוֹ",
+      "text_plain": "אמון בנו יאשיהו בנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_015",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 15,
+      "ref": "דברי הימים א ג:טו",
+      "ref_en": "1 Chronicles 3:15",
+      "text_original": "וּבְנֵי֙ יֹֽאשִׁיָּ֔הוּ הַבְּכוֹר֙ יֽוֹחָנָ֔ן הַשֵּׁנִ֖י יְהֽוֹיָקִ֑ים הַשְּׁלִשִׁי֙ צִדְקִיָּ֔הוּ הָֽרְבִיעִ֖י שַׁלּֽוּם׃",
+      "text_with_niqqud": "וּבְנֵי יֹאשִׁיָּהוּ הַבְּכוֹר יוֹחָנָן הַשֵּׁנִי יְהוֹיָקִים הַשְּׁלִשִׁי צִדְקִיָּהוּ הָרְבִיעִי שַׁלּוּם",
+      "text_plain": "ובני יאשיהו הבכור יוחנן השני יהויקים השלשי צדקיהו הרביעי שלום",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_016",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 16,
+      "ref": "דברי הימים א ג:טז",
+      "ref_en": "1 Chronicles 3:16",
+      "text_original": "וּבְנֵ֖י יְהֽוֹיָקִ֑ים יְכָנְיָ֥ה בְנ֖וֹ צִדְקִיָּ֥ה בְנֽוֹ׃",
+      "text_with_niqqud": "וּבְנֵי יְהוֹיָקִים יְכָנְיָה בְנוֹ צִדְקִיָּה בְנוֹ",
+      "text_plain": "ובני יהויקים יכניה בנו צדקיה בנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_017",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 17,
+      "ref": "דברי הימים א ג:יז",
+      "ref_en": "1 Chronicles 3:17",
+      "text_original": "וּבְנֵי֙ יְכָנְיָ֣ה אַסִּ֔ר שְׁאַלְתִּיאֵ֖ל בְּנֽוֹ׃",
+      "text_with_niqqud": "וּבְנֵי יְכָנְיָה אַסִּר שְׁאַלְתִּיאֵל בְּנוֹ",
+      "text_plain": "ובני יכניה אסר שאלתיאל בנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_018",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 18,
+      "ref": "דברי הימים א ג:יח",
+      "ref_en": "1 Chronicles 3:18",
+      "text_original": "וּמַלְכִירָ֥ם וּפְדָיָ֖ה וְשֶׁנְאַצַּ֑ר יְקַמְיָ֥ה הֽוֹשָׁמָ֖ע וּנְדַבְיָֽה׃",
+      "text_with_niqqud": "וּמַלְכִירָם וּפְדָיָה וְשֶׁנְאַצַּר יְקַמְיָה הוֹשָׁמָע וּנְדַבְיָה",
+      "text_plain": "ומלכירם ופדיה ושנאצר יקמיה הושמע ונדביה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_019",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 19,
+      "ref": "דברי הימים א ג:יט",
+      "ref_en": "1 Chronicles 3:19",
+      "text_original": "וּבְנֵ֣י פְדָיָ֔ה זְרֻבָּבֶ֖ל וְשִׁמְעִ֑י וּבֶן־זְרֻבָּבֶל֙ מְשֻׁלָּ֣ם וַֽחֲנַנְיָ֔ה וּשְׁלֹמִ֖ית אֲחוֹתָֽם׃",
+      "text_with_niqqud": "וּבְנֵי פְדָיָה זְרֻבָּבֶל וְשִׁמְעִי וּבֶן זְרֻבָּבֶל מְשֻׁלָּם וַחֲנַנְיָה וּשְׁלֹמִית אֲחוֹתָם",
+      "text_plain": "ובני פדיה זרבבל ושמעי ובן זרבבל משלם וחנניה ושלמית אחותם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_020",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 20,
+      "ref": "דברי הימים א ג:כ",
+      "ref_en": "1 Chronicles 3:20",
+      "text_original": "וַֽחֲשֻׁבָ֡ה וָ֠אֹ֠הֶל וּבֶֽרֶכְיָ֧ה וַֽחֲסַדְיָ֛ה י֥וּשַׁב חֶ֖סֶד חָמֵֽשׁ׃",
+      "text_with_niqqud": "וַחֲשֻׁבָה וָאֹהֶל וּבֶרֶכְיָה וַחֲסַדְיָה יוּשַׁב חֶסֶד חָמֵשׁ",
+      "text_plain": "וחשבה ואהל וברכיה וחסדיה יושב חסד חמש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_021",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 21,
+      "ref": "דברי הימים א ג:כא",
+      "ref_en": "1 Chronicles 3:21",
+      "text_original": "וּבֶן־חֲנַנְיָ֖ה פְּלַטְיָ֣ה וִישַֽׁעְיָ֑ה בְּנֵ֤י רְפָיָה֙ בְּנֵ֣י אַרְנָ֔ן בְּנֵ֥י עֹֽבַדְיָ֖ה בְּנֵ֥י שְׁכַנְיָֽה׃",
+      "text_with_niqqud": "וּבֶן חֲנַנְיָה פְּלַטְיָה וִישַׁעְיָה בְּנֵי רְפָיָה בְּנֵי אַרְנָן בְּנֵי עֹבַדְיָה בְּנֵי שְׁכַנְיָה",
+      "text_plain": "ובן חנניה פלטיה וישעיה בני רפיה בני ארנן בני עבדיה בני שכניה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_022",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 22,
+      "ref": "דברי הימים א ג:כב",
+      "ref_en": "1 Chronicles 3:22",
+      "text_original": "וּבְנֵ֥י שְׁכַנְיָ֖ה שְׁמַֽעְיָ֑ה וּבְנֵ֣י שְׁמַֽעְיָ֗ה חַטּ֡וּשׁ וְ֠יִגְאָ֠ל וּבָרִ֧יחַ וּנְעַרְיָ֛ה וְשָׁפָ֖ט שִׁשָּֽׁה׃",
+      "text_with_niqqud": "וּבְנֵי שְׁכַנְיָה שְׁמַעְיָה וּבְנֵי שְׁמַעְיָה חַטּוּשׁ וְיִגְאָל וּבָרִיחַ וּנְעַרְיָה וְשָׁפָט שִׁשָּׁה",
+      "text_plain": "ובני שכניה שמעיה ובני שמעיה חטוש ויגאל ובריח ונעריה ושפט ששה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_023",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 23,
+      "ref": "דברי הימים א ג:כג",
+      "ref_en": "1 Chronicles 3:23",
+      "text_original": "וּבֶן־נְעַרְיָ֗ה אֶלְיֽוֹעֵינַ֧י וְחִזְקִיָּ֛ה וְעַזְרִיקָ֖ם שְׁלֹשָֽׁה׃",
+      "text_with_niqqud": "וּבֶן נְעַרְיָה אֶלְיוֹעֵינַי וְחִזְקִיָּה וְעַזְרִיקָם שְׁלֹשָׁה",
+      "text_plain": "ובן נעריה אליועיני וחזקיה ועזריקם שלשה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_003_024",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 3,
+      "verse": 24,
+      "ref": "דברי הימים א ג:כד",
+      "ref_en": "1 Chronicles 3:24",
+      "text_original": "וּבְנֵ֣י אֶלְיֽוֹעֵינַ֗י הודיוהו (הֽוֹדַוְיָ֡הוּ) וְאֶלְיָשִׁ֡יב וּפְלָיָ֡ה וְ֠עַקּ֠וּב וְיֽוֹחָנָ֧ן וּדְלָיָ֛ה וַֽעֲנָ֖נִי שִׁבְעָֽה׃",
+      "text_with_niqqud": "וּבְנֵי אֶלְיוֹעֵינַי הודיוהו (הוֹדַוְיָהוּ) וְאֶלְיָשִׁיב וּפְלָיָה וְעַקּוּב וְיוֹחָנָן וּדְלָיָה וַעֲנָנִי שִׁבְעָה",
+      "text_plain": "ובני אליועיני הודיוהו (הודויהו) ואלישיב ופליה ועקוב ויוחנן ודליה וענני שבעה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-03.txt"
+    }
+  ]
+}

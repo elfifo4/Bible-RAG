@@ -1,0 +1,228 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 26,
+  "chapter_id": "_27_tehilim_026",
+  "ref": "תהילים כו",
+  "ref_en": "Psalms 26",
+  "source_file": "_27_tehilim-026.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_026_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 26,
+      "verse": 1,
+      "ref": "תהילים כו:א",
+      "ref_en": "Psalms 26:1",
+      "text_original": "לְדָוִ֨ד ׀ שָׁפְטֵ֤נִי יְהֹוָ֗ה כִּֽי־אֲ֭נִי בְּתֻמִּ֣י הָלַ֑כְתִּי וּבַֽיהֹוָ֥ה בָּ֝טַ֗חְתִּי לֹ֣א אֶמְעָֽד׃",
+      "text_with_niqqud": "לְדָוִד שָׁפְטֵנִי יְהֹוָה כִּי אֲנִי בְּתֻמִּי הָלַכְתִּי וּבַיהֹוָה בָּטַחְתִּי לֹא אֶמְעָד",
+      "text_plain": "לדוד שפטני יהוה כי אני בתמי הלכתי וביהוה בטחתי לא אמעד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-026.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_026_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 26,
+      "verse": 2,
+      "ref": "תהילים כו:ב",
+      "ref_en": "Psalms 26:2",
+      "text_original": "בְּחָנֵ֣נִי יְהֹוָ֣ה וְנַסֵּ֑נִי צרופה (צָרְפָ֖ה) כִלְיוֹתַ֣י וְלִבִּֽי׃",
+      "text_with_niqqud": "בְּחָנֵנִי יְהֹוָה וְנַסֵּנִי צרופה (צָרְפָה) כִלְיוֹתַי וְלִבִּי",
+      "text_plain": "בחנני יהוה ונסני צרופה (צרפה) כליותי ולבי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-026.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_026_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 26,
+      "verse": 3,
+      "ref": "תהילים כו:ג",
+      "ref_en": "Psalms 26:3",
+      "text_original": "כִּֽי־חַ֭סְדְּךָ לְנֶ֣גֶד עֵינָ֑י וְ֝הִתְהַלַּ֗כְתִּי בַּֽאֲמִתֶּֽךָ׃",
+      "text_with_niqqud": "כִּי חַסְדְּךָ לְנֶגֶד עֵינָי וְהִתְהַלַּכְתִּי בַּאֲמִתֶּךָ",
+      "text_plain": "כי חסדך לנגד עיני והתהלכתי באמתך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-026.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_026_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 26,
+      "verse": 4,
+      "ref": "תהילים כו:ד",
+      "ref_en": "Psalms 26:4",
+      "text_original": "לֹֽא־יָ֭שַׁבְתִּי עִם־מְתֵי־שָׁ֑וְא וְעִ֥ם נַֽ֝עֲלָמִ֗ים לֹ֣א אָבֽוֹא׃",
+      "text_with_niqqud": "לֹא יָשַׁבְתִּי עִם מְתֵי שָׁוְא וְעִם נַעֲלָמִים לֹא אָבוֹא",
+      "text_plain": "לא ישבתי עם מתי שוא ועם נעלמים לא אבוא",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-026.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_026_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 26,
+      "verse": 5,
+      "ref": "תהילים כו:ה",
+      "ref_en": "Psalms 26:5",
+      "text_original": "שָׂ֭נֵאתִי קְהַ֣ל מְרֵעִ֑ים וְעִם־רְ֝שָׁעִ֗ים לֹ֣א אֵשֵֽׁב׃",
+      "text_with_niqqud": "שָׂנֵאתִי קְהַל מְרֵעִים וְעִם רְשָׁעִים לֹא אֵשֵׁב",
+      "text_plain": "שנאתי קהל מרעים ועם רשעים לא אשב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-026.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_026_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 26,
+      "verse": 6,
+      "ref": "תהילים כו:ו",
+      "ref_en": "Psalms 26:6",
+      "text_original": "אֶרְחַ֣ץ בְּנִקָּי֣וֹן כַּפָּ֑י וַאֲסֹֽבְבָ֖ה אֶת־מִזְבַּֽחֲךָ֣ יְהֹוָֽה׃",
+      "text_with_niqqud": "אֶרְחַץ בְּנִקָּיוֹן כַּפָּי וַאֲסֹבְבָה אֶת מִזְבַּחֲךָ יְהֹוָה",
+      "text_plain": "ארחץ בנקיון כפי ואסבבה את מזבחך יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-026.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_026_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 26,
+      "verse": 7,
+      "ref": "תהילים כו:ז",
+      "ref_en": "Psalms 26:7",
+      "text_original": "לַ֭שְׁמִעַ בְּק֣וֹל תּוֹדָ֑ה וּ֝לְסַפֵּ֗ר כָּל־נִפְלְאוֹתֶֽיךָ׃",
+      "text_with_niqqud": "לַשְׁמִעַ בְּקוֹל תּוֹדָה וּלְסַפֵּר כָּל נִפְלְאוֹתֶיךָ",
+      "text_plain": "לשמע בקול תודה ולספר כל נפלאותיך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-026.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_026_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 26,
+      "verse": 8,
+      "ref": "תהילים כו:ח",
+      "ref_en": "Psalms 26:8",
+      "text_original": "יְֽהֹוָ֗ה אָ֭הַבְתִּי מְע֣וֹן בֵּיתֶ֑ךָ וּ֝מְק֗וֹם מִשְׁכַּ֥ן כְּבוֹדֶֽךָ׃",
+      "text_with_niqqud": "יְהֹוָה אָהַבְתִּי מְעוֹן בֵּיתֶךָ וּמְקוֹם מִשְׁכַּן כְּבוֹדֶךָ",
+      "text_plain": "יהוה אהבתי מעון ביתך ומקום משכן כבודך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-026.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_026_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 26,
+      "verse": 9,
+      "ref": "תהילים כו:ט",
+      "ref_en": "Psalms 26:9",
+      "text_original": "אַל־תֶּֽאֱסֹ֣ף עִם־חַטָּאִ֣ים נַפְשִׁ֑י וְעִם־אַנְשֵׁ֖י דָמִ֣ים חַיָּֽי׃",
+      "text_with_niqqud": "אַל תֶּאֱסֹף עִם חַטָּאִים נַפְשִׁי וְעִם אַנְשֵׁי דָמִים חַיָּי",
+      "text_plain": "אל תאסף עם חטאים נפשי ועם אנשי דמים חיי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-026.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_026_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 26,
+      "verse": 10,
+      "ref": "תהילים כו:י",
+      "ref_en": "Psalms 26:10",
+      "text_original": "אֲשֶׁר־בִּֽידֵיהֶ֥ם זִמָּ֑ה וִֽ֝ימִינָ֗ם מָ֣לְאָה שֹּֽׁחַד׃",
+      "text_with_niqqud": "אֲשֶׁר בִּידֵיהֶם זִמָּה וִימִינָם מָלְאָה שֹּׁחַד",
+      "text_plain": "אשר בידיהם זמה וימינם מלאה שחד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-026.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_026_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 26,
+      "verse": 11,
+      "ref": "תהילים כו:יא",
+      "ref_en": "Psalms 26:11",
+      "text_original": "וַֽ֭אֲנִי בְּתֻמִּ֥י אֵלֵ֗ךְ פְּדֵ֣נִי וְחָנֵּֽנִי׃",
+      "text_with_niqqud": "וַאֲנִי בְּתֻמִּי אֵלֵךְ פְּדֵנִי וְחָנֵּנִי",
+      "text_plain": "ואני בתמי אלך פדני וחנני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-026.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_026_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 26,
+      "verse": 12,
+      "ref": "תהילים כו:יב",
+      "ref_en": "Psalms 26:12",
+      "text_original": "רַ֭גְלִי עָֽמְדָ֣ה בְמִישׁ֑וֹר בְּ֝מַקְהֵלִ֗ים אֲבָרֵ֥ךְ יְהֹוָֽה׃",
+      "text_with_niqqud": "רַגְלִי עָמְדָה בְמִישׁוֹר בְּמַקְהֵלִים אֲבָרֵךְ יְהֹוָה",
+      "text_plain": "רגלי עמדה במישור במקהלים אברך יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-026.txt"
+    }
+  ]
+}

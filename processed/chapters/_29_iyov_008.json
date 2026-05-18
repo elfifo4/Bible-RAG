@@ -1,0 +1,408 @@
+{
+  "book": "איוב",
+  "book_en": "Job",
+  "book_slug": "iyov",
+  "chapter": 8,
+  "chapter_id": "_29_iyov_008",
+  "ref": "איוב ח",
+  "ref_en": "Job 8",
+  "source_file": "_29_iyov-08.txt",
+  "verses": [
+    {
+      "verse_id": "_29_iyov_008_001",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 1,
+      "ref": "איוב ח:א",
+      "ref_en": "Job 8:1",
+      "text_original": "וַ֭יַּעַן בִּלְדַּ֥ד הַשּׁוּחִ֗י וַיֹּאמַֽר׃",
+      "text_with_niqqud": "וַיַּעַן בִּלְדַּד הַשּׁוּחִי וַיֹּאמַר",
+      "text_plain": "ויען בלדד השוחי ויאמר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_002",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 2,
+      "ref": "איוב ח:ב",
+      "ref_en": "Job 8:2",
+      "text_original": "עַד־אָ֥ן תְּמַלֶּל־אֵ֑לֶּה וְר֥וּחַ כַּ֝בִּ֗יר אִמְרֵי־פִֽיךָ׃",
+      "text_with_niqqud": "עַד אָן תְּמַלֶּל אֵלֶּה וְרוּחַ כַּבִּיר אִמְרֵי פִיךָ",
+      "text_plain": "עד אן תמלל אלה ורוח כביר אמרי פיך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_003",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 3,
+      "ref": "איוב ח:ג",
+      "ref_en": "Job 8:3",
+      "text_original": "הַ֭אֵל יְעַוֵּ֣ת מִשְׁפָּ֑ט וְאִם־שַׁ֝דַּ֗י יְעַוֵּֽת־צֶֽדֶק׃",
+      "text_with_niqqud": "הַאֵל יְעַוֵּת מִשְׁפָּט וְאִם שַׁדַּי יְעַוֵּת צֶדֶק",
+      "text_plain": "האל יעות משפט ואם שדי יעות צדק",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_004",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 4,
+      "ref": "איוב ח:ד",
+      "ref_en": "Job 8:4",
+      "text_original": "אִם־בָּנֶ֥יךָ חָֽטְאוּ־ל֑וֹ וַֽ֝יְשַׁלְּחֵ֗ם בְּיַד־פִּשְׁעָֽם׃",
+      "text_with_niqqud": "אִם בָּנֶיךָ חָטְאוּ לוֹ וַיְשַׁלְּחֵם בְּיַד פִּשְׁעָם",
+      "text_plain": "אם בניך חטאו לו וישלחם ביד פשעם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_005",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 5,
+      "ref": "איוב ח:ה",
+      "ref_en": "Job 8:5",
+      "text_original": "אִם־אַ֭תָּה תְּשַׁחֵ֣ר אֶל־אֵ֑ל וְאֶל־שַׁ֝דַּ֗י תִּתְחַנָּֽן׃",
+      "text_with_niqqud": "אִם אַתָּה תְּשַׁחֵר אֶל אֵל וְאֶל שַׁדַּי תִּתְחַנָּן",
+      "text_plain": "אם אתה תשחר אל אל ואל שדי תתחנן",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_006",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 6,
+      "ref": "איוב ח:ו",
+      "ref_en": "Job 8:6",
+      "text_original": "אִם־זַ֥ךְ וְיָשָׁ֗ר אָ֥תָּה כִּֽי־עַ֭תָּה יָעִ֣יר עָלֶ֑יךָ וְ֝שִׁלַּ֗ם נְוַ֣ת צִדְקֶֽךָ׃",
+      "text_with_niqqud": "אִם זַךְ וְיָשָׁר אָתָּה כִּי עַתָּה יָעִיר עָלֶיךָ וְשִׁלַּם נְוַת צִדְקֶךָ",
+      "text_plain": "אם זך וישר אתה כי עתה יעיר עליך ושלם נות צדקך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_007",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 7,
+      "ref": "איוב ח:ז",
+      "ref_en": "Job 8:7",
+      "text_original": "וְהָיָ֣ה רֵאשִֽׁיתְךָ֣ מִצְעָ֑ר וְ֝אַחֲרִֽיתְךָ֗ יִשְׂגֶּ֥ה מְאֹֽד׃",
+      "text_with_niqqud": "וְהָיָה רֵאשִׁיתְךָ מִצְעָר וְאַחֲרִיתְךָ יִשְׂגֶּה מְאֹד",
+      "text_plain": "והיה ראשיתך מצער ואחריתך ישגה מאד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_008",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 8,
+      "ref": "איוב ח:ח",
+      "ref_en": "Job 8:8",
+      "text_original": "כִּֽי־שְׁאַל־נָ֭א לְדֹ֣ר רִישׁ֑וֹן וְ֝כוֹנֵ֗ן לְחֵ֣קֶר אֲבוֹתָֽם׃",
+      "text_with_niqqud": "כִּי שְׁאַל נָא לְדֹר רִישׁוֹן וְכוֹנֵן לְחֵקֶר אֲבוֹתָם",
+      "text_plain": "כי שאל נא לדר רישון וכונן לחקר אבותם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_009",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 9,
+      "ref": "איוב ח:ט",
+      "ref_en": "Job 8:9",
+      "text_original": "כִּֽי־תְמ֣וֹל אֲ֭נַחְנוּ וְלֹ֣א נֵדָ֑ע כִּ֤י צֵ֖ל יָמֵ֣ינוּ עֲלֵי־אָֽרֶץ׃",
+      "text_with_niqqud": "כִּי תְמוֹל אֲנַחְנוּ וְלֹא נֵדָע כִּי צֵל יָמֵינוּ עֲלֵי אָרֶץ",
+      "text_plain": "כי תמול אנחנו ולא נדע כי צל ימינו עלי ארץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_010",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 10,
+      "ref": "איוב ח:י",
+      "ref_en": "Job 8:10",
+      "text_original": "הֲלֹא־הֵ֣ם י֭וֹרוּךָ יֹ֣אמְרוּ לָ֑ךְ וּ֝מִלִּבָּ֗ם יוֹצִ֥אוּ מִלִּֽים׃",
+      "text_with_niqqud": "הֲלֹא הֵם יוֹרוּךָ יֹאמְרוּ לָךְ וּמִלִּבָּם יוֹצִאוּ מִלִּים",
+      "text_plain": "הלא הם יורוך יאמרו לך ומלבם יוצאו מלים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_011",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 11,
+      "ref": "איוב ח:יא",
+      "ref_en": "Job 8:11",
+      "text_original": "הֲיִֽגְאֶה־גֹּ֭מֶא בְּלֹ֣א בִצָּ֑ה יִשְׂגֶּה־אָ֥חוּ בְלִי־מָֽיִם׃",
+      "text_with_niqqud": "הֲיִגְאֶה גֹּמֶא בְּלֹא בִצָּה יִשְׂגֶּה אָחוּ בְלִי מָיִם",
+      "text_plain": "היגאה גמא בלא בצה ישגה אחו בלי מים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_012",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 12,
+      "ref": "איוב ח:יב",
+      "ref_en": "Job 8:12",
+      "text_original": "עֹדֶ֣נּוּ בְ֭אִבּוֹ לֹ֣א יִקָּטֵ֑ף וְלִפְנֵ֖י כָל־חָצִ֣יר יִיבָֽשׁ׃",
+      "text_with_niqqud": "עֹדֶנּוּ בְאִבּוֹ לֹא יִקָּטֵף וְלִפְנֵי כָל חָצִיר יִיבָשׁ",
+      "text_plain": "עדנו באבו לא יקטף ולפני כל חציר ייבש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_013",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 13,
+      "ref": "איוב ח:יג",
+      "ref_en": "Job 8:13",
+      "text_original": "כֵּ֗ן אָ֭רְחוֹת כָּל־שֹׁ֣כְחֵי אֵ֑ל וְתִקְוַ֖ת חָנֵ֣ף תֹּאבֵֽד׃",
+      "text_with_niqqud": "כֵּן אָרְחוֹת כָּל שֹׁכְחֵי אֵל וְתִקְוַת חָנֵף תֹּאבֵד",
+      "text_plain": "כן ארחות כל שכחי אל ותקות חנף תאבד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_014",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 14,
+      "ref": "איוב ח:יד",
+      "ref_en": "Job 8:14",
+      "text_original": "אֲשֶׁר־יָק֥וֹט כִּסְל֑וֹ וּבֵ֥ית עַ֝כָּבִ֗ישׁ מִבְטַחֽוֹ׃",
+      "text_with_niqqud": "אֲשֶׁר יָקוֹט כִּסְלוֹ וּבֵית עַכָּבִישׁ מִבְטַחוֹ",
+      "text_plain": "אשר יקוט כסלו ובית עכביש מבטחו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_015",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 15,
+      "ref": "איוב ח:טו",
+      "ref_en": "Job 8:15",
+      "text_original": "יִשָּׁעֵ֣ן עַל־בֵּ֭יתוֹ וְלֹ֣א יַֽעֲמֹ֑ד יַֽחֲזִ֥יק בּ֝֗וֹ וְלֹ֣א יָקֽוּם׃",
+      "text_with_niqqud": "יִשָּׁעֵן עַל בֵּיתוֹ וְלֹא יַעֲמֹד יַחֲזִיק בּוֹ וְלֹא יָקוּם",
+      "text_plain": "ישען על ביתו ולא יעמד יחזיק בו ולא יקום",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_016",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 16,
+      "ref": "איוב ח:טז",
+      "ref_en": "Job 8:16",
+      "text_original": "רָטֹ֣ב ה֭וּא לִפְנֵי־שָׁ֑מֶשׁ וְעַ֥ל גַּ֝נָּת֗וֹ יֹֽנַקְתּ֥וֹ תֵצֵֽא׃",
+      "text_with_niqqud": "רָטֹב הוּא לִפְנֵי שָׁמֶשׁ וְעַל גַּנָּתוֹ יֹנַקְתּוֹ תֵצֵא",
+      "text_plain": "רטב הוא לפני שמש ועל גנתו ינקתו תצא",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_017",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 17,
+      "ref": "איוב ח:יז",
+      "ref_en": "Job 8:17",
+      "text_original": "עַל־גַּ֭ל שָֽׁרָשָׁ֣יו יְסֻבָּ֑כוּ בֵּ֖ית אֲבָנִ֣ים יֶֽחֱזֶֽה׃",
+      "text_with_niqqud": "עַל גַּל שָׁרָשָׁיו יְסֻבָּכוּ בֵּית אֲבָנִים יֶחֱזֶה",
+      "text_plain": "על גל שרשיו יסבכו בית אבנים יחזה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_018",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 18,
+      "ref": "איוב ח:יח",
+      "ref_en": "Job 8:18",
+      "text_original": "אִם־יְבַלְּעֶ֥נּוּ מִמְּקֹמ֑וֹ וְכִ֥חֶשׁ בּ֝֗וֹ לֹ֣א רְאִיתִֽיךָ׃",
+      "text_with_niqqud": "אִם יְבַלְּעֶנּוּ מִמְּקֹמוֹ וְכִחֶשׁ בּוֹ לֹא רְאִיתִיךָ",
+      "text_plain": "אם יבלענו ממקמו וכחש בו לא ראיתיך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_019",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 19,
+      "ref": "איוב ח:יט",
+      "ref_en": "Job 8:19",
+      "text_original": "הֶן־ה֭וּא מְשׂ֣וֹשׂ דַּרְכּ֑וֹ וּ֝מֵֽעָפָ֗ר אַחֵ֥ר יִצְמָֽחוּ׃",
+      "text_with_niqqud": "הֶן הוּא מְשׂוֹשׂ דַּרְכּוֹ וּמֵעָפָר אַחֵר יִצְמָחוּ",
+      "text_plain": "הן הוא משוש דרכו ומעפר אחר יצמחו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_020",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 20,
+      "ref": "איוב ח:כ",
+      "ref_en": "Job 8:20",
+      "text_original": "הֶן־אֵ֭ל לֹ֣א יִמְאַס־תָּ֑ם וְלֹֽא־יַ֝חֲזִ֗יק בְּיַד־מְרֵעִֽים׃",
+      "text_with_niqqud": "הֶן אֵל לֹא יִמְאַס תָּם וְלֹא יַחֲזִיק בְּיַד מְרֵעִים",
+      "text_plain": "הן אל לא ימאס תם ולא יחזיק ביד מרעים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_021",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 21,
+      "ref": "איוב ח:כא",
+      "ref_en": "Job 8:21",
+      "text_original": "עַד־יְמַלֵּ֣ה שְׂח֣וֹק פִּ֑יךָ וּשְׂפָתֶ֥יךָ תְרוּעָֽה׃",
+      "text_with_niqqud": "עַד יְמַלֵּה שְׂחוֹק פִּיךָ וּשְׂפָתֶיךָ תְרוּעָה",
+      "text_plain": "עד ימלה שחוק פיך ושפתיך תרועה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    },
+    {
+      "verse_id": "_29_iyov_008_022",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 8,
+      "verse": 22,
+      "ref": "איוב ח:כב",
+      "ref_en": "Job 8:22",
+      "text_original": "שֹֽׂנְאֶ֥יךָ יִלְבְּשׁוּ־בֹ֑שֶׁת וְאֹ֖הֶל רְשָׁעִ֣ים אֵינֶֽנּוּ׃",
+      "text_with_niqqud": "שֹׂנְאֶיךָ יִלְבְּשׁוּ בֹשֶׁת וְאֹהֶל רְשָׁעִים אֵינֶנּוּ",
+      "text_plain": "שנאיך ילבשו בשת ואהל רשעים איננו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-08.txt"
+    }
+  ]
+}

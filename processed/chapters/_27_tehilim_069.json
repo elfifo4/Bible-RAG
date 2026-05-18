@@ -1,0 +1,678 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 69,
+  "chapter_id": "_27_tehilim_069",
+  "ref": "תהילים סט",
+  "ref_en": "Psalms 69",
+  "source_file": "_27_tehilim-069.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_069_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 1,
+      "ref": "תהילים סט:א",
+      "ref_en": "Psalms 69:1",
+      "text_original": "לַמְנַצֵּ֬חַ ׀ עַֽל־שׁוֹשַׁנִּ֬ים לְדָוִֽד׃",
+      "text_with_niqqud": "לַמְנַצֵּחַ עַל שׁוֹשַׁנִּים לְדָוִד",
+      "text_plain": "למנצח על שושנים לדוד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 2,
+      "ref": "תהילים סט:ב",
+      "ref_en": "Psalms 69:2",
+      "text_original": "הֽוֹשִׁיעֵ֥נִי אֱלֹהִ֑ים כִּ֤י בָ֖אוּ מַ֣יִם עַד־נָֽפֶשׁ׃",
+      "text_with_niqqud": "הוֹשִׁיעֵנִי אֱלֹהִים כִּי בָאוּ מַיִם עַד נָפֶשׁ",
+      "text_plain": "הושיעני אלהים כי באו מים עד נפש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 3,
+      "ref": "תהילים סט:ג",
+      "ref_en": "Psalms 69:3",
+      "text_original": "טָבַ֤עְתִּי ׀ בִּיוֵ֣ן מְ֭צוּלָה וְאֵ֣ין מָֽעֳמָ֑ד בָּ֥אתִי בְמַֽעֲמַקֵּי־מַ֝֗יִם וְשִׁבֹּ֥לֶת שְׁטָפָֽתְנִי׃",
+      "text_with_niqqud": "טָבַעְתִּי בִּיוֵן מְצוּלָה וְאֵין מָעֳמָד בָּאתִי בְמַעֲמַקֵּי מַיִם וְשִׁבֹּלֶת שְׁטָפָתְנִי",
+      "text_plain": "טבעתי ביון מצולה ואין מעמד באתי במעמקי מים ושבלת שטפתני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 4,
+      "ref": "תהילים סט:ד",
+      "ref_en": "Psalms 69:4",
+      "text_original": "יָגַ֣עְתִּי בְקָרְאִי֮ נִחַ֪ר גְּר֫וֹנִ֥י כָּל֥וּ עֵינַ֑י מְ֝יַחֵ֗ל לֵֽאלֹהָֽי׃",
+      "text_with_niqqud": "יָגַעְתִּי בְקָרְאִי נִחַר גְּרוֹנִי כָּלוּ עֵינַי מְיַחֵל לֵאלֹהָי",
+      "text_plain": "יגעתי בקראי נחר גרוני כלו עיני מיחל לאלהי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 5,
+      "ref": "תהילים סט:ה",
+      "ref_en": "Psalms 69:5",
+      "text_original": "רַבּ֤וּ ׀ מִשַּֽׂעֲר֣וֹת רֹאשִׁי֮ שֹֽׂנְאַ֪י חִ֫נָּ֥ם עָֽצְמ֣וּ מַ֭צְמִיתַי אֹֽיְבַ֣י שֶׁ֑קֶר אֲשֶׁ֥ר לֹֽא־גָ֝זַ֗לְתִּי אָ֣ז אָשִֽׁיב׃",
+      "text_with_niqqud": "רַבּוּ מִשַּׂעֲרוֹת רֹאשִׁי שֹׂנְאַי חִנָּם עָצְמוּ מַצְמִיתַי אֹיְבַי שֶׁקֶר אֲשֶׁר לֹא גָזַלְתִּי אָז אָשִׁיב",
+      "text_plain": "רבו משערות ראשי שנאי חנם עצמו מצמיתי איבי שקר אשר לא גזלתי אז אשיב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 6,
+      "ref": "תהילים סט:ו",
+      "ref_en": "Psalms 69:6",
+      "text_original": "אֱֽלֹהִ֗ים אַתָּ֣ה יָ֭דַעְתָּ לְאִוַּלְתִּ֑י וְ֝אַשְׁמוֹתַ֗י מִמְּךָ֥ לֹֽא־נִכְחָֽדוּ׃",
+      "text_with_niqqud": "אֱלֹהִים אַתָּה יָדַעְתָּ לְאִוַּלְתִּי וְאַשְׁמוֹתַי מִמְּךָ לֹא נִכְחָדוּ",
+      "text_plain": "אלהים אתה ידעת לאולתי ואשמותי ממך לא נכחדו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 7,
+      "ref": "תהילים סט:ז",
+      "ref_en": "Psalms 69:7",
+      "text_original": "אַל־יֵ֘בֹ֤שׁוּ בִ֨י ׀ קֹוֶֽיךָ֮ אֲדֹנָ֥י יְהֹוִ֗ה צְבָ֫א֥וֹת אַל־יִכָּ֣לְמֽוּ בִ֣י מְבַקְשֶׁ֑יךָ אֱ֝לֹהֵ֗י יִשְׂרָאֵֽל׃",
+      "text_with_niqqud": "אַל יֵבֹשׁוּ בִי קֹוֶיךָ אֲדֹנָי יְהֹוִה צְבָאוֹת אַל יִכָּלְמוּ בִי מְבַקְשֶׁיךָ אֱלֹהֵי יִשְׂרָאֵל",
+      "text_plain": "אל יבשו בי קויך אדני יהוה צבאות אל יכלמו בי מבקשיך אלהי ישראל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 8,
+      "ref": "תהילים סט:ח",
+      "ref_en": "Psalms 69:8",
+      "text_original": "כִּֽי־עָ֭לֶיךָ נָשָׂ֣אתִי חֶרְפָּ֑ה כִּסְּתָ֖ה כְלִמָּ֣ה פָנָֽי׃",
+      "text_with_niqqud": "כִּי עָלֶיךָ נָשָׂאתִי חֶרְפָּה כִּסְּתָה כְלִמָּה פָנָי",
+      "text_plain": "כי עליך נשאתי חרפה כסתה כלמה פני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 9,
+      "ref": "תהילים סט:ט",
+      "ref_en": "Psalms 69:9",
+      "text_original": "מ֭וּזָר הָיִ֣יתִי לְאֶחָ֑י וְ֝נָכְרִ֗י לִבְנֵ֥י אִמִּֽי׃",
+      "text_with_niqqud": "מוּזָר הָיִיתִי לְאֶחָי וְנָכְרִי לִבְנֵי אִמִּי",
+      "text_plain": "מוזר הייתי לאחי ונכרי לבני אמי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 10,
+      "ref": "תהילים סט:י",
+      "ref_en": "Psalms 69:10",
+      "text_original": "כִּֽי־קִנְאַ֣ת בֵּֽיתְךָ֣ אֲכָלָ֑תְנִי וְחֶרְפּ֥וֹת חֽ֝וֹרְפֶ֗יךָ נָֽפְל֥וּ עָלָֽי׃",
+      "text_with_niqqud": "כִּי קִנְאַת בֵּיתְךָ אֲכָלָתְנִי וְחֶרְפּוֹת חוֹרְפֶיךָ נָפְלוּ עָלָי",
+      "text_plain": "כי קנאת ביתך אכלתני וחרפות חורפיך נפלו עלי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 11,
+      "ref": "תהילים סט:יא",
+      "ref_en": "Psalms 69:11",
+      "text_original": "וָֽאֶבְכֶּ֣ה בַצּ֣וֹם נַפְשִׁ֑י וַתְּהִ֖י לַֽחֲרָפ֣וֹת לִֽי׃",
+      "text_with_niqqud": "וָאֶבְכֶּה בַצּוֹם נַפְשִׁי וַתְּהִי לַחֲרָפוֹת לִי",
+      "text_plain": "ואבכה בצום נפשי ותהי לחרפות לי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 12,
+      "ref": "תהילים סט:יב",
+      "ref_en": "Psalms 69:12",
+      "text_original": "וָֽאֶתְּנָ֣ה לְבוּשִׁ֣י שָׂ֑ק וָֽאֱהִ֖י לָהֶ֣ם לְמָשָֽׁל׃",
+      "text_with_niqqud": "וָאֶתְּנָה לְבוּשִׁי שָׂק וָאֱהִי לָהֶם לְמָשָׁל",
+      "text_plain": "ואתנה לבושי שק ואהי להם למשל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 13,
+      "ref": "תהילים סט:יג",
+      "ref_en": "Psalms 69:13",
+      "text_original": "יָשִׂ֣יחוּ בִ֭י יֹ֣שְׁבֵי שָׁ֑עַר וּ֝נְגִינ֗וֹת שׁוֹתֵ֥י שֵׁכָֽר׃",
+      "text_with_niqqud": "יָשִׂיחוּ בִי יֹשְׁבֵי שָׁעַר וּנְגִינוֹת שׁוֹתֵי שֵׁכָר",
+      "text_plain": "ישיחו בי ישבי שער ונגינות שותי שכר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_014",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 14,
+      "ref": "תהילים סט:יד",
+      "ref_en": "Psalms 69:14",
+      "text_original": "וַֽאֲנִ֤י תְפִלָּֽתִי־לְךָ֨ ׀ יְהֹוָ֡ה עֵ֤ת רָצ֗וֹן אֱלֹהִ֥ים בְּרָב־חַסְדֶּ֑ךָ עֲ֝נֵ֗נִי בֶּֽאֱמֶ֥ת יִשְׁעֶֽךָ׃",
+      "text_with_niqqud": "וַאֲנִי תְפִלָּתִי לְךָ יְהֹוָה עֵת רָצוֹן אֱלֹהִים בְּרָב חַסְדֶּךָ עֲנֵנִי בֶּאֱמֶת יִשְׁעֶךָ",
+      "text_plain": "ואני תפלתי לך יהוה עת רצון אלהים ברב חסדך ענני באמת ישעך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_015",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 15,
+      "ref": "תהילים סט:טו",
+      "ref_en": "Psalms 69:15",
+      "text_original": "הַצִּילֵ֣נִי מִ֭טִּיט וְאַל־אֶטְבָּ֑עָה אִנָּֽצְלָ֥ה מִ֝שֹּֽׂנְאַ֗י וּמִמַּ֖עֲמַקֵּי מָֽיִם׃",
+      "text_with_niqqud": "הַצִּילֵנִי מִטִּיט וְאַל אֶטְבָּעָה אִנָּצְלָה מִשֹּׂנְאַי וּמִמַּעֲמַקֵּי מָיִם",
+      "text_plain": "הצילני מטיט ואל אטבעה אנצלה משנאי וממעמקי מים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_016",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 16,
+      "ref": "תהילים סט:טז",
+      "ref_en": "Psalms 69:16",
+      "text_original": "אַל־תִּשְׁטְפֵ֤נִי ׀ שִׁבֹּ֣לֶת מַ֭יִם וְאַל־תִּבְלָעֵ֣נִי מְצוּלָ֑ה וְאַל־תֶּאְטַר־עָלַ֖י בְּאֵ֣ר פִּֽיהָ׃",
+      "text_with_niqqud": "אַל תִּשְׁטְפֵנִי שִׁבֹּלֶת מַיִם וְאַל תִּבְלָעֵנִי מְצוּלָה וְאַל תֶּאְטַר עָלַי בְּאֵר פִּיהָ",
+      "text_plain": "אל תשטפני שבלת מים ואל תבלעני מצולה ואל תאטר עלי באר פיה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_017",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 17,
+      "ref": "תהילים סט:יז",
+      "ref_en": "Psalms 69:17",
+      "text_original": "עֲנֵ֣נִי יְ֭הֹוָה כִּי־ט֣וֹב חַסְדֶּ֑ךָ כְּרֹ֥ב רַֽ֝חֲמֶ֗יךָ פְּנֵ֣ה אֵלָֽי׃",
+      "text_with_niqqud": "עֲנֵנִי יְהֹוָה כִּי טוֹב חַסְדֶּךָ כְּרֹב רַחֲמֶיךָ פְּנֵה אֵלָי",
+      "text_plain": "ענני יהוה כי טוב חסדך כרב רחמיך פנה אלי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_018",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 18,
+      "ref": "תהילים סט:יח",
+      "ref_en": "Psalms 69:18",
+      "text_original": "וְאַל־תַּסְתֵּ֣ר פָּ֭נֶיךָ מֵֽעַבְדֶּ֑ךָ כִּֽי־צַר־לִ֝֗י מַהֵ֥ר עֲנֵֽנִי׃",
+      "text_with_niqqud": "וְאַל תַּסְתֵּר פָּנֶיךָ מֵעַבְדֶּךָ כִּי צַר לִי מַהֵר עֲנֵנִי",
+      "text_plain": "ואל תסתר פניך מעבדך כי צר לי מהר ענני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_019",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 19,
+      "ref": "תהילים סט:יט",
+      "ref_en": "Psalms 69:19",
+      "text_original": "קָרְבָ֣ה אֶל־נַפְשִׁ֣י גְאָלָ֑הּ לְמַ֖עַן אֹֽיְבַ֣י פְּדֵֽנִי׃",
+      "text_with_niqqud": "קָרְבָה אֶל נַפְשִׁי גְאָלָהּ לְמַעַן אֹיְבַי פְּדֵנִי",
+      "text_plain": "קרבה אל נפשי גאלה למען איבי פדני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_020",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 20,
+      "ref": "תהילים סט:כ",
+      "ref_en": "Psalms 69:20",
+      "text_original": "אַתָּ֤ה יָדַ֗עְתָּ חֶרְפָּתִ֣י וּ֭בָשְׁתִּי וּכְלִמָּתִ֑י נֶ֝גְדְּךָ֗ כָּל־צֽוֹרְרָֽי׃",
+      "text_with_niqqud": "אַתָּה יָדַעְתָּ חֶרְפָּתִי וּבָשְׁתִּי וּכְלִמָּתִי נֶגְדְּךָ כָּל צוֹרְרָי",
+      "text_plain": "אתה ידעת חרפתי ובשתי וכלמתי נגדך כל צוררי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_021",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 21,
+      "ref": "תהילים סט:כא",
+      "ref_en": "Psalms 69:21",
+      "text_original": "חֶרְפָּ֤ה ׀ שָׁ֥בְרָ֥ה לִבִּ֗י וָֽאָ֫נ֥וּשָׁה וָֽאֲקַוֶּ֣ה לָנ֣וּד וָאַ֑יִן וְ֝לַמְנַֽחֲמִ֗ים וְלֹ֣א מָצָֽאתִי׃",
+      "text_with_niqqud": "חֶרְפָּה שָׁבְרָה לִבִּי וָאָנוּשָׁה וָאֲקַוֶּה לָנוּד וָאַיִן וְלַמְנַחֲמִים וְלֹא מָצָאתִי",
+      "text_plain": "חרפה שברה לבי ואנושה ואקוה לנוד ואין ולמנחמים ולא מצאתי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_022",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 22,
+      "ref": "תהילים סט:כב",
+      "ref_en": "Psalms 69:22",
+      "text_original": "וַיִּתְּנ֣וּ בְּבָֽרוּתִ֣י רֹ֑אשׁ וְ֝לִצְמָאִ֗י יַשְׁק֥וּנִי חֹֽמֶץ׃",
+      "text_with_niqqud": "וַיִּתְּנוּ בְּבָרוּתִי רֹאשׁ וְלִצְמָאִי יַשְׁקוּנִי חֹמֶץ",
+      "text_plain": "ויתנו בברותי ראש ולצמאי ישקוני חמץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_023",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 23,
+      "ref": "תהילים סט:כג",
+      "ref_en": "Psalms 69:23",
+      "text_original": "יְהִֽי־שֻׁלְחָנָ֣ם לִפְנֵיהֶ֣ם לְפָ֑ח וְלִשְׁלוֹמִ֥ים לְמוֹקֵֽשׁ׃",
+      "text_with_niqqud": "יְהִי שֻׁלְחָנָם לִפְנֵיהֶם לְפָח וְלִשְׁלוֹמִים לְמוֹקֵשׁ",
+      "text_plain": "יהי שלחנם לפניהם לפח ולשלומים למוקש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_024",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 24,
+      "ref": "תהילים סט:כד",
+      "ref_en": "Psalms 69:24",
+      "text_original": "תֶּחְשַׁ֣כְנָה עֵֽ֭ינֵיהֶם מֵֽרְא֑וֹת וּ֝מָתְנֵיהֶ֗ם תָּמִ֥יד הַמְעַֽד׃",
+      "text_with_niqqud": "תֶּחְשַׁכְנָה עֵינֵיהֶם מֵרְאוֹת וּמָתְנֵיהֶם תָּמִיד הַמְעַד",
+      "text_plain": "תחשכנה עיניהם מראות ומתניהם תמיד המעד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_025",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 25,
+      "ref": "תהילים סט:כה",
+      "ref_en": "Psalms 69:25",
+      "text_original": "שְׁפָךְ־עֲלֵיהֶ֥ם זַעְמֶ֑ךָ וַֽחֲר֥וֹן אַ֝פְּךָ֗ יַשִּׂיגֵֽם׃",
+      "text_with_niqqud": "שְׁפָךְ עֲלֵיהֶם זַעְמֶךָ וַחֲרוֹן אַפְּךָ יַשִּׂיגֵם",
+      "text_plain": "שפך עליהם זעמך וחרון אפך ישיגם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_026",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 26,
+      "ref": "תהילים סט:כו",
+      "ref_en": "Psalms 69:26",
+      "text_original": "תְּהִֽי־טִירָתָ֥ם נְשַׁמָּ֑ה בְּ֝אָֽהֳלֵיהֶ֗ם אַל־יְהִ֥י יֹשֵֽׁב׃",
+      "text_with_niqqud": "תְּהִי טִירָתָם נְשַׁמָּה בְּאָהֳלֵיהֶם אַל יְהִי יֹשֵׁב",
+      "text_plain": "תהי טירתם נשמה באהליהם אל יהי ישב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_027",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 27,
+      "ref": "תהילים סט:כז",
+      "ref_en": "Psalms 69:27",
+      "text_original": "כִּֽי־אַתָּ֣ה אֲשֶׁר־הִכִּ֣יתָ רָדָ֑פוּ וְאֶל־מַכְא֖וֹב חֲלָלֶ֣יךָ יְסַפֵּֽרוּ׃",
+      "text_with_niqqud": "כִּי אַתָּה אֲשֶׁר הִכִּיתָ רָדָפוּ וְאֶל מַכְאוֹב חֲלָלֶיךָ יְסַפֵּרוּ",
+      "text_plain": "כי אתה אשר הכית רדפו ואל מכאוב חלליך יספרו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_028",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 28,
+      "ref": "תהילים סט:כח",
+      "ref_en": "Psalms 69:28",
+      "text_original": "תְּֽנָה־עָ֭ו‍ֹן עַל־עֲו‍ֹנָ֑ם וְאַל־יָ֝בֹ֗אוּ בְּצִדְקָתֶֽךָ׃",
+      "text_with_niqqud": "תְּנָה עָו‍ֹן עַל עֲו‍ֹנָם וְאַל יָבֹאוּ בְּצִדְקָתֶךָ",
+      "text_plain": "תנה עו‍ן על עו‍נם ואל יבאו בצדקתך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_029",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 29,
+      "ref": "תהילים סט:כט",
+      "ref_en": "Psalms 69:29",
+      "text_original": "יִ֭מָּח֥וּ מִסֵּ֣פֶר חַיִּ֑ים וְעִ֥ם צַ֝דִּיקִ֗ים אַל־יִכָּתֵֽבוּ׃",
+      "text_with_niqqud": "יִמָּחוּ מִסֵּפֶר חַיִּים וְעִם צַדִּיקִים אַל יִכָּתֵבוּ",
+      "text_plain": "ימחו מספר חיים ועם צדיקים אל יכתבו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_030",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 30,
+      "ref": "תהילים סט:ל",
+      "ref_en": "Psalms 69:30",
+      "text_original": "וַֽ֭אֲנִי עָנִ֣י וְכוֹאֵ֑ב יְשׁוּעָֽתְךָ֖ אֱלֹהִ֣ים תְּשַׂגְּבֵֽנִי׃",
+      "text_with_niqqud": "וַאֲנִי עָנִי וְכוֹאֵב יְשׁוּעָתְךָ אֱלֹהִים תְּשַׂגְּבֵנִי",
+      "text_plain": "ואני עני וכואב ישועתך אלהים תשגבני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_031",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 31,
+      "ref": "תהילים סט:לא",
+      "ref_en": "Psalms 69:31",
+      "text_original": "אֲהַֽלְלָ֣ה שֵׁם־אֱלֹהִ֣ים בְּשִׁ֑יר וַֽאֲגַדְּלֶ֥נּוּ בְתוֹדָֽה׃",
+      "text_with_niqqud": "אֲהַלְלָה שֵׁם אֱלֹהִים בְּשִׁיר וַאֲגַדְּלֶנּוּ בְתוֹדָה",
+      "text_plain": "אהללה שם אלהים בשיר ואגדלנו בתודה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_032",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 32,
+      "ref": "תהילים סט:לב",
+      "ref_en": "Psalms 69:32",
+      "text_original": "וְתִיטַ֣ב לַֽ֭יהֹוָה מִשּׁ֥וֹר פָּ֗ר מַקְרִ֥ן מַפְרִֽיס׃",
+      "text_with_niqqud": "וְתִיטַב לַיהֹוָה מִשּׁוֹר פָּר מַקְרִן מַפְרִיס",
+      "text_plain": "ותיטב ליהוה משור פר מקרן מפריס",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_033",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 33,
+      "ref": "תהילים סט:לג",
+      "ref_en": "Psalms 69:33",
+      "text_original": "רָא֣וּ עֲנָוִ֣ים יִשְׂמָ֑חוּ דֹּֽרְשֵׁ֥י אֱ֝לֹהִ֗ים וִיחִ֥י לְבַבְכֶֽם׃",
+      "text_with_niqqud": "רָאוּ עֲנָוִים יִשְׂמָחוּ דֹּרְשֵׁי אֱלֹהִים וִיחִי לְבַבְכֶם",
+      "text_plain": "ראו ענוים ישמחו דרשי אלהים ויחי לבבכם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_034",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 34,
+      "ref": "תהילים סט:לד",
+      "ref_en": "Psalms 69:34",
+      "text_original": "כִּֽי־שֹׁמֵ֣עַ אֶל־אֶבְיוֹנִ֣ים יְהֹוָ֑ה וְאֶת־אֲ֝סִירָ֗יו לֹ֣א בָזָֽה׃",
+      "text_with_niqqud": "כִּי שֹׁמֵעַ אֶל אֶבְיוֹנִים יְהֹוָה וְאֶת אֲסִירָיו לֹא בָזָה",
+      "text_plain": "כי שמע אל אביונים יהוה ואת אסיריו לא בזה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_035",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 35,
+      "ref": "תהילים סט:לה",
+      "ref_en": "Psalms 69:35",
+      "text_original": "יְֽ֭הַלְלוּהוּ שָׁמַ֣יִם וָאָ֑רֶץ יַ֝מִּ֗ים וְֽכָל־רֹמֵ֥שׂ בָּֽם׃",
+      "text_with_niqqud": "יְהַלְלוּהוּ שָׁמַיִם וָאָרֶץ יַמִּים וְכָל רֹמֵשׂ בָּם",
+      "text_plain": "יהללוהו שמים וארץ ימים וכל רמש בם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_036",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 36,
+      "ref": "תהילים סט:לו",
+      "ref_en": "Psalms 69:36",
+      "text_original": "כִּ֤י אֱלֹהִ֨ים ׀ י֘וֹשִׁ֤יעַ צִיּ֗וֹן וְ֭יִבְנֶה עָרֵ֣י יְהוּדָ֑ה וְיָ֥שְׁבוּ שָׁ֝֗ם וִֽירֵשֽׁוּהָ׃",
+      "text_with_niqqud": "כִּי אֱלֹהִים יוֹשִׁיעַ צִיּוֹן וְיִבְנֶה עָרֵי יְהוּדָה וְיָשְׁבוּ שָׁם וִירֵשׁוּהָ",
+      "text_plain": "כי אלהים יושיע ציון ויבנה ערי יהודה וישבו שם וירשוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_069_037",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 69,
+      "verse": 37,
+      "ref": "תהילים סט:לז",
+      "ref_en": "Psalms 69:37",
+      "text_original": "וְזֶ֣רַע עֲ֭בָדָיו יִנְחָל֑וּהָ וְאֹֽהֲבֵ֥י שְׁ֝מ֗וֹ יִשְׁכְּנוּ־בָֽהּ׃",
+      "text_with_niqqud": "וְזֶרַע עֲבָדָיו יִנְחָלוּהָ וְאֹהֲבֵי שְׁמוֹ יִשְׁכְּנוּ בָהּ",
+      "text_plain": "וזרע עבדיו ינחלוה ואהבי שמו ישכנו בה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-069.txt"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 110,
+  "chapter_id": "_27_tehilim_110",
+  "ref": "תהילים קי",
+  "ref_en": "Psalms 110",
+  "source_file": "_27_tehilim-110.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_110_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 110,
+      "verse": 1,
+      "ref": "תהילים קי:א",
+      "ref_en": "Psalms 110:1",
+      "text_original": "לְדָוִ֗ד מִ֫זְמ֥וֹר נְאֻ֤ם יְהֹוָ֨ה ׀ לַֽאדֹנִ֗י שֵׁ֥ב לִֽימִינִ֑י עַד־אָשִׁ֥ית אֹֽ֝יְבֶ֗יךָ הֲדֹ֣ם לְרַגְלֶֽיךָ׃",
+      "text_with_niqqud": "לְדָוִד מִזְמוֹר נְאֻם יְהֹוָה לַאדֹנִי שֵׁב לִימִינִי עַד אָשִׁית אֹיְבֶיךָ הֲדֹם לְרַגְלֶיךָ",
+      "text_plain": "לדוד מזמור נאם יהוה לאדני שב לימיני עד אשית איביך הדם לרגליך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-110.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_110_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 110,
+      "verse": 2,
+      "ref": "תהילים קי:ב",
+      "ref_en": "Psalms 110:2",
+      "text_original": "מַטֵּֽה־עֻזְּךָ֗ יִשְׁלַ֣ח יְ֭הֹוָה מִצִּיּ֑וֹן רְ֝דֵ֗ה בְּקֶ֣רֶב אֹֽיְבֶֽיךָ׃",
+      "text_with_niqqud": "מַטֵּה עֻזְּךָ יִשְׁלַח יְהֹוָה מִצִּיּוֹן רְדֵה בְּקֶרֶב אֹיְבֶיךָ",
+      "text_plain": "מטה עזך ישלח יהוה מציון רדה בקרב איביך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-110.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_110_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 110,
+      "verse": 3,
+      "ref": "תהילים קי:ג",
+      "ref_en": "Psalms 110:3",
+      "text_original": "עַמְּךָ֣ נְדָבֹת֮ בְּי֪וֹם חֵ֫ילֶ֥ךָ בְּֽהַדְרֵי־קֹ֭דֶשׁ מֵרֶ֣חֶם מִשְׁחָ֑ר לְ֝ךָ֗ טַ֣ל יַלְדֻתֶֽיךָ׃",
+      "text_with_niqqud": "עַמְּךָ נְדָבֹת בְּיוֹם חֵילֶךָ בְּהַדְרֵי קֹדֶשׁ מֵרֶחֶם מִשְׁחָר לְךָ טַל יַלְדֻתֶיךָ",
+      "text_plain": "עמך נדבת ביום חילך בהדרי קדש מרחם משחר לך טל ילדתיך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-110.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_110_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 110,
+      "verse": 4,
+      "ref": "תהילים קי:ד",
+      "ref_en": "Psalms 110:4",
+      "text_original": "נִשְׁבַּ֤ע יְהֹוָ֨ה ׀ וְלֹ֥א יִנָּחֵ֗ם אַתָּֽה־כֹהֵ֥ן לְעוֹלָ֑ם עַל־דִּ֝בְרָתִ֗י מַלְכִּי־צֶֽדֶק׃",
+      "text_with_niqqud": "נִשְׁבַּע יְהֹוָה וְלֹא יִנָּחֵם אַתָּה כֹהֵן לְעוֹלָם עַל דִּבְרָתִי מַלְכִּי צֶדֶק",
+      "text_plain": "נשבע יהוה ולא ינחם אתה כהן לעולם על דברתי מלכי צדק",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-110.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_110_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 110,
+      "verse": 5,
+      "ref": "תהילים קי:ה",
+      "ref_en": "Psalms 110:5",
+      "text_original": "אֲדֹנָ֥י עַל־יְמִֽינְךָ֑ מָחַ֖ץ בְּיוֹם־אַפּ֣וֹ מְלָכִֽים׃",
+      "text_with_niqqud": "אֲדֹנָי עַל יְמִינְךָ מָחַץ בְּיוֹם אַפּוֹ מְלָכִים",
+      "text_plain": "אדני על ימינך מחץ ביום אפו מלכים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-110.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_110_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 110,
+      "verse": 6,
+      "ref": "תהילים קי:ו",
+      "ref_en": "Psalms 110:6",
+      "text_original": "יָדִ֣ין בַּ֭גּוֹיִם מָלֵ֣א גְוִיּ֑וֹת מָ֥חַץ רֹ֝֗אשׁ עַל־אֶ֥רֶץ רַבָּֽה׃",
+      "text_with_niqqud": "יָדִין בַּגּוֹיִם מָלֵא גְוִיּוֹת מָחַץ רֹאשׁ עַל אֶרֶץ רַבָּה",
+      "text_plain": "ידין בגוים מלא גויות מחץ ראש על ארץ רבה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-110.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_110_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 110,
+      "verse": 7,
+      "ref": "תהילים קי:ז",
+      "ref_en": "Psalms 110:7",
+      "text_original": "מִ֭נַּחַל בַּדֶּ֣רֶךְ יִשְׁתֶּ֑ה עַל־כֵּ֝֗ן יָרִ֥ים רֹֽאשׁ׃",
+      "text_with_niqqud": "מִנַּחַל בַּדֶּרֶךְ יִשְׁתֶּה עַל כֵּן יָרִים רֹאשׁ",
+      "text_plain": "מנחל בדרך ישתה על כן ירים ראש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-110.txt"
+    }
+  ]
+}

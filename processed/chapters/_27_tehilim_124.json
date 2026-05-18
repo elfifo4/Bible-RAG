@@ -1,0 +1,156 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 124,
+  "chapter_id": "_27_tehilim_124",
+  "ref": "תהילים קכד",
+  "ref_en": "Psalms 124",
+  "source_file": "_27_tehilim-124.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_124_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 124,
+      "verse": 1,
+      "ref": "תהילים קכד:א",
+      "ref_en": "Psalms 124:1",
+      "text_original": "שִׁ֥יר הַֽמַּעֲל֗וֹת לְדָ֫וִ֥ד לוּלֵ֣י יְ֭הֹוָה שֶׁהָ֣יָה לָ֑נוּ יֹֽאמַר־נָ֝֗א יִשְׂרָאֵֽל׃",
+      "text_with_niqqud": "שִׁיר הַמַּעֲלוֹת לְדָוִד לוּלֵי יְהֹוָה שֶׁהָיָה לָנוּ יֹאמַר נָא יִשְׂרָאֵל",
+      "text_plain": "שיר המעלות לדוד לולי יהוה שהיה לנו יאמר נא ישראל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-124.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_124_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 124,
+      "verse": 2,
+      "ref": "תהילים קכד:ב",
+      "ref_en": "Psalms 124:2",
+      "text_original": "לוּלֵ֣י יְ֭הֹוָה שֶׁהָ֣יָה לָ֑נוּ בְּק֖וּם עָלֵ֣ינוּ אָדָֽם׃",
+      "text_with_niqqud": "לוּלֵי יְהֹוָה שֶׁהָיָה לָנוּ בְּקוּם עָלֵינוּ אָדָם",
+      "text_plain": "לולי יהוה שהיה לנו בקום עלינו אדם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-124.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_124_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 124,
+      "verse": 3,
+      "ref": "תהילים קכד:ג",
+      "ref_en": "Psalms 124:3",
+      "text_original": "אֲ֭זַי חַיִּ֣ים בְּלָע֑וּנוּ בַּֽחֲר֖וֹת אַפָּ֣ם בָּֽנוּ׃",
+      "text_with_niqqud": "אֲזַי חַיִּים בְּלָעוּנוּ בַּחֲרוֹת אַפָּם בָּנוּ",
+      "text_plain": "אזי חיים בלעונו בחרות אפם בנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-124.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_124_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 124,
+      "verse": 4,
+      "ref": "תהילים קכד:ד",
+      "ref_en": "Psalms 124:4",
+      "text_original": "אֲ֭זַי הַמַּ֣יִם שְׁטָפ֑וּנוּ נַ֝֗חְלָה עָבַ֥ר עַל־נַפְשֵֽׁנוּ׃",
+      "text_with_niqqud": "אֲזַי הַמַּיִם שְׁטָפוּנוּ נַחְלָה עָבַר עַל נַפְשֵׁנוּ",
+      "text_plain": "אזי המים שטפונו נחלה עבר על נפשנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-124.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_124_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 124,
+      "verse": 5,
+      "ref": "תהילים קכד:ה",
+      "ref_en": "Psalms 124:5",
+      "text_original": "אֲ֭זַי עָבַ֣ר עַל־נַפְשֵׁ֑נוּ הַ֝מַּ֗יִם הַזֵּֽידוֹנִֽים׃",
+      "text_with_niqqud": "אֲזַי עָבַר עַל נַפְשֵׁנוּ הַמַּיִם הַזֵּידוֹנִים",
+      "text_plain": "אזי עבר על נפשנו המים הזידונים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-124.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_124_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 124,
+      "verse": 6,
+      "ref": "תהילים קכד:ו",
+      "ref_en": "Psalms 124:6",
+      "text_original": "בָּר֥וּךְ יְהֹוָ֑ה שֶׁלֹּ֥א נְתָנָ֥נוּ טֶ֝֗רֶף לְשִׁנֵּיהֶֽם׃",
+      "text_with_niqqud": "בָּרוּךְ יְהֹוָה שֶׁלֹּא נְתָנָנוּ טֶרֶף לְשִׁנֵּיהֶם",
+      "text_plain": "ברוך יהוה שלא נתננו טרף לשניהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-124.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_124_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 124,
+      "verse": 7,
+      "ref": "תהילים קכד:ז",
+      "ref_en": "Psalms 124:7",
+      "text_original": "נַפְשֵׁ֗נוּ כְּצִפּ֥וֹר נִמְלְטָה֮ מִפַּ֪ח יֽ֫וֹקְשִׁ֥ים הַפַּ֥ח נִשְׁבָּ֗ר וַֽאֲנַ֥חְנוּ נִמְלָֽטְנוּ׃",
+      "text_with_niqqud": "נַפְשֵׁנוּ כְּצִפּוֹר נִמְלְטָה מִפַּח יוֹקְשִׁים הַפַּח נִשְׁבָּר וַאֲנַחְנוּ נִמְלָטְנוּ",
+      "text_plain": "נפשנו כצפור נמלטה מפח יוקשים הפח נשבר ואנחנו נמלטנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-124.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_124_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 124,
+      "verse": 8,
+      "ref": "תהילים קכד:ח",
+      "ref_en": "Psalms 124:8",
+      "text_original": "עֶ֭זְרֵנוּ בְּשֵׁ֣ם יְהֹוָ֑ה עֹ֝שֵׂ֗ה שָׁמַ֥יִם וָאָֽרֶץ׃",
+      "text_with_niqqud": "עֶזְרֵנוּ בְּשֵׁם יְהֹוָה עֹשֵׂה שָׁמַיִם וָאָרֶץ",
+      "text_plain": "עזרנו בשם יהוה עשה שמים וארץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-124.txt"
+    }
+  ]
+}

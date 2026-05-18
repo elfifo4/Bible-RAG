@@ -1,0 +1,516 @@
+{
+  "book": "משלי",
+  "book_en": "Proverbs",
+  "book_slug": "mishley",
+  "chapter": 25,
+  "chapter_id": "_28_mishley_025",
+  "ref": "משלי כה",
+  "ref_en": "Proverbs 25",
+  "source_file": "_28_mishley-25.txt",
+  "verses": [
+    {
+      "verse_id": "_28_mishley_025_001",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 1,
+      "ref": "משלי כה:א",
+      "ref_en": "Proverbs 25:1",
+      "text_original": "גַּם־אֵ֭לֶּה מִשְׁלֵ֣י שְׁלֹמֹ֑ה אֲשֶׁ֥ר הֶ֝עְתִּ֗יקוּ אַנְשֵׁ֤י ׀ חִזְקִיָּ֬ה מֶֽלֶךְ־יְהוּדָֽה׃",
+      "text_with_niqqud": "גַּם אֵלֶּה מִשְׁלֵי שְׁלֹמֹה אֲשֶׁר הֶעְתִּיקוּ אַנְשֵׁי חִזְקִיָּה מֶלֶךְ יְהוּדָה",
+      "text_plain": "גם אלה משלי שלמה אשר העתיקו אנשי חזקיה מלך יהודה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_002",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 2,
+      "ref": "משלי כה:ב",
+      "ref_en": "Proverbs 25:2",
+      "text_original": "כְּבֹ֣ד אֱ֭לֹהִים הַסְתֵּ֣ר דָּבָ֑ר וּכְבֹ֥ד מְ֝לָכִ֗ים חֲקֹ֣ר דָּבָֽר׃",
+      "text_with_niqqud": "כְּבֹד אֱלֹהִים הַסְתֵּר דָּבָר וּכְבֹד מְלָכִים חֲקֹר דָּבָר",
+      "text_plain": "כבד אלהים הסתר דבר וכבד מלכים חקר דבר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_003",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 3,
+      "ref": "משלי כה:ג",
+      "ref_en": "Proverbs 25:3",
+      "text_original": "שָׁמַ֣יִם לָ֭רוּם וָאָ֣רֶץ לָעֹ֑מֶק וְלֵ֥ב מְ֝לָכִ֗ים אֵ֣ין חֵֽקֶר׃",
+      "text_with_niqqud": "שָׁמַיִם לָרוּם וָאָרֶץ לָעֹמֶק וְלֵב מְלָכִים אֵין חֵקֶר",
+      "text_plain": "שמים לרום וארץ לעמק ולב מלכים אין חקר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_004",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 4,
+      "ref": "משלי כה:ד",
+      "ref_en": "Proverbs 25:4",
+      "text_original": "הָג֣וֹ סִיגִ֣ים מִכָּ֑סֶף וַיֵּצֵ֖א לַצֹּרֵ֣ף כֶּֽלִי׃",
+      "text_with_niqqud": "הָגוֹ סִיגִים מִכָּסֶף וַיֵּצֵא לַצֹּרֵף כֶּלִי",
+      "text_plain": "הגו סיגים מכסף ויצא לצרף כלי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_005",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 5,
+      "ref": "משלי כה:ה",
+      "ref_en": "Proverbs 25:5",
+      "text_original": "הָג֣וֹ רָ֭שָׁע לִפְנֵי־מֶ֑לֶךְ וְיִכּ֖וֹן בַּצֶּ֣דֶק כִּסְאֽוֹ׃",
+      "text_with_niqqud": "הָגוֹ רָשָׁע לִפְנֵי מֶלֶךְ וְיִכּוֹן בַּצֶּדֶק כִּסְאוֹ",
+      "text_plain": "הגו רשע לפני מלך ויכון בצדק כסאו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_006",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 6,
+      "ref": "משלי כה:ו",
+      "ref_en": "Proverbs 25:6",
+      "text_original": "אַל־תִּתְהַדַּ֥ר לִפְנֵי־מֶ֑לֶךְ וּבִמְק֥וֹם גְּ֝דֹלִ֗ים אַֽל־תַּעֲמֹֽד׃",
+      "text_with_niqqud": "אַל תִּתְהַדַּר לִפְנֵי מֶלֶךְ וּבִמְקוֹם גְּדֹלִים אַל תַּעֲמֹד",
+      "text_plain": "אל תתהדר לפני מלך ובמקום גדלים אל תעמד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_007",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 7,
+      "ref": "משלי כה:ז",
+      "ref_en": "Proverbs 25:7",
+      "text_original": "כִּ֤י ט֥וֹב אֲמָר־לְךָ֗ עֲֽלֵ֫ה הֵ֥נָּה מֵ֭הַשְׁפִּ֣ילְךָ לִפְנֵ֣י נָדִ֑יב אֲשֶׁ֖ר רָא֣וּ עֵינֶֽיךָ׃",
+      "text_with_niqqud": "כִּי טוֹב אֲמָר לְךָ עֲלֵה הֵנָּה מֵהַשְׁפִּילְךָ לִפְנֵי נָדִיב אֲשֶׁר רָאוּ עֵינֶיךָ",
+      "text_plain": "כי טוב אמר לך עלה הנה מהשפילך לפני נדיב אשר ראו עיניך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_008",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 8,
+      "ref": "משלי כה:ח",
+      "ref_en": "Proverbs 25:8",
+      "text_original": "אַל־תֵּצֵ֥א לָרִ֗ב מַ֫הֵ֥ר פֶּ֣ן מַה־תַּֽ֭עֲשֶׂה בְּאַֽחֲרִיתָ֑הּ בְּהַכְלִ֖ים אֹֽתְךָ֣ רֵעֶֽךָ׃",
+      "text_with_niqqud": "אַל תֵּצֵא לָרִב מַהֵר פֶּן מַה תַּעֲשֶׂה בְּאַחֲרִיתָהּ בְּהַכְלִים אֹתְךָ רֵעֶךָ",
+      "text_plain": "אל תצא לרב מהר פן מה תעשה באחריתה בהכלים אתך רעך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_009",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 9,
+      "ref": "משלי כה:ט",
+      "ref_en": "Proverbs 25:9",
+      "text_original": "רִֽ֭יבְךָ רִ֣יב אֶת־רֵעֶ֑ךָ וְס֖וֹד אַחֵ֣ר אַל־תְּגָֽל׃",
+      "text_with_niqqud": "רִיבְךָ רִיב אֶת רֵעֶךָ וְסוֹד אַחֵר אַל תְּגָל",
+      "text_plain": "ריבך ריב את רעך וסוד אחר אל תגל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_010",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 10,
+      "ref": "משלי כה:י",
+      "ref_en": "Proverbs 25:10",
+      "text_original": "פֶּֽן־יְחַסֶּדְךָ֥ שֹׁמֵ֑עַ וְ֝דִבָּֽתְךָ֗ לֹ֣א תָשֽׁוּב׃",
+      "text_with_niqqud": "פֶּן יְחַסֶּדְךָ שֹׁמֵעַ וְדִבָּתְךָ לֹא תָשׁוּב",
+      "text_plain": "פן יחסדך שמע ודבתך לא תשוב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_011",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 11,
+      "ref": "משלי כה:יא",
+      "ref_en": "Proverbs 25:11",
+      "text_original": "תַּפּוּחֵ֣י זָ֭הָב בְּמַשְׂכִּיּ֥וֹת כָּ֑סֶף דָּ֝בָ֗ר דָּבֻ֥ר עַל־אָפְנָֽיו׃",
+      "text_with_niqqud": "תַּפּוּחֵי זָהָב בְּמַשְׂכִּיּוֹת כָּסֶף דָּבָר דָּבֻר עַל אָפְנָיו",
+      "text_plain": "תפוחי זהב במשכיות כסף דבר דבר על אפניו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_012",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 12,
+      "ref": "משלי כה:יב",
+      "ref_en": "Proverbs 25:12",
+      "text_original": "נֶ֣זֶם זָ֭הָב וַֽחֲלִי־כָ֑תֶם מוֹכִ֥יחַ חָ֝כָ֗ם עַל־אֹ֥זֶן שֹׁמָֽעַת׃",
+      "text_with_niqqud": "נֶזֶם זָהָב וַחֲלִי כָתֶם מוֹכִיחַ חָכָם עַל אֹזֶן שֹׁמָעַת",
+      "text_plain": "נזם זהב וחלי כתם מוכיח חכם על אזן שמעת",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_013",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 13,
+      "ref": "משלי כה:יג",
+      "ref_en": "Proverbs 25:13",
+      "text_original": "כְּצִנַּת־שֶׁ֨לֶג ׀ בְּי֬וֹם קָצִ֗יר צִ֣יר נֶֽ֭אֱמָן לְשֹֽׁלְחָ֑יו וְנֶ֖פֶשׁ אֲדֹנָ֣יו יָשִֽׁיב׃",
+      "text_with_niqqud": "כְּצִנַּת שֶׁלֶג בְּיוֹם קָצִיר צִיר נֶאֱמָן לְשֹׁלְחָיו וְנֶפֶשׁ אֲדֹנָיו יָשִׁיב",
+      "text_plain": "כצנת שלג ביום קציר ציר נאמן לשלחיו ונפש אדניו ישיב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_014",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 14,
+      "ref": "משלי כה:יד",
+      "ref_en": "Proverbs 25:14",
+      "text_original": "נְשִׂיאִ֣ים וְ֭רוּחַ וְגֶ֣שֶׁם אָ֑יִן אִ֥ישׁ מִ֝תְהַלֵּ֗ל בְּמַתַּת־שָֽׁקֶר׃",
+      "text_with_niqqud": "נְשִׂיאִים וְרוּחַ וְגֶשֶׁם אָיִן אִישׁ מִתְהַלֵּל בְּמַתַּת שָׁקֶר",
+      "text_plain": "נשיאים ורוח וגשם אין איש מתהלל במתת שקר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_015",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 15,
+      "ref": "משלי כה:טו",
+      "ref_en": "Proverbs 25:15",
+      "text_original": "בְּאֹ֣רֶךְ אַ֭פַּיִם יְפֻתֶּ֣ה קָצִ֑ין וְלָשׁ֥וֹן רַ֝כָּ֗ה תִּשְׁבָּר־גָּֽרֶם׃",
+      "text_with_niqqud": "בְּאֹרֶךְ אַפַּיִם יְפֻתֶּה קָצִין וְלָשׁוֹן רַכָּה תִּשְׁבָּר גָּרֶם",
+      "text_plain": "בארך אפים יפתה קצין ולשון רכה תשבר גרם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_016",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 16,
+      "ref": "משלי כה:טז",
+      "ref_en": "Proverbs 25:16",
+      "text_original": "דְּבַ֣שׁ מָ֭צָאתָ אֱכֹ֣ל דַּיֶּ֑ךָּ פֶּן־תִּ֝שְׂבָּעֶ֗נּוּ וַֽהֲקֵאתֽוֹ׃",
+      "text_with_niqqud": "דְּבַשׁ מָצָאתָ אֱכֹל דַּיֶּךָּ פֶּן תִּשְׂבָּעֶנּוּ וַהֲקֵאתוֹ",
+      "text_plain": "דבש מצאת אכל דיך פן תשבענו והקאתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_017",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 17,
+      "ref": "משלי כה:יז",
+      "ref_en": "Proverbs 25:17",
+      "text_original": "הֹקַ֣ר רַ֭גְלְךָ מִבֵּ֣ית רֵעֶ֑ךָ פֶּן־יִ֝שְׂבָּֽעֲךָ֗ וּשְׂנֵאֶֽךָ׃",
+      "text_with_niqqud": "הֹקַר רַגְלְךָ מִבֵּית רֵעֶךָ פֶּן יִשְׂבָּעֲךָ וּשְׂנֵאֶךָ",
+      "text_plain": "הקר רגלך מבית רעך פן ישבעך ושנאך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_018",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 18,
+      "ref": "משלי כה:יח",
+      "ref_en": "Proverbs 25:18",
+      "text_original": "מֵפִ֣יץ וְ֭חֶרֶב וְחֵ֣ץ שָׁנ֑וּן אִ֥ישׁ עֹנֶ֥ה בְ֝רֵעֵ֗הוּ עֵ֣ד שָֽׁקֶר׃",
+      "text_with_niqqud": "מֵפִיץ וְחֶרֶב וְחֵץ שָׁנוּן אִישׁ עֹנֶה בְרֵעֵהוּ עֵד שָׁקֶר",
+      "text_plain": "מפיץ וחרב וחץ שנון איש ענה ברעהו עד שקר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_019",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 19,
+      "ref": "משלי כה:יט",
+      "ref_en": "Proverbs 25:19",
+      "text_original": "שֵׁ֣ן רֹ֭עָה וְרֶ֣גֶל מוּעָ֑דֶת מִבְטָ֥ח בּ֝וֹגֵ֗ד בְּי֣וֹם צָרָֽה׃",
+      "text_with_niqqud": "שֵׁן רֹעָה וְרֶגֶל מוּעָדֶת מִבְטָח בּוֹגֵד בְּיוֹם צָרָה",
+      "text_plain": "שן רעה ורגל מועדת מבטח בוגד ביום צרה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_020",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 20,
+      "ref": "משלי כה:כ",
+      "ref_en": "Proverbs 25:20",
+      "text_original": "מַ֥עֲדֶה־בֶּ֨גֶד ׀ בְּי֣וֹם קָ֭רָה חֹ֣מֶץ עַל־נָ֑תֶר וְשָׁ֥ר בַּ֝שִּׁרִ֗ים עַ֣ל לֶב־רָֽע׃",
+      "text_with_niqqud": "מַעֲדֶה בֶּגֶד בְּיוֹם קָרָה חֹמֶץ עַל נָתֶר וְשָׁר בַּשִּׁרִים עַל לֶב רָע",
+      "text_plain": "מעדה בגד ביום קרה חמץ על נתר ושר בשרים על לב רע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_021",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 21,
+      "ref": "משלי כה:כא",
+      "ref_en": "Proverbs 25:21",
+      "text_original": "אִם־רָעֵ֣ב שֹׂ֭נַֽאֲךָ הַֽאֲכִלֵ֣הוּ לָ֑חֶם וְאִם־צָ֝מֵ֗א הַשְׁקֵ֥הוּ מָֽיִם׃",
+      "text_with_niqqud": "אִם רָעֵב שֹׂנַאֲךָ הַאֲכִלֵהוּ לָחֶם וְאִם צָמֵא הַשְׁקֵהוּ מָיִם",
+      "text_plain": "אם רעב שנאך האכלהו לחם ואם צמא השקהו מים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_022",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 22,
+      "ref": "משלי כה:כב",
+      "ref_en": "Proverbs 25:22",
+      "text_original": "כִּ֤י גֶֽחָלִ֗ים אַ֭תָּה חֹתֶ֣ה עַל־רֹאשׁ֑וֹ וַֽ֝יהֹוָ֗ה יְשַׁלֶּם־לָֽךְ׃",
+      "text_with_niqqud": "כִּי גֶחָלִים אַתָּה חֹתֶה עַל רֹאשׁוֹ וַיהֹוָה יְשַׁלֶּם לָךְ",
+      "text_plain": "כי גחלים אתה חתה על ראשו ויהוה ישלם לך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_023",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 23,
+      "ref": "משלי כה:כג",
+      "ref_en": "Proverbs 25:23",
+      "text_original": "ר֣וּחַ צָ֭פוֹן תְּח֣וֹלֵֽל גָּ֑שֶׁם וּפָנִ֥ים נִ֝זְעָמִ֗ים לְשׁ֣וֹן סָֽתֶר׃",
+      "text_with_niqqud": "רוּחַ צָפוֹן תְּחוֹלֵל גָּשֶׁם וּפָנִים נִזְעָמִים לְשׁוֹן סָתֶר",
+      "text_plain": "רוח צפון תחולל גשם ופנים נזעמים לשון סתר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_024",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 24,
+      "ref": "משלי כה:כד",
+      "ref_en": "Proverbs 25:24",
+      "text_original": "ט֗וֹב שֶׁ֥בֶת עַל־פִּנַּת־גָּ֑ג מֵאֵ֥שֶׁת מדונים (מִ֝דְיָנִ֗ים) וּבֵ֥ית חָֽבֶר׃",
+      "text_with_niqqud": "טוֹב שֶׁבֶת עַל פִּנַּת גָּג מֵאֵשֶׁת מדונים (מִדְיָנִים) וּבֵית חָבֶר",
+      "text_plain": "טוב שבת על פנת גג מאשת מדונים (מדינים) ובית חבר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_025",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 25,
+      "ref": "משלי כה:כה",
+      "ref_en": "Proverbs 25:25",
+      "text_original": "מַ֣יִם קָ֭רִים עַל־נֶ֣פֶשׁ עֲיֵפָ֑ה וּשְׁמוּעָ֥ה ט֝וֹבָ֗ה מֵאֶ֥רֶץ מֶרְחָֽק׃",
+      "text_with_niqqud": "מַיִם קָרִים עַל נֶפֶשׁ עֲיֵפָה וּשְׁמוּעָה טוֹבָה מֵאֶרֶץ מֶרְחָק",
+      "text_plain": "מים קרים על נפש עיפה ושמועה טובה מארץ מרחק",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_026",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 26,
+      "ref": "משלי כה:כו",
+      "ref_en": "Proverbs 25:26",
+      "text_original": "מַעְיָ֣ן נִ֭רְפָּשׂ וּמָק֣וֹר מָשְׁחָ֑ת צַ֝דִּ֗יק מָ֣ט לִפְנֵֽי־רָשָֽׁע׃",
+      "text_with_niqqud": "מַעְיָן נִרְפָּשׂ וּמָקוֹר מָשְׁחָת צַדִּיק מָט לִפְנֵי רָשָׁע",
+      "text_plain": "מעין נרפש ומקור משחת צדיק מט לפני רשע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_027",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 27,
+      "ref": "משלי כה:כז",
+      "ref_en": "Proverbs 25:27",
+      "text_original": "אָ֘כֹ֤ל דְּבַ֣שׁ הַרְבּ֣וֹת לֹא־ט֑וֹב וְחֵ֖קֶר כְּבֹדָ֣ם כָּבֽוֹד׃",
+      "text_with_niqqud": "אָכֹל דְּבַשׁ הַרְבּוֹת לֹא טוֹב וְחֵקֶר כְּבֹדָם כָּבוֹד",
+      "text_plain": "אכל דבש הרבות לא טוב וחקר כבדם כבוד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    },
+    {
+      "verse_id": "_28_mishley_025_028",
+      "book": "משלי",
+      "book_en": "Proverbs",
+      "book_slug": "mishley",
+      "chapter": 25,
+      "verse": 28,
+      "ref": "משלי כה:כח",
+      "ref_en": "Proverbs 25:28",
+      "text_original": "עִ֣יר פְּ֭רוּצָה אֵ֣ין חוֹמָ֑ה אִ֝֗ישׁ אֲשֶׁ֤ר אֵ֖ין מַעְצָ֣ר לְרוּחֽוֹ׃",
+      "text_with_niqqud": "עִיר פְּרוּצָה אֵין חוֹמָה אִישׁ אֲשֶׁר אֵין מַעְצָר לְרוּחוֹ",
+      "text_plain": "עיר פרוצה אין חומה איש אשר אין מעצר לרוחו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_28_mishley-25.txt"
+    }
+  ]
+}

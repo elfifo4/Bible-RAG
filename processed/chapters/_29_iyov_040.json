@@ -1,0 +1,588 @@
+{
+  "book": "איוב",
+  "book_en": "Job",
+  "book_slug": "iyov",
+  "chapter": 40,
+  "chapter_id": "_29_iyov_040",
+  "ref": "איוב מ",
+  "ref_en": "Job 40",
+  "source_file": "_29_iyov-40.txt",
+  "verses": [
+    {
+      "verse_id": "_29_iyov_040_001",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 1,
+      "ref": "איוב מ:א",
+      "ref_en": "Job 40:1",
+      "text_original": "וַיַּ֖עַן יְהֹוָ֥ה אֶת־אִיּ֗וֹב וַיֹּאמַֽר׃",
+      "text_with_niqqud": "וַיַּעַן יְהֹוָה אֶת אִיּוֹב וַיֹּאמַר",
+      "text_plain": "ויען יהוה את איוב ויאמר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_002",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 2,
+      "ref": "איוב מ:ב",
+      "ref_en": "Job 40:2",
+      "text_original": "הֲ֭רֹב עִם־שַׁדַּ֣י יִסּ֑וֹר מוֹכִ֖יחַ אֱל֣וֹהַּ יַֽעֲנֶֽנָּה׃",
+      "text_with_niqqud": "הֲרֹב עִם שַׁדַּי יִסּוֹר מוֹכִיחַ אֱלוֹהַּ יַעֲנֶנָּה",
+      "text_plain": "הרב עם שדי יסור מוכיח אלוה יעננה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_003",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 3,
+      "ref": "איוב מ:ג",
+      "ref_en": "Job 40:3",
+      "text_original": "וַיַּ֖עַן אִיּ֥וֹב אֶת־יְהֹוָ֗ה וַיֹּאמַֽר׃",
+      "text_with_niqqud": "וַיַּעַן אִיּוֹב אֶת יְהֹוָה וַיֹּאמַר",
+      "text_plain": "ויען איוב את יהוה ויאמר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_004",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 4,
+      "ref": "איוב מ:ד",
+      "ref_en": "Job 40:4",
+      "text_original": "הֵ֣ן קַ֭לֹּתִי מָ֣ה אֲשִׁיבֶ֑ךָּ יָ֝דִ֗י שַׂ֣מְתִּי לְמוֹ־פִֽי׃",
+      "text_with_niqqud": "הֵן קַלֹּתִי מָה אֲשִׁיבֶךָּ יָדִי שַׂמְתִּי לְמוֹ פִי",
+      "text_plain": "הן קלתי מה אשיבך ידי שמתי למו פי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_005",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 5,
+      "ref": "איוב מ:ה",
+      "ref_en": "Job 40:5",
+      "text_original": "אַחַ֣ת דִּ֭בַּרְתִּי וְלֹ֣א אֶֽעֱנֶ֑ה וּ֝שְׁתַּ֗יִם וְלֹ֣א אוֹסִֽיף׃",
+      "text_with_niqqud": "אַחַת דִּבַּרְתִּי וְלֹא אֶעֱנֶה וּשְׁתַּיִם וְלֹא אוֹסִיף",
+      "text_plain": "אחת דברתי ולא אענה ושתים ולא אוסיף",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_006",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 6,
+      "ref": "איוב מ:ו",
+      "ref_en": "Job 40:6",
+      "text_original": "וַיַּֽעַן־יְהֹוָ֣ה אֶת־אִ֭יּוֹב מנסערה (מִ֥ן ׀ סְעָרָ֗ה) וַיֹּאמַֽר׃",
+      "text_with_niqqud": "וַיַּעַן יְהֹוָה אֶת אִיּוֹב מנסערה (מִן סְעָרָה) וַיֹּאמַר",
+      "text_plain": "ויען יהוה את איוב מנסערה (מן סערה) ויאמר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_007",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 7,
+      "ref": "איוב מ:ז",
+      "ref_en": "Job 40:7",
+      "text_original": "אֱזָר־נָ֣א כְגֶ֣בֶר חֲלָצֶ֑יךָ אֶ֝שְׁאָֽלְךָ֗ וְהֽוֹדִיעֵֽנִי׃",
+      "text_with_niqqud": "אֱזָר נָא כְגֶבֶר חֲלָצֶיךָ אֶשְׁאָלְךָ וְהוֹדִיעֵנִי",
+      "text_plain": "אזר נא כגבר חלציך אשאלך והודיעני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_008",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 8,
+      "ref": "איוב מ:ח",
+      "ref_en": "Job 40:8",
+      "text_original": "הַ֭אַף תָּפֵ֣ר מִשְׁפָּטִ֑י תַּ֝רְשִׁיעֵ֗נִי לְמַ֣עַן תִּצְדָּֽק׃",
+      "text_with_niqqud": "הַאַף תָּפֵר מִשְׁפָּטִי תַּרְשִׁיעֵנִי לְמַעַן תִּצְדָּק",
+      "text_plain": "האף תפר משפטי תרשיעני למען תצדק",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_009",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 9,
+      "ref": "איוב מ:ט",
+      "ref_en": "Job 40:9",
+      "text_original": "וְאִם־זְר֖וֹעַ כָּאֵ֥ל ׀ לָ֑ךְ וּ֝בְק֗וֹל כָּמֹ֥הוּ תַרְעֵֽם׃",
+      "text_with_niqqud": "וְאִם זְרוֹעַ כָּאֵל לָךְ וּבְקוֹל כָּמֹהוּ תַרְעֵם",
+      "text_plain": "ואם זרוע כאל לך ובקול כמהו תרעם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_010",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 10,
+      "ref": "איוב מ:י",
+      "ref_en": "Job 40:10",
+      "text_original": "עֲדֵ֥ה נָ֣א גָא֣וֹן וָגֹ֑בַהּ וְה֖וֹד וְהָדָ֣ר תִּלְבָּֽשׁ׃",
+      "text_with_niqqud": "עֲדֵה נָא גָאוֹן וָגֹבַהּ וְהוֹד וְהָדָר תִּלְבָּשׁ",
+      "text_plain": "עדה נא גאון וגבה והוד והדר תלבש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_011",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 11,
+      "ref": "איוב מ:יא",
+      "ref_en": "Job 40:11",
+      "text_original": "הָ֭פֵץ עֶבְר֣וֹת אַפֶּ֑ךָ וּרְאֵ֥ה כָל־גֵּ֝אֶ֗ה וְהַשְׁפִּילֵֽהוּ׃",
+      "text_with_niqqud": "הָפֵץ עֶבְרוֹת אַפֶּךָ וּרְאֵה כָל גֵּאֶה וְהַשְׁפִּילֵהוּ",
+      "text_plain": "הפץ עברות אפך וראה כל גאה והשפילהו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_012",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 12,
+      "ref": "איוב מ:יב",
+      "ref_en": "Job 40:12",
+      "text_original": "רְאֵ֣ה כָל־גֵּ֭אֶה הַכְנִיעֵ֑הוּ וַֽהֲדֹ֖ךְ רְשָׁעִ֣ים תַּחְתָּֽם׃",
+      "text_with_niqqud": "רְאֵה כָל גֵּאֶה הַכְנִיעֵהוּ וַהֲדֹךְ רְשָׁעִים תַּחְתָּם",
+      "text_plain": "ראה כל גאה הכניעהו והדך רשעים תחתם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_013",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 13,
+      "ref": "איוב מ:יג",
+      "ref_en": "Job 40:13",
+      "text_original": "טָמְנֵ֣ם בֶּֽעָפָ֣ר יָ֑חַד פְּ֝נֵיהֶ֗ם חֲבֹ֣שׁ בַּטָּמֽוּן׃",
+      "text_with_niqqud": "טָמְנֵם בֶּעָפָר יָחַד פְּנֵיהֶם חֲבֹשׁ בַּטָּמוּן",
+      "text_plain": "טמנם בעפר יחד פניהם חבש בטמון",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_014",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 14,
+      "ref": "איוב מ:יד",
+      "ref_en": "Job 40:14",
+      "text_original": "וְגַם־אֲנִ֥י אוֹדֶ֑ךָּ כִּֽי־תוֹשִׁ֖עַ לְךָ֣ יְמִינֶֽךָ׃",
+      "text_with_niqqud": "וְגַם אֲנִי אוֹדֶךָּ כִּי תוֹשִׁעַ לְךָ יְמִינֶךָ",
+      "text_plain": "וגם אני אודך כי תושע לך ימינך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_015",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 15,
+      "ref": "איוב מ:טו",
+      "ref_en": "Job 40:15",
+      "text_original": "הִנֵּה־נָ֣א בְ֭הֵמוֹת אֲשֶׁר־עָשִׂ֣יתִי עִמָּ֑ךְ חָ֝צִ֗יר כַּבָּקָ֥ר יֹאכֵֽל׃",
+      "text_with_niqqud": "הִנֵּה נָא בְהֵמוֹת אֲשֶׁר עָשִׂיתִי עִמָּךְ חָצִיר כַּבָּקָר יֹאכֵל",
+      "text_plain": "הנה נא בהמות אשר עשיתי עמך חציר כבקר יאכל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_016",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 16,
+      "ref": "איוב מ:טז",
+      "ref_en": "Job 40:16",
+      "text_original": "הִנֵּה־נָ֣א כֹח֣וֹ בְמָתְנָ֑יו וְ֝אוֹנ֗וֹ בִּשְׁרִירֵ֥י בִטְנֽוֹ׃",
+      "text_with_niqqud": "הִנֵּה נָא כֹחוֹ בְמָתְנָיו וְאוֹנוֹ בִּשְׁרִירֵי בִטְנוֹ",
+      "text_plain": "הנה נא כחו במתניו ואונו בשרירי בטנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_017",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 17,
+      "ref": "איוב מ:יז",
+      "ref_en": "Job 40:17",
+      "text_original": "יַחְפֹּ֣ץ זְנָב֣וֹ כְמוֹ־אָ֑רֶז גִּידֵ֖י פַֽחֲדָ֣ו יְשֹׂרָֽגוּ׃",
+      "text_with_niqqud": "יַחְפֹּץ זְנָבוֹ כְמוֹ אָרֶז גִּידֵי פַחֲדָו יְשֹׂרָגוּ",
+      "text_plain": "יחפץ זנבו כמו ארז גידי פחדו ישרגו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_018",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 18,
+      "ref": "איוב מ:יח",
+      "ref_en": "Job 40:18",
+      "text_original": "עֲ֭צָמָיו אֲפִיקֵ֣י נְחֻשָׁ֑ה גְּ֝רָמָ֗יו כִּמְטִ֥יל בַּרְזֶֽל׃",
+      "text_with_niqqud": "עֲצָמָיו אֲפִיקֵי נְחֻשָׁה גְּרָמָיו כִּמְטִיל בַּרְזֶל",
+      "text_plain": "עצמיו אפיקי נחשה גרמיו כמטיל ברזל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_019",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 19,
+      "ref": "איוב מ:יט",
+      "ref_en": "Job 40:19",
+      "text_original": "ה֭וּא רֵאשִׁ֣ית דַּרְכֵי־אֵ֑ל הָֽ֝עֹשׂ֗וֹ יַגֵּ֥שׁ חַרְבּֽוֹ׃",
+      "text_with_niqqud": "הוּא רֵאשִׁית דַּרְכֵי אֵל הָעֹשׂוֹ יַגֵּשׁ חַרְבּוֹ",
+      "text_plain": "הוא ראשית דרכי אל העשו יגש חרבו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_020",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 20,
+      "ref": "איוב מ:כ",
+      "ref_en": "Job 40:20",
+      "text_original": "כִּי־ב֭וּל הָרִ֣ים יִשְׂאוּ־ל֑וֹ וְֽכָל־חַיַּ֥ת הַ֝שָּׂדֶ֗ה יְשַֽׂחֲקוּ־שָֽׁם׃",
+      "text_with_niqqud": "כִּי בוּל הָרִים יִשְׂאוּ לוֹ וְכָל חַיַּת הַשָּׂדֶה יְשַׂחֲקוּ שָׁם",
+      "text_plain": "כי בול הרים ישאו לו וכל חית השדה ישחקו שם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_021",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 21,
+      "ref": "איוב מ:כא",
+      "ref_en": "Job 40:21",
+      "text_original": "תַּֽחַת־צֶאֱלִ֥ים יִשְׁכָּ֑ב בְּסֵ֖תֶר קָנֶ֣ה וּבִצָּֽה׃",
+      "text_with_niqqud": "תַּחַת צֶאֱלִים יִשְׁכָּב בְּסֵתֶר קָנֶה וּבִצָּה",
+      "text_plain": "תחת צאלים ישכב בסתר קנה ובצה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_022",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 22,
+      "ref": "איוב מ:כב",
+      "ref_en": "Job 40:22",
+      "text_original": "יְסֻכֻּ֣הוּ צֶֽאֱלִ֣ים צִֽלְל֑וֹ יְ֝סֻבּ֗וּהוּ עַרְבֵי־נָֽחַל׃",
+      "text_with_niqqud": "יְסֻכֻּהוּ צֶאֱלִים צִלְלוֹ יְסֻבּוּהוּ עַרְבֵי נָחַל",
+      "text_plain": "יסכהו צאלים צללו יסבוהו ערבי נחל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_023",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 23,
+      "ref": "איוב מ:כג",
+      "ref_en": "Job 40:23",
+      "text_original": "הֵ֤ן יַֽעֲשֹׁ֣ק נָ֭הָר לֹ֣א יַחְפּ֑וֹז יִבְטַ֓ח ׀ כִּֽי־יָגִ֖יחַ יַרְדֵּ֣ן אֶל־פִּֽיהוּ׃",
+      "text_with_niqqud": "הֵן יַעֲשֹׁק נָהָר לֹא יַחְפּוֹז יִבְטַח כִּי יָגִיחַ יַרְדֵּן אֶל פִּיהוּ",
+      "text_plain": "הן יעשק נהר לא יחפוז יבטח כי יגיח ירדן אל פיהו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_024",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 24,
+      "ref": "איוב מ:כד",
+      "ref_en": "Job 40:24",
+      "text_original": "בְּעֵינָ֥יו יִקָּחֶ֑נּוּ בְּ֝מֽוֹקְשִׁ֗ים יִנְקָב־אָֽף׃",
+      "text_with_niqqud": "בְּעֵינָיו יִקָּחֶנּוּ בְּמוֹקְשִׁים יִנְקָב אָף",
+      "text_plain": "בעיניו יקחנו במוקשים ינקב אף",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_025",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 25,
+      "ref": "איוב מ:כה",
+      "ref_en": "Job 40:25",
+      "text_original": "תִּמְשֹׁ֣ךְ לִוְיָתָ֣ן בְּחַכָּ֑ה וּ֝בְחֶ֗בֶל תַּשְׁקִ֥יעַ לְשֹׁנֽוֹ׃",
+      "text_with_niqqud": "תִּמְשֹׁךְ לִוְיָתָן בְּחַכָּה וּבְחֶבֶל תַּשְׁקִיעַ לְשֹׁנוֹ",
+      "text_plain": "תמשך לויתן בחכה ובחבל תשקיע לשנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_026",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 26,
+      "ref": "איוב מ:כו",
+      "ref_en": "Job 40:26",
+      "text_original": "הֲתָשִׂ֣ים אַגְמֹ֣ן בְּאַפּ֑וֹ וּ֝בְח֗וֹחַ תִּקֹּ֥ב לֶֽחֱיֽוֹ׃",
+      "text_with_niqqud": "הֲתָשִׂים אַגְמֹן בְּאַפּוֹ וּבְחוֹחַ תִּקֹּב לֶחֱיוֹ",
+      "text_plain": "התשים אגמן באפו ובחוח תקב לחיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_027",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 27,
+      "ref": "איוב מ:כז",
+      "ref_en": "Job 40:27",
+      "text_original": "הֲיַרְבֶּ֣ה אֵ֭לֶיךָ תַּֽחֲנוּנִ֑ים אִם־יְדַבֵּ֖ר אֵלֶ֣יךָ רַכּֽוֹת׃",
+      "text_with_niqqud": "הֲיַרְבֶּה אֵלֶיךָ תַּחֲנוּנִים אִם יְדַבֵּר אֵלֶיךָ רַכּוֹת",
+      "text_plain": "הירבה אליך תחנונים אם ידבר אליך רכות",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_028",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 28,
+      "ref": "איוב מ:כח",
+      "ref_en": "Job 40:28",
+      "text_original": "הֲיִכְרֹ֣ת בְּרִ֣ית עִמָּ֑ךְ תִּ֝קָּחֶ֗נּוּ לְעֶ֣בֶד עוֹלָֽם׃",
+      "text_with_niqqud": "הֲיִכְרֹת בְּרִית עִמָּךְ תִּקָּחֶנּוּ לְעֶבֶד עוֹלָם",
+      "text_plain": "היכרת ברית עמך תקחנו לעבד עולם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_029",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 29,
+      "ref": "איוב מ:כט",
+      "ref_en": "Job 40:29",
+      "text_original": "הַֽתְשַׂחֶק־בּ֭וֹ כַּצִּפּ֑וֹר וְ֝תִקְשְׁרֶ֗נּוּ לְנַֽעֲרוֹתֶֽיךָ׃",
+      "text_with_niqqud": "הַתְשַׂחֶק בּוֹ כַּצִּפּוֹר וְתִקְשְׁרֶנּוּ לְנַעֲרוֹתֶיךָ",
+      "text_plain": "התשחק בו כצפור ותקשרנו לנערותיך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_030",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 30,
+      "ref": "איוב מ:ל",
+      "ref_en": "Job 40:30",
+      "text_original": "יִכְר֣וּ עָ֭לָיו חַבָּרִ֑ים יֶֽ֝חֱצ֗וּהוּ בֵּ֣ין כְּֽנַעֲנִֽים׃",
+      "text_with_niqqud": "יִכְרוּ עָלָיו חַבָּרִים יֶחֱצוּהוּ בֵּין כְּנַעֲנִים",
+      "text_plain": "יכרו עליו חברים יחצוהו בין כנענים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_031",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 31,
+      "ref": "איוב מ:לא",
+      "ref_en": "Job 40:31",
+      "text_original": "הַֽתְמַלֵּ֣א בְשֻׂכּ֣וֹת עוֹר֑וֹ וּבְצִלְצַ֖ל דָּגִ֣ים רֹאשֽׁוֹ׃",
+      "text_with_niqqud": "הַתְמַלֵּא בְשֻׂכּוֹת עוֹרוֹ וּבְצִלְצַל דָּגִים רֹאשׁוֹ",
+      "text_plain": "התמלא בשכות עורו ובצלצל דגים ראשו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    },
+    {
+      "verse_id": "_29_iyov_040_032",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 40,
+      "verse": 32,
+      "ref": "איוב מ:לב",
+      "ref_en": "Job 40:32",
+      "text_original": "שִׂים־עָלָ֥יו כַּפֶּ֑ךָ זְכֹ֥ר מִ֝לְחָמָ֗ה אַל־תּוֹסַֽף׃",
+      "text_with_niqqud": "שִׂים עָלָיו כַּפֶּךָ זְכֹר מִלְחָמָה אַל תּוֹסַף",
+      "text_plain": "שים עליו כפך זכר מלחמה אל תוסף",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-40.txt"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 137,
+  "chapter_id": "_27_tehilim_137",
+  "ref": "תהילים קלז",
+  "ref_en": "Psalms 137",
+  "source_file": "_27_tehilim-137.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_137_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 137,
+      "verse": 1,
+      "ref": "תהילים קלז:א",
+      "ref_en": "Psalms 137:1",
+      "text_original": "עַ֥ל נַֽהֲר֨וֹת ׀ בָּבֶ֗ל שָׁ֣ם יָ֭שַׁבְנוּ גַּם־בָּכִ֑ינוּ בְּ֝זָכְרֵ֗נוּ אֶת־צִיּֽוֹן׃",
+      "text_with_niqqud": "עַל נַהֲרוֹת בָּבֶל שָׁם יָשַׁבְנוּ גַּם בָּכִינוּ בְּזָכְרֵנוּ אֶת צִיּוֹן",
+      "text_plain": "על נהרות בבל שם ישבנו גם בכינו בזכרנו את ציון",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-137.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_137_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 137,
+      "verse": 2,
+      "ref": "תהילים קלז:ב",
+      "ref_en": "Psalms 137:2",
+      "text_original": "עַֽל־עֲרָבִ֥ים בְּתוֹכָ֑הּ תָּ֝לִ֗ינוּ כִּנֹּֽרוֹתֵֽינוּ׃",
+      "text_with_niqqud": "עַל עֲרָבִים בְּתוֹכָהּ תָּלִינוּ כִּנֹּרוֹתֵינוּ",
+      "text_plain": "על ערבים בתוכה תלינו כנרותינו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-137.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_137_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 137,
+      "verse": 3,
+      "ref": "תהילים קלז:ג",
+      "ref_en": "Psalms 137:3",
+      "text_original": "כִּ֤י שָׁ֨ם שְֽׁאֵל֪וּנוּ שׁוֹבֵ֡ינוּ דִּבְרֵי־שִׁ֭יר וְתֽוֹלָלֵ֣ינוּ שִׂמְחָ֑ה שִׁ֥ירוּ לָ֝֗נוּ מִשִּׁ֥יר צִיּֽוֹן׃",
+      "text_with_niqqud": "כִּי שָׁם שְׁאֵלוּנוּ שׁוֹבֵינוּ דִּבְרֵי שִׁיר וְתוֹלָלֵינוּ שִׂמְחָה שִׁירוּ לָנוּ מִשִּׁיר צִיּוֹן",
+      "text_plain": "כי שם שאלונו שובינו דברי שיר ותוללינו שמחה שירו לנו משיר ציון",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-137.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_137_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 137,
+      "verse": 4,
+      "ref": "תהילים קלז:ד",
+      "ref_en": "Psalms 137:4",
+      "text_original": "אֵ֗יךְ נָשִׁ֥יר אֶת־שִׁיר־יְהֹוָ֑ה עַ֝֗ל אַדְמַ֥ת נֵכָֽר׃",
+      "text_with_niqqud": "אֵיךְ נָשִׁיר אֶת שִׁיר יְהֹוָה עַל אַדְמַת נֵכָר",
+      "text_plain": "איך נשיר את שיר יהוה על אדמת נכר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-137.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_137_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 137,
+      "verse": 5,
+      "ref": "תהילים קלז:ה",
+      "ref_en": "Psalms 137:5",
+      "text_original": "אִֽם־אֶשְׁכָּחֵ֥ךְ יְֽרוּשָׁלִָ֗ם תִּשְׁכַּ֥ח יְמִינִֽי׃",
+      "text_with_niqqud": "אִם אֶשְׁכָּחֵךְ יְרוּשָׁלִָם תִּשְׁכַּח יְמִינִי",
+      "text_plain": "אם אשכחך ירושלם תשכח ימיני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-137.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_137_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 137,
+      "verse": 6,
+      "ref": "תהילים קלז:ו",
+      "ref_en": "Psalms 137:6",
+      "text_original": "תִּדְבַּֽק־לְשׁוֹנִ֨י ׀ לְחִכִּי֮ אִם־לֹ֪א אֶ֫זְכְּרֵ֥כִי אִם־לֹ֣א אַֽ֭עֲלֶה אֶת־יְרֽוּשָׁלִַ֑ם עַ֝֗ל רֹ֣אשׁ שִׂמְחָתִֽי׃",
+      "text_with_niqqud": "תִּדְבַּק לְשׁוֹנִי לְחִכִּי אִם לֹא אֶזְכְּרֵכִי אִם לֹא אַעֲלֶה אֶת יְרוּשָׁלִַם עַל רֹאשׁ שִׂמְחָתִי",
+      "text_plain": "תדבק לשוני לחכי אם לא אזכרכי אם לא אעלה את ירושלם על ראש שמחתי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-137.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_137_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 137,
+      "verse": 7,
+      "ref": "תהילים קלז:ז",
+      "ref_en": "Psalms 137:7",
+      "text_original": "זְכֹ֤ר יְהֹוָ֨ה ׀ לִבְנֵ֬י אֱד֗וֹם אֵת֮ י֤וֹם יְֽרוּשָׁ֫לִָ֥ם הָ֭אֹ֣מְרִים עָ֤רוּ ׀ עָ֑רוּ עַ֝֗ד הַיְס֥וֹד בָּֽהּ׃",
+      "text_with_niqqud": "זְכֹר יְהֹוָה לִבְנֵי אֱדוֹם אֵת יוֹם יְרוּשָׁלִָם הָאֹמְרִים עָרוּ עָרוּ עַד הַיְסוֹד בָּהּ",
+      "text_plain": "זכר יהוה לבני אדום את יום ירושלם האמרים ערו ערו עד היסוד בה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-137.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_137_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 137,
+      "verse": 8,
+      "ref": "תהילים קלז:ח",
+      "ref_en": "Psalms 137:8",
+      "text_original": "בַּת־בָּבֶ֗ל הַשְּׁד֫וּדָ֥ה אַשְׁרֵ֥י שֶׁיְשַׁלֶּם־לָ֑ךְ אֶת־גְּ֝מוּלֵ֗ךְ שֶׁגָּמַ֥לְתְּ לָֽנוּ׃",
+      "text_with_niqqud": "בַּת בָּבֶל הַשְּׁדוּדָה אַשְׁרֵי שֶׁיְשַׁלֶּם לָךְ אֶת גְּמוּלֵךְ שֶׁגָּמַלְתְּ לָנוּ",
+      "text_plain": "בת בבל השדודה אשרי שישלם לך את גמולך שגמלת לנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-137.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_137_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 137,
+      "verse": 9,
+      "ref": "תהילים קלז:ט",
+      "ref_en": "Psalms 137:9",
+      "text_original": "אַשְׁרֵ֤י ׀ שֶׁיֹּאחֵ֓ז וְנִפֵּ֬ץ אֶֽת־עֹלָלַ֗יִךְ אֶל־הַסָּֽלַע׃",
+      "text_with_niqqud": "אַשְׁרֵי שֶׁיֹּאחֵז וְנִפֵּץ אֶת עֹלָלַיִךְ אֶל הַסָּלַע",
+      "text_plain": "אשרי שיאחז ונפץ את עלליך אל הסלע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-137.txt"
+    }
+  ]
+}

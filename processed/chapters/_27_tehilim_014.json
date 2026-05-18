@@ -1,0 +1,138 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 14,
+  "chapter_id": "_27_tehilim_014",
+  "ref": "תהילים יד",
+  "ref_en": "Psalms 14",
+  "source_file": "_27_tehilim-014.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_014_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 14,
+      "verse": 1,
+      "ref": "תהילים יד:א",
+      "ref_en": "Psalms 14:1",
+      "text_original": "לַמְנַצֵּ֗חַ לְדָ֫וִ֥ד אָ֘מַ֤ר נָבָ֣ל בְּ֭לִבּוֹ אֵ֣ין אֱלֹהִ֑ים הִֽשְׁחִ֗יתוּ הִֽתְעִ֥יבוּ עֲלִילָ֗ה אֵ֣ין עֹֽשֵׂה־טֽוֹב׃",
+      "text_with_niqqud": "לַמְנַצֵּחַ לְדָוִד אָמַר נָבָל בְּלִבּוֹ אֵין אֱלֹהִים הִשְׁחִיתוּ הִתְעִיבוּ עֲלִילָה אֵין עֹשֵׂה טוֹב",
+      "text_plain": "למנצח לדוד אמר נבל בלבו אין אלהים השחיתו התעיבו עלילה אין עשה טוב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-014.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_014_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 14,
+      "verse": 2,
+      "ref": "תהילים יד:ב",
+      "ref_en": "Psalms 14:2",
+      "text_original": "יְֽהֹוָ֗ה מִשָּׁמַֽיִם֮ הִשְׁקִ֪יף עַֽל־בְּנֵי־אָ֫דָ֥ם לִ֭רְאוֹת הֲיֵ֣שׁ מַשְׂכִּ֑יל דֹּ֝רֵ֗שׁ אֶת־אֱלֹהִֽים׃",
+      "text_with_niqqud": "יְהֹוָה מִשָּׁמַיִם הִשְׁקִיף עַל בְּנֵי אָדָם לִרְאוֹת הֲיֵשׁ מַשְׂכִּיל דֹּרֵשׁ אֶת אֱלֹהִים",
+      "text_plain": "יהוה משמים השקיף על בני אדם לראות היש משכיל דרש את אלהים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-014.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_014_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 14,
+      "verse": 3,
+      "ref": "תהילים יד:ג",
+      "ref_en": "Psalms 14:3",
+      "text_original": "הַכֹּ֥ל סָר֮ יַחְדָּ֪ו נֶֽ֫אֱלָ֥חוּ אֵ֤ין עֹֽשֵׂה־ט֑וֹב אֵ֝֗ין גַּם־אֶחָֽד׃",
+      "text_with_niqqud": "הַכֹּל סָר יַחְדָּו נֶאֱלָחוּ אֵין עֹשֵׂה טוֹב אֵין גַּם אֶחָד",
+      "text_plain": "הכל סר יחדו נאלחו אין עשה טוב אין גם אחד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-014.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_014_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 14,
+      "verse": 4,
+      "ref": "תהילים יד:ד",
+      "ref_en": "Psalms 14:4",
+      "text_original": "הֲלֹ֥א יָֽדְעוּ֮ כָּל־פֹּ֪עֲלֵ֫י אָ֥וֶן אֹֽכְלֵ֣י עַ֭מִּי אָ֣כְלוּ לֶ֑חֶם יְ֝הֹוָ֗ה לֹ֣א קָרָֽאוּ׃",
+      "text_with_niqqud": "הֲלֹא יָדְעוּ כָּל פֹּעֲלֵי אָוֶן אֹכְלֵי עַמִּי אָכְלוּ לֶחֶם יְהֹוָה לֹא קָרָאוּ",
+      "text_plain": "הלא ידעו כל פעלי און אכלי עמי אכלו לחם יהוה לא קראו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-014.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_014_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 14,
+      "verse": 5,
+      "ref": "תהילים יד:ה",
+      "ref_en": "Psalms 14:5",
+      "text_original": "שָׁ֤ם ׀ פָּ֣חֲדוּ פָ֑חַד כִּֽי־אֱ֝לֹהִ֗ים בְּד֣וֹר צַדִּֽיק׃",
+      "text_with_niqqud": "שָׁם פָּחֲדוּ פָחַד כִּי אֱלֹהִים בְּדוֹר צַדִּיק",
+      "text_plain": "שם פחדו פחד כי אלהים בדור צדיק",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-014.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_014_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 14,
+      "verse": 6,
+      "ref": "תהילים יד:ו",
+      "ref_en": "Psalms 14:6",
+      "text_original": "עֲצַת־עָנִ֥י תָבִ֑ישׁוּ כִּ֖י יְהֹוָ֣ה מַחְסֵֽהוּ׃",
+      "text_with_niqqud": "עֲצַת עָנִי תָבִישׁוּ כִּי יְהֹוָה מַחְסֵהוּ",
+      "text_plain": "עצת עני תבישו כי יהוה מחסהו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-014.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_014_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 14,
+      "verse": 7,
+      "ref": "תהילים יד:ז",
+      "ref_en": "Psalms 14:7",
+      "text_original": "מִ֥י יִתֵּ֣ן מִצִּיּוֹן֮ יְשׁוּעַ֪ת יִשְׂרָ֫אֵ֥ל בְּשׁ֣וּב יְ֭הֹוָה שְׁב֣וּת עַמּ֑וֹ יָגֵ֥ל יַֽ֝עֲקֹ֗ב יִשְׂמַ֥ח יִשְׂרָאֵֽל׃",
+      "text_with_niqqud": "מִי יִתֵּן מִצִּיּוֹן יְשׁוּעַת יִשְׂרָאֵל בְּשׁוּב יְהֹוָה שְׁבוּת עַמּוֹ יָגֵל יַעֲקֹב יִשְׂמַח יִשְׂרָאֵל",
+      "text_plain": "מי יתן מציון ישועת ישראל בשוב יהוה שבות עמו יגל יעקב ישמח ישראל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-014.txt"
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 109,
+  "chapter_id": "_27_tehilim_109",
+  "ref": "תהילים קט",
+  "ref_en": "Psalms 109",
+  "source_file": "_27_tehilim-109.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_109_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 1,
+      "ref": "תהילים קט:א",
+      "ref_en": "Psalms 109:1",
+      "text_original": "לַ֭מְנַצֵּחַ לְדָוִ֣ד מִזְמ֑וֹר אֱלֹהֵ֥י תְ֝הִלָּתִ֗י אַֽל־תֶּחֱרַֽשׁ׃",
+      "text_with_niqqud": "לַמְנַצֵּחַ לְדָוִד מִזְמוֹר אֱלֹהֵי תְהִלָּתִי אַל תֶּחֱרַשׁ",
+      "text_plain": "למנצח לדוד מזמור אלהי תהלתי אל תחרש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 2,
+      "ref": "תהילים קט:ב",
+      "ref_en": "Psalms 109:2",
+      "text_original": "כִּ֤י פִ֪י רָשָׁ֡ע וּֽפִי־מִ֭רְמָה עָלַ֣י פָּתָ֑חוּ דִּבְּר֥וּ אִ֝תִּ֗י לְשׁ֣וֹן שָֽׁקֶר׃",
+      "text_with_niqqud": "כִּי פִי רָשָׁע וּפִי מִרְמָה עָלַי פָּתָחוּ דִּבְּרוּ אִתִּי לְשׁוֹן שָׁקֶר",
+      "text_plain": "כי פי רשע ופי מרמה עלי פתחו דברו אתי לשון שקר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 3,
+      "ref": "תהילים קט:ג",
+      "ref_en": "Psalms 109:3",
+      "text_original": "וְדִבְרֵ֣י שִׂנְאָ֣ה סְבָב֑וּנִי וַיִּֽלָּחֲמ֥וּנִי חִנָּֽם׃",
+      "text_with_niqqud": "וְדִבְרֵי שִׂנְאָה סְבָבוּנִי וַיִּלָּחֲמוּנִי חִנָּם",
+      "text_plain": "ודברי שנאה סבבוני וילחמוני חנם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 4,
+      "ref": "תהילים קט:ד",
+      "ref_en": "Psalms 109:4",
+      "text_original": "תַּֽחַת־אַהֲבָתִ֥י יִשְׂטְנ֗וּנִי וַֽאֲנִ֥י תְפִלָּֽה׃",
+      "text_with_niqqud": "תַּחַת אַהֲבָתִי יִשְׂטְנוּנִי וַאֲנִי תְפִלָּה",
+      "text_plain": "תחת אהבתי ישטנוני ואני תפלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 5,
+      "ref": "תהילים קט:ה",
+      "ref_en": "Psalms 109:5",
+      "text_original": "וַיָּ֘שִׂ֤ימוּ עָלַ֣י רָ֭עָה תַּ֣חַת טוֹבָ֑ה וְ֝שִׂנְאָ֗ה תַּ֣חַת אַֽהֲבָתִֽי׃",
+      "text_with_niqqud": "וַיָּשִׂימוּ עָלַי רָעָה תַּחַת טוֹבָה וְשִׂנְאָה תַּחַת אַהֲבָתִי",
+      "text_plain": "וישימו עלי רעה תחת טובה ושנאה תחת אהבתי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 6,
+      "ref": "תהילים קט:ו",
+      "ref_en": "Psalms 109:6",
+      "text_original": "הַפְקֵ֣ד עָלָ֣יו רָשָׁ֑ע וְ֝שָׂטָ֗ן יַֽעֲמֹ֥ד עַל־יְמִינֽוֹ׃",
+      "text_with_niqqud": "הַפְקֵד עָלָיו רָשָׁע וְשָׂטָן יַעֲמֹד עַל יְמִינוֹ",
+      "text_plain": "הפקד עליו רשע ושטן יעמד על ימינו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 7,
+      "ref": "תהילים קט:ז",
+      "ref_en": "Psalms 109:7",
+      "text_original": "בְּ֭הִשָּׁ֣פְטוֹ יֵצֵ֣א רָשָׁ֑ע וּ֝תְפִלָּת֗וֹ תִּֽהְיֶ֥ה לַֽחֲטָאָֽה׃",
+      "text_with_niqqud": "בְּהִשָּׁפְטוֹ יֵצֵא רָשָׁע וּתְפִלָּתוֹ תִּהְיֶה לַחֲטָאָה",
+      "text_plain": "בהשפטו יצא רשע ותפלתו תהיה לחטאה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 8,
+      "ref": "תהילים קט:ח",
+      "ref_en": "Psalms 109:8",
+      "text_original": "יִֽהְיוּ־יָמָ֥יו מְעַטִּ֑ים פְּ֝קֻדָּת֗וֹ יִקַּ֥ח אַחֵֽר׃",
+      "text_with_niqqud": "יִהְיוּ יָמָיו מְעַטִּים פְּקֻדָּתוֹ יִקַּח אַחֵר",
+      "text_plain": "יהיו ימיו מעטים פקדתו יקח אחר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 9,
+      "ref": "תהילים קט:ט",
+      "ref_en": "Psalms 109:9",
+      "text_original": "יִֽהְיוּ־בָנָ֥יו יְתוֹמִ֑ים וְ֝אִשְׁתּ֗וֹ אַלְמָנָֽה׃",
+      "text_with_niqqud": "יִהְיוּ בָנָיו יְתוֹמִים וְאִשְׁתּוֹ אַלְמָנָה",
+      "text_plain": "יהיו בניו יתומים ואשתו אלמנה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 10,
+      "ref": "תהילים קט:י",
+      "ref_en": "Psalms 109:10",
+      "text_original": "וְנ֤וֹעַ יָנ֣וּעוּ בָנָ֣יו וְשִׁאֵ֑לוּ וְ֝דָרְשׁ֗וּ מֵחָרְבֽוֹתֵיהֶֽם׃",
+      "text_with_niqqud": "וְנוֹעַ יָנוּעוּ בָנָיו וְשִׁאֵלוּ וְדָרְשׁוּ מֵחָרְבוֹתֵיהֶם",
+      "text_plain": "ונוע ינועו בניו ושאלו ודרשו מחרבותיהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 11,
+      "ref": "תהילים קט:יא",
+      "ref_en": "Psalms 109:11",
+      "text_original": "יְנַקֵּ֣שׁ נ֭וֹשֶׁה לְכָל־אֲשֶׁר־ל֑וֹ וְיָבֹ֖זּוּ זָרִ֣ים יְגִיעֽוֹ׃",
+      "text_with_niqqud": "יְנַקֵּשׁ נוֹשֶׁה לְכָל אֲשֶׁר לוֹ וְיָבֹזּוּ זָרִים יְגִיעוֹ",
+      "text_plain": "ינקש נושה לכל אשר לו ויבזו זרים יגיעו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 12,
+      "ref": "תהילים קט:יב",
+      "ref_en": "Psalms 109:12",
+      "text_original": "אַל־יְהִי־ל֭וֹ מֹשֵׁ֣ךְ חָ֑סֶד וְֽאַל־יְהִ֥י ח֝וֹנֵ֗ן לִֽיתוֹמָֽיו׃",
+      "text_with_niqqud": "אַל יְהִי לוֹ מֹשֵׁךְ חָסֶד וְאַל יְהִי חוֹנֵן לִיתוֹמָיו",
+      "text_plain": "אל יהי לו משך חסד ואל יהי חונן ליתומיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 13,
+      "ref": "תהילים קט:יג",
+      "ref_en": "Psalms 109:13",
+      "text_original": "יְהִֽי־אַחֲרִית֥וֹ לְהַכְרִ֑ית בְּד֥וֹר אַ֝חֵ֗ר יִמַּ֥ח שְׁמָֽם׃",
+      "text_with_niqqud": "יְהִי אַחֲרִיתוֹ לְהַכְרִית בְּדוֹר אַחֵר יִמַּח שְׁמָם",
+      "text_plain": "יהי אחריתו להכרית בדור אחר ימח שמם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_014",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 14,
+      "ref": "תהילים קט:יד",
+      "ref_en": "Psalms 109:14",
+      "text_original": "יִזָּכֵ֤ר ׀ עֲו֣‍ֹן אֲ֭בֹתָיו אֶל־יְהֹוָ֑ה וְחַטַּ֥את אִ֝מּ֗וֹ אַל־תִּמָּֽח׃",
+      "text_with_niqqud": "יִזָּכֵר עֲו‍ֹן אֲבֹתָיו אֶל יְהֹוָה וְחַטַּאת אִמּוֹ אַל תִּמָּח",
+      "text_plain": "יזכר עו‍ן אבתיו אל יהוה וחטאת אמו אל תמח",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_015",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 15,
+      "ref": "תהילים קט:טו",
+      "ref_en": "Psalms 109:15",
+      "text_original": "יִֽהְי֣וּ נֶֽגֶד־יְהֹוָ֣ה תָּמִ֑יד וְיַכְרֵ֖ת מֵאֶ֣רֶץ זִכְרָֽם׃",
+      "text_with_niqqud": "יִהְיוּ נֶגֶד יְהֹוָה תָּמִיד וְיַכְרֵת מֵאֶרֶץ זִכְרָם",
+      "text_plain": "יהיו נגד יהוה תמיד ויכרת מארץ זכרם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_016",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 16,
+      "ref": "תהילים קט:טז",
+      "ref_en": "Psalms 109:16",
+      "text_original": "יַ֗עַן אֲשֶׁ֤ר ׀ לֹ֥א זָכַר֮ עֲשׂ֪וֹת חָ֥֫סֶד וַיִּרְדֹּ֡ף אִישׁ־עָנִ֣י וְ֭אֶבְיוֹן וְנִכְאֵ֨ה לֵבָ֬ב לְמוֹתֵֽת׃",
+      "text_with_niqqud": "יַעַן אֲשֶׁר לֹא זָכַר עֲשׂוֹת חָסֶד וַיִּרְדֹּף אִישׁ עָנִי וְאֶבְיוֹן וְנִכְאֵה לֵבָב לְמוֹתֵת",
+      "text_plain": "יען אשר לא זכר עשות חסד וירדף איש עני ואביון ונכאה לבב למותת",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_017",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 17,
+      "ref": "תהילים קט:יז",
+      "ref_en": "Psalms 109:17",
+      "text_original": "וַיֶּֽאֱהַ֣ב קְ֭לָלָה וַתְּבוֹאֵ֑הוּ וְֽלֹא־חָפֵ֥ץ בִּ֝בְרָכָ֗ה וַתִּרְחַ֥ק מִמֶּֽנּוּ׃",
+      "text_with_niqqud": "וַיֶּאֱהַב קְלָלָה וַתְּבוֹאֵהוּ וְלֹא חָפֵץ בִּבְרָכָה וַתִּרְחַק מִמֶּנּוּ",
+      "text_plain": "ויאהב קללה ותבואהו ולא חפץ בברכה ותרחק ממנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_018",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 18,
+      "ref": "תהילים קט:יח",
+      "ref_en": "Psalms 109:18",
+      "text_original": "וַיִּלְבַּ֥שׁ קְלָלָ֗ה כְּמַ֫דּ֥וֹ וַתָּבֹ֣א כַמַּ֣יִם בְּקִרְבּ֑וֹ וְ֝כַשֶּׁ֗מֶן בְּעַצְמוֹתָֽיו׃",
+      "text_with_niqqud": "וַיִּלְבַּשׁ קְלָלָה כְּמַדּוֹ וַתָּבֹא כַמַּיִם בְּקִרְבּוֹ וְכַשֶּׁמֶן בְּעַצְמוֹתָיו",
+      "text_plain": "וילבש קללה כמדו ותבא כמים בקרבו וכשמן בעצמותיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_019",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 19,
+      "ref": "תהילים קט:יט",
+      "ref_en": "Psalms 109:19",
+      "text_original": "תְּהִי־ל֭וֹ כְּבֶ֣גֶד יַעְטֶ֑ה וּ֝לְמֵ֗זַח תָּמִ֥יד יַחְגְּרֶֽהָ׃",
+      "text_with_niqqud": "תְּהִי לוֹ כְּבֶגֶד יַעְטֶה וּלְמֵזַח תָּמִיד יַחְגְּרֶהָ",
+      "text_plain": "תהי לו כבגד יעטה ולמזח תמיד יחגרה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_020",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 20,
+      "ref": "תהילים קט:כ",
+      "ref_en": "Psalms 109:20",
+      "text_original": "זֹ֤את פְּעֻלַּ֣ת שֹֽׂ֭טְנַי מֵאֵ֣ת יְהֹוָ֑ה וְהַדֹּֽבְרִ֥ים רָ֝֗ע עַל־נַפְשִֽׁי׃",
+      "text_with_niqqud": "זֹאת פְּעֻלַּת שֹׂטְנַי מֵאֵת יְהֹוָה וְהַדֹּבְרִים רָע עַל נַפְשִׁי",
+      "text_plain": "זאת פעלת שטני מאת יהוה והדברים רע על נפשי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_021",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 21,
+      "ref": "תהילים קט:כא",
+      "ref_en": "Psalms 109:21",
+      "text_original": "וְאַתָּ֤ה ׀ יְהֹ֘וִ֤ה אֲדֹנָ֗י עֲֽשֵׂה־אִ֭תִּי לְמַ֣עַן שְׁמֶ֑ךָ כִּי־ט֥וֹב חַ֝סְדְּךָ֗ הַצִּילֵֽנִי׃",
+      "text_with_niqqud": "וְאַתָּה יְהֹוִה אֲדֹנָי עֲשֵׂה אִתִּי לְמַעַן שְׁמֶךָ כִּי טוֹב חַסְדְּךָ הַצִּילֵנִי",
+      "text_plain": "ואתה יהוה אדני עשה אתי למען שמך כי טוב חסדך הצילני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_022",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 22,
+      "ref": "תהילים קט:כב",
+      "ref_en": "Psalms 109:22",
+      "text_original": "כִּֽי־עָנִ֣י וְאֶבְי֣וֹן אָנֹ֑כִי וְ֝לִבִּ֗י חָלַ֥ל בְּקִרְבִּֽי׃",
+      "text_with_niqqud": "כִּי עָנִי וְאֶבְיוֹן אָנֹכִי וְלִבִּי חָלַל בְּקִרְבִּי",
+      "text_plain": "כי עני ואביון אנכי ולבי חלל בקרבי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_023",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 23,
+      "ref": "תהילים קט:כג",
+      "ref_en": "Psalms 109:23",
+      "text_original": "כְּצֵל־כִּנְטוֹת֥וֹ נֶֽהֱלָ֑כְתִּי נִ֝נְעַ֗רְתִּי כָּֽאַרְבֶּֽה׃",
+      "text_with_niqqud": "כְּצֵל כִּנְטוֹתוֹ נֶהֱלָכְתִּי נִנְעַרְתִּי כָּאַרְבֶּה",
+      "text_plain": "כצל כנטותו נהלכתי ננערתי כארבה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_024",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 24,
+      "ref": "תהילים קט:כד",
+      "ref_en": "Psalms 109:24",
+      "text_original": "בִּ֭רְכַּי כָּֽשְׁל֣וּ מִצּ֑וֹם וּ֝בְשָׂרִ֗י כָּחַ֥שׁ מִשָּֽׁמֶן׃",
+      "text_with_niqqud": "בִּרְכַּי כָּשְׁלוּ מִצּוֹם וּבְשָׂרִי כָּחַשׁ מִשָּׁמֶן",
+      "text_plain": "ברכי כשלו מצום ובשרי כחש משמן",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_025",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 25,
+      "ref": "תהילים קט:כה",
+      "ref_en": "Psalms 109:25",
+      "text_original": "וַֽאֲנִ֤י ׀ הָיִ֣יתִי חֶרְפָּ֣ה לָהֶ֑ם יִ֝רְא֗וּנִי יְנִיע֥וּן רֹאשָֽׁם׃",
+      "text_with_niqqud": "וַאֲנִי הָיִיתִי חֶרְפָּה לָהֶם יִרְאוּנִי יְנִיעוּן רֹאשָׁם",
+      "text_plain": "ואני הייתי חרפה להם יראוני יניעון ראשם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_026",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 26,
+      "ref": "תהילים קט:כו",
+      "ref_en": "Psalms 109:26",
+      "text_original": "עָ֭זְרֵנִי יְהֹוָ֣ה אֱלֹהָ֑י ה֖וֹשִׁיעֵ֣נִי כְחַסְדֶּֽךָ׃",
+      "text_with_niqqud": "עָזְרֵנִי יְהֹוָה אֱלֹהָי הוֹשִׁיעֵנִי כְחַסְדֶּךָ",
+      "text_plain": "עזרני יהוה אלהי הושיעני כחסדך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_027",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 27,
+      "ref": "תהילים קט:כז",
+      "ref_en": "Psalms 109:27",
+      "text_original": "וְֽ֭יֵדְעוּ כִּי־יָ֣דְךָ זֹּ֑את אַתָּ֖ה יְהֹוָ֣ה עֲשִׂיתָֽהּ׃",
+      "text_with_niqqud": "וְיֵדְעוּ כִּי יָדְךָ זֹּאת אַתָּה יְהֹוָה עֲשִׂיתָהּ",
+      "text_plain": "וידעו כי ידך זאת אתה יהוה עשיתה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_028",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 28,
+      "ref": "תהילים קט:כח",
+      "ref_en": "Psalms 109:28",
+      "text_original": "יְקַֽלְלוּ־הֵֽמָּה֮ וְאַתָּ֪ה תְבָ֫רֵ֥ךְ קָ֤מוּ ׀ וַיֵּבֹ֗שׁוּ וְֽעַבְדְּךָ֥ יִשְׂמָֽח׃",
+      "text_with_niqqud": "יְקַלְלוּ הֵמָּה וְאַתָּה תְבָרֵךְ קָמוּ וַיֵּבֹשׁוּ וְעַבְדְּךָ יִשְׂמָח",
+      "text_plain": "יקללו המה ואתה תברך קמו ויבשו ועבדך ישמח",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_029",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 29,
+      "ref": "תהילים קט:כט",
+      "ref_en": "Psalms 109:29",
+      "text_original": "יִלְבְּשׁ֣וּ שֽׂוֹטְנַ֣י כְּלִמָּ֑ה וְיַֽעֲט֖וּ כַמְעִ֣יל בָּשְׁתָּֽם׃",
+      "text_with_niqqud": "יִלְבְּשׁוּ שׂוֹטְנַי כְּלִמָּה וְיַעֲטוּ כַמְעִיל בָּשְׁתָּם",
+      "text_plain": "ילבשו שוטני כלמה ויעטו כמעיל בשתם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_030",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 30,
+      "ref": "תהילים קט:ל",
+      "ref_en": "Psalms 109:30",
+      "text_original": "א֘וֹדֶ֤ה יְהֹוָ֣ה מְאֹ֣ד בְּפִ֑י וּבְת֖וֹךְ רַבִּ֣ים אֲהַֽלְלֶֽנּוּ׃",
+      "text_with_niqqud": "אוֹדֶה יְהֹוָה מְאֹד בְּפִי וּבְתוֹךְ רַבִּים אֲהַלְלֶנּוּ",
+      "text_plain": "אודה יהוה מאד בפי ובתוך רבים אהללנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_109_031",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 109,
+      "verse": 31,
+      "ref": "תהילים קט:לא",
+      "ref_en": "Psalms 109:31",
+      "text_original": "כִּֽי־יַ֭עֲמֹד לִימִ֣ין אֶבְי֑וֹן לְ֝הוֹשִׁ֗יעַ מִשֹּֽׁפְטֵ֥י נַפְשֽׁוֹ׃",
+      "text_with_niqqud": "כִּי יַעֲמֹד לִימִין אֶבְיוֹן לְהוֹשִׁיעַ מִשֹּׁפְטֵי נַפְשׁוֹ",
+      "text_plain": "כי יעמד לימין אביון להושיע משפטי נפשו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-109.txt"
+    }
+  ]
+}

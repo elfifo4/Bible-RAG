@@ -1,0 +1,1426 @@
+{
+  "book": "נחמיה",
+  "book_en": "Nehemiah",
+  "book_slug": "nechemia",
+  "chapter": 7,
+  "chapter_id": "_37_nechemia_007",
+  "ref": "נחמיה ז",
+  "ref_en": "Nehemiah 7",
+  "source_file": "_37_nechemia-07.txt",
+  "verses": [
+    {
+      "verse_id": "_37_nechemia_007_001",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 1,
+      "ref": "נחמיה ז:א",
+      "ref_en": "Nehemiah 7:1",
+      "text_original": "וַיְהִ֗י כַּֽאֲשֶׁ֤ר נִבְנְתָה֙ הַֽחוֹמָ֔ה וָאַֽעֲמִ֖יד הַדְּלָת֑וֹת וַיִּפָּ֥קְד֛וּ הַשּֽׁוֹעֲרִ֥ים וְהַמְשֹֽׁרְרִ֖ים וְהַלְוִיִּֽם׃",
+      "text_with_niqqud": "וַיְהִי כַּאֲשֶׁר נִבְנְתָה הַחוֹמָה וָאַעֲמִיד הַדְּלָתוֹת וַיִּפָּקְדוּ הַשּׁוֹעֲרִים וְהַמְשֹׁרְרִים וְהַלְוִיִּם",
+      "text_plain": "ויהי כאשר נבנתה החומה ואעמיד הדלתות ויפקדו השוערים והמשררים והלוים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_002",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 2,
+      "ref": "נחמיה ז:ב",
+      "ref_en": "Nehemiah 7:2",
+      "text_original": "וָֽאֲצַוֶּ֞ה אֶת־חֲנָ֣נִי אָחִ֗י וְאֶת־חֲנַנְיָ֛ה שַׂ֥ר הַבִּירָ֖ה עַל־יְרֽוּשָׁלִָ֑ם כִּי־הוּא֙ כְּאִ֣ישׁ אֱמֶ֔ת וְיָרֵ֥א אֶת־הָֽאֱלֹהִ֖ים מֵֽרַבִּֽים׃",
+      "text_with_niqqud": "וָאֲצַוֶּה אֶת חֲנָנִי אָחִי וְאֶת חֲנַנְיָה שַׂר הַבִּירָה עַל יְרוּשָׁלִָם כִּי הוּא כְּאִישׁ אֱמֶת וְיָרֵא אֶת הָאֱלֹהִים מֵרַבִּים",
+      "text_plain": "ואצוה את חנני אחי ואת חנניה שר הבירה על ירושלם כי הוא כאיש אמת וירא את האלהים מרבים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_003",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 3,
+      "ref": "נחמיה ז:ג",
+      "ref_en": "Nehemiah 7:3",
+      "text_original": "ויאמר (וָֽאֹמַ֣ר) לָהֶ֗ם לֹ֣א יִפָּֽתְח֞וּ שַֽׁעֲרֵ֤י יְרֽוּשָׁלִַ֨ם֙ עַד־חֹ֣ם הַשֶּׁ֔מֶשׁ וְעַ֨ד הֵ֥ם עֹֽמְדִ֛ים יָגִ֥יפוּ הַדְּלָת֖וֹת וֶֽאֱחֹ֑זוּ וְהַֽעֲמֵ֗יד מִשְׁמְרוֹת֙ יֹֽשְׁבֵ֣י יְרֽוּשָׁלִַ֔ם אִ֚ישׁ בְּמִשְׁמָר֔וֹ וְאִ֖ישׁ נֶ֥גֶד בֵּיתֽוֹ׃",
+      "text_with_niqqud": "ויאמר (וָאֹמַר) לָהֶם לֹא יִפָּתְחוּ שַׁעֲרֵי יְרוּשָׁלִַם עַד חֹם הַשֶּׁמֶשׁ וְעַד הֵם עֹמְדִים יָגִיפוּ הַדְּלָתוֹת וֶאֱחֹזוּ וְהַעֲמֵיד מִשְׁמְרוֹת יֹשְׁבֵי יְרוּשָׁלִַם אִישׁ בְּמִשְׁמָרוֹ וְאִישׁ נֶגֶד בֵּיתוֹ",
+      "text_plain": "ויאמר (ואמר) להם לא יפתחו שערי ירושלם עד חם השמש ועד הם עמדים יגיפו הדלתות ואחזו והעמיד משמרות ישבי ירושלם איש במשמרו ואיש נגד ביתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_004",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 4,
+      "ref": "נחמיה ז:ד",
+      "ref_en": "Nehemiah 7:4",
+      "text_original": "וְהָעִ֞יר רַֽחֲבַ֤ת יָדַ֨יִם֙ וּגְדֹלָ֔ה וְהָעָ֥ם מְעַ֖ט בְּתוֹכָ֑הּ וְאֵ֥ין בָּתִּ֖ים בְּנוּיִֽם׃",
+      "text_with_niqqud": "וְהָעִיר רַחֲבַת יָדַיִם וּגְדֹלָה וְהָעָם מְעַט בְּתוֹכָהּ וְאֵין בָּתִּים בְּנוּיִם",
+      "text_plain": "והעיר רחבת ידים וגדלה והעם מעט בתוכה ואין בתים בנוים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_005",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 5,
+      "ref": "נחמיה ז:ה",
+      "ref_en": "Nehemiah 7:5",
+      "text_original": "וַיִּתֵּ֤ן אֱלֹהַי֙ אֶל־לִבִּ֔י וָֽאֶקְבְּצָ֞ה אֶת־הַֽחֹרִ֧ים וְאֶת־הַסְּגָנִ֛ים וְאֶת־הָעָ֖ם לְהִתְיַחֵ֑שׂ וָֽאֶמְצָ֗א סֵ֤פֶר הַיַּ֨חַשׂ֙ הָֽעוֹלִ֣ים בָּרִֽאשׁוֹנָ֔ה וָֽאֶמְצָ֖א כָּת֥וּב בּֽוֹ׃",
+      "text_with_niqqud": "וַיִּתֵּן אֱלֹהַי אֶל לִבִּי וָאֶקְבְּצָה אֶת הַחֹרִים וְאֶת הַסְּגָנִים וְאֶת הָעָם לְהִתְיַחֵשׂ וָאֶמְצָא סֵפֶר הַיַּחַשׂ הָעוֹלִים בָּרִאשׁוֹנָה וָאֶמְצָא כָּתוּב בּוֹ",
+      "text_plain": "ויתן אלהי אל לבי ואקבצה את החרים ואת הסגנים ואת העם להתיחש ואמצא ספר היחש העולים בראשונה ואמצא כתוב בו",
+      "markers": {
+        "before": [],
+        "after": [
+          "פ"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_006",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 6,
+      "ref": "נחמיה ז:ו",
+      "ref_en": "Nehemiah 7:6",
+      "text_original": "אֵ֣לֶּה ׀ בְּנֵ֣י הַמְּדִינָ֗ה הָֽעֹלִים֙ מִשְּׁבִ֣י הַגּוֹלָ֔ה אֲשֶׁ֣ר הֶגְלָ֔ה נְבֽוּכַדְנֶצַּ֖ר מֶ֣לֶךְ בָּבֶ֑ל וַיָּשׁ֧וּבוּ לִֽירוּשָׁלִַ֛ם וְלִֽיהוּדָ֖ה אִ֥ישׁ לְעִירֽוֹ׃",
+      "text_with_niqqud": "אֵלֶּה בְּנֵי הַמְּדִינָה הָעֹלִים מִשְּׁבִי הַגּוֹלָה אֲשֶׁר הֶגְלָה נְבוּכַדְנֶצַּר מֶלֶךְ בָּבֶל וַיָּשׁוּבוּ לִירוּשָׁלִַם וְלִיהוּדָה אִישׁ לְעִירוֹ",
+      "text_plain": "אלה בני המדינה העלים משבי הגולה אשר הגלה נבוכדנצר מלך בבל וישובו לירושלם וליהודה איש לעירו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_007",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 7,
+      "ref": "נחמיה ז:ז",
+      "ref_en": "Nehemiah 7:7",
+      "text_original": "הַבָּאִ֣ים עִם־זְרֻבָּבֶ֗ל יֵשׁ֡וּעַ נְחֶמְיָ֡ה עֲ֠זַרְיָ֠ה רַֽעַמְיָ֨ה נַֽחֲמָ֜נִי מָרְדֳּכַ֥י בִּלְשָׁ֛ן מִסְפֶּ֥רֶת בִּגְוַ֖י נְח֣וּם בַּֽעֲנָ֑ה מִסְפַּ֕ר אַנְשֵׁ֖י עַ֥ם יִשְׂרָאֵֽל׃",
+      "text_with_niqqud": "הַבָּאִים עִם זְרֻבָּבֶל יֵשׁוּעַ נְחֶמְיָה עֲזַרְיָה רַעַמְיָה נַחֲמָנִי מָרְדֳּכַי בִּלְשָׁן מִסְפֶּרֶת בִּגְוַי נְחוּם בַּעֲנָה מִסְפַּר אַנְשֵׁי עַם יִשְׂרָאֵל",
+      "text_plain": "הבאים עם זרבבל ישוע נחמיה עזריה רעמיה נחמני מרדכי בלשן מספרת בגוי נחום בענה מספר אנשי עם ישראל",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_008",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 8,
+      "ref": "נחמיה ז:ח",
+      "ref_en": "Nehemiah 7:8",
+      "text_original": "בְּנֵ֣י פַרְעֹ֔שׁ אַלְפַּ֕יִם מֵאָ֖ה וְשִׁבְעִ֥ים וּשְׁנָֽיִם׃",
+      "text_with_niqqud": "בְּנֵי פַרְעֹשׁ אַלְפַּיִם מֵאָה וְשִׁבְעִים וּשְׁנָיִם",
+      "text_plain": "בני פרעש אלפים מאה ושבעים ושנים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_009",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 9,
+      "ref": "נחמיה ז:ט",
+      "ref_en": "Nehemiah 7:9",
+      "text_original": "בְּנֵ֣י שְׁפַטְיָ֔ה שְׁלֹ֥שׁ מֵא֖וֹת שִׁבְעִ֥ים וּשְׁנָֽיִם׃",
+      "text_with_niqqud": "בְּנֵי שְׁפַטְיָה שְׁלֹשׁ מֵאוֹת שִׁבְעִים וּשְׁנָיִם",
+      "text_plain": "בני שפטיה שלש מאות שבעים ושנים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_010",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 10,
+      "ref": "נחמיה ז:י",
+      "ref_en": "Nehemiah 7:10",
+      "text_original": "בְּנֵ֣י אָרַ֔ח שֵׁ֥שׁ מֵא֖וֹת חֲמִשִּׁ֥ים וּשְׁנָֽיִם׃",
+      "text_with_niqqud": "בְּנֵי אָרַח שֵׁשׁ מֵאוֹת חֲמִשִּׁים וּשְׁנָיִם",
+      "text_plain": "בני ארח שש מאות חמשים ושנים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_011",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 11,
+      "ref": "נחמיה ז:יא",
+      "ref_en": "Nehemiah 7:11",
+      "text_original": "בְּנֵֽי־פַחַ֥ת מוֹאָ֛ב לִבְנֵ֥י יֵשׁ֖וּעַ וְיוֹאָ֑ב אַלְפַּ֕יִם וּשְׁמֹנֶ֥ה מֵא֖וֹת שְׁמֹנָ֥ה עָשָֽׂר׃",
+      "text_with_niqqud": "בְּנֵי פַחַת מוֹאָב לִבְנֵי יֵשׁוּעַ וְיוֹאָב אַלְפַּיִם וּשְׁמֹנֶה מֵאוֹת שְׁמֹנָה עָשָׂר",
+      "text_plain": "בני פחת מואב לבני ישוע ויואב אלפים ושמנה מאות שמנה עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_012",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 12,
+      "ref": "נחמיה ז:יב",
+      "ref_en": "Nehemiah 7:12",
+      "text_original": "בְּנֵ֣י עֵילָ֔ם אֶ֕לֶף מָאתַ֖יִם חֲמִשִּׁ֥ים וְאַרְבָּעָֽה׃",
+      "text_with_niqqud": "בְּנֵי עֵילָם אֶלֶף מָאתַיִם חֲמִשִּׁים וְאַרְבָּעָה",
+      "text_plain": "בני עילם אלף מאתים חמשים וארבעה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_013",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 13,
+      "ref": "נחמיה ז:יג",
+      "ref_en": "Nehemiah 7:13",
+      "text_original": "בְּנֵ֣י זַתּ֔וּא שְׁמֹנֶ֥ה מֵא֖וֹת אַרְבָּעִ֥ים וַֽחֲמִשָּֽׁה׃",
+      "text_with_niqqud": "בְּנֵי זַתּוּא שְׁמֹנֶה מֵאוֹת אַרְבָּעִים וַחֲמִשָּׁה",
+      "text_plain": "בני זתוא שמנה מאות ארבעים וחמשה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_014",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 14,
+      "ref": "נחמיה ז:יד",
+      "ref_en": "Nehemiah 7:14",
+      "text_original": "בְּנֵ֣י זַכָּ֔י שְׁבַ֥ע מֵא֖וֹת וְשִׁשִּֽׁים׃",
+      "text_with_niqqud": "בְּנֵי זַכָּי שְׁבַע מֵאוֹת וְשִׁשִּׁים",
+      "text_plain": "בני זכי שבע מאות וששים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_015",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 15,
+      "ref": "נחמיה ז:טו",
+      "ref_en": "Nehemiah 7:15",
+      "text_original": "בְּנֵ֣י בִנּ֔וּי שֵׁ֥שׁ מֵא֖וֹת אַרְבָּעִ֥ים וּשְׁמֹנָֽה׃",
+      "text_with_niqqud": "בְּנֵי בִנּוּי שֵׁשׁ מֵאוֹת אַרְבָּעִים וּשְׁמֹנָה",
+      "text_plain": "בני בנוי שש מאות ארבעים ושמנה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_016",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 16,
+      "ref": "נחמיה ז:טז",
+      "ref_en": "Nehemiah 7:16",
+      "text_original": "בְּנֵ֣י בֵבָ֔י שֵׁ֥שׁ מֵא֖וֹת עֶשְׂרִ֥ים וּשְׁמֹנָֽה׃",
+      "text_with_niqqud": "בְּנֵי בֵבָי שֵׁשׁ מֵאוֹת עֶשְׂרִים וּשְׁמֹנָה",
+      "text_plain": "בני בבי שש מאות עשרים ושמנה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_017",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 17,
+      "ref": "נחמיה ז:יז",
+      "ref_en": "Nehemiah 7:17",
+      "text_original": "בְּנֵ֣י עַזְגָּ֔ד אַלְפַּ֕יִם שְׁלֹ֥שׁ מֵא֖וֹת עֶשְׂרִ֥ים וּשְׁנָֽיִם׃",
+      "text_with_niqqud": "בְּנֵי עַזְגָּד אַלְפַּיִם שְׁלֹשׁ מֵאוֹת עֶשְׂרִים וּשְׁנָיִם",
+      "text_plain": "בני עזגד אלפים שלש מאות עשרים ושנים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_018",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 18,
+      "ref": "נחמיה ז:יח",
+      "ref_en": "Nehemiah 7:18",
+      "text_original": "בְּנֵי֙ אֲדֹ֣נִיקָ֔ם שֵׁ֥שׁ מֵא֖וֹת שִׁשִּׁ֥ים וְשִׁבְעָֽה׃",
+      "text_with_niqqud": "בְּנֵי אֲדֹנִיקָם שֵׁשׁ מֵאוֹת שִׁשִּׁים וְשִׁבְעָה",
+      "text_plain": "בני אדניקם שש מאות ששים ושבעה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_019",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 19,
+      "ref": "נחמיה ז:יט",
+      "ref_en": "Nehemiah 7:19",
+      "text_original": "בְּנֵ֣י בִגְוָ֔י אַלְפַּ֖יִם שִׁשִּׁ֥ים וְשִׁבְעָֽה׃",
+      "text_with_niqqud": "בְּנֵי בִגְוָי אַלְפַּיִם שִׁשִּׁים וְשִׁבְעָה",
+      "text_plain": "בני בגוי אלפים ששים ושבעה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_020",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 20,
+      "ref": "נחמיה ז:כ",
+      "ref_en": "Nehemiah 7:20",
+      "text_original": "בְּנֵ֣י עָדִ֔ין שֵׁ֥שׁ מֵא֖וֹת חֲמִשִּׁ֥ים וַֽחֲמִשָּֽׁה׃",
+      "text_with_niqqud": "בְּנֵי עָדִין שֵׁשׁ מֵאוֹת חֲמִשִּׁים וַחֲמִשָּׁה",
+      "text_plain": "בני עדין שש מאות חמשים וחמשה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_021",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 21,
+      "ref": "נחמיה ז:כא",
+      "ref_en": "Nehemiah 7:21",
+      "text_original": "בְּנֵֽי־אָטֵ֥ר לְחִזְקִיָּ֖ה תִּשְׁעִ֥ים וּשְׁמֹנָֽה׃",
+      "text_with_niqqud": "בְּנֵי אָטֵר לְחִזְקִיָּה תִּשְׁעִים וּשְׁמֹנָה",
+      "text_plain": "בני אטר לחזקיה תשעים ושמנה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_022",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 22,
+      "ref": "נחמיה ז:כב",
+      "ref_en": "Nehemiah 7:22",
+      "text_original": "בְּנֵ֣י חָשֻׁ֔ם שְׁלֹ֥שׁ מֵא֖וֹת עֶשְׂרִ֥ים וּשְׁמֹנָֽה׃",
+      "text_with_niqqud": "בְּנֵי חָשֻׁם שְׁלֹשׁ מֵאוֹת עֶשְׂרִים וּשְׁמֹנָה",
+      "text_plain": "בני חשם שלש מאות עשרים ושמנה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_023",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 23,
+      "ref": "נחמיה ז:כג",
+      "ref_en": "Nehemiah 7:23",
+      "text_original": "בְּנֵ֣י בֵצָ֔י שְׁלֹ֥שׁ מֵא֖וֹת עֶשְׂרִ֥ים וְאַרְבָּעָֽה׃",
+      "text_with_niqqud": "בְּנֵי בֵצָי שְׁלֹשׁ מֵאוֹת עֶשְׂרִים וְאַרְבָּעָה",
+      "text_plain": "בני בצי שלש מאות עשרים וארבעה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_024",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 24,
+      "ref": "נחמיה ז:כד",
+      "ref_en": "Nehemiah 7:24",
+      "text_original": "בְּנֵ֣י חָרִ֔יף מֵאָ֖ה שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "בְּנֵי חָרִיף מֵאָה שְׁנֵים עָשָׂר",
+      "text_plain": "בני חריף מאה שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_025",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 25,
+      "ref": "נחמיה ז:כה",
+      "ref_en": "Nehemiah 7:25",
+      "text_original": "בְּנֵ֥י גִבְע֖וֹן תִּשְׁעִ֥ים וַֽחֲמִשָּֽׁה׃",
+      "text_with_niqqud": "בְּנֵי גִבְעוֹן תִּשְׁעִים וַחֲמִשָּׁה",
+      "text_plain": "בני גבעון תשעים וחמשה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_026",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 26,
+      "ref": "נחמיה ז:כו",
+      "ref_en": "Nehemiah 7:26",
+      "text_original": "אַנְשֵׁ֤י בֵֽית־לֶ֨חֶם֙ וּנְטֹפָ֔ה מֵאָ֖ה שְׁמֹנִ֥ים וּשְׁמֹנָֽה׃",
+      "text_with_niqqud": "אַנְשֵׁי בֵית לֶחֶם וּנְטֹפָה מֵאָה שְׁמֹנִים וּשְׁמֹנָה",
+      "text_plain": "אנשי בית לחם ונטפה מאה שמנים ושמנה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_027",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 27,
+      "ref": "נחמיה ז:כז",
+      "ref_en": "Nehemiah 7:27",
+      "text_original": "אַנְשֵׁ֣י עֲנָת֔וֹת מֵאָ֖ה עֶשְׂרִ֥ים וּשְׁמֹנָֽה׃",
+      "text_with_niqqud": "אַנְשֵׁי עֲנָתוֹת מֵאָה עֶשְׂרִים וּשְׁמֹנָה",
+      "text_plain": "אנשי ענתות מאה עשרים ושמנה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_028",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 28,
+      "ref": "נחמיה ז:כח",
+      "ref_en": "Nehemiah 7:28",
+      "text_original": "אַנְשֵׁ֥י בֵית־עַזְמָ֖וֶת אַרְבָּעִ֥ים וּשְׁנָֽיִם׃",
+      "text_with_niqqud": "אַנְשֵׁי בֵית עַזְמָוֶת אַרְבָּעִים וּשְׁנָיִם",
+      "text_plain": "אנשי בית עזמות ארבעים ושנים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_029",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 29,
+      "ref": "נחמיה ז:כט",
+      "ref_en": "Nehemiah 7:29",
+      "text_original": "אַנְשֵׁ֨י קִרְיַ֤ת יְעָרִים֙ כְּפִירָ֣ה וּבְאֵר֔וֹת שְׁבַ֥ע מֵא֖וֹת אַרְבָּעִ֥ים וּשְׁלֹשָֽׁה׃",
+      "text_with_niqqud": "אַנְשֵׁי קִרְיַת יְעָרִים כְּפִירָה וּבְאֵרוֹת שְׁבַע מֵאוֹת אַרְבָּעִים וּשְׁלֹשָׁה",
+      "text_plain": "אנשי קרית יערים כפירה ובארות שבע מאות ארבעים ושלשה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_030",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 30,
+      "ref": "נחמיה ז:ל",
+      "ref_en": "Nehemiah 7:30",
+      "text_original": "אַנְשֵׁ֤י הָֽרָמָה֙ וָגָ֔בַע שֵׁ֥שׁ מֵא֖וֹת עֶשְׂרִ֥ים וְאֶחָֽד׃",
+      "text_with_niqqud": "אַנְשֵׁי הָרָמָה וָגָבַע שֵׁשׁ מֵאוֹת עֶשְׂרִים וְאֶחָד",
+      "text_plain": "אנשי הרמה וגבע שש מאות עשרים ואחד",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_031",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 31,
+      "ref": "נחמיה ז:לא",
+      "ref_en": "Nehemiah 7:31",
+      "text_original": "אַנְשֵׁ֣י מִכְמָ֔ס מֵאָ֖ה וְעֶשְׂרִ֥ים וּשְׁנָֽיִם׃",
+      "text_with_niqqud": "אַנְשֵׁי מִכְמָס מֵאָה וְעֶשְׂרִים וּשְׁנָיִם",
+      "text_plain": "אנשי מכמס מאה ועשרים ושנים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_032",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 32,
+      "ref": "נחמיה ז:לב",
+      "ref_en": "Nehemiah 7:32",
+      "text_original": "אַנְשֵׁ֤י בֵֽית־אֵל֙ וְהָעָ֔י מֵאָ֖ה עֶשְׂרִ֥ים וּשְׁלֹשָֽׁה׃",
+      "text_with_niqqud": "אַנְשֵׁי בֵית אֵל וְהָעָי מֵאָה עֶשְׂרִים וּשְׁלֹשָׁה",
+      "text_plain": "אנשי בית אל והעי מאה עשרים ושלשה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_033",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 33,
+      "ref": "נחמיה ז:לג",
+      "ref_en": "Nehemiah 7:33",
+      "text_original": "אַנְשֵׁ֥י נְב֛וֹ אַחֵ֖ר חֲמִשִּׁ֥ים וּשְׁנָֽיִם׃",
+      "text_with_niqqud": "אַנְשֵׁי נְבוֹ אַחֵר חֲמִשִּׁים וּשְׁנָיִם",
+      "text_plain": "אנשי נבו אחר חמשים ושנים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_034",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 34,
+      "ref": "נחמיה ז:לד",
+      "ref_en": "Nehemiah 7:34",
+      "text_original": "בְּנֵי֙ עֵילָ֣ם אַחֵ֔ר אֶ֕לֶף מָאתַ֖יִם חֲמִשִּׁ֥ים וְאַרְבָּעָֽה׃",
+      "text_with_niqqud": "בְּנֵי עֵילָם אַחֵר אֶלֶף מָאתַיִם חֲמִשִּׁים וְאַרְבָּעָה",
+      "text_plain": "בני עילם אחר אלף מאתים חמשים וארבעה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_035",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 35,
+      "ref": "נחמיה ז:לה",
+      "ref_en": "Nehemiah 7:35",
+      "text_original": "בְּנֵ֣י חָרִ֔ם שְׁלֹ֥שׁ מֵא֖וֹת וְעֶשְׂרִֽים׃",
+      "text_with_niqqud": "בְּנֵי חָרִם שְׁלֹשׁ מֵאוֹת וְעֶשְׂרִים",
+      "text_plain": "בני חרם שלש מאות ועשרים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_036",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 36,
+      "ref": "נחמיה ז:לו",
+      "ref_en": "Nehemiah 7:36",
+      "text_original": "בְּנֵ֣י יְרֵח֔וֹ שְׁלֹ֥שׁ מֵא֖וֹת אַרְבָּעִ֥ים וַֽחֲמִשָּֽׁה׃",
+      "text_with_niqqud": "בְּנֵי יְרֵחוֹ שְׁלֹשׁ מֵאוֹת אַרְבָּעִים וַחֲמִשָּׁה",
+      "text_plain": "בני ירחו שלש מאות ארבעים וחמשה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_037",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 37,
+      "ref": "נחמיה ז:לז",
+      "ref_en": "Nehemiah 7:37",
+      "text_original": "בְּנֵי־לֹד֙ חָדִ֣יד וְאֹנ֔וֹ שְׁבַ֥ע מֵא֖וֹת וְעֶשְׂרִ֥ים וְאֶחָֽד׃",
+      "text_with_niqqud": "בְּנֵי לֹד חָדִיד וְאֹנוֹ שְׁבַע מֵאוֹת וְעֶשְׂרִים וְאֶחָד",
+      "text_plain": "בני לד חדיד ואנו שבע מאות ועשרים ואחד",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_038",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 38,
+      "ref": "נחמיה ז:לח",
+      "ref_en": "Nehemiah 7:38",
+      "text_original": "בְּנֵ֣י סְנָאָ֔ה שְׁלֹ֣שֶׁת אֲלָפִ֔ים תְּשַׁ֥ע מֵא֖וֹת וּשְׁלֹשִֽׁים׃",
+      "text_with_niqqud": "בְּנֵי סְנָאָה שְׁלֹשֶׁת אֲלָפִים תְּשַׁע מֵאוֹת וּשְׁלֹשִׁים",
+      "text_plain": "בני סנאה שלשת אלפים תשע מאות ושלשים",
+      "markers": {
+        "before": [],
+        "after": [
+          "פ"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_039",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 39,
+      "ref": "נחמיה ז:לט",
+      "ref_en": "Nehemiah 7:39",
+      "text_original": "הַֽכֹּהֲנִ֑ים בְּנֵ֤י יְדַֽעְיָה֙ לְבֵ֣ית יֵשׁ֔וּעַ תְּשַׁ֥ע מֵא֖וֹת שִׁבְעִ֥ים וּשְׁלֹשָֽׁה׃",
+      "text_with_niqqud": "הַכֹּהֲנִים בְּנֵי יְדַעְיָה לְבֵית יֵשׁוּעַ תְּשַׁע מֵאוֹת שִׁבְעִים וּשְׁלֹשָׁה",
+      "text_plain": "הכהנים בני ידעיה לבית ישוע תשע מאות שבעים ושלשה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_040",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 40,
+      "ref": "נחמיה ז:מ",
+      "ref_en": "Nehemiah 7:40",
+      "text_original": "בְּנֵ֣י אִמֵּ֔ר אֶ֖לֶף חֲמִשִּׁ֥ים וּשְׁנָֽיִם׃",
+      "text_with_niqqud": "בְּנֵי אִמֵּר אֶלֶף חֲמִשִּׁים וּשְׁנָיִם",
+      "text_plain": "בני אמר אלף חמשים ושנים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_041",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 41,
+      "ref": "נחמיה ז:מא",
+      "ref_en": "Nehemiah 7:41",
+      "text_original": "בְּנֵ֣י פַשְׁח֔וּר אֶ֕לֶף מָאתַ֖יִם אַרְבָּעִ֥ים וְשִׁבְעָֽה׃",
+      "text_with_niqqud": "בְּנֵי פַשְׁחוּר אֶלֶף מָאתַיִם אַרְבָּעִים וְשִׁבְעָה",
+      "text_plain": "בני פשחור אלף מאתים ארבעים ושבעה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_042",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 42,
+      "ref": "נחמיה ז:מב",
+      "ref_en": "Nehemiah 7:42",
+      "text_original": "בְּנֵ֣י חָרִ֔ם אֶ֖לֶף שִׁבְעָ֥ה עָשָֽׂר׃",
+      "text_with_niqqud": "בְּנֵי חָרִם אֶלֶף שִׁבְעָה עָשָׂר",
+      "text_plain": "בני חרם אלף שבעה עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "פ"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_043",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 43,
+      "ref": "נחמיה ז:מג",
+      "ref_en": "Nehemiah 7:43",
+      "text_original": "הַלְוִיִּ֑ם בְּנֵֽי־יֵשׁ֧וּעַ לְקַדְמִיאֵ֛ל לִבְנֵ֥י לְהֽוֹדְוָ֖ה שִׁבְעִ֥ים וְאַרְבָּעָֽה׃",
+      "text_with_niqqud": "הַלְוִיִּם בְּנֵי יֵשׁוּעַ לְקַדְמִיאֵל לִבְנֵי לְהוֹדְוָה שִׁבְעִים וְאַרְבָּעָה",
+      "text_plain": "הלוים בני ישוע לקדמיאל לבני להודוה שבעים וארבעה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_044",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 44,
+      "ref": "נחמיה ז:מד",
+      "ref_en": "Nehemiah 7:44",
+      "text_original": "הַֽמְשֹׁרְרִ֑ים בְּנֵ֣י אָסָ֔ף מֵאָ֖ה אַרְבָּעִ֥ים וּשְׁמֹנָֽה׃",
+      "text_with_niqqud": "הַמְשֹׁרְרִים בְּנֵי אָסָף מֵאָה אַרְבָּעִים וּשְׁמֹנָה",
+      "text_plain": "המשררים בני אסף מאה ארבעים ושמנה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_045",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 45,
+      "ref": "נחמיה ז:מה",
+      "ref_en": "Nehemiah 7:45",
+      "text_original": "הַשֹּֽׁעֲרִ֗ים בְּנֵֽי־שַׁלֻּ֤ם בְּנֵֽי־אָטֵר֙ בְּנֵֽי־טַלְמֹ֣ן בְּנֵֽי־עַקּ֔וּב בְּנֵ֥י חֲטִיטָ֖א בְּנֵ֣י שֹׁבָ֑י מֵאָ֖ה שְׁלֹשִׁ֥ים וּשְׁמֹנָֽה׃",
+      "text_with_niqqud": "הַשֹּׁעֲרִים בְּנֵי שַׁלֻּם בְּנֵי אָטֵר בְּנֵי טַלְמֹן בְּנֵי עַקּוּב בְּנֵי חֲטִיטָא בְּנֵי שֹׁבָי מֵאָה שְׁלֹשִׁים וּשְׁמֹנָה",
+      "text_plain": "השערים בני שלם בני אטר בני טלמן בני עקוב בני חטיטא בני שבי מאה שלשים ושמנה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_046",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 46,
+      "ref": "נחמיה ז:מו",
+      "ref_en": "Nehemiah 7:46",
+      "text_original": "הַנְּתִינִ֑ים בְּנֵֽי־צִחָ֥א בְנֵֽי־חֲשֻׂפָ֖א בְּנֵ֥י טַבָּעֽוֹת׃",
+      "text_with_niqqud": "הַנְּתִינִים בְּנֵי צִחָא בְנֵי חֲשֻׂפָא בְּנֵי טַבָּעוֹת",
+      "text_plain": "הנתינים בני צחא בני חשפא בני טבעות",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_047",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 47,
+      "ref": "נחמיה ז:מז",
+      "ref_en": "Nehemiah 7:47",
+      "text_original": "בְּנֵֽי־קֵירֹ֥ס בְּנֵֽי־סִיעָ֖א בְּנֵ֥י פָדֽוֹן׃",
+      "text_with_niqqud": "בְּנֵי קֵירֹס בְּנֵי סִיעָא בְּנֵי פָדוֹן",
+      "text_plain": "בני קירס בני סיעא בני פדון",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_048",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 48,
+      "ref": "נחמיה ז:מח",
+      "ref_en": "Nehemiah 7:48",
+      "text_original": "בְּנֵֽי־לְבָנָ֥ה בְנֵֽי־חֲגָבָ֖א בְּנֵ֥י שַׁלְמָֽי׃",
+      "text_with_niqqud": "בְּנֵי לְבָנָה בְנֵי חֲגָבָא בְּנֵי שַׁלְמָי",
+      "text_plain": "בני לבנה בני חגבא בני שלמי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_049",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 49,
+      "ref": "נחמיה ז:מט",
+      "ref_en": "Nehemiah 7:49",
+      "text_original": "בְּנֵֽי־חָנָ֥ן בְּנֵֽי־גִדֵּ֖ל בְּנֵי־גָֽחַר׃",
+      "text_with_niqqud": "בְּנֵי חָנָן בְּנֵי גִדֵּל בְּנֵי גָחַר",
+      "text_plain": "בני חנן בני גדל בני גחר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_050",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 50,
+      "ref": "נחמיה ז:נ",
+      "ref_en": "Nehemiah 7:50",
+      "text_original": "בְּנֵֽי־רְאָיָ֥ה בְנֵֽי־רְצִ֖ין בְּנֵ֥י נְקוֹדָֽא׃",
+      "text_with_niqqud": "בְּנֵי רְאָיָה בְנֵי רְצִין בְּנֵי נְקוֹדָא",
+      "text_plain": "בני ראיה בני רצין בני נקודא",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_051",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 51,
+      "ref": "נחמיה ז:נא",
+      "ref_en": "Nehemiah 7:51",
+      "text_original": "בְּנֵֽי־גַזָּ֥ם בְּנֵֽי־עֻזָּ֖א בְּנֵ֥י פָסֵֽחַ׃",
+      "text_with_niqqud": "בְּנֵי גַזָּם בְּנֵי עֻזָּא בְּנֵי פָסֵחַ",
+      "text_plain": "בני גזם בני עזא בני פסח",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_052",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 52,
+      "ref": "נחמיה ז:נב",
+      "ref_en": "Nehemiah 7:52",
+      "text_original": "בְּנֵֽי־בֵסַ֥י בְּנֵֽי־מְעוּנִ֖ים בְּנֵ֥י נפושסים (נְפִֽישְׁסִֽים)׃",
+      "text_with_niqqud": "בְּנֵי בֵסַי בְּנֵי מְעוּנִים בְּנֵי נפושסים (נְפִישְׁסִים)",
+      "text_plain": "בני בסי בני מעונים בני נפושסים (נפישסים)",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_053",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 53,
+      "ref": "נחמיה ז:נג",
+      "ref_en": "Nehemiah 7:53",
+      "text_original": "בְּנֵֽי־בַקְבּ֥וּק בְּנֵֽי־חֲקוּפָ֖א בְּנֵ֥י חַרְחֽוּר׃",
+      "text_with_niqqud": "בְּנֵי בַקְבּוּק בְּנֵי חֲקוּפָא בְּנֵי חַרְחוּר",
+      "text_plain": "בני בקבוק בני חקופא בני חרחור",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_054",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 54,
+      "ref": "נחמיה ז:נד",
+      "ref_en": "Nehemiah 7:54",
+      "text_original": "בְּנֵֽי־בַצְלִ֥ית בְּנֵֽי־מְחִידָ֖א בְּנֵ֥י חַרְשָֽׁא׃",
+      "text_with_niqqud": "בְּנֵי בַצְלִית בְּנֵי מְחִידָא בְּנֵי חַרְשָׁא",
+      "text_plain": "בני בצלית בני מחידא בני חרשא",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_055",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 55,
+      "ref": "נחמיה ז:נה",
+      "ref_en": "Nehemiah 7:55",
+      "text_original": "בְּנֵֽי־ בַרְק֥וֹס בְּֽנֵי־סִֽיסְרָ֖א בְּנֵי־תָֽמַח׃",
+      "text_with_niqqud": "בְּנֵי בַרְקוֹס בְּנֵי סִיסְרָא בְּנֵי תָמַח",
+      "text_plain": "בני ברקוס בני סיסרא בני תמח",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס",
+          "ס",
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_056",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 56,
+      "ref": "נחמיה ז:נו",
+      "ref_en": "Nehemiah 7:56",
+      "text_original": "בְּנֵ֥י נְצִ֖יחַ בְּנֵ֥י חֲטִיפָֽא׃",
+      "text_with_niqqud": "בְּנֵי נְצִיחַ בְּנֵי חֲטִיפָא",
+      "text_plain": "בני נציח בני חטיפא",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס",
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_057",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 57,
+      "ref": "נחמיה ז:נז",
+      "ref_en": "Nehemiah 7:57",
+      "text_original": "בְּנֵ֖י עַבְדֵ֣י שְׁלֹמֹ֑ה בְּנֵֽי־ סוֹטַ֥י בְּנֵֽי־סֹפֶ֖רֶת בְּנֵ֥י פְרִידָֽא׃",
+      "text_with_niqqud": "בְּנֵי עַבְדֵי שְׁלֹמֹה בְּנֵי סוֹטַי בְּנֵי סֹפֶרֶת בְּנֵי פְרִידָא",
+      "text_plain": "בני עבדי שלמה בני סוטי בני ספרת בני פרידא",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר",
+          "ס",
+          "ס",
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_058",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 58,
+      "ref": "נחמיה ז:נח",
+      "ref_en": "Nehemiah 7:58",
+      "text_original": "בְּנֵֽי־ יַעְלָ֥א בְנֵֽי־דַרְק֖וֹן בְּנֵ֥י גִדֵּֽל׃",
+      "text_with_niqqud": "בְּנֵי יַעְלָא בְנֵי דַרְקוֹן בְּנֵי גִדֵּל",
+      "text_plain": "בני יעלא בני דרקון בני גדל",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס",
+          "ס",
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_059",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 59,
+      "ref": "נחמיה ז:נט",
+      "ref_en": "Nehemiah 7:59",
+      "text_original": "בְּנֵ֧י שְׁפַטְיָ֣ה בְנֵֽי־חַטִּ֗יל בְּנֵ֛י פֹּכֶ֥רֶת הַצְּבָיִ֖ים בְּנֵ֥י אָמֽוֹן׃",
+      "text_with_niqqud": "בְּנֵי שְׁפַטְיָה בְנֵי חַטִּיל בְּנֵי פֹּכֶרֶת הַצְּבָיִים בְּנֵי אָמוֹן",
+      "text_plain": "בני שפטיה בני חטיל בני פכרת הצביים בני אמון",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס",
+          "ס",
+          "ס",
+          "ר"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_060",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 60,
+      "ref": "נחמיה ז:ס",
+      "ref_en": "Nehemiah 7:60",
+      "text_original": "כָּ֨ל־הַנְּתִינִ֔ים וּבְנֵ֖י עַבְדֵ֣י שְׁלֹמֹ֑ה שְׁלֹ֥שׁ מֵא֖וֹת תִּשְׁעִ֥ים וּשְׁנָֽיִם׃",
+      "text_with_niqqud": "כָּל הַנְּתִינִים וּבְנֵי עַבְדֵי שְׁלֹמֹה שְׁלֹשׁ מֵאוֹת תִּשְׁעִים וּשְׁנָיִם",
+      "text_plain": "כל הנתינים ובני עבדי שלמה שלש מאות תשעים ושנים",
+      "markers": {
+        "before": [],
+        "after": [
+          "פ"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_061",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 61,
+      "ref": "נחמיה ז:סא",
+      "ref_en": "Nehemiah 7:61",
+      "text_original": "וְאֵ֗לֶּה הָֽעוֹלִים֙ מִתֵּ֥ל מֶ֨לַח֙ תֵּ֣ל חַרְשָׁ֔א כְּר֥וּב אַדּ֖וֹן וְאִמֵּ֑ר וְלֹ֣א יָֽכְל֗וּ לְהַגִּ֤יד בֵּית־אֲבֹתָם֙ וְזַרְעָ֔ם אִ֥ם מִיִּשְׂרָאֵ֖ל הֵֽם׃",
+      "text_with_niqqud": "וְאֵלֶּה הָעוֹלִים מִתֵּל מֶלַח תֵּל חַרְשָׁא כְּרוּב אַדּוֹן וְאִמֵּר וְלֹא יָכְלוּ לְהַגִּיד בֵּית אֲבֹתָם וְזַרְעָם אִם מִיִּשְׂרָאֵל הֵם",
+      "text_plain": "ואלה העולים מתל מלח תל חרשא כרוב אדון ואמר ולא יכלו להגיד בית אבתם וזרעם אם מישראל הם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_062",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 62,
+      "ref": "נחמיה ז:סב",
+      "ref_en": "Nehemiah 7:62",
+      "text_original": "בְּנֵֽי־דְלָיָ֥ה בְנֵֽי־טוֹבִיָּ֖ה בְּנֵ֣י נְקוֹדָ֑א שֵׁ֥שׁ מֵא֖וֹת וְאַרְבָּעִ֥ים וּשְׁנָֽיִם׃",
+      "text_with_niqqud": "בְּנֵי דְלָיָה בְנֵי טוֹבִיָּה בְּנֵי נְקוֹדָא שֵׁשׁ מֵאוֹת וְאַרְבָּעִים וּשְׁנָיִם",
+      "text_plain": "בני דליה בני טוביה בני נקודא שש מאות וארבעים ושנים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_063",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 63,
+      "ref": "נחמיה ז:סג",
+      "ref_en": "Nehemiah 7:63",
+      "text_original": "וּמִן־הַכֹּ֣הֲנִ֔ים בְּנֵ֥י חֳבַיָּ֖ה בְּנֵ֣י הַקּ֑וֹץ בְּנֵ֣י בַרְזִלַּ֗י אֲשֶׁ֣ר לָ֠קַ֠ח מִבְּנ֞וֹת בַּרְזִלַּ֤י הַגִּלְעָדִי֙ אִשָּׁ֔ה וַיִּקָּרֵ֖א עַל־שְׁמָֽם׃",
+      "text_with_niqqud": "וּמִן הַכֹּהֲנִים בְּנֵי חֳבַיָּה בְּנֵי הַקּוֹץ בְּנֵי בַרְזִלַּי אֲשֶׁר לָקַח מִבְּנוֹת בַּרְזִלַּי הַגִּלְעָדִי אִשָּׁה וַיִּקָּרֵא עַל שְׁמָם",
+      "text_plain": "ומן הכהנים בני חביה בני הקוץ בני ברזלי אשר לקח מבנות ברזלי הגלעדי אשה ויקרא על שמם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_064",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 64,
+      "ref": "נחמיה ז:סד",
+      "ref_en": "Nehemiah 7:64",
+      "text_original": "אֵ֗לֶּה בִּקְשׁ֧וּ כְתָבָ֛ם הַמִּתְיַחְשִׂ֖ים וְלֹ֣א נִמְצָ֑א וַיְגֹֽאֲל֖וּ מִן־הַכְּהֻנָּֽה׃",
+      "text_with_niqqud": "אֵלֶּה בִּקְשׁוּ כְתָבָם הַמִּתְיַחְשִׂים וְלֹא נִמְצָא וַיְגֹאֲלוּ מִן הַכְּהֻנָּה",
+      "text_plain": "אלה בקשו כתבם המתיחשים ולא נמצא ויגאלו מן הכהנה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_065",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 65,
+      "ref": "נחמיה ז:סה",
+      "ref_en": "Nehemiah 7:65",
+      "text_original": "וַיֹּ֤אמֶר הַתִּרְשָׁ֨תָא֙ לָהֶ֔ם אֲשֶׁ֥ר לֹֽא־יֹאכְל֖וּ מִקֹּ֣דֶשׁ הַקֳּדָשִׁ֑ים עַ֛ד עֲמֹ֥ד הַכֹּהֵ֖ן לְאוּרִ֥ים וְתֻמִּֽים׃",
+      "text_with_niqqud": "וַיֹּאמֶר הַתִּרְשָׁתָא לָהֶם אֲשֶׁר לֹא יֹאכְלוּ מִקֹּדֶשׁ הַקֳּדָשִׁים עַד עֲמֹד הַכֹּהֵן לְאוּרִים וְתֻמִּים",
+      "text_plain": "ויאמר התרשתא להם אשר לא יאכלו מקדש הקדשים עד עמד הכהן לאורים ותמים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_066",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 66,
+      "ref": "נחמיה ז:סו",
+      "ref_en": "Nehemiah 7:66",
+      "text_original": "כָּל־הַקָּהָ֖ל כְּאֶחָ֑ד אַרְבַּ֣ע רִבּ֔וֹא אַלְפַּ֖יִם שְׁלֹשׁ־מֵא֥וֹת וְשִׁשִּֽׁים׃",
+      "text_with_niqqud": "כָּל הַקָּהָל כְּאֶחָד אַרְבַּע רִבּוֹא אַלְפַּיִם שְׁלֹשׁ מֵאוֹת וְשִׁשִּׁים",
+      "text_plain": "כל הקהל כאחד ארבע רבוא אלפים שלש מאות וששים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_067",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 67,
+      "ref": "נחמיה ז:סז",
+      "ref_en": "Nehemiah 7:67",
+      "text_original": "מִ֠לְּבַ֠ד עַבְדֵיהֶ֤ם וְאַמְהֹֽתֵיהֶם֙ אֵ֔לֶּה שִׁבְעַ֣ת אֲלָפִ֔ים שְׁלֹ֥שׁ מֵא֖וֹת שְׁלֹשִׁ֣ים וְשִׁבְעָ֑ה וְלָהֶ֗ם מְשֹֽׁרְרִים֙ וּמְשֹׁ֣רְר֔וֹת מָאתַ֖יִם וְאַרְבָּעִ֥ים וַֽחֲמִשָּֽׁה׃",
+      "text_with_niqqud": "מִלְּבַד עַבְדֵיהֶם וְאַמְהֹתֵיהֶם אֵלֶּה שִׁבְעַת אֲלָפִים שְׁלֹשׁ מֵאוֹת שְׁלֹשִׁים וְשִׁבְעָה וְלָהֶם מְשֹׁרְרִים וּמְשֹׁרְרוֹת מָאתַיִם וְאַרְבָּעִים וַחֲמִשָּׁה",
+      "text_plain": "מלבד עבדיהם ואמהתיהם אלה שבעת אלפים שלש מאות שלשים ושבעה ולהם משררים ומשררות מאתים וארבעים וחמשה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_068",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 68,
+      "ref": "נחמיה ז:סח",
+      "ref_en": "Nehemiah 7:68",
+      "text_original": "גְּמַלִּ֕ים אַרְבַּ֥ע מֵא֖וֹת שְׁלֹשִׁ֣ים וַֽחֲמִשָּׁ֑ה חֲמֹרִ֕ים שֵׁ֣שֶׁת אֲלָפִ֔ים שְׁבַ֥ע מֵא֖וֹת וְעֶשְׂרִֽים׃",
+      "text_with_niqqud": "גְּמַלִּים אַרְבַּע מֵאוֹת שְׁלֹשִׁים וַחֲמִשָּׁה חֲמֹרִים שֵׁשֶׁת אֲלָפִים שְׁבַע מֵאוֹת וְעֶשְׂרִים",
+      "text_plain": "גמלים ארבע מאות שלשים וחמשה חמרים ששת אלפים שבע מאות ועשרים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_069",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 69,
+      "ref": "נחמיה ז:סט",
+      "ref_en": "Nehemiah 7:69",
+      "text_original": "וּמִקְצָת֙ רָאשֵׁ֣י הָֽאָב֔וֹת נָֽתְנ֖וּ לַמְּלָאכָ֑ה הַתִּרְשָׁ֜תָא נָתַ֣ן לָֽאוֹצָ֗ר זָהָ֞ב דַּרְכְּמֹנִ֥ים אֶ֨לֶף֙ מִזְרָק֣וֹת חֲמִשִּׁ֔ים כָּתְנוֹת֙ כֹּֽהֲנִ֔ים שְׁלֹשִׁ֖ים וַֽחֲמֵ֥שׁ מֵאֽוֹת׃",
+      "text_with_niqqud": "וּמִקְצָת רָאשֵׁי הָאָבוֹת נָתְנוּ לַמְּלָאכָה הַתִּרְשָׁתָא נָתַן לָאוֹצָר זָהָב דַּרְכְּמֹנִים אֶלֶף מִזְרָקוֹת חֲמִשִּׁים כָּתְנוֹת כֹּהֲנִים שְׁלֹשִׁים וַחֲמֵשׁ מֵאוֹת",
+      "text_plain": "ומקצת ראשי האבות נתנו למלאכה התרשתא נתן לאוצר זהב דרכמנים אלף מזרקות חמשים כתנות כהנים שלשים וחמש מאות",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_070",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 70,
+      "ref": "נחמיה ז:ע",
+      "ref_en": "Nehemiah 7:70",
+      "text_original": "וּמֵֽרָאשֵׁ֣י הָֽאָב֗וֹת נָֽתְנוּ֙ לְאוֹצַ֣ר הַמְּלָאכָ֔ה זָהָ֕ב דַּרְכְּמוֹנִ֖ים שְׁתֵּ֣י רִבּ֑וֹת וְכֶ֕סֶף מָנִ֖ים אַלְפַּ֥יִם וּמָאתָֽיִם׃",
+      "text_with_niqqud": "וּמֵרָאשֵׁי הָאָבוֹת נָתְנוּ לְאוֹצַר הַמְּלָאכָה זָהָב דַּרְכְּמוֹנִים שְׁתֵּי רִבּוֹת וְכֶסֶף מָנִים אַלְפַּיִם וּמָאתָיִם",
+      "text_plain": "ומראשי האבות נתנו לאוצר המלאכה זהב דרכמונים שתי רבות וכסף מנים אלפים ומאתים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_071",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 71,
+      "ref": "נחמיה ז:עא",
+      "ref_en": "Nehemiah 7:71",
+      "text_original": "וַֽאֲשֶׁ֣ר נָֽתְנוּ֮ שְׁאֵרִ֣ית הָעָם֒ זָהָ֗ב דַּרְכְּמֹנִים֙ שְׁתֵּ֣י רִבּ֔וֹא וְכֶ֖סֶף מָנִ֣ים אַלְפָּ֑יִם וְכָתְנֹ֥ת כֹּֽהֲנִ֖ים שִׁשִּׁ֥ים וְשִׁבְעָֽה׃",
+      "text_with_niqqud": "וַאֲשֶׁר נָתְנוּ שְׁאֵרִית הָעָם זָהָב דַּרְכְּמֹנִים שְׁתֵּי רִבּוֹא וְכֶסֶף מָנִים אַלְפָּיִם וְכָתְנֹת כֹּהֲנִים שִׁשִּׁים וְשִׁבְעָה",
+      "text_plain": "ואשר נתנו שארית העם זהב דרכמנים שתי רבוא וכסף מנים אלפים וכתנת כהנים ששים ושבעה",
+      "markers": {
+        "before": [],
+        "after": [
+          "פ"
+        ]
+      },
+      "source_file": "_37_nechemia-07.txt"
+    },
+    {
+      "verse_id": "_37_nechemia_007_072",
+      "book": "נחמיה",
+      "book_en": "Nehemiah",
+      "book_slug": "nechemia",
+      "chapter": 7,
+      "verse": 72,
+      "ref": "נחמיה ז:עב",
+      "ref_en": "Nehemiah 7:72",
+      "text_original": "וַיֵּֽשְׁב֣וּ הַכֹּֽהֲנִ֣ים וְהַלְוִיִּ֡ם וְהַשּֽׁוֹעֲרִים֩ וְהַמְשֹֽׁרְרִ֨ים וּמִן־הָעָ֧ם וְהַנְּתִינִ֛ים וְכָל־יִשְׂרָאֵ֖ל בְּעָֽרֵיהֶ֑ם וַיִּגַּע֙ הַחֹ֣דֶשׁ הַשְּׁבִיעִ֔י וּבְנֵ֥י יִשְׂרָאֵ֖ל בְּעָֽרֵיהֶֽם׃",
+      "text_with_niqqud": "וַיֵּשְׁבוּ הַכֹּהֲנִים וְהַלְוִיִּם וְהַשּׁוֹעֲרִים וְהַמְשֹׁרְרִים וּמִן הָעָם וְהַנְּתִינִים וְכָל יִשְׂרָאֵל בְּעָרֵיהֶם וַיִּגַּע הַחֹדֶשׁ הַשְּׁבִיעִי וּבְנֵי יִשְׂרָאֵל בְּעָרֵיהֶם",
+      "text_plain": "וישבו הכהנים והלוים והשוערים והמשררים ומן העם והנתינים וכל ישראל בעריהם ויגע החדש השביעי ובני ישראל בעריהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_37_nechemia-07.txt"
+    }
+  ]
+}

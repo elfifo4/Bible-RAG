@@ -1,0 +1,336 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 7,
+  "chapter_id": "_27_tehilim_007",
+  "ref": "תהילים ז",
+  "ref_en": "Psalms 7",
+  "source_file": "_27_tehilim-007.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_007_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 1,
+      "ref": "תהילים ז:א",
+      "ref_en": "Psalms 7:1",
+      "text_original": "שִׁגָּי֗וֹן לְדָ֫וִ֥ד אֲשֶׁר־שָׁ֥ר לַֽיהֹוָ֑ה עַל־דִּבְרֵי־כ֝֗וּשׁ בֶּן־יְמִינִֽי׃",
+      "text_with_niqqud": "שִׁגָּיוֹן לְדָוִד אֲשֶׁר שָׁר לַיהֹוָה עַל דִּבְרֵי כוּשׁ בֶּן יְמִינִי",
+      "text_plain": "שגיון לדוד אשר שר ליהוה על דברי כוש בן ימיני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 2,
+      "ref": "תהילים ז:ב",
+      "ref_en": "Psalms 7:2",
+      "text_original": "יְהֹוָ֣ה אֱ֭לֹהַי בְּךָ֣ חָסִ֑יתִי הֽוֹשִׁיעֵ֥נִי מִכָּל־רֹֽ֝דְפַ֗י וְהַצִּילֵֽנִי׃",
+      "text_with_niqqud": "יְהֹוָה אֱלֹהַי בְּךָ חָסִיתִי הוֹשִׁיעֵנִי מִכָּל רֹדְפַי וְהַצִּילֵנִי",
+      "text_plain": "יהוה אלהי בך חסיתי הושיעני מכל רדפי והצילני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 3,
+      "ref": "תהילים ז:ג",
+      "ref_en": "Psalms 7:3",
+      "text_original": "פֶּן־יִטְרֹ֣ף כְּאַרְיֵ֣ה נַפְשִׁ֑י פֹּ֝רֵ֗ק וְאֵ֣ין מַצִּֽיל׃",
+      "text_with_niqqud": "פֶּן יִטְרֹף כְּאַרְיֵה נַפְשִׁי פֹּרֵק וְאֵין מַצִּיל",
+      "text_plain": "פן יטרף כאריה נפשי פרק ואין מציל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 4,
+      "ref": "תהילים ז:ד",
+      "ref_en": "Psalms 7:4",
+      "text_original": "יְהֹוָ֣ה אֱ֭לֹהַי אִם־עָשִׂ֣יתִי זֹ֑את אִֽם־יֶשׁ־עָ֥וֶל בְּכַפָּֽי׃",
+      "text_with_niqqud": "יְהֹוָה אֱלֹהַי אִם עָשִׂיתִי זֹאת אִם יֶשׁ עָוֶל בְּכַפָּי",
+      "text_plain": "יהוה אלהי אם עשיתי זאת אם יש עול בכפי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 5,
+      "ref": "תהילים ז:ה",
+      "ref_en": "Psalms 7:5",
+      "text_original": "אִם־גָּ֭מַלְתִּי שֽׁוֹלְמִ֥י רָ֑ע וָֽאֲחַלְּצָ֖ה צֽוֹרְרִ֣י רֵיקָֽם׃",
+      "text_with_niqqud": "אִם גָּמַלְתִּי שׁוֹלְמִי רָע וָאֲחַלְּצָה צוֹרְרִי רֵיקָם",
+      "text_plain": "אם גמלתי שולמי רע ואחלצה צוררי ריקם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 6,
+      "ref": "תהילים ז:ו",
+      "ref_en": "Psalms 7:6",
+      "text_original": "יִ֥רַדֹּֽף אוֹיֵ֨ב ׀ נַפְשִׁ֡י וְיַשֵּׂ֗ג וְיִרְמֹ֣ס לָאָ֣רֶץ חַיָּ֑י וּכְבוֹדִ֓י ׀ לֶֽעָפָ֖ר יַשְׁכֵּ֣ן סֶֽלָה׃",
+      "text_with_niqqud": "יִרַדֹּף אוֹיֵב נַפְשִׁי וְיַשֵּׂג וְיִרְמֹס לָאָרֶץ חַיָּי וּכְבוֹדִי לֶעָפָר יַשְׁכֵּן סֶלָה",
+      "text_plain": "ירדף אויב נפשי וישג וירמס לארץ חיי וכבודי לעפר ישכן סלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 7,
+      "ref": "תהילים ז:ז",
+      "ref_en": "Psalms 7:7",
+      "text_original": "ק֘וּמָ֤ה יְהֹוָ֨ה ׀ בְּאַפֶּ֗ךָ הִ֭נָּשֵׂא בְּעַבְר֣וֹת צֽוֹרְרָ֑י וְע֥וּרָה אֵ֝לַ֗י מִשְׁפָּ֥ט צִוִּֽיתָ׃",
+      "text_with_niqqud": "קוּמָה יְהֹוָה בְּאַפֶּךָ הִנָּשֵׂא בְּעַבְרוֹת צוֹרְרָי וְעוּרָה אֵלַי מִשְׁפָּט צִוִּיתָ",
+      "text_plain": "קומה יהוה באפך הנשא בעברות צוררי ועורה אלי משפט צוית",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 8,
+      "ref": "תהילים ז:ח",
+      "ref_en": "Psalms 7:8",
+      "text_original": "וַֽעֲדַ֣ת לְ֭אֻמִּים תְּסֽוֹבְבֶ֑ךָּ וְ֝עָלֶ֗יהָ לַמָּר֥וֹם שֽׁוּבָה׃",
+      "text_with_niqqud": "וַעֲדַת לְאֻמִּים תְּסוֹבְבֶךָּ וְעָלֶיהָ לַמָּרוֹם שׁוּבָה",
+      "text_plain": "ועדת לאמים תסובבך ועליה למרום שובה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 9,
+      "ref": "תהילים ז:ט",
+      "ref_en": "Psalms 7:9",
+      "text_original": "יְהֹוָה֮ יָדִ֪ין עַ֫מִּ֥ים שָׁפְטֵ֥נִי יְהֹוָ֑ה כְּצִדְקִ֖י וּכְתֻמִּ֣י עָלָֽי׃",
+      "text_with_niqqud": "יְהֹוָה יָדִין עַמִּים שָׁפְטֵנִי יְהֹוָה כְּצִדְקִי וּכְתֻמִּי עָלָי",
+      "text_plain": "יהוה ידין עמים שפטני יהוה כצדקי וכתמי עלי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 10,
+      "ref": "תהילים ז:י",
+      "ref_en": "Psalms 7:10",
+      "text_original": "יִגְמָר־נָ֬א רַ֨ע ׀ רְשָׁעִים֮ וּתְכוֹנֵ֪ן צַ֫דִּ֥יק וּבֹחֵ֣ן לִ֭בּוֹת וּכְלָי֗וֹת אֱלֹהִ֥ים צַדִּֽיק׃",
+      "text_with_niqqud": "יִגְמָר נָא רַע רְשָׁעִים וּתְכוֹנֵן צַדִּיק וּבֹחֵן לִבּוֹת וּכְלָיוֹת אֱלֹהִים צַדִּיק",
+      "text_plain": "יגמר נא רע רשעים ותכונן צדיק ובחן לבות וכליות אלהים צדיק",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 11,
+      "ref": "תהילים ז:יא",
+      "ref_en": "Psalms 7:11",
+      "text_original": "מָֽגִנִּ֥י עַל־אֱלֹהִ֑ים מ֝וֹשִׁ֗יעַ יִשְׁרֵי־לֵֽב׃",
+      "text_with_niqqud": "מָגִנִּי עַל אֱלֹהִים מוֹשִׁיעַ יִשְׁרֵי לֵב",
+      "text_plain": "מגני על אלהים מושיע ישרי לב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 12,
+      "ref": "תהילים ז:יב",
+      "ref_en": "Psalms 7:12",
+      "text_original": "אֱ֭לֹהִים שׁוֹפֵ֣ט צַדִּ֑יק וְ֝אֵ֗ל זֹעֵ֥ם בְּכָל־יֽוֹם׃",
+      "text_with_niqqud": "אֱלֹהִים שׁוֹפֵט צַדִּיק וְאֵל זֹעֵם בְּכָל יוֹם",
+      "text_plain": "אלהים שופט צדיק ואל זעם בכל יום",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 13,
+      "ref": "תהילים ז:יג",
+      "ref_en": "Psalms 7:13",
+      "text_original": "אִם־לֹ֣א יָ֭שׁוּב חַרְבּ֣וֹ יִלְט֑וֹשׁ קַשְׁתּ֥וֹ דָ֝רַ֗ךְ וַֽיְכוֹנְנֶֽהָ׃",
+      "text_with_niqqud": "אִם לֹא יָשׁוּב חַרְבּוֹ יִלְטוֹשׁ קַשְׁתּוֹ דָרַךְ וַיְכוֹנְנֶהָ",
+      "text_plain": "אם לא ישוב חרבו ילטוש קשתו דרך ויכוננה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_014",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 14,
+      "ref": "תהילים ז:יד",
+      "ref_en": "Psalms 7:14",
+      "text_original": "וְ֭לוֹ הֵכִ֣ין כְּלֵי־מָ֑וֶת חִ֝צָּ֗יו לְֽדֹלְקִ֥ים יִפְעָֽל׃",
+      "text_with_niqqud": "וְלוֹ הֵכִין כְּלֵי מָוֶת חִצָּיו לְדֹלְקִים יִפְעָל",
+      "text_plain": "ולו הכין כלי מות חציו לדלקים יפעל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_015",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 15,
+      "ref": "תהילים ז:טו",
+      "ref_en": "Psalms 7:15",
+      "text_original": "הִנֵּ֥ה יְחַבֶּל־אָ֑וֶן וְהָרָ֥ה עָ֝מָ֗ל וְיָ֣לַד שָֽׁקֶר׃",
+      "text_with_niqqud": "הִנֵּה יְחַבֶּל אָוֶן וְהָרָה עָמָל וְיָלַד שָׁקֶר",
+      "text_plain": "הנה יחבל און והרה עמל וילד שקר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_016",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 16,
+      "ref": "תהילים ז:טז",
+      "ref_en": "Psalms 7:16",
+      "text_original": "בּ֣וֹר כָּ֭רָה וַֽיַּחְפְּרֵ֑הוּ וַ֝יִּפֹּ֗ל בְּשַׁ֣חַת יִפְעָֽל׃",
+      "text_with_niqqud": "בּוֹר כָּרָה וַיַּחְפְּרֵהוּ וַיִּפֹּל בְּשַׁחַת יִפְעָל",
+      "text_plain": "בור כרה ויחפרהו ויפל בשחת יפעל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_017",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 17,
+      "ref": "תהילים ז:יז",
+      "ref_en": "Psalms 7:17",
+      "text_original": "יָשׁ֣וּב עֲמָל֣וֹ בְרֹאשׁ֑וֹ וְעַ֥ל קָ֝דְקֳד֗וֹ חֲמָס֥וֹ יֵרֵֽד׃",
+      "text_with_niqqud": "יָשׁוּב עֲמָלוֹ בְרֹאשׁוֹ וְעַל קָדְקֳדוֹ חֲמָסוֹ יֵרֵד",
+      "text_plain": "ישוב עמלו בראשו ועל קדקדו חמסו ירד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_007_018",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 7,
+      "verse": 18,
+      "ref": "תהילים ז:יח",
+      "ref_en": "Psalms 7:18",
+      "text_original": "אוֹדֶ֣ה יְהֹוָ֣ה כְּצִדְק֑וֹ וַֽ֝אֲזַמְּרָ֗ה שֵֽׁם־יְהֹוָ֥ה עֶלְיֽוֹן׃",
+      "text_with_niqqud": "אוֹדֶה יְהֹוָה כְּצִדְקוֹ וַאֲזַמְּרָה שֵׁם יְהֹוָה עֶלְיוֹן",
+      "text_plain": "אודה יהוה כצדקו ואזמרה שם יהוה עליון",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-007.txt"
+    }
+  ]
+}

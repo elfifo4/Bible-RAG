@@ -1,0 +1,426 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 50,
+  "chapter_id": "_27_tehilim_050",
+  "ref": "תהילים נ",
+  "ref_en": "Psalms 50",
+  "source_file": "_27_tehilim-050.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_050_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 1,
+      "ref": "תהילים נ:א",
+      "ref_en": "Psalms 50:1",
+      "text_original": "מִזְמ֗וֹר לְאָ֫סָ֥ף אֵ֤ל ׀ אֱֽלֹהִ֡ים יְֽהֹוָ֗ה דִּבֶּ֥ר וַיִּקְרָא־אָ֑רֶץ מִמִּזְרַח־שֶׁ֝֗מֶשׁ עַד־מְבֹאֽוֹ׃",
+      "text_with_niqqud": "מִזְמוֹר לְאָסָף אֵל אֱלֹהִים יְהֹוָה דִּבֶּר וַיִּקְרָא אָרֶץ מִמִּזְרַח שֶׁמֶשׁ עַד מְבֹאוֹ",
+      "text_plain": "מזמור לאסף אל אלהים יהוה דבר ויקרא ארץ ממזרח שמש עד מבאו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 2,
+      "ref": "תהילים נ:ב",
+      "ref_en": "Psalms 50:2",
+      "text_original": "מִצִּיּ֥וֹן מִכְלַל־יֹ֗פִי אֱלֹהִ֥ים הוֹפִֽיעַ׃",
+      "text_with_niqqud": "מִצִּיּוֹן מִכְלַל יֹפִי אֱלֹהִים הוֹפִיעַ",
+      "text_plain": "מציון מכלל יפי אלהים הופיע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 3,
+      "ref": "תהילים נ:ג",
+      "ref_en": "Psalms 50:3",
+      "text_original": "יָ֤בֹ֥א אֱלֹהֵ֗ינוּ וְֽאַל־יֶ֫חֱרַ֥שׁ אֵשׁ־לְפָנָ֥יו תֹּאכֵ֑ל וּ֝סְבִיבָ֗יו נִשְׂעֲרָ֥ה מְאֹֽד׃",
+      "text_with_niqqud": "יָבֹא אֱלֹהֵינוּ וְאַל יֶחֱרַשׁ אֵשׁ לְפָנָיו תֹּאכֵל וּסְבִיבָיו נִשְׂעֲרָה מְאֹד",
+      "text_plain": "יבא אלהינו ואל יחרש אש לפניו תאכל וסביביו נשערה מאד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 4,
+      "ref": "תהילים נ:ד",
+      "ref_en": "Psalms 50:4",
+      "text_original": "יִקְרָ֣א אֶל־הַשָּׁמַ֣יִם מֵעָ֑ל וְאֶל־הָ֝אָ֗רֶץ לָדִ֥ין עַמּֽוֹ׃",
+      "text_with_niqqud": "יִקְרָא אֶל הַשָּׁמַיִם מֵעָל וְאֶל הָאָרֶץ לָדִין עַמּוֹ",
+      "text_plain": "יקרא אל השמים מעל ואל הארץ לדין עמו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 5,
+      "ref": "תהילים נ:ה",
+      "ref_en": "Psalms 50:5",
+      "text_original": "אִסְפוּ־לִ֥י חֲסִידָ֑י כֹּֽרְתֵ֖י בְרִיתִ֣י עֲלֵי־זָֽבַח׃",
+      "text_with_niqqud": "אִסְפוּ לִי חֲסִידָי כֹּרְתֵי בְרִיתִי עֲלֵי זָבַח",
+      "text_plain": "אספו לי חסידי כרתי בריתי עלי זבח",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 6,
+      "ref": "תהילים נ:ו",
+      "ref_en": "Psalms 50:6",
+      "text_original": "וַיַּגִּ֣ידוּ שָׁמַ֣יִם צִדְק֑וֹ כִּֽי־אֱלֹהִ֓ים ׀ שֹׁפֵ֖ט ה֣וּא סֶֽלָה׃",
+      "text_with_niqqud": "וַיַּגִּידוּ שָׁמַיִם צִדְקוֹ כִּי אֱלֹהִים שֹׁפֵט הוּא סֶלָה",
+      "text_plain": "ויגידו שמים צדקו כי אלהים שפט הוא סלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 7,
+      "ref": "תהילים נ:ז",
+      "ref_en": "Psalms 50:7",
+      "text_original": "שִׁמְעָ֤ה עַמִּ֨י ׀ וַֽאֲדַבֵּ֗רָה יִ֭שְׂרָאֵל וְאָעִ֣ידָה בָּ֑ךְ אֱלֹהִ֖ים אֱלֹהֶ֣יךָ אָנֹֽכִי׃",
+      "text_with_niqqud": "שִׁמְעָה עַמִּי וַאֲדַבֵּרָה יִשְׂרָאֵל וְאָעִידָה בָּךְ אֱלֹהִים אֱלֹהֶיךָ אָנֹכִי",
+      "text_plain": "שמעה עמי ואדברה ישראל ואעידה בך אלהים אלהיך אנכי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 8,
+      "ref": "תהילים נ:ח",
+      "ref_en": "Psalms 50:8",
+      "text_original": "לֹ֣א עַל־זְ֭בָחֶיךָ אֽוֹכִיחֶ֑ךָ וְעֽוֹלֹתֶ֖יךָ לְנֶגְדִּ֣י תָמִֽיד׃",
+      "text_with_niqqud": "לֹא עַל זְבָחֶיךָ אוֹכִיחֶךָ וְעוֹלֹתֶיךָ לְנֶגְדִּי תָמִיד",
+      "text_plain": "לא על זבחיך אוכיחך ועולתיך לנגדי תמיד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 9,
+      "ref": "תהילים נ:ט",
+      "ref_en": "Psalms 50:9",
+      "text_original": "לֹֽא־אֶקַּ֣ח מִבֵּֽיתְךָ֣ פָ֑ר מִ֝מִּכְלְאֹתֶ֗יךָ עַתּוּדִֽים׃",
+      "text_with_niqqud": "לֹא אֶקַּח מִבֵּיתְךָ פָר מִמִּכְלְאֹתֶיךָ עַתּוּדִים",
+      "text_plain": "לא אקח מביתך פר ממכלאתיך עתודים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 10,
+      "ref": "תהילים נ:י",
+      "ref_en": "Psalms 50:10",
+      "text_original": "כִּי־לִ֥י כָל־חַיְתוֹ־יָ֑עַר בְּ֝הֵמ֗וֹת בְּהַרְרֵי־אָֽלֶף׃",
+      "text_with_niqqud": "כִּי לִי כָל חַיְתוֹ יָעַר בְּהֵמוֹת בְּהַרְרֵי אָלֶף",
+      "text_plain": "כי לי כל חיתו יער בהמות בהררי אלף",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 11,
+      "ref": "תהילים נ:יא",
+      "ref_en": "Psalms 50:11",
+      "text_original": "יָ֭דַעְתִּי כָּל־ע֣וֹף הָרִ֑ים וְזִ֥יז שָׂ֝דַ֗י עִמָּדִֽי׃",
+      "text_with_niqqud": "יָדַעְתִּי כָּל עוֹף הָרִים וְזִיז שָׂדַי עִמָּדִי",
+      "text_plain": "ידעתי כל עוף הרים וזיז שדי עמדי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 12,
+      "ref": "תהילים נ:יב",
+      "ref_en": "Psalms 50:12",
+      "text_original": "אִם־אֶ֭רְעַב לֹא־אֹ֣מַר לָ֑ךְ כִּי־לִ֥י תֵ֝בֵ֗ל וּמְלֹאָֽהּ׃",
+      "text_with_niqqud": "אִם אֶרְעַב לֹא אֹמַר לָךְ כִּי לִי תֵבֵל וּמְלֹאָהּ",
+      "text_plain": "אם ארעב לא אמר לך כי לי תבל ומלאה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 13,
+      "ref": "תהילים נ:יג",
+      "ref_en": "Psalms 50:13",
+      "text_original": "הַֽ֭אוֹכַל בְּשַׂ֣ר אַבִּירִ֑ים וְדַ֖ם עַתּוּדִ֣ים אֶשְׁתֶּֽה׃",
+      "text_with_niqqud": "הַאוֹכַל בְּשַׂר אַבִּירִים וְדַם עַתּוּדִים אֶשְׁתֶּה",
+      "text_plain": "האוכל בשר אבירים ודם עתודים אשתה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_014",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 14,
+      "ref": "תהילים נ:יד",
+      "ref_en": "Psalms 50:14",
+      "text_original": "זְבַ֣ח לֵֽאלֹהִ֣ים תּוֹדָ֑ה וְשַׁלֵּ֖ם לְעֶלְי֣וֹן נְדָרֶֽיךָ׃",
+      "text_with_niqqud": "זְבַח לֵאלֹהִים תּוֹדָה וְשַׁלֵּם לְעֶלְיוֹן נְדָרֶיךָ",
+      "text_plain": "זבח לאלהים תודה ושלם לעליון נדריך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_015",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 15,
+      "ref": "תהילים נ:טו",
+      "ref_en": "Psalms 50:15",
+      "text_original": "וּ֭קְרָאֵנִי בְּי֣וֹם צָרָ֑ה אֲ֝חַלֶּצְךָ֗ וּֽתְכַבְּדֵֽנִי׃",
+      "text_with_niqqud": "וּקְרָאֵנִי בְּיוֹם צָרָה אֲחַלֶּצְךָ וּתְכַבְּדֵנִי",
+      "text_plain": "וקראני ביום צרה אחלצך ותכבדני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_016",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 16,
+      "ref": "תהילים נ:טז",
+      "ref_en": "Psalms 50:16",
+      "text_original": "וְלָ֤רָשָׁ֨ע ׀ אָ֘מַ֤ר אֱלֹהִ֗ים מַה־לְּ֭ךָ לְסַפֵּ֣ר חֻקָּ֑י וַתִּשָּׂ֖א בְרִיתִ֣י עֲלֵי־פִֽיךָ׃",
+      "text_with_niqqud": "וְלָרָשָׁע אָמַר אֱלֹהִים מַה לְּךָ לְסַפֵּר חֻקָּי וַתִּשָּׂא בְרִיתִי עֲלֵי פִיךָ",
+      "text_plain": "ולרשע אמר אלהים מה לך לספר חקי ותשא בריתי עלי פיך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_017",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 17,
+      "ref": "תהילים נ:יז",
+      "ref_en": "Psalms 50:17",
+      "text_original": "וְ֭אַתָּה שָׂנֵ֣אתָ מוּסָ֑ר וַתַּשְׁלֵ֖ךְ דְּבָרַ֣י אַֽחֲרֶֽיךָ׃",
+      "text_with_niqqud": "וְאַתָּה שָׂנֵאתָ מוּסָר וַתַּשְׁלֵךְ דְּבָרַי אַחֲרֶיךָ",
+      "text_plain": "ואתה שנאת מוסר ותשלך דברי אחריך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_018",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 18,
+      "ref": "תהילים נ:יח",
+      "ref_en": "Psalms 50:18",
+      "text_original": "אִם־רָאִ֣יתָ גַ֭נָּב וַתִּ֣רֶץ עִמּ֑וֹ וְעִ֖ם מְנָֽאֲפִ֣ים חֶלְקֶֽךָ׃",
+      "text_with_niqqud": "אִם רָאִיתָ גַנָּב וַתִּרֶץ עִמּוֹ וְעִם מְנָאֲפִים חֶלְקֶךָ",
+      "text_plain": "אם ראית גנב ותרץ עמו ועם מנאפים חלקך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_019",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 19,
+      "ref": "תהילים נ:יט",
+      "ref_en": "Psalms 50:19",
+      "text_original": "פִּ֭יךָ שָׁלַ֣חְתָּ בְרָעָ֑ה וּ֝לְשֽׁוֹנְךָ֗ תַּצְמִ֥יד מִרְמָֽה׃",
+      "text_with_niqqud": "פִּיךָ שָׁלַחְתָּ בְרָעָה וּלְשׁוֹנְךָ תַּצְמִיד מִרְמָה",
+      "text_plain": "פיך שלחת ברעה ולשונך תצמיד מרמה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_020",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 20,
+      "ref": "תהילים נ:כ",
+      "ref_en": "Psalms 50:20",
+      "text_original": "תֵּ֭שֵׁב בְּאָחִ֣יךָ תְדַבֵּ֑ר בְּבֶֽן־אִ֝מְּךָ֗ תִּתֶּן־דֹּֽפִי׃",
+      "text_with_niqqud": "תֵּשֵׁב בְּאָחִיךָ תְדַבֵּר בְּבֶן אִמְּךָ תִּתֶּן דֹּפִי",
+      "text_plain": "תשב באחיך תדבר בבן אמך תתן דפי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_021",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 21,
+      "ref": "תהילים נ:כא",
+      "ref_en": "Psalms 50:21",
+      "text_original": "אֵ֤לֶּה עָשִׂ֨יתָ ׀ וְֽהֶחֱרַ֗שְׁתִּי דִּמִּ֗יתָ הֱיֽוֹת־אֶהְיֶ֥ה כָמ֑וֹךָ אוֹכִֽיחֲךָ֖ וְאֶֽעֶרְכָ֣ה לְעֵינֶֽיךָ׃",
+      "text_with_niqqud": "אֵלֶּה עָשִׂיתָ וְהֶחֱרַשְׁתִּי דִּמִּיתָ הֱיוֹת אֶהְיֶה כָמוֹךָ אוֹכִיחֲךָ וְאֶעֶרְכָה לְעֵינֶיךָ",
+      "text_plain": "אלה עשית והחרשתי דמית היות אהיה כמוך אוכיחך ואערכה לעיניך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_022",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 22,
+      "ref": "תהילים נ:כב",
+      "ref_en": "Psalms 50:22",
+      "text_original": "בִּֽינוּ־נָ֣א זֹ֭את שֹֽׁכְחֵ֣י אֱל֑וֹהַּ פֶּן־אֶ֝טְרֹ֗ף וְאֵ֣ין מַצִּֽיל׃",
+      "text_with_niqqud": "בִּינוּ נָא זֹאת שֹׁכְחֵי אֱלוֹהַּ פֶּן אֶטְרֹף וְאֵין מַצִּיל",
+      "text_plain": "בינו נא זאת שכחי אלוה פן אטרף ואין מציל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_050_023",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 50,
+      "verse": 23,
+      "ref": "תהילים נ:כג",
+      "ref_en": "Psalms 50:23",
+      "text_original": "זֹבֵ֥חַ תּוֹדָ֗ה יְֽכַ֫בְּדָ֥נְנִי וְשָׂ֥ם דֶּ֑רֶךְ אַ֝רְאֶ֗נּוּ בְּיֵ֣שַׁע אֱלֹהִֽים׃",
+      "text_with_niqqud": "זֹבֵחַ תּוֹדָה יְכַבְּדָנְנִי וְשָׂם דֶּרֶךְ אַרְאֶנּוּ בְּיֵשַׁע אֱלֹהִים",
+      "text_plain": "זבח תודה יכבדנני ושם דרך אראנו בישע אלהים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-050.txt"
+    }
+  ]
+}

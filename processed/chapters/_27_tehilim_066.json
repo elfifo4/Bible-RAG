@@ -1,0 +1,372 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 66,
+  "chapter_id": "_27_tehilim_066",
+  "ref": "תהילים סו",
+  "ref_en": "Psalms 66",
+  "source_file": "_27_tehilim-066.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_066_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 1,
+      "ref": "תהילים סו:א",
+      "ref_en": "Psalms 66:1",
+      "text_original": "לַ֭מְנַצֵּחַ שִׁ֣יר מִזְמ֑וֹר הָרִ֥יעוּ לֵֽ֝אלֹהִ֗ים כָּל־הָאָֽרֶץ׃",
+      "text_with_niqqud": "לַמְנַצֵּחַ שִׁיר מִזְמוֹר הָרִיעוּ לֵאלֹהִים כָּל הָאָרֶץ",
+      "text_plain": "למנצח שיר מזמור הריעו לאלהים כל הארץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 2,
+      "ref": "תהילים סו:ב",
+      "ref_en": "Psalms 66:2",
+      "text_original": "זַמְּר֥וּ כְבֽוֹד־שְׁמ֑וֹ שִׂ֥ימוּ כָ֝ב֗וֹד תְּהִלָּתֽוֹ׃",
+      "text_with_niqqud": "זַמְּרוּ כְבוֹד שְׁמוֹ שִׂימוּ כָבוֹד תְּהִלָּתוֹ",
+      "text_plain": "זמרו כבוד שמו שימו כבוד תהלתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 3,
+      "ref": "תהילים סו:ג",
+      "ref_en": "Psalms 66:3",
+      "text_original": "אִמְר֣וּ לֵֽ֭אלֹהִים מַה־נּוֹרָ֣א מַֽעֲשֶׂ֑יךָ בְּרֹ֥ב עֻ֝זְּךָ֗ יְֽכַחֲשׁ֖וּ לְךָ֣ אֹֽיְבֶֽיךָ׃",
+      "text_with_niqqud": "אִמְרוּ לֵאלֹהִים מַה נּוֹרָא מַעֲשֶׂיךָ בְּרֹב עֻזְּךָ יְכַחֲשׁוּ לְךָ אֹיְבֶיךָ",
+      "text_plain": "אמרו לאלהים מה נורא מעשיך ברב עזך יכחשו לך איביך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 4,
+      "ref": "תהילים סו:ד",
+      "ref_en": "Psalms 66:4",
+      "text_original": "כָּל־הָאָ֤רֶץ ׀ יִשְׁתַּֽחֲו֣וּ לְ֭ךָ וִֽיזַמְּרוּ־לָ֑ךְ יְזַמְּר֖וּ שִׁמְךָ֣ סֶֽלָה׃",
+      "text_with_niqqud": "כָּל הָאָרֶץ יִשְׁתַּחֲווּ לְךָ וִיזַמְּרוּ לָךְ יְזַמְּרוּ שִׁמְךָ סֶלָה",
+      "text_plain": "כל הארץ ישתחוו לך ויזמרו לך יזמרו שמך סלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 5,
+      "ref": "תהילים סו:ה",
+      "ref_en": "Psalms 66:5",
+      "text_original": "לְכ֣וּ וּ֭רְאוּ מִפְעֲל֣וֹת אֱלֹהִ֑ים נוֹרָ֥א עֲ֝לִילָ֗ה עַל־בְּנֵ֥י אָדָֽם׃",
+      "text_with_niqqud": "לְכוּ וּרְאוּ מִפְעֲלוֹת אֱלֹהִים נוֹרָא עֲלִילָה עַל בְּנֵי אָדָם",
+      "text_plain": "לכו וראו מפעלות אלהים נורא עלילה על בני אדם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 6,
+      "ref": "תהילים סו:ו",
+      "ref_en": "Psalms 66:6",
+      "text_original": "הָ֤פַךְ יָ֨ם ׀ לְֽיַבָּשָׁ֗ה בַּ֭נָּהָר יַֽעַבְר֣וּ בְרָ֑גֶל שָׁ֝֗ם נִשְׂמְחָה־בּֽוֹ׃",
+      "text_with_niqqud": "הָפַךְ יָם לְיַבָּשָׁה בַּנָּהָר יַעַבְרוּ בְרָגֶל שָׁם נִשְׂמְחָה בּוֹ",
+      "text_plain": "הפך ים ליבשה בנהר יעברו ברגל שם נשמחה בו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 7,
+      "ref": "תהילים סו:ז",
+      "ref_en": "Psalms 66:7",
+      "text_original": "מֹ֘שֵׁ֤ל בִּגְבֽוּרָת֨וֹ ׀ עוֹלָ֗ם עֵ֭ינָיו בַּגּוֹיִ֣ם תִּצְפֶּ֑ינָה הַסּֽוֹרְרִ֓ים ׀ אַל־ירימו (יָר֖וּמוּ) לָ֣מוֹ סֶֽלָה׃",
+      "text_with_niqqud": "מֹשֵׁל בִּגְבוּרָתוֹ עוֹלָם עֵינָיו בַּגּוֹיִם תִּצְפֶּינָה הַסּוֹרְרִים אַל ירימו (יָרוּמוּ) לָמוֹ סֶלָה",
+      "text_plain": "משל בגבורתו עולם עיניו בגוים תצפינה הסוררים אל ירימו (ירומו) למו סלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 8,
+      "ref": "תהילים סו:ח",
+      "ref_en": "Psalms 66:8",
+      "text_original": "בָּֽרְכ֖וּ עַמִּ֥ים ׀ אֱלֹהֵ֑ינוּ וְ֝הַשְׁמִ֗יעוּ ק֣וֹל תְּהִלָּתֽוֹ׃",
+      "text_with_niqqud": "בָּרְכוּ עַמִּים אֱלֹהֵינוּ וְהַשְׁמִיעוּ קוֹל תְּהִלָּתוֹ",
+      "text_plain": "ברכו עמים אלהינו והשמיעו קול תהלתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 9,
+      "ref": "תהילים סו:ט",
+      "ref_en": "Psalms 66:9",
+      "text_original": "הַשָּׂ֣ם נַ֭פְשֵׁנוּ בַּֽחַיִּ֑ים וְלֹֽא־נָתַ֖ן לַמּ֣וֹט רַגְלֵֽנוּ׃",
+      "text_with_niqqud": "הַשָּׂם נַפְשֵׁנוּ בַּחַיִּים וְלֹא נָתַן לַמּוֹט רַגְלֵנוּ",
+      "text_plain": "השם נפשנו בחיים ולא נתן למוט רגלנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 10,
+      "ref": "תהילים סו:י",
+      "ref_en": "Psalms 66:10",
+      "text_original": "כִּֽי־בְחַנְתָּ֥נוּ אֱלֹהִ֑ים צְ֝רַפְתָּ֗נוּ כִּצְרָף־כָּֽסֶף׃",
+      "text_with_niqqud": "כִּי בְחַנְתָּנוּ אֱלֹהִים צְרַפְתָּנוּ כִּצְרָף כָּסֶף",
+      "text_plain": "כי בחנתנו אלהים צרפתנו כצרף כסף",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 11,
+      "ref": "תהילים סו:יא",
+      "ref_en": "Psalms 66:11",
+      "text_original": "הֲבֵאתָ֥נוּ בַמְּצוּדָ֑ה שַׂ֖מְתָּ מֽוּעָקָ֣ה בְמָתְנֵֽינוּ׃",
+      "text_with_niqqud": "הֲבֵאתָנוּ בַמְּצוּדָה שַׂמְתָּ מוּעָקָה בְמָתְנֵינוּ",
+      "text_plain": "הבאתנו במצודה שמת מועקה במתנינו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 12,
+      "ref": "תהילים סו:יב",
+      "ref_en": "Psalms 66:12",
+      "text_original": "הִרְכַּ֥בְתָּֽ אֱנ֗וֹשׁ לְרֹ֫אשֵׁ֥נוּ בָּֽאנוּ־בָאֵ֥שׁ וּבַמַּ֑יִם וַ֝תּֽוֹצִיאֵ֗נוּ לָֽרְוָיָֽה׃",
+      "text_with_niqqud": "הִרְכַּבְתָּ אֱנוֹשׁ לְרֹאשֵׁנוּ בָּאנוּ בָאֵשׁ וּבַמַּיִם וַתּוֹצִיאֵנוּ לָרְוָיָה",
+      "text_plain": "הרכבת אנוש לראשנו באנו באש ובמים ותוציאנו לרויה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 13,
+      "ref": "תהילים סו:יג",
+      "ref_en": "Psalms 66:13",
+      "text_original": "אָב֣וֹא בֵֽיתְךָ֣ בְעוֹל֑וֹת אֲשַׁלֵּ֖ם לְךָ֣ נְדָרָֽי׃",
+      "text_with_niqqud": "אָבוֹא בֵיתְךָ בְעוֹלוֹת אֲשַׁלֵּם לְךָ נְדָרָי",
+      "text_plain": "אבוא ביתך בעולות אשלם לך נדרי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_014",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 14,
+      "ref": "תהילים סו:יד",
+      "ref_en": "Psalms 66:14",
+      "text_original": "אֲשֶׁר־פָּצ֥וּ שְׂפָתָ֑י וְדִבֶּר־פִּ֝֗י בַּצַּר־לִֽי׃",
+      "text_with_niqqud": "אֲשֶׁר פָּצוּ שְׂפָתָי וְדִבֶּר פִּי בַּצַּר לִי",
+      "text_plain": "אשר פצו שפתי ודבר פי בצר לי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_015",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 15,
+      "ref": "תהילים סו:טו",
+      "ref_en": "Psalms 66:15",
+      "text_original": "עֹ֘ל֤וֹת מֵיחִ֣ים אַֽעֲלֶה־לָּ֭ךְ עִם־קְטֹ֣רֶת אֵילִ֑ים אֶ֥עֱשֶֽׂה בָקָ֖ר עִם־עַתּוּדִ֣ים סֶֽלָה׃",
+      "text_with_niqqud": "עֹלוֹת מֵיחִים אַעֲלֶה לָּךְ עִם קְטֹרֶת אֵילִים אֶעֱשֶׂה בָקָר עִם עַתּוּדִים סֶלָה",
+      "text_plain": "עלות מיחים אעלה לך עם קטרת אילים אעשה בקר עם עתודים סלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_016",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 16,
+      "ref": "תהילים סו:טז",
+      "ref_en": "Psalms 66:16",
+      "text_original": "לְכֽוּ־שִׁמְע֣וּ וַֽ֭אֲסַפְּרָה כָּל־יִרְאֵ֣י אֱלֹהִ֑ים אֲשֶׁ֖ר עָשָׂ֣ה לְנַפְשִֽׁי׃",
+      "text_with_niqqud": "לְכוּ שִׁמְעוּ וַאֲסַפְּרָה כָּל יִרְאֵי אֱלֹהִים אֲשֶׁר עָשָׂה לְנַפְשִׁי",
+      "text_plain": "לכו שמעו ואספרה כל יראי אלהים אשר עשה לנפשי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_017",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 17,
+      "ref": "תהילים סו:יז",
+      "ref_en": "Psalms 66:17",
+      "text_original": "אֵלָ֥יו פִּֽי־קָרָ֑אתִי וְ֝רוֹמַ֗ם תַּ֣חַת לְשׁוֹנִֽי׃",
+      "text_with_niqqud": "אֵלָיו פִּי קָרָאתִי וְרוֹמַם תַּחַת לְשׁוֹנִי",
+      "text_plain": "אליו פי קראתי ורומם תחת לשוני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_018",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 18,
+      "ref": "תהילים סו:יח",
+      "ref_en": "Psalms 66:18",
+      "text_original": "אָ֭וֶן אִם־רָאִ֣יתִי בְלִבִּ֑י לֹ֖א יִשְׁמַ֣ע ׀ אֲדֹנָֽי׃",
+      "text_with_niqqud": "אָוֶן אִם רָאִיתִי בְלִבִּי לֹא יִשְׁמַע אֲדֹנָי",
+      "text_plain": "און אם ראיתי בלבי לא ישמע אדני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_019",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 19,
+      "ref": "תהילים סו:יט",
+      "ref_en": "Psalms 66:19",
+      "text_original": "אָ֭כֵן שָׁמַ֣ע אֱלֹהִ֑ים הִ֝קְשִׁ֗יב בְּק֣וֹל תְּפִלָּתִֽי׃",
+      "text_with_niqqud": "אָכֵן שָׁמַע אֱלֹהִים הִקְשִׁיב בְּקוֹל תְּפִלָּתִי",
+      "text_plain": "אכן שמע אלהים הקשיב בקול תפלתי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_066_020",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 66,
+      "verse": 20,
+      "ref": "תהילים סו:כ",
+      "ref_en": "Psalms 66:20",
+      "text_original": "בָּר֥וּךְ אֱלֹהִ֑ים אֲשֶׁ֥ר לֹֽא־הֵסִ֘יר תְּפִלָּתִ֥י וְ֝חַסְדּ֗וֹ מֵֽאִתִּֽי׃",
+      "text_with_niqqud": "בָּרוּךְ אֱלֹהִים אֲשֶׁר לֹא הֵסִיר תְּפִלָּתִי וְחַסְדּוֹ מֵאִתִּי",
+      "text_plain": "ברוך אלהים אשר לא הסיר תפלתי וחסדו מאתי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-066.txt"
+    }
+  ]
+}

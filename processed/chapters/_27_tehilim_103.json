@@ -1,0 +1,408 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 103,
+  "chapter_id": "_27_tehilim_103",
+  "ref": "תהילים קג",
+  "ref_en": "Psalms 103",
+  "source_file": "_27_tehilim-103.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_103_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 1,
+      "ref": "תהילים קג:א",
+      "ref_en": "Psalms 103:1",
+      "text_original": "לְדָוִ֨ד ׀ בָּֽרְכִ֣י נַ֭פְשִׁי אֶת־יְהֹוָ֑ה וְכָל־קְ֝רָבַ֗י אֶת־שֵׁ֥ם קָדְשֽׁוֹ׃",
+      "text_with_niqqud": "לְדָוִד בָּרְכִי נַפְשִׁי אֶת יְהֹוָה וְכָל קְרָבַי אֶת שֵׁם קָדְשׁוֹ",
+      "text_plain": "לדוד ברכי נפשי את יהוה וכל קרבי את שם קדשו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 2,
+      "ref": "תהילים קג:ב",
+      "ref_en": "Psalms 103:2",
+      "text_original": "בָּֽרְכִ֣י נַ֭פְשִׁי אֶת־יְהֹוָ֑ה וְאַל־תִּ֝שְׁכְּחִ֗י כָּל־גְּמוּלָֽיו׃",
+      "text_with_niqqud": "בָּרְכִי נַפְשִׁי אֶת יְהֹוָה וְאַל תִּשְׁכְּחִי כָּל גְּמוּלָיו",
+      "text_plain": "ברכי נפשי את יהוה ואל תשכחי כל גמוליו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 3,
+      "ref": "תהילים קג:ג",
+      "ref_en": "Psalms 103:3",
+      "text_original": "הַסֹּלֵ֥חַ לְכָל־עֲו‍ֹנֵ֑כִי הָֽ֝רֹפֵ֗א לְכָל־תַּֽחֲלוּאָֽיְכִי׃",
+      "text_with_niqqud": "הַסֹּלֵחַ לְכָל עֲו‍ֹנֵכִי הָרֹפֵא לְכָל תַּחֲלוּאָיְכִי",
+      "text_plain": "הסלח לכל עו‍נכי הרפא לכל תחלואיכי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 4,
+      "ref": "תהילים קג:ד",
+      "ref_en": "Psalms 103:4",
+      "text_original": "הַגּוֹאֵ֣ל מִשַּׁ֣חַת חַיָּ֑יְכִי הַֽ֝מְעַטְּרֵ֗כִי חֶ֣סֶד וְרַֽחֲמִֽים׃",
+      "text_with_niqqud": "הַגּוֹאֵל מִשַּׁחַת חַיָּיְכִי הַמְעַטְּרֵכִי חֶסֶד וְרַחֲמִים",
+      "text_plain": "הגואל משחת חייכי המעטרכי חסד ורחמים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 5,
+      "ref": "תהילים קג:ה",
+      "ref_en": "Psalms 103:5",
+      "text_original": "הַמַּשְׂבִּ֣יעַ בַּטּ֣וֹב עֶדְיֵ֑ךְ תִּתְחַדֵּ֖שׁ כַּנֶּ֣שֶׁר נְעוּרָֽיְכִי׃",
+      "text_with_niqqud": "הַמַּשְׂבִּיעַ בַּטּוֹב עֶדְיֵךְ תִּתְחַדֵּשׁ כַּנֶּשֶׁר נְעוּרָיְכִי",
+      "text_plain": "המשביע בטוב עדיך תתחדש כנשר נעוריכי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 6,
+      "ref": "תהילים קג:ו",
+      "ref_en": "Psalms 103:6",
+      "text_original": "עֹשֵׂ֣ה צְדָק֣וֹת יְהֹוָ֑ה וּ֝מִשְׁפָּטִ֗ים לְכָל־עֲשׁוּקִֽים׃",
+      "text_with_niqqud": "עֹשֵׂה צְדָקוֹת יְהֹוָה וּמִשְׁפָּטִים לְכָל עֲשׁוּקִים",
+      "text_plain": "עשה צדקות יהוה ומשפטים לכל עשוקים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 7,
+      "ref": "תהילים קג:ז",
+      "ref_en": "Psalms 103:7",
+      "text_original": "יוֹדִ֣יעַ דְּרָכָ֣יו לְמֹשֶׁ֑ה לִבְנֵ֥י יִ֝שְׂרָאֵ֗ל עֲלִֽילוֹתָֽיו׃",
+      "text_with_niqqud": "יוֹדִיעַ דְּרָכָיו לְמֹשֶׁה לִבְנֵי יִשְׂרָאֵל עֲלִילוֹתָיו",
+      "text_plain": "יודיע דרכיו למשה לבני ישראל עלילותיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 8,
+      "ref": "תהילים קג:ח",
+      "ref_en": "Psalms 103:8",
+      "text_original": "רַח֣וּם וְחַנּ֣וּן יְהֹוָ֑ה אֶ֖רֶךְ אַפַּ֣יִם וְרַב־חָֽסֶד׃",
+      "text_with_niqqud": "רַחוּם וְחַנּוּן יְהֹוָה אֶרֶךְ אַפַּיִם וְרַב חָסֶד",
+      "text_plain": "רחום וחנון יהוה ארך אפים ורב חסד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 9,
+      "ref": "תהילים קג:ט",
+      "ref_en": "Psalms 103:9",
+      "text_original": "לֹֽא־לָנֶ֥צַח יָרִ֑יב וְלֹ֖א לְעוֹלָ֣ם יִטּֽוֹר׃",
+      "text_with_niqqud": "לֹא לָנֶצַח יָרִיב וְלֹא לְעוֹלָם יִטּוֹר",
+      "text_plain": "לא לנצח יריב ולא לעולם יטור",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 10,
+      "ref": "תהילים קג:י",
+      "ref_en": "Psalms 103:10",
+      "text_original": "לֹ֣א כַֽ֭חֲטָאֵינוּ עָ֣שָׂה לָ֑נוּ וְלֹ֥א כַ֝עֲוֽ‍ֹנֹתֵ֗ינוּ גָּמַ֥ל עָלֵֽינוּ׃",
+      "text_with_niqqud": "לֹא כַחֲטָאֵינוּ עָשָׂה לָנוּ וְלֹא כַעֲו‍ֹנֹתֵינוּ גָּמַל עָלֵינוּ",
+      "text_plain": "לא כחטאינו עשה לנו ולא כעו‍נתינו גמל עלינו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 11,
+      "ref": "תהילים קג:יא",
+      "ref_en": "Psalms 103:11",
+      "text_original": "כִּ֤י כִגְבֹ֣הַּ שָׁ֭מַיִם עַל־הָאָ֑רֶץ גָּבַ֥ר חַ֝סְדּ֗וֹ עַל־יְרֵאָֽיו׃",
+      "text_with_niqqud": "כִּי כִגְבֹהַּ שָׁמַיִם עַל הָאָרֶץ גָּבַר חַסְדּוֹ עַל יְרֵאָיו",
+      "text_plain": "כי כגבה שמים על הארץ גבר חסדו על יראיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 12,
+      "ref": "תהילים קג:יב",
+      "ref_en": "Psalms 103:12",
+      "text_original": "כִּרְחֹ֣ק מִ֭זְרָח מִֽמַּעֲרָ֑ב הִֽרְחִ֥יק מִ֝מֶּ֗נּוּ אֶת־פְּשָׁעֵֽינוּ׃",
+      "text_with_niqqud": "כִּרְחֹק מִזְרָח מִמַּעֲרָב הִרְחִיק מִמֶּנּוּ אֶת פְּשָׁעֵינוּ",
+      "text_plain": "כרחק מזרח ממערב הרחיק ממנו את פשעינו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 13,
+      "ref": "תהילים קג:יג",
+      "ref_en": "Psalms 103:13",
+      "text_original": "כְּרַחֵ֣ם אָ֭ב עַל־בָּנִ֑ים רִחַ֥ם יְ֝הֹוָ֗ה עַל־יְרֵאָֽיו׃",
+      "text_with_niqqud": "כְּרַחֵם אָב עַל בָּנִים רִחַם יְהֹוָה עַל יְרֵאָיו",
+      "text_plain": "כרחם אב על בנים רחם יהוה על יראיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_014",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 14,
+      "ref": "תהילים קג:יד",
+      "ref_en": "Psalms 103:14",
+      "text_original": "כִּי־ה֭וּא יָדַ֣ע יִצְרֵ֑נוּ זָ֝כ֗וּר כִּֽי־עָפָ֥ר אֲנָֽחְנוּ׃",
+      "text_with_niqqud": "כִּי הוּא יָדַע יִצְרֵנוּ זָכוּר כִּי עָפָר אֲנָחְנוּ",
+      "text_plain": "כי הוא ידע יצרנו זכור כי עפר אנחנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_015",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 15,
+      "ref": "תהילים קג:טו",
+      "ref_en": "Psalms 103:15",
+      "text_original": "אֱ֭נוֹשׁ כֶּֽחָצִ֣יר יָמָ֑יו כְּצִ֥יץ הַ֝שָּׂדֶ֗ה כֵּ֣ן יָצִֽיץ׃",
+      "text_with_niqqud": "אֱנוֹשׁ כֶּחָצִיר יָמָיו כְּצִיץ הַשָּׂדֶה כֵּן יָצִיץ",
+      "text_plain": "אנוש כחציר ימיו כציץ השדה כן יציץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_016",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 16,
+      "ref": "תהילים קג:טז",
+      "ref_en": "Psalms 103:16",
+      "text_original": "כִּ֤י ר֣וּחַ עָֽבְרָה־בּ֣וֹ וְאֵינֶ֑נּוּ וְלֹֽא־יַכִּירֶ֖נּוּ ע֣וֹד מְקוֹמֽוֹ׃",
+      "text_with_niqqud": "כִּי רוּחַ עָבְרָה בּוֹ וְאֵינֶנּוּ וְלֹא יַכִּירֶנּוּ עוֹד מְקוֹמוֹ",
+      "text_plain": "כי רוח עברה בו ואיננו ולא יכירנו עוד מקומו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_017",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 17,
+      "ref": "תהילים קג:יז",
+      "ref_en": "Psalms 103:17",
+      "text_original": "וְחֶ֤סֶד יְהֹוָ֨ה ׀ מֵֽעוֹלָ֣ם וְעַד־ע֭וֹלָם עַל־יְרֵאָ֑יו וְ֝צִדְקָת֗וֹ לִבְנֵ֥י בָנִֽים׃",
+      "text_with_niqqud": "וְחֶסֶד יְהֹוָה מֵעוֹלָם וְעַד עוֹלָם עַל יְרֵאָיו וְצִדְקָתוֹ לִבְנֵי בָנִים",
+      "text_plain": "וחסד יהוה מעולם ועד עולם על יראיו וצדקתו לבני בנים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_018",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 18,
+      "ref": "תהילים קג:יח",
+      "ref_en": "Psalms 103:18",
+      "text_original": "לְשֹֽׁמְרֵ֥י בְרִית֑וֹ וּלְזֹֽכְרֵ֥י פִ֝קֻּדָ֗יו לַֽעֲשׂוֹתָֽם׃",
+      "text_with_niqqud": "לְשֹׁמְרֵי בְרִיתוֹ וּלְזֹכְרֵי פִקֻּדָיו לַעֲשׂוֹתָם",
+      "text_plain": "לשמרי בריתו ולזכרי פקדיו לעשותם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_019",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 19,
+      "ref": "תהילים קג:יט",
+      "ref_en": "Psalms 103:19",
+      "text_original": "יְֽהֹוָ֗ה בַּ֭שָּׁמַיִם הֵכִ֣ין כִּסְא֑וֹ וּ֝מַלְכוּת֗וֹ בַּכֹּ֥ל מָשָֽׁלָה׃",
+      "text_with_niqqud": "יְהֹוָה בַּשָּׁמַיִם הֵכִין כִּסְאוֹ וּמַלְכוּתוֹ בַּכֹּל מָשָׁלָה",
+      "text_plain": "יהוה בשמים הכין כסאו ומלכותו בכל משלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_020",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 20,
+      "ref": "תהילים קג:כ",
+      "ref_en": "Psalms 103:20",
+      "text_original": "בָּֽרְכ֥וּ יְהֹוָ֗ה מַלְאָ֫כָ֥יו גִּבֹּ֣רֵי כֹ֭חַ עֹשֵׂ֣י דְבָר֑וֹ לִ֝שְׁמֹ֗עַ בְּק֣וֹל דְּבָרֽוֹ׃",
+      "text_with_niqqud": "בָּרְכוּ יְהֹוָה מַלְאָכָיו גִּבֹּרֵי כֹחַ עֹשֵׂי דְבָרוֹ לִשְׁמֹעַ בְּקוֹל דְּבָרוֹ",
+      "text_plain": "ברכו יהוה מלאכיו גברי כח עשי דברו לשמע בקול דברו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_021",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 21,
+      "ref": "תהילים קג:כא",
+      "ref_en": "Psalms 103:21",
+      "text_original": "בָּֽרְכ֣וּ יְ֭הֹוָה כָּל־צְבָאָ֑יו מְ֝שָֽׁרְתָ֗יו עֹשֵׂ֥י רְצוֹנֽוֹ׃",
+      "text_with_niqqud": "בָּרְכוּ יְהֹוָה כָּל צְבָאָיו מְשָׁרְתָיו עֹשֵׂי רְצוֹנוֹ",
+      "text_plain": "ברכו יהוה כל צבאיו משרתיו עשי רצונו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_103_022",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 103,
+      "verse": 22,
+      "ref": "תהילים קג:כב",
+      "ref_en": "Psalms 103:22",
+      "text_original": "בָּֽרְכ֤וּ יְהֹוָ֨ה ׀ כָּֽל־מַעֲשָׂ֗יו בְּכָל־מְקֹמ֥וֹת מֶמְשַׁלְתּ֑וֹ בָּֽרְכִ֥י נַ֝פְשִׁ֗י אֶת־יְהֹוָֽה׃",
+      "text_with_niqqud": "בָּרְכוּ יְהֹוָה כָּל מַעֲשָׂיו בְּכָל מְקֹמוֹת מֶמְשַׁלְתּוֹ בָּרְכִי נַפְשִׁי אֶת יְהֹוָה",
+      "text_plain": "ברכו יהוה כל מעשיו בכל מקמות ממשלתו ברכי נפשי את יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-103.txt"
+    }
+  ]
+}

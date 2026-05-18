@@ -1,0 +1,192 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 8,
+  "chapter_id": "_27_tehilim_008",
+  "ref": "תהילים ח",
+  "ref_en": "Psalms 8",
+  "source_file": "_27_tehilim-008.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_008_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 8,
+      "verse": 1,
+      "ref": "תהילים ח:א",
+      "ref_en": "Psalms 8:1",
+      "text_original": "לַמְנַצֵּ֥חַ עַֽל־הַגִּתִּ֗ית מִזְמ֥וֹר לְדָוִֽד׃",
+      "text_with_niqqud": "לַמְנַצֵּחַ עַל הַגִּתִּית מִזְמוֹר לְדָוִד",
+      "text_plain": "למנצח על הגתית מזמור לדוד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-008.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_008_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 8,
+      "verse": 2,
+      "ref": "תהילים ח:ב",
+      "ref_en": "Psalms 8:2",
+      "text_original": "יְהֹוָ֤ה אֲדֹנֵ֗ינוּ מָֽה־אַדִּ֣יר שִׁ֭מְךָ בְּכָל־הָאָ֑רֶץ אֲשֶׁ֥ר תְּנָ֥ה הֽ֝וֹדְךָ֗ עַל־הַשָּׁמָֽיִם׃",
+      "text_with_niqqud": "יְהֹוָה אֲדֹנֵינוּ מָה אַדִּיר שִׁמְךָ בְּכָל הָאָרֶץ אֲשֶׁר תְּנָה הוֹדְךָ עַל הַשָּׁמָיִם",
+      "text_plain": "יהוה אדנינו מה אדיר שמך בכל הארץ אשר תנה הודך על השמים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-008.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_008_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 8,
+      "verse": 3,
+      "ref": "תהילים ח:ג",
+      "ref_en": "Psalms 8:3",
+      "text_original": "מִפִּ֤י עֽוֹלְלִ֨ים ׀ וְֽיֹנְקִים֮ יִסַּ֪דְתָּ֫ עֹ֥ז לְמַ֥עַן צֽוֹרְרֶ֑יךָ לְהַשְׁבִּ֥ית א֝וֹיֵ֗ב וּמִתְנַקֵּֽם׃",
+      "text_with_niqqud": "מִפִּי עוֹלְלִים וְיֹנְקִים יִסַּדְתָּ עֹז לְמַעַן צוֹרְרֶיךָ לְהַשְׁבִּית אוֹיֵב וּמִתְנַקֵּם",
+      "text_plain": "מפי עוללים וינקים יסדת עז למען צורריך להשבית אויב ומתנקם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-008.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_008_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 8,
+      "verse": 4,
+      "ref": "תהילים ח:ד",
+      "ref_en": "Psalms 8:4",
+      "text_original": "כִּֽי־אֶרְאֶ֣ה שָׁ֭מֶיךָ מַֽעֲשֵׂ֣ה אֶצְבְּעֹתֶ֑יךָ יָרֵ֥חַ וְ֝כֽוֹכָבִ֗ים אֲשֶׁ֣ר כּוֹנָֽנְתָּה׃",
+      "text_with_niqqud": "כִּי אֶרְאֶה שָׁמֶיךָ מַעֲשֵׂה אֶצְבְּעֹתֶיךָ יָרֵחַ וְכוֹכָבִים אֲשֶׁר כּוֹנָנְתָּה",
+      "text_plain": "כי אראה שמיך מעשה אצבעתיך ירח וכוכבים אשר כוננתה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-008.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_008_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 8,
+      "verse": 5,
+      "ref": "תהילים ח:ה",
+      "ref_en": "Psalms 8:5",
+      "text_original": "מָֽה־אֱנ֥וֹשׁ כִּֽי־תִזְכְּרֶ֑נּוּ וּבֶן־אָ֝דָ֗ם כִּ֣י תִפְקְדֶֽנּוּ׃",
+      "text_with_niqqud": "מָה אֱנוֹשׁ כִּי תִזְכְּרֶנּוּ וּבֶן אָדָם כִּי תִפְקְדֶנּוּ",
+      "text_plain": "מה אנוש כי תזכרנו ובן אדם כי תפקדנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-008.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_008_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 8,
+      "verse": 6,
+      "ref": "תהילים ח:ו",
+      "ref_en": "Psalms 8:6",
+      "text_original": "וַתְּחַסְּרֵ֣הוּ מְּ֭עַט מֵֽאֱלֹהִ֑ים וְכָב֖וֹד וְהָדָ֣ר תְּעַטְּרֵֽהוּ׃",
+      "text_with_niqqud": "וַתְּחַסְּרֵהוּ מְּעַט מֵאֱלֹהִים וְכָבוֹד וְהָדָר תְּעַטְּרֵהוּ",
+      "text_plain": "ותחסרהו מעט מאלהים וכבוד והדר תעטרהו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-008.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_008_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 8,
+      "verse": 7,
+      "ref": "תהילים ח:ז",
+      "ref_en": "Psalms 8:7",
+      "text_original": "תַּ֭מְשִׁילֵהוּ בְּמַֽעֲשֵׂ֣י יָדֶ֑יךָ כֹּ֝֗ל שַׁ֣תָּה תַֽחַת־רַגְלָֽיו׃",
+      "text_with_niqqud": "תַּמְשִׁילֵהוּ בְּמַעֲשֵׂי יָדֶיךָ כֹּל שַׁתָּה תַחַת רַגְלָיו",
+      "text_plain": "תמשילהו במעשי ידיך כל שתה תחת רגליו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-008.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_008_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 8,
+      "verse": 8,
+      "ref": "תהילים ח:ח",
+      "ref_en": "Psalms 8:8",
+      "text_original": "צֹנֶ֣ה וַֽאֲלָפִ֣ים כֻּלָּ֑ם וְ֝גַ֗ם בַּֽהֲמ֥וֹת שָׂדָֽי׃",
+      "text_with_niqqud": "צֹנֶה וַאֲלָפִים כֻּלָּם וְגַם בַּהֲמוֹת שָׂדָי",
+      "text_plain": "צנה ואלפים כלם וגם בהמות שדי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-008.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_008_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 8,
+      "verse": 9,
+      "ref": "תהילים ח:ט",
+      "ref_en": "Psalms 8:9",
+      "text_original": "צִפּ֣וֹר שָׁ֭מַיִם וּדְגֵ֣י הַיָּ֑ם עֹ֝בֵ֗ר אָרְח֥וֹת יַמִּֽים׃",
+      "text_with_niqqud": "צִפּוֹר שָׁמַיִם וּדְגֵי הַיָּם עֹבֵר אָרְחוֹת יַמִּים",
+      "text_plain": "צפור שמים ודגי הים עבר ארחות ימים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-008.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_008_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 8,
+      "verse": 10,
+      "ref": "תהילים ח:י",
+      "ref_en": "Psalms 8:10",
+      "text_original": "יְהֹוָ֥ה אֲדֹנֵ֑ינוּ מָֽה־אַדִּ֥יר שִׁ֝מְךָ֗ בְּכָל־הָאָֽרֶץ׃",
+      "text_with_niqqud": "יְהֹוָה אֲדֹנֵינוּ מָה אַדִּיר שִׁמְךָ בְּכָל הָאָרֶץ",
+      "text_plain": "יהוה אדנינו מה אדיר שמך בכל הארץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-008.txt"
+    }
+  ]
+}

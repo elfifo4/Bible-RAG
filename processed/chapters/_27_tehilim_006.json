@@ -1,0 +1,210 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 6,
+  "chapter_id": "_27_tehilim_006",
+  "ref": "תהילים ו",
+  "ref_en": "Psalms 6",
+  "source_file": "_27_tehilim-006.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_006_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 6,
+      "verse": 1,
+      "ref": "תהילים ו:א",
+      "ref_en": "Psalms 6:1",
+      "text_original": "לַמְנַצֵּ֣חַ בִּ֭נְגִינוֹת עַֽל־הַשְּׁמִינִ֗ית מִזְמ֥וֹר לְדָוִֽד׃",
+      "text_with_niqqud": "לַמְנַצֵּחַ בִּנְגִינוֹת עַל הַשְּׁמִינִית מִזְמוֹר לְדָוִד",
+      "text_plain": "למנצח בנגינות על השמינית מזמור לדוד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-006.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_006_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 6,
+      "verse": 2,
+      "ref": "תהילים ו:ב",
+      "ref_en": "Psalms 6:2",
+      "text_original": "יְֽהֹוָ֗ה אַל־בְּאַפְּךָ֥ תֽוֹכִיחֵ֑נִי וְֽאַל־בַּחֲמָתְךָ֥ תְיַסְּרֵֽנִי׃",
+      "text_with_niqqud": "יְהֹוָה אַל בְּאַפְּךָ תוֹכִיחֵנִי וְאַל בַּחֲמָתְךָ תְיַסְּרֵנִי",
+      "text_plain": "יהוה אל באפך תוכיחני ואל בחמתך תיסרני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-006.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_006_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 6,
+      "verse": 3,
+      "ref": "תהילים ו:ג",
+      "ref_en": "Psalms 6:3",
+      "text_original": "חָנֵּ֥נִי יְהֹוָה֮ כִּ֤י אֻמְלַ֫ל אָ֥נִי רְפָאֵ֥נִי יְהֹוָ֑ה כִּ֖י נִבְהֲל֣וּ עֲצָמָֽי׃",
+      "text_with_niqqud": "חָנֵּנִי יְהֹוָה כִּי אֻמְלַל אָנִי רְפָאֵנִי יְהֹוָה כִּי נִבְהֲלוּ עֲצָמָי",
+      "text_plain": "חנני יהוה כי אמלל אני רפאני יהוה כי נבהלו עצמי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-006.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_006_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 6,
+      "verse": 4,
+      "ref": "תהילים ו:ד",
+      "ref_en": "Psalms 6:4",
+      "text_original": "וְ֭נַפְשִׁי נִבְהֲלָ֣ה מְאֹ֑ד ואת (וְאַתָּ֥ה) יְ֝הֹוָ֗ה עַד־מָתָֽי׃",
+      "text_with_niqqud": "וְנַפְשִׁי נִבְהֲלָה מְאֹד ואת (וְאַתָּה) יְהֹוָה עַד מָתָי",
+      "text_plain": "ונפשי נבהלה מאד ואת (ואתה) יהוה עד מתי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-006.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_006_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 6,
+      "verse": 5,
+      "ref": "תהילים ו:ה",
+      "ref_en": "Psalms 6:5",
+      "text_original": "שׁוּבָ֣ה יְ֭הֹוָה חַלְּצָ֣ה נַפְשִׁ֑י הֽ֝וֹשִׁיעֵ֗נִי לְמַ֣עַן חַסְדֶּֽךָ׃",
+      "text_with_niqqud": "שׁוּבָה יְהֹוָה חַלְּצָה נַפְשִׁי הוֹשִׁיעֵנִי לְמַעַן חַסְדֶּךָ",
+      "text_plain": "שובה יהוה חלצה נפשי הושיעני למען חסדך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-006.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_006_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 6,
+      "verse": 6,
+      "ref": "תהילים ו:ו",
+      "ref_en": "Psalms 6:6",
+      "text_original": "כִּ֤י אֵ֣ין בַּמָּ֣וֶת זִכְרֶ֑ךָ בִּ֝שְׁא֗וֹל מִ֣י יֽוֹדֶה־לָּֽךְ׃",
+      "text_with_niqqud": "כִּי אֵין בַּמָּוֶת זִכְרֶךָ בִּשְׁאוֹל מִי יוֹדֶה לָּךְ",
+      "text_plain": "כי אין במות זכרך בשאול מי יודה לך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-006.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_006_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 6,
+      "verse": 7,
+      "ref": "תהילים ו:ז",
+      "ref_en": "Psalms 6:7",
+      "text_original": "יָגַ֤עְתִּי ׀ בְּֽאַנְחָתִ֗י אַשְׂחֶ֣ה בְכָל־לַ֭יְלָה מִטָּתִ֑י בְּ֝דִמְעָתִ֗י עַרְשִׂ֥י אַמְסֶֽה׃",
+      "text_with_niqqud": "יָגַעְתִּי בְּאַנְחָתִי אַשְׂחֶה בְכָל לַיְלָה מִטָּתִי בְּדִמְעָתִי עַרְשִׂי אַמְסֶה",
+      "text_plain": "יגעתי באנחתי אשחה בכל לילה מטתי בדמעתי ערשי אמסה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-006.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_006_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 6,
+      "verse": 8,
+      "ref": "תהילים ו:ח",
+      "ref_en": "Psalms 6:8",
+      "text_original": "עָֽשְׁשָׁ֣ה מִכַּ֣עַס עֵינִ֑י עָֽ֝תְקָ֗ה בְּכָל־צֽוֹרְרָֽי׃",
+      "text_with_niqqud": "עָשְׁשָׁה מִכַּעַס עֵינִי עָתְקָה בְּכָל צוֹרְרָי",
+      "text_plain": "עששה מכעס עיני עתקה בכל צוררי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-006.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_006_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 6,
+      "verse": 9,
+      "ref": "תהילים ו:ט",
+      "ref_en": "Psalms 6:9",
+      "text_original": "ס֣וּרוּ מִ֭מֶּנִּי כָּל־פֹּ֣עֲלֵי אָ֑וֶן כִּֽי־שָׁמַ֥ע יְ֝הֹוָ֗ה ק֣וֹל בִּכְיִֽי׃",
+      "text_with_niqqud": "סוּרוּ מִמֶּנִּי כָּל פֹּעֲלֵי אָוֶן כִּי שָׁמַע יְהֹוָה קוֹל בִּכְיִי",
+      "text_plain": "סורו ממני כל פעלי און כי שמע יהוה קול בכיי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-006.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_006_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 6,
+      "verse": 10,
+      "ref": "תהילים ו:י",
+      "ref_en": "Psalms 6:10",
+      "text_original": "שָׁמַ֣ע יְ֭הֹוָה תְּחִנָּתִ֑י יְ֝הֹוָ֗ה תְּֽפִלָּתִ֥י יִקָּֽח׃",
+      "text_with_niqqud": "שָׁמַע יְהֹוָה תְּחִנָּתִי יְהֹוָה תְּפִלָּתִי יִקָּח",
+      "text_plain": "שמע יהוה תחנתי יהוה תפלתי יקח",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-006.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_006_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 6,
+      "verse": 11,
+      "ref": "תהילים ו:יא",
+      "ref_en": "Psalms 6:11",
+      "text_original": "יֵבֹ֤שׁוּ ׀ וְיִבָּֽהֲל֣וּ מְ֭אֹד כָּל־אֹֽיְבָ֑י יָ֝שֻׁ֗בוּ יֵבֹ֥שׁוּ רָֽגַע׃",
+      "text_with_niqqud": "יֵבֹשׁוּ וְיִבָּהֲלוּ מְאֹד כָּל אֹיְבָי יָשֻׁבוּ יֵבֹשׁוּ רָגַע",
+      "text_plain": "יבשו ויבהלו מאד כל איבי ישבו יבשו רגע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-006.txt"
+    }
+  ]
+}

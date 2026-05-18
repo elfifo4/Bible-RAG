@@ -1,0 +1,1034 @@
+{
+  "book": "דברי הימים א",
+  "book_en": "1 Chronicles",
+  "book_slug": "divrei_hayamim_a",
+  "chapter": 1,
+  "chapter_id": "_38_divrei_hayamim_a_001",
+  "ref": "דברי הימים א א",
+  "ref_en": "1 Chronicles 1",
+  "source_file": "_38_divrei_hayamim_a-01.txt",
+  "verses": [
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_001",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 1,
+      "ref": "דברי הימים א א:א",
+      "ref_en": "1 Chronicles 1:1",
+      "text_original": "אָדָ֥ם שֵׁ֖ת אֱנֽוֹשׁ׃",
+      "text_with_niqqud": "אָדָם שֵׁת אֱנוֹשׁ",
+      "text_plain": "אדם שת אנוש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_002",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 2,
+      "ref": "דברי הימים א א:ב",
+      "ref_en": "1 Chronicles 1:2",
+      "text_original": "קֵינָ֥ן מַֽהֲלַלְאֵ֖ל יָֽרֶד׃",
+      "text_with_niqqud": "קֵינָן מַהֲלַלְאֵל יָרֶד",
+      "text_plain": "קינן מהללאל ירד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_003",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 3,
+      "ref": "דברי הימים א א:ג",
+      "ref_en": "1 Chronicles 1:3",
+      "text_original": "חֲנ֥וֹךְ מְתוּשֶׁ֖לַח לָֽמֶךְ׃",
+      "text_with_niqqud": "חֲנוֹךְ מְתוּשֶׁלַח לָמֶךְ",
+      "text_plain": "חנוך מתושלח למך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_004",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 4,
+      "ref": "דברי הימים א א:ד",
+      "ref_en": "1 Chronicles 1:4",
+      "text_original": "נֹ֥חַ שֵׁ֖ם חָ֥ם וָיָֽפֶת׃",
+      "text_with_niqqud": "נֹחַ שֵׁם חָם וָיָפֶת",
+      "text_plain": "נח שם חם ויפת",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_005",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 5,
+      "ref": "דברי הימים א א:ה",
+      "ref_en": "1 Chronicles 1:5",
+      "text_original": "בְּנֵ֣י יֶ֔פֶת גֹּ֣מֶר וּמָג֔וֹג וּמָדַ֖י וְיָוָ֣ן וְתֻבָ֑ל וּמֶ֖שֶׁךְ וְתִירָֽס׃",
+      "text_with_niqqud": "בְּנֵי יֶפֶת גֹּמֶר וּמָגוֹג וּמָדַי וְיָוָן וְתֻבָל וּמֶשֶׁךְ וְתִירָס",
+      "text_plain": "בני יפת גמר ומגוג ומדי ויון ותבל ומשך ותירס",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_006",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 6,
+      "ref": "דברי הימים א א:ו",
+      "ref_en": "1 Chronicles 1:6",
+      "text_original": "וּבְנֵ֖י גֹּ֑מֶר אַשְׁכְּנַ֥ז וְדִיפַ֖ת וְתֽוֹגַרְמָֽה׃",
+      "text_with_niqqud": "וּבְנֵי גֹּמֶר אַשְׁכְּנַז וְדִיפַת וְתוֹגַרְמָה",
+      "text_plain": "ובני גמר אשכנז ודיפת ותוגרמה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_007",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 7,
+      "ref": "דברי הימים א א:ז",
+      "ref_en": "1 Chronicles 1:7",
+      "text_original": "וּבְנֵ֥י יָוָ֖ן אֱלִישָׁ֣ה וְתַרְשִׁ֑ישָׁה כִּתִּ֖ים וְרֽוֹדָנִֽים׃",
+      "text_with_niqqud": "וּבְנֵי יָוָן אֱלִישָׁה וְתַרְשִׁישָׁה כִּתִּים וְרוֹדָנִים",
+      "text_plain": "ובני יון אלישה ותרשישה כתים ורודנים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_008",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 8,
+      "ref": "דברי הימים א א:ח",
+      "ref_en": "1 Chronicles 1:8",
+      "text_original": "בְּנֵ֖י חָ֑ם כּ֥וּשׁ וּמִצְרַ֖יִם פּ֥וּט וּכְנָֽעַן׃",
+      "text_with_niqqud": "בְּנֵי חָם כּוּשׁ וּמִצְרַיִם פּוּט וּכְנָעַן",
+      "text_plain": "בני חם כוש ומצרים פוט וכנען",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_009",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 9,
+      "ref": "דברי הימים א א:ט",
+      "ref_en": "1 Chronicles 1:9",
+      "text_original": "וּבְנֵ֣י כ֔וּשׁ סְבָא֙ וַֽחֲוִילָ֔ה וְסַבְתָּ֥א וְרַעְמָ֖א וְסַבְתְּכָ֑א וּבְנֵ֥י רַעְמָ֖א שְׁבָ֥א וּדְדָֽן׃",
+      "text_with_niqqud": "וּבְנֵי כוּשׁ סְבָא וַחֲוִילָה וְסַבְתָּא וְרַעְמָא וְסַבְתְּכָא וּבְנֵי רַעְמָא שְׁבָא וּדְדָן",
+      "text_plain": "ובני כוש סבא וחוילה וסבתא ורעמא וסבתכא ובני רעמא שבא ודדן",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_010",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 10,
+      "ref": "דברי הימים א א:י",
+      "ref_en": "1 Chronicles 1:10",
+      "text_original": "וְכ֖וּשׁ יָלַ֣ד אֶת־נִמְר֑וֹד ה֣וּא הֵחֵ֔ל לִֽהְי֥וֹת גִּבּ֖וֹר בָּאָֽרֶץ׃",
+      "text_with_niqqud": "וְכוּשׁ יָלַד אֶת נִמְרוֹד הוּא הֵחֵל לִהְיוֹת גִּבּוֹר בָּאָרֶץ",
+      "text_plain": "וכוש ילד את נמרוד הוא החל להיות גבור בארץ",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_011",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 11,
+      "ref": "דברי הימים א א:יא",
+      "ref_en": "1 Chronicles 1:11",
+      "text_original": "וּמִצְרַ֡יִם יָלַ֞ד אֶת־לודיים (לוּדִ֧ים) וְאֶת־עֲנָמִ֛ים וְאֶת־לְהָבִ֖ים וְאֶת־נַפְתֻּחִֽים׃",
+      "text_with_niqqud": "וּמִצְרַיִם יָלַד אֶת לודיים (לוּדִים) וְאֶת עֲנָמִים וְאֶת לְהָבִים וְאֶת נַפְתֻּחִים",
+      "text_plain": "ומצרים ילד את לודיים (לודים) ואת ענמים ואת להבים ואת נפתחים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_012",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 12,
+      "ref": "דברי הימים א א:יב",
+      "ref_en": "1 Chronicles 1:12",
+      "text_original": "וְֽאֶת־פַּתְרֻסִ֞ים וְאֶת־כַּסְלֻחִ֗ים אֲשֶׁ֨ר יָֽצְא֥וּ מִשָּׁ֛ם פְּלִשְׁתִּ֖ים וְאֶת־כַּפְתֹּרִֽים׃",
+      "text_with_niqqud": "וְאֶת פַּתְרֻסִים וְאֶת כַּסְלֻחִים אֲשֶׁר יָצְאוּ מִשָּׁם פְּלִשְׁתִּים וְאֶת כַּפְתֹּרִים",
+      "text_plain": "ואת פתרסים ואת כסלחים אשר יצאו משם פלשתים ואת כפתרים",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_013",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 13,
+      "ref": "דברי הימים א א:יג",
+      "ref_en": "1 Chronicles 1:13",
+      "text_original": "וּכְנַ֗עַן יָלַ֛ד אֶת־צִיד֥וֹן בְּכֹר֖וֹ וְאֶת־חֵֽת׃",
+      "text_with_niqqud": "וּכְנַעַן יָלַד אֶת צִידוֹן בְּכֹרוֹ וְאֶת חֵת",
+      "text_plain": "וכנען ילד את צידון בכרו ואת חת",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_014",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 14,
+      "ref": "דברי הימים א א:יד",
+      "ref_en": "1 Chronicles 1:14",
+      "text_original": "וְאֶת־הַיְבוּסִי֙ וְאֶת־הָ֣אֱמֹרִ֔י וְאֵ֖ת הַגִּרְגָּשִֽׁי׃",
+      "text_with_niqqud": "וְאֶת הַיְבוּסִי וְאֶת הָאֱמֹרִי וְאֵת הַגִּרְגָּשִׁי",
+      "text_plain": "ואת היבוסי ואת האמרי ואת הגרגשי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_015",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 15,
+      "ref": "דברי הימים א א:טו",
+      "ref_en": "1 Chronicles 1:15",
+      "text_original": "וְאֶת־הַֽחִוִּ֥י וְאֶת־הַֽעַרְקִ֖י וְאֶת־הַסִּינִֽי׃",
+      "text_with_niqqud": "וְאֶת הַחִוִּי וְאֶת הַעַרְקִי וְאֶת הַסִּינִי",
+      "text_plain": "ואת החוי ואת הערקי ואת הסיני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_016",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 16,
+      "ref": "דברי הימים א א:טז",
+      "ref_en": "1 Chronicles 1:16",
+      "text_original": "וְאֶת־הָֽאַרְוָדִ֥י וְאֶת־הַצְּמָרִ֖י וְאֶת־הַֽחֲמָתִֽי׃",
+      "text_with_niqqud": "וְאֶת הָאַרְוָדִי וְאֶת הַצְּמָרִי וְאֶת הַחֲמָתִי",
+      "text_plain": "ואת הארודי ואת הצמרי ואת החמתי",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_017",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 17,
+      "ref": "דברי הימים א א:יז",
+      "ref_en": "1 Chronicles 1:17",
+      "text_original": "בְּנֵ֣י שֵׁ֔ם עֵילָ֣ם וְאַשּׁ֔וּר וְאַרְפַּכְשַׁ֖ד וְל֣וּד וַֽאֲרָ֑ם וְע֥וּץ וְח֖וּל וְגֶ֥תֶר וָמֶֽשֶׁךְ׃",
+      "text_with_niqqud": "בְּנֵי שֵׁם עֵילָם וְאַשּׁוּר וְאַרְפַּכְשַׁד וְלוּד וַאֲרָם וְעוּץ וְחוּל וְגֶתֶר וָמֶשֶׁךְ",
+      "text_plain": "בני שם עילם ואשור וארפכשד ולוד וארם ועוץ וחול וגתר ומשך",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_018",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 18,
+      "ref": "דברי הימים א א:יח",
+      "ref_en": "1 Chronicles 1:18",
+      "text_original": "וְאַרְפַּכְשַׁ֖ד יָלַ֣ד אֶת־שָׁ֑לַח וְשֶׁ֖לַח יָלַ֥ד אֶת־עֵֽבֶר׃",
+      "text_with_niqqud": "וְאַרְפַּכְשַׁד יָלַד אֶת שָׁלַח וְשֶׁלַח יָלַד אֶת עֵבֶר",
+      "text_plain": "וארפכשד ילד את שלח ושלח ילד את עבר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_019",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 19,
+      "ref": "דברי הימים א א:יט",
+      "ref_en": "1 Chronicles 1:19",
+      "text_original": "וּלְעֵ֥בֶר יֻלַּ֖ד שְׁנֵ֣י בָנִ֑ים שֵׁ֣ם הָֽאֶחָ֞ד פֶּ֗לֶג כִּ֤י בְיָמָיו֙ נִפְלְגָ֣ה הָאָ֔רֶץ וְשֵׁ֥ם אָחִ֖יו יָקְטָֽן׃",
+      "text_with_niqqud": "וּלְעֵבֶר יֻלַּד שְׁנֵי בָנִים שֵׁם הָאֶחָד פֶּלֶג כִּי בְיָמָיו נִפְלְגָה הָאָרֶץ וְשֵׁם אָחִיו יָקְטָן",
+      "text_plain": "ולעבר ילד שני בנים שם האחד פלג כי בימיו נפלגה הארץ ושם אחיו יקטן",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_020",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 20,
+      "ref": "דברי הימים א א:כ",
+      "ref_en": "1 Chronicles 1:20",
+      "text_original": "וְיָקְטָ֣ן יָלַ֔ד אֶת־אַלְמוֹדָ֖ד וְאֶת־שָׁ֑לֶף וְאֶת־חֲצַרְמָ֖וֶת וְאֶת־יָֽרַח׃",
+      "text_with_niqqud": "וְיָקְטָן יָלַד אֶת אַלְמוֹדָד וְאֶת שָׁלֶף וְאֶת חֲצַרְמָוֶת וְאֶת יָרַח",
+      "text_plain": "ויקטן ילד את אלמודד ואת שלף ואת חצרמות ואת ירח",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_021",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 21,
+      "ref": "דברי הימים א א:כא",
+      "ref_en": "1 Chronicles 1:21",
+      "text_original": "וְאֶת־הֲדוֹרָ֥ם וְאֶת־אוּזָ֖ל וְאֶת־דִּקְלָֽה׃",
+      "text_with_niqqud": "וְאֶת הֲדוֹרָם וְאֶת אוּזָל וְאֶת דִּקְלָה",
+      "text_plain": "ואת הדורם ואת אוזל ואת דקלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_022",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 22,
+      "ref": "דברי הימים א א:כב",
+      "ref_en": "1 Chronicles 1:22",
+      "text_original": "וְאֶת־עֵיבָ֥ל וְאֶת־אֲבִימָאֵ֖ל וְאֶת־שְׁבָֽא׃",
+      "text_with_niqqud": "וְאֶת עֵיבָל וְאֶת אֲבִימָאֵל וְאֶת שְׁבָא",
+      "text_plain": "ואת עיבל ואת אבימאל ואת שבא",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_023",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 23,
+      "ref": "דברי הימים א א:כג",
+      "ref_en": "1 Chronicles 1:23",
+      "text_original": "וְאֶת־אוֹפִ֥יר וְאֶת־חֲוִילָ֖ה וְאֶת־יוֹבָ֑ב כָּל־אֵ֖לֶּה בְּנֵ֥י יָקְטָֽן׃",
+      "text_with_niqqud": "וְאֶת אוֹפִיר וְאֶת חֲוִילָה וְאֶת יוֹבָב כָּל אֵלֶּה בְּנֵי יָקְטָן",
+      "text_plain": "ואת אופיר ואת חוילה ואת יובב כל אלה בני יקטן",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_024",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 24,
+      "ref": "דברי הימים א א:כד",
+      "ref_en": "1 Chronicles 1:24",
+      "text_original": "שֵׁ֥ם ׀ אַרְפַּכְשַׁ֖ד שָֽׁלַח׃",
+      "text_with_niqqud": "שֵׁם אַרְפַּכְשַׁד שָׁלַח",
+      "text_plain": "שם ארפכשד שלח",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_025",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 25,
+      "ref": "דברי הימים א א:כה",
+      "ref_en": "1 Chronicles 1:25",
+      "text_original": "עֵ֥בֶר פֶּ֖לֶג רְעֽוּ׃",
+      "text_with_niqqud": "עֵבֶר פֶּלֶג רְעוּ",
+      "text_plain": "עבר פלג רעו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_026",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 26,
+      "ref": "דברי הימים א א:כו",
+      "ref_en": "1 Chronicles 1:26",
+      "text_original": "שְׂר֥וּג נָח֖וֹר תָּֽרַח׃",
+      "text_with_niqqud": "שְׂרוּג נָחוֹר תָּרַח",
+      "text_plain": "שרוג נחור תרח",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_027",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 27,
+      "ref": "דברי הימים א א:כז",
+      "ref_en": "1 Chronicles 1:27",
+      "text_original": "אַבְרָ֖ם ה֥וּא אַבְרָהָֽם׃",
+      "text_with_niqqud": "אַבְרָם הוּא אַבְרָהָם",
+      "text_plain": "אברם הוא אברהם",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_028",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 28,
+      "ref": "דברי הימים א א:כח",
+      "ref_en": "1 Chronicles 1:28",
+      "text_original": "בְּנֵי֙ אַבְרָהָ֔ם יִצְחָ֖ק וְיִשְׁמָעֵֽאל׃",
+      "text_with_niqqud": "בְּנֵי אַבְרָהָם יִצְחָק וְיִשְׁמָעֵאל",
+      "text_plain": "בני אברהם יצחק וישמעאל",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_029",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 29,
+      "ref": "דברי הימים א א:כט",
+      "ref_en": "1 Chronicles 1:29",
+      "text_original": "אֵ֖לֶּה תֹּֽלְדוֹתָ֑ם בְּכ֤וֹר יִשְׁמָעֵאל֙ נְבָי֔וֹת וְקֵדָ֥ר וְאַדְבְּאֵ֖ל וּמִבְשָֽׂם׃",
+      "text_with_niqqud": "אֵלֶּה תֹּלְדוֹתָם בְּכוֹר יִשְׁמָעֵאל נְבָיוֹת וְקֵדָר וְאַדְבְּאֵל וּמִבְשָׂם",
+      "text_plain": "אלה תלדותם בכור ישמעאל נביות וקדר ואדבאל ומבשם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_030",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 30,
+      "ref": "דברי הימים א א:ל",
+      "ref_en": "1 Chronicles 1:30",
+      "text_original": "מִשְׁמָ֣ע וְדוּמָ֔ה מַשָּׂ֖א חֲדַ֥ד וְתֵימָֽא׃",
+      "text_with_niqqud": "מִשְׁמָע וְדוּמָה מַשָּׂא חֲדַד וְתֵימָא",
+      "text_plain": "משמע ודומה משא חדד ותימא",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_031",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 31,
+      "ref": "דברי הימים א א:לא",
+      "ref_en": "1 Chronicles 1:31",
+      "text_original": "יְט֥וּר נָפִ֖ישׁ וָקֵ֑דְמָה אֵ֥לֶּה הֵ֖ם בְּנֵ֥י יִשְׁמָעֵֽאל׃",
+      "text_with_niqqud": "יְטוּר נָפִישׁ וָקֵדְמָה אֵלֶּה הֵם בְּנֵי יִשְׁמָעֵאל",
+      "text_plain": "יטור נפיש וקדמה אלה הם בני ישמעאל",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_032",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 32,
+      "ref": "דברי הימים א א:לב",
+      "ref_en": "1 Chronicles 1:32",
+      "text_original": "וּבְנֵ֨י קְטוּרָ֜ה פִּילֶ֣גֶשׁ אַבְרָהָ֗ם יָֽלְדָ֞ה אֶת־זִמְרָ֧ן וְיָקְשָׁ֛ן וּמְדָ֥ן וּמִדְיָ֖ן וְיִשְׁבָּ֣ק וְשׁ֑וּחַ וּבְנֵ֥י יָקְשָׁ֖ן שְׁבָ֥א וּדְדָֽן׃",
+      "text_with_niqqud": "וּבְנֵי קְטוּרָה פִּילֶגֶשׁ אַבְרָהָם יָלְדָה אֶת זִמְרָן וְיָקְשָׁן וּמְדָן וּמִדְיָן וְיִשְׁבָּק וְשׁוּחַ וּבְנֵי יָקְשָׁן שְׁבָא וּדְדָן",
+      "text_plain": "ובני קטורה פילגש אברהם ילדה את זמרן ויקשן ומדן ומדין וישבק ושוח ובני יקשן שבא ודדן",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_033",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 33,
+      "ref": "דברי הימים א א:לג",
+      "ref_en": "1 Chronicles 1:33",
+      "text_original": "וּבְנֵ֣י מִדְיָ֗ן עֵיפָ֤ה וָעֵ֨פֶר֙ וַֽחֲנ֔וֹךְ וַֽאֲבִידָ֖ע וְאֶלְדָּעָ֑ה כָּל־אֵ֖לֶּה בְּנֵ֥י קְטוּרָֽה׃",
+      "text_with_niqqud": "וּבְנֵי מִדְיָן עֵיפָה וָעֵפֶר וַחֲנוֹךְ וַאֲבִידָע וְאֶלְדָּעָה כָּל אֵלֶּה בְּנֵי קְטוּרָה",
+      "text_plain": "ובני מדין עיפה ועפר וחנוך ואבידע ואלדעה כל אלה בני קטורה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_034",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 34,
+      "ref": "דברי הימים א א:לד",
+      "ref_en": "1 Chronicles 1:34",
+      "text_original": "וַיּ֥וֹלֶד אַבְרָהָ֖ם אֶת־יִצְחָ֑ק בְּנֵ֣י יִצְחָ֔ק עֵשָׂ֖ו וְיִשְׂרָאֵֽל׃",
+      "text_with_niqqud": "וַיּוֹלֶד אַבְרָהָם אֶת יִצְחָק בְּנֵי יִצְחָק עֵשָׂו וְיִשְׂרָאֵל",
+      "text_plain": "ויולד אברהם את יצחק בני יצחק עשו וישראל",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_035",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 35,
+      "ref": "דברי הימים א א:לה",
+      "ref_en": "1 Chronicles 1:35",
+      "text_original": "בְּנֵ֖י עֵשָׂ֑ו אֱלִיפַ֛ז רְעוּאֵ֥ל וִיע֖וּשׁ וְיַעְלָ֥ם וְקֹֽרַח׃",
+      "text_with_niqqud": "בְּנֵי עֵשָׂו אֱלִיפַז רְעוּאֵל וִיעוּשׁ וְיַעְלָם וְקֹרַח",
+      "text_plain": "בני עשו אליפז רעואל ויעוש ויעלם וקרח",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_036",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 36,
+      "ref": "דברי הימים א א:לו",
+      "ref_en": "1 Chronicles 1:36",
+      "text_original": "בְּנֵ֖י אֱלִיפָ֑ז תֵּימָ֤ן וְאוֹמָר֙ צְפִ֣י וְגַעְתָּ֔ם קְנַ֖ז וְתִמְנָ֥ע וַֽעֲמָלֵֽק׃",
+      "text_with_niqqud": "בְּנֵי אֱלִיפָז תֵּימָן וְאוֹמָר צְפִי וְגַעְתָּם קְנַז וְתִמְנָע וַעֲמָלֵק",
+      "text_plain": "בני אליפז תימן ואומר צפי וגעתם קנז ותמנע ועמלק",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_037",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 37,
+      "ref": "דברי הימים א א:לז",
+      "ref_en": "1 Chronicles 1:37",
+      "text_original": "בְּנֵ֖י רְעוּאֵ֑ל נַ֥חַת זֶ֖רַח שַׁמָּ֥ה וּמִזָּֽה׃",
+      "text_with_niqqud": "בְּנֵי רְעוּאֵל נַחַת זֶרַח שַׁמָּה וּמִזָּה",
+      "text_plain": "בני רעואל נחת זרח שמה ומזה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_038",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 38,
+      "ref": "דברי הימים א א:לח",
+      "ref_en": "1 Chronicles 1:38",
+      "text_original": "וּבְנֵ֣י שֵׂעִ֔יר לוֹטָ֥ן וְשׁוֹבָ֖ל וְצִבְע֣וֹן וַֽעֲנָ֑ה וְדִישֹׁ֥ן וְאֵ֖צֶר וְדִישָֽׁן׃",
+      "text_with_niqqud": "וּבְנֵי שֵׂעִיר לוֹטָן וְשׁוֹבָל וְצִבְעוֹן וַעֲנָה וְדִישֹׁן וְאֵצֶר וְדִישָׁן",
+      "text_plain": "ובני שעיר לוטן ושובל וצבעון וענה ודישן ואצר ודישן",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_039",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 39,
+      "ref": "דברי הימים א א:לט",
+      "ref_en": "1 Chronicles 1:39",
+      "text_original": "וּבְנֵ֥י לוֹטָ֖ן חֹרִ֣י וְהוֹמָ֑ם וַֽאֲח֥וֹת לוֹטָ֖ן תִּמְנָֽע׃",
+      "text_with_niqqud": "וּבְנֵי לוֹטָן חֹרִי וְהוֹמָם וַאֲחוֹת לוֹטָן תִּמְנָע",
+      "text_plain": "ובני לוטן חרי והומם ואחות לוטן תמנע",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_040",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 40,
+      "ref": "דברי הימים א א:מ",
+      "ref_en": "1 Chronicles 1:40",
+      "text_original": "בְּנֵ֣י שׁוֹבָ֔ל עַלְיָ֧ן וּמָנַ֛חַת וְעֵיבָ֖ל שְׁפִ֣י וְאוֹנָ֑ם וּבְנֵ֥י צִבְע֖וֹן אַיָּ֥ה וַֽעֲנָֽה׃",
+      "text_with_niqqud": "בְּנֵי שׁוֹבָל עַלְיָן וּמָנַחַת וְעֵיבָל שְׁפִי וְאוֹנָם וּבְנֵי צִבְעוֹן אַיָּה וַעֲנָה",
+      "text_plain": "בני שובל עלין ומנחת ועיבל שפי ואונם ובני צבעון איה וענה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_041",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 41,
+      "ref": "דברי הימים א א:מא",
+      "ref_en": "1 Chronicles 1:41",
+      "text_original": "בְּנֵ֥י עֲנָ֖ה דִּישׁ֑וֹן וּבְנֵ֣י דִישׁ֔וֹן חַמְרָ֥ן וְאֶשְׁבָּ֖ן וְיִתְרָ֥ן וּכְרָֽן׃",
+      "text_with_niqqud": "בְּנֵי עֲנָה דִּישׁוֹן וּבְנֵי דִישׁוֹן חַמְרָן וְאֶשְׁבָּן וְיִתְרָן וּכְרָן",
+      "text_plain": "בני ענה דישון ובני דישון חמרן ואשבן ויתרן וכרן",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_042",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 42,
+      "ref": "דברי הימים א א:מב",
+      "ref_en": "1 Chronicles 1:42",
+      "text_original": "בְּֽנֵי־אֵ֔צֶר בִּלְהָ֥ן וְזַֽעֲוָ֖ן יַֽעֲקָ֑ן בְּנֵ֥י דִישׁ֖וֹן ע֥וּץ וַֽאֲרָֽן׃",
+      "text_with_niqqud": "בְּנֵי אֵצֶר בִּלְהָן וְזַעֲוָן יַעֲקָן בְּנֵי דִישׁוֹן עוּץ וַאֲרָן",
+      "text_plain": "בני אצר בלהן וזעון יעקן בני דישון עוץ וארן",
+      "markers": {
+        "before": [],
+        "after": [
+          "פ"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_043",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 43,
+      "ref": "דברי הימים א א:מג",
+      "ref_en": "1 Chronicles 1:43",
+      "text_original": "וְאֵ֣לֶּה הַמְּלָכִ֗ים אֲשֶׁ֤ר מָֽלְכוּ֙ בְּאֶ֣רֶץ אֱד֔וֹם לִפְנֵ֥י מְלָךְ־מֶ֖לֶךְ לִבְנֵ֣י יִשְׂרָאֵ֑ל בֶּ֚לַע בֶּן־בְּע֔וֹר וְשֵׁ֥ם עִיר֖וֹ דִּנְהָֽבָה׃",
+      "text_with_niqqud": "וְאֵלֶּה הַמְּלָכִים אֲשֶׁר מָלְכוּ בְּאֶרֶץ אֱדוֹם לִפְנֵי מְלָךְ מֶלֶךְ לִבְנֵי יִשְׂרָאֵל בֶּלַע בֶּן בְּעוֹר וְשֵׁם עִירוֹ דִּנְהָבָה",
+      "text_plain": "ואלה המלכים אשר מלכו בארץ אדום לפני מלך מלך לבני ישראל בלע בן בעור ושם עירו דנהבה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_044",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 44,
+      "ref": "דברי הימים א א:מד",
+      "ref_en": "1 Chronicles 1:44",
+      "text_original": "וַיָּ֖מָת בָּ֑לַע וַיִּמְלֹ֣ךְ תַּחְתָּ֔יו יוֹבָ֥ב בֶּן־זֶ֖רַח מִבָּצְרָֽה׃",
+      "text_with_niqqud": "וַיָּמָת בָּלַע וַיִּמְלֹךְ תַּחְתָּיו יוֹבָב בֶּן זֶרַח מִבָּצְרָה",
+      "text_plain": "וימת בלע וימלך תחתיו יובב בן זרח מבצרה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_045",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 45,
+      "ref": "דברי הימים א א:מה",
+      "ref_en": "1 Chronicles 1:45",
+      "text_original": "וַיָּ֖מָת יוֹבָ֑ב וַיִּמְלֹ֣ךְ תַּחְתָּ֔יו חוּשָׁ֖ם מֵאֶ֥רֶץ הַתֵּֽימָנִֽי׃",
+      "text_with_niqqud": "וַיָּמָת יוֹבָב וַיִּמְלֹךְ תַּחְתָּיו חוּשָׁם מֵאֶרֶץ הַתֵּימָנִי",
+      "text_plain": "וימת יובב וימלך תחתיו חושם מארץ התימני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_046",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 46,
+      "ref": "דברי הימים א א:מו",
+      "ref_en": "1 Chronicles 1:46",
+      "text_original": "וַיָּ֖מָת חוּשָׁ֑ם וַיִּמְלֹ֨ךְ תַּחְתָּ֜יו הֲדַ֣ד בֶּן־בְּדַ֗ד הַמַּכֶּ֤ה אֶת־מִדְיָן֙ בִּשְׂדֵ֣ה מוֹאָ֔ב וְשֵׁ֥ם עִיר֖וֹ עיות (עֲוִֽית)׃",
+      "text_with_niqqud": "וַיָּמָת חוּשָׁם וַיִּמְלֹךְ תַּחְתָּיו הֲדַד בֶּן בְּדַד הַמַּכֶּה אֶת מִדְיָן בִּשְׂדֵה מוֹאָב וְשֵׁם עִירוֹ עיות (עֲוִית)",
+      "text_plain": "וימת חושם וימלך תחתיו הדד בן בדד המכה את מדין בשדה מואב ושם עירו עיות (עוית)",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_047",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 47,
+      "ref": "דברי הימים א א:מז",
+      "ref_en": "1 Chronicles 1:47",
+      "text_original": "וַיָּ֖מָת הֲדָ֑ד וַיִּמְלֹ֣ךְ תַּחְתָּ֔יו שַׂמְלָ֖ה מִמַּשְׂרֵקָֽה׃",
+      "text_with_niqqud": "וַיָּמָת הֲדָד וַיִּמְלֹךְ תַּחְתָּיו שַׂמְלָה מִמַּשְׂרֵקָה",
+      "text_plain": "וימת הדד וימלך תחתיו שמלה ממשרקה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_048",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 48,
+      "ref": "דברי הימים א א:מח",
+      "ref_en": "1 Chronicles 1:48",
+      "text_original": "וַיָּ֖מָת שַׂמְלָ֑ה וַיִּמְלֹ֣ךְ תַּחְתָּ֔יו שָׁא֖וּל מֵֽרְחֹב֥וֹת הַנָּהָֽר׃",
+      "text_with_niqqud": "וַיָּמָת שַׂמְלָה וַיִּמְלֹךְ תַּחְתָּיו שָׁאוּל מֵרְחֹבוֹת הַנָּהָר",
+      "text_plain": "וימת שמלה וימלך תחתיו שאול מרחבות הנהר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_049",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 49,
+      "ref": "דברי הימים א א:מט",
+      "ref_en": "1 Chronicles 1:49",
+      "text_original": "וַיָּ֖מָת שָׁא֑וּל וַיִּמְלֹ֣ךְ תַּחְתָּ֔יו בַּ֥עַל חָנָ֖ן בֶּן־עַכְבּֽוֹר׃",
+      "text_with_niqqud": "וַיָּמָת שָׁאוּל וַיִּמְלֹךְ תַּחְתָּיו בַּעַל חָנָן בֶּן עַכְבּוֹר",
+      "text_plain": "וימת שאול וימלך תחתיו בעל חנן בן עכבור",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_050",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 50,
+      "ref": "דברי הימים א א:נ",
+      "ref_en": "1 Chronicles 1:50",
+      "text_original": "וַיָּ֨מָת֙ בַּ֣עַל חָנָ֔ן וַיִּמְלֹ֤ךְ תַּחְתָּיו֙ הֲדַ֔ד וְשֵׁ֥ם עִיר֖וֹ פָּ֑עִי וְשֵׁ֨ם אִשְׁתּ֤וֹ מְהֵֽיטַבְאֵל֙ בַּת־מַטְרֵ֔ד בַּ֖ת מֵ֥י זָהָֽב׃",
+      "text_with_niqqud": "וַיָּמָת בַּעַל חָנָן וַיִּמְלֹךְ תַּחְתָּיו הֲדַד וְשֵׁם עִירוֹ פָּעִי וְשֵׁם אִשְׁתּוֹ מְהֵיטַבְאֵל בַּת מַטְרֵד בַּת מֵי זָהָב",
+      "text_plain": "וימת בעל חנן וימלך תחתיו הדד ושם עירו פעי ושם אשתו מהיטבאל בת מטרד בת מי זהב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_051",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 51,
+      "ref": "דברי הימים א א:נא",
+      "ref_en": "1 Chronicles 1:51",
+      "text_original": "וַיָּ֖מָת הֲדָ֑ד וַיִּֽהְיוּ֙ אַלּוּפֵ֣י אֱד֔וֹם אַלּ֥וּף תִּמְנָ֛ע אַלּ֥וּף עליה (עַֽלְוָ֖ה) אַלּ֥וּף יְתֵֽת׃",
+      "text_with_niqqud": "וַיָּמָת הֲדָד וַיִּהְיוּ אַלּוּפֵי אֱדוֹם אַלּוּף תִּמְנָע אַלּוּף עליה (עַלְוָה) אַלּוּף יְתֵת",
+      "text_plain": "וימת הדד ויהיו אלופי אדום אלוף תמנע אלוף עליה (עלוה) אלוף יתת",
+      "markers": {
+        "before": [],
+        "after": [
+          "פ"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_052",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 52,
+      "ref": "דברי הימים א א:נב",
+      "ref_en": "1 Chronicles 1:52",
+      "text_original": "אַלּ֧וּף אָהֳלִֽיבָמָ֛ה אַלּ֥וּף אֵלָ֖ה אַלּ֥וּף פִּינֹֽן׃",
+      "text_with_niqqud": "אַלּוּף אָהֳלִיבָמָה אַלּוּף אֵלָה אַלּוּף פִּינֹן",
+      "text_plain": "אלוף אהליבמה אלוף אלה אלוף פינן",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_053",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 53,
+      "ref": "דברי הימים א א:נג",
+      "ref_en": "1 Chronicles 1:53",
+      "text_original": "אַלּ֥וּף קְנַ֛ז אַלּ֥וּף תֵּימָ֖ן אַלּ֥וּף מִבְצָֽר׃",
+      "text_with_niqqud": "אַלּוּף קְנַז אַלּוּף תֵּימָן אַלּוּף מִבְצָר",
+      "text_plain": "אלוף קנז אלוף תימן אלוף מבצר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_001_054",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 1,
+      "verse": 54,
+      "ref": "דברי הימים א א:נד",
+      "ref_en": "1 Chronicles 1:54",
+      "text_original": "אַלּ֥וּף מַגְדִּיאֵ֖ל אַלּ֣וּף עִירָ֑ם אֵ֖לֶּה אַלּוּפֵ֥י אֱדֽוֹם׃",
+      "text_with_niqqud": "אַלּוּף מַגְדִּיאֵל אַלּוּף עִירָם אֵלֶּה אַלּוּפֵי אֱדוֹם",
+      "text_plain": "אלוף מגדיאל אלוף עירם אלה אלופי אדום",
+      "markers": {
+        "before": [],
+        "after": [
+          "פ"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-01.txt"
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 135,
+  "chapter_id": "_27_tehilim_135",
+  "ref": "תהילים קלה",
+  "ref_en": "Psalms 135",
+  "source_file": "_27_tehilim-135.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_135_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 1,
+      "ref": "תהילים קלה:א",
+      "ref_en": "Psalms 135:1",
+      "text_original": "הַ֥לְלוּ יָ֨הּ ׀ הַֽ֭לְלוּ אֶת־שֵׁ֣ם יְהֹוָ֑ה הַֽ֝לְל֗וּ עַבְדֵ֥י יְהֹוָֽה׃",
+      "text_with_niqqud": "הַלְלוּ יָהּ הַלְלוּ אֶת שֵׁם יְהֹוָה הַלְלוּ עַבְדֵי יְהֹוָה",
+      "text_plain": "הללו יה הללו את שם יהוה הללו עבדי יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 2,
+      "ref": "תהילים קלה:ב",
+      "ref_en": "Psalms 135:2",
+      "text_original": "שֶׁ֣֭עֹמְדִים בְּבֵ֣ית יְהֹוָ֑ה בְּ֝חַצְר֗וֹת בֵּ֣ית אֱלֹהֵֽינוּ׃",
+      "text_with_niqqud": "שֶׁעֹמְדִים בְּבֵית יְהֹוָה בְּחַצְרוֹת בֵּית אֱלֹהֵינוּ",
+      "text_plain": "שעמדים בבית יהוה בחצרות בית אלהינו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 3,
+      "ref": "תהילים קלה:ג",
+      "ref_en": "Psalms 135:3",
+      "text_original": "הַֽלְלוּ־יָ֭הּ כִּֽי־ט֣וֹב יְהֹוָ֑ה זַמְּר֥וּ לִ֝שְׁמ֗וֹ כִּ֣י נָעִֽים׃",
+      "text_with_niqqud": "הַלְלוּ יָהּ כִּי טוֹב יְהֹוָה זַמְּרוּ לִשְׁמוֹ כִּי נָעִים",
+      "text_plain": "הללו יה כי טוב יהוה זמרו לשמו כי נעים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 4,
+      "ref": "תהילים קלה:ד",
+      "ref_en": "Psalms 135:4",
+      "text_original": "כִּֽי־יַעֲקֹ֗ב בָּחַ֣ר ל֣וֹ יָ֑הּ יִ֝שְׂרָאֵ֗ל לִסְגֻלָּתֽוֹ׃",
+      "text_with_niqqud": "כִּי יַעֲקֹב בָּחַר לוֹ יָהּ יִשְׂרָאֵל לִסְגֻלָּתוֹ",
+      "text_plain": "כי יעקב בחר לו יה ישראל לסגלתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 5,
+      "ref": "תהילים קלה:ה",
+      "ref_en": "Psalms 135:5",
+      "text_original": "כִּ֤י אֲנִ֣י יָ֭דַעְתִּי כִּֽי־גָד֣וֹל יְהֹוָ֑ה וַֽ֝אֲדֹנֵ֗ינוּ מִכָּל־אֱלֹהִֽים׃",
+      "text_with_niqqud": "כִּי אֲנִי יָדַעְתִּי כִּי גָדוֹל יְהֹוָה וַאֲדֹנֵינוּ מִכָּל אֱלֹהִים",
+      "text_plain": "כי אני ידעתי כי גדול יהוה ואדנינו מכל אלהים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 6,
+      "ref": "תהילים קלה:ו",
+      "ref_en": "Psalms 135:6",
+      "text_original": "כֹּ֤ל אֲשֶׁר־חָפֵ֥ץ יְהֹוָ֗ה עָ֫שָׂ֥ה בַּשָּׁמַ֥יִם וּבָאָ֑רֶץ בַּ֝יַּמִּ֗ים וְכָל־תְּהֹמֽוֹת׃",
+      "text_with_niqqud": "כֹּל אֲשֶׁר חָפֵץ יְהֹוָה עָשָׂה בַּשָּׁמַיִם וּבָאָרֶץ בַּיַּמִּים וְכָל תְּהֹמוֹת",
+      "text_plain": "כל אשר חפץ יהוה עשה בשמים ובארץ בימים וכל תהמות",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 7,
+      "ref": "תהילים קלה:ז",
+      "ref_en": "Psalms 135:7",
+      "text_original": "מַֽעֲלֶ֣ה נְשִׂאִים֮ מִקְצֵ֪ה הָ֫אָ֥רֶץ בְּרָקִ֣ים לַמָּטָ֣ר עָשָׂ֑ה מֽוֹצֵא־ר֝֗וּחַ מֵאֽוֹצְרוֹתָֽיו׃",
+      "text_with_niqqud": "מַעֲלֶה נְשִׂאִים מִקְצֵה הָאָרֶץ בְּרָקִים לַמָּטָר עָשָׂה מוֹצֵא רוּחַ מֵאוֹצְרוֹתָיו",
+      "text_plain": "מעלה נשאים מקצה הארץ ברקים למטר עשה מוצא רוח מאוצרותיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 8,
+      "ref": "תהילים קלה:ח",
+      "ref_en": "Psalms 135:8",
+      "text_original": "שֶֽׁ֭הִכָּה בְּכוֹרֵ֣י מִצְרָ֑יִם מֵֽ֝אָדָ֗ם עַד־בְּהֵמָֽה׃",
+      "text_with_niqqud": "שֶׁהִכָּה בְּכוֹרֵי מִצְרָיִם מֵאָדָם עַד בְּהֵמָה",
+      "text_plain": "שהכה בכורי מצרים מאדם עד בהמה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 9,
+      "ref": "תהילים קלה:ט",
+      "ref_en": "Psalms 135:9",
+      "text_original": "שָׁלַ֤ח ׀ אוֹתֹ֣ת וּ֭מֹֽפְתִים בְּתוֹכֵ֣כִי מִצְרָ֑יִם בְּ֝פַרְעֹ֗ה וּבְכָל־עֲבָדָֽיו׃",
+      "text_with_niqqud": "שָׁלַח אוֹתֹת וּמֹפְתִים בְּתוֹכֵכִי מִצְרָיִם בְּפַרְעֹה וּבְכָל עֲבָדָיו",
+      "text_plain": "שלח אותת ומפתים בתוככי מצרים בפרעה ובכל עבדיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 10,
+      "ref": "תהילים קלה:י",
+      "ref_en": "Psalms 135:10",
+      "text_original": "שֶֽׁ֭הִכָּה גּוֹיִ֣ם רַבִּ֑ים וְ֝הָרַ֗ג מְלָכִ֥ים עֲצוּמִֽים׃",
+      "text_with_niqqud": "שֶׁהִכָּה גּוֹיִם רַבִּים וְהָרַג מְלָכִים עֲצוּמִים",
+      "text_plain": "שהכה גוים רבים והרג מלכים עצומים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 11,
+      "ref": "תהילים קלה:יא",
+      "ref_en": "Psalms 135:11",
+      "text_original": "לְסִיח֤וֹן ׀ מֶ֤לֶךְ הָֽאֱמֹרִ֗י וּ֭לְעוֹג מֶ֣לֶךְ הַבָּשָׁ֑ן וּ֝לְכֹ֗ל מַמְלְכ֥וֹת כְּנָֽעַן׃",
+      "text_with_niqqud": "לְסִיחוֹן מֶלֶךְ הָאֱמֹרִי וּלְעוֹג מֶלֶךְ הַבָּשָׁן וּלְכֹל מַמְלְכוֹת כְּנָעַן",
+      "text_plain": "לסיחון מלך האמרי ולעוג מלך הבשן ולכל ממלכות כנען",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 12,
+      "ref": "תהילים קלה:יב",
+      "ref_en": "Psalms 135:12",
+      "text_original": "וְנָתַ֣ן אַרְצָ֣ם נַֽחֲלָ֑ה נַֽ֝חֲלָ֗ה לְיִשְׂרָאֵ֥ל עַמּֽוֹ׃",
+      "text_with_niqqud": "וְנָתַן אַרְצָם נַחֲלָה נַחֲלָה לְיִשְׂרָאֵל עַמּוֹ",
+      "text_plain": "ונתן ארצם נחלה נחלה לישראל עמו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 13,
+      "ref": "תהילים קלה:יג",
+      "ref_en": "Psalms 135:13",
+      "text_original": "יְ֭הֹוָה שִׁמְךָ֣ לְעוֹלָ֑ם יְ֝הֹוָ֗ה זִכְרְךָ֥ לְדֹר־וָדֹֽר׃",
+      "text_with_niqqud": "יְהֹוָה שִׁמְךָ לְעוֹלָם יְהֹוָה זִכְרְךָ לְדֹר וָדֹר",
+      "text_plain": "יהוה שמך לעולם יהוה זכרך לדר ודר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_014",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 14,
+      "ref": "תהילים קלה:יד",
+      "ref_en": "Psalms 135:14",
+      "text_original": "כִּֽי־יָדִ֣ין יְהֹוָ֣ה עַמּ֑וֹ וְעַל־עֲ֝בָדָ֗יו יִתְנֶחָֽם׃",
+      "text_with_niqqud": "כִּי יָדִין יְהֹוָה עַמּוֹ וְעַל עֲבָדָיו יִתְנֶחָם",
+      "text_plain": "כי ידין יהוה עמו ועל עבדיו יתנחם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_015",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 15,
+      "ref": "תהילים קלה:טו",
+      "ref_en": "Psalms 135:15",
+      "text_original": "עֲצַבֵּ֣י הַ֭גּוֹיִם כֶּ֣סֶף וְזָהָ֑ב מַֽ֝עֲשֵׂ֗ה יְדֵ֣י אָדָֽם׃",
+      "text_with_niqqud": "עֲצַבֵּי הַגּוֹיִם כֶּסֶף וְזָהָב מַעֲשֵׂה יְדֵי אָדָם",
+      "text_plain": "עצבי הגוים כסף וזהב מעשה ידי אדם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_016",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 16,
+      "ref": "תהילים קלה:טז",
+      "ref_en": "Psalms 135:16",
+      "text_original": "פֶּֽה־לָ֭הֶם וְלֹ֣א יְדַבֵּ֑רוּ עֵינַ֥יִם לָ֝הֶ֗ם וְלֹ֣א יִרְאֽוּ׃",
+      "text_with_niqqud": "פֶּה לָהֶם וְלֹא יְדַבֵּרוּ עֵינַיִם לָהֶם וְלֹא יִרְאוּ",
+      "text_plain": "פה להם ולא ידברו עינים להם ולא יראו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_017",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 17,
+      "ref": "תהילים קלה:יז",
+      "ref_en": "Psalms 135:17",
+      "text_original": "אָזְנַ֣יִם לָ֭הֶם וְלֹ֣א יַֽאֲזִ֑ינוּ אַ֝֗ף אֵין־יֶשׁ־ר֥וּחַ בְּפִיהֶֽם׃",
+      "text_with_niqqud": "אָזְנַיִם לָהֶם וְלֹא יַאֲזִינוּ אַף אֵין יֶשׁ רוּחַ בְּפִיהֶם",
+      "text_plain": "אזנים להם ולא יאזינו אף אין יש רוח בפיהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_018",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 18,
+      "ref": "תהילים קלה:יח",
+      "ref_en": "Psalms 135:18",
+      "text_original": "כְּ֭מוֹהֶם יִֽהְי֣וּ עֹֽשֵׂיהֶ֑ם כֹּ֖ל אֲשֶׁר־בֹּטֵ֣חַ בָּהֶֽם׃",
+      "text_with_niqqud": "כְּמוֹהֶם יִהְיוּ עֹשֵׂיהֶם כֹּל אֲשֶׁר בֹּטֵחַ בָּהֶם",
+      "text_plain": "כמוהם יהיו עשיהם כל אשר בטח בהם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_019",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 19,
+      "ref": "תהילים קלה:יט",
+      "ref_en": "Psalms 135:19",
+      "text_original": "בֵּ֣ית יִ֭שְׂרָאֵל בָּֽרְכ֣וּ אֶת־יְהֹוָ֑ה בֵּ֥ית אַֽ֝הֲרֹ֗ן בָּֽרְכ֥וּ אֶת־יְהֹוָֽה׃",
+      "text_with_niqqud": "בֵּית יִשְׂרָאֵל בָּרְכוּ אֶת יְהֹוָה בֵּית אַהֲרֹן בָּרְכוּ אֶת יְהֹוָה",
+      "text_plain": "בית ישראל ברכו את יהוה בית אהרן ברכו את יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_020",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 20,
+      "ref": "תהילים קלה:כ",
+      "ref_en": "Psalms 135:20",
+      "text_original": "בֵּ֣ית הַ֭לֵּוִי בָּֽרְכ֣וּ אֶת־יְהֹוָ֑ה יִֽרְאֵ֥י יְ֝הֹוָ֗ה בָּֽרְכ֥וּ אֶת־יְהֹוָֽה׃",
+      "text_with_niqqud": "בֵּית הַלֵּוִי בָּרְכוּ אֶת יְהֹוָה יִרְאֵי יְהֹוָה בָּרְכוּ אֶת יְהֹוָה",
+      "text_plain": "בית הלוי ברכו את יהוה יראי יהוה ברכו את יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_135_021",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 135,
+      "verse": 21,
+      "ref": "תהילים קלה:כא",
+      "ref_en": "Psalms 135:21",
+      "text_original": "בָּ֘ר֤וּךְ יְהֹוָ֨ה ׀ מִצִּיּ֗וֹן שֹׁ֘כֵ֤ן יְֽרוּשָׁלִָ֗ם הַֽלְלוּ־יָֽהּ׃",
+      "text_with_niqqud": "בָּרוּךְ יְהֹוָה מִצִּיּוֹן שֹׁכֵן יְרוּשָׁלִָם הַלְלוּ יָהּ",
+      "text_plain": "ברוך יהוה מציון שכן ירושלם הללו יה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-135.txt"
+    }
+  ]
+}

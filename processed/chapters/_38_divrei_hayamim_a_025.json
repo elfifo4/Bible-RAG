@@ -1,0 +1,638 @@
+{
+  "book": "דברי הימים א",
+  "book_en": "1 Chronicles",
+  "book_slug": "divrei_hayamim_a",
+  "chapter": 25,
+  "chapter_id": "_38_divrei_hayamim_a_025",
+  "ref": "דברי הימים א כה",
+  "ref_en": "1 Chronicles 25",
+  "source_file": "_38_divrei_hayamim_a-25.txt",
+  "verses": [
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_001",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 1,
+      "ref": "דברי הימים א כה:א",
+      "ref_en": "1 Chronicles 25:1",
+      "text_original": "וַיַּבְדֵּ֣ל דָּוִיד֩ וְשָׂרֵ֨י הַצָּבָ֜א לַֽעֲבֹדָ֗ה לִבְנֵ֤י אָסָף֙ וְהֵימָ֣ן וִֽידוּת֔וּן הנביאים (הַֽנִּבְּאִ֛ים) בְּכִנֹּר֥וֹת בִּנְבָלִ֖ים וּבִמְצִלְתָּ֑יִם וַֽיְהִי֙ מִסְפָּרָ֔ם אַנְשֵׁ֥י מְלָאכָ֖ה לַעֲבֹֽדָתָֽם׃",
+      "text_with_niqqud": "וַיַּבְדֵּל דָּוִיד וְשָׂרֵי הַצָּבָא לַעֲבֹדָה לִבְנֵי אָסָף וְהֵימָן וִידוּתוּן הנביאים (הַנִּבְּאִים) בְּכִנֹּרוֹת בִּנְבָלִים וּבִמְצִלְתָּיִם וַיְהִי מִסְפָּרָם אַנְשֵׁי מְלָאכָה לַעֲבֹדָתָם",
+      "text_plain": "ויבדל דויד ושרי הצבא לעבדה לבני אסף והימן וידותון הנביאים (הנבאים) בכנרות בנבלים ובמצלתים ויהי מספרם אנשי מלאכה לעבדתם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_002",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 2,
+      "ref": "דברי הימים א כה:ב",
+      "ref_en": "1 Chronicles 25:2",
+      "text_original": "לִבְנֵ֣י אָסָ֗ף זַכּ֧וּר וְיוֹסֵ֛ף וּנְתַנְיָ֥ה וַֽאֲשַׂרְאֵ֖לָה בְּנֵ֣י אָסָ֑ף עַ֚ל יַד־אָסָ֔ף הַנִּבָּ֖א עַל־יְדֵ֥י הַמֶּֽלֶךְ׃",
+      "text_with_niqqud": "לִבְנֵי אָסָף זַכּוּר וְיוֹסֵף וּנְתַנְיָה וַאֲשַׂרְאֵלָה בְּנֵי אָסָף עַל יַד אָסָף הַנִּבָּא עַל יְדֵי הַמֶּלֶךְ",
+      "text_plain": "לבני אסף זכור ויוסף ונתניה ואשראלה בני אסף על יד אסף הנבא על ידי המלך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_003",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 3,
+      "ref": "דברי הימים א כה:ג",
+      "ref_en": "1 Chronicles 25:3",
+      "text_original": "לִֽידוּת֑וּן בְּנֵ֣י יְדוּת֡וּן גְּדַלְיָ֡הוּ וּצְרִ֡י וִֽ֠ישַׁעְיָ֠הוּ חֲשַׁבְיָ֨הוּ וּמַתִּתְיָ֜הוּ שִׁשָּׁ֗ה עַל֩ יְדֵ֨י אֲבִיהֶ֤ם יְדוּתוּן֙ בַּכִּנּ֔וֹר הַנִּבָּ֕א עַל־הֹד֥וֹת וְהַלֵּ֖ל לַֽיהֹוָֽה׃",
+      "text_with_niqqud": "לִידוּתוּן בְּנֵי יְדוּתוּן גְּדַלְיָהוּ וּצְרִי וִישַׁעְיָהוּ חֲשַׁבְיָהוּ וּמַתִּתְיָהוּ שִׁשָּׁה עַל יְדֵי אֲבִיהֶם יְדוּתוּן בַּכִּנּוֹר הַנִּבָּא עַל הֹדוֹת וְהַלֵּל לַיהֹוָה",
+      "text_plain": "לידותון בני ידותון גדליהו וצרי וישעיהו חשביהו ומתתיהו ששה על ידי אביהם ידותון בכנור הנבא על הדות והלל ליהוה",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_004",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 4,
+      "ref": "דברי הימים א כה:ד",
+      "ref_en": "1 Chronicles 25:4",
+      "text_original": "לְהֵימָ֑ן בְּנֵ֣י הֵימָ֡ן בֻּקִּיָּ֡הוּ מַתַּנְיָ֡הוּ עֻ֠זִּיאֵ֠ל שְׁבוּאֵ֨ל וִֽירִימ֜וֹת חֲנַנְיָ֣ה חֲנָ֗נִי אֱלִיאָ֤תָה גִדַּ֨לְתִּי֙ וְרֹמַ֣מְתִּי עֶ֔זֶר יָשְׁבְּקָ֣שָׁה מַלּ֔וֹתִי הוֹתִ֖יר מַֽחֲזִיאֹֽת׃",
+      "text_with_niqqud": "לְהֵימָן בְּנֵי הֵימָן בֻּקִּיָּהוּ מַתַּנְיָהוּ עֻזִּיאֵל שְׁבוּאֵל וִירִימוֹת חֲנַנְיָה חֲנָנִי אֱלִיאָתָה גִדַּלְתִּי וְרֹמַמְתִּי עֶזֶר יָשְׁבְּקָשָׁה מַלּוֹתִי הוֹתִיר מַחֲזִיאֹת",
+      "text_plain": "להימן בני הימן בקיהו מתניהו עזיאל שבואל וירימות חנניה חנני אליאתה גדלתי ורממתי עזר ישבקשה מלותי הותיר מחזיאת",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_005",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 5,
+      "ref": "דברי הימים א כה:ה",
+      "ref_en": "1 Chronicles 25:5",
+      "text_original": "כָּל־אֵ֨לֶּה בָנִ֜ים לְהֵימָ֗ן חֹזֵ֥ה הַמֶּ֛לֶךְ בְּדִבְרֵ֥י הָֽאֱלֹהִ֖ים לְהָרִ֣ים קָ֑רֶן וַיִּתֵּ֨ן הָֽאֱלֹהִ֜ים לְהֵימָ֗ן בָּנִ֛ים אַרְבָּעָ֥ה עָשָׂ֖ר וּבָנ֥וֹת שָׁלֽוֹשׁ׃",
+      "text_with_niqqud": "כָּל אֵלֶּה בָנִים לְהֵימָן חֹזֵה הַמֶּלֶךְ בְּדִבְרֵי הָאֱלֹהִים לְהָרִים קָרֶן וַיִּתֵּן הָאֱלֹהִים לְהֵימָן בָּנִים אַרְבָּעָה עָשָׂר וּבָנוֹת שָׁלוֹשׁ",
+      "text_plain": "כל אלה בנים להימן חזה המלך בדברי האלהים להרים קרן ויתן האלהים להימן בנים ארבעה עשר ובנות שלוש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_006",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 6,
+      "ref": "דברי הימים א כה:ו",
+      "ref_en": "1 Chronicles 25:6",
+      "text_original": "כָּל־אֵ֣לֶּה עַל־יְדֵי֩ אֲבִיהֶ֨ם בַּשִּׁ֜יר בֵּ֣ית יְהֹוָ֗ה בִּמְצִלְתַּ֨יִם֙ נְבָלִ֣ים וְכִנֹּר֔וֹת לַֽעֲבֹדַ֖ת בֵּ֣ית הָֽאֱלֹהִ֑ים עַ֚ל יְדֵ֣י הַמֶּ֔לֶךְ אָסָ֥ף וִֽידוּת֖וּן וְהֵימָֽן׃",
+      "text_with_niqqud": "כָּל אֵלֶּה עַל יְדֵי אֲבִיהֶם בַּשִּׁיר בֵּית יְהֹוָה בִּמְצִלְתַּיִם נְבָלִים וְכִנֹּרוֹת לַעֲבֹדַת בֵּית הָאֱלֹהִים עַל יְדֵי הַמֶּלֶךְ אָסָף וִידוּתוּן וְהֵימָן",
+      "text_plain": "כל אלה על ידי אביהם בשיר בית יהוה במצלתים נבלים וכנרות לעבדת בית האלהים על ידי המלך אסף וידותון והימן",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_007",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 7,
+      "ref": "דברי הימים א כה:ז",
+      "ref_en": "1 Chronicles 25:7",
+      "text_original": "וַיְהִ֤י מִסְפָּרָם֙ עִם־אֲחֵיהֶ֔ם מְלֻמְּדֵי־שִׁ֖יר לַֽיהֹוָ֑ה כָּ֨ל־הַמֵּבִ֔ין מָאתַ֖יִם שְׁמוֹנִ֥ים וּשְׁמוֹנָֽה׃",
+      "text_with_niqqud": "וַיְהִי מִסְפָּרָם עִם אֲחֵיהֶם מְלֻמְּדֵי שִׁיר לַיהֹוָה כָּל הַמֵּבִין מָאתַיִם שְׁמוֹנִים וּשְׁמוֹנָה",
+      "text_plain": "ויהי מספרם עם אחיהם מלמדי שיר ליהוה כל המבין מאתים שמונים ושמונה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_008",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 8,
+      "ref": "דברי הימים א כה:ח",
+      "ref_en": "1 Chronicles 25:8",
+      "text_original": "וַיַּפִּ֜ילוּ גּֽוֹרָל֣וֹת מִשְׁמֶ֗רֶת לְעֻמַּת֙ כַּקָּטֹ֣ן כַּגָּד֔וֹל מֵבִ֖ין עִם־תַּלְמִֽיד׃",
+      "text_with_niqqud": "וַיַּפִּילוּ גּוֹרָלוֹת מִשְׁמֶרֶת לְעֻמַּת כַּקָּטֹן כַּגָּדוֹל מֵבִין עִם תַּלְמִיד",
+      "text_plain": "ויפילו גורלות משמרת לעמת כקטן כגדול מבין עם תלמיד",
+      "markers": {
+        "before": [],
+        "after": [
+          "פ"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_009",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 9,
+      "ref": "דברי הימים א כה:ט",
+      "ref_en": "1 Chronicles 25:9",
+      "text_original": "וַיֵּצֵ֞א הַגּוֹרָ֧ל הָֽרִאשׁ֛וֹן לְאָסָ֖ף לְיוֹסֵ֑ף גְּדַלְיָ֨הוּ֙ הַשֵּׁנִ֔י הֽוּא־וְאֶחָ֥יו וּבָנָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "וַיֵּצֵא הַגּוֹרָל הָרִאשׁוֹן לְאָסָף לְיוֹסֵף גְּדַלְיָהוּ הַשֵּׁנִי הוּא וְאֶחָיו וּבָנָיו שְׁנֵים עָשָׂר",
+      "text_plain": "ויצא הגורל הראשון לאסף ליוסף גדליהו השני הוא ואחיו ובניו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס",
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_010",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 10,
+      "ref": "דברי הימים א כה:י",
+      "ref_en": "1 Chronicles 25:10",
+      "text_original": "הַשְּׁלִשִׁ֣י זַכּ֔וּר בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "הַשְּׁלִשִׁי זַכּוּר בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "השלשי זכור בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_011",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 11,
+      "ref": "דברי הימים א כה:יא",
+      "ref_en": "1 Chronicles 25:11",
+      "text_original": "הָֽרְבִיעִי֙ לַיִּצְרִ֔י בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "הָרְבִיעִי לַיִּצְרִי בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "הרביעי ליצרי בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_012",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 12,
+      "ref": "דברי הימים א כה:יב",
+      "ref_en": "1 Chronicles 25:12",
+      "text_original": "הַֽחֲמִישִׁ֣י נְתַנְיָ֔הוּ בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "הַחֲמִישִׁי נְתַנְיָהוּ בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "החמישי נתניהו בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_013",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 13,
+      "ref": "דברי הימים א כה:יג",
+      "ref_en": "1 Chronicles 25:13",
+      "text_original": "הַשִּׁשִּׁ֣י בֻקִּיָּ֔הוּ בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "הַשִּׁשִּׁי בֻקִּיָּהוּ בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "הששי בקיהו בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_014",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 14,
+      "ref": "דברי הימים א כה:יד",
+      "ref_en": "1 Chronicles 25:14",
+      "text_original": "הַשְּׁבִעִ֣י יְשַׂרְאֵ֔לָה בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "הַשְּׁבִעִי יְשַׂרְאֵלָה בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "השבעי ישראלה בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_015",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 15,
+      "ref": "דברי הימים א כה:טו",
+      "ref_en": "1 Chronicles 25:15",
+      "text_original": "הַשְּׁמִינִ֣י יְשַֽׁעְיָ֔הוּ בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "הַשְּׁמִינִי יְשַׁעְיָהוּ בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "השמיני ישעיהו בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_016",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 16,
+      "ref": "דברי הימים א כה:טז",
+      "ref_en": "1 Chronicles 25:16",
+      "text_original": "הַתְּשִׁיעִ֣י מַתַּנְיָ֔הוּ בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "הַתְּשִׁיעִי מַתַּנְיָהוּ בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "התשיעי מתניהו בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_017",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 17,
+      "ref": "דברי הימים א כה:יז",
+      "ref_en": "1 Chronicles 25:17",
+      "text_original": "הָֽעֲשִׂירִ֣י שִׁמְעִ֔י בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "הָעֲשִׂירִי שִׁמְעִי בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "העשירי שמעי בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_018",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 18,
+      "ref": "דברי הימים א כה:יח",
+      "ref_en": "1 Chronicles 25:18",
+      "text_original": "עַשְׁתֵּֽי־ עָשָׂ֣ר עֲזַרְאֵ֔ל בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "עַשְׁתֵּי עָשָׂר עֲזַרְאֵל בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "עשתי עשר עזראל בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_019",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 19,
+      "ref": "דברי הימים א כה:יט",
+      "ref_en": "1 Chronicles 25:19",
+      "text_original": "הַשְּׁנֵ֤ים עָשָׂר֙ לַֽחֲשַׁבְיָ֔ה בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "הַשְּׁנֵים עָשָׂר לַחֲשַׁבְיָה בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "השנים עשר לחשביה בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_020",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 20,
+      "ref": "דברי הימים א כה:כ",
+      "ref_en": "1 Chronicles 25:20",
+      "text_original": "לִשְׁלֹשָׁ֤ה עָשָׂר֙ שֽׁוּבָאֵ֔ל בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "לִשְׁלֹשָׁה עָשָׂר שׁוּבָאֵל בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "לשלשה עשר שובאל בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_021",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 21,
+      "ref": "דברי הימים א כה:כא",
+      "ref_en": "1 Chronicles 25:21",
+      "text_original": "לְאַרְבָּעָ֤ה עָשָׂר֙ מַתִּתְיָ֔הוּ בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "לְאַרְבָּעָה עָשָׂר מַתִּתְיָהוּ בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "לארבעה עשר מתתיהו בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_022",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 22,
+      "ref": "דברי הימים א כה:כב",
+      "ref_en": "1 Chronicles 25:22",
+      "text_original": "לַֽחֲמִשָּׁ֤ה עָשָׂר֙ לִֽירֵמ֔וֹת בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "לַחֲמִשָּׁה עָשָׂר לִירֵמוֹת בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "לחמשה עשר לירמות בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_023",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 23,
+      "ref": "דברי הימים א כה:כג",
+      "ref_en": "1 Chronicles 25:23",
+      "text_original": "לְשִׁשָּׁ֤ה עָשָׂר֙ לַֽחֲנַנְיָ֔הוּ בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "לְשִׁשָּׁה עָשָׂר לַחֲנַנְיָהוּ בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "לששה עשר לחנניהו בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_024",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 24,
+      "ref": "דברי הימים א כה:כד",
+      "ref_en": "1 Chronicles 25:24",
+      "text_original": "לְשִׁבְעָ֤ה עָשָׂר֙ לְיָשְׁבְּקָ֔שָׁה בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "לְשִׁבְעָה עָשָׂר לְיָשְׁבְּקָשָׁה בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "לשבעה עשר לישבקשה בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_025",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 25,
+      "ref": "דברי הימים א כה:כה",
+      "ref_en": "1 Chronicles 25:25",
+      "text_original": "לִשְׁמוֹנָ֤ה עָשָׂר֙ לַֽחֲנָ֔נִי בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "לִשְׁמוֹנָה עָשָׂר לַחֲנָנִי בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "לשמונה עשר לחנני בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_026",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 26,
+      "ref": "דברי הימים א כה:כו",
+      "ref_en": "1 Chronicles 25:26",
+      "text_original": "לְתִשְׁעָ֤ה עָשָׂר֙ לְמַלּ֔וֹתִי בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "לְתִשְׁעָה עָשָׂר לְמַלּוֹתִי בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "לתשעה עשר למלותי בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_027",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 27,
+      "ref": "דברי הימים א כה:כז",
+      "ref_en": "1 Chronicles 25:27",
+      "text_original": "לְעֶשְׂרִים֙ לֶֽאֱלִיָּ֔תָה בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "לְעֶשְׂרִים לֶאֱלִיָּתָה בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "לעשרים לאליתה בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_028",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 28,
+      "ref": "דברי הימים א כה:כח",
+      "ref_en": "1 Chronicles 25:28",
+      "text_original": "לְאֶחָ֤ד וְעֶשְׂרִים֙ לְהוֹתִ֔יר בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "לְאֶחָד וְעֶשְׂרִים לְהוֹתִיר בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "לאחד ועשרים להותיר בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_029",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 29,
+      "ref": "דברי הימים א כה:כט",
+      "ref_en": "1 Chronicles 25:29",
+      "text_original": "לִשְׁנַ֤יִם וְעֶשְׂרִים֙ לְגִדַּ֔לְתִּי בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "לִשְׁנַיִם וְעֶשְׂרִים לְגִדַּלְתִּי בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "לשנים ועשרים לגדלתי בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_030",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 30,
+      "ref": "דברי הימים א כה:ל",
+      "ref_en": "1 Chronicles 25:30",
+      "text_original": "לִשְׁלֹשָׁ֤ה וְעֶשְׂרִים֙ לְמַ֣חֲזִיא֔וֹת בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "לִשְׁלֹשָׁה וְעֶשְׂרִים לְמַחֲזִיאוֹת בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "לשלשה ועשרים למחזיאות בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "ס"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    },
+    {
+      "verse_id": "_38_divrei_hayamim_a_025_031",
+      "book": "דברי הימים א",
+      "book_en": "1 Chronicles",
+      "book_slug": "divrei_hayamim_a",
+      "chapter": 25,
+      "verse": 31,
+      "ref": "דברי הימים א כה:לא",
+      "ref_en": "1 Chronicles 25:31",
+      "text_original": "לְאַרְבָּעָ֤ה וְעֶשְׂרִים֙ לְרוֹמַ֣מְתִּי עָ֔זֶר בָּנָ֥יו וְאֶחָ֖יו שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_with_niqqud": "לְאַרְבָּעָה וְעֶשְׂרִים לְרוֹמַמְתִּי עָזֶר בָּנָיו וְאֶחָיו שְׁנֵים עָשָׂר",
+      "text_plain": "לארבעה ועשרים לרוממתי עזר בניו ואחיו שנים עשר",
+      "markers": {
+        "before": [],
+        "after": [
+          "ר",
+          "פ"
+        ]
+      },
+      "source_file": "_38_divrei_hayamim_a-25.txt"
+    }
+  ]
+}

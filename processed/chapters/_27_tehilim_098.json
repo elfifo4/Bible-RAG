@@ -1,0 +1,174 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 98,
+  "chapter_id": "_27_tehilim_098",
+  "ref": "תהילים צח",
+  "ref_en": "Psalms 98",
+  "source_file": "_27_tehilim-098.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_098_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 98,
+      "verse": 1,
+      "ref": "תהילים צח:א",
+      "ref_en": "Psalms 98:1",
+      "text_original": "מִזְמ֡וֹר שִׁ֤ירוּ לַֽיהֹוָ֨ה ׀ שִׁ֣יר חָ֭דָשׁ כִּֽי־נִפְלָא֣וֹת עָשָׂ֑ה הוֹשִֽׁיעָה־לּ֥וֹ יְ֝מִינ֗וֹ וּזְר֥וֹעַ קָדְשֽׁוֹ׃",
+      "text_with_niqqud": "מִזְמוֹר שִׁירוּ לַיהֹוָה שִׁיר חָדָשׁ כִּי נִפְלָאוֹת עָשָׂה הוֹשִׁיעָה לּוֹ יְמִינוֹ וּזְרוֹעַ קָדְשׁוֹ",
+      "text_plain": "מזמור שירו ליהוה שיר חדש כי נפלאות עשה הושיעה לו ימינו וזרוע קדשו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-098.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_098_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 98,
+      "verse": 2,
+      "ref": "תהילים צח:ב",
+      "ref_en": "Psalms 98:2",
+      "text_original": "הוֹדִ֣יעַ יְ֭הֹוָה יְשֽׁוּעָת֑וֹ לְעֵינֵ֥י הַ֝גּוֹיִ֗ם גִּלָּ֥ה צִדְקָתֽוֹ׃",
+      "text_with_niqqud": "הוֹדִיעַ יְהֹוָה יְשׁוּעָתוֹ לְעֵינֵי הַגּוֹיִם גִּלָּה צִדְקָתוֹ",
+      "text_plain": "הודיע יהוה ישועתו לעיני הגוים גלה צדקתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-098.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_098_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 98,
+      "verse": 3,
+      "ref": "תהילים צח:ג",
+      "ref_en": "Psalms 98:3",
+      "text_original": "זָ֘כַ֤ר חַסְדּ֨וֹ ׀ וֶ֥אֱֽמוּנָתוֹ֮ לְבֵ֪ית יִשְׂרָ֫אֵ֥ל רָא֥וּ כָל־אַפְסֵי־אָ֑רֶץ אֵ֝֗ת יְשׁוּעַ֥ת אֱלֹהֵֽינוּ׃",
+      "text_with_niqqud": "זָכַר חַסְדּוֹ וֶאֱמוּנָתוֹ לְבֵית יִשְׂרָאֵל רָאוּ כָל אַפְסֵי אָרֶץ אֵת יְשׁוּעַת אֱלֹהֵינוּ",
+      "text_plain": "זכר חסדו ואמונתו לבית ישראל ראו כל אפסי ארץ את ישועת אלהינו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-098.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_098_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 98,
+      "verse": 4,
+      "ref": "תהילים צח:ד",
+      "ref_en": "Psalms 98:4",
+      "text_original": "הָרִ֣יעוּ לַֽ֭יהֹוָה כָּל־הָאָ֑רֶץ פִּצְח֖וּ וְרַנְּנ֣וּ וְזַמֵּֽרוּ׃",
+      "text_with_niqqud": "הָרִיעוּ לַיהֹוָה כָּל הָאָרֶץ פִּצְחוּ וְרַנְּנוּ וְזַמֵּרוּ",
+      "text_plain": "הריעו ליהוה כל הארץ פצחו ורננו וזמרו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-098.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_098_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 98,
+      "verse": 5,
+      "ref": "תהילים צח:ה",
+      "ref_en": "Psalms 98:5",
+      "text_original": "זַמְּר֣וּ לַֽיהֹוָ֣ה בְּכִנּ֑וֹר בְּ֝כִנּ֗וֹר וְק֣וֹל זִמְרָֽה׃",
+      "text_with_niqqud": "זַמְּרוּ לַיהֹוָה בְּכִנּוֹר בְּכִנּוֹר וְקוֹל זִמְרָה",
+      "text_plain": "זמרו ליהוה בכנור בכנור וקול זמרה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-098.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_098_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 98,
+      "verse": 6,
+      "ref": "תהילים צח:ו",
+      "ref_en": "Psalms 98:6",
+      "text_original": "בַּ֭חֲצֹ֣צְרוֹת וְק֣וֹל שׁוֹפָ֑ר הָ֝רִ֗יעוּ לִפְנֵ֤י ׀ הַמֶּ֬לֶךְ יְהֹוָֽה׃",
+      "text_with_niqqud": "בַּחֲצֹצְרוֹת וְקוֹל שׁוֹפָר הָרִיעוּ לִפְנֵי הַמֶּלֶךְ יְהֹוָה",
+      "text_plain": "בחצצרות וקול שופר הריעו לפני המלך יהוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-098.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_098_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 98,
+      "verse": 7,
+      "ref": "תהילים צח:ז",
+      "ref_en": "Psalms 98:7",
+      "text_original": "יִרְעַ֣ם הַ֭יָּם וּמְלֹא֑וֹ תֵּ֝בֵ֗ל וְיֹ֣שְׁבֵי בָֽהּ׃",
+      "text_with_niqqud": "יִרְעַם הַיָּם וּמְלֹאוֹ תֵּבֵל וְיֹשְׁבֵי בָהּ",
+      "text_plain": "ירעם הים ומלאו תבל וישבי בה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-098.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_098_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 98,
+      "verse": 8,
+      "ref": "תהילים צח:ח",
+      "ref_en": "Psalms 98:8",
+      "text_original": "נְהָר֥וֹת יִמְחֲאוּ־כָ֑ף יַ֝֗חַד הָרִ֥ים יְרַנֵּֽנוּ׃",
+      "text_with_niqqud": "נְהָרוֹת יִמְחֲאוּ כָף יַחַד הָרִים יְרַנֵּנוּ",
+      "text_plain": "נהרות ימחאו כף יחד הרים ירננו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-098.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_098_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 98,
+      "verse": 9,
+      "ref": "תהילים צח:ט",
+      "ref_en": "Psalms 98:9",
+      "text_original": "לִ֥פְֽנֵי יְהֹוָ֗ה כִּ֥י בָא֮ לִשְׁפֹּ֪ט הָ֫אָ֥רֶץ יִשְׁפֹּֽט־תֵּבֵ֥ל בְּצֶ֑דֶק וְ֝עַמִּ֗ים בְּמֵֽישָׁרִֽים׃",
+      "text_with_niqqud": "לִפְנֵי יְהֹוָה כִּי בָא לִשְׁפֹּט הָאָרֶץ יִשְׁפֹּט תֵּבֵל בְּצֶדֶק וְעַמִּים בְּמֵישָׁרִים",
+      "text_plain": "לפני יהוה כי בא לשפט הארץ ישפט תבל בצדק ועמים במישרים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-098.txt"
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "book": "איוב",
+  "book_en": "Job",
+  "book_slug": "iyov",
+  "chapter": 33,
+  "chapter_id": "_29_iyov_033",
+  "ref": "איוב לג",
+  "ref_en": "Job 33",
+  "source_file": "_29_iyov-33.txt",
+  "verses": [
+    {
+      "verse_id": "_29_iyov_033_001",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 1,
+      "ref": "איוב לג:א",
+      "ref_en": "Job 33:1",
+      "text_original": "וְֽאוּלָ֗ם שְׁמַֽע־נָ֣א אִיּ֣וֹב מִלָּ֑י וְֽכָל־דְּבָרַ֥י הַֽאֲזִֽינָה׃",
+      "text_with_niqqud": "וְאוּלָם שְׁמַע נָא אִיּוֹב מִלָּי וְכָל דְּבָרַי הַאֲזִינָה",
+      "text_plain": "ואולם שמע נא איוב מלי וכל דברי האזינה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_002",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 2,
+      "ref": "איוב לג:ב",
+      "ref_en": "Job 33:2",
+      "text_original": "הִנֵּה־נָ֭א פָּתַ֣חְתִּי פִ֑י דִּבְּרָ֖ה לְשׁוֹנִ֣י בְחִכִּֽי׃",
+      "text_with_niqqud": "הִנֵּה נָא פָּתַחְתִּי פִי דִּבְּרָה לְשׁוֹנִי בְחִכִּי",
+      "text_plain": "הנה נא פתחתי פי דברה לשוני בחכי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_003",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 3,
+      "ref": "איוב לג:ג",
+      "ref_en": "Job 33:3",
+      "text_original": "יֹֽשֶׁר־לִבִּ֥י אֲמָרָ֑י וְדַ֥עַת שְׂ֝פָתַ֗י בָּר֥וּר מִלֵּֽלוּ׃",
+      "text_with_niqqud": "יֹשֶׁר לִבִּי אֲמָרָי וְדַעַת שְׂפָתַי בָּרוּר מִלֵּלוּ",
+      "text_plain": "ישר לבי אמרי ודעת שפתי ברור מללו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_004",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 4,
+      "ref": "איוב לג:ד",
+      "ref_en": "Job 33:4",
+      "text_original": "רֽוּחַ־אֵ֥ל עָשָׂ֑תְנִי וְנִשְׁמַ֖ת שַׁדַּ֣י תְּחַיֵּֽנִי׃",
+      "text_with_niqqud": "רוּחַ אֵל עָשָׂתְנִי וְנִשְׁמַת שַׁדַּי תְּחַיֵּנִי",
+      "text_plain": "רוח אל עשתני ונשמת שדי תחיני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_005",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 5,
+      "ref": "איוב לג:ה",
+      "ref_en": "Job 33:5",
+      "text_original": "אִם־תּוּכַ֥ל הֲשִׁיבֵ֑נִי עֶרְכָ֥ה לְ֝פָנַ֗י הִתְיַצָּֽבָה׃",
+      "text_with_niqqud": "אִם תּוּכַל הֲשִׁיבֵנִי עֶרְכָה לְפָנַי הִתְיַצָּבָה",
+      "text_plain": "אם תוכל השיבני ערכה לפני התיצבה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_006",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 6,
+      "ref": "איוב לג:ו",
+      "ref_en": "Job 33:6",
+      "text_original": "הֵן־אֲנִ֣י כְפִ֣יךָ לָאֵ֑ל מֵ֝חֹ֗מֶר קֹרַ֥צְתִּי גַם־אָֽנִי׃",
+      "text_with_niqqud": "הֵן אֲנִי כְפִיךָ לָאֵל מֵחֹמֶר קֹרַצְתִּי גַם אָנִי",
+      "text_plain": "הן אני כפיך לאל מחמר קרצתי גם אני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_007",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 7,
+      "ref": "איוב לג:ז",
+      "ref_en": "Job 33:7",
+      "text_original": "הִנֵּ֣ה אֵֽ֭מָתִי לֹ֣א תְבַֽעֲתֶ֑ךָּ וְ֝אַכְפִּ֗י עָלֶ֥יךָ לֹֽא־יִכְבָּֽד׃",
+      "text_with_niqqud": "הִנֵּה אֵמָתִי לֹא תְבַעֲתֶךָּ וְאַכְפִּי עָלֶיךָ לֹא יִכְבָּד",
+      "text_plain": "הנה אמתי לא תבעתך ואכפי עליך לא יכבד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_008",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 8,
+      "ref": "איוב לג:ח",
+      "ref_en": "Job 33:8",
+      "text_original": "אַ֭ךְ אָמַ֣רְתָּ בְאָזְנָ֑י וְק֖וֹל מִלִּ֣ין אֶשְׁמָֽע׃",
+      "text_with_niqqud": "אַךְ אָמַרְתָּ בְאָזְנָי וְקוֹל מִלִּין אֶשְׁמָע",
+      "text_plain": "אך אמרת באזני וקול מלין אשמע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_009",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 9,
+      "ref": "איוב לג:ט",
+      "ref_en": "Job 33:9",
+      "text_original": "זַ֥ךְ אֲנִ֗י בְּֽלִ֫י פָ֥שַׁע חַ֥ף אָֽנֹכִ֑י וְלֹ֖א עָו֣‍ֹן לִֽי׃",
+      "text_with_niqqud": "זַךְ אֲנִי בְּלִי פָשַׁע חַף אָנֹכִי וְלֹא עָו‍ֹן לִי",
+      "text_plain": "זך אני בלי פשע חף אנכי ולא עו‍ן לי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_010",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 10,
+      "ref": "איוב לג:י",
+      "ref_en": "Job 33:10",
+      "text_original": "הֵ֣ן תְּ֭נוּאוֹת עָלַ֣י יִמְצָ֑א יַחְשְׁבֵ֖נִי לְאוֹיֵ֣ב לֽוֹ׃",
+      "text_with_niqqud": "הֵן תְּנוּאוֹת עָלַי יִמְצָא יַחְשְׁבֵנִי לְאוֹיֵב לוֹ",
+      "text_plain": "הן תנואות עלי ימצא יחשבני לאויב לו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_011",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 11,
+      "ref": "איוב לג:יא",
+      "ref_en": "Job 33:11",
+      "text_original": "יָשֵׂ֣ם בַּסַּ֣ד רַגְלָ֑י יִ֝שְׁמֹ֗ר כָּל־אָרְחֹתָֽי׃",
+      "text_with_niqqud": "יָשֵׂם בַּסַּד רַגְלָי יִשְׁמֹר כָּל אָרְחֹתָי",
+      "text_plain": "ישם בסד רגלי ישמר כל ארחתי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_012",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 12,
+      "ref": "איוב לג:יב",
+      "ref_en": "Job 33:12",
+      "text_original": "הֶן־זֹ֣את לֹֽא־צָדַ֣קְתָּ אֶֽעֱנֶ֑ךָּ כִּֽי־יִרְבֶּ֥ה אֱ֝ל֗וֹהַּ מֵֽאֱנֽוֹשׁ׃",
+      "text_with_niqqud": "הֶן זֹאת לֹא צָדַקְתָּ אֶעֱנֶךָּ כִּי יִרְבֶּה אֱלוֹהַּ מֵאֱנוֹשׁ",
+      "text_plain": "הן זאת לא צדקת אענך כי ירבה אלוה מאנוש",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_013",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 13,
+      "ref": "איוב לג:יג",
+      "ref_en": "Job 33:13",
+      "text_original": "מַ֭דּוּעַ אֵלָ֣יו רִיב֑וֹתָ כִּ֥י כָל־דְּ֝בָרָ֗יו לֹ֣א יַֽעֲנֶֽה׃",
+      "text_with_niqqud": "מַדּוּעַ אֵלָיו רִיבוֹתָ כִּי כָל דְּבָרָיו לֹא יַעֲנֶה",
+      "text_plain": "מדוע אליו ריבות כי כל דבריו לא יענה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_014",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 14,
+      "ref": "איוב לג:יד",
+      "ref_en": "Job 33:14",
+      "text_original": "כִּֽי־בְאַחַ֥ת יְדַבֶּר־אֵ֑ל וּ֝בִשְׁתַּ֗יִם לֹ֣א יְשׁוּרֶֽנָּה׃",
+      "text_with_niqqud": "כִּי בְאַחַת יְדַבֶּר אֵל וּבִשְׁתַּיִם לֹא יְשׁוּרֶנָּה",
+      "text_plain": "כי באחת ידבר אל ובשתים לא ישורנה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_015",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 15,
+      "ref": "איוב לג:טו",
+      "ref_en": "Job 33:15",
+      "text_original": "בַּֽחֲל֤וֹם ׀ חֶזְי֬וֹן לַ֗יְלָה בִּנְפֹ֣ל תַּ֭רְדֵּמָה עַל־אֲנָשִׁ֑ים בִּ֝תְנוּמ֗וֹת עֲלֵ֣י מִשְׁכָּֽב׃",
+      "text_with_niqqud": "בַּחֲלוֹם חֶזְיוֹן לַיְלָה בִּנְפֹל תַּרְדֵּמָה עַל אֲנָשִׁים בִּתְנוּמוֹת עֲלֵי מִשְׁכָּב",
+      "text_plain": "בחלום חזיון לילה בנפל תרדמה על אנשים בתנומות עלי משכב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_016",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 16,
+      "ref": "איוב לג:טז",
+      "ref_en": "Job 33:16",
+      "text_original": "אָ֣ז יִ֭גְלֶה אֹ֣זֶן אֲנָשִׁ֑ים וּבְמֹ֖סָרָ֣ם יַחְתֹּֽם׃",
+      "text_with_niqqud": "אָז יִגְלֶה אֹזֶן אֲנָשִׁים וּבְמֹסָרָם יַחְתֹּם",
+      "text_plain": "אז יגלה אזן אנשים ובמסרם יחתם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_017",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 17,
+      "ref": "איוב לג:יז",
+      "ref_en": "Job 33:17",
+      "text_original": "לְ֭הָסִיר אָדָ֣ם מַֽעֲשֶׂ֑ה וְגֵוָ֖ה מִגֶּ֣בֶר יְכַסֶּֽה׃",
+      "text_with_niqqud": "לְהָסִיר אָדָם מַעֲשֶׂה וְגֵוָה מִגֶּבֶר יְכַסֶּה",
+      "text_plain": "להסיר אדם מעשה וגוה מגבר יכסה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_018",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 18,
+      "ref": "איוב לג:יח",
+      "ref_en": "Job 33:18",
+      "text_original": "יַחְשֹׂ֣ךְ נַ֭פְשׁוֹ מִנִּי־שָׁ֑חַת וְ֝חַיָּת֗וֹ מֵֽעֲבֹ֥ר בַּשָּֽׁלַח׃",
+      "text_with_niqqud": "יַחְשֹׂךְ נַפְשׁוֹ מִנִּי שָׁחַת וְחַיָּתוֹ מֵעֲבֹר בַּשָּׁלַח",
+      "text_plain": "יחשך נפשו מני שחת וחיתו מעבר בשלח",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_019",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 19,
+      "ref": "איוב לג:יט",
+      "ref_en": "Job 33:19",
+      "text_original": "וְהוּכַ֣ח בְּ֭מַכְאוֹב עַל־מִשְׁכָּב֑וֹ וריב (וְר֖וֹב) עֲצָמָ֣יו אֵתָֽן׃",
+      "text_with_niqqud": "וְהוּכַח בְּמַכְאוֹב עַל מִשְׁכָּבוֹ וריב (וְרוֹב) עֲצָמָיו אֵתָן",
+      "text_plain": "והוכח במכאוב על משכבו וריב (ורוב) עצמיו אתן",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_020",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 20,
+      "ref": "איוב לג:כ",
+      "ref_en": "Job 33:20",
+      "text_original": "וְזִֽהֲמַ֣תּוּ חַיָּת֣וֹ לָ֑חֶם וְ֝נַפְשׁ֗וֹ מַֽאֲכַ֥ל תַּֽאֲוָֽה׃",
+      "text_with_niqqud": "וְזִהֲמַתּוּ חַיָּתוֹ לָחֶם וְנַפְשׁוֹ מַאֲכַל תַּאֲוָה",
+      "text_plain": "וזהמתו חיתו לחם ונפשו מאכל תאוה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_021",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 21,
+      "ref": "איוב לג:כא",
+      "ref_en": "Job 33:21",
+      "text_original": "יִ֣כֶל בְּשָׂר֣וֹ מֵרֹ֑אִי ושפי (וְשֻׁפּ֥וּ) עַ֝צְמֹתָ֗יו לֹ֣א רֻאּֽוּ׃",
+      "text_with_niqqud": "יִכֶל בְּשָׂרוֹ מֵרֹאִי ושפי (וְשֻׁפּוּ) עַצְמֹתָיו לֹא רֻאּוּ",
+      "text_plain": "יכל בשרו מראי ושפי (ושפו) עצמתיו לא ראו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_022",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 22,
+      "ref": "איוב לג:כב",
+      "ref_en": "Job 33:22",
+      "text_original": "וַתִּקְרַ֣ב לַשַּׁ֣חַת נַפְשׁ֑וֹ וְ֝חַיָּת֗וֹ לַֽמְמִתִֽים׃",
+      "text_with_niqqud": "וַתִּקְרַב לַשַּׁחַת נַפְשׁוֹ וְחַיָּתוֹ לַמְמִתִים",
+      "text_plain": "ותקרב לשחת נפשו וחיתו לממתים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_023",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 23,
+      "ref": "איוב לג:כג",
+      "ref_en": "Job 33:23",
+      "text_original": "אִם־יֵ֤שׁ עָלָ֨יו ׀ מַלְאָ֗ךְ מֵלִ֗יץ אֶחָ֥ד מִנִּי־אָ֑לֶף לְהַגִּ֖יד לְאָדָ֣ם יָשְׁרֽוֹ׃",
+      "text_with_niqqud": "אִם יֵשׁ עָלָיו מַלְאָךְ מֵלִיץ אֶחָד מִנִּי אָלֶף לְהַגִּיד לְאָדָם יָשְׁרוֹ",
+      "text_plain": "אם יש עליו מלאך מליץ אחד מני אלף להגיד לאדם ישרו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_024",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 24,
+      "ref": "איוב לג:כד",
+      "ref_en": "Job 33:24",
+      "text_original": "וַיְחֻנֶּ֗נּוּ וַיֹּ֗אמֶר פְּ֭דָעֵהוּ מֵרֶ֥דֶת שָׁ֗חַת מָצָ֥אתִי כֹֽפֶר׃",
+      "text_with_niqqud": "וַיְחֻנֶּנּוּ וַיֹּאמֶר פְּדָעֵהוּ מֵרֶדֶת שָׁחַת מָצָאתִי כֹפֶר",
+      "text_plain": "ויחננו ויאמר פדעהו מרדת שחת מצאתי כפר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_025",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 25,
+      "ref": "איוב לג:כה",
+      "ref_en": "Job 33:25",
+      "text_original": "רֻֽטְפַ֣שׁ בְּשָׂר֣וֹ מִנֹּ֑עַר יָ֝שׁ֗וּב לִימֵ֥י עֲלוּמָֽיו׃",
+      "text_with_niqqud": "רֻטְפַשׁ בְּשָׂרוֹ מִנֹּעַר יָשׁוּב לִימֵי עֲלוּמָיו",
+      "text_plain": "רטפש בשרו מנער ישוב לימי עלומיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_026",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 26,
+      "ref": "איוב לג:כו",
+      "ref_en": "Job 33:26",
+      "text_original": "יֶעְתַּ֤ר אֶל־אֱל֨וֹהַּ ׀ וַיִּרְצֵ֗הוּ וַיַּ֣רְא פָּ֭נָיו בִּתְרוּעָ֑ה וַיָּ֥שֶׁב לֶֽ֝אֱנ֗וֹשׁ צִדְקָתֽוֹ׃",
+      "text_with_niqqud": "יֶעְתַּר אֶל אֱלוֹהַּ וַיִּרְצֵהוּ וַיַּרְא פָּנָיו בִּתְרוּעָה וַיָּשֶׁב לֶאֱנוֹשׁ צִדְקָתוֹ",
+      "text_plain": "יעתר אל אלוה וירצהו וירא פניו בתרועה וישב לאנוש צדקתו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_027",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 27,
+      "ref": "איוב לג:כז",
+      "ref_en": "Job 33:27",
+      "text_original": "יָשֹׁ֤ר ׀ עַל־אֲנָשִׁ֗ים וַיֹּ֗אמֶר חָ֭טָאתִי וְיָשָׁ֥ר הֶֽעֱוֵ֗יתִי וְלֹא־שָׁ֥וָה לִֽי׃",
+      "text_with_niqqud": "יָשֹׁר עַל אֲנָשִׁים וַיֹּאמֶר חָטָאתִי וְיָשָׁר הֶעֱוֵיתִי וְלֹא שָׁוָה לִי",
+      "text_plain": "ישר על אנשים ויאמר חטאתי וישר העויתי ולא שוה לי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_028",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 28,
+      "ref": "איוב לג:כח",
+      "ref_en": "Job 33:28",
+      "text_original": "פָּדָ֣ה נפשי (נַ֭פְשׁוֹ) מֵֽעֲבֹ֣ר בַּשָּׁ֑חַת וחיתי (וְ֝חַיָּת֗וֹ) בָּא֥וֹר תִּרְאֶֽה׃",
+      "text_with_niqqud": "פָּדָה נפשי (נַפְשׁוֹ) מֵעֲבֹר בַּשָּׁחַת וחיתי (וְחַיָּתוֹ) בָּאוֹר תִּרְאֶה",
+      "text_plain": "פדה נפשי (נפשו) מעבר בשחת וחיתי (וחיתו) באור תראה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_029",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 29,
+      "ref": "איוב לג:כט",
+      "ref_en": "Job 33:29",
+      "text_original": "הֶן־כָּל־אֵ֭לֶּה יִפְעַל־אֵ֑ל פַּֽעֲמַ֖יִם שָׁל֣וֹשׁ עִם־גָּֽבֶר׃",
+      "text_with_niqqud": "הֶן כָּל אֵלֶּה יִפְעַל אֵל פַּעֲמַיִם שָׁלוֹשׁ עִם גָּבֶר",
+      "text_plain": "הן כל אלה יפעל אל פעמים שלוש עם גבר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_030",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 30,
+      "ref": "איוב לג:ל",
+      "ref_en": "Job 33:30",
+      "text_original": "לְהָשִׁ֣יב נַ֭פְשׁוֹ מִנִּי־שָׁ֑חַת לֵ֝א֗וֹר בְּא֣וֹר הַֽחַיִּֽים׃",
+      "text_with_niqqud": "לְהָשִׁיב נַפְשׁוֹ מִנִּי שָׁחַת לֵאוֹר בְּאוֹר הַחַיִּים",
+      "text_plain": "להשיב נפשו מני שחת לאור באור החיים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_031",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 31,
+      "ref": "איוב לג:לא",
+      "ref_en": "Job 33:31",
+      "text_original": "הַקְשֵׁ֖ב אִיּ֥וֹב שְֽׁמַֽע־לִ֑י הַֽ֝חֲרֵ֗שׁ וְאָֽנֹכִ֥י אֲדַבֵּֽר׃",
+      "text_with_niqqud": "הַקְשֵׁב אִיּוֹב שְׁמַע לִי הַחֲרֵשׁ וְאָנֹכִי אֲדַבֵּר",
+      "text_plain": "הקשב איוב שמע לי החרש ואנכי אדבר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_032",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 32,
+      "ref": "איוב לג:לב",
+      "ref_en": "Job 33:32",
+      "text_original": "אִם־יֵשׁ־מִלִּ֥ין הֲשִׁיבֵ֑נִי דַּ֝בֵּ֗ר כִּֽי־חָפַ֥צְתִּי צַדְּקֶֽךָּ׃",
+      "text_with_niqqud": "אִם יֵשׁ מִלִּין הֲשִׁיבֵנִי דַּבֵּר כִּי חָפַצְתִּי צַדְּקֶךָּ",
+      "text_plain": "אם יש מלין השיבני דבר כי חפצתי צדקך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    },
+    {
+      "verse_id": "_29_iyov_033_033",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 33,
+      "verse": 33,
+      "ref": "איוב לג:לג",
+      "ref_en": "Job 33:33",
+      "text_original": "אִם־אַ֭יִן אַתָּ֥ה שְֽׁמַֽע־לִ֑י הַֽ֝חֲרֵ֗שׁ וַֽאֲאַלֶּפְךָ֥ חָכְמָֽה׃",
+      "text_with_niqqud": "אִם אַיִן אַתָּה שְׁמַע לִי הַחֲרֵשׁ וַאֲאַלֶּפְךָ חָכְמָה",
+      "text_plain": "אם אין אתה שמע לי החרש ואאלפך חכמה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-33.txt"
+    }
+  ]
+}

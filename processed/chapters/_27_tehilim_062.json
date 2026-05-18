@@ -1,0 +1,246 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 62,
+  "chapter_id": "_27_tehilim_062",
+  "ref": "תהילים סב",
+  "ref_en": "Psalms 62",
+  "source_file": "_27_tehilim-062.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_062_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 1,
+      "ref": "תהילים סב:א",
+      "ref_en": "Psalms 62:1",
+      "text_original": "לַמְנַצֵּ֥חַ עַֽל־יְדוּת֗וּן מִזְמ֥וֹר לְדָוִֽד׃",
+      "text_with_niqqud": "לַמְנַצֵּחַ עַל יְדוּתוּן מִזְמוֹר לְדָוִד",
+      "text_plain": "למנצח על ידותון מזמור לדוד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_062_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 2,
+      "ref": "תהילים סב:ב",
+      "ref_en": "Psalms 62:2",
+      "text_original": "אַ֣ךְ אֶל־אֱ֭לֹהִים דּֽוּמִיָּ֣ה נַפְשִׁ֑י מִ֝מֶּ֗נּוּ יְשֽׁוּעָתִֽי׃",
+      "text_with_niqqud": "אַךְ אֶל אֱלֹהִים דּוּמִיָּה נַפְשִׁי מִמֶּנּוּ יְשׁוּעָתִי",
+      "text_plain": "אך אל אלהים דומיה נפשי ממנו ישועתי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_062_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 3,
+      "ref": "תהילים סב:ג",
+      "ref_en": "Psalms 62:3",
+      "text_original": "אַךְ־ה֣וּא צ֭וּרִי וִישֽׁוּעָתִ֑י מִ֝שְׂגַּבִּ֗י לֹֽא־אֶמּ֥וֹט רַבָּֽה׃",
+      "text_with_niqqud": "אַךְ הוּא צוּרִי וִישׁוּעָתִי מִשְׂגַּבִּי לֹא אֶמּוֹט רַבָּה",
+      "text_plain": "אך הוא צורי וישועתי משגבי לא אמוט רבה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_062_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 4,
+      "ref": "תהילים סב:ד",
+      "ref_en": "Psalms 62:4",
+      "text_original": "עַד־אָ֤נָה ׀ תְּהֽוֹתְת֣וּ עַל־אִישׁ֮ תְּרָצְּח֪וּ כֻ֫לְּכֶ֥ם כְּקִ֥יר נָט֑וּי גָּ֝דֵ֗ר הַדְּחוּיָֽה׃",
+      "text_with_niqqud": "עַד אָנָה תְּהוֹתְתוּ עַל אִישׁ תְּרָצְּחוּ כֻלְּכֶם כְּקִיר נָטוּי גָּדֵר הַדְּחוּיָה",
+      "text_plain": "עד אנה תהותתו על איש תרצחו כלכם כקיר נטוי גדר הדחויה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_062_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 5,
+      "ref": "תהילים סב:ה",
+      "ref_en": "Psalms 62:5",
+      "text_original": "אַ֤ךְ מִשְּׂאֵת֨וֹ ׀ יָ֥עֲצ֣וּ לְהַדִּֽיחַ֮ יִרְצ֪וּ כָ֫זָ֥ב בְּפִ֥יו יְבָרֵ֑כוּ וּ֝בְקִרְבָּ֗ם יְקַֽלְלוּ־סֶֽלָה׃",
+      "text_with_niqqud": "אַךְ מִשְּׂאֵתוֹ יָעֲצוּ לְהַדִּיחַ יִרְצוּ כָזָב בְּפִיו יְבָרֵכוּ וּבְקִרְבָּם יְקַלְלוּ סֶלָה",
+      "text_plain": "אך משאתו יעצו להדיח ירצו כזב בפיו יברכו ובקרבם יקללו סלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_062_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 6,
+      "ref": "תהילים סב:ו",
+      "ref_en": "Psalms 62:6",
+      "text_original": "אַ֣ךְ לֵֽ֭אלֹהִים דּ֣וֹמִּי נַפְשִׁ֑י כִּֽי־מִ֝מֶּ֗נּוּ תִּקְוָתִֽי׃",
+      "text_with_niqqud": "אַךְ לֵאלֹהִים דּוֹמִּי נַפְשִׁי כִּי מִמֶּנּוּ תִּקְוָתִי",
+      "text_plain": "אך לאלהים דומי נפשי כי ממנו תקותי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_062_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 7,
+      "ref": "תהילים סב:ז",
+      "ref_en": "Psalms 62:7",
+      "text_original": "אַךְ־ה֣וּא צ֭וּרִי וִישֽׁוּעָתִ֑י מִ֝שְׂגַּבִּ֗י לֹ֣א אֶמּֽוֹט׃",
+      "text_with_niqqud": "אַךְ הוּא צוּרִי וִישׁוּעָתִי מִשְׂגַּבִּי לֹא אֶמּוֹט",
+      "text_plain": "אך הוא צורי וישועתי משגבי לא אמוט",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_062_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 8,
+      "ref": "תהילים סב:ח",
+      "ref_en": "Psalms 62:8",
+      "text_original": "עַל־אֱ֭לֹהִים יִשְׁעִ֣י וּכְבוֹדִ֑י צוּר־עֻזִּ֥י מַ֝חְסִ֗י בֵּֽאלֹהִֽים׃",
+      "text_with_niqqud": "עַל אֱלֹהִים יִשְׁעִי וּכְבוֹדִי צוּר עֻזִּי מַחְסִי בֵּאלֹהִים",
+      "text_plain": "על אלהים ישעי וכבודי צור עזי מחסי באלהים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_062_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 9,
+      "ref": "תהילים סב:ט",
+      "ref_en": "Psalms 62:9",
+      "text_original": "בִּטְח֘וּ ב֤וֹ בְכָל־עֵ֨ת ׀ עָ֗ם שִׁפְכֽוּ־לְפָנָ֥יו לְבַבְכֶ֑ם אֱלֹהִ֖ים מַֽחֲסֶה־לָּ֣נוּ סֶֽלָה׃",
+      "text_with_niqqud": "בִּטְחוּ בוֹ בְכָל עֵת עָם שִׁפְכוּ לְפָנָיו לְבַבְכֶם אֱלֹהִים מַחֲסֶה לָּנוּ סֶלָה",
+      "text_plain": "בטחו בו בכל עת עם שפכו לפניו לבבכם אלהים מחסה לנו סלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_062_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 10,
+      "ref": "תהילים סב:י",
+      "ref_en": "Psalms 62:10",
+      "text_original": "אַ֤ךְ ׀ הֶ֥בֶל בְּנֵֽי־אָדָם֮ כָּזָ֪ב בְּנֵ֫י אִ֥ישׁ בְּמֹֽאזְנַ֥יִם לַֽעֲל֑וֹת הֵ֝֗מָּה מֵהֶ֥בֶל יָֽחַד׃",
+      "text_with_niqqud": "אַךְ הֶבֶל בְּנֵי אָדָם כָּזָב בְּנֵי אִישׁ בְּמֹאזְנַיִם לַעֲלוֹת הֵמָּה מֵהֶבֶל יָחַד",
+      "text_plain": "אך הבל בני אדם כזב בני איש במאזנים לעלות המה מהבל יחד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_062_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 11,
+      "ref": "תהילים סב:יא",
+      "ref_en": "Psalms 62:11",
+      "text_original": "אַל־תִּבְטְח֣וּ בְעֹֽשֶׁק֮ וּבְגָזֵ֪ל אַל־תֶּ֫הְבָּ֥לוּ חַ֤יִל ׀ כִּֽי־יָנ֑וּב אַל־תָּשִׁ֥יתוּ לֵֽב׃",
+      "text_with_niqqud": "אַל תִּבְטְחוּ בְעֹשֶׁק וּבְגָזֵל אַל תֶּהְבָּלוּ חַיִל כִּי יָנוּב אַל תָּשִׁיתוּ לֵב",
+      "text_plain": "אל תבטחו בעשק ובגזל אל תהבלו חיל כי ינוב אל תשיתו לב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_062_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 12,
+      "ref": "תהילים סב:יב",
+      "ref_en": "Psalms 62:12",
+      "text_original": "אַחַ֤ת ׀ דִּבֶּ֬ר אֱלֹהִ֗ים שְׁתַּֽיִם־ז֥וּ שָׁמָ֑עְתִּי כִּ֥י עֹ֝֗ז לֵֽאלֹהִֽים׃",
+      "text_with_niqqud": "אַחַת דִּבֶּר אֱלֹהִים שְׁתַּיִם זוּ שָׁמָעְתִּי כִּי עֹז לֵאלֹהִים",
+      "text_plain": "אחת דבר אלהים שתים זו שמעתי כי עז לאלהים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_062_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 62,
+      "verse": 13,
+      "ref": "תהילים סב:יג",
+      "ref_en": "Psalms 62:13",
+      "text_original": "וּלְךָֽ־אֲדֹנָ֥י חָ֑סֶד כִּֽי־אַתָּ֨ה תְשַׁלֵּ֖ם לְאִ֣ישׁ כְּֽמַעֲשֵֽׂהוּ׃",
+      "text_with_niqqud": "וּלְךָ אֲדֹנָי חָסֶד כִּי אַתָּה תְשַׁלֵּם לְאִישׁ כְּמַעֲשֵׂהוּ",
+      "text_plain": "ולך אדני חסד כי אתה תשלם לאיש כמעשהו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-062.txt"
+    }
+  ]
+}

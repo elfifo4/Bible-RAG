@@ -1,0 +1,120 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 126,
+  "chapter_id": "_27_tehilim_126",
+  "ref": "תהילים קכו",
+  "ref_en": "Psalms 126",
+  "source_file": "_27_tehilim-126.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_126_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 126,
+      "verse": 1,
+      "ref": "תהילים קכו:א",
+      "ref_en": "Psalms 126:1",
+      "text_original": "שִׁ֗יר הַֽמַּ֫עֲל֥וֹת בְּשׁ֣וּב יְ֭הֹוָה אֶת־שִׁיבַ֣ת צִיּ֑וֹן הָ֝יִ֗ינוּ כְּחֹֽלְמִֽים׃",
+      "text_with_niqqud": "שִׁיר הַמַּעֲלוֹת בְּשׁוּב יְהֹוָה אֶת שִׁיבַת צִיּוֹן הָיִינוּ כְּחֹלְמִים",
+      "text_plain": "שיר המעלות בשוב יהוה את שיבת ציון היינו כחלמים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-126.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_126_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 126,
+      "verse": 2,
+      "ref": "תהילים קכו:ב",
+      "ref_en": "Psalms 126:2",
+      "text_original": "אָ֤ז יִמָּלֵ֪א שְׂח֡וֹק פִּֽינוּ֮ וּלְשׁוֹנֵ֪נוּ רִ֫נָּ֥ה אָ֭ז יֹֽאמְר֣וּ בַגּוֹיִ֑ם הִגְדִּ֥יל יְ֝הֹוָ֗ה לַֽעֲשׂ֥וֹת עִם־אֵֽלֶּה׃",
+      "text_with_niqqud": "אָז יִמָּלֵא שְׂחוֹק פִּינוּ וּלְשׁוֹנֵנוּ רִנָּה אָז יֹאמְרוּ בַגּוֹיִם הִגְדִּיל יְהֹוָה לַעֲשׂוֹת עִם אֵלֶּה",
+      "text_plain": "אז ימלא שחוק פינו ולשוננו רנה אז יאמרו בגוים הגדיל יהוה לעשות עם אלה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-126.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_126_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 126,
+      "verse": 3,
+      "ref": "תהילים קכו:ג",
+      "ref_en": "Psalms 126:3",
+      "text_original": "הִגְדִּ֣יל יְ֭הֹוָה לַֽעֲשׂ֥וֹת עִמָּ֗נוּ הָיִ֥ינוּ שְׂמֵחִֽים׃",
+      "text_with_niqqud": "הִגְדִּיל יְהֹוָה לַעֲשׂוֹת עִמָּנוּ הָיִינוּ שְׂמֵחִים",
+      "text_plain": "הגדיל יהוה לעשות עמנו היינו שמחים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-126.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_126_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 126,
+      "verse": 4,
+      "ref": "תהילים קכו:ד",
+      "ref_en": "Psalms 126:4",
+      "text_original": "שׁוּבָ֣ה יְ֭הֹוָה אֶת־שבותנו (שְׁבִיתֵ֑נוּ) כַּֽאֲפִיקִ֥ים בַּנֶּֽגֶב׃",
+      "text_with_niqqud": "שׁוּבָה יְהֹוָה אֶת שבותנו (שְׁבִיתֵנוּ) כַּאֲפִיקִים בַּנֶּגֶב",
+      "text_plain": "שובה יהוה את שבותנו (שביתנו) כאפיקים בנגב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-126.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_126_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 126,
+      "verse": 5,
+      "ref": "תהילים קכו:ה",
+      "ref_en": "Psalms 126:5",
+      "text_original": "הַזֹּֽרְעִ֥ים בְּדִמְעָ֗ה בְּרִנָּ֥ה יִקְצֹֽרוּ׃",
+      "text_with_niqqud": "הַזֹּרְעִים בְּדִמְעָה בְּרִנָּה יִקְצֹרוּ",
+      "text_plain": "הזרעים בדמעה ברנה יקצרו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-126.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_126_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 126,
+      "verse": 6,
+      "ref": "תהילים קכו:ו",
+      "ref_en": "Psalms 126:6",
+      "text_original": "הָ֘ל֤וֹךְ יֵלֵ֨ךְ ׀ וּבָכֹה֮ נֹשֵׂ֪א מֶֽשֶׁךְ־הַ֫זָּ֥רַע בֹּֽא־יָבֹ֥א בְרִנָּ֑ה נֹ֝שֵׂ֗א אֲלֻמֹּתָֽיו׃",
+      "text_with_niqqud": "הָלוֹךְ יֵלֵךְ וּבָכֹה נֹשֵׂא מֶשֶׁךְ הַזָּרַע בֹּא יָבֹא בְרִנָּה נֹשֵׂא אֲלֻמֹּתָיו",
+      "text_plain": "הלוך ילך ובכה נשא משך הזרע בא יבא ברנה נשא אלמתיו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-126.txt"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 64,
+  "chapter_id": "_27_tehilim_064",
+  "ref": "תהילים סד",
+  "ref_en": "Psalms 64",
+  "source_file": "_27_tehilim-064.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_064_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 64,
+      "verse": 1,
+      "ref": "תהילים סד:א",
+      "ref_en": "Psalms 64:1",
+      "text_original": "לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃",
+      "text_with_niqqud": "לַמְנַצֵּחַ מִזְמוֹר לְדָוִד",
+      "text_plain": "למנצח מזמור לדוד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-064.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_064_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 64,
+      "verse": 2,
+      "ref": "תהילים סד:ב",
+      "ref_en": "Psalms 64:2",
+      "text_original": "שְׁמַע־אֱלֹהִ֣ים קוֹלִ֣י בְשִׂיחִ֑י מִפַּ֥חַד א֝וֹיֵ֗ב תִּצֹּ֥ר חַיָּֽי׃",
+      "text_with_niqqud": "שְׁמַע אֱלֹהִים קוֹלִי בְשִׂיחִי מִפַּחַד אוֹיֵב תִּצֹּר חַיָּי",
+      "text_plain": "שמע אלהים קולי בשיחי מפחד אויב תצר חיי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-064.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_064_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 64,
+      "verse": 3,
+      "ref": "תהילים סד:ג",
+      "ref_en": "Psalms 64:3",
+      "text_original": "תַּ֭סְתִּירֵנִי מִסּ֣וֹד מְרֵעִ֑ים מֵֽ֝רִגְשַׁ֗ת פֹּ֣עֲלֵי אָֽוֶן׃",
+      "text_with_niqqud": "תַּסְתִּירֵנִי מִסּוֹד מְרֵעִים מֵרִגְשַׁת פֹּעֲלֵי אָוֶן",
+      "text_plain": "תסתירני מסוד מרעים מרגשת פעלי און",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-064.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_064_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 64,
+      "verse": 4,
+      "ref": "תהילים סד:ד",
+      "ref_en": "Psalms 64:4",
+      "text_original": "אֲשֶׁ֤ר שָֽׁנְנ֣וּ כַחֶ֣רֶב לְשׁוֹנָ֑ם דָּֽרְכ֥וּ חִ֝צָּ֗ם דָּבָ֥ר מָֽר׃",
+      "text_with_niqqud": "אֲשֶׁר שָׁנְנוּ כַחֶרֶב לְשׁוֹנָם דָּרְכוּ חִצָּם דָּבָר מָר",
+      "text_plain": "אשר שננו כחרב לשונם דרכו חצם דבר מר",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-064.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_064_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 64,
+      "verse": 5,
+      "ref": "תהילים סד:ה",
+      "ref_en": "Psalms 64:5",
+      "text_original": "לִירֹ֣ת בַּמִּסְתָּרִ֣ים תָּ֑ם פִּתְאֹ֥ם יֹ֝רֻ֗הוּ וְלֹ֣א יִירָֽאוּ׃",
+      "text_with_niqqud": "לִירֹת בַּמִּסְתָּרִים תָּם פִּתְאֹם יֹרֻהוּ וְלֹא יִירָאוּ",
+      "text_plain": "לירת במסתרים תם פתאם ירהו ולא ייראו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-064.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_064_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 64,
+      "verse": 6,
+      "ref": "תהילים סד:ו",
+      "ref_en": "Psalms 64:6",
+      "text_original": "יְחַזְּקוּ־לָ֨מוֹ ׀ דָּ֘בָ֤ר רָ֗ע יְֽ֭סַפְּרוּ לִטְמ֣וֹן מֽוֹקְשִׁ֑ים אָֽ֝מְר֗וּ מִ֣י יִרְאֶה־לָּֽמוֹ׃",
+      "text_with_niqqud": "יְחַזְּקוּ לָמוֹ דָּבָר רָע יְסַפְּרוּ לִטְמוֹן מוֹקְשִׁים אָמְרוּ מִי יִרְאֶה לָּמוֹ",
+      "text_plain": "יחזקו למו דבר רע יספרו לטמון מוקשים אמרו מי יראה למו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-064.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_064_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 64,
+      "verse": 7,
+      "ref": "תהילים סד:ז",
+      "ref_en": "Psalms 64:7",
+      "text_original": "יַ֥חְפְּֽשׂוּ עוֹלֹ֗ת תַּ֭מְנוּ חֵ֣פֶשׂ מְחֻפָּ֑שׂ וְקֶ֥רֶב אִ֝֗ישׁ וְלֵ֣ב עָמֹֽק׃",
+      "text_with_niqqud": "יַחְפְּשׂוּ עוֹלֹת תַּמְנוּ חֵפֶשׂ מְחֻפָּשׂ וְקֶרֶב אִישׁ וְלֵב עָמֹק",
+      "text_plain": "יחפשו עולת תמנו חפש מחפש וקרב איש ולב עמק",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-064.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_064_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 64,
+      "verse": 8,
+      "ref": "תהילים סד:ח",
+      "ref_en": "Psalms 64:8",
+      "text_original": "וַיֹּרֵ֗ם אֱלֹ֫הִ֥ים חֵ֥ץ פִּתְא֑וֹם הָ֝י֗וּ מַכּוֹתָֽם׃",
+      "text_with_niqqud": "וַיֹּרֵם אֱלֹהִים חֵץ פִּתְאוֹם הָיוּ מַכּוֹתָם",
+      "text_plain": "וירם אלהים חץ פתאום היו מכותם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-064.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_064_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 64,
+      "verse": 9,
+      "ref": "תהילים סד:ט",
+      "ref_en": "Psalms 64:9",
+      "text_original": "וַיַּכְשִׁיל֣וּהוּ עָלֵ֣ימוֹ לְשׁוֹנָ֑ם יִ֝תְנֹֽדְד֗וּ כָּל־רֹ֥אֵה בָֽם׃",
+      "text_with_niqqud": "וַיַּכְשִׁילוּהוּ עָלֵימוֹ לְשׁוֹנָם יִתְנֹדְדוּ כָּל רֹאֵה בָם",
+      "text_plain": "ויכשילוהו עלימו לשונם יתנדדו כל ראה בם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-064.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_064_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 64,
+      "verse": 10,
+      "ref": "תהילים סד:י",
+      "ref_en": "Psalms 64:10",
+      "text_original": "וַיִּֽירְא֗וּ כָּל־אָ֫דָ֥ם וַ֭יַּגִּידוּ פֹּ֥עַל אֱלֹהִ֗ים וּֽמַעֲשֵׂ֥הוּ הִשְׂכִּֽילוּ׃",
+      "text_with_niqqud": "וַיִּירְאוּ כָּל אָדָם וַיַּגִּידוּ פֹּעַל אֱלֹהִים וּמַעֲשֵׂהוּ הִשְׂכִּילוּ",
+      "text_plain": "וייראו כל אדם ויגידו פעל אלהים ומעשהו השכילו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-064.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_064_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 64,
+      "verse": 11,
+      "ref": "תהילים סד:יא",
+      "ref_en": "Psalms 64:11",
+      "text_original": "יִשְׂמַ֬ח צַדִּ֣יק בַּֽ֭יהֹוָה וְחָ֣סָה ב֑וֹ וְ֝יִתְהַֽלְל֗וּ כָּל־יִשְׁרֵי־לֵֽב׃",
+      "text_with_niqqud": "יִשְׂמַח צַדִּיק בַּיהֹוָה וְחָסָה בוֹ וְיִתְהַלְלוּ כָּל יִשְׁרֵי לֵב",
+      "text_plain": "ישמח צדיק ביהוה וחסה בו ויתהללו כל ישרי לב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-064.txt"
+    }
+  ]
+}

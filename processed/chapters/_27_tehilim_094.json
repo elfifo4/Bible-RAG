@@ -1,0 +1,426 @@
+{
+  "book": "תהילים",
+  "book_en": "Psalms",
+  "book_slug": "tehilim",
+  "chapter": 94,
+  "chapter_id": "_27_tehilim_094",
+  "ref": "תהילים צד",
+  "ref_en": "Psalms 94",
+  "source_file": "_27_tehilim-094.txt",
+  "verses": [
+    {
+      "verse_id": "_27_tehilim_094_001",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 1,
+      "ref": "תהילים צד:א",
+      "ref_en": "Psalms 94:1",
+      "text_original": "אֵל־נְקָמ֥וֹת יְהֹוָ֑ה אֵ֖ל נְקָמ֣וֹת הוֹפִֽיעַ׃",
+      "text_with_niqqud": "אֵל נְקָמוֹת יְהֹוָה אֵל נְקָמוֹת הוֹפִיעַ",
+      "text_plain": "אל נקמות יהוה אל נקמות הופיע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_002",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 2,
+      "ref": "תהילים צד:ב",
+      "ref_en": "Psalms 94:2",
+      "text_original": "הִ֭נָּשֵׂא שֹׁפֵ֣ט הָאָ֑רֶץ הָשֵׁ֥ב גְּ֝מ֗וּל עַל־גֵּאִֽים׃",
+      "text_with_niqqud": "הִנָּשֵׂא שֹׁפֵט הָאָרֶץ הָשֵׁב גְּמוּל עַל גֵּאִים",
+      "text_plain": "הנשא שפט הארץ השב גמול על גאים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_003",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 3,
+      "ref": "תהילים צד:ג",
+      "ref_en": "Psalms 94:3",
+      "text_original": "עַד־מָתַ֖י רְשָׁעִ֥ים ׀ יְהֹוָ֑ה עַד־מָ֝תַ֗י רְשָׁעִ֥ים יַֽעֲלֹֽזוּ׃",
+      "text_with_niqqud": "עַד מָתַי רְשָׁעִים יְהֹוָה עַד מָתַי רְשָׁעִים יַעֲלֹזוּ",
+      "text_plain": "עד מתי רשעים יהוה עד מתי רשעים יעלזו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_004",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 4,
+      "ref": "תהילים צד:ד",
+      "ref_en": "Psalms 94:4",
+      "text_original": "יַבִּ֣יעוּ יְדַבְּר֣וּ עָתָ֑ק יִ֝תְאַמְּר֗וּ כָּל־פֹּ֥עֲלֵי אָֽוֶן׃",
+      "text_with_niqqud": "יַבִּיעוּ יְדַבְּרוּ עָתָק יִתְאַמְּרוּ כָּל פֹּעֲלֵי אָוֶן",
+      "text_plain": "יביעו ידברו עתק יתאמרו כל פעלי און",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_005",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 5,
+      "ref": "תהילים צד:ה",
+      "ref_en": "Psalms 94:5",
+      "text_original": "עַמְּךָ֣ יְהֹוָ֣ה יְדַכְּא֑וּ וְֽנַחֲלָתְךָ֥ יְעַנּֽוּ׃",
+      "text_with_niqqud": "עַמְּךָ יְהֹוָה יְדַכְּאוּ וְנַחֲלָתְךָ יְעַנּוּ",
+      "text_plain": "עמך יהוה ידכאו ונחלתך יענו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_006",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 6,
+      "ref": "תהילים צד:ו",
+      "ref_en": "Psalms 94:6",
+      "text_original": "אַלְמָנָ֣ה וְגֵ֣ר יַֽהֲרֹ֑גוּ וִ֖יתוֹמִ֣ים יְרַצֵּֽחוּ׃",
+      "text_with_niqqud": "אַלְמָנָה וְגֵר יַהֲרֹגוּ וִיתוֹמִים יְרַצֵּחוּ",
+      "text_plain": "אלמנה וגר יהרגו ויתומים ירצחו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_007",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 7,
+      "ref": "תהילים צד:ז",
+      "ref_en": "Psalms 94:7",
+      "text_original": "וַ֭יֹּ֣אמְרוּ לֹ֣א יִרְאֶה־יָּ֑הּ וְלֹֽא־יָ֝בִ֗ין אֱלֹהֵ֥י יַֽעֲקֹֽב׃",
+      "text_with_niqqud": "וַיֹּאמְרוּ לֹא יִרְאֶה יָּהּ וְלֹא יָבִין אֱלֹהֵי יַעֲקֹב",
+      "text_plain": "ויאמרו לא יראה יה ולא יבין אלהי יעקב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_008",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 8,
+      "ref": "תהילים צד:ח",
+      "ref_en": "Psalms 94:8",
+      "text_original": "בִּ֭ינוּ בֹּֽעֲרִ֣ים בָּעָ֑ם וּ֝כְסִילִ֗ים מָתַ֥י תַּשְׂכִּֽילוּ׃",
+      "text_with_niqqud": "בִּינוּ בֹּעֲרִים בָּעָם וּכְסִילִים מָתַי תַּשְׂכִּילוּ",
+      "text_plain": "בינו בערים בעם וכסילים מתי תשכילו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_009",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 9,
+      "ref": "תהילים צד:ט",
+      "ref_en": "Psalms 94:9",
+      "text_original": "הֲנֹ֣טַֽע אֹ֭זֶן הֲלֹ֣א יִשְׁמָ֑ע אִֽם־יֹ֥צֵֽר עַ֝֗יִן הֲלֹ֣א יַבִּֽיט׃",
+      "text_with_niqqud": "הֲנֹטַע אֹזֶן הֲלֹא יִשְׁמָע אִם יֹצֵר עַיִן הֲלֹא יַבִּיט",
+      "text_plain": "הנטע אזן הלא ישמע אם יצר עין הלא יביט",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_010",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 10,
+      "ref": "תהילים צד:י",
+      "ref_en": "Psalms 94:10",
+      "text_original": "הֲיֹסֵ֣ר גּ֭וֹיִם הֲלֹ֣א יוֹכִ֑יחַ הַֽמְלַמֵּ֖ד אָדָ֣ם דָּֽעַת׃",
+      "text_with_niqqud": "הֲיֹסֵר גּוֹיִם הֲלֹא יוֹכִיחַ הַמְלַמֵּד אָדָם דָּעַת",
+      "text_plain": "היסר גוים הלא יוכיח המלמד אדם דעת",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_011",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 11,
+      "ref": "תהילים צד:יא",
+      "ref_en": "Psalms 94:11",
+      "text_original": "יְֽהֹוָ֗ה יֹ֭דֵעַ מַחְשְׁב֣וֹת אָדָ֑ם כִּי־הֵ֥מָּה הָֽבֶל׃",
+      "text_with_niqqud": "יְהֹוָה יֹדֵעַ מַחְשְׁבוֹת אָדָם כִּי הֵמָּה הָבֶל",
+      "text_plain": "יהוה ידע מחשבות אדם כי המה הבל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_012",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 12,
+      "ref": "תהילים צד:יב",
+      "ref_en": "Psalms 94:12",
+      "text_original": "אַשְׁרֵ֤י ׀ הַגֶּ֣בֶר אֲשֶׁר־תְּיַסְּרֶ֣נּוּ יָּ֑הּ וּֽמִתּוֹרָתְךָ֥ תְלַמְּדֶֽנּוּ׃",
+      "text_with_niqqud": "אַשְׁרֵי הַגֶּבֶר אֲשֶׁר תְּיַסְּרֶנּוּ יָּהּ וּמִתּוֹרָתְךָ תְלַמְּדֶנּוּ",
+      "text_plain": "אשרי הגבר אשר תיסרנו יה ומתורתך תלמדנו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_013",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 13,
+      "ref": "תהילים צד:יג",
+      "ref_en": "Psalms 94:13",
+      "text_original": "לְהַשְׁקִ֣יט ל֭וֹ מִ֣ימֵי רָ֑ע עַ֤ד יִכָּרֶ֖ה לָֽרָשָׁ֣ע שָֽׁחַת׃",
+      "text_with_niqqud": "לְהַשְׁקִיט לוֹ מִימֵי רָע עַד יִכָּרֶה לָרָשָׁע שָׁחַת",
+      "text_plain": "להשקיט לו מימי רע עד יכרה לרשע שחת",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_014",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 14,
+      "ref": "תהילים צד:יד",
+      "ref_en": "Psalms 94:14",
+      "text_original": "כִּ֤י ׀ לֹֽא־יִטֹּ֣שׁ יְהֹוָ֣ה עַמּ֑וֹ וְ֝נַֽחֲלָת֗וֹ לֹ֣א יַֽעֲזֹֽב׃",
+      "text_with_niqqud": "כִּי לֹא יִטֹּשׁ יְהֹוָה עַמּוֹ וְנַחֲלָתוֹ לֹא יַעֲזֹב",
+      "text_plain": "כי לא יטש יהוה עמו ונחלתו לא יעזב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_015",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 15,
+      "ref": "תהילים צד:טו",
+      "ref_en": "Psalms 94:15",
+      "text_original": "כִּֽי־עַד־צֶ֭דֶק יָשׁ֣וּב מִשְׁפָּ֑ט וְ֝אַֽחֲרָ֗יו כָּל־יִשְׁרֵי־לֵֽב׃",
+      "text_with_niqqud": "כִּי עַד צֶדֶק יָשׁוּב מִשְׁפָּט וְאַחֲרָיו כָּל יִשְׁרֵי לֵב",
+      "text_plain": "כי עד צדק ישוב משפט ואחריו כל ישרי לב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_016",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 16,
+      "ref": "תהילים צד:טז",
+      "ref_en": "Psalms 94:16",
+      "text_original": "מִֽי־יָק֣וּם לִ֭י עִם־מְרֵעִ֑ים מִֽי־יִתְיַצֵּ֥ב לִ֝֗י עִם־פֹּ֥עֲלֵי אָֽוֶן׃",
+      "text_with_niqqud": "מִי יָקוּם לִי עִם מְרֵעִים מִי יִתְיַצֵּב לִי עִם פֹּעֲלֵי אָוֶן",
+      "text_plain": "מי יקום לי עם מרעים מי יתיצב לי עם פעלי און",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_017",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 17,
+      "ref": "תהילים צד:יז",
+      "ref_en": "Psalms 94:17",
+      "text_original": "לוּלֵ֣י יְ֭הֹוָה עֶזְרָ֣תָה לִּ֑י כִּמְעַ֓ט ׀ שָֽׁכְנָ֖ה דוּמָ֣ה נַפְשִֽׁי׃",
+      "text_with_niqqud": "לוּלֵי יְהֹוָה עֶזְרָתָה לִּי כִּמְעַט שָׁכְנָה דוּמָה נַפְשִׁי",
+      "text_plain": "לולי יהוה עזרתה לי כמעט שכנה דומה נפשי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_018",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 18,
+      "ref": "תהילים צד:יח",
+      "ref_en": "Psalms 94:18",
+      "text_original": "אִם־אָ֭מַרְתִּי מָ֣טָה רַגְלִ֑י חַסְדְּךָ֥ יְ֝הֹוָ֗ה יִסְעָדֵֽנִי׃",
+      "text_with_niqqud": "אִם אָמַרְתִּי מָטָה רַגְלִי חַסְדְּךָ יְהֹוָה יִסְעָדֵנִי",
+      "text_plain": "אם אמרתי מטה רגלי חסדך יהוה יסעדני",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_019",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 19,
+      "ref": "תהילים צד:יט",
+      "ref_en": "Psalms 94:19",
+      "text_original": "בְּרֹ֣ב שַׂרְעַפַּ֣י בְּקִרְבִּ֑י תַּ֝נְחוּמֶ֗יךָ יְֽשַׁעַשְׁע֥וּ נַפְשִֽׁי׃",
+      "text_with_niqqud": "בְּרֹב שַׂרְעַפַּי בְּקִרְבִּי תַּנְחוּמֶיךָ יְשַׁעַשְׁעוּ נַפְשִׁי",
+      "text_plain": "ברב שרעפי בקרבי תנחומיך ישעשעו נפשי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_020",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 20,
+      "ref": "תהילים צד:כ",
+      "ref_en": "Psalms 94:20",
+      "text_original": "הַֽ֭יְחָבְרְךָ כִּסֵּ֣א הַוּ֑וֹת יֹצֵ֖ר עָמָ֣ל עֲלֵי־חֹֽק׃",
+      "text_with_niqqud": "הַיְחָבְרְךָ כִּסֵּא הַוּוֹת יֹצֵר עָמָל עֲלֵי חֹק",
+      "text_plain": "היחברך כסא הוות יצר עמל עלי חק",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_021",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 21,
+      "ref": "תהילים צד:כא",
+      "ref_en": "Psalms 94:21",
+      "text_original": "יָ֭גוֹדּוּ עַל־נֶ֣פֶשׁ צַדִּ֑יק וְדָ֖ם נָקִ֣י יַרְשִֽׁיעוּ׃",
+      "text_with_niqqud": "יָגוֹדּוּ עַל נֶפֶשׁ צַדִּיק וְדָם נָקִי יַרְשִׁיעוּ",
+      "text_plain": "יגודו על נפש צדיק ודם נקי ירשיעו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_022",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 22,
+      "ref": "תהילים צד:כב",
+      "ref_en": "Psalms 94:22",
+      "text_original": "וַיְהִ֬י יְהֹוָ֣ה לִ֣י לְמִשְׂגָּ֑ב וֵֽ֝אלֹהַ֗י לְצ֣וּר מַחְסִֽי׃",
+      "text_with_niqqud": "וַיְהִי יְהֹוָה לִי לְמִשְׂגָּב וֵאלֹהַי לְצוּר מַחְסִי",
+      "text_plain": "ויהי יהוה לי למשגב ואלהי לצור מחסי",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    },
+    {
+      "verse_id": "_27_tehilim_094_023",
+      "book": "תהילים",
+      "book_en": "Psalms",
+      "book_slug": "tehilim",
+      "chapter": 94,
+      "verse": 23,
+      "ref": "תהילים צד:כג",
+      "ref_en": "Psalms 94:23",
+      "text_original": "וַיָּ֤שֶׁב עֲלֵיהֶ֨ם ׀ אֶת־אוֹנָ֗ם וּבְרָֽעָתָ֥ם יַצְמִיתֵ֑ם יַ֝צְמִיתֵ֗ם יְהֹוָ֥ה אֱלֹהֵֽינוּ׃",
+      "text_with_niqqud": "וַיָּשֶׁב עֲלֵיהֶם אֶת אוֹנָם וּבְרָעָתָם יַצְמִיתֵם יַצְמִיתֵם יְהֹוָה אֱלֹהֵינוּ",
+      "text_plain": "וישב עליהם את אונם וברעתם יצמיתם יצמיתם יהוה אלהינו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_27_tehilim-094.txt"
+    }
+  ]
+}

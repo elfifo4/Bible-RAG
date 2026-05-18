@@ -1,0 +1,444 @@
+{
+  "book": "איוב",
+  "book_en": "Job",
+  "book_slug": "iyov",
+  "chapter": 37,
+  "chapter_id": "_29_iyov_037",
+  "ref": "איוב לז",
+  "ref_en": "Job 37",
+  "source_file": "_29_iyov-37.txt",
+  "verses": [
+    {
+      "verse_id": "_29_iyov_037_001",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 1,
+      "ref": "איוב לז:א",
+      "ref_en": "Job 37:1",
+      "text_original": "אַף־לְ֭זֹאת יֶֽחֱרַ֣ד לִבִּ֑י וְ֝יִתַּ֗ר מִמְּקוֹמֽוֹ׃",
+      "text_with_niqqud": "אַף לְזֹאת יֶחֱרַד לִבִּי וְיִתַּר מִמְּקוֹמוֹ",
+      "text_plain": "אף לזאת יחרד לבי ויתר ממקומו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_002",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 2,
+      "ref": "איוב לז:ב",
+      "ref_en": "Job 37:2",
+      "text_original": "שִׁמְע֤וּ שָׁמ֣וֹעַ בְּרֹ֣גֶז קֹל֑וֹ וְ֝הֶ֗גֶה מִפִּ֥יו יֵצֵֽא׃",
+      "text_with_niqqud": "שִׁמְעוּ שָׁמוֹעַ בְּרֹגֶז קֹלוֹ וְהֶגֶה מִפִּיו יֵצֵא",
+      "text_plain": "שמעו שמוע ברגז קלו והגה מפיו יצא",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_003",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 3,
+      "ref": "איוב לז:ג",
+      "ref_en": "Job 37:3",
+      "text_original": "תַּֽחַת־כָּל־הַשָּׁמַ֥יִם יִשְׁרֵ֑הוּ וְ֝אוֹר֗וֹ עַל־כַּנְפ֥וֹת הָאָֽרֶץ׃",
+      "text_with_niqqud": "תַּחַת כָּל הַשָּׁמַיִם יִשְׁרֵהוּ וְאוֹרוֹ עַל כַּנְפוֹת הָאָרֶץ",
+      "text_plain": "תחת כל השמים ישרהו ואורו על כנפות הארץ",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_004",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 4,
+      "ref": "איוב לז:ד",
+      "ref_en": "Job 37:4",
+      "text_original": "אַֽחֲרָ֤יו ׀ יִשְׁאַג־ק֗וֹל יַ֭רְעֵם בְּק֣וֹל גְּאוֹנ֑וֹ וְלֹ֥א יְ֝עַקְּבֵ֗ם כִּֽי־יִשָּׁמַ֥ע קוֹלֽוֹ׃",
+      "text_with_niqqud": "אַחֲרָיו יִשְׁאַג קוֹל יַרְעֵם בְּקוֹל גְּאוֹנוֹ וְלֹא יְעַקְּבֵם כִּי יִשָּׁמַע קוֹלוֹ",
+      "text_plain": "אחריו ישאג קול ירעם בקול גאונו ולא יעקבם כי ישמע קולו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_005",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 5,
+      "ref": "איוב לז:ה",
+      "ref_en": "Job 37:5",
+      "text_original": "יַרְעֵ֤ם אֵ֣ל בְּ֭קוֹלוֹ נִפְלָא֑וֹת עֹשֶׂ֥ה גְ֝דֹל֗וֹת וְלֹ֣א נֵדָֽע׃",
+      "text_with_niqqud": "יַרְעֵם אֵל בְּקוֹלוֹ נִפְלָאוֹת עֹשֶׂה גְדֹלוֹת וְלֹא נֵדָע",
+      "text_plain": "ירעם אל בקולו נפלאות עשה גדלות ולא נדע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_006",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 6,
+      "ref": "איוב לז:ו",
+      "ref_en": "Job 37:6",
+      "text_original": "כִּ֤י לַשֶּׁ֨לֶג ׀ יֹאמַ֗ר הֱוֵ֫א אָ֥רֶץ וְגֶ֥שֶׁם מָטָ֑ר וְ֝גֶ֗שֶׁם מִטְר֥וֹת עֻזּֽוֹ׃",
+      "text_with_niqqud": "כִּי לַשֶּׁלֶג יֹאמַר הֱוֵא אָרֶץ וְגֶשֶׁם מָטָר וְגֶשֶׁם מִטְרוֹת עֻזּוֹ",
+      "text_plain": "כי לשלג יאמר הוא ארץ וגשם מטר וגשם מטרות עזו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_007",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 7,
+      "ref": "איוב לז:ז",
+      "ref_en": "Job 37:7",
+      "text_original": "בְּיַד־כָּל־אָדָ֥ם יַחְתּ֑וֹם לָ֝דַ֗עַת כָּל־אַנְשֵׁ֥י מַֽעֲשֵֽׂהוּ׃",
+      "text_with_niqqud": "בְּיַד כָּל אָדָם יַחְתּוֹם לָדַעַת כָּל אַנְשֵׁי מַעֲשֵׂהוּ",
+      "text_plain": "ביד כל אדם יחתום לדעת כל אנשי מעשהו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_008",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 8,
+      "ref": "איוב לז:ח",
+      "ref_en": "Job 37:8",
+      "text_original": "וַתָּב֣וֹא חַיָּ֣ה בְמוֹ־אָ֑רֶב וּבִמְע֖וֹנֹתֶ֣יהָ תִשְׁכֹּֽן׃",
+      "text_with_niqqud": "וַתָּבוֹא חַיָּה בְמוֹ אָרֶב וּבִמְעוֹנֹתֶיהָ תִשְׁכֹּן",
+      "text_plain": "ותבוא חיה במו ארב ובמעונתיה תשכן",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_009",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 9,
+      "ref": "איוב לז:ט",
+      "ref_en": "Job 37:9",
+      "text_original": "מִן־הַ֭חֶדֶר תָּב֣וֹא סוּפָ֑ה וּֽמִמְּזָרִ֥ים קָרָֽה׃",
+      "text_with_niqqud": "מִן הַחֶדֶר תָּבוֹא סוּפָה וּמִמְּזָרִים קָרָה",
+      "text_plain": "מן החדר תבוא סופה וממזרים קרה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_010",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 10,
+      "ref": "איוב לז:י",
+      "ref_en": "Job 37:10",
+      "text_original": "מִנִּשְׁמַת־אֵ֥ל יִתֶּן־קָ֑רַח וְרֹ֖חַב מַ֣יִם בְּמוּצָֽק׃",
+      "text_with_niqqud": "מִנִּשְׁמַת אֵל יִתֶּן קָרַח וְרֹחַב מַיִם בְּמוּצָק",
+      "text_plain": "מנשמת אל יתן קרח ורחב מים במוצק",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_011",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 11,
+      "ref": "איוב לז:יא",
+      "ref_en": "Job 37:11",
+      "text_original": "אַף־בְּ֭רִי יַטְרִ֣יחַ עָ֑ב יָ֝פִ֗יץ עֲנַ֣ן אוֹרֽוֹ׃",
+      "text_with_niqqud": "אַף בְּרִי יַטְרִיחַ עָב יָפִיץ עֲנַן אוֹרוֹ",
+      "text_plain": "אף ברי יטריח עב יפיץ ענן אורו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_012",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 12,
+      "ref": "איוב לז:יב",
+      "ref_en": "Job 37:12",
+      "text_original": "וְה֤וּא מְסִבּ֨וֹת ׀ מִתְהַפֵּ֣ךְ בְּתַחְבּֽוּלֹתָ֣ו לְפָֽעֳלָ֑ם כֹּ֖ל אֲשֶׁ֥ר יְצַוֵּ֓ם ׀ עַל־פְּנֵ֖י תֵבֵ֣ל אָֽרְצָה׃",
+      "text_with_niqqud": "וְהוּא מְסִבּוֹת מִתְהַפֵּךְ בְּתַחְבּוּלֹתָו לְפָעֳלָם כֹּל אֲשֶׁר יְצַוֵּם עַל פְּנֵי תֵבֵל אָרְצָה",
+      "text_plain": "והוא מסבות מתהפך בתחבולתו לפעלם כל אשר יצום על פני תבל ארצה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_013",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 13,
+      "ref": "איוב לז:יג",
+      "ref_en": "Job 37:13",
+      "text_original": "אִם־לְשֵׁ֥בֶט אִם־לְאַרְצ֑וֹ אִם־לְ֝חֶ֗סֶד יַמְצִאֵֽהוּ׃",
+      "text_with_niqqud": "אִם לְשֵׁבֶט אִם לְאַרְצוֹ אִם לְחֶסֶד יַמְצִאֵהוּ",
+      "text_plain": "אם לשבט אם לארצו אם לחסד ימצאהו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_014",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 14,
+      "ref": "איוב לז:יד",
+      "ref_en": "Job 37:14",
+      "text_original": "הַֽאֲזִ֣ינָה זֹּ֣את אִיּ֑וֹב עֲ֝מֹ֗ד וְהִתְבּוֹנֵ֤ן ׀ נִפְלְא֬וֹת אֵֽל׃",
+      "text_with_niqqud": "הַאֲזִינָה זֹּאת אִיּוֹב עֲמֹד וְהִתְבּוֹנֵן נִפְלְאוֹת אֵל",
+      "text_plain": "האזינה זאת איוב עמד והתבונן נפלאות אל",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_015",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 15,
+      "ref": "איוב לז:טו",
+      "ref_en": "Job 37:15",
+      "text_original": "הֲ֭תֵדַע בְּשׂוּם־אֱל֣וֹהַּ עֲלֵיהֶ֑ם וְ֝הֹפִ֗יעַ א֣וֹר עֲנָנֽוֹ׃",
+      "text_with_niqqud": "הֲתֵדַע בְּשׂוּם אֱלוֹהַּ עֲלֵיהֶם וְהֹפִיעַ אוֹר עֲנָנוֹ",
+      "text_plain": "התדע בשום אלוה עליהם והפיע אור עננו",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_016",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 16,
+      "ref": "איוב לז:טז",
+      "ref_en": "Job 37:16",
+      "text_original": "הֲ֭תֵדַע עַל־מִפְלְשֵׂי־עָ֑ב מִ֝פְלְא֗וֹת תְּמִ֣ים דֵּעִֽים׃",
+      "text_with_niqqud": "הֲתֵדַע עַל מִפְלְשֵׂי עָב מִפְלְאוֹת תְּמִים דֵּעִים",
+      "text_plain": "התדע על מפלשי עב מפלאות תמים דעים",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_017",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 17,
+      "ref": "איוב לז:יז",
+      "ref_en": "Job 37:17",
+      "text_original": "אֲשֶׁר־בְּגָדֶ֥יךָ חַמִּ֑ים בְּהַשְׁקִ֥ט אֶ֝֗רֶץ מִדָּרֽוֹם׃",
+      "text_with_niqqud": "אֲשֶׁר בְּגָדֶיךָ חַמִּים בְּהַשְׁקִט אֶרֶץ מִדָּרוֹם",
+      "text_plain": "אשר בגדיך חמים בהשקט ארץ מדרום",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_018",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 18,
+      "ref": "איוב לז:יח",
+      "ref_en": "Job 37:18",
+      "text_original": "תַּרְקִ֣יעַ עִ֭מּוֹ לִשְׁחָקִ֑ים חֲ֝זָקִ֗ים כִּרְאִ֥י מוּצָֽק׃",
+      "text_with_niqqud": "תַּרְקִיעַ עִמּוֹ לִשְׁחָקִים חֲזָקִים כִּרְאִי מוּצָק",
+      "text_plain": "תרקיע עמו לשחקים חזקים כראי מוצק",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_019",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 19,
+      "ref": "איוב לז:יט",
+      "ref_en": "Job 37:19",
+      "text_original": "הֽ֭וֹדִיעֵנוּ מַה־נֹּ֣אמַר ל֑וֹ לֹֽא־נַ֝עֲרֹ֗ךְ מִפְּנֵי־חֹֽשֶׁךְ׃",
+      "text_with_niqqud": "הוֹדִיעֵנוּ מַה נֹּאמַר לוֹ לֹא נַעֲרֹךְ מִפְּנֵי חֹשֶׁךְ",
+      "text_plain": "הודיענו מה נאמר לו לא נערך מפני חשך",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_020",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 20,
+      "ref": "איוב לז:כ",
+      "ref_en": "Job 37:20",
+      "text_original": "הַֽיְסֻפַּר־ל֭וֹ כִּ֣י אֲדַבֵּ֑ר אִֽם־אָ֥מַר אִ֝֗ישׁ כִּ֣י יְבֻלָּֽע׃",
+      "text_with_niqqud": "הַיְסֻפַּר לוֹ כִּי אֲדַבֵּר אִם אָמַר אִישׁ כִּי יְבֻלָּע",
+      "text_plain": "היספר לו כי אדבר אם אמר איש כי יבלע",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_021",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 21,
+      "ref": "איוב לז:כא",
+      "ref_en": "Job 37:21",
+      "text_original": "וְעַתָּ֤ה ׀ לֹ֘א רָ֤אוּ א֗וֹר בָּהִ֣יר ה֭וּא בַּשְּׁחָקִ֑ים וְר֥וּחַ עָֽ֝בְרָ֗ה וַֽתְּטַהֲרֵֽם׃",
+      "text_with_niqqud": "וְעַתָּה לֹא רָאוּ אוֹר בָּהִיר הוּא בַּשְּׁחָקִים וְרוּחַ עָבְרָה וַתְּטַהֲרֵם",
+      "text_plain": "ועתה לא ראו אור בהיר הוא בשחקים ורוח עברה ותטהרם",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_022",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 22,
+      "ref": "איוב לז:כב",
+      "ref_en": "Job 37:22",
+      "text_original": "מִ֭צָּפוֹן זָהָ֣ב יֶֽאֱתֶ֑ה עַל־אֱ֝ל֗וֹהַּ נ֣וֹרָא הֽוֹד׃",
+      "text_with_niqqud": "מִצָּפוֹן זָהָב יֶאֱתֶה עַל אֱלוֹהַּ נוֹרָא הוֹד",
+      "text_plain": "מצפון זהב יאתה על אלוה נורא הוד",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_023",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 23,
+      "ref": "איוב לז:כג",
+      "ref_en": "Job 37:23",
+      "text_original": "שַׁדַּ֣י לֹֽא־מְ֭צָאנֻהוּ שַׂגִּיא־כֹ֑חַ וּמִשְׁפָּ֥ט וְרֹב־צְ֝דָקָ֗ה לֹ֣א יְעַנֶּֽה׃",
+      "text_with_niqqud": "שַׁדַּי לֹא מְצָאנֻהוּ שַׂגִּיא כֹחַ וּמִשְׁפָּט וְרֹב צְדָקָה לֹא יְעַנֶּה",
+      "text_plain": "שדי לא מצאנהו שגיא כח ומשפט ורב צדקה לא יענה",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    },
+    {
+      "verse_id": "_29_iyov_037_024",
+      "book": "איוב",
+      "book_en": "Job",
+      "book_slug": "iyov",
+      "chapter": 37,
+      "verse": 24,
+      "ref": "איוב לז:כד",
+      "ref_en": "Job 37:24",
+      "text_original": "לָ֭כֵן יְרֵא֣וּהוּ אֲנָשִׁ֑ים לֹֽא־יִ֝רְאֶ֗ה כָּל־חַכְמֵי־לֵֽב׃",
+      "text_with_niqqud": "לָכֵן יְרֵאוּהוּ אֲנָשִׁים לֹא יִרְאֶה כָּל חַכְמֵי לֵב",
+      "text_plain": "לכן יראוהו אנשים לא יראה כל חכמי לב",
+      "markers": {
+        "before": [],
+        "after": []
+      },
+      "source_file": "_29_iyov-37.txt"
+    }
+  ]
+}
