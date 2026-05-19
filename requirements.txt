@@ -3,3 +3,9 @@ faiss-cpu
 numpy
 tqdm
 openai
+fastapi
+uvicorn
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+python-dotenv
