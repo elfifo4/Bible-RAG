@@ -1,6 +1,3 @@
-Pass this prompt to the code agent:
-
-
 My Bible-RAG project is already largely implemented:
 - corpus ingestion
 - preprocessing
