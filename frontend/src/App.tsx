@@ -64,6 +64,7 @@ function App() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 className="password-input"
+                autoFocus
               />
               <button
                 type="button"
@@ -79,23 +80,7 @@ function App() {
           {error && <div className="error mt-4">{error}</div>}
         </div>
 
-        <footer className="footer rtl">
-          <div className="footer-content">
-            <p>
-              <GraduationCap size={16} style={{ marginLeft: '8px', verticalAlign: 'middle' }} />
-              נבנה על ידי <strong>אלעד פיניש</strong> כחלק ממטלה בקורס <strong>AI for Developers</strong>, אוניברסיטת בן-גוריון בנגב.
-            </p>
-            <a
-              href="https://github.com/elfifo4/Bible-RAG"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="github-link"
-            >
-              <Github size={16} style={{ marginLeft: '6px' }} />
-              צפייה בקוד המקור ב-GitHub
-            </a>
-          </div>
-        </footer>
+        <Footer />
       </div>
     );
   }
@@ -116,6 +101,7 @@ function App() {
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
             disabled={loading}
+            autoFocus
           />
           <button type="submit" disabled={loading || !question.trim()}>
             {loading ? 'חושב...' : 'שאל'}
@@ -160,25 +146,32 @@ function App() {
         </>
       )}
 
-      <footer className="footer rtl" style={{ marginTop: '3rem', borderTop: '1px solid #e2e8f0', paddingTop: '1.5rem' }}>
-        <div className="footer-content">
-          <p>
-            <GraduationCap size={16} style={{ marginLeft: '8px', verticalAlign: 'middle' }} />
-            נבנה על ידי <strong>אלעד פיניש</strong> כחלק ממטלה בקורס <strong>AI for Developers</strong>, אוניברסיטת בן-גוריון בנגב.
-          </p>
-          <a
-            href="https://github.com/elfifo4/Bible-RAG"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="github-link"
-          >
-            <Github size={16} style={{ marginLeft: '6px' }} />
-            צפייה בקוד המקור ב-GitHub
-          </a>
-        </div>
-      </footer>
+      <div style={{ marginTop: '3rem', borderTop: '1px solid #e2e8f0', paddingTop: '1.5rem' }}>
+        <Footer />
+      </div>
     </div>
   );
 }
 
+
+const Footer = () => (
+  <footer className="footer rtl">
+    <div className="footer-content">
+      <p>
+        <GraduationCap size={16} style={{ marginLeft: '8px', verticalAlign: 'middle' }} />
+        נבנה על ידי <strong>אלעד פיניש</strong> כחלק ממטלה בקורס <strong>AI for Developers</strong>, אוניברסיטת בן-גוריון בנגב.
+        <span style={{ marginRight: '10px', opacity: 0.8 }}>(מאי 2026)</span>
+      </p>
+      <a
+        href="https://github.com/elfifo4/Bible-RAG"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="github-link"
+      >
+        <Github size={16} style={{ marginLeft: '6px' }} />
+        צפייה בקוד המקור ב-GitHub
+      </a>
+    </div>
+  </footer>
+);
 export default App;
