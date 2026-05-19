@@ -357,9 +357,18 @@ input, button, select, textarea, option {
   transition: color 0.2s;
 }
 
-.linkedin-link:hover {
+.rag-link {
   color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.rag-link:hover {
   text-decoration: underline;
+}
+
+.footer-text-lines p {
+  margin: 4px 0;
 }
 
 input[type="text"], input[type="password"] {

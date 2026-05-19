@@ -127,6 +127,7 @@ function App() {
             href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
             target="_blank"
             rel="noopener noreferrer"
+            className="rag-link"
           >
             RAG
           </a>{' '}
@@ -302,32 +303,24 @@ function App() {
 const Footer = () => (
   <footer className="footer rtl">
     <div className="footer-content">
-      <p>
-        <span style={{ display: 'block' }}>
-        <GraduationCap size={16} style={{ marginLeft: '8px', verticalAlign: 'middle' }} />
-        נבנה על ידי{' '}
-        <a
-          href="https://www.linkedin.com/in/elad-finish/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="linkedin-link"
-        >
-          <strong>אלעד פיניש</strong>
-        </a>{' '}
-        כחלק ממטלת אמצע בקורס <strong>AI for Developers</strong>
-        </span>
+      <div className="footer-text-lines">
+        <p>
+          <GraduationCap size={16} style={{ marginLeft: '8px', verticalAlign: 'middle' }} />
+          נבנה על ידי{' '}
+          <a
+            href="https://www.linkedin.com/in/elad-finish/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="linkedin-link"
+          >
+            <strong>אלעד פיניש</strong>
+          </a>{' '}
+          כחלק ממטלת אמצע בקורס <strong>AI for Developers</strong>
+        </p>
+        <p>מטעם המכון לבינה מלאכותית The Institute</p>
+        <p>אוניברסיטת בן-גוריון בנגב (מאי 2026)</p>
+      </div>
 
-      <span style={{ display: 'block', marginTop: '4px' }}>
-        מטעם המכון לבינה מלאכותית The Institute
-      </span>
-
-      <span style={{ display: 'block', marginTop: '4px' }}>
-        אוניברסיטת בן-גוריון בנגב
-        <span style={{ marginRight: '10px', opacity: 0.8 }}>
-          (מאי 2026)
-        </span>
-      </span>
-      </p>
       <a
         href="https://github.com/elfifo4/Bible-RAG"
         target="_blank"
