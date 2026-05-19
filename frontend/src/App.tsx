@@ -1,61 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Eye, EyeOff, Github, GraduationCap } from 'lucide-react';
+import { Eye, EyeOff, Github, GraduationCap, X, Loader2 } from 'lucide-react';
 import * as api from './api';
+import { RETRIEVAL_STRATEGIES, COMPARISON_EXAMPLES } from './constants';
 import './styles.css';
-
-const RETRIEVAL_STRATEGIES = [
-  {
-    value: "hybrid",
-    label: "היברידי",
-    description: "משלב בין חיפוש סמנטי לבין חיפוש מילולי מדויק.",
-    goodFor: "שאלות כלליות ומורכבות.",
-    strengths: "הכי מאוזן, עובד טוב ברוב המקרים.",
-    weaknesses: "מורכב יותר לחישוב.",
-    examples: ["מי הוליד את אברם?", "מה קרה ביריחו?"]
-  },
-  {
-    value: "dense_only",
-    label: "סמנטי בלבד",
-    description: "מחפש פסוקים בעלי משמעות דומה באמצעות AI.",
-    goodFor: "שאלות רעיוניות וניסוחים חופשיים.",
-    strengths: "מבין משמעות כללית, לא דורש מילים מדויקות.",
-    weaknesses: "פחות טוב לשמות ומונחים ספציפיים.",
-    examples: ["מה התנ״ך אומר על פחד?", "מי הרגיש בודד?"]
-  },
-  {
-    value: "lexical_only",
-    label: "מילולי בלבד",
-    description: "מחפש התאמות מדויקות של מילים וביטויים.",
-    goodFor: "שמות, מונחים מדויקים ופסוקים ספציפיים.",
-    strengths: "מדויק מאוד לשמות וביטויים ידועים.",
-    weaknesses: "לא מבין משמעות או מילים נרדפות.",
-    examples: ["איפה מוזכר שופר?", "איפה כתוב 'נעשה אדם'?"]
-  },
-  {
-    value: "single_verse",
-    label: "פסוק בודד",
-    description: "מחפש כל פסוק בנפרד, ללא הקשר רחב.",
-    goodFor: "ציטוטים מדויקים ושאלות נקודתיות.",
-    strengths: "ממוקד מאוד, תוצאות קצרות.",
-    weaknesses: "מאבד הקשר של סיפורים ארוכים.",
-    examples: ["מה כתוב בפסוק 'ואהבת לרעך כמוך'?", "מי בנה את התיבה?"]
-  },
-  {
-    value: "sliding_window",
-    label: "חלון פסוקים",
-    description: "מחפש קבוצות של פסוקים יחד לשמירה על הקשר.",
-    goodFor: "סיפורים, רצף אירועים ופרשיות.",
-    strengths: "שומר על קונטקסט ומבין רצף עלילתי.",
-    weaknesses: "עלול להחזיר יותר טקסט מהנדרש.",
-    examples: ["מה קרה בעקידת יצחק?", "ספר לי על יציאת מצרים."]
-  },
-];
-
-const COMPARISON_EXAMPLES = [
-  { q: "מי הוליד את אברם?", label: "גנאלוגיה (מילולי vs סמנטי)" },
-  { q: "תן לי מקומות שהייתה בהם תקיעת שופר", label: "רשימה (מילולי/היברידי)" },
-  { q: "מה התנ״ך אומר על פחד?", label: "נושא רעיוני (סמנטי)" },
-];
 
 function App() {
   const [isAuth, setIsAuth] = useState(api.isAuthenticated());
@@ -194,17 +141,22 @@ function App() {
             <div className="strategy-info-box rtl">
               <div style={{ display: 'flex', gap: '15px', alignItems: 'flex-start' }}>
                 <div style={{ flex: 1 }}>
-                  <label style={{ fontSize: '0.8rem', fontWeight: 'bold', display: 'block', marginBottom: '4px' }}>אסטרטגיית חיפוש:</label>
-                  <select
-                    value={strategy}
-                    onChange={(e) => setStrategy(e.target.value)}
-                    className="strategy-select"
-                    disabled={loading}
-                  >
+                  <label style={{ fontSize: '0.8rem', fontWeight: 'bold', display: 'block', marginBottom: '8px' }}>אסטרטגיית חיפוש:</label>
+                  <div className="strategy-radio-group">
                     {RETRIEVAL_STRATEGIES.map(s => (
-                      <option key={s.value} value={s.value}>{s.label}</option>
+                      <label key={s.value} className={`strategy-radio-label ${strategy === s.value ? 'active' : ''}`}>
+                        <input
+                          type="radio"
+                          name="strategy"
+                          value={s.value}
+                          checked={strategy === s.value}
+                          onChange={(e) => setStrategy(e.target.value)}
+                          disabled={loading}
+                        />
+                        {s.label}
+                      </label>
                     ))}
-                  </select>
+                  </div>
                 </div>
                 <div style={{ flex: 2, fontSize: '0.85rem', borderRight: '2px solid #e2e8f0', paddingRight: '12px' }}>
                   <strong>{selectedStrategyInfo?.description}</strong>
@@ -220,15 +172,27 @@ function App() {
           )}
 
           <div className="input-group">
-            <input
-              type="text"
-              placeholder={isCompareMode ? "השוואת אסטרטגיות על השאלה..." : "שאל שאלה על התנ״ך..."}
-              value={question}
-              onChange={(e) => setQuestion(e.target.value)}
-              disabled={loading}
-              autoFocus
-              style={{ flex: 1 }}
-            />
+            <div style={{ position: 'relative', flex: 1, display: 'flex' }}>
+              <input
+                type="text"
+                placeholder={isCompareMode ? "השוואת אסטרטגיות על השאלה..." : "שאל שאלה על התנ״ך..."}
+                value={question}
+                onChange={(e) => setQuestion(e.target.value)}
+                disabled={loading}
+                autoFocus
+                style={{ width: '100%', paddingLeft: question ? '2.5rem' : '1rem' }}
+              />
+              {question && !loading && (
+                <button
+                  type="button"
+                  onClick={() => setQuestion('')}
+                  className="clear-button"
+                  title="נקה שאלה"
+                >
+                  <X size={18} />
+                </button>
+              )}
+            </div>
             <button type="submit" disabled={loading || !question.trim()} style={{ background: isCompareMode ? '#10b981' : '#2563eb' }}>
               {loading ? 'מריץ...' : isCompareMode ? 'השווה' : 'שאל'}
             </button>
@@ -239,7 +203,10 @@ function App() {
 
       {loading && (
         <div className="loading">
-          {isCompareMode ? 'מריץ שלוש אסטרטגיות חיפוש במקביל...' : 'מחפש במקורות ומייצר תשובה...'}
+          <Loader2 className="spinner" size={32} style={{ marginBottom: '1rem' }} />
+          <div>
+            {isCompareMode ? 'מריץ שלוש אסטרטגיות חיפוש במקביל...' : 'מחפש במקורות ומייצר תשובה...'}
+          </div>
         </div>
       )}
 
@@ -327,7 +294,14 @@ const Footer = () => (
     <div className="footer-content">
       <p>
         <GraduationCap size={16} style={{ marginLeft: '8px', verticalAlign: 'middle' }} />
-        נבנה על ידי <strong>אלעד פיניש</strong> כחלק ממטלה בקורס <strong>AI for Developers</strong>, אוניברסיטת בן-גוריון בנגב.
+        נבנה על ידי <a
+          href="https://www.linkedin.com/in/elad-finish/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="linkedin-link"
+        >
+          <strong>אלעד פיניש</strong>
+        </a> כחלק ממטלה בקורס <strong>AI for Developers</strong>, אוניברסיטת בן-גוריון בנגב.
         <span style={{ marginRight: '10px', opacity: 0.8 }}>(מאי 2026)</span>
       </p>
       <a

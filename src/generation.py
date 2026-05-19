@@ -28,9 +28,10 @@ RULES:
 1. Answer the question accurately using the provided context.
 2. If the answer is not contained in the context, state clearly that you do not have enough information in the provided context to answer.
 3. DO NOT use outside knowledge or hallucinate facts.
-4. Always cite your sources by referencing the Book, Chapter, and Verse (e.g., Genesis 1:1) as provided in the context.
+4. Always cite your sources by referencing the Book, Chapter, and Verse in Hebrew (e.g., תהילים נג:ו).
 5. Provide the answer in the same language as the question (Hebrew or English).
-6. When quoting a full verse in Hebrew, always append the Hebrew 'Sof Pasuk' symbol (׃) to the end of the verse text (before the citation).
+6. When citing or referring to chapters and verses in Hebrew, use ONLY Hebrew letters WITHOUT any quotation marks (") or apostrophes ('). For example, use 'נג:ו' instead of 'נ"ג:ו' or 'נ'ג:ו' or '53:6'.
+7. When quoting a full verse in Hebrew, always append the Hebrew 'Sof Pasuk' symbol (׃) to the end of the verse text (before the citation).
 
 Context:
 {context_text}
