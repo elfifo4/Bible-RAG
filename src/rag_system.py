@@ -10,14 +10,19 @@ class BibleRAG:
         self.retriever = VectorRetriever()
         self.generator = BibleGenerator()
 
-    def answer(self, question: str, top_k: Optional[int] = None) -> Dict[str, Any]:
+    def answer(
+        self, 
+        question: str, 
+        top_k: Optional[int] = None, 
+        retrieval_strategy: str = "hybrid"
+    ) -> Dict[str, Any]:
         start_time = time.time()
-        logger.info(f"Answering question: {question}")
+        logger.info(f"Answering question: {question} (Strategy: {retrieval_strategy})")
 
         k = top_k or TOP_K
 
         # 1. Retrieval
-        context_chunks = self.retriever.retrieve(question, top_k=k)
+        context_chunks = self.retriever.retrieve(question, top_k=k, strategy=retrieval_strategy)
 
         # 2. Generation
         answer_text = self.generator.generate(question, context_chunks)
@@ -39,6 +44,8 @@ class BibleRAG:
                     "verse_end": c["metadata"].get("verse_end"),
                     "text": c["display_text"],
                     "score": c.get("score", 0),
+                    "dense_score": c.get("dense_score", 0),
+                    "lexical_score": c.get("lexical_score", 0),
                     "chunk_id": c["chunk_id"],
                     "chunk_type": c["metadata"].get("chunk_type")
                 }
@@ -48,7 +55,7 @@ class BibleRAG:
                 "latency_ms": latency_ms,
                 "top_k": k,
                 "embedding_model": EMBEDDING_MODEL_NAME,
-                "retrieval_strategy": "semantic"
+                "retrieval_strategy": retrieval_strategy
             }
         }
 

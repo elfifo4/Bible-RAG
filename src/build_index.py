@@ -26,41 +26,43 @@ def reset_directories():
 @timer
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--strategy", default=CHUNK_STRATEGY, help="Chunking strategy (single_verse, sliding_window)")
+    parser.add_argument("--strategy", default="all", help="Chunking strategy (single_verse, sliding_window, all)")
     args = parser.parse_args()
 
     reset_directories()
-
+    
     bible_parser = BibleParser()
-    chunker = get_chunker(args.strategy)
-
+    
+    strategies = ["single_verse", "sliding_window"] if args.strategy == "all" else [args.strategy]
+    chunkers = {s: get_chunker(s) for s in strategies}
+    
     raw_files = sorted(RAW_DIR.glob("*.txt"))
     if not raw_files:
         logger.error(f"No raw files found in {RAW_DIR}")
         return
 
-    logger.info(f"Found {len(raw_files)} raw files. Using strategy: {args.strategy}")
+    logger.info(f"Found {len(raw_files)} raw files. Building strategies: {strategies}")
 
     total_chunks = 0
     for raw_file in raw_files:
-        logger.debug(f"Parsing {raw_file.name}...")
         try:
             raw_text = bible_parser.read_raw_file(raw_file)
             chapter_data = bible_parser.parse_chapter(raw_text, raw_file.name)
-
+            
             # Save chapter JSON
             write_json(CHAPTERS_DIR / f"{chapter_data['chapter_id']}.json", chapter_data)
-
+            
             # Save individual verses
             for v in chapter_data["verses"]:
                 append_jsonl(ALL_VERSES_JSONL, v)
+                
+            # Create and save chunks for each strategy
+            for s_name, chunker in chunkers.items():
+                chunks = chunker.chunk(chapter_data)
+                for chunk in chunks:
+                    append_jsonl(ALL_CHUNKS_JSONL, chunk)
+                total_chunks += len(chunks)
 
-            # Create and save chunks using the selected strategy
-            chunks = chunker.chunk(chapter_data)
-            for chunk in chunks:
-                append_jsonl(ALL_CHUNKS_JSONL, chunk)
-
-            total_chunks += len(chunks)
         except Exception as e:
             logger.error(f"Error processing {raw_file.name}: {e}")
 

@@ -30,6 +30,7 @@ RULES:
 3. DO NOT use outside knowledge or hallucinate facts.
 4. Always cite your sources by referencing the Book, Chapter, and Verse (e.g., Genesis 1:1) as provided in the context.
 5. Provide the answer in the same language as the question (Hebrew or English).
+6. When quoting a full verse in Hebrew, always append the Hebrew 'Sof Pasuk' symbol (׃) to the end of the verse text (before the citation).
 
 Context:
 {context_text}

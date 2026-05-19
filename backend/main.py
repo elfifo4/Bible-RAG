@@ -6,8 +6,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from .schemas import AskRequest, AskResponse, LoginRequest, Token, ConfigResponse
+from .schemas import AskRequest, AskResponse, LoginRequest, Token, ConfigResponse, CompareRequest, CompareResponse
 from .auth import create_access_token, get_current_user, verify_password
+import time
 from src.rag_system import BibleRAG
 from src.config import TOP_K, CHUNK_STRATEGY
 
@@ -26,10 +27,10 @@ async def lifespan(app: FastAPI):
 app = FastAPI(title="Bible RAG API", lifespan=lifespan)
 
 # CORS configuration
-allowed_origins = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://localhost:3000").split(",")
+# Note: allow_origins=["*"] cannot be used with allow_credentials=True
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=allowed_origins,
+    allow_origin_regex="https?://.*", # Robustly allow all origins for dev/debugging
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -65,7 +66,11 @@ async def ask(request: AskRequest, user_id: str = Depends(get_current_user)):
 
     try:
         rag: BibleRAG = rag_app["rag"]
-        result = rag.answer(question=request.question, top_k=request.top_k)
+        result = rag.answer(
+            question=request.question, 
+            top_k=request.top_k,
+            retrieval_strategy=str(request.retrieval_strategy)
+        )
 
         # In a real app, you might want to filter debug info based on request.debug
         if not request.debug:
@@ -74,6 +79,31 @@ async def ask(request: AskRequest, user_id: str = Depends(get_current_user)):
         return result
     except Exception as e:
         print(f"Error in ask: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/compare", response_model=CompareResponse)
+async def compare(request: CompareRequest, user_id: str = Depends(get_current_user)):
+    start_time = time.time()
+    results = {}
+    
+    try:
+        rag: BibleRAG = rag_app["rag"]
+        for strategy in request.strategies:
+            # We run each strategy. To save time/cost in a real scenario, 
+            # we might only do the retrieval part, but the user wants "three answer columns".
+            results[strategy] = rag.answer(
+                question=request.question,
+                top_k=request.top_k,
+                retrieval_strategy=str(strategy)
+            )
+        
+        return {
+            "question": request.question,
+            "results": results,
+            "total_latency_ms": int((time.time() - start_time) * 1000)
+        }
+    except Exception as e:
+        print(f"Error in compare: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":

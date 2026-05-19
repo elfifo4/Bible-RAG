@@ -24,6 +24,8 @@ export interface Source {
   verse_end?: number;
   text: string;
   score: number;
+  dense_score?: number;
+  lexical_score?: number;
   chunk_id: string;
   chunk_type?: string;
 }
@@ -33,6 +35,7 @@ export interface DebugInfo {
   top_k: number;
   embedding_model: string;
   retrieval_strategy: string;
+  query_type?: string;
 }
 
 export interface AskResponse {
@@ -42,8 +45,37 @@ export interface AskResponse {
   debug?: DebugInfo;
 }
 
-export const ask = async (question: string, top_k = 5, debug = true): Promise<AskResponse> => {
-  const response = await api.post('/api/ask', { question, top_k, debug });
+export interface CompareResponse {
+  question: string;
+  results: Record<string, AskResponse>;
+  total_latency_ms: number;
+}
+
+export const ask = async (
+  question: string,
+  top_k = 5,
+  debug = true,
+  retrieval_strategy = "hybrid"
+): Promise<AskResponse> => {
+  const response = await api.post('/api/ask', {
+    question,
+    top_k,
+    debug,
+    retrieval_strategy
+  });
+  return response.data;
+};
+
+export const compare = async (
+  question: string,
+  top_k = 5,
+  strategies = ["hybrid", "dense_only", "lexical_only"]
+): Promise<CompareResponse> => {
+  const response = await api.post('/api/compare', {
+    question,
+    top_k,
+    strategies
+  });
   return response.data;
 };
 

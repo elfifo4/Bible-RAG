@@ -40,7 +40,8 @@ class HebrewProcessor:
 
     @staticmethod
     def clean_text(text: str) -> str:
-        text = re.sub(r"[׃:]", "", text)
+        # Keep Hebrew Sof Pasuk (׃) but remove regular colon (:)
+        text = text.replace(":", "")
         text = text.replace("־", " ")
         text = text.replace("׀", " ")
         return HebrewProcessor.normalize_spaces(text)
