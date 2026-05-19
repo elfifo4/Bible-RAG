@@ -1,0 +1,406 @@
+Pass this prompt to the code agent:
+
+
+My Bible-RAG project is already largely implemented:
+- corpus ingestion
+- preprocessing
+- chunking
+- embeddings
+- FAISS indexing
+- retrieval
+- answer generation
+- React + FastAPI web demo
+- hybrid / lexical / dense retrieval modes
+
+However, I now want to COMPLETE the assignment requirements fully and rigorously.
+
+I already have:
+- a Tanakh corpus
+- chunked JSONL files
+- FAISS vector store
+- retrieval engine
+- generation engine
+- retrieval strategy selector
+- source citations
+- web interface
+
+I am attaching a gold_set.jsonl file containing 50 evaluation questions: /Users/eladfinish/Projects/Bible-RAG/eval/gold_set.jsonl
+
+I now want to implement the missing academic/evaluation components properly.
+
+========================================
+MAIN GOAL
+========================================
+
+Complete the remaining required parts of the RAG assignment:
+
+1. evaluation pipeline
+2. retrieval metrics
+3. answer quality evaluation
+4. ablation experiments
+5. error analysis
+6. reporting infrastructure
+7. assignment-compliant API outputs
+
+The implementation should be:
+- clean
+- reproducible
+- academically rigorous
+- suitable for an AI course submission
+
+========================================
+IMPORTANT CONTEXT
+========================================
+
+Current stack:
+- Python
+- FastAPI
+- React
+- FAISS
+- sentence-transformers
+- OpenAI GPT-4o
+- multilingual-e5-base embeddings
+
+Current retrieval modes:
+- hybrid
+- dense_only
+- lexical_only
+- single_verse
+- sliding_window
+
+Current corpus:
+- full Hebrew Tanakh
+- processed into chunks
+
+========================================
+PART 1 — STANDARDIZE RAG OUTPUT FORMAT
+========================================
+
+Ensure BibleRAG.answer() fully matches assignment expectations.
+
+Required output format:
+
+{
+  "answer": str,
+  "sources": list[str],
+  "retrieved_chunks": list[dict],
+  "debug": dict
+}
+
+Currently, the project may still return:
+- context
+- internal fields
+
+Please standardize and clean this.
+
+Each retrieved chunk should contain:
+
+{
+  "chunk_id": "...",
+  "text": "...",
+  "display_text": "...",
+  "score": 0.91,
+  "dense_score": 0.82,
+  "lexical_score": 0.76,
+  "metadata": {
+    "ref": "בראשית יא:כו",
+    "ref_en": "Genesis 11:26",
+    "book": "בראשית",
+    "book_en": "Genesis",
+    "chapter": 11,
+    "verse_start": 26,
+    "verse_end": 30,
+    "chunk_type": "sliding_window"
+  }
+}
+
+"sources" should be concise citation strings:
+[
+  "Genesis 11:26",
+  "1 Chronicles 1:26"
+]
+
+========================================
+PART 2 — EVALUATION PIPELINE
+========================================
+
+Create:
+
+eval/
+├── gold_set.jsonl
+├── run_eval.py
+├── metrics.py
+├── manual_eval_template.csv
+└── results/
+
+Implement a complete evaluation pipeline.
+
+========================================
+PART 3 — RETRIEVAL EVALUATION
+========================================
+
+Implement retrieval evaluation metrics.
+
+For each gold set question:
+1. run retrieval
+2. compare retrieved chunk_ids with expected chunk_ids
+3. compute metrics
+
+Metrics required:
+- Hit@1
+- Hit@3
+- Hit@5
+- Recall@5
+- MRR (Mean Reciprocal Rank)
+
+If must_cite_chunk_ids are empty:
+- support partial matching by verse reference
+OR
+- generate expected chunk ids automatically from metadata
+
+Store results in:
+eval/results/retrieval_eval.json
+
+Also generate a readable summary table.
+
+========================================
+PART 4 — GENERATION EVALUATION
+========================================
+
+Implement answer quality evaluation.
+
+For each question:
+- generate answer
+- compare against reference_answer
+
+Use:
+1. exact match where possible
+2. semantic similarity scoring
+3. optional GPT judge evaluation
+
+Metrics:
+- Exact Match
+- Semantic Similarity
+- Citation Presence
+- Hallucination Detection
+
+Flag:
+- unsupported answers
+- irrelevant citations
+- missing citations
+
+========================================
+PART 5 — MANUAL EVALUATION
+========================================
+
+Generate:
+
+eval/manual_eval_template.csv
+
+Columns:
+- question
+- generated_answer
+- reference_answer
+- retrieved_sources
+- human_score
+- citation_quality
+- notes
+
+The assignment requires manual review of at least 10 answers.
+
+========================================
+PART 6 — ABLATION EXPERIMENTS
+========================================
+
+Implement automated ablation experiments.
+
+Experiments should compare:
+
+1. Retrieval strategy
+- dense_only
+- lexical_only
+- hybrid
+
+2. Chunking strategy
+- single_verse
+- sliding_window
+
+3. Top-K values
+- 3
+- 5
+- 10
+
+For each experiment:
+- run evaluation
+- save metrics
+- produce comparison table
+
+Generate:
+eval/results/ablation_results.json
+
+And readable Markdown summaries.
+
+========================================
+PART 7 — ERROR ANALYSIS
+========================================
+
+Automatically detect and categorize common failure modes.
+
+Possible categories:
+- semantic retrieval failure
+- lexical mismatch
+- hallucination
+- insufficient context
+- wrong citation
+- chunk boundary issue
+- retrieval drift
+
+Generate:
+eval/results/error_analysis.json
+
+Also generate a human-readable Markdown report.
+
+========================================
+PART 8 — RETRIEVAL DEBUGGING
+========================================
+
+Improve debug visibility.
+
+For every query:
+- show retrieval strategy
+- query type
+- dense score
+- lexical score
+- final score
+- reranking explanation
+
+For hybrid:
+show weighted contributions:
+- dense_weight
+- lexical_weight
+
+========================================
+PART 9 — QUERY ROUTING
+========================================
+
+Formalize query routing.
+
+Implement:
+- semantic queries
+- enumeration queries
+- genealogy queries
+- metadata queries
+
+Examples:
+
+Genealogy:
+- מי הוליד את אברם?
+
+Enumeration:
+- איפה מוזכר שופר?
+
+Semantic:
+- מה התנ״ך אומר על פחד?
+
+Metadata:
+- מה החומש החמישי?
+
+The router should influence retrieval behavior.
+
+========================================
+PART 10 — METADATA RETRIEVER
+========================================
+
+Add metadata retrieval support.
+
+Some questions are NOT verse retrieval questions.
+
+Examples:
+- מה החומש החמישי?
+- כמה ספרים יש בתנ״ך?
+- מה הספר הארוך ביותר?
+
+Implement a lightweight metadata retriever using:
+- Bible catalog
+- metadata chunks
+- structured lookup
+
+========================================
+PART 11 — REPORT GENERATION SUPPORT
+========================================
+
+Generate helper outputs for the final PDF report.
+
+Create:
+eval/results/report_data/
+
+Include:
+- metric summaries
+- ablation tables
+- retrieval examples
+- failure examples
+- charts-ready CSV files
+
+========================================
+PART 12 — VISUALIZATIONS
+========================================
+
+Generate plots:
+- retrieval accuracy by strategy
+- hit@k comparison
+- chunking comparison
+- latency comparison
+
+Use matplotlib only.
+
+Save images to:
+eval/results/plots/
+
+========================================
+PART 13 — README IMPROVEMENTS
+========================================
+
+Update README with:
+- architecture diagram
+- pipeline explanation
+- retrieval strategy explanation
+- evaluation instructions
+- reproducibility steps
+- screenshots
+- deployment instructions
+
+========================================
+PART 14 — REPRODUCIBILITY
+========================================
+
+Ensure:
+- requirements.txt complete
+- deterministic evaluation where possible
+- fixed random seeds
+- clear commands
+
+Examples:
+
+python src/build_index.py
+python eval/run_eval.py
+python run_dev.py
+
+========================================
+IMPORTANT DESIGN GOALS
+========================================
+
+This is not just a demo app anymore.
+
+The project should now feel like:
+- a serious academic RAG system
+- an explainable retrieval demo
+- an evaluation-focused AI project
+
+The implementation should prioritize:
+- clarity
+- reproducibility
+- interpretability
+- measurable evaluation
+- clean architecture
+
+Please implement step-by-step and keep the code maintainable.
