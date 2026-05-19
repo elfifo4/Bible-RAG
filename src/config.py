@@ -1,8 +1,9 @@
 from pathlib import Path
 import os
 
+
 # Project Root
-PROJECT_ROOT = Path(__file__).parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # Data Paths
 DATA_DIR = PROJECT_ROOT / "data"
@@ -16,13 +17,18 @@ ALL_VERSES_JSONL = PROCESSED_DIR / "all_verses.jsonl"
 ALL_CHUNKS_JSONL = PROCESSED_DIR / "all_chunks.jsonl"
 
 # Model Configurations
-# intfloat/multilingual-e5-base is a strong retrieval model.
-# Alternatives: "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
 EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-base"
 VECTOR_DB_PATH = INDEX_DIR / "vector_store.faiss"
 
 # LLM Configuration
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "your-key-here")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+if not OPENAI_API_KEY:
+    raise RuntimeError(
+        "OPENAI_API_KEY environment variable is not set. "
+        "Run: export OPENAI_API_KEY='your-real-key'"
+    )
+
 LLM_MODEL_NAME = "gpt-4o"
 
 # RAG Hyperparameters
