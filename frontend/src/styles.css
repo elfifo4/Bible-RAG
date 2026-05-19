@@ -83,24 +83,41 @@ input, button, select, textarea, option {
   gap: 1rem;
 }
 
-.strategy-radio-group {
+.strategy-radio-group-horizontal {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .strategy-radio-label {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.5rem 0.75rem;
+  padding: 0.4rem 0.75rem;
   background: rgba(255, 255, 255, 0.5);
   border: 1px solid #e2e8f0;
   border-radius: 0.375rem;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   transition: all 0.2s;
   font-family: 'Keter', inherit !important;
+  white-space: nowrap;
+}
+
+.strategy-description-bottom {
+  font-size: 0.85rem;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.strategy-pro-con {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .strategy-radio-label:hover {
@@ -403,9 +420,19 @@ button:disabled {
   font-size: 0.875rem;
   background: #1e293b;
   color: #cbd5e1;
-  padding: 1rem;
+  padding: 0;
   border-radius: 0.375rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.debug-panel.visible {
+  max-height: 1000px; /* Large enough to fit content */
+  opacity: 1;
+  padding: 1rem;
 }
 
 .loading {

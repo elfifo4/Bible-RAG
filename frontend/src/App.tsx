@@ -121,8 +121,17 @@ function App() {
             <button onClick={handleLogout} style={{ background: '#64748b', fontSize: '0.85rem' }}>התנתק</button>
           </div>
         </div>
-        <p className="subtitle">מערכת שאלות ותשובות מבוססת RAG על התנ״ך</p>
-
+        <p className="subtitle">
+          מערכת שאלות ותשובות מבוססת{' '}
+          <a
+            href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            RAG
+          </a>{' '}
+          על התנ״ך
+        </p>
         <div className="examples-row rtl">
           <span style={{ fontSize: '0.85rem', color: '#64748b' }}>נסה דוגמה:</span>
           {COMPARISON_EXAMPLES.map((ex, i) => (
@@ -139,32 +148,31 @@ function App() {
         <form onSubmit={handleAsk} className="input-group-vertical">
           {!isCompareMode && (
             <div className="strategy-info-box rtl">
-              <div style={{ display: 'flex', gap: '15px', alignItems: 'flex-start' }}>
-                <div style={{ flex: 1 }}>
-                  <label style={{ fontSize: '0.8rem', fontWeight: 'bold', display: 'block', marginBottom: '8px' }}>אסטרטגיית חיפוש:</label>
-                  <div className="strategy-radio-group">
-                    {RETRIEVAL_STRATEGIES.map(s => (
-                      <label key={s.value} className={`strategy-radio-label ${strategy === s.value ? 'active' : ''}`}>
-                        <input
-                          type="radio"
-                          name="strategy"
-                          value={s.value}
-                          checked={strategy === s.value}
-                          onChange={(e) => setStrategy(e.target.value)}
-                          disabled={loading}
-                        />
-                        {s.label}
-                      </label>
-                    ))}
-                  </div>
-                </div>
-                <div style={{ flex: 2, fontSize: '0.85rem', borderRight: '2px solid #e2e8f0', paddingRight: '12px' }}>
-                  <strong>{selectedStrategyInfo?.description}</strong>
-                  <div style={{ marginTop: '4px', color: '#475569' }}>
-                    <span style={{ color: '#16a34a' }}>● יתרונות:</span> {selectedStrategyInfo?.strengths}
+              <label style={{ fontSize: '0.8rem', fontWeight: 'bold', display: 'block', marginBottom: '12px' }}>אסטרטגיית חיפוש:</label>
+              <div className="strategy-radio-group-horizontal">
+                {RETRIEVAL_STRATEGIES.map(s => (
+                  <label key={s.value} className={`strategy-radio-label ${strategy === s.value ? 'active' : ''}`}>
+                    <input
+                      type="radio"
+                      name="strategy"
+                      value={s.value}
+                      checked={strategy === s.value}
+                      onChange={(e) => setStrategy(e.target.value)}
+                      disabled={loading}
+                    />
+                    {s.label}
+                  </label>
+                ))}
+              </div>
+
+              <div className="strategy-description-bottom">
+                <strong>{selectedStrategyInfo?.description}</strong>
+                <div className="strategy-pro-con">
+                  <div style={{ color: '#475569' }}>
+                    <span style={{ color: '#16a34a', fontWeight: 'bold' }}>● יתרונות:</span> {selectedStrategyInfo?.strengths}
                   </div>
                   <div style={{ color: '#475569' }}>
-                    <span style={{ color: '#dc2626' }}>● חסרונות:</span> {selectedStrategyInfo?.weaknesses}
+                    <span style={{ color: '#dc2626', fontWeight: 'bold' }}>● חסרונות:</span> {selectedStrategyInfo?.weaknesses}
                   </div>
                 </div>
               </div>
@@ -272,12 +280,14 @@ function App() {
             {showDebug ? 'הסתר מידע טכני' : 'הצג מידע טכני'}
           </button>
 
-          {showDebug && result.debug && (
-            <div className="debug-panel ltr">
-              <pre>{JSON.stringify(result.debug, null, 2)}</pre>
-              <pre>Question: {result.question}</pre>
-            </div>
-          )}
+          <div className={`debug-panel ltr ${showDebug && result.debug ? 'visible' : ''}`}>
+            {result.debug && (
+              <>
+                <pre>{JSON.stringify(result.debug, null, 2)}</pre>
+                <pre>Question: {result.question}</pre>
+              </>
+            )}
+          </div>
         </>
       )}
 
@@ -293,16 +303,30 @@ const Footer = () => (
   <footer className="footer rtl">
     <div className="footer-content">
       <p>
+        <span style={{ display: 'block' }}>
         <GraduationCap size={16} style={{ marginLeft: '8px', verticalAlign: 'middle' }} />
-        נבנה על ידי <a
+        נבנה על ידי{' '}
+        <a
           href="https://www.linkedin.com/in/elad-finish/"
           target="_blank"
           rel="noopener noreferrer"
           className="linkedin-link"
         >
           <strong>אלעד פיניש</strong>
-        </a> כחלק ממטלה בקורס <strong>AI for Developers</strong>, אוניברסיטת בן-גוריון בנגב.
-        <span style={{ marginRight: '10px', opacity: 0.8 }}>(מאי 2026)</span>
+        </a>{' '}
+        כחלק ממטלת אמצע בקורס <strong>AI for Developers</strong>
+        </span>
+
+      <span style={{ display: 'block', marginTop: '4px' }}>
+        מטעם המכון לבינה מלאכותית The Institute
+      </span>
+
+      <span style={{ display: 'block', marginTop: '4px' }}>
+        אוניברסיטת בן-גוריון בנגב
+        <span style={{ marginRight: '10px', opacity: 0.8 }}>
+          (מאי 2026)
+        </span>
+      </span>
       </p>
       <a
         href="https://github.com/elfifo4/Bible-RAG"
