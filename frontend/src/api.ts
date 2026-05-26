@@ -14,20 +14,14 @@ api.interceptors.request.use((config) => {
   return config;
 });
 
-export interface Source {
-  ref: string;
-  ref_en: string;
-  book?: string;
-  book_en?: string;
-  chapter?: number;
-  verse_start?: number;
-  verse_end?: number;
+export interface Chunk {
+  chunk_id: string;
   text: string;
+  display_text: string;
   score: number;
   dense_score?: number;
   lexical_score?: number;
-  chunk_id: string;
-  chunk_type?: string;
+  metadata: Record<string, any>;
 }
 
 export interface DebugInfo {
@@ -41,7 +35,9 @@ export interface DebugInfo {
 export interface AskResponse {
   question: string;
   answer: string;
-  context: Source[];
+  sources: string[];
+  retrieved_chunks: Chunk[];
+  context: Chunk[];
   debug?: DebugInfo;
 }
 

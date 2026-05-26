@@ -43,10 +43,21 @@ class DebugInfo(BaseModel):
     embedding_model: str
     retrieval_strategy: str
 
+class Chunk(BaseModel):
+    chunk_id: str
+    text: str
+    display_text: str
+    score: float
+    dense_score: Optional[float] = 0.0
+    lexical_score: Optional[float] = 0.0
+    metadata: Dict[str, Any]
+
 class AskResponse(BaseModel):
     question: str
     answer: str
-    context: List[SourceMetadata]
+    sources: List[str]
+    retrieved_chunks: List[Chunk]
+    context: List[Chunk]  # Alias for compatibility
     debug: Optional[DebugInfo]
 
 class CompareRequest(BaseModel):

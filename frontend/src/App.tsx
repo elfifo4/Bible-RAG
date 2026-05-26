@@ -239,10 +239,10 @@ function App() {
                 {stratRes.context.slice(0, 3).map((source, idx) => (
                   <div key={idx} className="card source-card-mini">
                     <div className="source-ref-mini">
-                      {source.ref}
+                      {source.metadata.ref}
                       <span className="score-badge-mini">Score: {source.score.toFixed(3)}</span>
                     </div>
-                    <div className="source-text-mini">{source.text.slice(0, 150)}...</div>
+                    <div className="source-text-mini">{source.display_text.slice(0, 150)}...</div>
                   </div>
                 ))}
               </div>
@@ -262,15 +262,15 @@ function App() {
           {result.context.map((source, idx) => (
             <div key={idx} className="card source-card rtl">
               <div className="source-ref">
-                {source.ref} <span className="ltr">({source.ref_en})</span>
+                {source.metadata.ref} <span className="ltr">({source.metadata.ref_en})</span>
                 <div className="scores-container">
                   <span className="score-badge">Final: {source.score.toFixed(3)}</span>
                   {source.dense_score !== undefined && <span className="score-badge semantic">Semantic: {source.dense_score.toFixed(3)}</span>}
                   {source.lexical_score !== undefined && <span className="score-badge lexical">Lexical: {source.lexical_score.toFixed(3)}</span>}
                 </div>
               </div>
-              <div className="source-text">{source.text}</div>
-              <div className="source-meta">Chunk ID: {source.chunk_id} | Type: {source.chunk_type}</div>
+              <div className="source-text">{source.display_text}</div>
+              <div className="source-meta">Chunk ID: {source.chunk_id} | Type: {source.metadata.chunk_type}</div>
             </div>
           ))}
 

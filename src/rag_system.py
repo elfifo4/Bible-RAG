@@ -29,33 +29,33 @@ class BibleRAG:
 
         latency_ms = int((time.time() - start_time) * 1000)
 
+        # Map chunks to the standardized format
+        retrieved_chunks = [
+            {
+                "chunk_id": c["chunk_id"],
+                "text": c["text"],
+                "display_text": c["display_text"],
+                "score": c.get("score", 0),
+                "dense_score": c.get("dense_score", 0),
+                "lexical_score": c.get("lexical_score", 0),
+                "metadata": c["metadata"]
+            }
+            for c in context_chunks
+        ]
+
         # 3. Format response
         return {
             "question": question,
             "answer": answer_text,
-            "context": [
-                {
-                    "ref": c["metadata"]["ref"],
-                    "ref_en": c["metadata"]["ref_en"],
-                    "book": c["metadata"].get("book"),
-                    "book_en": c["metadata"].get("book_en"),
-                    "chapter": c["metadata"].get("chapter"),
-                    "verse_start": c["metadata"].get("verse_start"),
-                    "verse_end": c["metadata"].get("verse_end"),
-                    "text": c["display_text"],
-                    "score": c.get("score", 0),
-                    "dense_score": c.get("dense_score", 0),
-                    "lexical_score": c.get("lexical_score", 0),
-                    "chunk_id": c["chunk_id"],
-                    "chunk_type": c["metadata"].get("chunk_type")
-                }
-                for c in context_chunks
-            ],
+            "sources": [c["metadata"]["ref_en"] for c in context_chunks],
+            "retrieved_chunks": retrieved_chunks,
+            "context": retrieved_chunks,  # Alias for existing web app compatibility
             "debug": {
                 "latency_ms": latency_ms,
                 "top_k": k,
                 "embedding_model": EMBEDDING_MODEL_NAME,
-                "retrieval_strategy": retrieval_strategy
+                "retrieval_strategy": retrieval_strategy,
+                "query_type": self.retriever._detect_query_type(question)
             }
         }
 

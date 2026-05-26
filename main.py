@@ -42,6 +42,14 @@ def main():
         try:
             result = rag.answer(question)
 
+            # Assignment Standard Output Check
+            required_keys = ["answer", "sources", "retrieved_chunks"]
+            missing_keys = [k for k in required_keys if k not in result]
+            if not missing_keys:
+                print("✓ RAG Output Standardized (Assignment Compliant)")
+            else:
+                print(f"✗ RAG Output Missing Keys: {missing_keys}")
+
             print("\n" + "-"*30)
             print("ANSWER:")
             print(result['answer'])
