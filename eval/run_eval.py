@@ -22,6 +22,7 @@ logger = logging.getLogger("Eval")
 
 GOLD_SET_PATH = Path(__file__).parent / "gold_set.jsonl"
 RESULTS_DIR = Path(__file__).parent / "results"
+REPORT_DATA_DIR = RESULTS_DIR / "report_data"
 
 def load_gold_set(path: Path) -> List[Dict[str, Any]]:
     gold_set = []
@@ -87,7 +88,7 @@ def run_retrieval_evaluation(
         gold_set = load_gold_set(GOLD_SET_PATH)
 
     logger.info(f"\n" + "="*50)
-    logger.info(f" RETRIEVAL EVALUATION — {strategy.upper()}")
+    logger.info(f" RETRIEVAL EVALUATION — {strategy.upper()} (Top-K: {top_k})")
     logger.info("="*50)
 
     if retriever is None:
@@ -112,7 +113,7 @@ def run_retrieval_evaluation(
         h1 = calculate_hit_at_k(retrieved_ids, relevant_ids_set, 1)
         h3 = calculate_hit_at_k(retrieved_ids, relevant_ids_set, 3)
         h5 = calculate_hit_at_k(retrieved_ids, relevant_ids_set, 5)
-        r5 = calculate_recall_at_k(retrieved_ids, relevant_ids_set, 5)
+        r5 = calculate_recall_at_k(retrieved_ids, relevant_ids_set, top_k)
         mrr = calculate_reciprocal_rank(retrieved_ids, relevant_ids_set)
 
         all_metrics["hit@1"].append(h1); all_metrics["hit@3"].append(h3)
@@ -122,7 +123,7 @@ def run_retrieval_evaluation(
         results.append({
             "question": question, "strategy": strategy, "relevant_found": found,
             "first_relevant_rank": first_rank, "hit@1": h1, "hit@3": h3, "hit@5": h5,
-            "recall@5": r5, "mrr": mrr,
+            "recall_at_k": r5, "mrr": mrr,
             "retrieved_refs": [c["metadata"].get("ref_en", "N/A") for c in retrieved_chunks[:top_k]]
         })
 
@@ -131,19 +132,86 @@ def run_retrieval_evaluation(
             logger.info(f"[{idx+1}] {status} {question}{f' (Rank: {first_rank})' if found else ''}")
 
     summary = {
-        "strategy": strategy, "questions_count": len(gold_set),
-        "hit@1": float(np.mean(all_metrics["hit@1"])),
-        "hit@3": float(np.mean(all_metrics["hit@3"])),
-        "hit@5": float(np.mean(all_metrics["hit@5"])),
-        "recall@5": float(np.mean(all_metrics["recall@5"])),
+        "strategy": strategy, "questions_count": len(gold_set), "top_k": top_k,
+        "hit_at_1": float(np.mean(all_metrics["hit@1"])),
+        "hit_at_3": float(np.mean(all_metrics["hit@3"])),
+        "hit_at_5": float(np.mean(all_metrics["hit@5"])),
+        "recall_at_k": float(np.mean(all_metrics["recall@5"])),
         "mrr": float(np.mean(all_metrics["mrr"]))
     }
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-    with open(RESULTS_DIR / f"retrieval_eval_{strategy}.json", 'w', encoding='utf-8') as f:
+    with open(RESULTS_DIR / f"retrieval_eval_{strategy}_k{top_k}.json", 'w', encoding='utf-8') as f:
         json.dump({"summary": summary, "detailed_results": results}, f, ensure_ascii=False, indent=2)
 
     return summary
+
+def run_ablation_study(limit: Optional[int] = None):
+    logger.info(f"\n" + "="*50)
+    logger.info(f" RUNNING ABLATION STUDY")
+    logger.info("="*50)
+    
+    gold_set = load_gold_set(GOLD_SET_PATH)
+    if limit: gold_set = gold_set[:limit]
+    
+    retriever = VectorRetriever()
+    
+    # 1. Retrieval Strategy Ablation
+    strategies = ["hybrid", "dense_only", "lexical_only"]
+    strategy_results = []
+    for strat in strategies:
+        res = run_retrieval_evaluation(strat, top_k=5, retriever=retriever, gold_set=gold_set)
+        strategy_results.append({
+            "variant": strat,
+            **res
+        })
+        
+    # 2. Top-K Ablation
+    ks = [3, 5, 10]
+    top_k_results = []
+    for k in ks:
+        res = run_retrieval_evaluation("hybrid", top_k=k, retriever=retriever, gold_set=gold_set)
+        top_k_results.append({
+            "variant": f"top_k_{k}",
+            **res
+        })
+        
+    ablation_results = {
+        "retrieval_strategy_ablation": strategy_results,
+        "top_k_ablation": top_k_results
+    }
+    
+    # Save JSON
+    with open(RESULTS_DIR / "ablation_results.json", 'w', encoding='utf-8') as f:
+        json.dump(ablation_results, f, ensure_ascii=False, indent=2)
+        
+    # Save Markdown
+    md_content = "# Ablation Study Results\n\n"
+    
+    md_content += "## Retrieval Strategy (Top-K=5)\n\n"
+    md_content += "| Variant | Hit@1 | Hit@3 | Hit@5 | MRR |\n|---|---:|---:|---:|---:|\n"
+    for r in strategy_results:
+        md_content += f"| {r['variant']} | {r['hit_at_1']:.3f} | {r['hit_at_3']:.3f} | {r['hit_at_5']:.3f} | {r['mrr']:.3f} |\n"
+        
+    md_content += "\n## Top-K Ablation (Strategy=Hybrid)\n\n"
+    md_content += "| Top-K | Hit@1 | Hit@3 | Hit@5 | MRR |\n|---|---:|---:|---:|---:|\n"
+    for r in top_k_results:
+        md_content += f"| {r['top_k']} | {r['hit_at_1']:.3f} | {r['hit_at_3']:.3f} | {r['hit_at_5']:.3f} | {r['mrr']:.3f} |\n"
+        
+    with open(RESULTS_DIR / "ablation_results.md", 'w', encoding='utf-8') as f:
+        f.write(md_content)
+        
+    # Save CSV for Report
+    REPORT_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    with open(REPORT_DATA_DIR / "ablation_table.csv", 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(["Experiment", "Variant", "Hit@1", "Hit@3", "Hit@5", "MRR"])
+        for r in strategy_results:
+            writer.writerow(["retrieval_strategy", r['variant'], r['hit_at_1'], r['hit_at_3'], r['hit_at_5'], r['mrr']])
+        for r in top_k_results:
+            writer.writerow(["top_k", r['top_k'], r['hit_at_1'], r['hit_at_3'], r['hit_at_5'], r['mrr']])
+            
+    logger.info(f"\nAblation study complete. Results saved to {RESULTS_DIR}")
 
 def run_generation_evaluation(
     strategy: str, 
@@ -237,13 +305,16 @@ if __name__ == "__main__":
     parser.add_argument("--verbose", action="store_true")
     parser.add_argument("--include-generation", action="store_true")
     parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument("--ablation", action="store_true", help="Run ablation experiments")
     
     args = parser.parse_args()
     
-    if args.strategy == "all":
+    if args.ablation:
+        run_ablation_study(args.limit)
+    elif args.strategy == "all":
         run_all_evaluations(args.top_k, args.verbose)
     else:
         run_retrieval_evaluation(args.strategy, args.top_k, args.verbose)
         
-    if args.include_generation:
+    if args.include_generation and not args.ablation:
         run_generation_evaluation(args.strategy, args.limit)

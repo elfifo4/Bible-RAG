@@ -186,6 +186,40 @@ async def get_eval_answers(strategy: str = "hybrid", user_id: str = Depends(get_
         results = json.load(f)
         return {"results": results}
 
+@app.get("/api/eval/ablation")
+async def get_eval_ablation(user_id: str = Depends(get_current_user)):
+    file_path = EVAL_RESULTS_DIR / "ablation_results.json"
+    
+    if not file_path.exists():
+        return {
+            "available": False,
+            "message": "Ablation results not found. Run 'python eval/run_eval.py --ablation' first."
+        }
+        
+    with open(file_path, 'r', encoding='utf-8') as f:
+        results = json.load(f)
+        return {
+            "available": True,
+            "results": results
+        }
+
+@app.get("/api/eval/errors")
+async def get_eval_errors(user_id: str = Depends(get_current_user)):
+    file_path = EVAL_RESULTS_DIR / "error_analysis.json"
+    
+    if not file_path.exists():
+        return {
+            "available": False,
+            "message": "Error analysis results not found. Run 'python eval/error_analysis.py' first."
+        }
+        
+    with open(file_path, 'r', encoding='utf-8') as f:
+        results = json.load(f)
+        return {
+            "available": True,
+            "results": results
+        }
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)

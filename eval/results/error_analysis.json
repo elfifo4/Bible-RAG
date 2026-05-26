@@ -1,0 +1,656 @@
+{
+  "summary": {
+    "total_failures": 43,
+    "by_category": {
+      "retrieval_miss": 42,
+      "generation_error": 1
+    }
+  },
+  "failures": [
+    {
+      "question": "באיזה מקום נאמר: \"וַיָּבֹא הָעָם ... וַיֵּשְׁבוּ שָׁם עַד הָעֶרֶב לִפְנֵי הָאֱלֹהִים וַיִּשְׂאוּ קוֹלָם וַיִּבְכּוּ בְּכִי גָדוֹל\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Jeremiah 49:1",
+        "Judges 8:18",
+        "Numbers 9:7",
+        "Jeremiah 2:5",
+        "1 Kings 11:2"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "אַשְׁרֵי אֲנָשֶׁיךָ אַשְׁרֵי עֲבָדֶיךָ אֵלֶּה הָעֹמְדִים לְפָנֶיךָ תָּמִיד הַשֹּׁמְעִים אֶת־חָכְמָתֶךָ מי אמר למי את הדברים?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "2 Kings 1:7",
+        "Malachi 2:14",
+        "Genesis 3:11",
+        "Genesis 44:7",
+        "Genesis 20:10"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "כמה זמן היה ארון ה' בשדה פלישתים?",
+      "strategy": "hybrid",
+      "category": "generation_error",
+      "reason": "Correct context was retrieved, but the LLM failed to extract the correct answer.",
+      "suggested_fix": "Refine the generation prompt or use a more capable LLM.",
+      "retrieved_refs": [
+        "1 Samuel 6:1",
+        "1 Samuel 6:18",
+        "1 Samuel 4:1-5",
+        "1 Samuel 5:1",
+        "1 Samuel 5:7-11"
+      ],
+      "first_relevant_rank": 1
+    },
+    {
+      "question": "וְאִם־יֶשׁ־בִּי עָון וֶהֱמִתָנִי נאמר ל:",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Zechariah 4:4",
+        "Zechariah 6:4",
+        "1 Kings 2:14",
+        "Deuteronomy 18:17",
+        "Job 7:13"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "וּבְנֵי־יִשְׂרָאֵל עָשׂוּ כַּאֲשֶׁר צִוָּה ה' אֶת־מֹשֶׁה. מהו הציווי אותו עשו בני ישראל?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Numbers 1:54",
+        "Exodus 39:42",
+        "Joel 4:16-20",
+        "Isaiah 28:13-17",
+        "Exodus 16:1-5"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "וַתִּקַּח ... צֹר וַתִּכְרֹת אֶת עָרְלַת בְּנָהּ וַתַּגַּע לְרַגְלָיו וַתֹּאמֶר כִּי חֲתַן דָּמִים אַתָּה לִי על מי נאמר?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Isaiah 38:15",
+        "Ecclesiastes 3:18",
+        "2 Samuel 14:13",
+        "1 Samuel 28:9",
+        "Deuteronomy 4:8"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "למי נאמר: \"לֹא יָמוּשׁ סֵפֶר הַתּוֹרָה הַזֶּה מִפִּיךָ וְהָגִיתָ בּוֹ יוֹמָם וָלַיְלָה לְמַעַן תִּשְׁמֹר לַעֲשׂוֹת כְּכׇל הַכָּתוּב בּוֹ כִּי אָז תַּצְלִיחַ אֶת דְּרָכֶךָ וְאָז תַּשְׂכִּיל\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Genesis 3:11",
+        "Deuteronomy 12:19-23",
+        "Jeremiah 49:12",
+        "Proverbs 23:7",
+        "2 Kings 3:17"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מי אמר למי: \"הַמְצָאתַנִי אֹיְבִי\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "1 Samuel 30:13",
+        "Genesis 31:40-44",
+        "Lamentations 1:19-22",
+        "Genesis 24:40-44",
+        "Genesis 26:16"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "על מי נאמר: \"וְיִקְרְאוּ אֶל־אֱלֹהִים בְּחָזְקָה\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Genesis 28:10-14",
+        "Genesis 31:11",
+        "2 Chronicles 20:34-37",
+        "Ezekiel 9:4-8",
+        "Hosea 1:1-5"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "\"חֹבֵט חִטִּים בַּגַּת לְהָנִיס מִפְּנֵי מִדְיָן\". מיהו חובט החטים?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "2 Chronicles 2:14",
+        "Ezekiel 45:13",
+        "Ruth 2:23",
+        "1 Chronicles 9:31",
+        "Job 38:2"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מהו גבול האמורי?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Ezekiel 47:13-17",
+        "Ezekiel 48:28",
+        "Joshua 12:5",
+        "Ezekiel 47:17",
+        "Ezekiel 48:25-29"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מי אמר למי: \"בֵּיתְךָ נִשְׂרֹף עָלֶיךָ בָּאֵשׁ\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Jeremiah 2:25-29",
+        "Genesis 30:28-32",
+        "Genesis 3:11",
+        "Exodus 5:17",
+        "Genesis 17:18"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "אחרי איזה קרב נאמר:\"וַיִּמַּס לְבַב הָעָם וַיְהִי לְמָיִם\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Zechariah 14:3",
+        "2 Kings 3:22-26",
+        "Deuteronomy 2:16-20",
+        "Joshua 5:1-5",
+        "1 Samuel 14:22-26"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "למי נאמר: \"לֵךְ וְאַרְאֶךָּ אֶת הָאִישׁ אֲשֶׁר אַתָּה מְבַקֵּשׁ\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "1 Samuel 26:9",
+        "Exodus 3:6",
+        "2 Chronicles 14:3",
+        "Exodus 10:8",
+        "Genesis 27:32"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "אֲשֶׁר לֹא־הָיָה כָמֹהוּ בְּכָל־אֶרֶץ מִצְרַיִם, מֵאָז הָיְתָה לְגוֹי נאמר על:",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Jeremiah 4:27",
+        "Psalms 139:4",
+        "Genesis 26:2",
+        "Psalms 78:19",
+        "Joshua 5:5"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "וַיַּשִּׂגוּ אֹתוֹ בְּעַרְבוֹת יְרֵחוֹ; וְכָל־חֵילוֹ נָפֹצוּ מֵעָלָיו נאמר על:",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Judges 16:16",
+        "Job 34:37",
+        "Psalms 109:10",
+        "Exodus 32:27",
+        "Hosea 11:6"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "כאשר מת שופט דגול, נאמר: \"וְלֹא זָכְרוּ בְּנֵי יִשְׂרָאֵל אֶת יְהֹוָה אֱלֹהֵיהֶם הַמַּצִּיל אוֹתָם מִיַּד כׇּל אֹיְבֵיהֶם מִסָּבִיב\" - מיהו השופט?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Judges 2:19-23",
+        "Amos 2:3",
+        "Judges 2:19",
+        "Psalms 9:4-8",
+        "Job 34:4-8"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מי אמר למי \"ולא האמנתי לדברים עד אשר באתי ותראינה עיני והנה לא הוגד לי החצי\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "1 Kings 10:7",
+        "2 Chronicles 9:6",
+        "1 Kings 10:7-11",
+        "1 Kings 3:25",
+        "1 Samuel 20:37-41"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "אחרי התבוסה הראשונה של בנ\"י נגד העי נאמר על בנ\"י : \"וַיִּמַּס לְבַב הָעָם וַיְהִי לְמָיִם\". על מי נאמר: \"וַיִּמַּס לְבָבָם וְלֹא הָיָה בָם עוֹד רוּחַ מִפְּנֵי בְּנֵי יִשְׂרָאֵל\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Joshua 8:24",
+        "Joshua 8:22-26",
+        "Joshua 17:1-5",
+        "Ruth 1:11",
+        "Genesis 31:20"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "על מי נאמר \"והיה כנגן המנגן, ותהי עליו יד ה'\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "2 Kings 3:15",
+        "2 Kings 3:13-17",
+        "Ezekiel 1:3",
+        "2 Samuel 21:20",
+        "Genesis 24:22-26"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מי אמר \"וַתַּעַבְרוּ אֶת־הַיַּרְדֵּן, וַתָּבֹאוּ אֶל־יְרִיחוֹ, וַיִּלָּחֲמוּ בָכֶם בַּעֲלֵי־יְרִיחוֹ\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Jeremiah 22:9",
+        "2 Kings 2:18",
+        "1 Kings 14:7",
+        "2 Kings 2:6",
+        "Jeremiah 42:9"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "... הִנֵּה אָנֹכִי חָטָאתִי וְאָנֹכִי הֶעֱוֵיתִי וְאֵלֶּה הַצּאֹן מֶה עָשׂוּ תְּהִי נָא יָדְךָ בִּי וּבְבֵית אָבִי מי אמר את הדברים?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "2 Kings 1:7",
+        "Genesis 39:19",
+        "Zechariah 13:6",
+        "Malachi 2:14",
+        "Genesis 20:5"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "אִטֵּר הוא אדם ששולט ביד שמאל יותר טוב מאשר ביד ימין. איזה שופט היה: \"אִטֵּר יַד יְמִינוֹ\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Proverbs 29:14",
+        "Isaiah 3:2",
+        "Psalms 7:12",
+        "Psalms 9:5",
+        "Deuteronomy 27:19"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "אַיֵּה אֵפוֹא פִיךָ אֲשֶׁר תֹּאמַר ... הֲלֹא זֶה הָעָם אֲשֶׁר מָאַסְתָּה בּוֹ צֵא נָא עַתָּה וְהִלָּחֶם בּוֹ מי אמר למי?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Ezekiel 12:10",
+        "Genesis 27:45",
+        "2 Samuel 19:11",
+        "Genesis 3:11",
+        "Jeremiah 49:1"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "וַיֵּלֶךְ רְחַבְעָם שְׁכֶם. איזה טעם ניתן לדבר?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Proverbs 13:13",
+        "Isaiah 32:4",
+        "Proverbs 24:2",
+        "Isaiah 32:6",
+        "Job 34:35"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מי אמר: \"כִּי־יָבֹא אֵלַי הָעָם לִדְרֹשׁ אֱלֹהִים\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Exodus 32:22",
+        "Ezekiel 25:1-5",
+        "Ezekiel 25:3",
+        "1 Samuel 17:28-32",
+        "1 Samuel 17:25-29"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "עֲשֵׂה־אַתָּה לָנוּ, כְּכָל־הַטּוֹב בְּעֵינֶיךָ הם דברי:",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Isaiah 14:10",
+        "Judges 9:14",
+        "Genesis 30:34",
+        "Hosea 2:3",
+        "1 Samuel 25:6"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מי אמר למי \"חלילה לי מה' מתתי את נחלת אבותי לך\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "1 Kings 21:3",
+        "1 Kings 21:1-5",
+        "1 Kings 21:4",
+        "1 Kings 21:4-8",
+        "Jeremiah 3:19"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מי אמר למי: \"אֵת צֵל הֶהָרִים אַתָּה רֹאֶה כָּאֲנָשִׁים\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "2 Kings 4:1-5",
+        "Leviticus 21:1",
+        "2 Samuel 12:7-11",
+        "Zechariah 11:4",
+        "Ezekiel 34:16-20"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מי המלך הראשון שניסה להפסיק את פולחן הבמות?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Daniel 8:21",
+        "1 Kings 22:44",
+        "2 Kings 15:4",
+        "2 Kings 14:4",
+        "2 Kings 12:4"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "הֲלֹא טוֹב אֲמָנָה וּפַרְפַּר נַהֲרוֹת דַמֶּשֶק מִכֹּל מֵימֵי יִשְרָאֵל הֲלֹא אֶרְחַץ בָּהֶם ... מי אמר?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Malachi 2:16",
+        "Zechariah 8:14",
+        "Ezekiel 12:28",
+        "Ezekiel 11:16",
+        "Jeremiah 18:13"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מי מתואר \"כִּי־הוּא כְּאִישׁ אֱמֶת, וְיָרֵא אֶת־הָאֱלֹהִים מֵרַבִּים\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Jeremiah 46:1",
+        "1 Kings 18:3",
+        "Micah 3:5",
+        "Jeremiah 13:9",
+        "Exodus 6:26"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "איזו תופעה מן הבאות, *לא* הופיעה בפני אליהו בהר חורב?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "1 Kings 17:16",
+        "1 Kings 19:13",
+        "Psalms 92:16",
+        "Ecclesiastes 1:10-14",
+        "Ezekiel 33:6"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מלאך ה' אומר להגר: \"הִנָּךְ הָרָה וְיֹלַדְתְּ בֵּן וְקָרָאת שְׁמוֹ יִשְׁמָעֵאל\". בסיפור אחר, למי נגלה מלאך ה' ואומר לה: \"כִּי הִנָּךְ הָרָה וְיֹלַדְתְּ בֵּן\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Genesis 16:7-11",
+        "Genesis 16:9",
+        "Genesis 16:10",
+        "Genesis 16:11",
+        "Numbers 22:22-26"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מה הסמל לנבואה \"לֹא־אוֹסִיף עוֹד עֲבוֹר לוֹ וְהֵילִילוּ שִׁירוֹת הֵיכָל בַּיּוֹם הַהוּא\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Psalms 24:4",
+        "Exodus 22:19",
+        "Psalms 18:31",
+        "2 Samuel 22:31",
+        "Job 36:1-5"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "וָאֵרֶא בַשָּׁלָל אַדֶּרֶת שִׁנְעָר אַחַת טוֹבָה וּמָאתַיִם שְׁקָלִים כֶּסֶף וּלְשׁוֹן זָהָב אֶחָד ... וָאֶחְמְדֵם וָאֶקָּחֵם וְהִנָּם טְמוּנִים בָּאָרֶץ בְּתּוֹךְ הָאָהֳלִי מי אמר?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Ezekiel 4:13",
+        "Ezekiel 33:25",
+        "Ezekiel 11:17",
+        "Jeremiah 2:5",
+        "2 Kings 3:17"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "באיזה מקום מהמקומות הבאים ניבאו לְמלך שעומד לסיים את מלכותו?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Daniel 11:4",
+        "Psalms 145:12",
+        "Esther 1:2",
+        "Daniel 11:4-8",
+        "Esther 2:16"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מי אמר: \"מִמֶּנִּי תִרְאוּ וְכֵן תַּעֲשׂוּ\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Nehemiah 6:11",
+        "Exodus 5:10-14",
+        "Isaiah 21:12",
+        "Exodus 3:11",
+        "Exodus 3:7-11"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "מי אמר: \"וְהִנֵּה אָנֹכִי הוֹלֵךְ הַיּוֹם בְּדֶרֶךְ כׇּל הָאָרֶץ\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Ezekiel 20:29",
+        "Malachi 3:2",
+        "1 Kings 9:13",
+        "Ezekiel 43:18",
+        "Haggai 2:3"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "בלק מבקש מבלעם שיקלל את עם ישראל ואומר לו: \"כִּי יָדַעְתִּי אֵת אֲשֶׁר תְּבָרֵךְ מְבֹרָךְ וַאֲשֶׁר תָּאֹר יוּאָר\"- על מי נאמר: \"מִנָּשִׁים בָּאֹהֶל תְּבֹרָךְ\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Numbers 23:2",
+        "Numbers 22:13-17",
+        "Numbers 23:13-17",
+        "Numbers 23:25-29",
+        "Numbers 22:37-41"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "איך קוראים לנערו של גדעון?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Judges 6:22",
+        "Judges 8:13",
+        "Judges 6:34",
+        "Judges 6:29",
+        "Judges 8:31-35"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "וַיַּבֵּט וְהִנֵּה מְרַאֲשֹׁתָיו עֻגַת רְצָפִים וְצַפַּחַת מָיִם וַיֹּאכַל וַיֵּשְׁתְּ וַיָּשָׁב וַיִּשְׁכָּב. על מי נאמרו הדברים?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "2 Samuel 22:10-14",
+        "Isaiah 55:7-11",
+        "Numbers 16:31-35",
+        "Jonah 2:11",
+        "Exodus 15:22-26"
+      ],
+      "first_relevant_rank": null
+    },
+    {
+      "question": "על מה נאמר: \"אֲשֶׁר עַל־פְּנֵי הַיַּרְדֵּן\"?",
+      "strategy": "hybrid",
+      "category": "retrieval_miss",
+      "reason": "No relevant chunks were found in the top retrieved results.",
+      "suggested_fix": "Improve embedding model or add lexical/keyword boost.",
+      "retrieved_refs": [
+        "Genesis 44:16",
+        "Jeremiah 16:3",
+        "Genesis 4:6",
+        "Joshua 4:21",
+        "Genesis 44:7"
+      ],
+      "first_relevant_rank": null
+    }
+  ]
+}

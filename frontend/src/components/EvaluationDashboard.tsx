@@ -9,6 +9,8 @@ const EvaluationDashboard: React.FC = () => {
   const [summary, setSummary] = useState<api.EvalSummaryResponse | null>(null);
   const [questions, setQuestions] = useState<api.QuestionEvalResult[]>([]);
   const [answers, setAnswers] = useState<api.AnswerEvalResult[]>([]);
+  const [ablation, setAblation] = useState<api.AblationResults | null>(null);
+  const [errors, setErrors] = useState<api.ErrorAnalysisResults | null>(null);
   const [selectedStrategy, setSelectedStrategy] = useState('hybrid');
   const [filter, setFilter] = useState<'all' | 'success' | 'failure'>('all');
   const [loading, setLoading] = useState(true);
@@ -28,6 +30,13 @@ const EvaluationDashboard: React.FC = () => {
     try {
       const summaryData = await api.getEvalSummary();
       setSummary(summaryData);
+
+      const ablationData = await api.getEvalAblation();
+      setAblation(ablationData);
+
+      const errorData = await api.getEvalErrors();
+      setErrors(errorData);
+
       await fetchQuestions('hybrid');
       await fetchAnswers('hybrid');
     } catch (err: any) {
@@ -254,15 +263,141 @@ const EvaluationDashboard: React.FC = () => {
         )}
       </div>
 
-      {/* 5. Ablation Section (Placeholder for now) */}
+      {/* 5. Ablation Section */}
       <div className="card">
         <h3>ניסויי Ablation (רכיבים מנוטרלים)</h3>
-        <p style={{ fontSize: '0.85rem', color: '#64748b' }}>
-          בחלק זה ניתן לראות את ההשפעה של שינוי פרמטרים בודדים על ביצועי המערכת (למשל: גודל חלון, Top-K, סוג מודל).
-        </p>
-        <div style={{ padding: '2rem', textAlign: 'center', border: '2px dashed #e2e8f0', borderRadius: '0.5rem', color: '#94a3b8' }}>
-          עדיין לא הורצו ניסויי ablation במערכת.
-        </div>
+        {ablation?.available ? (
+          <div className="ablation-container">
+            <p style={{ fontSize: '0.85rem', color: '#64748b' }}>
+              מציג את ההשפעה של שינוי פרמטרים בודדים על ביצועי המערכת.
+            </p>
+
+            <h4 style={{ marginTop: '1.5rem' }}>השפעת אסטרטגיית ה-Retrieval (Top-K=5)</h4>
+            <div className="eval-table-container">
+              <table className="eval-table">
+                <thead>
+                  <tr>
+                    <th>אסטרטגיה</th>
+                    <th>Hit@1</th>
+                    <th>Hit@3</th>
+                    <th>Hit@5</th>
+                    <th>MRR</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {ablation.results?.retrieval_strategy_ablation.map((r, i) => (
+                    <tr key={i}>
+                      <td>{r.variant}</td>
+                      <td>{(r.hit_at_1 * 100).toFixed(1)}%</td>
+                      <td>{(r.hit_at_3 * 100).toFixed(1)}%</td>
+                      <td>{(r.hit_at_5 * 100).toFixed(1)}%</td>
+                      <td>{r.mrr.toFixed(3)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            <h4 style={{ marginTop: '2rem' }}>השפעת Top-K (אסטרטגיה: Hybrid)</h4>
+            <div className="eval-table-container">
+              <table className="eval-table">
+                <thead>
+                  <tr>
+                    <th>K</th>
+                    <th>Hit@1</th>
+                    <th>Hit@3</th>
+                    <th>Hit@5</th>
+                    <th>MRR</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {ablation.results?.top_k_ablation.map((r, i) => (
+                    <tr key={i}>
+                      <td>{r.top_k}</td>
+                      <td>{(r.hit_at_1 * 100).toFixed(1)}%</td>
+                      <td>{(r.hit_at_3 * 100).toFixed(1)}%</td>
+                      <td>{r.hit_at_5 ? (r.hit_at_5 * 100).toFixed(1) + '%' : (r.top_k < 5 ? '-' : (r.hit_at_5 * 100).toFixed(1) + '%')}</td>
+                      <td>{r.mrr.toFixed(3)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        ) : (
+          <div style={{ padding: '2rem', textAlign: 'center', color: '#94a3b8' }}>
+            עדיין לא הורצו ניסויי ablation במערכת. הרץ:
+            <code className="ltr" style={{ display: 'block', marginTop: '0.5rem' }}>
+              python3 eval/run_eval.py --ablation
+            </code>
+          </div>
+        )}
+      </div>
+
+      {/* 6. Error Analysis Section */}
+      <div className="card">
+        <h3>ניתוח שגיאות (Error Analysis)</h3>
+        {errors?.available ? (
+          <div>
+            <div className="metrics-grid">
+              <div className="card metric-card">
+                <div className="metric-label">סך כישלונות</div>
+                <div className="metric-value" style={{ color: '#dc2626' }}>{errors.results?.summary.total_failures}</div>
+              </div>
+            </div>
+
+            <h4 style={{ marginTop: '1.5rem' }}>התפלגות סוגי שגיאות</h4>
+            <div className="eval-table-container">
+              <table className="eval-table">
+                <thead>
+                  <tr>
+                    <th>סוג שגיאה</th>
+                    <th>מספר מקרים</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {Object.entries(errors.results?.summary.by_category || {}).map(([cat, count]) => (
+                    <tr key={cat}>
+                      <td>{cat}</td>
+                      <td>{count as number}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            <h4 style={{ marginTop: '2rem' }}>דוגמאות לכישלונות מייצגים</h4>
+            <div className="eval-table-container">
+              <table className="eval-table">
+                <thead>
+                  <tr>
+                    <th>שאלה</th>
+                    <th>סוג שגיאה</th>
+                    <th>הסבר</th>
+                    <th>הצעת שיפור</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {errors.results?.failures.slice(0, 10).map((f, i) => (
+                    <tr key={i}>
+                      <td>{f.question}</td>
+                      <td style={{ fontSize: '0.8rem', fontWeight: 'bold' }}>{f.category}</td>
+                      <td style={{ fontSize: '0.8rem' }}>{f.reason}</td>
+                      <td style={{ fontSize: '0.8rem', color: '#16a34a' }}>{f.suggested_fix}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        ) : (
+          <div style={{ padding: '2rem', textAlign: 'center', color: '#94a3b8' }}>
+            עדיין לא נוצר ניתוח שגיאות. הרץ:
+            <code className="ltr" style={{ display: 'block', marginTop: '0.5rem' }}>
+              python3 eval/error_analysis.py
+            </code>
+          </div>
+        )}
       </div>
     </div>
   );

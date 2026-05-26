@@ -105,6 +105,37 @@ export const getEvalAnswers = async (strategy = 'hybrid'): Promise<EvalAnswersRe
   return response.data;
 };
 
+export interface AblationResults {
+  available: boolean;
+  message?: string;
+  results?: {
+    retrieval_strategy_ablation: any[];
+    top_k_ablation: any[];
+  };
+}
+
+export const getEvalAblation = async (): Promise<AblationResults> => {
+  const response = await api.get('/api/eval/ablation');
+  return response.data;
+};
+
+export interface ErrorAnalysisResults {
+  available: boolean;
+  message?: string;
+  results?: {
+    summary: {
+      total_failures: number;
+      by_category: Record<string, number>;
+    };
+    failures: any[];
+  };
+}
+
+export const getEvalErrors = async (): Promise<ErrorAnalysisResults> => {
+  const response = await api.get('/api/eval/errors');
+  return response.data;
+};
+
 export interface CompareResponse {
   question: string;
   results: Record<string, AskResponse>;

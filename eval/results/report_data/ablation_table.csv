@@ -1,0 +1,7 @@
+Experiment,Variant,Hit@1,Hit@3,Hit@5,MRR
+retrieval_strategy,hybrid,0.1,0.12,0.16,0.11566666666666667
+retrieval_strategy,dense_only,0.06,0.08,0.1,0.07066666666666667
+retrieval_strategy,lexical_only,0.08,0.1,0.14,0.09466666666666666
+top_k,3,0.1,0.12,0.16,0.11566666666666667
+top_k,5,0.1,0.12,0.16,0.11566666666666667
+top_k,10,0.1,0.12,0.16,0.12522222222222223
