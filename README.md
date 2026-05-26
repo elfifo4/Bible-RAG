@@ -55,6 +55,26 @@ Visit `http://localhost:5173` to ask questions!
 1. **Backend**: Deploy the Docker container to Render, Fly.io, or Railway. Set environment variables in their dashboards.
 2. **Frontend**: Deploy the `dist` folder to Vercel or Netlify. Set `VITE_API_URL` to your backend URL.
 
+## 4. Evaluation and Reporting
+
+### Run Evaluation
+```bash
+# 1. Run all retrieval strategies
+python3 eval/run_eval.py --strategy all
+
+# 2. Run ablation experiments
+python3 eval/run_eval.py --ablation
+
+# 3. Perform error analysis
+python3 eval/error_analysis.py
+
+# 4. Generate report assets
+python3 eval/generate_report_assets.py
+```
+
+The final draft for your project report will be saved to:
+`eval/results/report_data/report_draft.md`
+
 ## Design Principles
 
 - **Separation of Concerns**: Ingestion, Chunking, Retrieval, and Generation are decoupled.
