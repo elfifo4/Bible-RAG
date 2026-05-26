@@ -73,6 +73,23 @@ export interface EvalQuestionsResponse {
   results: QuestionEvalResult[];
 }
 
+export interface AnswerEvalResult {
+  question: string;
+  reference_answer: string;
+  generated_answer: string;
+  sources: string[];
+  retrieved_refs: string[];
+  strategy: string;
+  contains_reference_answer: boolean;
+  has_sources: boolean;
+  manual_score: string;
+  manual_notes: string;
+}
+
+export interface EvalAnswersResponse {
+  results: AnswerEvalResult[];
+}
+
 export const getEvalSummary = async (): Promise<EvalSummaryResponse> => {
   const response = await api.get('/api/eval/summary');
   return response.data;
@@ -80,6 +97,11 @@ export const getEvalSummary = async (): Promise<EvalSummaryResponse> => {
 
 export const getEvalQuestions = async (strategy = 'hybrid'): Promise<EvalQuestionsResponse> => {
   const response = await api.get(`/api/eval/questions?strategy=${strategy}`);
+  return response.data;
+};
+
+export const getEvalAnswers = async (strategy = 'hybrid'): Promise<EvalAnswersResponse> => {
+  const response = await api.get(`/api/eval/answers?strategy=${strategy}`);
   return response.data;
 };
 

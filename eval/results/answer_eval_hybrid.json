@@ -1,0 +1,242 @@
+[
+  {
+    "question": "באיזה מקום נאמר: \"וַיָּבֹא הָעָם ... וַיֵּשְׁבוּ שָׁם עַד הָעֶרֶב לִפְנֵי הָאֱלֹהִים וַיִּשְׂאוּ קוֹלָם וַיִּבְכּוּ בְּכִי גָדוֹל\"?",
+    "reference_answer": "מצפה",
+    "generated_answer": "אין לי מספיק מידע בהקשר המסופק כדי לענות על השאלה.",
+    "sources": [
+      "Jeremiah 49:1",
+      "Judges 8:18",
+      "Numbers 9:7",
+      "Jeremiah 2:5",
+      "1 Kings 11:2"
+    ],
+    "retrieved_refs": [
+      "Jeremiah 49:1",
+      "Judges 8:18",
+      "Numbers 9:7",
+      "Jeremiah 2:5",
+      "1 Kings 11:2"
+    ],
+    "strategy": "hybrid",
+    "contains_reference_answer": false,
+    "has_sources": true,
+    "manual_score": "",
+    "manual_notes": ""
+  },
+  {
+    "question": "אַשְׁרֵי אֲנָשֶׁיךָ אַשְׁרֵי עֲבָדֶיךָ אֵלֶּה הָעֹמְדִים לְפָנֶיךָ תָּמִיד הַשֹּׁמְעִים אֶת־חָכְמָתֶךָ מי אמר למי את הדברים?",
+    "reference_answer": "מלכת שבא לשלמה",
+    "generated_answer": "אין לי מספיק מידע בהקשר המסופק כדי לענות על השאלה.",
+    "sources": [
+      "2 Kings 1:7",
+      "Malachi 2:14",
+      "Genesis 3:11",
+      "Genesis 44:7",
+      "Genesis 20:10"
+    ],
+    "retrieved_refs": [
+      "2 Kings 1:7",
+      "Malachi 2:14",
+      "Genesis 3:11",
+      "Genesis 44:7",
+      "Genesis 20:10"
+    ],
+    "strategy": "hybrid",
+    "contains_reference_answer": false,
+    "has_sources": true,
+    "manual_score": "",
+    "manual_notes": ""
+  },
+  {
+    "question": "כמה זמן היה ארון ה' בשדה פלישתים?",
+    "reference_answer": "שבעה חדשים",
+    "generated_answer": "ארון ה' היה בשדה פלישתים שבעה חודשים (שמואל א ו:א).",
+    "sources": [
+      "1 Samuel 6:1",
+      "1 Samuel 6:18",
+      "1 Samuel 4:1-5",
+      "1 Samuel 5:1",
+      "1 Samuel 5:7-11"
+    ],
+    "retrieved_refs": [
+      "1 Samuel 6:1",
+      "1 Samuel 6:18",
+      "1 Samuel 4:1-5",
+      "1 Samuel 5:1",
+      "1 Samuel 5:7-11"
+    ],
+    "strategy": "hybrid",
+    "contains_reference_answer": false,
+    "has_sources": true,
+    "manual_score": "",
+    "manual_notes": ""
+  },
+  {
+    "question": "וְאִם־יֶשׁ־בִּי עָון וֶהֱמִתָנִי נאמר ל:",
+    "reference_answer": "יואב",
+    "generated_answer": "אין לי מספיק מידע בהקשר המסופק כדי לענות על השאלה.",
+    "sources": [
+      "Zechariah 4:4",
+      "Zechariah 6:4",
+      "1 Kings 2:14",
+      "Deuteronomy 18:17",
+      "Job 7:13"
+    ],
+    "retrieved_refs": [
+      "Zechariah 4:4",
+      "Zechariah 6:4",
+      "1 Kings 2:14",
+      "Deuteronomy 18:17",
+      "Job 7:13"
+    ],
+    "strategy": "hybrid",
+    "contains_reference_answer": false,
+    "has_sources": true,
+    "manual_score": "",
+    "manual_notes": ""
+  },
+  {
+    "question": "וּבְנֵי־יִשְׂרָאֵל עָשׂוּ כַּאֲשֶׁר צִוָּה ה' אֶת־מֹשֶׁה. מהו הציווי אותו עשו בני ישראל?",
+    "reference_answer": "רגימת המקלל",
+    "generated_answer": "אין מספיק מידע בהקשר המסופק כדי לענות על השאלה מהו הציווי אותו עשו בני ישראל.",
+    "sources": [
+      "Numbers 1:54",
+      "Exodus 39:42",
+      "Joel 4:16-20",
+      "Isaiah 28:13-17",
+      "Exodus 16:1-5"
+    ],
+    "retrieved_refs": [
+      "Numbers 1:54",
+      "Exodus 39:42",
+      "Joel 4:16-20",
+      "Isaiah 28:13-17",
+      "Exodus 16:1-5"
+    ],
+    "strategy": "hybrid",
+    "contains_reference_answer": false,
+    "has_sources": true,
+    "manual_score": "",
+    "manual_notes": ""
+  },
+  {
+    "question": "וַתִּקַּח ... צֹר וַתִּכְרֹת אֶת עָרְלַת בְּנָהּ וַתַּגַּע לְרַגְלָיו וַתֹּאמֶר כִּי חֲתַן דָּמִים אַתָּה לִי על מי נאמר?",
+    "reference_answer": "ציפורה",
+    "generated_answer": "אין לי מספיק מידע בהקשר המסופק כדי לענות על השאלה.",
+    "sources": [
+      "Isaiah 38:15",
+      "Ecclesiastes 3:18",
+      "2 Samuel 14:13",
+      "1 Samuel 28:9",
+      "Deuteronomy 4:8"
+    ],
+    "retrieved_refs": [
+      "Isaiah 38:15",
+      "Ecclesiastes 3:18",
+      "2 Samuel 14:13",
+      "1 Samuel 28:9",
+      "Deuteronomy 4:8"
+    ],
+    "strategy": "hybrid",
+    "contains_reference_answer": false,
+    "has_sources": true,
+    "manual_score": "",
+    "manual_notes": ""
+  },
+  {
+    "question": "למי נאמר: \"לֹא יָמוּשׁ סֵפֶר הַתּוֹרָה הַזֶּה מִפִּיךָ וְהָגִיתָ בּוֹ יוֹמָם וָלַיְלָה לְמַעַן תִּשְׁמֹר לַעֲשׂוֹת כְּכׇל הַכָּתוּב בּוֹ כִּי אָז תַּצְלִיחַ אֶת דְּרָכֶךָ וְאָז תַּשְׂכִּיל\"?",
+    "reference_answer": "יהושע",
+    "generated_answer": "אין לי מספיק מידע בהקשר המסופק כדי לענות על השאלה.",
+    "sources": [
+      "Genesis 3:11",
+      "Deuteronomy 12:19-23",
+      "Jeremiah 49:12",
+      "Proverbs 23:7",
+      "2 Kings 3:17"
+    ],
+    "retrieved_refs": [
+      "Genesis 3:11",
+      "Deuteronomy 12:19-23",
+      "Jeremiah 49:12",
+      "Proverbs 23:7",
+      "2 Kings 3:17"
+    ],
+    "strategy": "hybrid",
+    "contains_reference_answer": false,
+    "has_sources": true,
+    "manual_score": "",
+    "manual_notes": ""
+  },
+  {
+    "question": "מי אמר למי: \"הַמְצָאתַנִי אֹיְבִי\"?",
+    "reference_answer": "אחאב לאליהו",
+    "generated_answer": "אין לי מספיק מידע בהקשר המסופק כדי לענות על השאלה.",
+    "sources": [
+      "1 Samuel 30:13",
+      "Genesis 31:40-44",
+      "Lamentations 1:19-22",
+      "Genesis 24:40-44",
+      "Genesis 26:16"
+    ],
+    "retrieved_refs": [
+      "1 Samuel 30:13",
+      "Genesis 31:40-44",
+      "Lamentations 1:19-22",
+      "Genesis 24:40-44",
+      "Genesis 26:16"
+    ],
+    "strategy": "hybrid",
+    "contains_reference_answer": false,
+    "has_sources": true,
+    "manual_score": "",
+    "manual_notes": ""
+  },
+  {
+    "question": "על מי נאמר: \"וְיִקְרְאוּ אֶל־אֱלֹהִים בְּחָזְקָה\"?",
+    "reference_answer": "תושבי נינווה",
+    "generated_answer": "אין מספיק מידע בהקשר המסופק כדי לענות על השאלה.",
+    "sources": [
+      "Genesis 28:10-14",
+      "Genesis 31:11",
+      "2 Chronicles 20:34-37",
+      "Ezekiel 9:4-8",
+      "Hosea 1:1-5"
+    ],
+    "retrieved_refs": [
+      "Genesis 28:10-14",
+      "Genesis 31:11",
+      "2 Chronicles 20:34-37",
+      "Ezekiel 9:4-8",
+      "Hosea 1:1-5"
+    ],
+    "strategy": "hybrid",
+    "contains_reference_answer": false,
+    "has_sources": true,
+    "manual_score": "",
+    "manual_notes": ""
+  },
+  {
+    "question": "\"חֹבֵט חִטִּים בַּגַּת לְהָנִיס מִפְּנֵי מִדְיָן\". מיהו חובט החטים?",
+    "reference_answer": "גדעון",
+    "generated_answer": "אין לי מספיק מידע בהקשר המסופק כדי לענות על השאלה מי הוא חובט החטים בגת להניס מפני מדין.",
+    "sources": [
+      "2 Chronicles 2:14",
+      "Ezekiel 45:13",
+      "Ruth 2:23",
+      "1 Chronicles 9:31",
+      "Job 38:2"
+    ],
+    "retrieved_refs": [
+      "2 Chronicles 2:14",
+      "Ezekiel 45:13",
+      "Ruth 2:23",
+      "1 Chronicles 9:31",
+      "Job 38:2"
+    ],
+    "strategy": "hybrid",
+    "contains_reference_answer": false,
+    "has_sources": true,
+    "manual_score": "",
+    "manual_notes": ""
+  }
+]

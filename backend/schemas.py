@@ -102,3 +102,18 @@ class QuestionEvalResult(BaseModel):
 
 class EvalQuestionsResponse(BaseModel):
     results: List[QuestionEvalResult]
+
+class AnswerEvalResult(BaseModel):
+    question: str
+    reference_answer: str
+    generated_answer: str
+    sources: List[str]
+    retrieved_refs: List[str]
+    strategy: str
+    contains_reference_answer: bool
+    has_sources: bool
+    manual_score: str
+    manual_notes: str
+
+class EvalAnswersResponse(BaseModel):
+    results: List[AnswerEvalResult]

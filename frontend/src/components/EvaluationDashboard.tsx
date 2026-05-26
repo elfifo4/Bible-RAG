@@ -8,6 +8,7 @@ import * as api from '../api';
 const EvaluationDashboard: React.FC = () => {
   const [summary, setSummary] = useState<api.EvalSummaryResponse | null>(null);
   const [questions, setQuestions] = useState<api.QuestionEvalResult[]>([]);
+  const [answers, setAnswers] = useState<api.AnswerEvalResult[]>([]);
   const [selectedStrategy, setSelectedStrategy] = useState('hybrid');
   const [filter, setFilter] = useState<'all' | 'success' | 'failure'>('all');
   const [loading, setLoading] = useState(true);
@@ -19,6 +20,7 @@ const EvaluationDashboard: React.FC = () => {
 
   useEffect(() => {
     fetchQuestions(selectedStrategy);
+    fetchAnswers(selectedStrategy);
   }, [selectedStrategy]);
 
   const fetchData = async () => {
@@ -27,6 +29,7 @@ const EvaluationDashboard: React.FC = () => {
       const summaryData = await api.getEvalSummary();
       setSummary(summaryData);
       await fetchQuestions('hybrid');
+      await fetchAnswers('hybrid');
     } catch (err: any) {
       setError(err.response?.data?.detail || 'אירעה שגיאה בטעינת נתוני ההערכה');
     } finally {
@@ -40,6 +43,16 @@ const EvaluationDashboard: React.FC = () => {
       setQuestions(questionsData.results);
     } catch (err) {
       console.error('Error fetching questions:', err);
+    }
+  };
+
+  const fetchAnswers = async (strat: string) => {
+    try {
+      const answersData = await api.getEvalAnswers(strat);
+      setAnswers(answersData.results);
+    } catch (err) {
+      console.error('Error fetching answers:', err);
+      setAnswers([]);
     }
   };
 
@@ -180,7 +193,68 @@ const EvaluationDashboard: React.FC = () => {
         </div>
       </div>
 
-      {/* 4. Ablation Section (Placeholder for now) */}
+      {/* 4. Answer Quality Section */}
+      <div className="card">
+        <h3>בדיקת איכות תשובות (LLM Generation)</h3>
+        {answers.length > 0 ? (
+          <>
+            <div className="metrics-grid" style={{ marginTop: '1rem' }}>
+              <div className="card metric-card">
+                <div className="metric-label">תשובות שנבדקו</div>
+                <div className="metric-value">{answers.length}</div>
+              </div>
+              <div className="card metric-card">
+                <div className="metric-label">מכיל תשובת ייחוס</div>
+                <div className="metric-value">
+                  {((answers.filter(a => a.contains_reference_answer).length / answers.length) * 100).toFixed(0)}%
+                </div>
+              </div>
+              <div className="card metric-card">
+                <div className="metric-label">כולל מקורות</div>
+                <div className="metric-value">
+                  {((answers.filter(a => a.has_sources).length / answers.length) * 100).toFixed(0)}%
+                </div>
+              </div>
+            </div>
+
+            <div className="eval-table-container">
+              <table className="eval-table">
+                <thead>
+                  <tr>
+                    <th>שאלה</th>
+                    <th>תשובת ייחוס</th>
+                    <th>תשובה שנוצרה</th>
+                    <th>מקורות</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {answers.map((a, i) => (
+                    <tr key={i}>
+                      <td>{a.question}</td>
+                      <td>{a.reference_answer}</td>
+                      <td style={{ fontSize: '0.8rem' }}>{a.generated_answer}</td>
+                      <td style={{ fontSize: '0.7rem' }}>{a.sources.join(', ')}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p style={{ fontSize: '0.8rem', color: '#64748b', marginTop: '1rem' }}>
+              <Info size={14} style={{ verticalAlign: 'middle', marginLeft: '4px' }} />
+              ניתן למלא הערכה ידנית מעמיקה בקובץ: <code className="ltr">eval/results/manual_eval_template.csv</code>
+            </p>
+          </>
+        ) : (
+          <div style={{ padding: '2rem', textAlign: 'center', color: '#94a3b8' }}>
+            עדיין לא הורצה הערכת תשובות. הרץ:
+            <code className="ltr" style={{ display: 'block', marginTop: '0.5rem' }}>
+              python3 eval/run_eval.py --strategy {selectedStrategy} --include-generation --limit 10
+            </code>
+          </div>
+        )}
+      </div>
+
+      {/* 5. Ablation Section (Placeholder for now) */}
       <div className="card">
         <h3>ניסויי Ablation (רכיבים מנוטרלים)</h3>
         <p style={{ fontSize: '0.85rem', color: '#64748b' }}>

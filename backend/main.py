@@ -8,7 +8,8 @@ load_dotenv()
 
 from .schemas import (
     AskRequest, AskResponse, LoginRequest, Token, ConfigResponse, 
-    CompareRequest, CompareResponse, EvalSummaryResponse, EvalQuestionsResponse
+    CompareRequest, CompareResponse, EvalSummaryResponse, EvalQuestionsResponse,
+    EvalAnswersResponse
 )
 from .auth import create_access_token, get_current_user, verify_password
 import time
@@ -169,6 +170,20 @@ async def get_eval_questions(strategy: str = "hybrid", user_id: str = Depends(ge
                 "retrieved_refs": r["retrieved_refs"],
                 "expected": None # We could load from gold_set if needed
             })
+        return {"results": results}
+
+@app.get("/api/eval/answers", response_model=EvalAnswersResponse)
+async def get_eval_answers(strategy: str = "hybrid", user_id: str = Depends(get_current_user)):
+    file_path = EVAL_RESULTS_DIR / f"answer_eval_{strategy}.json"
+    
+    if not file_path.exists():
+        raise HTTPException(
+            status_code=404, 
+            detail=f"Answer evaluation results for {strategy} not found. Run eval with --include-generation."
+        )
+        
+    with open(file_path, 'r', encoding='utf-8') as f:
+        results = json.load(f)
         return {"results": results}
 
 if __name__ == "__main__":
