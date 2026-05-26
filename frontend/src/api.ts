@@ -41,6 +41,48 @@ export interface AskResponse {
   debug?: DebugInfo;
 }
 
+export interface StrategyMetrics {
+  strategy: string;
+  questions_count: number;
+  hit_at_1: number;
+  hit_at_3: number;
+  hit_at_5: number;
+  recall_at_5: number;
+  mrr: number;
+}
+
+export interface EvalSummaryResponse {
+  strategies: Record<string, StrategyMetrics>;
+}
+
+export interface QuestionEvalResult {
+  question: string;
+  strategy: string;
+  relevant_found: boolean;
+  first_relevant_rank?: number;
+  hit_at_1: boolean;
+  hit_at_3: boolean;
+  hit_at_5: boolean;
+  recall_at_5: number;
+  mrr: number;
+  retrieved_refs: string[];
+  expected?: any;
+}
+
+export interface EvalQuestionsResponse {
+  results: QuestionEvalResult[];
+}
+
+export const getEvalSummary = async (): Promise<EvalSummaryResponse> => {
+  const response = await api.get('/api/eval/summary');
+  return response.data;
+};
+
+export const getEvalQuestions = async (strategy = 'hybrid'): Promise<EvalQuestionsResponse> => {
+  const response = await api.get(`/api/eval/questions?strategy=${strategy}`);
+  return response.data;
+};
+
 export interface CompareResponse {
   question: string;
   results: Record<string, AskResponse>;

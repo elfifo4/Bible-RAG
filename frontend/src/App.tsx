@@ -2,10 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { Eye, EyeOff, Github, GraduationCap, X, Loader2 } from 'lucide-react';
 import * as api from './api';
 import { RETRIEVAL_STRATEGIES, COMPARISON_EXAMPLES } from './constants';
+import EvaluationDashboard from './components/EvaluationDashboard';
 import './styles.css';
 
 function App() {
   const [isAuth, setIsAuth] = useState(api.isAuthenticated());
+  const [currentView, setCurrentView] = useState<'qa' | 'eval'>('qa');
   const [password, setPassword] = useState('');
   const [question, setQuestion] = useState('');
   const [strategy, setStrategy] = useState('hybrid');
@@ -108,188 +110,212 @@ function App() {
 
   return (
     <div className="container rtl">
-      <div className="card">
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <h1 className="title">תנ״ך RAG</h1>
-          <div style={{ display: 'flex', gap: '10px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
+        <h1 className="title" style={{ margin: 0 }}>תנ״ך RAG</h1>
+        <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+          <div className="view-switcher">
+            <button
+              onClick={() => setCurrentView('qa')}
+              className={currentView === 'qa' ? 'active' : ''}
+            >
+              שאלות ותשובות
+            </button>
+            <button
+              onClick={() => setCurrentView('eval')}
+              className={currentView === 'eval' ? 'active' : ''}
+            >
+              מדידת ביצועים
+            </button>
+          </div>
+          {currentView === 'qa' && (
             <button
               onClick={() => setIsCompareMode(!isCompareMode)}
               style={{ background: isCompareMode ? '#10b981' : '#94a3b8', fontSize: '0.85rem' }}
             >
               {isCompareMode ? 'מצב השוואה פעיל' : 'הפעל מצב השוואה'}
             </button>
-            <button onClick={handleLogout} style={{ background: '#64748b', fontSize: '0.85rem' }}>התנתק</button>
-          </div>
+          )}
+          <button onClick={handleLogout} style={{ background: '#64748b', fontSize: '0.85rem' }}>התנתק</button>
         </div>
-        <p className="subtitle">
-          מערכת שאלות ותשובות מבוססת{' '}
-          <a
-            href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rag-link"
-          >
-            RAG
-          </a>{' '}
-          על התנ״ך
-        </p>
-        <div className="examples-row rtl">
-          <span style={{ fontSize: '0.85rem', color: '#64748b' }}>נסה דוגמה:</span>
-          {COMPARISON_EXAMPLES.map((ex, i) => (
-            <button
-              key={i}
-              onClick={() => handleExampleClick(ex.q)}
-              className="example-chip"
-            >
-              {ex.label}
-            </button>
-          ))}
-        </div>
+      </div>
 
-        <form onSubmit={handleAsk} className="input-group-vertical">
-          {!isCompareMode && (
-            <div className="strategy-info-box rtl">
-              <label style={{ fontSize: '0.8rem', fontWeight: 'bold', display: 'block', marginBottom: '12px' }}>אסטרטגיית חיפוש:</label>
-              <div className="strategy-radio-group-horizontal">
-                {RETRIEVAL_STRATEGIES.map(s => (
-                  <label key={s.value} className={`strategy-radio-label ${strategy === s.value ? 'active' : ''}`}>
-                    <input
-                      type="radio"
-                      name="strategy"
-                      value={s.value}
-                      checked={strategy === s.value}
-                      onChange={(e) => setStrategy(e.target.value)}
-                      disabled={loading}
-                    />
-                    {s.label}
-                  </label>
-                ))}
-              </div>
+      {currentView === 'qa' ? (
+        <>
+          <div className="card">
+            <p className="subtitle">
+              מערכת שאלות ותשובות מבוססת{' '}
+              <a
+                href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rag-link"
+              >
+                RAG
+              </a>{' '}
+              על התנ״ך
+            </p>
 
-              <div className="strategy-description-bottom">
-                <strong>{selectedStrategyInfo?.description}</strong>
-                <div className="strategy-pro-con">
-                  <div style={{ color: '#475569' }}>
-                    <span style={{ color: '#16a34a', fontWeight: 'bold' }}>● יתרונות:</span> {selectedStrategyInfo?.strengths}
+            <div className="examples-row rtl">
+              <span style={{ fontSize: '0.85rem', color: '#64748b' }}>נסה דוגמה:</span>
+              {COMPARISON_EXAMPLES.map((ex, i) => (
+                <button
+                  key={i}
+                  onClick={() => handleExampleClick(ex.q)}
+                  className="example-chip"
+                >
+                  {ex.label}
+                </button>
+              ))}
+            </div>
+
+            <form onSubmit={handleAsk} className="input-group-vertical">
+              {!isCompareMode && (
+                <div className="strategy-info-box rtl">
+                  <label style={{ fontSize: '0.8rem', fontWeight: 'bold', display: 'block', marginBottom: '12px' }}>אסטרטגיית חיפוש:</label>
+                  <div className="strategy-radio-group-horizontal">
+                    {RETRIEVAL_STRATEGIES.map(s => (
+                      <label key={s.value} className={`strategy-radio-label ${strategy === s.value ? 'active' : ''}`}>
+                        <input
+                          type="radio"
+                          name="strategy"
+                          value={s.value}
+                          checked={strategy === s.value}
+                          onChange={(e) => setStrategy(e.target.value)}
+                          disabled={loading}
+                        />
+                        {s.label}
+                      </label>
+                    ))}
                   </div>
-                  <div style={{ color: '#475569' }}>
-                    <span style={{ color: '#dc2626', fontWeight: 'bold' }}>● חסרונות:</span> {selectedStrategyInfo?.weaknesses}
+
+                  <div className="strategy-description-bottom">
+                    <strong>{selectedStrategyInfo?.description}</strong>
+                    <div className="strategy-pro-con">
+                      <div style={{ color: '#475569' }}>
+                        <span style={{ color: '#16a34a', fontWeight: 'bold' }}>● יתרונות:</span> {selectedStrategyInfo?.strengths}
+                      </div>
+                      <div style={{ color: '#475569' }}>
+                        <span style={{ color: '#dc2626', fontWeight: 'bold' }}>● חסרונות:</span> {selectedStrategyInfo?.weaknesses}
+                      </div>
+                    </div>
                   </div>
                 </div>
+              )}
+
+              <div className="input-group">
+                <div style={{ position: 'relative', flex: 1, display: 'flex' }}>
+                  <input
+                    type="text"
+                    placeholder={isCompareMode ? "השוואת אסטרטגיות על השאלה..." : "שאל שאלה על התנ״ך..."}
+                    value={question}
+                    onChange={(e) => setQuestion(e.target.value)}
+                    disabled={loading}
+                    autoFocus
+                    style={{ width: '100%', paddingLeft: question ? '2.5rem' : '1rem' }}
+                  />
+                  {question && !loading && (
+                    <button
+                      type="button"
+                      onClick={() => setQuestion('')}
+                      className="clear-button"
+                      title="נקה שאלה"
+                    >
+                      <X size={18} />
+                    </button>
+                  )}
+                </div>
+                <button type="submit" disabled={loading || !question.trim()} style={{ background: isCompareMode ? '#10b981' : '#2563eb' }}>
+                  {loading ? 'מריץ...' : isCompareMode ? 'השווה' : 'שאל'}
+                </button>
+              </div>
+            </form>
+            {error && <div className="error" style={{ marginTop: '1rem' }}>{error}</div>}
+          </div>
+
+          {loading && (
+            <div className="loading">
+              <Loader2 className="spinner" size={32} style={{ marginBottom: '1rem' }} />
+              <div>
+                {isCompareMode ? 'מריץ שלוש אסטרטגיות חיפוש במקביל...' : 'מחפש במקורות ומייצר תשובה...'}
               </div>
             </div>
           )}
 
-          <div className="input-group">
-            <div style={{ position: 'relative', flex: 1, display: 'flex' }}>
-              <input
-                type="text"
-                placeholder={isCompareMode ? "השוואת אסטרטגיות על השאלה..." : "שאל שאלה על התנ״ך..."}
-                value={question}
-                onChange={(e) => setQuestion(e.target.value)}
-                disabled={loading}
-                autoFocus
-                style={{ width: '100%', paddingLeft: question ? '2.5rem' : '1rem' }}
-              />
-              {question && !loading && (
-                <button
-                  type="button"
-                  onClick={() => setQuestion('')}
-                  className="clear-button"
-                  title="נקה שאלה"
-                >
-                  <X size={18} />
-                </button>
-              )}
-            </div>
-            <button type="submit" disabled={loading || !question.trim()} style={{ background: isCompareMode ? '#10b981' : '#2563eb' }}>
-              {loading ? 'מריץ...' : isCompareMode ? 'השווה' : 'שאל'}
-            </button>
-          </div>
-        </form>
-        {error && <div className="error" style={{ marginTop: '1rem' }}>{error}</div>}
-      </div>
-
-      {loading && (
-        <div className="loading">
-          <Loader2 className="spinner" size={32} style={{ marginBottom: '1rem' }} />
-          <div>
-            {isCompareMode ? 'מריץ שלוש אסטרטגיות חיפוש במקביל...' : 'מחפש במקורות ומייצר תשובה...'}
-          </div>
-        </div>
-      )}
-
-      {compareResult && (
-        <div className="compare-grid rtl">
-          {Object.entries(compareResult.results).map(([stratKey, stratRes]) => {
-            const info = RETRIEVAL_STRATEGIES.find(s => s.value === stratKey);
-            return (
-              <div key={stratKey} className="compare-column">
-                <div className="compare-header">
-                  <h3>{info?.label}</h3>
-                  <div style={{ fontSize: '0.75rem', opacity: 0.8 }}>{info?.description}</div>
-                </div>
-
-                <div className="card" style={{ padding: '1rem', borderTop: '4px solid #3b82f6' }}>
-                  <h4 style={{ margin: '0 0 10px 0' }}>תשובה</h4>
-                  <div className="answer-text" style={{ fontSize: '0.95rem' }}>{stratRes.answer}</div>
-                </div>
-
-                <h4 style={{ marginBottom: '10px' }}>מקורות מובילים:</h4>
-                {stratRes.context.slice(0, 3).map((source, idx) => (
-                  <div key={idx} className="card source-card-mini">
-                    <div className="source-ref-mini">
-                      {source.metadata.ref}
-                      <span className="score-badge-mini">Score: {source.score.toFixed(3)}</span>
+          {compareResult && (
+            <div className="compare-grid rtl">
+              {Object.entries(compareResult.results).map(([stratKey, stratRes]) => {
+                const info = RETRIEVAL_STRATEGIES.find(s => s.value === stratKey);
+                return (
+                  <div key={stratKey} className="compare-column">
+                    <div className="compare-header">
+                      <h3>{info?.label}</h3>
+                      <div style={{ fontSize: '0.75rem', opacity: 0.8 }}>{info?.description}</div>
                     </div>
-                    <div className="source-text-mini">{source.display_text.slice(0, 150)}...</div>
+
+                    <div className="card" style={{ padding: '1rem', borderTop: '4px solid #3b82f6' }}>
+                      <h4 style={{ margin: '0 0 10px 0' }}>תשובה</h4>
+                      <div className="answer-text" style={{ fontSize: '0.95rem' }}>{stratRes.answer}</div>
+                    </div>
+
+                    <h4 style={{ marginBottom: '10px' }}>מקורות מובילים:</h4>
+                    {stratRes.retrieved_chunks.slice(0, 3).map((source, idx) => (
+                      <div key={idx} className="card source-card-mini">
+                        <div className="source-ref-mini">
+                          {source.metadata.ref}
+                          <span className="score-badge-mini">Score: {source.score.toFixed(3)}</span>
+                        </div>
+                        <div className="source-text-mini">{source.display_text.slice(0, 150)}...</div>
+                      </div>
+                    ))}
                   </div>
-                ))}
-              </div>
-            );
-          })}
-        </div>
-      )}
-
-      {result && !isCompareMode && (
-        <>
-          <div className="card">
-            <h2 className="rtl">תשובה</h2>
-            <div className="answer-text rtl">{result.answer}</div>
-          </div>
-
-          <h3 className="rtl">מקורות שצוטטו</h3>
-          {result.context.map((source, idx) => (
-            <div key={idx} className="card source-card rtl">
-              <div className="source-ref">
-                {source.metadata.ref} <span className="ltr">({source.metadata.ref_en})</span>
-                <div className="scores-container">
-                  <span className="score-badge">Final: {source.score.toFixed(3)}</span>
-                  {source.dense_score !== undefined && <span className="score-badge semantic">Semantic: {source.dense_score.toFixed(3)}</span>}
-                  {source.lexical_score !== undefined && <span className="score-badge lexical">Lexical: {source.lexical_score.toFixed(3)}</span>}
-                </div>
-              </div>
-              <div className="source-text">{source.display_text}</div>
-              <div className="source-meta">Chunk ID: {source.chunk_id} | Type: {source.metadata.chunk_type}</div>
+                );
+              })}
             </div>
-          ))}
+          )}
 
-          <button
-            onClick={() => setShowDebug(!showDebug)}
-            style={{ background: '#94a3b8', marginTop: '1rem' }}
-          >
-            {showDebug ? 'הסתר מידע טכני' : 'הצג מידע טכני'}
-          </button>
+          {result && !isCompareMode && (
+            <>
+              <div className="card">
+                <h2 className="rtl">תשובה</h2>
+                <div className="answer-text rtl">{result.answer}</div>
+              </div>
 
-          <div className={`debug-panel ltr ${showDebug && result.debug ? 'visible' : ''}`}>
-            {result.debug && (
-              <>
-                <pre>{JSON.stringify(result.debug, null, 2)}</pre>
-                <pre>Question: {result.question}</pre>
-              </>
-            )}
-          </div>
+              <h3 className="rtl">מקורות שצוטטו</h3>
+              {result.retrieved_chunks.map((source, idx) => (
+                <div key={idx} className="card source-card rtl">
+                  <div className="source-ref">
+                    {source.metadata.ref} <span className="ltr">({source.metadata.ref_en})</span>
+                    <div className="scores-container">
+                      <span className="score-badge">Final: {source.score.toFixed(3)}</span>
+                      {source.dense_score !== undefined && <span className="score-badge semantic">Semantic: {source.dense_score.toFixed(3)}</span>}
+                      {source.lexical_score !== undefined && <span className="score-badge lexical">Lexical: {source.lexical_score.toFixed(3)}</span>}
+                    </div>
+                  </div>
+                  <div className="source-text">{source.display_text}</div>
+                  <div className="source-meta">Chunk ID: {source.chunk_id} | Type: {source.metadata.chunk_type}</div>
+                </div>
+              ))}
+
+              <button
+                onClick={() => setShowDebug(!showDebug)}
+                style={{ background: '#94a3b8', marginTop: '1rem' }}
+              >
+                {showDebug ? 'הסתר מידע טכני' : 'הצג מידע טכני'}
+              </button>
+
+              <div className={`debug-panel ltr ${showDebug && result.debug ? 'visible' : ''}`}>
+                {result.debug && (
+                  <>
+                    <pre>{JSON.stringify(result.debug, null, 2)}</pre>
+                    <pre>Question: {result.question}</pre>
+                  </>
+                )}
+              </div>
+            </>
+          )}
         </>
+      ) : (
+        <EvaluationDashboard />
       )}
 
       <div style={{ marginTop: '3rem', borderTop: '1px solid #e2e8f0', paddingTop: '1.5rem' }}>

@@ -221,7 +221,7 @@ input, button, select, textarea, option {
   left: 0.5rem;
   top: 50%;
   transform: translateY(-50%);
-  background: none !important;
+  background: transparent !important;
   border: none !important;
   color: #64748b !important;
   padding: 0.25rem !important;
@@ -229,11 +229,14 @@ input, button, select, textarea, option {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  z-index: 10;
+  width: auto !important;
+  height: auto !important;
 }
 
 .clear-button:hover {
   color: #1e293b !important;
-  background: none !important;
+  background: rgba(0, 0, 0, 0.05) !important;
 }
 
 .examples-row {
@@ -369,6 +372,94 @@ input, button, select, textarea, option {
 
 .footer-text-lines p {
   margin: 4px 0;
+}
+
+.footer-text-lines p {
+  margin: 4px 0;
+}
+
+.view-switcher {
+  display: flex;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 0.5rem;
+  padding: 2px;
+  gap: 2px;
+}
+
+.view-switcher button {
+  background: transparent;
+  color: #64748b;
+  font-size: 0.85rem;
+  padding: 0.4rem 1rem;
+  border-radius: 0.4rem;
+  width: auto;
+}
+
+.view-switcher button.active {
+  background: white;
+  color: #2563eb;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.metric-card {
+  padding: 1.25rem !important;
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+
+.metric-label {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-bottom: 0.5rem;
+}
+
+.metric-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.eval-table-container {
+  overflow-x: auto;
+}
+
+.eval-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.eval-table th {
+  text-align: right;
+  padding: 0.75rem;
+  border-bottom: 2px solid #e2e8f0;
+  color: #64748b;
+}
+
+.eval-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.row-success { background: rgba(220, 252, 231, 0.2); }
+.row-failure { background: rgba(254, 242, 242, 0.2); }
+
+.text-success { color: #16a34a; }
+.text-failure { color: #dc2626; }
+
+.strategy-select-mini {
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  background: white;
+  font-size: 0.8rem;
 }
 
 input[type="text"], input[type="password"] {

@@ -6,11 +6,19 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from .schemas import AskRequest, AskResponse, LoginRequest, Token, ConfigResponse, CompareRequest, CompareResponse
+from .schemas import (
+    AskRequest, AskResponse, LoginRequest, Token, ConfigResponse, 
+    CompareRequest, CompareResponse, EvalSummaryResponse, EvalQuestionsResponse
+)
 from .auth import create_access_token, get_current_user, verify_password
 import time
+import json
+from pathlib import Path
 from src.rag_system import BibleRAG
-from src.config import TOP_K, CHUNK_STRATEGY
+from src.config import TOP_K, CHUNK_STRATEGY, PROJECT_ROOT
+
+# Evaluation Results Path
+EVAL_RESULTS_DIR = PROJECT_ROOT / "eval" / "results"
 
 # Global instance
 rag_app = {}
@@ -105,6 +113,63 @@ async def compare(request: CompareRequest, user_id: str = Depends(get_current_us
     except Exception as e:
         print(f"Error in compare: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/eval/summary", response_model=EvalSummaryResponse)
+async def get_eval_summary(user_id: str = Depends(get_current_user)):
+    strategies = ["hybrid", "dense_only", "lexical_only"]
+    summary = {}
+    
+    for strategy in strategies:
+        file_path = EVAL_RESULTS_DIR / f"retrieval_eval_{strategy}.json"
+        if file_path.exists():
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                summary[strategy] = {
+                    "strategy": strategy,
+                    "questions_count": data["summary"]["questions_count"],
+                    "hit_at_1": data["summary"]["hit@1"],
+                    "hit_at_3": data["summary"]["hit@3"],
+                    "hit_at_5": data["summary"]["hit@5"],
+                    "recall_at_5": data["summary"]["recall@5"],
+                    "mrr": data["summary"]["mrr"]
+                }
+    
+    if not summary:
+        raise HTTPException(
+            status_code=404, 
+            detail="No evaluation results found. Please run 'python eval/run_eval.py' first."
+        )
+    
+    return {"strategies": summary}
+
+@app.get("/api/eval/questions", response_model=EvalQuestionsResponse)
+async def get_eval_questions(strategy: str = "hybrid", user_id: str = Depends(get_current_user)):
+    file_path = EVAL_RESULTS_DIR / f"retrieval_eval_{strategy}.json"
+    
+    if not file_path.exists():
+        raise HTTPException(
+            status_code=404, 
+            detail=f"Evaluation results for {strategy} not found."
+        )
+        
+    with open(file_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        results = []
+        for r in data["detailed_results"]:
+            results.append({
+                "question": r["question"],
+                "strategy": strategy,
+                "relevant_found": r["relevant_found"],
+                "first_relevant_rank": r.get("first_relevant_rank"),
+                "hit_at_1": r.get("hit@1", False),
+                "hit_at_3": r.get("hit@3", False),
+                "hit_at_5": r.get("hit@5", False),
+                "recall_at_5": r.get("recall@5", 0.0),
+                "mrr": r.get("mrr", 0.0),
+                "retrieved_refs": r["retrieved_refs"],
+                "expected": None # We could load from gold_set if needed
+            })
+        return {"results": results}
 
 if __name__ == "__main__":
     import uvicorn

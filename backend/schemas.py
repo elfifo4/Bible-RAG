@@ -74,3 +74,31 @@ class ConfigResponse(BaseModel):
     available_chunk_strategies: List[str]
     default_top_k: int
     supported_languages: List[str]
+
+class StrategyMetrics(BaseModel):
+    strategy: str
+    questions_count: int
+    hit_at_1: float
+    hit_at_3: float
+    hit_at_5: float
+    recall_at_5: float
+    mrr: float
+
+class EvalSummaryResponse(BaseModel):
+    strategies: Dict[str, StrategyMetrics]
+
+class QuestionEvalResult(BaseModel):
+    question: str
+    strategy: str
+    relevant_found: bool
+    first_relevant_rank: Optional[int]
+    hit_at_1: bool
+    hit_at_3: bool
+    hit_at_5: bool
+    recall_at_5: float
+    mrr: float
+    retrieved_refs: List[str]
+    expected: Optional[Dict[str, Any]]
+
+class EvalQuestionsResponse(BaseModel):
+    results: List[QuestionEvalResult]
