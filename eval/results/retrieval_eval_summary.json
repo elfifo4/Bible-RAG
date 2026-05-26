@@ -1,0 +1,31 @@
+{
+  "strategies": {
+    "hybrid": {
+      "strategy": "hybrid",
+      "questions_count": 50,
+      "hit@1": 0.1,
+      "hit@3": 0.12,
+      "hit@5": 0.16,
+      "recall@5": 0.16,
+      "mrr": 0.11566666666666667
+    },
+    "dense_only": {
+      "strategy": "dense_only",
+      "questions_count": 50,
+      "hit@1": 0.06,
+      "hit@3": 0.08,
+      "hit@5": 0.1,
+      "recall@5": 0.1,
+      "mrr": 0.07066666666666667
+    },
+    "lexical_only": {
+      "strategy": "lexical_only",
+      "questions_count": 50,
+      "hit@1": 0.08,
+      "hit@3": 0.1,
+      "hit@5": 0.14,
+      "recall@5": 0.14,
+      "mrr": 0.09466666666666666
+    }
+  }
+}

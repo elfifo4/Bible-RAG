@@ -2,7 +2,7 @@ import json
 import argparse
 import logging
 from pathlib import Path
-from typing import List, Dict, Any, Set
+from typing import List, Dict, Any, Set, Optional
 import numpy as np
 
 # Adjust path to import from src
@@ -23,6 +23,8 @@ RESULTS_DIR = Path(__file__).parent / "results"
 
 def load_gold_set(path: Path) -> List[Dict[str, Any]]:
     gold_set = []
+    if not path.exists():
+        return []
     with open(path, 'r', encoding='utf-8') as f:
         for line in f:
             if line.strip():
@@ -72,18 +74,27 @@ def is_chunk_relevant(chunk: Dict[str, Any], gold_item: Dict[str, Any]) -> bool:
         
     return book_match and chapter_match
 
-def run_evaluation(strategy: str, top_k: int, verbose: bool):
-    logger.info(f"Starting Retrieval Evaluation (Strategy: {strategy}, Top-K: {top_k})")
-    
-    if not GOLD_SET_PATH.exists():
-        logger.error(f"Gold set not found at {GOLD_SET_PATH}")
-        return
+def run_evaluation(
+    strategy: str, 
+    top_k: int = 5, 
+    verbose: bool = False, 
+    retriever: Optional[VectorRetriever] = None,
+    gold_set: Optional[List[Dict[str, Any]]] = None
+) -> Dict[str, Any]:
+    if gold_set is None:
+        if not GOLD_SET_PATH.exists():
+            logger.error(f"Gold set not found at {GOLD_SET_PATH}")
+            return {}
+        gold_set = load_gold_set(GOLD_SET_PATH)
 
-    gold_set = load_gold_set(GOLD_SET_PATH)
-    logger.info(f"Loaded {len(gold_set)} questions from gold set.")
+    logger.info(f"\n" + "="*50)
+    logger.info(f" RETRIEVAL EVALUATION — {strategy.upper()}")
+    logger.info("="*50)
+    logger.info(f"Questions: {len(gold_set)} | Strategy: {strategy} | Top-K: {top_k}")
 
-    # Initialize Retriever once
-    retriever = VectorRetriever()
+    # Initialize Retriever once if not provided
+    if retriever is None:
+        retriever = VectorRetriever()
     
     results = []
     all_metrics = {
@@ -101,7 +112,7 @@ def run_evaluation(strategy: str, top_k: int, verbose: bool):
         # Determine which of the retrieved chunks are actually relevant
         relevant_indices = [i for i, chunk in enumerate(retrieved_chunks) if is_chunk_relevant(chunk, item)]
         
-        # For metrics, we need a unique identifier list and a set of relevant identifiers
+        # identifiers for metrics
         retrieved_ids = list(range(len(retrieved_chunks)))
         relevant_ids_set = set(relevant_indices)
         
@@ -139,9 +150,6 @@ def run_evaluation(strategy: str, top_k: int, verbose: bool):
             status = "✓" if found else "✗"
             rank_str = f" (Rank: {first_rank})" if found else ""
             logger.info(f"[{idx+1}] {status} {question}{rank_str}")
-            if not found:
-                logger.info(f"    Expected: {item.get('metadata')}")
-                logger.info(f"    Top retrieved: {q_result['retrieved_refs'][0] if q_result['retrieved_refs'] else 'None'}")
 
     # Summary
     summary = {
@@ -154,30 +162,76 @@ def run_evaluation(strategy: str, top_k: int, verbose: bool):
         "mrr": float(np.mean(all_metrics["mrr"]))
     }
 
-    # Save Results
+    # Save Individual Results
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     output_path = RESULTS_DIR / f"retrieval_eval_{strategy}.json"
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump({"summary": summary, "detailed_results": results}, f, ensure_ascii=False, indent=2)
 
-    # Print Table
-    print("\n" + "="*40)
-    print(f" RETRIEVAL EVALUATION — {strategy.upper()}")
-    print("="*40)
-    print(f"Questions evaluated: {summary['questions_count']}")
+    # Print Summary Table
+    print("\nResults Summary:")
     print(f"Hit@1:    {summary['hit@1']:.3f}")
     print(f"Hit@3:    {summary['hit@3']:.3f}")
     print(f"Hit@5:    {summary['hit@5']:.3f}")
     print(f"Recall@5: {summary['recall@5']:.3f}")
     print(f"MRR:      {summary['mrr']:.3f}")
-    print("="*40)
-    print(f"Full results saved to: {output_path}\n")
+    print(f"Saved to: {output_path}")
+
+    return summary
+
+def run_all_evaluations(top_k: int, verbose: bool):
+    logger.info("Starting All Retrieval Evaluations...")
+    gold_set = load_gold_set(GOLD_SET_PATH)
+    if not gold_set:
+        logger.error(f"Gold set empty or missing at {GOLD_SET_PATH}")
+        return
+
+    # Load retriever once
+    retriever = VectorRetriever()
+    
+    strategies = ["hybrid", "dense_only", "lexical_only"]
+    all_summaries = {}
+
+    for strat in strategies:
+        summary = run_evaluation(
+            strategy=strat, 
+            top_k=top_k, 
+            verbose=verbose, 
+            retriever=retriever, 
+            gold_set=gold_set
+        )
+        all_summaries[strat] = summary
+
+    # Save Combined Summary
+    summary_path = RESULTS_DIR / "retrieval_eval_summary.json"
+    with open(summary_path, 'w', encoding='utf-8') as f:
+        json.dump({"strategies": all_summaries}, f, ensure_ascii=False, indent=2)
+
+    # Final Comparison Table
+    print("\n" + "="*60)
+    print(" FINAL COMPARISON SUMMARY")
+    print("="*60)
+    print(f"{'Strategy':<15} {'Hit@1':<8} {'Hit@3':<8} {'Hit@5':<8} {'MRR':<8}")
+    print("-" * 60)
+    for strat, s in all_summaries.items():
+        print(f"{strat:<15} {s['hit@1']:<8.3f} {s['hit@3']:<8.3f} {s['hit@5']:<8.3f} {s['mrr']:<8.3f}")
+    print("="*60)
+    print(f"Combined summary saved to: {summary_path}\n")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate Bible-RAG Retrieval Performance")
-    parser.add_argument("--strategy", default="hybrid", choices=["hybrid", "dense_only", "lexical_only"], help="Retrieval strategy to evaluate")
+    parser.add_argument(
+        "--strategy", 
+        default="hybrid", 
+        choices=["hybrid", "dense_only", "lexical_only", "all"], 
+        help="Retrieval strategy to evaluate"
+    )
     parser.add_argument("--top-k", type=int, default=5, help="Top K results to consider")
     parser.add_argument("--verbose", action="store_true", help="Print per-question status")
     
     args = parser.parse_args()
-    run_evaluation(args.strategy, args.top_k, args.verbose)
+    
+    if args.strategy == "all":
+        run_all_evaluations(args.top_k, args.verbose)
+    else:
+        run_evaluation(args.strategy, args.top_k, args.verbose)
