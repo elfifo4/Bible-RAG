@@ -57,8 +57,8 @@ The following table summarizes the retrieval performance of the baseline strateg
 
 | Strategy | Hit@1 | Hit@3 | Hit@5 | MRR |
 |---|---:|---:|---:|---:|
-| hybrid | 0.100 | 0.120 | 0.160 | 0.116 |
-| dense_only | 0.060 | 0.080 | 0.100 | 0.071 |
+| hybrid | 0.100 | 0.120 | 0.140 | 0.112 |
+| dense_only | 0.060 | 0.080 | 0.080 | 0.067 |
 | lexical_only | 0.080 | 0.100 | 0.140 | 0.095 |
 
 
@@ -70,17 +70,17 @@ We conducted ablation experiments to measure the impact of different retrieval a
 
 | Variant | Hit@1 | Hit@3 | Hit@5 | MRR |
 |---|---:|---:|---:|---:|
-| hybrid | 0.100 | 0.120 | 0.160 | 0.116 |
-| dense_only | 0.060 | 0.080 | 0.100 | 0.071 |
+| hybrid | 0.100 | 0.120 | 0.140 | 0.112 |
+| dense_only | 0.060 | 0.080 | 0.080 | 0.067 |
 | lexical_only | 0.080 | 0.100 | 0.140 | 0.095 |
 
 ### Top-K Ablation (Strategy: Hybrid)
 
 | Top-K | Hit@1 | Hit@3 | Hit@5 | MRR |
 |---|---:|---:|---:|---:|
-| 3 | 0.100 | 0.120 | 0.160 | 0.116 |
-| 5 | 0.100 | 0.120 | 0.160 | 0.116 |
-| 10 | 0.100 | 0.120 | 0.160 | 0.125 |
+| 3 | 0.100 | 0.120 | 0.140 | 0.112 |
+| 5 | 0.100 | 0.120 | 0.140 | 0.112 |
+| 10 | 0.100 | 0.120 | 0.140 | 0.116 |
 
 
 ## 9. Failure Analysis

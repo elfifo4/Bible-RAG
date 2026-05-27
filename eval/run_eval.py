@@ -2,6 +2,8 @@ import json
 import argparse
 import logging
 import csv
+import time
+from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Any, Set, Optional
 import numpy as np
@@ -295,8 +297,15 @@ def run_all_evaluations(top_k: int, verbose: bool):
         summary = run_retrieval_evaluation(strat, top_k, verbose, retriever, gold_set)
         all_summaries[strat] = summary
 
-    with open(RESULTS_DIR / "retrieval_eval_summary.json", 'w', encoding='utf-8') as f:
-        json.dump({"strategies": all_summaries}, f, ensure_ascii=False, indent=2)
+    summary_path = RESULTS_DIR / "retrieval_eval_summary.json"
+    with open(summary_path, 'w', encoding='utf-8') as f:
+        json.dump({
+            "strategies": all_summaries,
+            "metadata": {
+                "last_run": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "total_questions": len(gold_set)
+            }
+        }, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate Bible-RAG Performance")

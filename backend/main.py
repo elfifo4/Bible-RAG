@@ -47,7 +47,12 @@ app.add_middleware(
 
 @app.get("/health")
 async def health():
-    return {"status": "ok"}
+    rag_loaded = "rag" in rag_app
+    return {
+        "status": "ok",
+        "rag_engine": "initialized" if rag_loaded else "loading",
+        "index_ready": rag_app["rag"].retriever.index is not None if rag_loaded else False
+    }
 
 @app.post("/api/login", response_model=Token)
 async def login(request: LoginRequest):

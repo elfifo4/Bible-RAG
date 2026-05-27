@@ -5,9 +5,9 @@
     "top_k": 5,
     "hit_at_1": 0.1,
     "hit_at_3": 0.12,
-    "hit_at_5": 0.16,
-    "recall_at_k": 0.16,
-    "mrr": 0.11566666666666667
+    "hit_at_5": 0.14,
+    "recall_at_k": 0.14,
+    "mrr": 0.11166666666666666
   },
   "detailed_results": [
     {
@@ -21,11 +21,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "Jeremiah 49:1",
         "Judges 8:18",
+        "Jeremiah 49:1",
         "Numbers 9:7",
-        "Jeremiah 2:5",
-        "1 Kings 11:2"
+        "Ezekiel 33:20",
+        "2 Kings 8:12"
       ]
     },
     {
@@ -40,8 +40,8 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "2 Kings 1:7",
-        "Malachi 2:14",
         "Genesis 3:11",
+        "Malachi 2:14",
         "Genesis 44:7",
         "Genesis 20:10"
       ]
@@ -58,10 +58,10 @@
       "mrr": 1.0,
       "retrieved_refs": [
         "1 Samuel 6:1",
-        "1 Samuel 6:18",
         "1 Samuel 4:1-5",
+        "1 Samuel 5:7-11",
         "1 Samuel 5:1",
-        "1 Samuel 5:7-11"
+        "1 Samuel 6:1-5"
       ]
     },
     {
@@ -75,11 +75,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "Zechariah 4:4",
-        "Zechariah 6:4",
         "1 Kings 2:14",
-        "Deuteronomy 18:17",
-        "Job 7:13"
+        "Genesis 30:28",
+        "Job 28:14",
+        "Job 23:5",
+        "Zechariah 1:9"
       ]
     },
     {
@@ -94,10 +94,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Numbers 1:54",
+        "Joshua 14:5",
         "Exodus 39:42",
-        "Joel 4:16-20",
-        "Isaiah 28:13-17",
-        "Exodus 16:1-5"
+        "Exodus 12:28",
+        "Joel 4:16-20"
       ]
     },
     {
@@ -111,11 +111,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "Isaiah 38:15",
-        "Ecclesiastes 3:18",
         "2 Samuel 14:13",
-        "1 Samuel 28:9",
-        "Deuteronomy 4:8"
+        "Isaiah 38:15",
+        "Zechariah 1:9",
+        "Ecclesiastes 3:18",
+        "1 Samuel 28:9"
       ]
     },
     {
@@ -130,10 +130,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Genesis 3:11",
-        "Deuteronomy 12:19-23",
         "Jeremiah 49:12",
-        "Proverbs 23:7",
-        "2 Kings 3:17"
+        "Nehemiah 6:11",
+        "Deuteronomy 12:19-23",
+        "Exodus 2:20"
       ]
     },
     {
@@ -148,10 +148,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "1 Samuel 30:13",
-        "Genesis 31:40-44",
+        "2 Samuel 1:8",
         "Lamentations 1:19-22",
         "Genesis 24:40-44",
-        "Genesis 26:16"
+        "1 Samuel 22:12"
       ]
     },
     {
@@ -165,11 +165,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "Genesis 28:10-14",
-        "Genesis 31:11",
         "2 Chronicles 20:34-37",
+        "Genesis 28:10-14",
         "Ezekiel 9:4-8",
-        "Hosea 1:1-5"
+        "Genesis 31:11",
+        "Genesis 27:11"
       ]
     },
     {
@@ -183,11 +183,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "2 Chronicles 2:14",
         "Ezekiel 45:13",
         "Ruth 2:23",
         "1 Chronicles 9:31",
-        "Job 38:2"
+        "Job 38:2",
+        "Numbers 30:17"
       ]
     },
     {
@@ -201,11 +201,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "Ezekiel 47:13-17",
-        "Ezekiel 48:28",
-        "Joshua 12:5",
         "Ezekiel 47:17",
-        "Ezekiel 48:25-29"
+        "Ezekiel 48:28",
+        "Joshua 16:5",
+        "Ezekiel 47:13-17",
+        "Joshua 12:5"
       ]
     },
     {
@@ -219,11 +219,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
+        "Exodus 10:29",
+        "Psalms 50:16",
         "Jeremiah 2:25-29",
-        "Genesis 30:28-32",
         "Genesis 3:11",
-        "Exodus 5:17",
-        "Genesis 17:18"
+        "Exodus 5:17"
       ]
     },
     {
@@ -238,10 +238,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Zechariah 14:3",
-        "2 Kings 3:22-26",
         "Deuteronomy 2:16-20",
         "Joshua 5:1-5",
-        "1 Samuel 14:22-26"
+        "2 Kings 3:22-26",
+        "1 Samuel 14:19-23"
       ]
     },
     {
@@ -255,11 +255,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "1 Samuel 26:9",
+        "Genesis 27:32",
         "Exodus 3:6",
-        "2 Chronicles 14:3",
-        "Exodus 10:8",
-        "Genesis 27:32"
+        "1 Samuel 26:9",
+        "Genesis 27:20",
+        "Genesis 27:11"
       ]
     },
     {
@@ -274,10 +274,10 @@
       "mrr": 1.0,
       "retrieved_refs": [
         "Amos 1:15",
+        "Numbers 22:14",
         "Jeremiah 48:40",
-        "Isaiah 33:10",
-        "Genesis 18:9",
-        "Zechariah 4:4"
+        "Judges 6:12",
+        "Numbers 22:13"
       ]
     },
     {
@@ -294,8 +294,8 @@
         "Jeremiah 25:26",
         "Jeremiah 25:22-26",
         "Joshua 11:5",
-        "Jeremiah 25:25-29",
-        "Daniel 11:7"
+        "Daniel 11:7",
+        "Jeremiah 25:24"
       ]
     },
     {
@@ -309,11 +309,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "Jeremiah 4:27",
-        "Psalms 139:4",
-        "Genesis 26:2",
         "Psalms 78:19",
-        "Joshua 5:5"
+        "Jeremiah 4:27",
+        "Jeremiah 44:24",
+        "Job 28:14",
+        "Ezra 5:15"
       ]
     },
     {
@@ -327,11 +327,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "Judges 16:16",
-        "Job 34:37",
+        "Psalms 53:2",
         "Psalms 109:10",
-        "Exodus 32:27",
-        "Hosea 11:6"
+        "Judges 16:16",
+        "Psalms 106:12",
+        "Exodus 32:27"
       ]
     },
     {
@@ -346,10 +346,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Judges 2:19-23",
-        "Amos 2:3",
         "Judges 2:19",
+        "Amos 2:3",
         "Psalms 9:4-8",
-        "Job 34:4-8"
+        "2 Chronicles 19:6"
       ]
     },
     {
@@ -382,10 +382,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Joshua 8:24",
-        "Joshua 8:22-26",
-        "Joshua 17:1-5",
         "Ruth 1:11",
-        "Genesis 31:20"
+        "1 Samuel 10:12",
+        "Joshua 17:1-5",
+        "Ezekiel 34:1-5"
       ]
     },
     {
@@ -402,8 +402,8 @@
         "2 Kings 3:15",
         "2 Kings 3:13-17",
         "Ezekiel 1:3",
-        "2 Samuel 21:20",
-        "Genesis 24:22-26"
+        "Job 13:5",
+        "2 Samuel 21:20"
       ]
     },
     {
@@ -419,9 +419,9 @@
       "retrieved_refs": [
         "Jeremiah 22:9",
         "2 Kings 2:18",
-        "1 Kings 14:7",
-        "2 Kings 2:6",
-        "Jeremiah 42:9"
+        "Jeremiah 51:61",
+        "Deuteronomy 29:24",
+        "Genesis 22:8"
       ]
     },
     {
@@ -453,11 +453,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "2 Kings 1:7",
         "Genesis 39:19",
+        "Genesis 20:5",
+        "Genesis 44:27",
         "Zechariah 13:6",
-        "Malachi 2:14",
-        "Genesis 20:5"
+        "Zechariah 1:9"
       ]
     },
     {
@@ -474,7 +474,7 @@
         "Proverbs 29:14",
         "Isaiah 3:2",
         "Psalms 7:12",
-        "Psalms 9:5",
+        "Deuteronomy 27:19-23",
         "Deuteronomy 27:19"
       ]
     },
@@ -489,11 +489,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
+        "Job 28:14",
         "Ezekiel 12:10",
-        "Genesis 27:45",
-        "2 Samuel 19:11",
+        "2 Samuel 14:13",
         "Genesis 3:11",
-        "Jeremiah 49:1"
+        "Exodus 32:21"
       ]
     },
     {
@@ -508,10 +508,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Proverbs 13:13",
+        "Ecclesiastes 3:7",
         "Isaiah 32:4",
-        "Proverbs 24:2",
-        "Isaiah 32:6",
-        "Job 34:35"
+        "Job 34:35",
+        "Isaiah 55:7-11"
       ]
     },
     {
@@ -544,10 +544,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Exodus 32:22",
-        "Ezekiel 25:1-5",
-        "Ezekiel 25:3",
+        "1 Samuel 17:58",
         "1 Samuel 17:28-32",
-        "1 Samuel 17:25-29"
+        "Deuteronomy 27:26",
+        "Ezekiel 13:1-5"
       ]
     },
     {
@@ -561,11 +561,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "Isaiah 14:10",
         "Judges 9:14",
-        "Genesis 30:34",
-        "Hosea 2:3",
-        "1 Samuel 25:6"
+        "Isaiah 14:10",
+        "Job 28:22",
+        "Ezekiel 3:10",
+        "Psalms 78:19"
       ]
     },
     {
@@ -582,7 +582,7 @@
         "1 Kings 21:3",
         "1 Kings 21:1-5",
         "1 Kings 21:4",
-        "1 Kings 21:4-8",
+        "2 Samuel 1:16",
         "Jeremiah 3:19"
       ]
     },
@@ -597,11 +597,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
+        "Jeremiah 51:61",
         "2 Kings 4:1-5",
-        "Leviticus 21:1",
-        "2 Samuel 12:7-11",
-        "Zechariah 11:4",
-        "Ezekiel 34:16-20"
+        "2 Kings 6:21",
+        "Psalms 50:16",
+        "2 Samuel 1:13"
       ]
     },
     {
@@ -634,10 +634,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Malachi 2:16",
-        "Zechariah 8:14",
-        "Ezekiel 12:28",
         "Ezekiel 11:16",
-        "Jeremiah 18:13"
+        "Joshua 7:8",
+        "Isaiah 28:12",
+        "Genesis 16:10"
       ]
     },
     {
@@ -652,10 +652,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Jeremiah 46:1",
-        "1 Kings 18:3",
-        "Micah 3:5",
         "Jeremiah 13:9",
-        "Exodus 6:26"
+        "Malachi 3:2",
+        "Numbers 20:13",
+        "1 Kings 18:3"
       ]
     },
     {
@@ -670,10 +670,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "1 Kings 17:16",
+        "1 Kings 18:7",
         "1 Kings 19:13",
-        "Psalms 92:16",
-        "Ecclesiastes 1:10-14",
-        "Ezekiel 33:6"
+        "1 Kings 21:28",
+        "1 Kings 21:17"
       ]
     },
     {
@@ -691,7 +691,7 @@
         "Genesis 16:9",
         "Genesis 16:10",
         "Genesis 16:11",
-        "Numbers 22:22-26"
+        "Judges 6:22"
       ]
     },
     {
@@ -706,10 +706,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Psalms 24:4",
-        "Exodus 22:19",
+        "Leviticus 6:6",
+        "Job 36:1-5",
         "Psalms 18:31",
-        "2 Samuel 22:31",
-        "Job 36:1-5"
+        "2 Samuel 22:31"
       ]
     },
     {
@@ -723,11 +723,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
+        "Ezekiel 25:15",
         "Ezekiel 4:13",
-        "Ezekiel 33:25",
-        "Ezekiel 11:17",
         "Jeremiah 2:5",
-        "2 Kings 3:17"
+        "Ezekiel 33:25",
+        "Ezekiel 43:18"
       ]
     },
     {
@@ -741,11 +741,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "Daniel 11:4",
-        "Psalms 145:12",
         "Esther 1:2",
         "Daniel 11:4-8",
-        "Esther 2:16"
+        "Esther 2:16",
+        "Proverbs 29:4",
+        "Daniel 8:23"
       ]
     },
     {
@@ -760,28 +760,28 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Nehemiah 6:11",
-        "Exodus 5:10-14",
         "Isaiah 21:12",
-        "Exodus 3:11",
+        "Genesis 43:28-32",
+        "Genesis 43:7-11",
         "Exodus 3:7-11"
       ]
     },
     {
       "question": "מי אמר \"לִישׁוּעָתְךָ, קִוִּיתִי ה'\"?",
       "strategy": "hybrid",
-      "relevant_found": true,
-      "first_relevant_rank": 5,
+      "relevant_found": false,
+      "first_relevant_rank": null,
       "hit@1": false,
       "hit@3": false,
-      "hit@5": true,
-      "recall_at_k": 1.0,
-      "mrr": 0.2,
+      "hit@5": false,
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
       "retrieved_refs": [
+        "Numbers 22:29",
+        "Psalms 50:16",
         "1 Samuel 16:3",
         "Deuteronomy 18:17",
-        "Psalms 91:2",
-        "2 Kings 10:16",
-        "Genesis 49:18"
+        "Jonah 4:9"
       ]
     },
     {
@@ -796,10 +796,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Ezekiel 20:29",
+        "Daniel 12:6",
         "Malachi 3:2",
-        "1 Kings 9:13",
-        "Ezekiel 43:18",
-        "Haggai 2:3"
+        "Nehemiah 6:11",
+        "Genesis 43:20"
       ]
     },
     {
@@ -814,8 +814,8 @@
       "mrr": 1.0,
       "retrieved_refs": [
         "2 Samuel 16:1",
+        "1 Samuel 13:10",
         "2 Samuel 15:32",
-        "Deuteronomy 31:3",
         "Judges 15:14",
         "Genesis 33:4"
       ]
@@ -831,10 +831,10 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
+        "Numbers 22:16",
         "Numbers 23:2",
         "Numbers 22:13-17",
         "Numbers 23:13-17",
-        "Numbers 23:25-29",
         "Numbers 22:37-41"
       ]
     },
@@ -852,8 +852,8 @@
         "Judges 6:22",
         "Judges 8:13",
         "Judges 6:34",
-        "Judges 6:29",
-        "Judges 8:31-35"
+        "Judges 6:36",
+        "Judges 8:32"
       ]
     },
     {
@@ -867,11 +867,11 @@
       "recall_at_k": 0.0,
       "mrr": 0.0,
       "retrieved_refs": [
-        "2 Samuel 22:10-14",
         "Isaiah 55:7-11",
-        "Numbers 16:31-35",
-        "Jonah 2:11",
-        "Exodus 15:22-26"
+        "2 Samuel 22:10-14",
+        "Ruth 3:4-8",
+        "Jonah 1:7-11",
+        "Genesis 1:25-29"
       ]
     },
     {
@@ -886,10 +886,10 @@
       "mrr": 1.0,
       "retrieved_refs": [
         "Joshua 7:18",
-        "Joshua 7:20",
         "Joshua 7:16-20",
         "Joshua 22:20",
-        "Joshua 7:19-23"
+        "Joshua 7:19-23",
+        "Joshua 7:22-26"
       ]
     },
     {
@@ -904,10 +904,10 @@
       "mrr": 0.0,
       "retrieved_refs": [
         "Genesis 44:16",
-        "Jeremiah 16:3",
+        "1 Samuel 26:18",
+        "Ruth 1:11",
         "Genesis 4:6",
-        "Joshua 4:21",
-        "Genesis 44:7"
+        "Joshua 7:8"
       ]
     }
   ]

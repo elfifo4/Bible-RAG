@@ -104,6 +104,11 @@ const EvaluationDashboard: React.FC = () => {
 
   return (
     <div className="rtl">
+      {summary.metadata && (
+        <div style={{ fontSize: '0.8rem', color: '#64748b', marginBottom: '1rem', textAlign: 'left' }} className="ltr">
+          Last Evaluation Run: {summary.metadata.last_run} | Questions: {summary.metadata.total_questions}
+        </div>
+      )}
       {/* 1. Metrics Cards */}
       <div className="metrics-grid">
         <div className="card metric-card">

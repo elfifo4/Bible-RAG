@@ -53,6 +53,10 @@ export interface StrategyMetrics {
 
 export interface EvalSummaryResponse {
   strategies: Record<string, StrategyMetrics>;
+  metadata?: {
+    last_run: string;
+    total_questions: number;
+  };
 }
 
 export interface QuestionEvalResult {

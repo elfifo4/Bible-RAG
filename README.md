@@ -1,83 +1,83 @@
-# Bible-RAG
+# Bible-RAG: Advanced RAG System for the Hebrew Tanakh
 
-A Retrieval-Augmented Generation system for the Hebrew Bible (Tanakh).
+A professional Retrieval-Augmented Generation (RAG) system specialized for the Hebrew Bible (Tanakh), featuring hybrid search, interactive evaluation, and a polished web interface.
 
-## Project Structure
+---
 
-- `data/`: Contains raw texts, processed JSONs, and the vector index.
-- `src/`: Core logic.
-    - `ingestion.py`: Parses raw biblical texts.
-    - `chunking.py`: Strategies for splitting text (Verse-level, Sliding Window).
-    - `retrieval.py`: Vector search using FAISS and Hebrew-optimized embeddings.
-    - `generation.py`: LLM prompt engineering and citation handling.
-    - `rag_system.py`: Main entry point.
-- `backend/`: FastAPI web server with JWT authentication.
-- `frontend/`: React + Vite web interface (RTL support).
-- `eval/`: Evaluation scripts and gold standard sets.
+## ⚡ Quick Start
+1. **Setup Environment**: 
+   ```bash
+   pip install -r requirements.txt
+   cp .env.example .env
+   # Add your OPENAI_API_KEY and set APP_AUTH_PASSWORD in .env
+   ```
+2. **Setup UI**:
+   ```bash
+   cd frontend && npm install && cd ..
+   ```
+3. **Build Index**: 
+   ```bash
+   python3 build_index.py
+   ```
+4. **Launch App**: 
+   ```bash
+   python3 run_dev.py
+   ```
+   *Access at [http://localhost:5173](http://localhost:5173)*
 
-## Getting Started
+---
 
-### 1. Installation
+## 📖 Overview
+Bible-RAG is a custom RAG pipeline designed to answer factual, narrative, and genealogical questions about the Hebrew Bible. By combining state-of-the-art semantic embeddings with traditional lexical search, the system provides grounded answers with exact biblical citations (Book, Chapter:Verse), effectively eliminating LLM hallucinations.
+
+### Key Features
+- **Hybrid Retrieval Engine**: Uses `multilingual-e5-base` vectors + BM25 keyword matching.
+- **Hebrew-First Design**: Specialized tokenization and normalization for Biblical Hebrew.
+- **Interactive Evaluation Lab**: real-time strategy comparison and performance metrics.
+- **Academic Rigor**: Built-in ablation studies and structured failure analysis.
+- **Modern UI**: RTL-optimized React interface with a "parchment" aesthetic.
+
+## 🏗️ Architecture
+- **Parser**: Custom ingestion pipeline for 929 chapters of raw Tanakh text.
+- **Retrieval**: FAISS (IndexFlatIP) for semantic search; Rank-BM25 for lexical search.
+- **Generation**: OpenAI GPT-4o with grounded system prompting.
+- **Backend**: FastAPI with JWT authentication and rate limiting.
+- **Frontend**: React + Vite + Recharts.
+
+## 📊 Evaluation & Reproducibility
+The project includes a complete suite for measuring RAG performance:
+
 ```bash
-pip install -r requirements.txt
-cp .env.example .env
-# Edit .env with your OpenAI API Key and desired password
-```
-
-### 2. Build the Index
-```bash
-python3 -m src.build_index
-```
-
-### 3. Run the Web App
-
-**Backend:**
-```bash
-uvicorn backend.main:app --reload
-```
-
-**Frontend:**
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Visit `http://localhost:5173` to ask questions!
-
-## Environment Variables
-- `OPENAI_API_KEY`: Your OpenAI API key.
-- `APP_AUTH_PASSWORD`: The password required to log in to the web app.
-- `JWT_SECRET`: A secret string for signing authentication tokens.
-- `ALLOWED_ORIGINS`: Comma-separated list of origins for CORS.
-
-## Deployment
-1. **Backend**: Deploy the Docker container to Render, Fly.io, or Railway. Set environment variables in their dashboards.
-2. **Frontend**: Deploy the `dist` folder to Vercel or Netlify. Set `VITE_API_URL` to your backend URL.
-
-## 4. Evaluation and Reporting
-
-### Run Evaluation
-```bash
-# 1. Run all retrieval strategies
+# 1. Run all retrieval strategies (Hybrid, Dense, Lexical)
 python3 eval/run_eval.py --strategy all
 
-# 2. Run ablation experiments
+# 2. Run ablation experiments (impact of Top-K, components)
 python3 eval/run_eval.py --ablation
 
-# 3. Perform error analysis
+# 3. Perform automated error/failure analysis
 python3 eval/error_analysis.py
 
-# 4. Generate report assets
+# 4. Generate report-ready assets and draft report
 python3 eval/generate_report_assets.py
 ```
+*Evaluation results are displayed visually in the "Performance Metrics" tab of the web app.*
 
-The final draft for your project report will be saved to:
-`eval/results/report_data/report_draft.md`
+## 📸 Project Gallery
+*Refer to `docs/screenshots/` for visual documentation of the following:*
+1. **Q&A Interface**: Clean chat layout with interactive references.
+2. **Strategy Selector**: Comparative tool demonstrating RAG behavior.
+3. **Evaluation Dashboard**: Visual charts for Hit@K and MRR metrics.
+4. **Ablation Tables**: Side-by-side comparison of design choices.
 
-## Design Principles
+## ⚠️ Limitations
+- **Metadata Support**: Currently uses heuristics for structural questions; a dedicated metadata agent is planned.
+- **Lemmatization**: Semantic search is strong, but lexical matching could be improved with a specialized Hebrew morphological analyzer.
+- **Context Boundaries**: Narrative events spanning large chapter sections may require larger sliding windows.
 
-- **Separation of Concerns**: Ingestion, Chunking, Retrieval, and Generation are decoupled.
-- **Reproducibility**: Configuration is centralized in `src/config.py`.
-- **Security**: OpenAI key is hidden on the backend; JWT authentication protects the API.
-- **Citation-Aware**: Every answer is backed by specific biblical references.
+## 🚀 Future Work
+- **Reranking**: Integrate a Cross-Encoder (e.g., `dictabert`) for high-precision ranking.
+- **Graph-RAG**: Use biblical genealogies to build a knowledge graph for complex relationship queries.
+- **Deployment**: Full production containerization and cloud scaling.
+
+---
+Built by **Elad Finish** for the **AI for Developers** course, **Ben-Gurion University of the Negev**. (May 2026)

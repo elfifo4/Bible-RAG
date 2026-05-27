@@ -9,9 +9,14 @@ from typing import Dict, Any
 # Configure Logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    format='%(asctime)s [%(levelname)s] %(name)s: %(message)s',
+    datefmt='%H:%M:%S'
 )
 logger = logging.getLogger("BibleRAG")
+
+# Silence noisy third-party loggers
+logging.getLogger("sentence_transformers").setLevel(logging.WARNING)
+logging.getLogger("httpx").setLevel(logging.WARNING)
 
 class HebrewProcessor:
     @staticmethod
