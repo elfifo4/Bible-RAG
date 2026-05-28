@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bible-RAG: מסע של מערכת RAG על התנ״ך</title>
+  <style>
+    /* ===== RESET & BASE ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue-900: #1e3a5f;
+      --blue-800: #1e40af;
+      --blue-700: #1d4ed8;
+      --blue-600: #2563eb;
+      --blue-500: #3b82f6;
+      --blue-100: #dbeafe;
+      --blue-50:  #eff6ff;
+      --amber-500: #f59e0b;
+      --amber-400: #fbbf24;
+      --amber-100: #fef3c7;
+      --amber-50:  #fffbeb;
+      --green-600: #16a34a;
+      --green-500: #22c55e;
+      --green-100: #dcfce7;
+      --purple-600: #9333ea;
+      --purple-100: #f3e8ff;
+      --rose-600:   #e11d48;
+      --rose-100:   #ffe4e6;
+      --teal-600:   #0d9488;
+      --teal-100:   #ccfbf1;
+      --orange-600: #ea580c;
+      --orange-100: #ffedd5;
+      --indigo-600: #4f46e5;
+      --indigo-100: #e0e7ff;
+      --slate-900: #0f172a;
+      --slate-800: #1e293b;
+      --slate-600: #475569;
+      --slate-500: #64748b;
+      --slate-300: #cbd5e1;
+      --slate-200: #e2e8f0;
+      --slate-100: #f1f5f9;
+      --slate-50:  #f8fafc;
+      --white: #ffffff;
+      --radius: 14px;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.05);
+      --shadow-md: 0 4px 16px rgba(0,0,0,.10), 0 2px 6px rgba(0,0,0,.06);
+      --shadow-lg: 0 10px 32px rgba(0,0,0,.13), 0 4px 10px rgba(0,0,0,.07);
+    }
+
+    @font-face {
+      font-family: 'Keter';
+      src: url('./src/assets/Keter-Medium.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    body {
+      font-family: 'Keter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      background: var(--slate-100);
+      color: var(--slate-800);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ===== HEADER ===== */
+    .hero {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 45%, #1e40af 100%);
+      color: var(--white);
+      padding: 4rem 2rem 5rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 20% 50%, rgba(245,158,11,.12) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 20%, rgba(59,130,246,.15) 0%, transparent 55%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(245,158,11,.2);
+      border: 1px solid rgba(245,158,11,.4);
+      color: var(--amber-400);
+      font-size: .8rem;
+      letter-spacing: .08em;
+      padding: .3rem .9rem;
+      border-radius: 99px;
+      margin-bottom: 1.4rem;
+      font-weight: 600;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 1rem;
+      letter-spacing: -.02em;
+    }
+    .hero h1 span { color: var(--amber-400); }
+    .hero p {
+      font-size: 1.1rem;
+      color: rgba(255,255,255,.75);
+      max-width: 620px;
+      margin: 0 auto 2.5rem;
+    }
+    .hero-back {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      background: rgba(255,255,255,.12);
+      border: 1px solid rgba(255,255,255,.22);
+      color: var(--white);
+      text-decoration: none;
+      padding: .6rem 1.4rem;
+      border-radius: 99px;
+      font-size: .9rem;
+      font-weight: 500;
+      transition: background .2s;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-back:hover { background: rgba(255,255,255,.2); }
+
+    /* ===== STATS BAR ===== */
+    .stats-bar {
+      background: var(--white);
+      border-bottom: 2px solid var(--amber-400);
+      box-shadow: var(--shadow-sm);
+    }
+    .stats-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      divide-x: 1px solid var(--slate-200);
+    }
+    .stat-item {
+      padding: 1.4rem 1rem;
+      text-align: center;
+      border-left: 1px solid var(--slate-200);
+    }
+    .stat-item:last-child { border-left: none; }
+    .stat-num {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--blue-700);
+      line-height: 1;
+      display: block;
+    }
+    .stat-label {
+      font-size: .8rem;
+      color: var(--slate-500);
+      margin-top: .3rem;
+    }
+
+    /* ===== MAIN LAYOUT ===== */
+    .main { max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+
+    /* ===== SECTION TITLE ===== */
+    .section-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--slate-900);
+      margin-bottom: .5rem;
+    }
+    .section-subtitle {
+      color: var(--slate-500);
+      margin-bottom: 2.5rem;
+      font-size: .95rem;
+    }
+    .section-block { margin-bottom: 4rem; }
+
+    /* ===== FLOW DIAGRAM ===== */
+    .flow-diagram {
+      background: linear-gradient(135deg, #eff6ff 0%, #fef3c7 100%);
+      border: 1.5px solid #bfdbfe;
+      border-radius: var(--radius);
+      padding: 2rem 1.5rem;
+      margin-bottom: 4rem;
+    }
+    .flow-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--blue-800);
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .flow-steps {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      flex-wrap: wrap;
+      row-gap: 1rem;
+    }
+    .flow-node {
+      background: var(--white);
+      border-radius: 12px;
+      padding: .7rem 1.1rem;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+      border: 1.5px solid var(--slate-200);
+      min-width: 100px;
+    }
+    .flow-node .icon { font-size: 1.5rem; display: block; margin-bottom: .2rem; }
+    .flow-node .label { font-size: .78rem; font-weight: 600; color: var(--slate-700); line-height: 1.3; }
+    .flow-arrow {
+      font-size: 1.4rem;
+      color: var(--blue-400, #60a5fa);
+      padding: 0 .3rem;
+      flex-shrink: 0;
+    }
+    .flow-node.highlight {
+      background: linear-gradient(135deg, var(--blue-600), var(--blue-800));
+      color: var(--white);
+      border-color: var(--blue-700);
+    }
+    .flow-node.highlight .label { color: rgba(255,255,255,.9); }
+
+    /* ===== PIPELINE STEPS ===== */
+    .pipeline { display: flex; flex-direction: column; gap: 0; }
+
+    .step-wrapper {
+      display: flex;
+      gap: 1.5rem;
+      position: relative;
+    }
+    .step-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-shrink: 0;
+      width: 56px;
+    }
+    .step-num-badge {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      font-weight: 900;
+      color: var(--white);
+      flex-shrink: 0;
+      position: relative;
+      z-index: 1;
+      box-shadow: var(--shadow-md);
+    }
+    .step-connector {
+      width: 3px;
+      flex: 1;
+      min-height: 24px;
+      background: linear-gradient(to bottom, currentColor, rgba(0,0,0,.1));
+      margin: 4px 0;
+      border-radius: 2px;
+    }
+    .step-wrapper:last-child .step-connector { display: none; }
+
+    .step-card {
+      flex: 1;
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      padding: 1.5rem 1.6rem 1.6rem;
+      margin-bottom: 1.5rem;
+      border-right: 4px solid transparent;
+      transition: box-shadow .2s, transform .2s;
+      cursor: default;
+    }
+    .step-card:hover {
+      box-shadow: var(--shadow-lg);
+      transform: translateX(-3px);
+    }
+    .step-header {
+      display: flex;
+      align-items: flex-start;
+      gap: .8rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+    .step-icon { font-size: 1.8rem; flex-shrink: 0; line-height: 1; }
+    .step-names { flex: 1; }
+    .step-en {
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: .15rem;
+    }
+    .step-he { font-size: 1.15rem; font-weight: 800; color: var(--slate-900); }
+
+    .step-desc { color: var(--slate-600); font-size: .95rem; margin-bottom: 1rem; }
+
+    .step-project {
+      border-radius: 10px;
+      padding: 1rem 1.1rem;
+      margin-bottom: 1rem;
+    }
+    .step-project-title {
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      margin-bottom: .4rem;
+    }
+    .step-project p { font-size: .9rem; color: var(--slate-700); }
+
+    .step-example {
+      background: var(--slate-900);
+      color: #e2e8f0;
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: .82rem;
+      direction: ltr;
+      text-align: left;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    .step-example .comment { color: #64748b; }
+    .step-example .key { color: #93c5fd; }
+    .step-example .val { color: #86efac; }
+    .step-example .str { color: #fcd34d; }
+    .step-example .num { color: #f9a8d4; }
+
+    .tag-row { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .8rem; }
+    .tag {
+      font-size: .75rem;
+      font-weight: 600;
+      padding: .25rem .7rem;
+      border-radius: 99px;
+    }
+
+    /* ===== SLIDING WINDOW DEMO ===== */
+    .sw-demo {
+      margin-top: 1.2rem;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1.5px solid #c4b5fd;
+      background: linear-gradient(135deg, #f5f3ff 0%, #eff6ff 100%);
+    }
+    .sw-header {
+      background: linear-gradient(135deg, #4f46e5 0%, #6d28d9 100%);
+      padding: .9rem 1.2rem;
+      text-align: center;
+    }
+    .sw-title-text {
+      font-size: .9rem;
+      font-weight: 800;
+      color: white;
+      letter-spacing: .04em;
+    }
+    .sw-subtitle-he {
+      font-size: .8rem;
+      color: rgba(255,255,255,.82);
+      margin-top: .3rem;
+      direction: rtl;
+    }
+    .sw-params {
+      display: flex;
+      gap: .5rem;
+      justify-content: center;
+      padding: .65rem 1rem;
+      background: rgba(79,70,229,.05);
+      border-bottom: 1px solid #e0e7ff;
+      flex-wrap: wrap;
+    }
+    .sw-param-chip {
+      background: white;
+      color: #4f46e5;
+      font-size: .73rem;
+      font-weight: 700;
+      padding: .22rem .75rem;
+      border-radius: 99px;
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      border: 1.5px solid #c4b5fd;
+      direction: ltr;
+    }
+    .sw-body { padding: 1.1rem 1rem 1rem; }
+    .sw-windows {
+      display: flex;
+      align-items: flex-start;
+      gap: 0;
+      direction: ltr;
+    }
+    .sw-win {
+      flex: 1;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(79,70,229,.08);
+      overflow: hidden;
+      border: 1.5px solid #e0e7ff;
+      min-width: 0;
+    }
+    .sw-win-label {
+      background: linear-gradient(135deg, #4f46e5, #6d28d9);
+      color: white;
+      text-align: center;
+      font-size: .73rem;
+      font-weight: 800;
+      padding: .42rem .4rem;
+      direction: rtl;
+      letter-spacing: .04em;
+    }
+    .sw-verse {
+      padding: .38rem .5rem;
+      font-size: .8rem;
+      text-align: center;
+      direction: rtl;
+      border-bottom: 1px solid #f1f5f9;
+      color: #374151;
+    }
+    .sw-verse:last-child { border-bottom: none; }
+    .sw-verse.ov1 {
+      background: linear-gradient(90deg, #fef9c3, #fef3c7);
+      color: #78350f;
+      font-weight: 700;
+      animation: swpulse1 2.6s ease-in-out infinite;
+    }
+    .sw-verse.ov2 {
+      background: linear-gradient(90deg, #ede9fe, #ddd6fe);
+      color: #3b0764;
+      font-weight: 700;
+      animation: swpulse2 2.6s ease-in-out infinite;
+    }
+    @keyframes swpulse1 {
+      0%, 100% { box-shadow: inset 3px 0 0 #f59e0b; }
+      50%       { box-shadow: inset 3px 0 0 #d97706, inset 0 0 10px rgba(245,158,11,.18); }
+    }
+    @keyframes swpulse2 {
+      0%, 100% { box-shadow: inset 3px 0 0 #8b5cf6; }
+      50%       { box-shadow: inset 3px 0 0 #7c3aed, inset 0 0 10px rgba(139,92,246,.18); }
+    }
+    .sw-connector {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      flex-shrink: 0;
+      align-self: stretch;
+      padding: 0 2px;
+      gap: 3px;
+    }
+    .sw-cline {
+      width: 2px;
+      flex: 1;
+      min-height: 8px;
+      border-radius: 1px;
+    }
+    .sw-connector.c1 .sw-cline { background: linear-gradient(to bottom, transparent, #fbbf24, transparent); }
+    .sw-connector.c2 .sw-cline { background: linear-gradient(to bottom, transparent, #a78bfa, transparent); }
+    .sw-obadge {
+      font-size: .58rem;
+      font-weight: 800;
+      letter-spacing: .02em;
+      padding: .22rem .35rem;
+      border-radius: 6px;
+      text-align: center;
+      direction: ltr;
+      white-space: nowrap;
+      line-height: 1.35;
+    }
+    .sw-connector.c1 .sw-obadge { background: #fef9c3; color: #92400e; border: 1px solid #fcd34d; }
+    .sw-connector.c2 .sw-obadge { background: #ede9fe; color: #5b21b6; border: 1px solid #c4b5fd; }
+    .sw-legend {
+      display: flex;
+      gap: .7rem;
+      justify-content: center;
+      margin-top: .9rem;
+      flex-wrap: wrap;
+    }
+    .sw-legend-item {
+      display: flex;
+      align-items: center;
+      gap: .35rem;
+      font-size: .75rem;
+      color: #475569;
+      direction: rtl;
+    }
+    .sw-legend-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+    .sw-legend-dot.ld1 { background: #fbbf24; }
+    .sw-legend-dot.ld2 { background: #a78bfa; }
+    .sw-legend-dot.ldn { background: #e2e8f0; border: 1px solid #cbd5e1; }
+    .sw-desc {
+      margin-top: .9rem;
+      padding: .72rem 1rem;
+      background: rgba(79,70,229,.06);
+      border-radius: 8px;
+      font-size: .83rem;
+      color: #374151;
+      direction: rtl;
+      text-align: right;
+      border-right: 3px solid #6d28d9;
+      line-height: 1.6;
+    }
+
+    /* ===== STEP COLOR THEMES ===== */
+    /* 1 - amber */
+    .theme-amber .step-num-badge { background: linear-gradient(135deg, #d97706, #b45309); }
+    .theme-amber .step-card      { border-right-color: #f59e0b; }
+    .theme-amber .step-en        { color: #92400e; }
+    .theme-amber .step-connector { color: #f59e0b; }
+    .theme-amber .step-project   { background: var(--amber-50); border: 1px solid #fde68a; }
+    .theme-amber .step-project-title { color: #92400e; }
+    .theme-amber .tag { background: var(--amber-100); color: #92400e; }
+
+    /* 2 - blue */
+    .theme-blue .step-num-badge { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+    .theme-blue .step-card      { border-right-color: #3b82f6; }
+    .theme-blue .step-en        { color: #1e40af; }
+    .theme-blue .step-connector { color: #3b82f6; }
+    .theme-blue .step-project   { background: var(--blue-50); border: 1px solid #bfdbfe; }
+    .theme-blue .step-project-title { color: #1e40af; }
+    .theme-blue .tag { background: var(--blue-100); color: #1e40af; }
+
+    /* 3 - teal */
+    .theme-teal .step-num-badge { background: linear-gradient(135deg, #0d9488, #0f766e); }
+    .theme-teal .step-card      { border-right-color: #14b8a6; }
+    .theme-teal .step-en        { color: #0f766e; }
+    .theme-teal .step-connector { color: #14b8a6; }
+    .theme-teal .step-project   { background: var(--teal-100); border: 1px solid #99f6e4; }
+    .theme-teal .step-project-title { color: #0f766e; }
+    .theme-teal .tag { background: var(--teal-100); color: #0f766e; }
+
+    /* 4 - purple */
+    .theme-purple .step-num-badge { background: linear-gradient(135deg, #9333ea, #7c3aed); }
+    .theme-purple .step-card      { border-right-color: #a855f7; }
+    .theme-purple .step-en        { color: #6b21a8; }
+    .theme-purple .step-connector { color: #a855f7; }
+    .theme-purple .step-project   { background: var(--purple-100); border: 1px solid #e9d5ff; }
+    .theme-purple .step-project-title { color: #6b21a8; }
+    .theme-purple .tag { background: var(--purple-100); color: #6b21a8; }
+
+    /* 5 - indigo */
+    .theme-indigo .step-num-badge { background: linear-gradient(135deg, #4f46e5, #4338ca); }
+    .theme-indigo .step-card      { border-right-color: #6366f1; }
+    .theme-indigo .step-en        { color: #3730a3; }
+    .theme-indigo .step-connector { color: #6366f1; }
+    .theme-indigo .step-project   { background: var(--indigo-100); border: 1px solid #c7d2fe; }
+    .theme-indigo .step-project-title { color: #3730a3; }
+    .theme-indigo .tag { background: var(--indigo-100); color: #3730a3; }
+
+    /* 6 - slate */
+    .theme-slate .step-num-badge { background: linear-gradient(135deg, #475569, #334155); }
+    .theme-slate .step-card      { border-right-color: #64748b; }
+    .theme-slate .step-en        { color: #334155; }
+    .theme-slate .step-connector { color: #64748b; }
+    .theme-slate .step-project   { background: #f8fafc; border: 1px solid #e2e8f0; }
+    .theme-slate .step-project-title { color: #334155; }
+    .theme-slate .tag { background: #e2e8f0; color: #334155; }
+
+    /* 7 - orange */
+    .theme-orange .step-num-badge { background: linear-gradient(135deg, #ea580c, #c2410c); }
+    .theme-orange .step-card      { border-right-color: #f97316; }
+    .theme-orange .step-en        { color: #c2410c; }
+    .theme-orange .step-connector { color: #f97316; }
+    .theme-orange .step-project   { background: var(--orange-100); border: 1px solid #fed7aa; }
+    .theme-orange .step-project-title { color: #c2410c; }
+    .theme-orange .tag { background: var(--orange-100); color: #c2410c; }
+
+    /* 8 - green */
+    .theme-green .step-num-badge { background: linear-gradient(135deg, #16a34a, #15803d); }
+    .theme-green .step-card      { border-right-color: #22c55e; }
+    .theme-green .step-en        { color: #15803d; }
+    .theme-green .step-connector { color: #22c55e; }
+    .theme-green .step-project   { background: var(--green-100); border: 1px solid #bbf7d0; }
+    .theme-green .step-project-title { color: #15803d; }
+    .theme-green .tag { background: var(--green-100); color: #15803d; }
+
+    /* 9 - rose */
+    .theme-rose .step-num-badge { background: linear-gradient(135deg, #e11d48, #be123c); }
+    .theme-rose .step-card      { border-right-color: #f43f5e; }
+    .theme-rose .step-en        { color: #be123c; }
+    .theme-rose .step-connector { color: #f43f5e; }
+    .theme-rose .step-project   { background: var(--rose-100); border: 1px solid #fecdd3; }
+    .theme-rose .step-project-title { color: #be123c; }
+    .theme-rose .tag { background: var(--rose-100); color: #be123c; }
+
+    /* 10 - deep-blue */
+    .theme-deepblue .step-num-badge { background: linear-gradient(135deg, #1e3a5f, #0f172a); }
+    .theme-deepblue .step-card      { border-right-color: #1e40af; }
+    .theme-deepblue .step-en        { color: #1e3a5f; }
+    .theme-deepblue .step-connector { color: #1e40af; }
+    .theme-deepblue .step-project   { background: #eff6ff; border: 1px solid #bfdbfe; }
+    .theme-deepblue .step-project-title { color: #1e3a5f; }
+    .theme-deepblue .tag { background: #dbeafe; color: #1e3a5f; }
+
+    /* ===== STRATEGY CARDS ===== */
+    .strategies-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: .8rem;
+    }
+    .strategy-card {
+      border-radius: 10px;
+      padding: 1rem;
+    }
+    .strategy-card h4 { font-size: .9rem; font-weight: 700; margin-bottom: .4rem; }
+    .strategy-card p  { font-size: .82rem; color: var(--slate-600); }
+    .s-dense  { background: #eff6ff; border: 1px solid #bfdbfe; }
+    .s-dense h4 { color: #1e40af; }
+    .s-lexical { background: #fef3c7; border: 1px solid #fde68a; }
+    .s-lexical h4 { color: #92400e; }
+    .s-hybrid { background: #f3e8ff; border: 1px solid #e9d5ff; }
+    .s-hybrid h4 { color: #6b21a8; }
+
+    /* ===== GLOSSARY ===== */
+    .glossary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .glossary-item {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1rem 1.2rem;
+      box-shadow: var(--shadow-sm);
+      border-right: 3px solid var(--blue-500);
+    }
+    .glossary-term {
+      font-size: .8rem;
+      font-weight: 800;
+      letter-spacing: .06em;
+      color: var(--blue-700);
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      direction: ltr;
+      text-align: left;
+      margin-bottom: .3rem;
+    }
+    .glossary-def { font-size: .88rem; color: var(--slate-700); line-height: 1.55; }
+
+    /* ===== LESSONS ===== */
+    .lessons-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .lesson-card {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.1rem 1.2rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      gap: .8rem;
+      align-items: flex-start;
+    }
+    .lesson-icon { font-size: 1.4rem; flex-shrink: 0; margin-top: .1rem; }
+    .lesson-card p { font-size: .9rem; color: var(--slate-700); line-height: 1.55; }
+    .lesson-card strong { color: var(--slate-900); }
+
+    /* ===== FOOTER ===== */
+    .page-footer {
+      background: var(--slate-900);
+      color: rgba(255,255,255,.6);
+      text-align: center;
+      padding: 2rem;
+      font-size: .85rem;
+    }
+    .page-footer a { color: var(--amber-400); text-decoration: none; }
+    .page-footer a:hover { text-decoration: underline; }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 600px) {
+      .stats-inner { grid-template-columns: repeat(2, 1fr); }
+      .stat-item:nth-child(2) { border-left: none; }
+      .step-left { width: 44px; }
+      .step-num-badge { width: 44px; height: 44px; font-size: 1rem; }
+      .flow-steps { gap: .2rem; }
+      .flow-arrow { padding: 0; font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <div class="hero-badge">📖 RAG PIPELINE EXPLAINER</div>
+  <h1>Bible-RAG:<br><span>מסע של מערכת RAG על התנ״ך</span></h1>
+  <p>מערכת שאלות ותשובות המתבססת על שליפת פסוקים רלוונטיים מקורפוס התנ״ך וניסוח תשובות על ידי מודל שפה — שלב אחרי שלב, מטקסט גולמי ועד ציטוט מקורות.</p>
+  <a href="/" class="hero-back">← חזרה לאפליקציה</a>
+</header>
+
+<!-- ===== STATS BAR ===== -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <span class="stat-num">929</span>
+      <div class="stat-label">פרקים בתנ״ך</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">23,202</span>
+      <div class="stat-label">פסוקים / Chunks</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">10</span>
+      <div class="stat-label">שלבים ב-Pipeline</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">3</span>
+      <div class="stat-label">אסטרטגיות Retrieval</div>
+    </div>
+  </div>
+</div>
+
+<main class="main">
+
+  <!-- ===== FLOW DIAGRAM ===== -->
+  <div class="flow-diagram">
+    <div class="flow-title">🔄 זרימת המערכת — מקצה לקצה</div>
+    <div class="flow-steps">
+      <div class="flow-node">
+        <span class="icon">❓</span>
+        <div class="label">שאלה</div>
+      </div>
+      <div class="flow-arrow">←</div>
+      <div class="flow-node">
+        <span class="icon">🔍</span>
+        <div class="label">Embedding<br>+ Retrieval</div>
+      </div>
+      <div class="flow-arrow">←</div>
+      <div class="flow-node">
+        <span class="icon">📜</span>
+        <div class="label">פסוקים<br>רלוונטיים</div>
+      </div>
+      <div class="flow-arrow">←</div>
+      <div class="flow-node highlight">
+        <span class="icon">🤖</span>
+        <div class="label">LLM<br>Generation</div>
+      </div>
+      <div class="flow-arrow">←</div>
+      <div class="flow-node">
+        <span class="icon">💬</span>
+        <div class="label">תשובה +<br>מקורות</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PIPELINE STEPS ===== -->
+  <div class="section-block">
+    <div class="section-title">🗺️ ה-Pipeline: 10 שלבים</div>
+    <div class="section-subtitle">כל שלב הוא חלק הכרחי בשרשרת — משבר אחד בשרשרת פוגע באיכות הכל.</div>
+
+    <div class="pipeline">
+
+      <!-- STEP 1: Data Collection -->
+      <div class="step-wrapper theme-amber">
+        <div class="step-left">
+          <div class="step-num-badge">1</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-icon">🗂️</div>
+            <div class="step-names">
+              <div class="step-en">Step 1 — Data Collection</div>
+              <div class="step-he">איסוף נתונים ובחירת קורפוס</div>
+            </div>
+          </div>
+          <p class="step-desc">
+            הכל מתחיל בבחירת ה<strong>קורפוס</strong> — אוסף המסמכים שמהם המערכת תלמד לענות. הקורפוס הוא ה"ידע" של המערכת. ללא קורפוס איכותי, שום RAG לא יכול לעבוד טוב.
+          </p>
+          <div class="step-project">
+            <div class="step-project-title">📖 ב-Bible-RAG</div>
+            <p>בחרתי בתנ״ך בעברית כקורפוס. זהו קורפוס ייחודי: מובנה לפי <strong>ספר → פרק → פסוק</strong>, מכיל שאלות עובדתיות, גנאלוגיות, מספריות וסמנטיות, ומציב אתגרי עיבוד שפה ייחודיים בעברית קלאסית.</p>
+          </div>
+          <div class="tag-row">
+            <span class="tag">929 פרקים</span>
+            <span class="tag">עברית קלאסית</span>
+            <span class="tag">מבנה היררכי</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 2: Document Loading -->
+      <div class="step-wrapper theme-blue">
+        <div class="step-left">
+          <div class="step-num-badge">2</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-icon">📂</div>
+            <div class="step-names">
+              <div class="step-en">Step 2 — Document Loading</div>
+              <div class="step-he">טעינת מסמכים לייצוג פנימי</div>
+            </div>
+          </div>
+          <p class="step-desc">
+            קבצי הטקסט הגולמיים נקראים ומומרים למבנה נתונים פנימי אחיד. כל מסמך מקבל שדות מטאדאטה שיאפשרו מאוחר יותר לציין מקורות מדויקים.
+          </p>
+          <div class="step-project">
+            <div class="step-project-title">📖 ב-Bible-RAG</div>
+            <p>המערכת קוראת את קבצי הפרקים ומייצרת אובייקטים עם שדות: <code>book</code>, <code>chapter</code>, <code>verse</code>, <code>ref</code> (למשל "בראשית א:א"), <code>ref_en</code> (Genesis 1:1), ואת הטקסט עצמו.</p>
+          </div>
+          <div class="step-example">
+<span class="comment"># מבנה פסוק לאחר טעינה</span>
+{
+  <span class="key">"book"</span>: <span class="str">"בראשית"</span>,
+  <span class="key">"chapter"</span>: <span class="num">1</span>,
+  <span class="key">"verse"</span>: <span class="num">1</span>,
+  <span class="key">"ref"</span>: <span class="str">"בראשית א:א"</span>,
+  <span class="key">"ref_en"</span>: <span class="str">"Genesis 1:1"</span>,
+  <span class="key">"text"</span>: <span class="str">"בְּרֵאשִׁית בָּרָא אֱלֹהִים..."</span>
+}
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 3: Text Cleaning -->
+      <div class="step-wrapper theme-teal">
+        <div class="step-left">
+          <div class="step-num-badge">3</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-icon">🧹</div>
+            <div class="step-names">
+              <div class="step-en">Step 3 — Text Cleaning & Preprocessing</div>
+              <div class="step-he">ניקוי ועיבוד מקדים של הטקסט</div>
+            </div>
+          </div>
+          <p class="step-desc">
+            הטקסט הגולמי מכיל סימנים שמשפיעים על אמבדינג ועל חיפוש. יש לנקות ולנרמל לפני שממשיכים — אבל בזהירות: לפעמים מידע "מלוכלך" חשוב.
+          </p>
+          <div class="step-project">
+            <div class="step-project-title">📖 ב-Bible-RAG</div>
+            <p>ניקינו <strong>טעמים</strong> (cantillation marks) וסימני פיסוק מיוחדים, שמרנו <code>text_original</code> לתצוגה ויצרנו <code>text_plain</code> לעיבוד. טיפלנו גם בסימוני פרשיות, עליות לתורה, ואות-גדולה/קטנה.</p>
+          </div>
+          <div class="step-example">
+<span class="comment"># לפני ניקוי</span>
+<span class="str">"בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים"</span>
+<span class="comment"># אחרי — text_plain</span>
+<span class="str">"בראשית ברא אלהים"</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 4: Chunking -->
+      <div class="step-wrapper theme-purple">
+        <div class="step-left">
+          <div class="step-num-badge">4</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-icon">✂️</div>
+            <div class="step-names">
+              <div class="step-en">Step 4 — Chunking</div>
+              <div class="step-he">חלוקת הטקסט ל-Chunks</div>
+            </div>
+          </div>
+          <p class="step-desc">
+            <strong>Chunk</strong> הוא יחידת הטקסט הבסיסית שעליה עובדת המערכת. הגודל האופטימלי — לא קצר מדי (אין הקשר) ולא ארוך מדי (noise רב ועלות גבוהה). בחירת אסטרטגיית ה-chunking משפיעה רבות על איכות ה-retrieval.
+          </p>
+          <div class="step-project">
+            <div class="step-project-title">📖 ב-Bible-RAG</div>
+            <p>המערכת תומכת בשתי אסטרטגיות:</p>
+            <div class="strategies-grid" style="margin-top:.6rem">
+              <div class="strategy-card s-dense">
+                <h4>Single Verse</h4>
+                <p>כל פסוק הוא chunk עצמאי. 23,202 chunks. דיוק גבוה בציטוט.</p>
+              </div>
+              <div class="strategy-card s-lexical">
+                <h4>Sliding Window</h4>
+                <p>חלון נע על פני מספר פסוקים עם חפיפה — שומר על הקשר נרטיבי.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sliding Window Visual Demo -->
+          <div class="sw-demo">
+            <div class="sw-header">
+              <div class="sw-title-text">📊 Sliding Window Chunking</div>
+              <div class="sw-subtitle-he">חלונות חופפים מאפשרים לשמור על הקשר נרטיבי בין פסוקים סמוכים</div>
+            </div>
+            <div class="sw-params">
+              <span class="sw-param-chip">WINDOW_SIZE = 5</span>
+              <span class="sw-param-chip">WINDOW_OVERLAP = 2</span>
+            </div>
+            <div class="sw-body">
+              <div class="sw-windows">
+                <!-- חלון 1 -->
+                <div class="sw-win">
+                  <div class="sw-win-label">חלון 1</div>
+                  <div class="sw-verse">פסוק א</div>
+                  <div class="sw-verse">פסוק ב</div>
+                  <div class="sw-verse">פסוק ג</div>
+                  <div class="sw-verse ov1">פסוק ד</div>
+                  <div class="sw-verse ov1">פסוק ה</div>
+                </div>
+                <!-- Connector 1→2 -->
+                <div class="sw-connector c1">
+                  <div class="sw-cline"></div>
+                  <div class="sw-obadge">Overlap<br>×2</div>
+                  <div class="sw-cline"></div>
+                </div>
+                <!-- חלון 2 -->
+                <div class="sw-win">
+                  <div class="sw-win-label">חלון 2</div>
+                  <div class="sw-verse ov1">פסוק ד</div>
+                  <div class="sw-verse ov1">פסוק ה</div>
+                  <div class="sw-verse">פסוק ו</div>
+                  <div class="sw-verse ov2">פסוק ז</div>
+                  <div class="sw-verse ov2">פסוק ח</div>
+                </div>
+                <!-- Connector 2→3 -->
+                <div class="sw-connector c2">
+                  <div class="sw-cline"></div>
+                  <div class="sw-obadge">Overlap<br>×2</div>
+                  <div class="sw-cline"></div>
+                </div>
+                <!-- חלון 3 -->
+                <div class="sw-win">
+                  <div class="sw-win-label">חלון 3</div>
+                  <div class="sw-verse ov2">פסוק ז</div>
+                  <div class="sw-verse ov2">פסוק ח</div>
+                  <div class="sw-verse">פסוק ט</div>
+                  <div class="sw-verse">פסוק י</div>
+                  <div class="sw-verse">פסוק יא</div>
+                </div>
+              </div>
+
+              <div class="sw-legend">
+                <div class="sw-legend-item"><div class="sw-legend-dot ld1"></div>פסוקים חופפים בין חלון 1 ל-2</div>
+                <div class="sw-legend-item"><div class="sw-legend-dot ld2"></div>פסוקים חופפים בין חלון 2 ל-3</div>
+                <div class="sw-legend-item"><div class="sw-legend-dot ldn"></div>פסוקים ייחודיים לחלון</div>
+              </div>
+
+              <p class="sw-desc">ב-Sliding Window השתמשתי בחלונות של 5 פסוקים עם overlap של 2 פסוקים, כדי לשמור על הקשר בין פסוקים סמוכים מבלי ליצור יותר מדי כפילויות.</p>
+            </div>
+          </div>
+
+          <div class="tag-row">
+            <span class="tag">23,202 Chunks</span>
+            <span class="tag">Single Verse</span>
+            <span class="tag">Sliding Window</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 5: Embedding -->
+      <div class="step-wrapper theme-indigo">
+        <div class="step-left">
+          <div class="step-num-badge">5</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-icon">🧮</div>
+            <div class="step-names">
+              <div class="step-en">Step 5 — Embedding</div>
+              <div class="step-he">המרת טקסט לוקטורים מספריים</div>
+            </div>
+          </div>
+          <p class="step-desc">
+            <strong>Embedding</strong> הוא תהליך הפיכת טקסט לוקטור מספרי בעל מאות ממדים — כך שמשמעות קרובה = מרחק מתמטי קצר. זו הלב של ה-Dense Retrieval.
+          </p>
+          <div class="step-project">
+            <div class="step-project-title">📖 ב-Bible-RAG</div>
+            <p>כל אחד מ-23,202 הפסוקים הומר לוקטור. גם שאלת המשתמש הופכת לוקטור בזמן שאילתה — ואז מחפשים את הוקטורים הכי קרובים.</p>
+          </div>
+          <div class="step-example">
+<span class="comment"># "ברא אלהים" → וקטור ב-768 ממדים</span>
+<span class="key">embed</span>(<span class="str">"בראשית ברא אלהים"</span>) →
+  [<span class="num">0.21</span>, <span class="num">-0.45</span>, <span class="num">0.83</span>, ... <span class="num">768 dims</span>]
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 6: Indexing -->
+      <div class="step-wrapper theme-slate">
+        <div class="step-left">
+          <div class="step-num-badge">6</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-icon">🗄️</div>
+            <div class="step-names">
+              <div class="step-en">Step 6 — Indexing</div>
+              <div class="step-he">שמירת הוקטורים ב-Vector Index</div>
+            </div>
+          </div>
+          <p class="step-desc">
+            ה<strong>Vector Index</strong> הוא מבנה נתונים שמאחסן את כל הוקטורים ומאפשר חיפוש מהיר של "השכנים הקרובים ביותר" (Nearest Neighbor Search). ללא אינדקס — חיפוש ב-23K וקטורים יהיה איטי מדי.
+          </p>
+          <div class="step-project">
+            <div class="step-project-title">📖 ב-Bible-RAG</div>
+            <p>המערכת משתמשת ב-<strong>FAISS</strong> (Facebook AI Similarity Search) — ספריה פופולרית לחיפוש וקטורי מהיר. האינדקס נשמר לדיסק ונטען ב-startup. בנוסף, מבנה BM25 לחיפוש לקסיקלי.</p>
+          </div>
+          <div class="tag-row">
+            <span class="tag">FAISS Index</span>
+            <span class="tag">BM25</span>
+            <span class="tag">נטען בזיכרון</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 7: Retrieval -->
+      <div class="step-wrapper theme-orange">
+        <div class="step-left">
+          <div class="step-num-badge">7</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-icon">🔍</div>
+            <div class="step-names">
+              <div class="step-en">Step 7 — Retrieval</div>
+              <div class="step-he">שליפת הפסוקים הרלוונטיים ביותר</div>
+            </div>
+          </div>
+          <p class="step-desc">
+            זהו השלב הקריטי ביותר. <strong>Retrieval</strong> טוב = תשובה טובה. Retrieval גרוע = הלוסינציות או תשובות שגויות. המערכת מחפשת את ה-K chunks הרלוונטיים ביותר לשאלה.
+          </p>
+          <div class="step-project">
+            <div class="step-project-title">📖 ב-Bible-RAG — שלוש אסטרטגיות</div>
+            <div class="strategies-grid">
+              <div class="strategy-card s-dense">
+                <h4>🧠 Dense Retrieval</h4>
+                <p>חיפוש סמנטי על בסיס וקטורים. מוצא פסוקים <em>קרובים במשמעות</em> גם ללא מילים זהות.</p>
+              </div>
+              <div class="strategy-card s-lexical">
+                <h4>📝 Lexical Retrieval</h4>
+                <p>חיפוש BM25 לפי מילים מדויקות. מעולה לשמות, מקומות, ומספרים ספציפיים.</p>
+              </div>
+              <div class="strategy-card s-hybrid">
+                <h4>⚡ Hybrid Retrieval</h4>
+                <p>שקלול של Dense + Lexical. מנצל את היתרונות של שתי השיטות. ברירת המחדל במערכת.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 8: Answer Generation -->
+      <div class="step-wrapper theme-green">
+        <div class="step-left">
+          <div class="step-num-badge">8</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-icon">🤖</div>
+            <div class="step-names">
+              <div class="step-en">Step 8 — Answer Generation</div>
+              <div class="step-he">יצירת תשובה על ידי מודל שפה</div>
+            </div>
+          </div>
+          <p class="step-desc">
+            ה-LLM מקבל את השאלה ואת ה-chunks שנשלפו כ"הקשר" (context), ומייצר תשובה. חשוב: ה-LLM <strong>לא</strong> משתמש בידע הכללי שלו — רק במה שנמצא בחלונית ה-context. זה מה שמונע <strong>הלוסינציות</strong>.
+          </p>
+          <div class="step-project">
+            <div class="step-project-title">📖 ב-Bible-RAG</div>
+            <p>ה-LLM מקבל prompt עם ה-K פסוקים הרלוונטיים ומנסח תשובה בעברית. הוא מקבל הוראה מפורשת: "ענה רק על בסיס הפסוקים שניתנו לך."</p>
+          </div>
+          <div class="step-example">
+<span class="comment"># Prompt structure</span>
+<span class="key">System</span>: <span class="str">"ענה על השאלה רק על בסיס הפסוקים."</span>
+<span class="key">Context</span>: [<span class="num">5</span> retrieved chunks]
+<span class="key">Question</span>: <span class="str">"מה אכל אדם הראשון?"</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 9: Citation -->
+      <div class="step-wrapper theme-rose">
+        <div class="step-left">
+          <div class="step-num-badge">9</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-icon">📎</div>
+            <div class="step-names">
+              <div class="step-en">Step 9 — Citation of Sources</div>
+              <div class="step-he">ציטוט מקורות — שקיפות ואמינות</div>
+            </div>
+          </div>
+          <p class="step-desc">
+            <strong>Citation</strong> (ציטוט) הוא מה שהופך RAG ל"בר-אמת". המשתמש לא צריך לסמוך עיוורית על התשובה — הוא יכול לראות אילו פסוקים הביאו לה ולבדוק בעצמו.
+          </p>
+          <div class="step-project">
+            <div class="step-project-title">📖 ב-Bible-RAG</div>
+            <p>כל תשובה מגיעה עם שדה <code>retrieved_chunks</code>: רשימת הפסוקים שנשלפו, עם <code>ref</code>, <code>score</code>, ומצוין ציון Dense ו-Lexical בנפרד — כך ברור <em>למה</em> כל פסוק נבחר.</p>
+          </div>
+          <div class="step-example">
+<span class="comment"># מבנה תשובה עם ציטוטים</span>
+{
+  <span class="key">"answer"</span>: <span class="str">"פרי עץ הגן..."</span>,
+  <span class="key">"retrieved_chunks"</span>: [
+    { <span class="key">"ref"</span>: <span class="str">"בראשית ב:טז"</span>,
+      <span class="key">"score"</span>: <span class="num">0.892</span> },
+    ...
+  ]
+}
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 10: Evaluation -->
+      <div class="step-wrapper theme-deepblue">
+        <div class="step-left">
+          <div class="step-num-badge">10</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-icon">📊</div>
+            <div class="step-names">
+              <div class="step-en">Step 10 — Evaluation & Error Analysis</div>
+              <div class="step-he">מדידת ביצועים וניתוח שגיאות</div>
+            </div>
+          </div>
+          <p class="step-desc">
+            "המערכת <em>מרגישה</em> שעובדת" — זה לא מספיק. <strong>Evaluation</strong> מכמת ביצועים באמצעות מדדים ברורים על סט בדיקה ידוע. <strong>Error Analysis</strong> עוזרת להבין <em>איפה</em> ו<em>למה</em> המערכת נכשלת.
+          </p>
+          <div class="step-project">
+            <div class="step-project-title">📖 ב-Bible-RAG</div>
+            <p>בנינו <code>gold_set.jsonl</code> — שאלות בדיקה עם תשובות ידועות. מדדנו:</p>
+            <div class="strategies-grid" style="margin-top:.8rem">
+              <div class="strategy-card s-dense">
+                <h4>Hit@K</h4>
+                <p>האם הפסוק הנכון נמצא בין K התוצאות הראשונות? מדד שלמות השליפה.</p>
+              </div>
+              <div class="strategy-card s-lexical">
+                <h4>MRR</h4>
+                <p>Mean Reciprocal Rank — כמה גבוה ברשימה הפסוק הנכון ביותר?</p>
+              </div>
+              <div class="strategy-card s-hybrid">
+                <h4>Ablation</h4>
+                <p>השבתת רכיבים אחד-אחד כדי להבין מה תורם לביצועים.</p>
+              </div>
+            </div>
+          </div>
+          <div class="tag-row">
+            <span class="tag">gold_set.jsonl</span>
+            <span class="tag">Hit@K</span>
+            <span class="tag">MRR</span>
+            <span class="tag">Ablation</span>
+            <span class="tag">Failure Analysis</span>
+            <span class="tag">Dashboard</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.pipeline -->
+  </div><!-- /.section-block -->
+
+  <!-- ===== GLOSSARY ===== -->
+  <div class="section-block">
+    <div class="section-title">📚 מילון מושגים</div>
+    <div class="section-subtitle">מושגי מפתח ב-RAG — בהסבר קצר ובעברית</div>
+    <div class="glossary-grid">
+      <div class="glossary-item">
+        <div class="glossary-term">Corpus</div>
+        <div class="glossary-def">קורפוס — אוסף המסמכים שממנו שולפים מידע. בפרויקט: 23,202 פסוקי תנ״ך.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Chunk</div>
+        <div class="glossary-def">יחידת טקסט בסיסית. כל פסוק הוא chunk עצמאי עם metadata משלו.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Embedding</div>
+        <div class="glossary-def">המרת טקסט לוקטור מספרי רב-ממדי שמייצג את המשמעות הסמנטית שלו.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Vector Index</div>
+        <div class="glossary-def">אינדקס המאחסן וקטורי embedding ומאפשר חיפוש מהיר של שכנים קרובים.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Retrieval</div>
+        <div class="glossary-def">תהליך השליפה — חיפוש ה-chunks הרלוונטיים ביותר לשאלת המשתמש.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Dense Retrieval</div>
+        <div class="glossary-def">שליפה סמנטית: מחפש לפי קרבת וקטורים, לא לפי מילים מדויקות. מבוסס FAISS.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Lexical Retrieval</div>
+        <div class="glossary-def">שליפה מילולית (BM25): מחפש לפי מילים זהות. מעולה לשמות עצם ומונחים ספציפיים.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Hybrid Retrieval</div>
+        <div class="glossary-def">שקלול של Dense + Lexical. מאזן בין הבנה סמנטית להתאמה מילולית מדויקת.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Hallucination</div>
+        <div class="glossary-def">הלוסינציה — כאשר ה-LLM "ממציא" עובדות שאינן במקורות. RAG ממזער זאת על ידי הגבלת ה-context.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Citation</div>
+        <div class="glossary-def">ציטוט מקורות — הצגת הפסוקים שעליהם התשובה מתבססת. מאפשר למשתמש לאמת.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Evaluation</div>
+        <div class="glossary-def">מדידה כמותית של ביצועי המערכת על סט בדיקה ידוע, לא סובייקטיבית.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Hit@K</div>
+        <div class="glossary-def">שיעור השאלות שבהן הפסוק הנכון נמצא בין K התוצאות הראשונות שנשלפו.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">MRR</div>
+        <div class="glossary-def">Mean Reciprocal Rank — ממוצע ה-1/rank של הפסוק הנכון. קרוב ל-1 = מעולה.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Ablation</div>
+        <div class="glossary-def">ניסוי הסרת רכיב אחד בכל פעם כדי לבדוק את תרומתו לביצועים הכוללים.</div>
+      </div>
+      <div class="glossary-item">
+        <div class="glossary-term">Error Analysis</div>
+        <div class="glossary-def">ניתוח שגיאות — סיווג ובחינה של המקרים שבהם המערכת נכשלת, כדי לשפר.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== LESSONS LEARNED ===== -->
+  <div class="section-block">
+    <div class="section-title">💡 מה למדתי מהפרויקט?</div>
+    <div class="section-subtitle">תובנות שיישארו הרבה אחרי שה-pipeline נגמר</div>
+    <div class="lessons-grid">
+      <div class="lesson-card">
+        <div class="lesson-icon">🔗</div>
+        <p><strong>RAG הוא לא רק קריאה ל-LLM.</strong> זוהי מערכת שלמה: קורפוס, ניקוי, chunking, embedding, אינדקס, retrieval, generation ו-evaluation — כל שלב חשוב.</p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-icon">🎯</div>
+        <p><strong>איכות התשובה תלויה ב-retrieval.</strong> אם הפסוקים הנכונים לא נשלפים, שום LLM לא יכול לתקן זאת. ה-retrieval הוא צוואר הבקבוק.</p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-icon">🔤</div>
+        <p><strong>עברית ותנ״ך דורשים preprocessing ייעודי.</strong> טעמים, ניקוד, כתיב מלא/חסר — אלה לא דברים "שוליים". הם משפיעים ישירות על איכות ה-embedding.</p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-icon">📏</div>
+        <p><strong>Evaluation חיוני.</strong> בלי מדדים כמותיים, אי אפשר לדעת אם שינוי שיפר או הרע. "מרגיש טוב" לא מספיק.</p>
+      </div>
+      <div class="lesson-card">
+        <div class="lesson-icon">⚖️</div>
+        <p><strong>Hybrid Retrieval מנצח.</strong> Dense לבד מפספס שמות ספציפיים; Lexical לבד מפספס שאלות סמנטיות. השילוב נותן תוצאות עדיפות.</p>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="page-footer">
+  <p>
+    נבנה על ידי
+    <a href="https://www.linkedin.com/in/elad-finish/" target="_blank" rel="noopener">אלעד פיניש</a>
+    כחלק ממטלת אמצע בקורס AI for Developers — המכון לבינה מלאכותית, אוניברסיטת בן-גוריון בנגב (מאי 2026)
+    &nbsp;·&nbsp;
+    <a href="https://github.com/elfifo4/Bible-RAG" target="_blank" rel="noopener">GitHub</a>
+    &nbsp;·&nbsp;
+    <a href="/">← חזרה לאפליקציה</a>
+  </p>
+</footer>
+
+</body>
+</html>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Eye, EyeOff, Github, GraduationCap, X, Loader2 } from 'lucide-react';
+import { Eye, EyeOff, Github, GraduationCap, X, Loader2, BookOpen } from 'lucide-react';
 import * as api from './api';
 import { RETRIEVAL_STRATEGIES, COMPARISON_EXAMPLES } from './constants';
 import EvaluationDashboard from './components/EvaluationDashboard';
@@ -74,7 +74,7 @@ function App() {
     return (
       <div className="container rtl">
         <div className="card">
-          <h1 className="title">תנ״ך RAG</h1>
+          <h1 className="title">RAG על התנ"ך</h1>
           <p className="subtitle">יש להזין סיסמה</p>
           <form onSubmit={handleLogin} className="login-form">
             <div className="password-container">
@@ -111,7 +111,7 @@ function App() {
   return (
     <div className="container rtl">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
-        <h1 className="title" style={{ margin: 0 }}>תנ״ך RAG</h1>
+        <h1 className="title" style={{ margin: 0 }}>RAG על התנ"ך</h1>
         <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
           <div className="view-switcher">
             <button
@@ -135,6 +135,19 @@ function App() {
               {isCompareMode ? 'מצב השוואה פעיל' : 'הפעל מצב השוואה'}
             </button>
           )}
+          <a
+            href="/pipeline.html"
+            style={{
+              display: 'inline-flex', alignItems: 'center', gap: '6px',
+              background: '#92400e', fontSize: '0.85rem', color: '#fff',
+              padding: '0.4rem 0.85rem', borderRadius: '6px', textDecoration: 'none',
+              fontWeight: 500,
+            }}
+            title="הסבר ויזואלי של ה-Pipeline"
+          >
+            <BookOpen size={15} />
+            על הפרויקט
+          </a>
           <button onClick={handleLogout} style={{ background: '#64748b', fontSize: '0.85rem' }}>התנתק</button>
         </div>
       </div>
@@ -347,15 +360,25 @@ const Footer = () => (
         <p>אוניברסיטת בן-גוריון בנגב (מאי 2026)</p>
       </div>
 
-      <a
-        href="https://github.com/elfifo4/Bible-RAG"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="github-link"
-      >
-        <Github size={16} style={{ marginLeft: '6px' }} />
-        צפייה בקוד המקור ב-GitHub
-      </a>
+      <div style={{ display: 'flex', gap: '12px', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'center' }}>
+        <a
+          href="/pipeline.html"
+          className="github-link"
+          style={{ background: 'rgba(146,64,14,.15)', borderColor: 'rgba(245,158,11,.4)', color: '#92400e' }}
+        >
+          <BookOpen size={16} style={{ marginLeft: '6px' }} />
+          הסבר ויזואלי של ה-Pipeline
+        </a>
+        <a
+          href="https://github.com/elfifo4/Bible-RAG"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-link"
+        >
+          <Github size={16} style={{ marginLeft: '6px' }} />
+          צפייה בקוד המקור ב-GitHub
+        </a>
+      </div>
     </div>
   </footer>
 );
