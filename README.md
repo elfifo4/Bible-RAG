@@ -4,6 +4,14 @@ A professional Retrieval-Augmented Generation (RAG) system specialized for the H
 
 ---
 
+Built by **Elad Finish** for the **AI for Developers** course, **Ben-Gurion University of the Negev**. (May 2026)
+
+---
+
+**GitHub Repository**: [https://github.com/elfifo4/Bible-RAG](https://github.com/elfifo4/Bible-RAG)
+
+---
+
 ## ⚡ Quick Start
 1. **Setup Environment**: 
    ```bash
@@ -78,6 +86,3 @@ python3 eval/generate_report_assets.py
 - **Reranking**: Integrate a Cross-Encoder (e.g., `dictabert`) for high-precision ranking.
 - **Graph-RAG**: Use biblical genealogies to build a knowledge graph for complex relationship queries.
 - **Deployment**: Full production containerization and cloud scaling.
-
----
-Built by **Elad Finish** for the **AI for Developers** course, **Ben-Gurion University of the Negev**. (May 2026)
