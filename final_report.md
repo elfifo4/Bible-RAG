@@ -39,6 +39,11 @@ retriever and FAISS index (no double load).
 | 📖 `lookup_reference(book, chapter, verse)` | Exact verse/range fetch by reference | — |
 | 📚 `bible_structure(query_type, book?)` | Structural answers from the catalog (no LLM) | **#1** |
 | ⚖️ `compare_retrieval_strategies(query)` | Runs dense vs lexical vs hybrid and compares | analysis |
+| 🔢 `search_number(number)` | Verses containing a number in Hebrew words (via Dicta) | numbers |
+
+A **pure-number** message (digits only) short-circuits directly to `search_number` —
+answered deterministically from [Dicta](https://search.dicta.org.il/)'s results with **no
+LLM call** (saving tokens), while still emitting a trace step for the visualization.
 
 ## 3. Explainability — Agent Trace Visualization
 

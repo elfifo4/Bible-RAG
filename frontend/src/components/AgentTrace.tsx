@@ -7,6 +7,7 @@ const TOOL_INFO: Record<string, { icon: string; desc: string }> = {
   lookup_reference: { icon: '📖', desc: 'שליפה מדויקת לפי ספר, פרק ופסוק' },
   bible_structure: { icon: '📚', desc: 'תשובות לשאלות מבניות על ספרי התנ״ך, מספר פרקים וסדר הספרים' },
   compare_retrieval_strategies: { icon: '⚖️', desc: 'השוואה בין dense, lexical ו-hybrid כדי להבין איזו אסטרטגיה מתאימה' },
+  search_number: { icon: '🔢', desc: 'חיפוש מספר (בכתיב מילולי) בפסוקי התנ״ך דרך מנוע החיפוש של Dicta' },
 };
 
 const CONFIDENCE_LABEL: Record<string, string> = {

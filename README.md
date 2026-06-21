@@ -56,11 +56,12 @@ Bible-RAG is a custom RAG pipeline designed to answer factual, narrative, and ge
 Building on the RAG pipeline above, **חברותא** turns the static system into a conversational **agent** that decides which tools to use, remembers the conversation, and corrects itself — directly closing the three weaknesses documented in the midterm (see [final_report.md](final_report.md)).
 
 - **OpenAI function-calling loop** (`gpt-4o`, `max_iterations=5`, explicit fallback) wrapping the **existing** retriever and GPT client — retrieval/generation logic is untouched, and the already-loaded FAISS index is reused.
-- **Four tools**:
+- **Five tools**:
   - 🔍 `search_tanakh` — hybrid/dense/lexical verse search (with self-correcting re-search)
   - 📖 `lookup_reference` — exact verse/range fetch by Book Chapter:Verse
   - 📚 `bible_structure` — structural/metadata answers (longest book, #books, #chapters, order) — *the gap the midterm planned to fix*
   - ⚖️ `compare_retrieval_strategies` — dense vs lexical vs hybrid, side by side
+  - 🔢 `search_number` — verses containing a number spelled out in Hebrew (26 → "עשרים ושש"), via the [Dicta](https://search.dicta.org.il/) search engine. A **pure-number** message (digits only) short-circuits straight to this — deterministic, no LLM call.
 - **Agent Trace Visualization**: every answer carries a structured *operational* trace (which tool, args, result summary, confidence) rendered as a collapsible **timeline of step cards**, plus a **presentation mode** for the classroom demo. No internal chain-of-thought is exposed.
 - **Access**: open the **"חברותא 🤖"** tab in the web app (alongside Q&A and Performance Metrics).
 

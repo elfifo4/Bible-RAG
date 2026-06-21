@@ -18,6 +18,7 @@ from typing import Any, Dict, List, Optional
 
 from .config import ALL_VERSES_JSONL, LLM_MODEL_NAME, OPENAI_API_KEY
 from .constants import BIBLE_CATALOG, BOOK_MAPPING
+from .dicta import search_number as dicta_search_number
 from .utils import logger, Gematria
 
 # How much conversation history to keep (last N messages). Keeps context tight
@@ -33,6 +34,7 @@ TOOL_LABELS = {
     "lookup_reference": "שליפת מראה מקום",
     "bible_structure": "שאלת מבנה",
     "compare_retrieval_strategies": "השוואת אסטרטגיות",
+    "search_number": "חיפוש מספר (Dicta)",
 }
 
 FALLBACK_MESSAGE = (
@@ -182,6 +184,18 @@ class BibleAgent:
                     },
                 },
             },
+            {
+                "type": "function",
+                "function": {
+                    "name": "search_number",
+                    "description": "Find verses that contain a NUMBER (spelled out in Hebrew words, e.g. 26 -> 'עשרים ושש') via Dicta's Tanakh search. Use for queries about a specific number.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {"number": {"type": "string", "description": "The number to search for, digits only."}},
+                        "required": ["number"],
+                    },
+                },
+            },
         ]
 
     # ------------------------------------------------------------------ tools
@@ -258,6 +272,9 @@ class BibleAgent:
             ]
         return {"query": query, "comparison": comparison}
 
+    def _tool_search_number(self, number: str, size: int = 5) -> Dict[str, Any]:
+        return dicta_search_number(number, size=size)
+
     def _dispatch(self, name: str, args: Dict[str, Any]) -> Dict[str, Any]:
         if name == "search_tanakh":
             return self._tool_search_tanakh(**args)
@@ -267,6 +284,8 @@ class BibleAgent:
             return self._tool_bible_structure(**args)
         if name == "compare_retrieval_strategies":
             return self._tool_compare_retrieval_strategies(**args)
+        if name == "search_number":
+            return self._tool_search_number(**args)
         return {"error": f"Unknown tool: {name}"}
 
     # ------------------------------------------------------ trace summaries
@@ -302,7 +321,41 @@ class BibleAgent:
                 "summary": "מוביל לכל אסטרטגיה — " + ", ".join(f"{s}: {r}" for s, r in tops.items()) + ".",
                 "confidence": "medium",
             }
+        if name == "search_number":
+            if result.get("error") or not result.get("total"):
+                return {"summary": f"Dicta: לא נמצאו פסוקים עם המספר {result.get('number', '')}.", "confidence": "low"}
+            top = result["results"][0]["ref"] if result.get("results") else "—"
+            return {"summary": f"Dicta: נמצאו {result['total']} פסוקים עם המספר {result['number']}. מוביל: {top}.", "confidence": "high"}
         return {"summary": "", "confidence": "medium"}
+
+    # ----------------------------------------------------- number short-circuit
+    def _number_shortcircuit(self, number: str, size: int = 5) -> Dict[str, Any]:
+        """Pure-number input -> Dicta number search, answered deterministically (no LLM)."""
+        result = self._tool_search_number(number, size=size)
+        meta = self._summarize("search_number", result)
+        total = result.get("total", 0)
+        results = result.get("results", [])
+
+        if result.get("error") or total == 0:
+            answer = f"לא נמצאו פסוקים בתנ״ך שבהם מופיע המספר {number} (בכתיב מילולי)."
+            trace = [
+                {"step": 1, "type": "tool_call", "tool": "search_number", "label": TOOL_LABELS["search_number"],
+                 "args": {"number": number}, "summary": meta["summary"], "confidence": "low"},
+                {"step": 2, "type": "fallback", "tool": None, "label": "אין תוצאה",
+                 "args": None, "summary": "חיפוש המספר ב-Dicta לא החזיר פסוקים.", "confidence": "low"},
+            ]
+            return {"answer": answer, "sources": [], "trace": trace}
+
+        lines = "\n".join(f"• {r['ref']}: {r['text']}" for r in results)
+        answer = (f"נמצאו {total} פסוקים בתנ״ך שבהם מופיע המספר {number} (בכתיב מילולי). "
+                  f"הנה {len(results)} הראשונים (מקור: Dicta):\n{lines}")
+        trace = [
+            {"step": 1, "type": "tool_call", "tool": "search_number", "label": TOOL_LABELS["search_number"],
+             "args": {"number": number}, "summary": meta["summary"], "confidence": "high"},
+            {"step": 2, "type": "final_answer", "tool": None, "label": "תשובה סופית",
+             "args": None, "summary": "התשובה נבנתה ישירות מתוצאות Dicta (ללא LLM).", "confidence": "high"},
+        ]
+        return {"answer": answer, "sources": [r["ref"] for r in results], "trace": trace}
 
     # ------------------------------------------------------------------ loop
     def chat(self, messages: List[Dict[str, str]], strategy_hint: Optional[str] = None) -> Dict[str, Any]:
@@ -313,6 +366,11 @@ class BibleAgent:
         # Keep only the last N turns of plain chat history.
         history = [m for m in messages if m.get("role") in ("user", "assistant")][-MAX_HISTORY_MESSAGES:]
         last_user = next((m["content"] for m in reversed(history) if m["role"] == "user"), "")
+
+        # Deterministic short-circuit: a PURE NUMBER goes straight to Dicta number
+        # search — no LLM call (saves tokens), still produces a trace for the UI.
+        if last_user.strip().isdigit():
+            return self._number_shortcircuit(last_user.strip())
 
         convo: List[Dict[str, Any]] = [{"role": "system", "content": SYSTEM_PROMPT}] + history
 
@@ -369,6 +427,8 @@ class BibleAgent:
                     collected_sources.extend(r["ref_en"] for r in result.get("results", []) if r.get("ref_en"))
                 elif name == "lookup_reference" and result.get("found"):
                     collected_sources.extend(v["ref_en"] for v in result["verses"])
+                elif name == "search_number":
+                    collected_sources.extend(r["ref"] for r in result.get("results", []) if r.get("ref"))
 
                 meta = self._summarize(name, result)
                 step += 1
