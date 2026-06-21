@@ -117,3 +117,27 @@ class AnswerEvalResult(BaseModel):
 
 class EvalAnswersResponse(BaseModel):
     results: List[AnswerEvalResult]
+
+# --- Agent ("חברותא") chat ---
+
+class ChatMessage(BaseModel):
+    role: Literal["user", "assistant"]
+    content: str = Field(..., min_length=1, max_length=2000)
+
+class ChatRequest(BaseModel):
+    messages: List[ChatMessage] = Field(..., min_length=1)
+    strategy: Optional[RetrievalStrategy] = None
+
+class TraceStep(BaseModel):
+    step: int
+    type: Literal["tool_call", "final_answer", "fallback"]
+    tool: Optional[str] = None
+    label: str
+    args: Optional[Dict[str, Any]] = None
+    summary: str
+    confidence: Literal["high", "medium", "low"]
+
+class ChatResponse(BaseModel):
+    answer: str
+    sources: List[str]
+    trace: List[TraceStep]
