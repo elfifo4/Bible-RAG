@@ -136,11 +136,17 @@ def run_full(limit=None):
         rows.append({"id": it["id"], "category": cat, "question": _label(it),
                      "answer": res["answer"], "sources": res.get("sources", []), **checks})
 
+    # Score each metric only over items where that check applies (an item without
+    # an expected_tool / expected_answer should not count for or against accuracy).
+    tool_items = [r for r in rows if r["used_expected_tool"] is not None]
+    answer_items = [r for r in rows if r["answer_pass"] is not None]
     summary = {
         "mode": "full",
         "count": len(rows),
-        "tool_accuracy": round(sum(r["used_expected_tool"] is True for r in rows) / len(rows), 3) if rows else 0,
-        "answer_accuracy": round(sum(r["answer_pass"] is True for r in rows) / len(rows), 3) if rows else 0,
+        "tool_accuracy": round(sum(r["used_expected_tool"] for r in tool_items) / len(tool_items), 3) if tool_items else 0,
+        "answer_accuracy": round(sum(r["answer_pass"] for r in answer_items) / len(answer_items), 3) if answer_items else 0,
+        "tool_items": len(tool_items),
+        "answer_items": len(answer_items),
         "by_category": {c: dict(v) for c, v in by_cat.items()},
     }
     print(f"\nTool-selection accuracy: {summary['tool_accuracy']:.0%} | Answer accuracy: {summary['answer_accuracy']:.0%}")
@@ -161,12 +167,15 @@ def _write(summary, rows):
         for r in rows:
             md.append(f"| {r['question']} | {r['expected']} | {r['actual']} | {'✓' if r['pass'] else '✗'} |")
     else:
-        md.append(f"- Tool-selection accuracy: **{summary['tool_accuracy']:.0%}**")
-        md.append(f"- Answer accuracy: **{summary['answer_accuracy']:.0%}**\n")
+        md.append(f"- Tool-selection accuracy: **{summary['tool_accuracy']:.0%}** ({summary['tool_items']} items)")
+        md.append(f"- Answer accuracy: **{summary['answer_accuracy']:.0%}** ({summary['answer_items']} items with an expected answer)\n")
         md.append("| Question | Tools used | Expected tool ✓ | Answer ✓ | Sources |\n|---|---|:--:|:--:|:--:|")
+
+        def mark(v):
+            return "—" if v is None else ("✓" if v else "✗")
         for r in rows:
             md.append(f"| {r['question']} | {', '.join(r['tools_used']) or '—'} | "
-                      f"{'✓' if r['used_expected_tool'] else '✗'} | {'✓' if r['answer_pass'] else '✗'} | "
+                      f"{mark(r['used_expected_tool'])} | {mark(r['answer_pass'])} | "
                       f"{'✓' if r['has_sources'] else '—'} |")
     with open(RESULTS_DIR / "agent_eval.md", "w", encoding="utf-8") as f:
         f.write("\n".join(md) + "\n")

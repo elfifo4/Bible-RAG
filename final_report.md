@@ -60,10 +60,21 @@ This is the clearest "before/after": the exact question class the midterm could 
 is now answered correctly and deterministically via the `bible_structure` tool.
 
 **Full agent eval (20 questions across structural / genealogy / factual / reference /
-lexical / strategy / multi-turn):** `python3 eval/agent_eval.py` — runs the whole
-function-calling loop and reports tool-selection accuracy, answer accuracy (keyword match),
-and source grounding. *(Pending an OpenAI account with available quota; the gold set and
-harness are in `eval/agent_gold_set.jsonl` and `eval/agent_eval.py`.)*
+lexical / strategy / multi-turn):** `python3 eval/agent_eval.py`
+
+| Metric | Result |
+|---|---|
+| Tool-selection accuracy (right tool chosen) | **90%** (18/20) |
+| Answer accuracy (keyword match, where an expected answer exists) | **84%** (16/19) |
+
+The trace shows the agent behaving as intended:
+- **Self-correction (#2):** *"מי היה אביו של אברהם?"* → `search_tanakh` ×3 then `lookup_reference` — it reformulated and re-searched before answering.
+- **Multi-step:** *"באילו מקומות מוזכרת יריחו?"* → `search_tanakh` → `compare_retrieval_strategies` → `lookup_reference` ×3.
+- **Memory:** the follow-up *"וכמה פרקים יש בו?"* was resolved from conversation context.
+
+Remaining misses are honest and explainable — e.g. on *"מה כתוב בבראשית א:א?"* the model
+occasionally answered from context without calling `lookup_reference` (a grounding gap, not
+a retrieval one).
 
 ## 5. Limitations & future work
 

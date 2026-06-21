@@ -1,67 +1,418 @@
 {
   "summary": {
-    "mode": "tools_only",
-    "subset": "structural",
-    "count": 8,
-    "passed": 8,
-    "accuracy": 1.0
+    "mode": "full",
+    "count": 20,
+    "tool_accuracy": 0.9,
+    "answer_accuracy": 0.842,
+    "tool_items": 20,
+    "answer_items": 19,
+    "by_category": {
+      "structural": {
+        "n": 8,
+        "tool_ok": 8,
+        "answer_ok": 8
+      },
+      "genealogy": {
+        "n": 3,
+        "tool_ok": 3,
+        "answer_ok": 3
+      },
+      "factual": {
+        "n": 3,
+        "tool_ok": 3,
+        "answer_ok": 3
+      },
+      "reference": {
+        "n": 1,
+        "tool_ok": 1,
+        "answer_ok": 1
+      },
+      "lexical": {
+        "n": 2,
+        "tool_ok": 1,
+        "answer_ok": 1
+      },
+      "strategy": {
+        "n": 1,
+        "tool_ok": 1,
+        "answer_ok": 0
+      },
+      "multi_turn": {
+        "n": 2,
+        "tool_ok": 1,
+        "answer_ok": 0
+      }
+    }
   },
   "results": [
     {
       "id": "struct_01",
+      "category": "structural",
       "question": "מה הספר הכי ארוך בתנ״ך?",
-      "expected": "תהילים",
-      "actual": "תהילים",
-      "pass": true
+      "answer": "הספר הכי ארוך בתנ״ך הוא ספר תהילים, והוא מכיל 150 פרקים.",
+      "sources": [],
+      "tools_used": [
+        "bible_structure"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": false,
+      "fallback": false
     },
     {
       "id": "struct_02",
+      "category": "structural",
       "question": "מה הספר הכי קצר בתנ״ך?",
-      "expected": "עובדיה",
-      "actual": "עובדיה",
-      "pass": true
+      "answer": "הספר הכי קצר בתנ״ך הוא ספר עובדיה, והוא מכיל פרק אחד בלבד.",
+      "sources": [],
+      "tools_used": [
+        "bible_structure"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": false,
+      "fallback": false
     },
     {
       "id": "struct_03",
+      "category": "structural",
       "question": "כמה ספרים יש בתנ״ך?",
-      "expected": 39,
-      "actual": 39,
-      "pass": true
+      "answer": "בתנ״ך יש 39 ספרים.",
+      "sources": [],
+      "tools_used": [
+        "bible_structure"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": false,
+      "fallback": false
     },
     {
       "id": "struct_04",
+      "category": "structural",
       "question": "כמה פרקים יש בסך הכול בתנ״ך?",
-      "expected": 929,
-      "actual": 929,
-      "pass": true
+      "answer": "בסך הכול יש 929 פרקים בתנ״ך.",
+      "sources": [],
+      "tools_used": [
+        "bible_structure"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": false,
+      "fallback": false
     },
     {
       "id": "struct_05",
+      "category": "structural",
       "question": "כמה פרקים יש בספר תהילים?",
-      "expected": 150,
-      "actual": 150,
-      "pass": true
+      "answer": "בספר תהילים יש 150 פרקים.",
+      "sources": [],
+      "tools_used": [
+        "bible_structure"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": false,
+      "fallback": false
     },
     {
       "id": "struct_06",
+      "category": "structural",
       "question": "כמה פרקים יש בספר בראשית?",
-      "expected": 50,
-      "actual": 50,
-      "pass": true
+      "answer": "בספר בראשית יש 50 פרקים.",
+      "sources": [],
+      "tools_used": [
+        "bible_structure"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": false,
+      "fallback": false
     },
     {
       "id": "struct_07",
+      "category": "structural",
       "question": "כמה פרקים יש בספר ישעיהו?",
-      "expected": 66,
-      "actual": 66,
-      "pass": true
+      "answer": "בספר ישעיהו יש 66 פרקים.",
+      "sources": [],
+      "tools_used": [
+        "bible_structure"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": false,
+      "fallback": false
     },
     {
       "id": "struct_08",
+      "category": "structural",
       "question": "באיזה מספר בסדר הספרים נמצא ספר ישעיהו?",
-      "expected": 12,
-      "actual": 12,
-      "pass": true
+      "answer": "ספר ישעיהו נמצא במקום ה-12 בסדר הספרים בתנ\"ך.",
+      "sources": [],
+      "tools_used": [
+        "bible_structure"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": false,
+      "fallback": false
+    },
+    {
+      "id": "gen_01",
+      "category": "genealogy",
+      "question": "מי היה אביו של אברהם?",
+      "answer": "אביו של אברהם היה תרח, כפי שמצוין בספר בראשית יא:כו-כז: \"וַֽיְחִי־תֶ֖רַח שִׁבְעִ֣ים שָׁנָ֑ה וַיּ֨וֹלֶד֙ אֶת־אַבְרָ֔ם אֶת־נָח֖וֹר וְאֶת־הָרָֽן׃ וְאֵ֨לֶּה֙ תּֽוֹלְדֹ֣ת תֶּ֔רַח תֶּ֚רַח הוֹלִ֣יד אֶת־אַבְרָ֔ם אֶת־נָח֖וֹר וְאֶת־הָרָ֑ן וְהָרָ֖ן הוֹלִ֥יד אֶת־לֽוֹט׃\".",
+      "sources": [
+        "Genesis 26:15",
+        "Genesis 26:18",
+        "Genesis 31:53",
+        "Genesis 25:19",
+        "1 Chronicles 1:27",
+        "1 Chronicles 1:28",
+        "Genesis 23:12",
+        "Genesis 21:34",
+        "1 Chronicles 1:26",
+        "Genesis 22:11",
+        "Genesis 24:12",
+        "Genesis 11:26",
+        "Genesis 11:27"
+      ],
+      "tools_used": [
+        "search_tanakh",
+        "search_tanakh",
+        "search_tanakh",
+        "lookup_reference"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": true,
+      "fallback": false
+    },
+    {
+      "id": "gen_02",
+      "category": "genealogy",
+      "question": "מי היו שלושת בניו של נח?",
+      "answer": "שלושת בניו של נח הם שם, חם ויפת, כפי שמופיע בדברי הימים א א:ד: \"נֹ֥חַ שֵׁ֖ם חָ֥ם וָיָֽפֶת׃\".",
+      "sources": [
+        "1 Chronicles 1:4",
+        "Nehemiah 11:32",
+        "Job 20:1",
+        "Job 11:1",
+        "Job 26:1"
+      ],
+      "tools_used": [
+        "search_tanakh",
+        "lookup_reference"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": true,
+      "fallback": false
+    },
+    {
+      "id": "gen_03",
+      "category": "genealogy",
+      "question": "מי הייתה אשתו של אברהם?",
+      "answer": "אשתו של אברהם הייתה שרה, כפי שמוזכר בבראשית כה:י: \"השדה אשר־קנה אברהם מאת בני־חת שמה קבר אברהם ושרה אשתו׃\".",
+      "sources": [
+        "Genesis 25:10",
+        "Genesis 20:2",
+        "Genesis 20:17",
+        "Genesis 23:19",
+        "Genesis 25:10-14"
+      ],
+      "tools_used": [
+        "search_tanakh"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": true,
+      "fallback": false
+    },
+    {
+      "id": "fact_01",
+      "category": "factual",
+      "question": "מי הנהיג את עם ישראל ביציאת מצרים?",
+      "answer": "מי שהנהיג את עם ישראל ביציאת מצרים היו משה ואהרון, כפי שנאמר בספר שמות ו:יג: \"וידבר יהוה אל־משה ואל־אהרן ויצום אל־בני ישראל ואל־פרעה מלך מצרים להוציא את־בני־ישראל מארץ מצרים׃\".",
+      "sources": [
+        "Exodus 6:13",
+        "Exodus 1:13",
+        "Exodus 6:11",
+        "Exodus 6:27",
+        "Exodus 14:8"
+      ],
+      "tools_used": [
+        "search_tanakh",
+        "lookup_reference"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": true,
+      "fallback": false
+    },
+    {
+      "id": "fact_02",
+      "category": "factual",
+      "question": "איזה מלך בנה את בית המקדש הראשון?",
+      "answer": "המלך שבנה את בית המקדש הראשון היה שלמה המלך. הדבר מתועד בספר מלכים א פרק ט פסוק י: \"ויהי מקצה עשרים שנה אשר בנה שלמה את שני הבתים את בית יהוה ואת בית המלך\".",
+      "sources": [
+        "2 Chronicles 27:3",
+        "1 Kings 16:32",
+        "1 Kings 8:13",
+        "2 Chronicles 29:3",
+        "2 Kings 15:35",
+        "1 Kings 9:10",
+        "2 Chronicles 8:1",
+        "2 Chronicles 8:1-5",
+        "2 Chronicles 9:3",
+        "1 Kings 10:4"
+      ],
+      "tools_used": [
+        "search_tanakh",
+        "search_tanakh"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": true,
+      "fallback": false
+    },
+    {
+      "id": "fact_03",
+      "category": "factual",
+      "question": "באיזה ספר מסופר על עקידת יצחק?",
+      "answer": "סיפור עקידת יצחק מופיע בספר בראשית, בפרק כ\"ב, פסוקים א'-י\"ט. הנה תמצית הסיפור:\n\nאלוהים מנסה את אברהם ומצווה עליו להעלות את יצחק בנו לעולה על אחד ההרים בארץ המוריה. אברהם מציית, לוקח את יצחק ושני נערים, ויוצא לדרך. ביום השלישי הם מגיעים למקום, ואברהם בונה מזבח, עורך את העצים, ועוקד את יצחק בנו על המזבח. כאשר אברהם שולח את ידו לקחת את המאכלת לשחוט את בנו, מלאך ה' קורא לו מהשמים לעצור. אברהם רואה איל נאחז בסבך ומעלה אותו לעולה תחת יצחק. בעקבות המעשה, אלוהים מברך את אברהם ומבטיח לו שזרעו ירבה ככוכבי השמים וכחול אשר על שפת הים.",
+      "sources": [
+        "1 Chronicles 1:34",
+        "Genesis 25:19",
+        "Genesis 26:6",
+        "1 Chronicles 1:28",
+        "Genesis 24:67",
+        "Genesis 35:28",
+        "Genesis 22:1",
+        "Genesis 22:2",
+        "Genesis 22:3",
+        "Genesis 22:4",
+        "Genesis 22:5",
+        "Genesis 22:6",
+        "Genesis 22:7",
+        "Genesis 22:8",
+        "Genesis 22:9",
+        "Genesis 22:10",
+        "Genesis 22:11",
+        "Genesis 22:12",
+        "Genesis 22:13",
+        "Genesis 22:14",
+        "Genesis 22:15",
+        "Genesis 22:16",
+        "Genesis 22:17",
+        "Genesis 22:18",
+        "Genesis 22:19"
+      ],
+      "tools_used": [
+        "search_tanakh",
+        "search_tanakh",
+        "lookup_reference"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": true,
+      "fallback": false
+    },
+    {
+      "id": "ref_01",
+      "category": "reference",
+      "question": "מה כתוב בבראשית פרק א פסוק א?",
+      "answer": "בבראשית פרק א פסוק א כתוב: בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+      "sources": [
+        "Genesis 1:1"
+      ],
+      "tools_used": [
+        "lookup_reference"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": true,
+      "fallback": false
+    },
+    {
+      "id": "lex_01",
+      "category": "lexical",
+      "question": "איפה כתוב \"נעשה אדם בצלמנו\"?",
+      "answer": "הפסוק \"נעשה אדם בצלמנו\" מופיע בספר בראשית פרק א פסוק כו: \"וַיֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּצַלְמֵ֖נוּ כִּדְמוּתֵ֑נוּ וְיִרְדּוּ֩ בִדְגַ֨ת הַיָּ֜ם וּבְע֣וֹף הַשָּׁמַ֗יִם וּבַבְּהֵמָה֙ וּבְכָל־הָאָ֔רֶץ וּבְכָל־הָרֶ֖מֶשׂ הָֽרֹמֵ֥שׂ עַל־הָאָֽרֶץ׃\"",
+      "sources": [
+        "Genesis 1:26",
+        "Genesis 5:1",
+        "1 Chronicles 1:1",
+        "Psalms 8:5",
+        "Job 7:17"
+      ],
+      "tools_used": [
+        "search_tanakh",
+        "lookup_reference"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": true,
+      "has_sources": true,
+      "fallback": false
+    },
+    {
+      "id": "lex_02",
+      "category": "lexical",
+      "question": "באילו מקומות מוזכרת העיר יריחו?",
+      "answer": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-jxXpzMooR1GWtNI2In0S9Ykd on tokens per min (TPM): Limit 30000, Used 29618, Requested 722. Please try again in 680ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "sources": [],
+      "tools_used": [],
+      "used_expected_tool": false,
+      "answer_pass": false,
+      "has_sources": false,
+      "fallback": false
+    },
+    {
+      "id": "strat_01",
+      "category": "strategy",
+      "question": "השווה איזו אסטרטגיית חיפוש הכי מתאימה לשאלה על העיר יריחו",
+      "answer": "בהשוואת אסטרטגיות החיפוש לשאלה על העיר יריחו, נראה כי החיפוש הלכסיקלי (lexical_only) הוא המתאים ביותר. הוא מצא תוצאות עם ציונים גבוהים יותר, כמו יהושע טז:א, יהושע כד:יא, ומלכים ב ב:ד, בהשוואה לאסטרטגיות החיפוש הדחוס (dense_only) וההיברידי (hybrid).",
+      "sources": [],
+      "tools_used": [
+        "compare_retrieval_strategies"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": null,
+      "has_sources": false,
+      "fallback": false
+    },
+    {
+      "id": "multi_01",
+      "category": "multi_turn",
+      "question": "וכמה שנים הוא חי?",
+      "answer": "תרח חי מאתיים וחמש שנים, כפי שנאמר בבראשית יא:לב: \"וַיִּֽהְי֣וּ יְמֵי־תֶ֔רַח חָמֵ֥שׁ שָׁנִ֖ים וּמָאתַ֣יִם שָׁנָ֑ה וַיָּ֥מָת תֶּ֖רַח בְּחָרָֽן׃\".",
+      "sources": [
+        "Genesis 11:32",
+        "Genesis 11:24",
+        "Genesis 11:28-32",
+        "Genesis 11:25-29",
+        "Genesis 25:7"
+      ],
+      "tools_used": [
+        "search_tanakh",
+        "lookup_reference"
+      ],
+      "used_expected_tool": true,
+      "answer_pass": false,
+      "has_sources": true,
+      "fallback": false
+    },
+    {
+      "id": "multi_02",
+      "category": "multi_turn",
+      "question": "וכמה פרקים יש בו?",
+      "answer": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-jxXpzMooR1GWtNI2In0S9Ykd on tokens per min (TPM): Limit 30000, Used 29571, Requested 486. Please try again in 114ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "sources": [],
+      "tools_used": [],
+      "used_expected_tool": false,
+      "answer_pass": false,
+      "has_sources": false,
+      "fallback": false
     }
   ]
 }
