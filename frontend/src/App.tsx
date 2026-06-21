@@ -3,11 +3,12 @@ import { Eye, EyeOff, Github, GraduationCap, X, Loader2, BookOpen } from 'lucide
 import * as api from './api';
 import { RETRIEVAL_STRATEGIES, COMPARISON_EXAMPLES } from './constants';
 import EvaluationDashboard from './components/EvaluationDashboard';
+import ChatView from './components/ChatView';
 import './styles.css';
 
 function App() {
   const [isAuth, setIsAuth] = useState(api.isAuthenticated());
-  const [currentView, setCurrentView] = useState<'qa' | 'eval'>('qa');
+  const [currentView, setCurrentView] = useState<'qa' | 'eval' | 'agent'>('qa');
   const [password, setPassword] = useState('');
   const [question, setQuestion] = useState('');
   const [strategy, setStrategy] = useState('hybrid');
@@ -119,6 +120,12 @@ function App() {
               className={currentView === 'qa' ? 'active' : ''}
             >
               שאלות ותשובות
+            </button>
+            <button
+              onClick={() => setCurrentView('agent')}
+              className={currentView === 'agent' ? 'active' : ''}
+            >
+              חברותא 🤖
             </button>
             <button
               onClick={() => setCurrentView('eval')}
@@ -327,6 +334,8 @@ function App() {
             </>
           )}
         </>
+      ) : currentView === 'agent' ? (
+        <ChatView />
       ) : (
         <EvaluationDashboard />
       )}

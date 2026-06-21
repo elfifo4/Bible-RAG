@@ -174,6 +174,34 @@ export const compare = async (
   return response.data;
 };
 
+// --- Agent ("חברותא") chat ---
+
+export interface ChatMessage {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
+export interface TraceStep {
+  step: number;
+  type: 'tool_call' | 'final_answer' | 'fallback';
+  tool: string | null;
+  label: string;
+  args: Record<string, any> | null;
+  summary: string;
+  confidence: 'high' | 'medium' | 'low';
+}
+
+export interface ChatResponse {
+  answer: string;
+  sources: string[];
+  trace: TraceStep[];
+}
+
+export const chat = async (messages: ChatMessage[]): Promise<ChatResponse> => {
+  const response = await api.post('/api/chat', { messages });
+  return response.data;
+};
+
 export const login = async (password: string): Promise<string> => {
   const response = await api.post('/api/login', { password });
   const { access_token } = response.data;
