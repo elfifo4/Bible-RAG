@@ -1,0 +1,67 @@
+{
+  "summary": {
+    "mode": "tools_only",
+    "subset": "structural",
+    "count": 8,
+    "passed": 8,
+    "accuracy": 1.0
+  },
+  "results": [
+    {
+      "id": "struct_01",
+      "question": "מה הספר הכי ארוך בתנ״ך?",
+      "expected": "תהילים",
+      "actual": "תהילים",
+      "pass": true
+    },
+    {
+      "id": "struct_02",
+      "question": "מה הספר הכי קצר בתנ״ך?",
+      "expected": "עובדיה",
+      "actual": "עובדיה",
+      "pass": true
+    },
+    {
+      "id": "struct_03",
+      "question": "כמה ספרים יש בתנ״ך?",
+      "expected": 39,
+      "actual": 39,
+      "pass": true
+    },
+    {
+      "id": "struct_04",
+      "question": "כמה פרקים יש בסך הכול בתנ״ך?",
+      "expected": 929,
+      "actual": 929,
+      "pass": true
+    },
+    {
+      "id": "struct_05",
+      "question": "כמה פרקים יש בספר תהילים?",
+      "expected": 150,
+      "actual": 150,
+      "pass": true
+    },
+    {
+      "id": "struct_06",
+      "question": "כמה פרקים יש בספר בראשית?",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "id": "struct_07",
+      "question": "כמה פרקים יש בספר ישעיהו?",
+      "expected": 66,
+      "actual": 66,
+      "pass": true
+    },
+    {
+      "id": "struct_08",
+      "question": "באיזה מספר בסדר הספרים נמצא ספר ישעיהו?",
+      "expected": 12,
+      "actual": 12,
+      "pass": true
+    }
+  ]
+}
