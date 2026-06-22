@@ -348,8 +348,13 @@ class BibleAgent:
 
         # Use Dicta's highlighted verse (keeps <b> around the number words) when present.
         lines = "\n".join(f"• {r['ref']}: {r.get('highlight') or r['text']}" for r in results)
-        answer = (f"נמצאו {total} פסוקים בתנ״ך שבהם מופיע המספר {number} (בכתיב מילולי). "
-                  f"הנה {len(results)} הראשונים (מקור: Dicta):\n{lines}")
+        if total == 1:
+            header = (f"נמצא פסוק אחד בתנ״ך שבו מופיע המספר {number} (בכתיב מילולי). "
+                      f"הנה הוא (מקור: Dicta):")
+        else:
+            header = (f"נמצאו {total} פסוקים בתנ״ך שבהם מופיע המספר {number} (בכתיב מילולי). "
+                      f"הנה {len(results)} הראשונים (מקור: Dicta):")
+        answer = f"{header}\n{lines}"
         trace = [
             {"step": 1, "type": "tool_call", "tool": "search_number", "label": TOOL_LABELS["search_number"],
              "args": {"number": number}, "summary": meta["summary"], "confidence": "high"},
