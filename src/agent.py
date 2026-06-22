@@ -54,7 +54,7 @@ You answer questions by USING TOOLS — you never rely on outside knowledge or i
 You have these tools:
 - search_tanakh: semantic / lexical / hybrid search over the Tanakh verses. Use it for content questions ("who/what/where/when did...").
 - lookup_reference: fetch the exact text of a specific Book Chapter:Verse (or a small range). Use it to verify or quote a verse precisely.
-- bible_structure: answer STRUCTURAL questions about the Tanakh from its catalog (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters). Use this — do NOT search verses — for "how many books / which book is longest / what is the order" style questions.
+- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, and the longest WORD in the Tanakh). Use this — do NOT search verses — for "how many books / which book is longest / what is the order / what is the longest word" style questions.
 - compare_retrieval_strategies: run dense, lexical and hybrid retrieval on the same query and compare, when it is useful to understand which strategy fits.
 
 RULES:
@@ -70,6 +70,15 @@ RULES:
 
 def _is_hebrew(text: str) -> bool:
     return any("֐" <= c <= "׿" for c in text)
+
+
+def _hebrew_letter_count(token: str) -> int:
+    return sum(1 for ch in token if "א" <= ch <= "ת")
+
+
+def _clean_display_word(word: str) -> str:
+    # Drop surrounding punctuation (parens/brackets for qere-ketiv, sof pasuk, maqaf).
+    return word.strip("()[]׃־ ").strip()
 
 
 class BibleAgent:
@@ -94,12 +103,17 @@ class BibleAgent:
 
     # ------------------------------------------------------------------ setup
     def _build_lookup_maps(self):
-        """Build a (book, chapter, verse) -> verse dict map for lookup_reference."""
+        """Build a (book, chapter, verse) -> verse dict map for lookup_reference,
+        and — in the same single pass — compute the longest word in the corpus once
+        (cached in self._longest_word; never recomputed per request)."""
         for he, info in BOOK_MAPPING.items():
             self._en_to_he[info["en"].lower()] = he
+        self._longest_word: Optional[Dict[str, Any]] = None
         if not ALL_VERSES_JSONL.exists():
             logger.warning(f"{ALL_VERSES_JSONL} not found — lookup_reference disabled.")
             return
+        max_len = 0
+        longest: Dict[str, str] = {}  # display word (niqqud) -> first ref at max_len
         with open(ALL_VERSES_JSONL, "r", encoding="utf-8") as f:
             for line in f:
                 if not line.strip():
@@ -107,6 +121,28 @@ class BibleAgent:
                 v = json.loads(line)
                 key = f"{v['book']}|{v['chapter']}|{v['verse']}"
                 self._verses_by_key[key] = v
+
+                # Longest-word scan (same pass): count Hebrew letters per plain token,
+                # keep the parallel niqqud form for display.
+                plain = v["text_plain"].split()
+                niq = v["text_with_niqqud"].split()
+                if len(plain) != len(niq):
+                    continue
+                for pw, nw in zip(plain, niq):
+                    L = _hebrew_letter_count(pw)
+                    if L == 0 or L < max_len:
+                        continue
+                    disp = _clean_display_word(nw)
+                    if L > max_len:
+                        max_len, longest = L, {disp: v["ref"]}
+                    elif disp not in longest:
+                        longest[disp] = v["ref"]
+
+        if max_len > 0:
+            self._longest_word = {
+                "length": max_len,
+                "words": [{"word": w, "ref": r} for w, r in list(longest.items())[:5]],
+            }
         logger.info(f"Agent lookup map: {len(self._verses_by_key)} verses indexed.")
 
     def _normalize_book(self, book: str) -> Optional[str]:
@@ -159,7 +195,7 @@ class BibleAgent:
                 "type": "function",
                 "function": {
                     "name": "bible_structure",
-                    "description": "Answer structural questions about the Tanakh from its catalog (no verse search).",
+                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, and the longest WORD in the Tanakh.",
                     "parameters": {
                         "type": "object",
                         "properties": {
@@ -172,6 +208,7 @@ class BibleAgent:
                                     "book_order",
                                     "book_count",
                                     "total_chapters",
+                                    "longest_word",
                                 ],
                             },
                             "book": {"type": "string", "description": "Book name (needed for book_chapter_count / book_order)."},
@@ -268,6 +305,10 @@ class BibleAgent:
             if he and info:
                 return {"book": he, "position": info["index"], "of": len(catalog)}
             return {"order": [b["hebrew"] for b in catalog]}
+        if query_type == "longest_word":
+            if not getattr(self, "_longest_word", None):
+                return {"error": "נתוני הפסוקים אינם זמינים לחישוב המילה הארוכה ביותר."}
+            return dict(self._longest_word)
         return {"error": f"Unknown query_type: {query_type}"}
 
     def _tool_compare_retrieval_strategies(self, query: str) -> Dict[str, Any]:
@@ -319,6 +360,10 @@ class BibleAgent:
         if name == "bible_structure":
             if result.get("error"):
                 return {"summary": result["error"], "confidence": "low"}
+            if "length" in result:  # longest_word
+                k = len(result.get("words", []))
+                cnt = "מילה אחת" if k == 1 else f"{k} מילים"
+                return {"summary": f"המילה הארוכה ביותר: {result['length']} אותיות ({cnt}).", "confidence": "high"}
             if "chapters" in result:
                 return {"summary": f"{result.get('book', '')}: {result['chapters']} פרקים.", "confidence": "high"}
             if "answer" in result:
