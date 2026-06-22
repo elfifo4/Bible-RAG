@@ -17,7 +17,9 @@ import json
 import re
 import urllib.request
 import urllib.error
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Tuple
+
+from .constants import BOOK_MAPPING
 
 DICTA_SEARCH_URL = "https://tanach-search-3-4c.loadbalancer.dicta.org.il/search"
 _TIMEOUT = 8  # seconds
@@ -45,6 +47,33 @@ def _strip_tags(text: str) -> str:
     return re.sub(r"<[^>]+>", "", text or "").strip()
 
 
+def _canonical_key(hit: Dict[str, Any]) -> Tuple[int, int, int]:
+    """Sort key for canonical Tanakh order: (book index 1-39, chapter, verse).
+
+    Book index comes from the Hebrew book name in hebrewPath (via BOOK_MAPPING);
+    chapter/verse are the trailing numeric segments of xmlId (e.g.
+    'Tanakh.Writings.Esther.8.9' -> chapter 8, verse 9). Unknown -> sorts last.
+    """
+    book = ""
+    for seg in hit.get("hebrewPath", "").split("/"):
+        seg = seg.strip()
+        if seg.startswith("ספר "):
+            book = seg[len("ספר "):].strip()
+            break
+    book_index = BOOK_MAPPING.get(book, {}).get("index", 999)
+
+    nums: List[int] = []
+    for seg in reversed(hit.get("xmlId", "").split(".")):
+        if seg.isdigit():
+            nums.append(int(seg))
+        else:
+            break
+    nums.reverse()  # [chapter, verse?]
+    chapter = nums[0] if nums else 0
+    verse = nums[1] if len(nums) > 1 else 0
+    return (book_index, chapter, verse)
+
+
 def search_number(number: str, size: int = 5) -> Dict[str, Any]:
     """
     Query Dicta for verses containing `number` (spelled out in Hebrew).
@@ -64,8 +93,11 @@ def search_number(number: str, size: int = 5) -> Dict[str, Any]:
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, ValueError) as e:
         return {"number": number, "total": 0, "results": [], "error": str(e)}
 
+    # Dicta returns hits by relevance/pagerank; reorder to canonical Tanakh order.
+    hits = sorted(data.get("hits", []), key=_canonical_key)
+
     results: List[Dict[str, Any]] = []
-    for hit in data.get("hits", []):
+    for hit in hits:
         highlight = hit.get("highlight") or []
         raw = highlight[0]["text"] if highlight else ""
         results.append({
