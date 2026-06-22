@@ -54,7 +54,7 @@ You answer questions by USING TOOLS — you never rely on outside knowledge or i
 You have these tools:
 - search_tanakh: semantic / lexical / hybrid search over the Tanakh verses. Use it for content questions ("who/what/where/when did...").
 - lookup_reference: fetch the exact text of a specific Book Chapter:Verse (or a small range). Use it to verify or quote a verse precisely.
-- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, and the longest WORD in the Tanakh). Use this — do NOT search verses — for "how many books / which book is longest / what is the order / what is the longest word" style questions.
+- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, the longest WORD, and the word with the highest GEMATRIA value). Use this — do NOT search verses — for "how many books / which book is longest / what is the order / what is the longest word / which word has the highest gematria" style questions.
 - compare_retrieval_strategies: run dense, lexical and hybrid retrieval on the same query and compare, when it is useful to understand which strategy fits.
 
 RULES:
@@ -74,6 +74,19 @@ def _is_hebrew(text: str) -> bool:
 
 def _hebrew_letter_count(token: str) -> int:
     return sum(1 for ch in token if "א" <= ch <= "ת")
+
+
+# Standard gematria (mispar hechrachi); final letters equal their regular form.
+_GEMATRIA = {
+    "א": 1, "ב": 2, "ג": 3, "ד": 4, "ה": 5, "ו": 6, "ז": 7, "ח": 8, "ט": 9,
+    "י": 10, "כ": 20, "ך": 20, "ל": 30, "מ": 40, "ם": 40, "נ": 50, "ן": 50,
+    "ס": 60, "ע": 70, "פ": 80, "ף": 80, "צ": 90, "ץ": 90,
+    "ק": 100, "ר": 200, "ש": 300, "ת": 400,
+}
+
+
+def _gematria_value(token: str) -> int:
+    return sum(_GEMATRIA.get(ch, 0) for ch in token)
 
 
 def _clean_display_word(word: str) -> str:
@@ -104,16 +117,19 @@ class BibleAgent:
     # ------------------------------------------------------------------ setup
     def _build_lookup_maps(self):
         """Build a (book, chapter, verse) -> verse dict map for lookup_reference,
-        and — in the same single pass — compute the longest word in the corpus once
-        (cached in self._longest_word; never recomputed per request)."""
+        and — in the same single pass — compute corpus statistics once (longest
+        word, highest-gematria word), cached and never recomputed per request."""
         for he, info in BOOK_MAPPING.items():
             self._en_to_he[info["en"].lower()] = he
         self._longest_word: Optional[Dict[str, Any]] = None
+        self._highest_gematria: Optional[Dict[str, Any]] = None
         if not ALL_VERSES_JSONL.exists():
             logger.warning(f"{ALL_VERSES_JSONL} not found — lookup_reference disabled.")
             return
         max_len = 0
         longest: Dict[str, str] = {}  # display word (niqqud) -> first ref at max_len
+        max_gem = 0
+        highest_gem: Dict[str, tuple] = {}  # plain word -> (display niqqud, first ref) at max_gem
         with open(ALL_VERSES_JSONL, "r", encoding="utf-8") as f:
             for line in f:
                 if not line.strip():
@@ -129,19 +145,34 @@ class BibleAgent:
                 if len(plain) != len(niq):
                     continue
                 for pw, nw in zip(plain, niq):
+                    disp = None
+                    # Longest word — by Hebrew-letter count.
                     L = _hebrew_letter_count(pw)
-                    if L == 0 or L < max_len:
-                        continue
-                    disp = _clean_display_word(nw)
-                    if L > max_len:
-                        max_len, longest = L, {disp: v["ref"]}
-                    elif disp not in longest:
-                        longest[disp] = v["ref"]
+                    if L >= max_len and L > 0:
+                        disp = _clean_display_word(nw)
+                        if L > max_len:
+                            max_len, longest = L, {disp: v["ref"]}
+                        elif disp not in longest:
+                            longest[disp] = v["ref"]
+                    # Highest gematria — by summed letter value (dedupe by consonants).
+                    g = _gematria_value(pw)
+                    if g >= max_gem and g > 0:
+                        if disp is None:
+                            disp = _clean_display_word(nw)
+                        if g > max_gem:
+                            max_gem, highest_gem = g, {pw: (disp, v["ref"])}
+                        elif pw not in highest_gem:
+                            highest_gem[pw] = (disp, v["ref"])
 
         if max_len > 0:
             self._longest_word = {
                 "length": max_len,
                 "words": [{"word": w, "ref": r} for w, r in list(longest.items())[:5]],
+            }
+        if max_gem > 0:
+            self._highest_gematria = {
+                "value": max_gem,
+                "words": [{"word": d, "ref": r} for (d, r) in list(highest_gem.values())[:5]],
             }
         logger.info(f"Agent lookup map: {len(self._verses_by_key)} verses indexed.")
 
@@ -195,7 +226,7 @@ class BibleAgent:
                 "type": "function",
                 "function": {
                     "name": "bible_structure",
-                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, and the longest WORD in the Tanakh.",
+                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, the longest WORD, and the word with the highest GEMATRIA value in the Tanakh.",
                     "parameters": {
                         "type": "object",
                         "properties": {
@@ -209,6 +240,7 @@ class BibleAgent:
                                     "book_count",
                                     "total_chapters",
                                     "longest_word",
+                                    "highest_gematria",
                                 ],
                             },
                             "book": {"type": "string", "description": "Book name (needed for book_chapter_count / book_order)."},
@@ -309,6 +341,10 @@ class BibleAgent:
             if not getattr(self, "_longest_word", None):
                 return {"error": "נתוני הפסוקים אינם זמינים לחישוב המילה הארוכה ביותר."}
             return dict(self._longest_word)
+        if query_type == "highest_gematria":
+            if not getattr(self, "_highest_gematria", None):
+                return {"error": "נתוני הפסוקים אינם זמינים לחישוב הערך הגימטרי הגבוה ביותר."}
+            return dict(self._highest_gematria)
         return {"error": f"Unknown query_type: {query_type}"}
 
     def _tool_compare_retrieval_strategies(self, query: str) -> Dict[str, Any]:
@@ -364,6 +400,10 @@ class BibleAgent:
                 k = len(result.get("words", []))
                 cnt = "מילה אחת" if k == 1 else f"{k} מילים"
                 return {"summary": f"המילה הארוכה ביותר: {result['length']} אותיות ({cnt}).", "confidence": "high"}
+            if "value" in result:  # highest_gematria
+                k = len(result.get("words", []))
+                cnt = "מילה אחת" if k == 1 else f"{k} מילים"
+                return {"summary": f"הערך הגימטרי הגבוה ביותר: {result['value']} ({cnt}).", "confidence": "high"}
             if "chapters" in result:
                 return {"summary": f"{result.get('book', '')}: {result['chapters']} פרקים.", "confidence": "high"}
             if "answer" in result:
