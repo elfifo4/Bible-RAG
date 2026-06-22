@@ -41,6 +41,13 @@ FALLBACK_MESSAGE = (
     "לא נמצא מקור מספיק מהימן בתנ״ך כדי לענות על השאלה הזו."
 )
 
+# Appended to answers that came from the model's general knowledge (no tool used),
+# to stay transparent and point the user elsewhere for a fuller explanation.
+GENERAL_KNOWLEDGE_NOTE = (
+    "\n\n(זו אינה שאלה על טקסט התנ״ך, אז השבתי בקצרה. "
+    "להרחבה מלאה מומלץ לפנות לכלי AI כללי כמו ChatGPT.)"
+)
+
 SYSTEM_PROMPT = """You are "חברותא", an expert, careful study companion for the Hebrew Bible (Tanakh).
 You answer questions by USING TOOLS — you never rely on outside knowledge or invent verses.
 
@@ -57,6 +64,7 @@ RULES:
 4. When quoting a full Hebrew verse, append the Sof Pasuk (׃) at the end of the quoted text.
 5. Answer in the same language as the question (Hebrew or English).
 6. If after searching you still cannot find a reliable source, say so clearly — respond with: "{fallback}". Do NOT fabricate.
+7. If the question is NOT about the Tanakh text (a general concept, your capabilities, or off-topic small-talk), answer in AT MOST 1–2 short sentences. Do NOT write a long explanation or essay.
 """.format(fallback=FALLBACK_MESSAGE)
 
 
@@ -400,16 +408,20 @@ class BibleAgent:
                 # Final answer from the model.
                 answer = msg.content or ""
                 is_fallback = (FALLBACK_MESSAGE[:20] in answer) or (not collected_sources and "לא נמצא" in answer)
+                used_tool = any(s["type"] == "tool_call" for s in trace)
                 step += 1
-                trace.append({
-                    "step": step,
-                    "type": "fallback" if is_fallback else "final_answer",
-                    "tool": None,
-                    "label": "תשובה סופית" if not is_fallback else "אין מקור מהימן",
-                    "args": None,
-                    "summary": "התשובה נבנתה על בסיס המקורות שנשלפו." if not is_fallback else "הסוכן לא מצא מקור מספיק מהימן.",
-                    "confidence": "high" if not is_fallback else "low",
-                })
+                if is_fallback:
+                    trace_step = {"type": "fallback", "label": "אין מקור מהימן",
+                                  "summary": "הסוכן לא מצא מקור מספיק מהימן.", "confidence": "low"}
+                elif used_tool:
+                    trace_step = {"type": "final_answer", "label": "תשובה סופית",
+                                  "summary": "התשובה נבנתה על בסיס הכלים והמקורות שנאספו.", "confidence": "high"}
+                else:
+                    # The model answered from its own general knowledge — be transparent.
+                    answer += GENERAL_KNOWLEDGE_NOTE
+                    trace_step = {"type": "final_answer", "label": "תשובה כללית (ללא מקור מהתנ״ך)",
+                                  "summary": "נענה ממידע כללי של המודל — לא מטקסט התנ״ך.", "confidence": "medium"}
+                trace.append({"step": step, "tool": None, "args": None, **trace_step})
                 return {"answer": answer, "sources": _dedupe(collected_sources), "trace": trace}
 
             # Append the assistant turn that requested tools.
