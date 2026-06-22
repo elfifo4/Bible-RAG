@@ -32,7 +32,7 @@ MAX_ITERATIONS = 5
 TOOL_LABELS = {
     "search_tanakh": "חיפוש בתנ״ך",
     "lookup_reference": "שליפת מראה מקום",
-    "bible_structure": "שאלת מבנה",
+    "bible_structure": "מבנה וסטטיסטיקה",
     "compare_retrieval_strategies": "השוואת אסטרטגיות",
     "search_number": "חיפוש מספר (Dicta)",
 }

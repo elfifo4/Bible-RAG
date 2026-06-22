@@ -5,7 +5,7 @@ import { TraceStep } from '../api';
 const TOOL_INFO: Record<string, { icon: string; desc: string }> = {
   search_tanakh: { icon: '🔍', desc: 'חיפוש סמנטי/מילולי/היברידי בתוך פסוקי התנ״ך' },
   lookup_reference: { icon: '📖', desc: 'שליפה מדויקת לפי ספר, פרק ופסוק' },
-  bible_structure: { icon: '📚', desc: 'תשובות לשאלות מבניות על ספרי התנ״ך, מספר פרקים וסדר הספרים' },
+  bible_structure: { icon: '📚', desc: 'תשובות לשאלות מבניות וסטטיסטיות על התנ״ך — מספר ספרים/פרקים, סדר הספרים, המילה הארוכה ביותר והערך הגימטרי הגבוה ביותר' },
   compare_retrieval_strategies: { icon: '⚖️', desc: 'השוואה בין dense, lexical ו-hybrid כדי להבין איזו אסטרטגיה מתאימה' },
   search_number: { icon: '🔢', desc: 'חיפוש מספר (בכתיב מילולי) בפסוקי התנ״ך דרך מנוע החיפוש של Dicta' },
 };
