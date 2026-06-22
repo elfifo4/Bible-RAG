@@ -51,7 +51,9 @@ const AgentTrace: React.FC<Props> = ({ trace, presentationMode }) => {
     <div className={`agent-trace ${presentationMode ? 'presentation' : ''}`}>
       {!presentationMode && (
         <button className="trace-toggle" onClick={() => setOpen(!open)}>
-          {open ? 'הסתר את צעדי הסוכן' : `הצג את צעדי הסוכן (${toolSteps} כלים)`}
+          {open
+            ? 'הסתר את צעדי הסוכן'
+            : `הצג את צעדי הסוכן (${toolSteps === 1 ? 'כלי אחד' : `${toolSteps} כלים`})`}
         </button>
       )}
 
