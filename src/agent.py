@@ -14,6 +14,7 @@ Design goals (final project):
 """
 
 import json
+import re
 from typing import Any, Dict, List, Optional
 
 from .config import ALL_VERSES_JSONL, LLM_MODEL_NAME, OPENAI_API_KEY
@@ -97,6 +98,14 @@ def _clean_display_word(word: str) -> str:
     return word.strip("()[]׃־ ").strip()
 
 
+def _resolve_keri_ketiv(text: str) -> str:
+    """Collapse a ketiv/qere pair to ONE word: drop the bare ketiv (no niqqud) and
+    keep the qere (the parenthesized, vocalized form), unwrapped — e.g.
+    'ויצוהו (וַיְצַוֶּה) המלך' -> 'וַיְצַוֶּה המלך'. The qere may itself be several
+    words (e.g. 'בגד (בָּא גָד)' -> 'בָּא גָד'). Used for verse word counting."""
+    return re.sub(r"[^\s־]+\s+\(([^)]+)\)", r"\1", text)
+
+
 class BibleAgent:
     def __init__(self, retriever, client=None):
         """
@@ -142,9 +151,10 @@ class BibleAgent:
                 key = f"{v['book']}|{v['chapter']}|{v['verse']}"
                 self._verses_by_key[key] = v
 
-                # Index verses by word count. Use text_plain, where maqaf (־) is a
-                # space, so maqaf-joined words count SEPARATELY. Built for every verse.
-                self._verses_by_word_count.setdefault(len(v["text_plain"].split()), []).append(key)
+                # Index verses by word count. Use text_plain (maqaf (־) is a space,
+                # so maqaf-joined words count SEPARATELY) after collapsing ketiv/qere
+                # to one word. Built for every verse.
+                self._verses_by_word_count.setdefault(len(_resolve_keri_ketiv(v["text_plain"]).split()), []).append(key)
 
                 # Longest-word scan (same pass): count Hebrew letters per plain token,
                 # keep the parallel niqqud form for display.
@@ -369,7 +379,10 @@ class BibleAgent:
             for k in keys[:3]:
                 e = self._verses_by_key.get(k)
                 if e:
-                    examples.append({"ref": e["ref"], "ref_en": e["ref_en"], "text": e["text_original"]})
+                    # Resolve ketiv/qere so the displayed (and numbered) words match
+                    # the count: show the qere (niqqud) form, drop the bare ketiv.
+                    examples.append({"ref": e["ref"], "ref_en": e["ref_en"],
+                                     "text": _resolve_keri_ketiv(e["text_original"])})
             return {"word_count": n, "total": len(keys), "at_least": at_least, "verses": examples}
         return {"error": f"Unknown query_type: {query_type}"}
 

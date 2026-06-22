@@ -5,7 +5,11 @@ import { NumberedVerse as Verse } from '../api';
 // Splits on whitespace AND maqaf (־, U+05BE), matching how the backend counts
 // words, so maqaf-joined words are numbered separately.
 const NumberedVerse: React.FC<{ verse: Verse }> = ({ verse }) => {
-  const words = verse.text.split(/[\s־]+/).filter(Boolean);
+  // Backend already collapses ketiv/qere; strip any stray parentheses defensively.
+  const words = verse.text
+    .split(/[\s־]+/)
+    .map((w) => w.replace(/[()[\]]/g, ''))
+    .filter(Boolean);
   return (
     <div className="numbered-verse rtl">
       <div className="nv-ref">
