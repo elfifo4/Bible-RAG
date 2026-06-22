@@ -2,6 +2,7 @@ import os
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -136,6 +137,24 @@ async def chat(request: ChatRequest, user_id: str = Depends(get_current_user)):
     except Exception as e:
         print(f"Error in chat: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/chat/stream")
+async def chat_stream(request: ChatRequest, user_id: str = Depends(get_current_user)):
+    """Stream the agent's steps as they happen (NDJSON: one JSON event per line).
+    Each line is {"type":"step","step":{...}} or {"type":"done",...} or
+    {"type":"error","detail":...}."""
+    agent: BibleAgent = rag_app["agent"]
+    messages = [{"role": m.role, "content": m.content} for m in request.messages]
+
+    def event_stream():
+        try:
+            for ev in agent.stream(messages):
+                yield json.dumps(ev, ensure_ascii=False) + "\n"
+        except Exception as e:
+            print(f"Error in chat_stream: {e}")
+            yield json.dumps({"type": "error", "detail": str(e)}, ensure_ascii=False) + "\n"
+
+    return StreamingResponse(event_stream(), media_type="application/x-ndjson")
 
 @app.get("/api/eval/summary", response_model=EvalSummaryResponse)
 async def get_eval_summary(user_id: str = Depends(get_current_user)):

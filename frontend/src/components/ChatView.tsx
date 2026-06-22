@@ -66,11 +66,12 @@ const ChatView: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [presentationMode, setPresentationMode] = useState(false);
+  const [liveSteps, setLiveSteps] = useState<api.TraceStep[]>([]);
   const endRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     endRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [turns, loading]);
+  }, [turns, loading, liveSteps]);
 
   const send = async (text: string) => {
     const question = text.trim();
@@ -81,15 +82,22 @@ const ChatView: React.FC = () => {
     setInput('');
     setLoading(true);
     setError(null);
+    setLiveSteps([]);
 
     try {
       // Send the full conversation history (backend trims to last N).
       const history: api.ChatMessage[] = nextTurns.map((t) => ({ role: t.role, content: t.content }));
-      const res = await api.chat(history);
-      setTurns([...nextTurns, { role: 'assistant', content: res.answer, trace: res.trace, sources: res.sources, verses: res.verses }]);
+      // Stream the agent's steps live, accumulating them as they arrive.
+      const steps: api.TraceStep[] = [];
+      const res = await api.chatStream(history, (step) => {
+        steps.push(step);
+        setLiveSteps([...steps]);
+      });
+      setTurns([...nextTurns, { role: 'assistant', content: res.answer, trace: steps, sources: res.sources, verses: res.verses }]);
     } catch (err: any) {
-      setError(err.response?.data?.detail || 'אירעה שגיאה בעת פניית הסוכן');
+      setError(err.response?.data?.detail || err.message || 'אירעה שגיאה בעת פניית הסוכן');
     } finally {
+      setLiveSteps([]);
       setLoading(false);
     }
   };
@@ -159,9 +167,14 @@ const ChatView: React.FC = () => {
         ))}
 
         {loading && (
-          <div className="loading">
-            <Loader2 className="spinner" size={28} style={{ marginBottom: '0.75rem' }} />
-            <div>הסוכן בוחר כלים ומחפש במקורות...</div>
+          <div className="chat-bubble assistant chat-live">
+            {liveSteps.length > 0 && (
+              <AgentTrace trace={liveSteps} presentationMode={presentationMode} forceOpen />
+            )}
+            <div className="loading loading-inline">
+              <Loader2 className="spinner" size={22} />
+              <span>{liveSteps.length > 0 ? 'הסוכן ממשיך...' : 'הסוכן בוחר כלים ומחפש במקורות...'}</span>
+            </div>
           </div>
         )}
         <div ref={endRef} />

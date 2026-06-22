@@ -451,8 +451,8 @@ class BibleAgent:
                         return {"summary": f"אין פסוק עם בדיוק {n} מילים, אך קיימים פסוקים ארוכים יותר.", "confidence": "medium"}
                     return {"summary": f"אין פסוק עם {n} מילים או יותר.", "confidence": "medium"}
                 ex = result["verses"][0]["ref"] if result.get("verses") else "—"
-                noun = "פסוק אחד" if total == 1 else f"{total} פסוקים"
-                return {"summary": f"נמצאו {noun} עם {n} מילים. דוגמה: {ex}.", "confidence": "high"}
+                found = "נמצא פסוק אחד" if total == 1 else f"נמצאו {total} פסוקים"
+                return {"summary": f"{found} עם {n} מילים. דוגמה: {ex}.", "confidence": "high"}
             if "chapters" in result:
                 return {"summary": f"{result.get('book', '')}: {result['chapters']} פרקים.", "confidence": "high"}
             if "answer" in result:
@@ -512,9 +512,22 @@ class BibleAgent:
 
     # ------------------------------------------------------------------ loop
     def chat(self, messages: List[Dict[str, str]], strategy_hint: Optional[str] = None) -> Dict[str, Any]:
-        """
-        messages: conversation history [{role, content}, ...].
-        Returns {answer, sources, trace}.
+        """Run the agent and return the full {answer, sources, trace, verses}.
+        Implemented by draining stream() so behavior matches the streaming path."""
+        trace: List[Dict[str, Any]] = []
+        done: Dict[str, Any] = {"answer": "", "sources": [], "verses": []}
+        for ev in self.stream(messages):
+            if ev["type"] == "step":
+                trace.append(ev["step"])
+            elif ev["type"] == "done":
+                done = ev
+        return {"answer": done["answer"], "sources": done["sources"], "trace": trace, "verses": done.get("verses", [])}
+
+    def stream(self, messages: List[Dict[str, str]]):
+        """Generator that yields the agent's progress as it happens:
+          {"type": "step", "step": <trace step>}   — one per step, in order
+          {"type": "done", "answer", "sources", "verses"}  — final result
+        Used by the /api/chat/stream endpoint to show steps live; chat() drains it.
         """
         # Keep only the last N turns of plain chat history.
         history = [m for m in messages if m.get("role") in ("user", "assistant")][-MAX_HISTORY_MESSAGES:]
@@ -523,7 +536,12 @@ class BibleAgent:
         # Deterministic short-circuit: a PURE NUMBER goes straight to Dicta number
         # search — no LLM call (saves tokens), still produces a trace for the UI.
         if last_user.strip().isdigit():
-            return self._number_shortcircuit(last_user.strip())
+            result = self._number_shortcircuit(last_user.strip())
+            for s in result["trace"]:
+                yield {"type": "step", "step": s}
+            yield {"type": "done", "answer": result["answer"],
+                   "sources": result["sources"], "verses": result.get("verses", [])}
+            return
 
         convo: List[Dict[str, Any]] = [{"role": "system", "content": SYSTEM_PROMPT}] + history
 
@@ -561,8 +579,12 @@ class BibleAgent:
                     answer += GENERAL_KNOWLEDGE_NOTE
                     trace_step = {"type": "final_answer", "label": "תשובה כללית (ללא מקור מהתנ״ך)",
                                   "summary": "נענה ממידע כללי של המודל — לא מטקסט התנ״ך.", "confidence": "medium"}
-                trace.append({"step": step, "tool": None, "args": None, **trace_step})
-                return {"answer": answer, "sources": _dedupe(collected_sources), "trace": trace, "verses": wordcount_verses}
+                final_step = {"step": step, "tool": None, "args": None, **trace_step}
+                trace.append(final_step)
+                yield {"type": "step", "step": final_step}
+                yield {"type": "done", "answer": answer,
+                       "sources": _dedupe(collected_sources), "verses": wordcount_verses}
+                return
 
             # Append the assistant turn that requested tools.
             convo.append({
@@ -600,7 +622,7 @@ class BibleAgent:
 
                 meta = self._summarize(name, result)
                 step += 1
-                trace.append({
+                ts = {
                     "step": step,
                     "type": "tool_call",
                     "tool": name,
@@ -608,7 +630,9 @@ class BibleAgent:
                     "args": args,
                     "summary": meta["summary"],
                     "confidence": meta["confidence"],
-                })
+                }
+                trace.append(ts)
+                yield {"type": "step", "step": ts}
 
                 convo.append({
                     "role": "tool",
@@ -629,7 +653,7 @@ class BibleAgent:
         answer = final.choices[0].message.content or FALLBACK_MESSAGE
         is_fallback = (FALLBACK_MESSAGE[:20] in answer) or not collected_sources
         step += 1
-        trace.append({
+        final_step = {
             "step": step,
             "type": "fallback" if is_fallback else "final_answer",
             "tool": None,
@@ -637,8 +661,11 @@ class BibleAgent:
             "args": None,
             "summary": "התשובה נבנתה לאחר שהסוכן הגיע למספר הצעדים המרבי." if not is_fallback else "הסוכן לא מצא מקור מספיק מהימן.",
             "confidence": "medium" if not is_fallback else "low",
-        })
-        return {"answer": answer, "sources": _dedupe(collected_sources), "trace": trace, "verses": wordcount_verses}
+        }
+        trace.append(final_step)
+        yield {"type": "step", "step": final_step}
+        yield {"type": "done", "answer": answer,
+               "sources": _dedupe(collected_sources), "verses": wordcount_verses}
 
 
 def _dedupe(items: List[str]) -> List[str]:

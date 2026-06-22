@@ -848,3 +848,29 @@ button:disabled {
   margin-top: 0.3rem;
   line-height: 1.5;
 }
+
+/* Live streaming: steps appear above an inline "still working" indicator */
+.chat-live { align-self: stretch; }
+.loading-inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+  justify-content: flex-start;
+  direction: rtl;
+  color: #64748b;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.25rem;
+}
+.loading-inline .spinner { margin: 0; }
+
+/* Steps live in a fixed-height scroll container (auto-scrolled to newest), so the
+   page height doesn't grow as steps stream in. */
+.trace-timeline {
+  max-height: 15rem;
+  overflow-y: auto;
+  padding-left: 0.4rem;
+}
+.agent-trace.presentation .trace-timeline {
+  max-height: 26rem;
+}

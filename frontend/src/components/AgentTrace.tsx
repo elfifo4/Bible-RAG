@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { TraceStep } from '../api';
 
 // Hebrew explanations for each tool, surfaced in the trace cards.
@@ -33,15 +33,26 @@ function formatArgs(args: Record<string, any> | null): string {
 interface Props {
   trace: TraceStep[];
   presentationMode: boolean;
+  forceOpen?: boolean; // keep the timeline open with no toggle (e.g. live streaming)
 }
 
-const AgentTrace: React.FC<Props> = ({ trace, presentationMode }) => {
-  // In presentation mode the trace is open by default and stays expanded.
-  const [open, setOpen] = useState(presentationMode);
+const AgentTrace: React.FC<Props> = ({ trace, presentationMode, forceOpen }) => {
+  // In presentation mode (or live) the trace is open by default and stays expanded.
+  const [open, setOpen] = useState(presentationMode || !!forceOpen);
 
-  React.useEffect(() => {
-    setOpen(presentationMode);
-  }, [presentationMode]);
+  const timelineRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    setOpen(presentationMode || !!forceOpen);
+  }, [presentationMode, forceOpen]);
+
+  // While streaming live, keep the (fixed-height) steps container scrolled to the
+  // newest step instead of growing the page.
+  useEffect(() => {
+    if (forceOpen && timelineRef.current) {
+      timelineRef.current.scrollTop = timelineRef.current.scrollHeight;
+    }
+  }, [trace.length, forceOpen]);
 
   if (!trace || trace.length === 0) return null;
 
@@ -49,7 +60,7 @@ const AgentTrace: React.FC<Props> = ({ trace, presentationMode }) => {
 
   return (
     <div className={`agent-trace ${presentationMode ? 'presentation' : ''}`}>
-      {!presentationMode && (
+      {!presentationMode && !forceOpen && (
         <button className="trace-toggle" onClick={() => setOpen(!open)}>
           {open
             ? 'הסתר את צעדי הסוכן'
@@ -58,7 +69,7 @@ const AgentTrace: React.FC<Props> = ({ trace, presentationMode }) => {
       )}
 
       {open && (
-        <div className="trace-timeline">
+        <div className="trace-timeline" ref={timelineRef}>
           {trace.map((step, i) => (
             <div key={step.step} className={`trace-step conf-${step.confidence} type-${step.type}`}>
               <div className="trace-marker">
