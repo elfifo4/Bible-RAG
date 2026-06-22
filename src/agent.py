@@ -139,9 +139,9 @@ class BibleAgent:
                 key = f"{v['book']}|{v['chapter']}|{v['verse']}"
                 self._verses_by_key[key] = v
 
-                # Index verses by word count (whitespace tokens in the original text;
-                # maqaf-joined words count as one). Built for every verse.
-                self._verses_by_word_count.setdefault(len(v["text_original"].split()), []).append(key)
+                # Index verses by word count. Use text_plain, where maqaf (־) is a
+                # space, so maqaf-joined words count SEPARATELY. Built for every verse.
+                self._verses_by_word_count.setdefault(len(v["text_plain"].split()), []).append(key)
 
                 # Longest-word scan (same pass): count Hebrew letters per plain token,
                 # keep the parallel niqqud form for display.
