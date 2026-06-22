@@ -56,7 +56,7 @@ You answer questions by USING TOOLS — you never rely on outside knowledge or i
 You have these tools:
 - search_tanakh: semantic / lexical / hybrid search over the Tanakh verses. Use it for content questions ("who/what/where/when did...").
 - lookup_reference: fetch the exact text of a specific Book Chapter:Verse (or a small range). Use it to verify or quote a verse precisely.
-- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, the longest WORD, the word with the highest GEMATRIA value, and example verses with an exact number of words). Use this — do NOT search verses — for "how many books / which book is longest / what is the order / what is the longest word / which word has the highest gematria / give me a verse with N words" style questions.
+- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, the longest WORD, the word with the highest GEMATRIA value, the longest VERSE by word count, and example verses with an exact number of words). Use this — do NOT search verses — for "how many books / which book is longest / what is the order / what is the longest word / which word has the highest gematria / what is the longest verse / give me a verse with N words" style questions.
 - compare_retrieval_strategies: run dense, lexical and hybrid retrieval on the same query and compare, when it is useful to understand which strategy fits.
 
 RULES:
@@ -68,7 +68,7 @@ RULES:
 6. If after searching you still cannot find a reliable source, say so clearly — respond with: "{fallback}". Do NOT fabricate. BUT: when a deterministic tool (bible_structure) gives a definitive result — including that ZERO verses match (e.g. there is no verse with exactly 2 words) — that IS the grounded answer. State it plainly (e.g. "אין בתנ״ך פסוק עם 2 מילים בלבד") and do NOT add the "{fallback}" sentence.
 7. If the question is NOT about the Tanakh text (a general concept, your capabilities, or off-topic small-talk), answer in AT MOST 1–2 short sentences. Do NOT write a long explanation or essay.
 8. For ANY question about verses with a specific number of words — including whether such a verse exists — you MUST call bible_structure(verse_by_word_count) and answer from its result. Even if you are CERTAIN you know the answer (e.g. that no verse has only 2 words), you must still call the tool to confirm before answering. Never answer such a question from memory.
-9. To find the verse with the MOST words (longest verse by word count), you do NOT know the maximum in advance. BINARY-SEARCH the word count between 1 and 100 using bible_structure(verse_by_word_count). Decide ONLY by the `at_least` field (how many verses have at least that many words): if `at_least` > 0 the maximum is ≥ this number, so try MORE words; if `at_least` = 0 the maximum is smaller, so try FEWER. CRITICAL: finding verses with EXACTLY N words (`total` > 0) does NOT mean N is the maximum — keep going UP until `at_least` becomes 0. The answer is the largest N where `at_least` > 0 (equivalently, `at_least` > 0 at N but = 0 at N+1). Only then report the verse(s) with exactly N words. Do not give up early.
+9. To find the verse with the MOST words (the longest verse by word count), call bible_structure(longest_verse) — it returns the answer directly. Do NOT try to guess or search for it by probing different word counts.
 """.format(fallback=FALLBACK_MESSAGE)
 
 
@@ -136,6 +136,7 @@ class BibleAgent:
         self._longest_word: Optional[Dict[str, Any]] = None
         self._highest_gematria: Optional[Dict[str, Any]] = None
         self._verses_by_word_count: Dict[int, List[str]] = {}  # word count -> verse keys (canonical order)
+        self._longest_verse: Optional[Dict[str, Any]] = None
         if not ALL_VERSES_JSONL.exists():
             logger.warning(f"{ALL_VERSES_JSONL} not found — lookup_reference disabled.")
             return
@@ -192,6 +193,18 @@ class BibleAgent:
                 "value": max_gem,
                 "words": [{"word": d, "ref": r} for (d, r) in list(highest_gem.values())[:5]],
             }
+        # Longest verse by word count — deterministic (reliable, unlike an LLM
+        # binary search). Same shape as verse_by_word_count so it reuses downstream.
+        if self._verses_by_word_count:
+            mx = max(self._verses_by_word_count)
+            keys = self._verses_by_word_count[mx]
+            verses = []
+            for k in keys[:3]:
+                e = self._verses_by_key.get(k)
+                if e:
+                    verses.append({"ref": e["ref"], "ref_en": e["ref_en"],
+                                   "text": _resolve_keri_ketiv(e["text_original"])})
+            self._longest_verse = {"word_count": mx, "total": len(keys), "verses": verses}
         logger.info(f"Agent lookup map: {len(self._verses_by_key)} verses indexed.")
 
     def _normalize_book(self, book: str) -> Optional[str]:
@@ -244,7 +257,7 @@ class BibleAgent:
                 "type": "function",
                 "function": {
                     "name": "bible_structure",
-                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, the longest WORD, the word with the highest GEMATRIA value, and example verses that contain an exact number of words.",
+                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, the longest WORD, the word with the highest GEMATRIA value, the longest VERSE by word count, and example verses that contain an exact number of words.",
                     "parameters": {
                         "type": "object",
                         "properties": {
@@ -259,6 +272,7 @@ class BibleAgent:
                                     "total_chapters",
                                     "longest_word",
                                     "highest_gematria",
+                                    "longest_verse",
                                     "verse_by_word_count",
                                 ],
                             },
@@ -366,6 +380,10 @@ class BibleAgent:
             if not getattr(self, "_highest_gematria", None):
                 return {"error": "נתוני הפסוקים אינם זמינים לחישוב הערך הגימטרי הגבוה ביותר."}
             return dict(self._highest_gematria)
+        if query_type == "longest_verse":
+            if not getattr(self, "_longest_verse", None):
+                return {"error": "נתוני הפסוקים אינם זמינים לחישוב הפסוק הארוך ביותר."}
+            return dict(self._longest_verse)
         if query_type == "verse_by_word_count":
             if word_count is None:
                 return {"error": "יש לציין מספר מילים (word_count)."}
