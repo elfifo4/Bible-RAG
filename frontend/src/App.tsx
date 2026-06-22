@@ -341,14 +341,14 @@ function App() {
       )}
 
       <div style={{ marginTop: '3rem', borderTop: '1px solid #e2e8f0', paddingTop: '1.5rem' }}>
-        <Footer />
+        <Footer isFinal={currentView === 'agent'} />
       </div>
     </div>
   );
 }
 
 
-const Footer = () => (
+const Footer = ({ isFinal = false }: { isFinal?: boolean }) => (
   <footer className="footer rtl">
     <div className="footer-content">
       <div className="footer-text-lines">
@@ -363,7 +363,7 @@ const Footer = () => (
           >
             <strong>אלעד פיניש</strong>
           </a>{' '}
-          כחלק ממטלת אמצע בקורס <strong>AI for Developers</strong>
+          כחלק ממטלת {isFinal ? 'הגמר' : 'אמצע'} בקורס <strong>AI for Developers</strong>
         </p>
         <p>מטעם המכון לבינה מלאכותית The Institute</p>
         <p>אוניברסיטת בן-גוריון בנגב (מאי 2026)</p>
