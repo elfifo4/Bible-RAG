@@ -324,6 +324,8 @@ class BibleAgent:
         if name == "search_number":
             if result.get("error") or not result.get("total"):
                 return {"summary": f"Dicta: לא נמצאו פסוקים עם המספר {result.get('number', '')}.", "confidence": "low"}
+            if result["total"] == 1:
+                return {"summary": f"נמצא פסוק אחד עם המספר {result['number']}.", "confidence": "high"}
             top = result["results"][0]["ref"] if result.get("results") else "—"
             return {"summary": f"Dicta: נמצאו {result['total']} פסוקים עם המספר {result['number']}. מוביל: {top}.", "confidence": "high"}
         return {"summary": "", "confidence": "medium"}
