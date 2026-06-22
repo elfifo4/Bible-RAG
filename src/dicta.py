@@ -67,12 +67,13 @@ def search_number(number: str, size: int = 5) -> Dict[str, Any]:
     results: List[Dict[str, Any]] = []
     for hit in data.get("hits", []):
         highlight = hit.get("highlight") or []
-        text = _strip_tags(highlight[0]["text"]) if highlight else ""
+        raw = highlight[0]["text"] if highlight else ""
         results.append({
             "ref": _parse_hebrew_path(hit.get("hebrewPath", "")),
             "path_he": hit.get("hebrewPath", ""),
             "xml_id": hit.get("xmlId", ""),
-            "text": text,
+            "text": _strip_tags(raw),       # plain (for sources / fallbacks)
+            "highlight": raw,               # keeps Dicta's <b>...</b> around the number words
         })
     return {"number": number, "total": int(data.get("total", 0)), "results": results}
 

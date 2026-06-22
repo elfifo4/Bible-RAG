@@ -761,3 +761,12 @@ button:disabled {
 .agent-trace.presentation .trace-label { font-size: 1.15rem; }
 .agent-trace.presentation .trace-summary { font-size: 1.05rem; }
 .agent-trace.presentation .trace-card { padding: 1rem 1.2rem; }
+
+/* Dicta number-word highlights inside an agent answer */
+.num-match {
+  font-weight: 700;
+  background: #fef3c7;
+  color: #92400e;
+  border-radius: 3px;
+  padding: 0 2px;
+}

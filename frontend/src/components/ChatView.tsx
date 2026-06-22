@@ -10,6 +10,20 @@ interface ChatTurn {
   sources?: string[];
 }
 
+// Render an answer that may contain Dicta's <b>...</b> highlights (around the
+// number words) as <strong>, without dangerouslySetInnerHTML. Plain answers
+// (no <b>) render unchanged.
+function renderAnswer(text: string): React.ReactNode {
+  return text.split(/(<b>.*?<\/b>)/g).map((part, i) => {
+    const m = part.match(/^<b>([\s\S]*?)<\/b>$/);
+    return m ? (
+      <strong key={i} className="num-match">{m[1]}</strong>
+    ) : (
+      <React.Fragment key={i}>{part}</React.Fragment>
+    );
+  });
+}
+
 const EXAMPLES = [
   'מה הספר הכי ארוך בתנ״ך?',
   'מי היה אביו של אברהם?',
@@ -94,7 +108,7 @@ const ChatView: React.FC = () => {
               <>
                 {turn.trace && <AgentTrace trace={turn.trace} presentationMode={presentationMode} />}
                 <div className="card chat-answer-card">
-                  <div className="answer-text rtl">{turn.content}</div>
+                  <div className="answer-text rtl">{renderAnswer(turn.content)}</div>
                   {turn.sources && turn.sources.length > 0 && (
                     <div className="chat-sources ltr">{turn.sources.slice(0, 6).join(' · ')}</div>
                   )}
