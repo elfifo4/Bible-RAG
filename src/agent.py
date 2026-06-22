@@ -25,8 +25,9 @@ from .utils import logger, Gematria
 # and cost/latency reasonable. (Plan: 10-15.)
 MAX_HISTORY_MESSAGES = 14
 
-# Hard ceiling on tool-calling rounds to prevent infinite loops.
-MAX_ITERATIONS = 5
+# Hard ceiling on tool-calling rounds to prevent infinite loops. Set high enough
+# to let the agent binary-search (e.g. for the longest verse by word count).
+MAX_ITERATIONS = 12
 
 # Hebrew explanations for each tool (surfaced in the UI trace).
 TOOL_LABELS = {
@@ -63,8 +64,10 @@ RULES:
 3. Ground every factual claim in tool results. Cite sources as Hebrew "Book Chapter:Verse" using ONLY Hebrew letters, WITHOUT any quotation marks (") or apostrophes (').
 4. When quoting a full Hebrew verse, append the Sof Pasuk (׃) at the end of the quoted text.
 5. Answer in the same language as the question (Hebrew or English).
-6. If after searching you still cannot find a reliable source, say so clearly — respond with: "{fallback}". Do NOT fabricate.
+6. If after searching you still cannot find a reliable source, say so clearly — respond with: "{fallback}". Do NOT fabricate. BUT: when a deterministic tool (bible_structure) gives a definitive result — including that ZERO verses match (e.g. there is no verse with exactly 2 words) — that IS the grounded answer. State it plainly (e.g. "אין בתנ״ך פסוק עם 2 מילים בלבד") and do NOT add the "{fallback}" sentence.
 7. If the question is NOT about the Tanakh text (a general concept, your capabilities, or off-topic small-talk), answer in AT MOST 1–2 short sentences. Do NOT write a long explanation or essay.
+8. For ANY question about verses with a specific number of words — including whether such a verse exists — you MUST call bible_structure(verse_by_word_count) and answer from its result. Even if you are CERTAIN you know the answer (e.g. that no verse has only 2 words), you must still call the tool to confirm before answering. Never answer such a question from memory.
+9. To find the verse with the MOST words (longest verse by word count), you do NOT know the maximum in advance. BINARY-SEARCH the word count between 1 and 100 using bible_structure(verse_by_word_count). Decide ONLY by the `at_least` field (how many verses have at least that many words): if `at_least` > 0 the maximum is ≥ this number, so try MORE words; if `at_least` = 0 the maximum is smaller, so try FEWER. CRITICAL: finding verses with EXACTLY N words (`total` > 0) does NOT mean N is the maximum — keep going UP until `at_least` becomes 0. The answer is the largest N where `at_least` > 0 (equivalently, `at_least` > 0 at N but = 0 at N+1). Only then report the verse(s) with exactly N words. Do not give up early.
 """.format(fallback=FALLBACK_MESSAGE)
 
 
@@ -357,13 +360,17 @@ class BibleAgent:
             if word_count is None:
                 return {"error": "יש לציין מספר מילים (word_count)."}
             n = int(word_count)
-            keys = getattr(self, "_verses_by_word_count", {}).get(n, [])
+            by_count = getattr(self, "_verses_by_word_count", {})
+            keys = by_count.get(n, [])
+            # Monotonic signal for binary-searching the longest verse: how many
+            # verses have AT LEAST n words (>0 ⇒ the max is ≥ n; 0 ⇒ the max is < n).
+            at_least = sum(len(ks) for m, ks in by_count.items() if m >= n)
             examples = []
             for k in keys[:3]:
                 e = self._verses_by_key.get(k)
                 if e:
                     examples.append({"ref": e["ref"], "ref_en": e["ref_en"], "text": e["text_original"]})
-            return {"word_count": n, "total": len(keys), "verses": examples}
+            return {"word_count": n, "total": len(keys), "at_least": at_least, "verses": examples}
         return {"error": f"Unknown query_type: {query_type}"}
 
     def _tool_compare_retrieval_strategies(self, query: str) -> Dict[str, Any]:
@@ -424,12 +431,15 @@ class BibleAgent:
                 cnt = "מילה אחת" if k == 1 else f"{k} מילים"
                 return {"summary": f"הערך הגימטרי הגבוה ביותר: {result['value']} ({cnt}).", "confidence": "high"}
             if "word_count" in result:  # verse_by_word_count
+                n = result["word_count"]
                 total = result.get("total", 0)
                 if total == 0:
-                    return {"summary": f"לא נמצא פסוק עם {result['word_count']} מילים.", "confidence": "low"}
+                    if result.get("at_least", 0) > 0:
+                        return {"summary": f"אין פסוק עם בדיוק {n} מילים, אך קיימים פסוקים ארוכים יותר.", "confidence": "medium"}
+                    return {"summary": f"אין פסוק עם {n} מילים או יותר.", "confidence": "medium"}
                 ex = result["verses"][0]["ref"] if result.get("verses") else "—"
                 noun = "פסוק אחד" if total == 1 else f"{total} פסוקים"
-                return {"summary": f"נמצאו {noun} עם {result['word_count']} מילים. דוגמה: {ex}.", "confidence": "high"}
+                return {"summary": f"נמצאו {noun} עם {n} מילים. דוגמה: {ex}.", "confidence": "high"}
             if "chapters" in result:
                 return {"summary": f"{result.get('book', '')}: {result['chapters']} פרקים.", "confidence": "high"}
             if "answer" in result:
@@ -521,8 +531,10 @@ class BibleAgent:
             if not msg.tool_calls:
                 # Final answer from the model.
                 answer = msg.content or ""
-                is_fallback = (FALLBACK_MESSAGE[:20] in answer) or (not collected_sources and "לא נמצא" in answer)
                 used_tool = any(s["type"] == "tool_call" for s in trace)
+                # The "לא נמצא" heuristic only signals a punt when NO tool was used;
+                # a deterministic tool answering "there are none" is a valid result.
+                is_fallback = (FALLBACK_MESSAGE[:20] in answer) or (not used_tool and "לא נמצא" in answer)
                 step += 1
                 if is_fallback:
                     trace_step = {"type": "fallback", "label": "אין מקור מהימן",
