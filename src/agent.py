@@ -304,15 +304,18 @@ class BibleAgent:
                 return {"summary": "לא נמצאו מקורות.", "confidence": "low"}
             score = result.get("top_score", 0.0)
             conf = "high" if score >= 0.6 else "medium" if score >= 0.3 else "low"
+            found = "נמצא מקור אחד" if result["count"] == 1 else f"נמצאו {result['count']} מקורות"
             return {
-                "summary": f"נמצאו {result['count']} מקורות (אסטרטגיה: {result['strategy']}). מוביל: {result['top_ref']} (score {score:.2f}).",
+                "summary": f"{found} (אסטרטגיה: {result['strategy']}). מוביל: {result['top_ref']} (score {score:.2f}).",
                 "confidence": conf,
             }
         if name == "lookup_reference":
             if not result.get("found"):
                 return {"summary": result.get("error", "לא נמצא הפסוק."), "confidence": "low"}
             refs = ", ".join(v["ref"] for v in result["verses"])
-            return {"summary": f"נשלפו {len(result['verses'])} פסוקים: {refs}.", "confidence": "high"}
+            n = len(result["verses"])
+            pulled = "נשלף פסוק אחד" if n == 1 else f"נשלפו {n} פסוקים"
+            return {"summary": f"{pulled}: {refs}.", "confidence": "high"}
         if name == "bible_structure":
             if result.get("error"):
                 return {"summary": result["error"], "confidence": "low"}
