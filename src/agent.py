@@ -54,7 +54,7 @@ You answer questions by USING TOOLS — you never rely on outside knowledge or i
 You have these tools:
 - search_tanakh: semantic / lexical / hybrid search over the Tanakh verses. Use it for content questions ("who/what/where/when did...").
 - lookup_reference: fetch the exact text of a specific Book Chapter:Verse (or a small range). Use it to verify or quote a verse precisely.
-- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, the longest WORD, and the word with the highest GEMATRIA value). Use this — do NOT search verses — for "how many books / which book is longest / what is the order / what is the longest word / which word has the highest gematria" style questions.
+- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, the longest WORD, the word with the highest GEMATRIA value, and example verses with an exact number of words). Use this — do NOT search verses — for "how many books / which book is longest / what is the order / what is the longest word / which word has the highest gematria / give me a verse with N words" style questions.
 - compare_retrieval_strategies: run dense, lexical and hybrid retrieval on the same query and compare, when it is useful to understand which strategy fits.
 
 RULES:
@@ -123,6 +123,7 @@ class BibleAgent:
             self._en_to_he[info["en"].lower()] = he
         self._longest_word: Optional[Dict[str, Any]] = None
         self._highest_gematria: Optional[Dict[str, Any]] = None
+        self._verses_by_word_count: Dict[int, List[str]] = {}  # word count -> verse keys (canonical order)
         if not ALL_VERSES_JSONL.exists():
             logger.warning(f"{ALL_VERSES_JSONL} not found — lookup_reference disabled.")
             return
@@ -137,6 +138,10 @@ class BibleAgent:
                 v = json.loads(line)
                 key = f"{v['book']}|{v['chapter']}|{v['verse']}"
                 self._verses_by_key[key] = v
+
+                # Index verses by word count (whitespace tokens in the original text;
+                # maqaf-joined words count as one). Built for every verse.
+                self._verses_by_word_count.setdefault(len(v["text_original"].split()), []).append(key)
 
                 # Longest-word scan (same pass): count Hebrew letters per plain token,
                 # keep the parallel niqqud form for display.
@@ -226,7 +231,7 @@ class BibleAgent:
                 "type": "function",
                 "function": {
                     "name": "bible_structure",
-                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, the longest WORD, and the word with the highest GEMATRIA value in the Tanakh.",
+                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, the longest WORD, the word with the highest GEMATRIA value, and example verses that contain an exact number of words.",
                     "parameters": {
                         "type": "object",
                         "properties": {
@@ -241,9 +246,11 @@ class BibleAgent:
                                     "total_chapters",
                                     "longest_word",
                                     "highest_gematria",
+                                    "verse_by_word_count",
                                 ],
                             },
                             "book": {"type": "string", "description": "Book name (needed for book_chapter_count / book_order)."},
+                            "word_count": {"type": "integer", "description": "Exact number of words a verse should contain (for verse_by_word_count)."},
                         },
                         "required": ["query_type"],
                     },
@@ -312,7 +319,8 @@ class BibleAgent:
             return {"found": False, "error": f"No verse at {he_book} {chapter}:{verse_start}"}
         return {"found": True, "book": he_book, "chapter": int(chapter), "verses": verses}
 
-    def _tool_bible_structure(self, query_type: str, book: Optional[str] = None) -> Dict[str, Any]:
+    def _tool_bible_structure(self, query_type: str, book: Optional[str] = None,
+                              word_count: Optional[int] = None) -> Dict[str, Any]:
         catalog = BIBLE_CATALOG
         if query_type == "book_count":
             return {"answer": len(catalog), "detail": "מספר הספרים בתנ״ך"}
@@ -345,6 +353,17 @@ class BibleAgent:
             if not getattr(self, "_highest_gematria", None):
                 return {"error": "נתוני הפסוקים אינם זמינים לחישוב הערך הגימטרי הגבוה ביותר."}
             return dict(self._highest_gematria)
+        if query_type == "verse_by_word_count":
+            if word_count is None:
+                return {"error": "יש לציין מספר מילים (word_count)."}
+            n = int(word_count)
+            keys = getattr(self, "_verses_by_word_count", {}).get(n, [])
+            examples = []
+            for k in keys[:3]:
+                e = self._verses_by_key.get(k)
+                if e:
+                    examples.append({"ref": e["ref"], "ref_en": e["ref_en"], "text": e["text_original"]})
+            return {"word_count": n, "total": len(keys), "verses": examples}
         return {"error": f"Unknown query_type: {query_type}"}
 
     def _tool_compare_retrieval_strategies(self, query: str) -> Dict[str, Any]:
@@ -404,6 +423,13 @@ class BibleAgent:
                 k = len(result.get("words", []))
                 cnt = "מילה אחת" if k == 1 else f"{k} מילים"
                 return {"summary": f"הערך הגימטרי הגבוה ביותר: {result['value']} ({cnt}).", "confidence": "high"}
+            if "word_count" in result:  # verse_by_word_count
+                total = result.get("total", 0)
+                if total == 0:
+                    return {"summary": f"לא נמצא פסוק עם {result['word_count']} מילים.", "confidence": "low"}
+                ex = result["verses"][0]["ref"] if result.get("verses") else "—"
+                noun = "פסוק אחד" if total == 1 else f"{total} פסוקים"
+                return {"summary": f"נמצאו {noun} עם {result['word_count']} מילים. דוגמה: {ex}.", "confidence": "high"}
             if "chapters" in result:
                 return {"summary": f"{result.get('book', '')}: {result['chapters']} פרקים.", "confidence": "high"}
             if "answer" in result:
