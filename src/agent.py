@@ -516,6 +516,7 @@ class BibleAgent:
 
         trace: List[Dict[str, Any]] = []
         collected_sources: List[str] = []
+        wordcount_verses: List[Dict[str, Any]] = []  # verses to show with word numbering (UI)
         step = 0
 
         for _ in range(MAX_ITERATIONS):
@@ -548,7 +549,7 @@ class BibleAgent:
                     trace_step = {"type": "final_answer", "label": "תשובה כללית (ללא מקור מהתנ״ך)",
                                   "summary": "נענה ממידע כללי של המודל — לא מטקסט התנ״ך.", "confidence": "medium"}
                 trace.append({"step": step, "tool": None, "args": None, **trace_step})
-                return {"answer": answer, "sources": _dedupe(collected_sources), "trace": trace}
+                return {"answer": answer, "sources": _dedupe(collected_sources), "trace": trace, "verses": wordcount_verses}
 
             # Append the assistant turn that requested tools.
             convo.append({
@@ -575,6 +576,14 @@ class BibleAgent:
                     collected_sources.extend(v["ref_en"] for v in result["verses"])
                 elif name == "search_number":
                     collected_sources.extend(r["ref"] for r in result.get("results", []) if r.get("ref"))
+
+                # Capture verses for the word-count visualization (last successful
+                # verse_by_word_count call wins — e.g. the max N in a binary search).
+                if name == "bible_structure" and result.get("word_count") is not None and result.get("verses"):
+                    wordcount_verses = [
+                        {"ref": v["ref"], "text": v["text"], "word_count": result["word_count"]}
+                        for v in result["verses"]
+                    ]
 
                 meta = self._summarize(name, result)
                 step += 1
@@ -616,7 +625,7 @@ class BibleAgent:
             "summary": "התשובה נבנתה לאחר שהסוכן הגיע למספר הצעדים המרבי." if not is_fallback else "הסוכן לא מצא מקור מספיק מהימן.",
             "confidence": "medium" if not is_fallback else "low",
         })
-        return {"answer": answer, "sources": _dedupe(collected_sources), "trace": trace}
+        return {"answer": answer, "sources": _dedupe(collected_sources), "trace": trace, "verses": wordcount_verses}
 
 
 def _dedupe(items: List[str]) -> List[str]:

@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Loader2, Send, Presentation, Copy, Check } from 'lucide-react';
 import * as api from '../api';
 import AgentTrace from './AgentTrace';
+import NumberedVerse from './NumberedVerse';
 
 // Strip the <b>...</b> highlight tags so copied text is clean.
 const stripTags = (t: string) => t.replace(/<\/?b>/g, '');
@@ -35,6 +36,7 @@ interface ChatTurn {
   content: string;
   trace?: api.TraceStep[];
   sources?: string[];
+  verses?: api.NumberedVerse[];
 }
 
 // Render an answer that may contain Dicta's <b>...</b> highlights (around the
@@ -84,7 +86,7 @@ const ChatView: React.FC = () => {
       // Send the full conversation history (backend trims to last N).
       const history: api.ChatMessage[] = nextTurns.map((t) => ({ role: t.role, content: t.content }));
       const res = await api.chat(history);
-      setTurns([...nextTurns, { role: 'assistant', content: res.answer, trace: res.trace, sources: res.sources }]);
+      setTurns([...nextTurns, { role: 'assistant', content: res.answer, trace: res.trace, sources: res.sources, verses: res.verses }]);
     } catch (err: any) {
       setError(err.response?.data?.detail || 'אירעה שגיאה בעת פניית הסוכן');
     } finally {
@@ -140,6 +142,13 @@ const ChatView: React.FC = () => {
                 <div className="card chat-answer-card">
                   <CopyButton text={stripTags(turn.content)} />
                   <div className="answer-text rtl">{renderAnswer(turn.content)}</div>
+                  {turn.verses && turn.verses.length > 0 && (
+                    <div className="nv-list">
+                      {turn.verses.map((v, vi) => (
+                        <NumberedVerse key={vi} verse={v} />
+                      ))}
+                    </div>
+                  )}
                   {turn.sources && turn.sources.length > 0 && (
                     <div className="chat-sources ltr">{turn.sources.slice(0, 6).join(' · ')}</div>
                   )}

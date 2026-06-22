@@ -137,7 +137,13 @@ class TraceStep(BaseModel):
     summary: str
     confidence: Literal["high", "medium", "low"]
 
+class NumberedVerse(BaseModel):
+    ref: str
+    text: str
+    word_count: int
+
 class ChatResponse(BaseModel):
     answer: str
     sources: List[str]
     trace: List[TraceStep]
+    verses: List[NumberedVerse] = []

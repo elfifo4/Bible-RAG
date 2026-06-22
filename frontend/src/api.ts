@@ -191,10 +191,17 @@ export interface TraceStep {
   confidence: 'high' | 'medium' | 'low';
 }
 
+export interface NumberedVerse {
+  ref: string;
+  text: string;
+  word_count: number;
+}
+
 export interface ChatResponse {
   answer: string;
   sources: string[];
   trace: TraceStep[];
+  verses?: NumberedVerse[];
 }
 
 export const chat = async (messages: ChatMessage[]): Promise<ChatResponse> => {
