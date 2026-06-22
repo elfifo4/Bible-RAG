@@ -8,6 +8,7 @@ const TOOL_INFO: Record<string, { icon: string; desc: string }> = {
   bible_structure: { icon: '📚', desc: 'תשובות לשאלות מבניות וסטטיסטיות על התנ״ך — מספר ספרים/פרקים, סדר הספרים, המילה הארוכה ביותר והערך הגימטרי הגבוה ביותר' },
   compare_retrieval_strategies: { icon: '⚖️', desc: 'השוואה בין dense, lexical ו-hybrid כדי להבין איזו אסטרטגיה מתאימה' },
   search_number: { icon: '🔢', desc: 'חיפוש מספר (בכתיב מילולי) בפסוקי התנ״ך דרך מנוע החיפוש של Dicta' },
+  find_longest_verse: { icon: '📏', desc: 'חיפוש בינארי אחר הפסוק הארוך ביותר — ניסיון מספרי מילים שונה בכל צעד עד להתכנסות' },
 };
 
 const CONFIDENCE_LABEL: Record<string, string> = {

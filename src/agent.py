@@ -37,6 +37,7 @@ TOOL_LABELS = {
     "bible_structure": "מבנה וסטטיסטיקה",
     "compare_retrieval_strategies": "השוואת אסטרטגיות",
     "search_number": "חיפוש מספר (Dicta)",
+    "find_longest_verse": "חיפוש בינארי",
 }
 
 FALLBACK_MESSAGE = (
@@ -58,6 +59,7 @@ You have these tools:
 - lookup_reference: fetch the exact text of a specific Book Chapter:Verse (or a small range). Use it to verify or quote a verse precisely.
 - bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, the longest WORD, the word with the highest GEMATRIA value, the longest VERSE by word count, and example verses with an exact number of words). Use this — do NOT search verses — for "how many books / which book is longest / what is the order / what is the longest word / which word has the highest gematria / what is the longest verse / give me a verse with N words" style questions.
 - compare_retrieval_strategies: run dense, lexical and hybrid retrieval on the same query and compare, when it is useful to understand which strategy fits.
+- find_longest_verse: find the verse with the most words via a binary search. Use it for "what is the longest verse in the Tanakh" questions.
 
 RULES:
 1. Decide which tool fits the question. Prefer bible_structure for structural questions.
@@ -68,7 +70,7 @@ RULES:
 6. If after searching you still cannot find a reliable source, say so clearly — respond with: "{fallback}". Do NOT fabricate. BUT: when a deterministic tool (bible_structure) gives a definitive result — including that ZERO verses match (e.g. there is no verse with exactly 2 words) — that IS the grounded answer. State it plainly (e.g. "אין בתנ״ך פסוק עם 2 מילים בלבד") and do NOT add the "{fallback}" sentence.
 7. If the question is NOT about the Tanakh text (a general concept, your capabilities, or off-topic small-talk), answer in AT MOST 1–2 short sentences. Do NOT write a long explanation or essay.
 8. For ANY question about verses with a specific number of words — including whether such a verse exists — you MUST call bible_structure(verse_by_word_count) and answer from its result. Even if you are CERTAIN you know the answer (e.g. that no verse has only 2 words), you must still call the tool to confirm before answering. Never answer such a question from memory.
-9. To find the verse with the MOST words (the longest verse by word count), call bible_structure(longest_verse) — it returns the answer directly. Do NOT try to guess or search for it by probing different word counts.
+9. To find the verse with the MOST words (the longest verse by word count), call find_longest_verse once. It performs the search and returns the answer; report the resulting verse.
 """.format(fallback=FALLBACK_MESSAGE)
 
 
@@ -257,7 +259,7 @@ class BibleAgent:
                 "type": "function",
                 "function": {
                     "name": "bible_structure",
-                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, the longest WORD, the word with the highest GEMATRIA value, the longest VERSE by word count, and example verses that contain an exact number of words.",
+                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, the longest WORD, the word with the highest GEMATRIA value, and example verses that contain an exact number of words. (For the longest VERSE by word count, use the find_longest_verse tool instead.)",
                     "parameters": {
                         "type": "object",
                         "properties": {
@@ -272,7 +274,6 @@ class BibleAgent:
                                     "total_chapters",
                                     "longest_word",
                                     "highest_gematria",
-                                    "longest_verse",
                                     "verse_by_word_count",
                                 ],
                             },
@@ -305,6 +306,14 @@ class BibleAgent:
                         "properties": {"number": {"type": "string", "description": "The number to search for, digits only."}},
                         "required": ["number"],
                     },
+                },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "find_longest_verse",
+                    "description": "Find the verse with the MOST words by running a binary search over word counts (you do NOT know the maximum in advance — this tool searches for it). Use for 'what is the longest verse in the Tanakh' questions. Returns the search probes and the answer.",
+                    "parameters": {"type": "object", "properties": {}},
                 },
             },
         ]
@@ -380,10 +389,6 @@ class BibleAgent:
             if not getattr(self, "_highest_gematria", None):
                 return {"error": "נתוני הפסוקים אינם זמינים לחישוב הערך הגימטרי הגבוה ביותר."}
             return dict(self._highest_gematria)
-        if query_type == "longest_verse":
-            if not getattr(self, "_longest_verse", None):
-                return {"error": "נתוני הפסוקים אינם זמינים לחישוב הפסוק הארוך ביותר."}
-            return dict(self._longest_verse)
         if query_type == "verse_by_word_count":
             if word_count is None:
                 return {"error": "יש לציין מספר מילים (word_count)."}
@@ -417,6 +422,47 @@ class BibleAgent:
     def _tool_search_number(self, number: str, size: int = 5) -> Dict[str, Any]:
         return dicta_search_number(number, size=size)
 
+    def _tool_find_longest_verse(self) -> Dict[str, Any]:
+        """Find the longest verse by word count via a DETERMINISTIC binary search.
+        Returns the probe sequence (for a step-by-step trace) plus the answer.
+        The answer comes from the precomputed _longest_verse, so it's always correct;
+        the probes are a real binary search that converges to the same number."""
+        by = getattr(self, "_verses_by_word_count", {})
+        if not by or not getattr(self, "_longest_verse", None):
+            return {"error": "נתוני הפסוקים אינם זמינים לחישוב הפסוק הארוך ביותר."}
+
+        def at_least(n: int) -> int:
+            return sum(len(ks) for m, ks in by.items() if m >= n)
+
+        probes: List[Dict[str, int]] = []
+        seen = set()
+
+        def probe(n: int) -> int:
+            al = at_least(n)
+            if n not in seen:
+                seen.add(n)
+                probes.append({"word_count": n, "at_least": al})
+            return al
+
+        # Start high (100) and double until we have an upper bound with no verses.
+        hi = 100
+        while probe(hi) > 0:
+            hi *= 2
+        # Binary search for the largest N with at_least(N) > 0.
+        lo_b, hi_b, ans = 1, hi, 1
+        while lo_b <= hi_b:
+            mid = (lo_b + hi_b) // 2
+            if probe(mid) > 0:
+                ans = mid
+                lo_b = mid + 1
+            else:
+                hi_b = mid - 1
+
+        result = dict(self._longest_verse)  # {word_count, total, verses}
+        result["probes"] = probes
+        result["found"] = ans
+        return result
+
     def _dispatch(self, name: str, args: Dict[str, Any]) -> Dict[str, Any]:
         if name == "search_tanakh":
             return self._tool_search_tanakh(**args)
@@ -428,6 +474,8 @@ class BibleAgent:
             return self._tool_compare_retrieval_strategies(**args)
         if name == "search_number":
             return self._tool_search_number(**args)
+        if name == "find_longest_verse":
+            return self._tool_find_longest_verse(**args)
         return {"error": f"Unknown tool: {name}"}
 
     # ------------------------------------------------------ trace summaries
@@ -637,6 +685,43 @@ class BibleAgent:
                         {"ref": v["ref"], "text": v["text"], "word_count": result["word_count"]}
                         for v in result["verses"]
                     ]
+
+                # find_longest_verse runs a deterministic binary search; surface each
+                # probe as its own trace step so the search is visible step-by-step.
+                if name == "find_longest_verse" and not result.get("error"):
+                    found = result.get("found", result.get("word_count"))
+                    for p in result.get("probes", []):
+                        n, al = p["word_count"], p["at_least"]
+                        if al > 0:
+                            psum = f"ניסיתי {n} מילים → קיימים פסוקים עם לפחות {n} מילים. מחפש גבוה יותר."
+                            conf = "high"
+                        else:
+                            psum = f"ניסיתי {n} מילים → אין פסוק כה ארוך. מחפש נמוך יותר."
+                            conf = "medium"
+                        step += 1
+                        ts = {"step": step, "type": "tool_call", "tool": name,
+                              "label": TOOL_LABELS.get(name, name), "args": {"word_count": n},
+                              "summary": psum, "confidence": conf}
+                        trace.append(ts)
+                        yield {"type": "step", "step": ts}
+                    # Concluding step: the search converged.
+                    ref0 = result["verses"][0]["ref"] if result.get("verses") else ""
+                    step += 1
+                    ts = {"step": step, "type": "tool_call", "tool": name,
+                          "label": TOOL_LABELS.get(name, name), "args": None,
+                          "summary": f"החיפוש התכנס: הפסוק הארוך ביותר מכיל {found} מילים ({ref0}).",
+                          "confidence": "high"}
+                    trace.append(ts)
+                    yield {"type": "step", "step": ts}
+                    wordcount_verses = [
+                        {"ref": v["ref"], "text": v["text"], "word_count": found}
+                        for v in result.get("verses", [])
+                    ]
+                    # Give the model a concise result (no probe noise) to synthesize from.
+                    convo.append({"role": "tool", "tool_call_id": tc.id, "content": json.dumps(
+                        {"word_count": found, "total": result.get("total"), "verses": result.get("verses", [])},
+                        ensure_ascii=False)})
+                    continue
 
                 meta = self._summarize(name, result)
                 step += 1
