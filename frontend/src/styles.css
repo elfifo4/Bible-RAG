@@ -770,3 +770,28 @@ button:disabled {
   border-radius: 3px;
   padding: 0 2px;
 }
+
+/* Copy button on chat bubbles */
+.chat-user-text, .chat-answer-card { position: relative; }
+.chat-user-text { padding-left: 2.2rem; }
+.chat-answer-card { padding-left: 2.4rem; }
+
+.copy-btn {
+  position: absolute;
+  top: 0.45rem;
+  left: 0.45rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+  background: transparent;
+  border: none;
+  border-radius: 0.35rem;
+  cursor: pointer;
+  opacity: 0.55;
+  transition: opacity 0.15s, background 0.15s;
+}
+.copy-btn:hover { opacity: 1; background: rgba(0, 0, 0, 0.08); }
+.chat-answer-card .copy-btn { color: #92400e; }
+.chat-user-text .copy-btn { color: #fff; }
+.chat-user-text .copy-btn:hover { background: rgba(255, 255, 255, 0.25); }

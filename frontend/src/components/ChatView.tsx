@@ -1,7 +1,34 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Loader2, Send, Presentation } from 'lucide-react';
+import { Loader2, Send, Presentation, Copy, Check } from 'lucide-react';
 import * as api from '../api';
 import AgentTrace from './AgentTrace';
+
+// Strip the <b>...</b> highlight tags so copied text is clean.
+const stripTags = (t: string) => t.replace(/<\/?b>/g, '');
+
+// Small copy-to-clipboard button shown on each chat bubble.
+const CopyButton: React.FC<{ text: string }> = ({ text }) => {
+  const [copied, setCopied] = useState(false);
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+    }
+    setCopied(true);
+    setTimeout(() => setCopied(false), 1500);
+  };
+  return (
+    <button className="copy-btn" onClick={copy} title="העתק" aria-label="העתק">
+      {copied ? <Check size={14} /> : <Copy size={14} />}
+    </button>
+  );
+};
 
 interface ChatTurn {
   role: 'user' | 'assistant';
@@ -103,11 +130,15 @@ const ChatView: React.FC = () => {
         {turns.map((turn, i) => (
           <div key={i} className={`chat-bubble ${turn.role}`}>
             {turn.role === 'user' ? (
-              <div className="chat-user-text">{turn.content}</div>
+              <div className="chat-user-text">
+                <CopyButton text={turn.content} />
+                {turn.content}
+              </div>
             ) : (
               <>
                 {turn.trace && <AgentTrace trace={turn.trace} presentationMode={presentationMode} />}
                 <div className="card chat-answer-card">
+                  <CopyButton text={stripTags(turn.content)} />
                   <div className="answer-text rtl">{renderAnswer(turn.content)}</div>
                   {turn.sources && turn.sources.length > 0 && (
                     <div className="chat-sources ltr">{turn.sources.slice(0, 6).join(' · ')}</div>
