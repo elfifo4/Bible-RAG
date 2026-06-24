@@ -174,6 +174,90 @@ export const compare = async (
   return response.data;
 };
 
+// --- Agent ("חברותא") chat ---
+
+export interface ChatMessage {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
+export interface TraceStep {
+  step: number;
+  type: 'tool_call' | 'final_answer' | 'fallback';
+  tool: string | null;
+  label: string;
+  args: Record<string, any> | null;
+  summary: string;
+  confidence: 'high' | 'medium' | 'low';
+}
+
+export interface NumberedVerse {
+  ref: string;
+  text: string;
+  word_count: number;
+}
+
+export interface ChatResponse {
+  answer: string;
+  sources: string[];
+  trace: TraceStep[];
+  verses?: NumberedVerse[];
+}
+
+export const chat = async (messages: ChatMessage[]): Promise<ChatResponse> => {
+  const response = await api.post('/api/chat', { messages });
+  return response.data;
+};
+
+// Streaming variant: invokes onStep for each trace step as it arrives (NDJSON),
+// and resolves with the final {answer, sources, verses} once "done" is received.
+export const chatStream = async (
+  messages: ChatMessage[],
+  onStep: (step: TraceStep) => void
+): Promise<ChatResponse> => {
+  const token = localStorage.getItem('token');
+  const res = await fetch(`${API_BASE_URL}/api/chat/stream`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    },
+    body: JSON.stringify({ messages }),
+  });
+  if (res.status === 401) {
+    const err: any = new Error('Unauthorized');
+    err.response = { status: 401 };
+    throw err;
+  }
+  if (!res.ok || !res.body) {
+    throw new Error(`Stream failed (${res.status})`);
+  }
+
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = '';
+  let final: ChatResponse = { answer: '', sources: [], trace: [], verses: [] };
+
+  const handleLine = (line: string) => {
+    if (!line.trim()) return;
+    const ev = JSON.parse(line);
+    if (ev.type === 'step') onStep(ev.step as TraceStep);
+    else if (ev.type === 'done') final = { answer: ev.answer, sources: ev.sources, trace: [], verses: ev.verses };
+    else if (ev.type === 'error') throw new Error(ev.detail || 'Agent error');
+  };
+
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    buffer += decoder.decode(value, { stream: true });
+    const lines = buffer.split('\n');
+    buffer = lines.pop() || ''; // keep the partial last line
+    for (const line of lines) handleLine(line);
+  }
+  if (buffer.trim()) handleLine(buffer);
+  return final;
+};
+
 export const login = async (password: string): Promise<string> => {
   const response = await api.post('/api/login', { password });
   const { access_token } = response.data;

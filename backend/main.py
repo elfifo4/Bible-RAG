@@ -2,20 +2,22 @@ import os
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from dotenv import load_dotenv
 
 load_dotenv()
 
 from .schemas import (
-    AskRequest, AskResponse, LoginRequest, Token, ConfigResponse, 
+    AskRequest, AskResponse, LoginRequest, Token, ConfigResponse,
     CompareRequest, CompareResponse, EvalSummaryResponse, EvalQuestionsResponse,
-    EvalAnswersResponse
+    EvalAnswersResponse, ChatRequest, ChatResponse
 )
 from .auth import create_access_token, get_current_user, verify_password
 import time
 import json
 from pathlib import Path
 from src.rag_system import BibleRAG
+from src.agent import BibleAgent
 from src.config import TOP_K, CHUNK_STRATEGY, PROJECT_ROOT
 
 # Evaluation Results Path
@@ -28,7 +30,12 @@ rag_app = {}
 async def lifespan(app: FastAPI):
     # Load the RAG system once at startup
     print("Loading Bible RAG system...")
-    rag_app["rag"] = BibleRAG()
+    rag = BibleRAG()
+    rag_app["rag"] = rag
+    # Build the agent ON TOP of the already-loaded retriever + client
+    # (reuse — do NOT reload the embedding model or FAISS index).
+    print("Initializing agent (חברותא)...")
+    rag_app["agent"] = BibleAgent(retriever=rag.retriever, client=rag.generator.client)
     yield
     # Clean up if needed
     rag_app.clear()
@@ -119,6 +126,37 @@ async def compare(request: CompareRequest, user_id: str = Depends(get_current_us
     except Exception as e:
         print(f"Error in compare: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/chat", response_model=ChatResponse)
+async def chat(request: ChatRequest, user_id: str = Depends(get_current_user)):
+    try:
+        agent: BibleAgent = rag_app["agent"]
+        messages = [{"role": m.role, "content": m.content} for m in request.messages]
+        result = agent.chat(messages, strategy_hint=request.strategy)
+        return result
+    except Exception as e:
+        print(f"Error in chat: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/chat/stream")
+async def chat_stream(request: ChatRequest, user_id: str = Depends(get_current_user)):
+    """Stream the agent's steps as they happen (NDJSON: one JSON event per line).
+    Each line is {"type":"step","step":{...}} or {"type":"done",...} or
+    {"type":"error","detail":...}."""
+    agent: BibleAgent = rag_app["agent"]
+    messages = [{"role": m.role, "content": m.content} for m in request.messages]
+
+    def event_stream():
+        try:
+            # Pace instant server-side steps (e.g. binary-search probes) so the
+            # trace builds up one step at a time on screen.
+            for ev in agent.stream(messages, step_delay=0.5):
+                yield json.dumps(ev, ensure_ascii=False) + "\n"
+        except Exception as e:
+            print(f"Error in chat_stream: {e}")
+            yield json.dumps({"type": "error", "detail": str(e)}, ensure_ascii=False) + "\n"
+
+    return StreamingResponse(event_stream(), media_type="application/x-ndjson")
 
 @app.get("/api/eval/summary", response_model=EvalSummaryResponse)
 async def get_eval_summary(user_id: str = Depends(get_current_user)):

@@ -563,3 +563,303 @@ button:disabled {
   border-radius: 0.375rem;
   margin-bottom: 1rem;
 }
+
+/* ===================== Agent ("חברותא") chat view ===================== */
+
+.chat-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.presentation-toggle {
+  background: #94a3b8;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+.presentation-toggle.active {
+  background: #92400e;
+}
+
+.chat-thread {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.chat-bubble.user {
+  align-self: flex-start;
+  max-width: 85%;
+}
+.chat-bubble.assistant {
+  align-self: stretch;
+}
+
+.chat-user-text {
+  background: #2563eb;
+  color: #fff;
+  padding: 0.7rem 1.1rem;
+  border-radius: 1rem 1rem 1rem 0.2rem;
+  font-size: 1rem;
+  direction: rtl;
+  text-align: right;
+}
+
+.chat-answer-card {
+  border-top: 4px solid #92400e;
+  margin-bottom: 0;
+}
+
+.chat-sources {
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.chat-input-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+.chat-input-row input {
+  flex: 1;
+}
+
+/* ---------- Agent Trace Visualization ---------- */
+
+.agent-trace {
+  margin-bottom: 0.75rem;
+}
+
+.trace-toggle {
+  background: rgba(146, 64, 14, 0.12);
+  color: #92400e;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  font-size: 0.85rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.trace-timeline {
+  direction: rtl;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.trace-step {
+  display: flex;
+  gap: 0.75rem;
+  align-items: stretch;
+}
+
+.trace-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 2.2rem;
+  flex-shrink: 0;
+}
+
+.trace-icon {
+  font-size: 1.25rem;
+  line-height: 2.2rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #e2e8f0;
+  border-radius: 50%;
+}
+
+.trace-line {
+  flex: 1;
+  width: 2px;
+  background: #d6bfa3;
+  min-height: 0.75rem;
+}
+
+.trace-card {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(4px);
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 0.7rem 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.trace-card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.trace-step-num {
+  font-size: 0.7rem;
+  color: #94a3b8;
+}
+
+.trace-label {
+  font-weight: bold;
+  color: #0f172a;
+  font-size: 0.95rem;
+}
+
+.trace-conf {
+  font-size: 0.7rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+  margin-right: auto;
+}
+.conf-badge-high { background: #dcfce7; color: #166534; }
+.conf-badge-medium { background: #fef9c3; color: #854d0e; }
+.conf-badge-low { background: #fee2e2; color: #991b1b; }
+
+.trace-tool-desc {
+  font-size: 0.78rem;
+  color: #64748b;
+  margin-top: 0.3rem;
+}
+
+.trace-args {
+  font-size: 0.8rem;
+  color: #475569;
+  margin-top: 0.4rem;
+  direction: rtl;
+  word-break: break-word;
+}
+.trace-args-label {
+  font-weight: bold;
+  color: #92400e;
+}
+
+.trace-summary {
+  font-size: 0.9rem;
+  color: #1e293b;
+  margin-top: 0.4rem;
+}
+
+.trace-step.type-fallback .trace-icon { border-color: #ef4444; }
+.trace-step.type-final_answer .trace-icon { border-color: #16a34a; }
+
+/* Presentation mode: bigger, cleaner, classroom-friendly */
+.agent-trace.presentation .trace-icon {
+  font-size: 1.6rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  line-height: 2.8rem;
+}
+.agent-trace.presentation .trace-marker { width: 2.8rem; }
+.agent-trace.presentation .trace-label { font-size: 1.15rem; }
+.agent-trace.presentation .trace-summary { font-size: 1.05rem; }
+.agent-trace.presentation .trace-card { padding: 1rem 1.2rem; }
+
+/* Dicta number-word highlights inside an agent answer */
+.num-match {
+  font-weight: 700;
+  background: #fef3c7;
+  color: #92400e;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+/* Copy button on chat bubbles */
+.chat-user-text, .chat-answer-card { position: relative; }
+.chat-user-text { padding-left: 2.2rem; }
+.chat-answer-card { padding-left: 2.4rem; }
+
+.copy-btn {
+  position: absolute;
+  top: 0.45rem;
+  left: 0.45rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+  background: transparent;
+  border: none;
+  border-radius: 0.35rem;
+  cursor: pointer;
+  opacity: 0.55;
+  transition: opacity 0.15s, background 0.15s;
+}
+.copy-btn:hover { opacity: 1; background: rgba(0, 0, 0, 0.08); }
+.chat-answer-card .copy-btn { color: #92400e; }
+.chat-user-text .copy-btn { color: #fff; }
+.chat-user-text .copy-btn:hover { background: rgba(255, 255, 255, 0.25); }
+
+/* Word-count visualization: running number above each word */
+.nv-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.numbered-verse {
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem 1rem;
+}
+
+.nv-ref {
+  font-size: 0.8rem;
+  color: #92400e;
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.nv-words {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.55rem 0.8rem;
+  direction: rtl;
+  justify-content: flex-start;
+}
+
+.nv-word {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nv-num {
+  font-size: 0.8rem;
+  color: #92400e;
+  border-bottom: 2px solid #b45309;
+  padding: 0 0.35rem 1px;
+  min-width: 1.3rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.nv-text {
+  font-size: 1.35rem;
+  margin-top: 0.3rem;
+  line-height: 1.5;
+}
+
+/* Live streaming: steps appear above an inline "still working" indicator */
+.chat-live { align-self: stretch; }
+.loading-inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+  justify-content: flex-start;
+  direction: rtl;
+  color: #64748b;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.25rem;
+}
+.loading-inline .spinner { margin: 0; }

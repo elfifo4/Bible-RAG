@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>חברותא — סיפור הפרויקט</title>
+<style>
+  @page { size: A4; margin: 16mm 15mm; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font-family: "Heebo", "Assistant", "Arial Hebrew", "Arial", sans-serif;
+    color: #2d2a26; line-height: 1.7; margin: 0;
+    font-size: 11.5pt;
+  }
+  h1, h2, h3 { line-height: 1.3; }
+  .accent { color: #b45309; }
+  .blue { color: #2563eb; }
+
+  /* ---------- Cover ---------- */
+  .cover {
+    height: 247mm; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; text-align: center;
+    background: linear-gradient(160deg, #fdf6e3 0%, #f6ead0 100%);
+    border: 2px solid #d9c39b; border-radius: 14px; padding: 24px;
+    page-break-after: always;
+  }
+  .cover .emblem { margin-bottom: 18px; }
+  .cover h1 { font-size: 40pt; margin: 0; color: #5b3a0e; letter-spacing: -1px; }
+  .cover .robot { font-size: 34pt; }
+  .cover .sub { font-size: 17pt; color: #92400e; margin-top: 10px; font-weight: 600; }
+  .cover .tag { font-size: 12.5pt; color: #6b5b43; margin-top: 26px; max-width: 460px; }
+  .cover .meta { margin-top: 40px; font-size: 11pt; color: #6b5b43; border-top: 1px solid #d9c39b; padding-top: 14px; }
+
+  .section { page-break-inside: avoid; margin: 0 0 22px; }
+  h2.sh {
+    font-size: 18pt; color: #5b3a0e; border-right: 5px solid #d9a441;
+    padding: 2px 12px 2px 0; margin: 26px 0 12px;
+  }
+  .lead-quote {
+    background: #fbf3df; border: 1px solid #e6d3a8; border-radius: 10px;
+    padding: 16px 20px; font-size: 13.5pt; color: #4a3a1e; font-weight: 600;
+  }
+  .lead-quote .mark { color: #d9a441; font-size: 20pt; vertical-align: -4px; }
+
+  p { margin: 8px 0; }
+  .muted { color: #6b5b43; }
+  strong { color: #5b3a0e; }
+
+  /* ---------- Demo cards ---------- */
+  .cards { display: flex; flex-direction: column; gap: 12px; }
+  .card {
+    border: 1px solid #e2d6bd; border-radius: 10px; padding: 12px 16px;
+    background: #fffdf8; page-break-inside: avoid;
+  }
+  .card .num {
+    display: inline-flex; width: 26px; height: 26px; border-radius: 50%;
+    background: #2563eb; color: #fff; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 12pt; margin-left: 8px;
+  }
+  .card h3 { display: inline; font-size: 13pt; color: #1e293b; }
+  .card .q { background: #eef4ff; border-radius: 6px; padding: 6px 10px; margin: 8px 0; color: #1d4ed8; font-weight: 600; }
+  .card .say { color: #3a3329; }
+  .card .say::before { content: "🗣 "; }
+
+  .box {
+    background: #f3f7f0; border: 1px solid #cfe0c4; border-radius: 10px;
+    padding: 14px 18px; page-break-inside: avoid;
+  }
+  .closing {
+    background: linear-gradient(160deg, #fdf6e3, #f6ead0);
+    border: 1px solid #d9c39b; border-radius: 12px; padding: 20px 24px;
+    text-align: center; font-size: 14pt; font-weight: 700; color: #5b3a0e;
+    page-break-inside: avoid;
+  }
+  ul { margin: 6px 0; padding-inline-start: 22px; }
+  li { margin: 5px 0; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 6px 0; }
+  .chip { background: #fbf3df; border: 1px solid #e6d3a8; border-radius: 20px; padding: 5px 12px; font-size: 10.5pt; color: #5b3a0e; }
+  .footer-note { text-align: center; color: #9b8a6c; font-size: 9.5pt; margin-top: 8px; }
+  svg { display: block; margin: 6px auto; }
+  .cap { text-align: center; color: #8a7a5c; font-size: 9.5pt; margin-top: 2px; }
+</style>
+</head>
+<body>
+
+<!-- ===================== COVER ===================== -->
+<div class="cover">
+  <div class="emblem">
+    <svg width="120" height="120" viewBox="0 0 120 120">
+      <circle cx="60" cy="60" r="56" fill="#fff8e9" stroke="#d9a441" stroke-width="3"/>
+      <!-- open book -->
+      <path d="M30 76 Q60 64 90 76 L90 44 Q60 32 30 44 Z" fill="#f1e2bf" stroke="#a9802f" stroke-width="2"/>
+      <line x1="60" y1="38" x2="60" y2="72" stroke="#a9802f" stroke-width="2"/>
+      <!-- gear -->
+      <g transform="translate(86,34)">
+        <circle r="13" fill="#2563eb"/>
+        <circle r="5" fill="#fff8e9"/>
+        <g fill="#2563eb">
+          <rect x="-2.5" y="-19" width="5" height="7"/><rect x="-2.5" y="12" width="5" height="7"/>
+          <rect x="-19" y="-2.5" width="7" height="5"/><rect x="12" y="-2.5" width="7" height="5"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <h1>חברותא <span class="robot">🤖</span></h1>
+  <div class="sub">סוכן לימוד אַגֶנְטִי לתנ״ך — סיפור הפרויקט</div>
+  <div class="tag">איך הפכנו מערכת RAG שיודעת <em>לחפש</em> — לסוכן שיודע <strong>להחליט</strong>, לתקן את עצמו, ולחקור תשובות שהוא לא יודע מראש.</div>
+  <div class="meta">
+    אלעד פיניש · פרויקט סיום · קורס AI for Developers<br>
+    המכון לבינה מלאכותית · אוניברסיטת בן-גוריון בנגב
+  </div>
+</div>
+
+<!-- ===================== HOOK ===================== -->
+<div class="section">
+  <h2 class="sh">הפתיח</h2>
+  <div class="lead-quote">
+    <span class="mark">״</span>במטלת האמצע בניתי מערכת RAG שיודעת <span class="accent">לחפש</span> בתנ״ך.
+    בפרויקט הסיום בניתי משהו אחר לגמרי: סוכן שיודע <span class="blue">להחליט</span> —
+    חברותא דיגיטלית שבוחרת לבד באיזה כלי להשתמש, מתקנת את עצמה כשהיא טועה,
+    ומחפשת תשובות שהיא לא יודעת מראש.<span class="mark">״</span>
+  </div>
+</div>
+
+<!-- ===================== ARC ===================== -->
+<div class="section">
+  <h2 class="sh">הקשת: מ-Pipeline ל-Agent</h2>
+  <p><strong>מטלת האמצע</strong> הייתה צינור קבוע: שאלה ← אחזור ← תשובה. תיעדתי בעצמי שלוש חולשות —
+  שאלות מבניות לא נתמכו, 97% מהכשלים היו ״החטאות אחזור״, ולא הייתה רב-שלביות.</p>
+  <p><strong>פרויקט הסיום</strong> הופך את הצינור לסוכן: אותו RAG נשאר בפנים, אבל עכשיו
+  <span class="blue">מודל שפה עוטף אותו ומחליט</span> — מתי לחפש, באיזו אסטרטגיה, מתי לשלוף פסוק מדויק,
+  ומתי בכלל לא צריך לחפש אלא לחשב.</p>
+
+  <svg width="500" height="210" viewBox="0 0 500 210">
+    <!-- midterm pipeline -->
+    <g font-size="12" fill="#5b5247">
+      <rect x="360" y="30" width="120" height="34" rx="7" fill="#eee7d8" stroke="#c9b893"/>
+      <text x="420" y="52" text-anchor="middle">שאלה</text>
+      <rect x="210" y="30" width="120" height="34" rx="7" fill="#eee7d8" stroke="#c9b893"/>
+      <text x="270" y="52" text-anchor="middle">אחזור (RAG)</text>
+      <rect x="60" y="30" width="120" height="34" rx="7" fill="#eee7d8" stroke="#c9b893"/>
+      <text x="120" y="52" text-anchor="middle">תשובה</text>
+      <line x1="360" y1="47" x2="334" y2="47" stroke="#b9a878" stroke-width="2" marker-end="url(#ar)"/>
+      <line x1="210" y1="47" x2="184" y2="47" stroke="#b9a878" stroke-width="2" marker-end="url(#ar)"/>
+    </g>
+    <!-- agent -->
+    <g>
+      <rect x="355" y="120" width="125" height="40" rx="9" fill="#2563eb"/>
+      <text x="417" y="145" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">🤖 הסוכן</text>
+      <!-- tool nodes -->
+      <g font-size="10.5" fill="#5b3a0e">
+        <rect x="250" y="92" width="92" height="28" rx="14" fill="#fbf3df" stroke="#e0c98f"/><text x="296" y="110" text-anchor="middle">🔍 חיפוש</text>
+        <rect x="250" y="128" width="92" height="28" rx="14" fill="#fbf3df" stroke="#e0c98f"/><text x="296" y="146" text-anchor="middle">📖 שליפה</text>
+        <rect x="250" y="164" width="92" height="28" rx="14" fill="#fbf3df" stroke="#e0c98f"/><text x="296" y="182" text-anchor="middle">📚 מבנה</text>
+        <rect x="120" y="100" width="100" height="28" rx="14" fill="#fbf3df" stroke="#e0c98f"/><text x="170" y="118" text-anchor="middle">📏 חיפוש בינארי</text>
+        <rect x="120" y="136" width="100" height="28" rx="14" fill="#fbf3df" stroke="#e0c98f"/><text x="170" y="154" text-anchor="middle">🔢 מספרים</text>
+        <rect x="120" y="172" width="100" height="28" rx="14" fill="#fbf3df" stroke="#e0c98f"/><text x="170" y="190" text-anchor="middle">⚖️ השוואה</text>
+      </g>
+      <g stroke="#9bb8f0" stroke-width="1.6" fill="none">
+        <line x1="355" y1="135" x2="342" y2="106"/><line x1="355" y1="140" x2="342" y2="142"/><line x1="355" y1="145" x2="342" y2="178"/>
+        <line x1="250" y1="106" x2="220" y2="114"/><line x1="250" y1="142" x2="220" y2="150"/><line x1="250" y1="178" x2="220" y2="186"/>
+      </g>
+    </g>
+    <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#b9a878"/></marker></defs>
+  </svg>
+  <div class="cap">למעלה: הצינור הקבוע מהמטלה הקודמת. למטה: הסוכן בוחר לבד מתוך מגוון כלים.</div>
+  <p style="margin-top:10px"><strong>זה הסיפור:</strong> לא שדרגתי את החיפוש — נתתי למערכת <span class="blue">אוטונומיה</span>.</p>
+</div>
+
+<!-- ===================== DEMO MOMENTS ===================== -->
+<div class="section">
+  <h2 class="sh">ארבעה רגעי דמו שמדגישים אוטונומיה</h2>
+  <div class="cards">
+
+    <div class="card">
+      <span class="num">1</span><h3>הסוכן בוחר לבד (ניתוב כלים)</h3>
+      <div class="q">״מי היה אביו של אברהם?״ &nbsp;מול&nbsp; ״כמה ספרים יש בתנ״ך?״</div>
+      <div class="say">לא אמרתי לו באיזה כלי להשתמש. על הראשונה הוא <strong>בחר</strong> לחפש בפסוקים; על השנייה הבין שזו שאלת מבנה ו<strong>בחר</strong> כלי דטרמיניסטי בלי לחפש בכלל. ההחלטה היא שלו.</div>
+    </div>
+
+    <div class="card">
+      <span class="num">2</span><h3>הסוכן מתקן את עצמו (Self-Correction)</h3>
+      <div class="q">שאלה בניסוח קשה / לא שגרתי</div>
+      <div class="say">ב-trace רואים שהחיפוש הראשון החזיר ציונים נמוכים — אז הסוכן <strong>ניסח מחדש וחיפש שוב</strong>, לבד. זו בדיוק החולשה מהמטלה הקודמת (97% החטאות) — עכשיו הסוכן מודע לכישלון ומגיב.</div>
+    </div>
+
+    <div class="card">
+      <span class="num">3</span><h3>הסוכן מחפש תשובה שאינו יודע מראש ⭐</h3>
+      <div class="q">״מה הפסוק הכי ארוך בתנ״ך מבחינת מילים?״</div>
+      <div class="say">המודל לא יודע את התשובה. תראו אותו מריץ <strong>חיפוש בינארי</strong> מול העיניים ומתכנס לתשובה ודאית — זו חקירה אוטונומית, לא שליפה מהזיכרון.</div>
+      <svg width="470" height="86" viewBox="0 0 470 86">
+        <line x1="20" y1="58" x2="450" y2="58" stroke="#cbb98e" stroke-width="2"/>
+        <!-- ticks 0..100 mapped: x = 450 - val*4.3 (RTL: small on right) -->
+        <g font-size="10" fill="#7a6a4a" text-anchor="middle">
+          <!-- probes -->
+          <g>
+            <circle cx="32" cy="58" r="5" fill="#cbb98e"/><text x="32" y="44">100</text><text x="32" y="74" fill="#b91c1c">אין</text>
+            <circle cx="235" cy="58" r="5" fill="#cbb98e"/><text x="235" y="44">50</text><text x="235" y="74" fill="#b91c1c">אין</text>
+            <circle cx="343" cy="58" r="5" fill="#16a34a"/><text x="343" y="44">25</text><text x="343" y="74" fill="#16a34a">יש</text>
+            <circle cx="292" cy="58" r="5" fill="#16a34a"/><text x="292" y="44">37</text>
+            <circle cx="266" cy="58" r="6" fill="#d9a441" stroke="#92400e"/><text x="266" y="44" fill="#92400e" font-weight="bold">43</text>
+            <circle cx="253" cy="58" r="5" fill="#cbb98e"/><text x="253" y="44">46</text>
+          </g>
+          <text x="266" y="84" fill="#92400e" font-weight="bold">★ מתכנס: 43 (אסתר ח:ט)</text>
+        </g>
+      </svg>
+      <div class="cap">100 ← 50 ← 25 → 37 → 43 ← 46 → התכנסות ל-43</div>
+    </div>
+
+    <div class="card">
+      <span class="num">4</span><h3>הסוכן יודע מתי הוא <em>לא</em> מבוסס (שקיפות)</h3>
+      <div class="q">״אתה יודע גימטריה?״</div>
+      <div class="say">הוא עונה בקצרה ומסמן ביושר: ״תשובה כללית — לא מטקסט התנ״ך״, ומפנה לכלי AI כללי. סוכן טוב יודע גם מה הוא <strong>לא</strong> יודע.</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ===================== ENGINEERING MESSAGE ===================== -->
+<div class="section">
+  <h2 class="sh">המסר ההנדסי</h2>
+  <div class="box">
+    <p>האתגר באוטונומיה הוא <strong>אמון</strong>. הפכתי את הסוכן ל<strong>קופסה שקופה</strong>:
+    כל צעד — איזה כלי, עם אילו פרמטרים, מה חזר, ורמת ביטחון — נשפך חי למסך ונבנה צעד-צעד.</p>
+    <p>ולמדתי לקח: <span class="blue">אוטונומיה לא חייבת להיות לא-אמינה</span>. איפה שהיגיון ה-LLM שביר
+    (חיפוש בינארי), העברתי את החישוב לקוד דטרמיניסטי — אבל הצגתי אותו כתהליך חקירה גלוי.
+    <strong>אוטונומיה מרשימה + ודאות בתוצאה.</strong></p>
+  </div>
+</div>
+
+<!-- ===================== CLOSING ===================== -->
+<div class="section">
+  <h2 class="sh">משפט סגירה</h2>
+  <div class="closing">
+    במטלת האמצע המערכת ידעה לענות. בפרויקט הסיום היא יודעת <span class="accent">להחליט איך לענות,
+    לבדוק את עצמה, ולהודות כשאינה יודעת</span> — ואת כל זה היא עושה מול העיניים שלכם.<br>זאת המשמעות של סוכן.
+  </div>
+</div>
+
+<!-- ===================== BONUS ===================== -->
+<div class="section">
+  <h2 class="sh">נקודות בונוס לשאלות מהקהל</h2>
+  <ul>
+    <li><strong>דיוק אקדמי:</strong> הסוכן מאחד <em>כתיב/קרי</em> למילה אחת, לא סופר <em>פסק (׀)</em> כמילה,
+    וב״אמצע התורה״ הוא <strong>שקוף</strong> על הפער מול המסורה (גחון / דרש דרש) ומסביר שהוא נובע מכתיב מלא/חסר.</li>
+    <li><strong>חוסך עלות:</strong> שאלה שהיא מספר טהור (למשל ״127״) עוקפת את ה-LLM לגמרי ופונה ישירות ל-Dicta — <strong>אפס טוקנים</strong>.</li>
+    <li><strong>לא black box:</strong> ״מצב הצגה״ מגדיל את ה-trace לכיתה.</li>
+  </ul>
+
+  <p class="muted" style="margin-top:14px; font-weight:600;">ארגז הכלים של הסוכן:</p>
+  <div class="chips">
+    <span class="chip">🔍 search_tanakh</span>
+    <span class="chip">📖 lookup_reference</span>
+    <span class="chip">📚 bible_structure</span>
+    <span class="chip">⚖️ compare_strategies</span>
+    <span class="chip">🔢 search_number (Dicta)</span>
+    <span class="chip">📏 find_longest_verse</span>
+  </div>
+  <div class="footer-note">חברותא · Agentic RAG over the Hebrew Tanakh · 2026</div>
+</div>
+
+</body>
+</html>
