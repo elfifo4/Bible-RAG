@@ -16,6 +16,7 @@ Design goals (final project):
 import json
 import re
 import time
+from collections import Counter
 from typing import Any, Dict, List, Optional
 
 from .config import ALL_VERSES_JSONL, LLM_MODEL_NAME, OPENAI_API_KEY
@@ -58,7 +59,7 @@ You answer questions by USING TOOLS — you never rely on outside knowledge or i
 You have these tools:
 - search_tanakh: semantic / lexical / hybrid search over the Tanakh verses. Use it for content questions ("who/what/where/when did...").
 - lookup_reference: fetch the exact text of a specific Book Chapter:Verse (or a small range). Use it to verify or quote a verse precisely.
-- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, total number of verses, the longest WORD, the word with the highest GEMATRIA value, the longest VERSE by word count, and example verses with an exact number of words). Use this — do NOT search verses — for "how many books / how many verses / which book is longest / what is the order / what is the longest word / which word has the highest gematria / what is the longest verse / give me a verse with N words" style questions.
+- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, total number of verses/words/letters, the most frequent word, the most frequent letter, how many times a given word appears (word_frequency), the longest WORD, the word with the highest GEMATRIA value, the longest VERSE by word count, and example verses with an exact number of words). Use this — do NOT search verses — for "how many books / how many verses / how many words / how many letters / what is the most common word / which letter is most frequent / how many times does the word X appear / which book is longest / what is the order / what is the longest word / which word has the highest gematria / what is the longest verse / give me a verse with N words" style questions.
 - compare_retrieval_strategies: run dense, lexical and hybrid retrieval on the same query and compare, when it is useful to understand which strategy fits.
 - find_longest_verse: find the verse with the most words via a binary search. Use it for "what is the longest verse in the Tanakh" questions.
 
@@ -140,6 +141,8 @@ class BibleAgent:
         self._highest_gematria: Optional[Dict[str, Any]] = None
         self._verses_by_word_count: Dict[int, List[str]] = {}  # word count -> verse keys (canonical order)
         self._longest_verse: Optional[Dict[str, Any]] = None
+        self._word_freq: Counter = Counter()    # normalized word (letters only) -> occurrences
+        self._letter_freq: Counter = Counter()  # Hebrew letter -> occurrences
         if not ALL_VERSES_JSONL.exists():
             logger.warning(f"{ALL_VERSES_JSONL} not found — lookup_reference disabled.")
             return
@@ -155,10 +158,20 @@ class BibleAgent:
                 key = f"{v['book']}|{v['chapter']}|{v['verse']}"
                 self._verses_by_key[key] = v
 
-                # Index verses by word count. Use text_plain (maqaf (־) is a space,
-                # so maqaf-joined words count SEPARATELY) after collapsing ketiv/qere
-                # to one word. Built for every verse.
-                self._verses_by_word_count.setdefault(len(_resolve_keri_ketiv(v["text_plain"]).split()), []).append(key)
+                # Resolve ketiv/qere once; reuse for the word-count index AND the
+                # word/letter frequency counters (so all counts are consistent).
+                resolved = _resolve_keri_ketiv(v["text_plain"])
+                resolved_tokens = resolved.split()
+                # Index verses by word count (maqaf (־)/paseq (׀) are spaces in
+                # text_plain, so maqaf-joined words count SEPARATELY).
+                self._verses_by_word_count.setdefault(len(resolved_tokens), []).append(key)
+                for tok in resolved_tokens:
+                    w = "".join(ch for ch in tok if "א" <= ch <= "ת")  # letters only (drop ׃ etc.)
+                    if w:
+                        self._word_freq[w] += 1
+                for ch in resolved:
+                    if "א" <= ch <= "ת":
+                        self._letter_freq[ch] += 1
 
                 # Longest-word scan (same pass): count Hebrew letters per plain token,
                 # keep the parallel niqqud form for display.
@@ -260,7 +273,7 @@ class BibleAgent:
                 "type": "function",
                 "function": {
                     "name": "bible_structure",
-                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, total number of verses, the longest word, the word with the highest gematria value, and example verses that contain an exact number of words. (For the longest VERSE by word count, use the find_longest_verse tool instead.)",
+                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, total number of verses, total number of words, total number of letters, the most frequent word, the most frequent letter, how many times a given word appears, the longest word, the word with the highest gematria value, and example verses that contain an exact number of words. (For the longest VERSE by word count, use the find_longest_verse tool instead.)",
                     "parameters": {
                         "type": "object",
                         "properties": {
@@ -274,6 +287,11 @@ class BibleAgent:
                                     "book_count",
                                     "total_chapters",
                                     "total_verses",
+                                    "total_words",
+                                    "total_letters",
+                                    "most_frequent_word",
+                                    "most_frequent_letter",
+                                    "word_frequency",
                                     "longest_word",
                                     "highest_gematria",
                                     "verse_by_word_count",
@@ -281,6 +299,7 @@ class BibleAgent:
                             },
                             "book": {"type": "string", "description": "Book name (needed for book_chapter_count / book_order)."},
                             "word_count": {"type": "integer", "description": "Exact number of words a verse should contain (for verse_by_word_count)."},
+                            "word": {"type": "string", "description": "The word to count (for word_frequency), in Hebrew."},
                         },
                         "required": ["query_type"],
                     },
@@ -358,7 +377,7 @@ class BibleAgent:
         return {"found": True, "book": he_book, "chapter": int(chapter), "verses": verses}
 
     def _tool_bible_structure(self, query_type: str, book: Optional[str] = None,
-                              word_count: Optional[int] = None) -> Dict[str, Any]:
+                              word_count: Optional[int] = None, word: Optional[str] = None) -> Dict[str, Any]:
         catalog = BIBLE_CATALOG
         if query_type == "book_count":
             return {"answer": len(catalog), "detail": "מספר הספרים בתנ״ך"}
@@ -370,6 +389,37 @@ class BibleAgent:
             if not n:
                 return {"error": "נתוני הפסוקים אינם זמינים לספירת הפסוקים."}
             return {"answer": n, "detail": "מספר הפסוקים בתנ״ך"}
+        if query_type == "total_words":
+            wf = getattr(self, "_word_freq", None)
+            if not wf:
+                return {"error": "נתוני הפסוקים אינם זמינים לספירת המילים."}
+            return {"answer": sum(wf.values()), "detail": "סך כל המילים בתנ״ך"}
+        if query_type == "total_letters":
+            lf = getattr(self, "_letter_freq", None)
+            if not lf:
+                return {"error": "נתוני הפסוקים אינם זמינים לספירת האותיות."}
+            return {"answer": sum(lf.values()), "detail": "סך כל האותיות בתנ״ך"}
+        if query_type == "most_frequent_word":
+            wf = getattr(self, "_word_freq", None)
+            if not wf:
+                return {"error": "נתוני הפסוקים אינם זמינים לחישוב תדירות המילים."}
+            top = wf.most_common(3)
+            return {"word": top[0][0], "count": top[0][1],
+                    "top": [{"word": w, "count": c} for w, c in top]}
+        if query_type == "most_frequent_letter":
+            lf = getattr(self, "_letter_freq", None)
+            if not lf:
+                return {"error": "נתוני הפסוקים אינם זמינים לחישוב תדירות האותיות."}
+            letter, count = lf.most_common(1)[0]
+            return {"letter": letter, "count": count}
+        if query_type == "word_frequency":
+            wf = getattr(self, "_word_freq", None)
+            if wf is None:
+                return {"error": "נתוני הפסוקים אינם זמינים לחישוב תדירות המילים."}
+            w = "".join(ch for ch in (word or "") if "א" <= ch <= "ת")  # normalize to letters
+            if not w:
+                return {"error": "יש לציין מילה בעברית."}
+            return {"word": w, "count": wf.get(w, 0), "queried": True}
         if query_type == "longest_book":
             b = max(catalog, key=lambda x: x["number_of_chapters"])
             return {"book": b["hebrew"], "book_en": b["english"], "chapters": b["number_of_chapters"]}
@@ -516,6 +566,16 @@ class BibleAgent:
                 k = len(result.get("words", []))
                 cnt = "מילה אחת" if k == 1 else f"{k} מילים"
                 return {"summary": f"הערך הגימטרי הגבוה ביותר: {result['value']} ({cnt}).", "confidence": "high"}
+            if "letter" in result:  # most_frequent_letter
+                return {"summary": f"האות הנפוצה ביותר: '{result['letter']}' ({result['count']} פעמים).", "confidence": "high"}
+            if "word" in result and "count" in result:  # most_frequent_word / word_frequency
+                c = result["count"]
+                times = "פעם אחת" if c == 1 else f"{c} פעמים"
+                if result.get("queried"):
+                    if c == 0:
+                        return {"summary": f"המילה '{result['word']}' (בצורתה המדויקת) אינה מופיעה בתנ״ך.", "confidence": "medium"}
+                    return {"summary": f"המילה '{result['word']}' מופיעה {times}.", "confidence": "high"}
+                return {"summary": f"המילה הנפוצה ביותר: '{result['word']}' ({times}).", "confidence": "high"}
             if "word_count" in result:  # verse_by_word_count
                 n = result["word_count"]
                 total = result.get("total", 0)
