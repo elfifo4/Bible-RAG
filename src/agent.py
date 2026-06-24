@@ -15,6 +15,7 @@ Design goals (final project):
 
 import json
 import re
+import time
 from typing import Any, Dict, List, Optional
 
 from .config import ALL_VERSES_JSONL, LLM_MODEL_NAME, OPENAI_API_KEY
@@ -57,7 +58,7 @@ You answer questions by USING TOOLS — you never rely on outside knowledge or i
 You have these tools:
 - search_tanakh: semantic / lexical / hybrid search over the Tanakh verses. Use it for content questions ("who/what/where/when did...").
 - lookup_reference: fetch the exact text of a specific Book Chapter:Verse (or a small range). Use it to verify or quote a verse precisely.
-- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, the longest WORD, the word with the highest GEMATRIA value, the longest VERSE by word count, and example verses with an exact number of words). Use this — do NOT search verses — for "how many books / which book is longest / what is the order / what is the longest word / which word has the highest gematria / what is the longest verse / give me a verse with N words" style questions.
+- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, total number of verses, the longest WORD, the word with the highest GEMATRIA value, the longest VERSE by word count, and example verses with an exact number of words). Use this — do NOT search verses — for "how many books / how many verses / which book is longest / what is the order / what is the longest word / which word has the highest gematria / what is the longest verse / give me a verse with N words" style questions.
 - compare_retrieval_strategies: run dense, lexical and hybrid retrieval on the same query and compare, when it is useful to understand which strategy fits.
 - find_longest_verse: find the verse with the most words via a binary search. Use it for "what is the longest verse in the Tanakh" questions.
 
@@ -259,7 +260,7 @@ class BibleAgent:
                 "type": "function",
                 "function": {
                     "name": "bible_structure",
-                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, the longest WORD, the word with the highest GEMATRIA value, and example verses that contain an exact number of words. (For the longest VERSE by word count, use the find_longest_verse tool instead.)",
+                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, total number of verses, the longest word, the word with the highest gematria value, and example verses that contain an exact number of words. (For the longest VERSE by word count, use the find_longest_verse tool instead.)",
                     "parameters": {
                         "type": "object",
                         "properties": {
@@ -272,6 +273,7 @@ class BibleAgent:
                                     "book_order",
                                     "book_count",
                                     "total_chapters",
+                                    "total_verses",
                                     "longest_word",
                                     "highest_gematria",
                                     "verse_by_word_count",
@@ -363,6 +365,11 @@ class BibleAgent:
         if query_type == "total_chapters":
             total = sum(b["number_of_chapters"] for b in catalog)
             return {"answer": total, "detail": "סך כל הפרקים בתנ״ך"}
+        if query_type == "total_verses":
+            n = len(getattr(self, "_verses_by_key", {}))
+            if not n:
+                return {"error": "נתוני הפסוקים אינם זמינים לספירת הפסוקים."}
+            return {"answer": n, "detail": "מספר הפסוקים בתנ״ך"}
         if query_type == "longest_book":
             b = max(catalog, key=lambda x: x["number_of_chapters"])
             return {"book": b["hebrew"], "book_en": b["english"], "chapters": b["number_of_chapters"]}
@@ -589,11 +596,13 @@ class BibleAgent:
                 done = ev
         return {"answer": done["answer"], "sources": done["sources"], "trace": trace, "verses": done.get("verses", [])}
 
-    def stream(self, messages: List[Dict[str, str]]):
+    def stream(self, messages: List[Dict[str, str]], step_delay: float = 0.0):
         """Generator that yields the agent's progress as it happens:
           {"type": "step", "step": <trace step>}   — one per step, in order
           {"type": "done", "answer", "sources", "verses"}  — final result
         Used by the /api/chat/stream endpoint to show steps live; chat() drains it.
+        step_delay (seconds) paces instant server-side steps (e.g. the binary-search
+        probes) so they appear one-by-one like a chain being built; 0 = no pacing.
         """
         # Keep only the last N turns of plain chat history.
         history = [m for m in messages if m.get("role") in ("user", "assistant")][-MAX_HISTORY_MESSAGES:]
@@ -703,10 +712,14 @@ class BibleAgent:
                               "label": TOOL_LABELS.get(name, name), "args": {"word_count": n},
                               "summary": psum, "confidence": conf}
                         trace.append(ts)
+                        if step_delay:
+                            time.sleep(step_delay)
                         yield {"type": "step", "step": ts}
                     # Concluding step: the search converged.
                     ref0 = result["verses"][0]["ref"] if result.get("verses") else ""
                     step += 1
+                    if step_delay:
+                        time.sleep(step_delay)
                     ts = {"step": step, "type": "tool_call", "tool": name,
                           "label": TOOL_LABELS.get(name, name), "args": None,
                           "summary": f"החיפוש התכנס: הפסוק הארוך ביותר מכיל {found} מילים ({ref0}).",

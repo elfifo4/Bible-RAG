@@ -148,7 +148,9 @@ async def chat_stream(request: ChatRequest, user_id: str = Depends(get_current_u
 
     def event_stream():
         try:
-            for ev in agent.stream(messages):
+            # Pace instant server-side steps (e.g. binary-search probes) so the
+            # trace builds up one step at a time on screen.
+            for ev in agent.stream(messages, step_delay=0.5):
                 yield json.dumps(ev, ensure_ascii=False) + "\n"
         except Exception as e:
             print(f"Error in chat_stream: {e}")

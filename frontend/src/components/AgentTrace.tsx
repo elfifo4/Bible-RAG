@@ -1,11 +1,11 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { TraceStep } from '../api';
 
 // Hebrew explanations for each tool, surfaced in the trace cards.
 const TOOL_INFO: Record<string, { icon: string; desc: string }> = {
   search_tanakh: { icon: '🔍', desc: 'חיפוש סמנטי/מילולי/היברידי בתוך פסוקי התנ״ך' },
   lookup_reference: { icon: '📖', desc: 'שליפה מדויקת לפי ספר, פרק ופסוק' },
-  bible_structure: { icon: '📚', desc: 'תשובות לשאלות מבניות וסטטיסטיות על התנ״ך — מספר ספרים/פרקים, סדר הספרים, המילה הארוכה ביותר והערך הגימטרי הגבוה ביותר' },
+  bible_structure: { icon: '📚', desc: 'תשובות לשאלות מבניות וסטטיסטיות על התנ״ך — מספר ספרים/פרקים/פסוקים, סדר הספרים, המילה הארוכה ביותר והערך הגימטרי הגבוה ביותר' },
   compare_retrieval_strategies: { icon: '⚖️', desc: 'השוואה בין dense, lexical ו-hybrid כדי להבין איזו אסטרטגיה מתאימה' },
   search_number: { icon: '🔢', desc: 'חיפוש מספר (בכתיב מילולי) בפסוקי התנ״ך דרך מנוע החיפוש של Dicta' },
   find_longest_verse: { icon: '📏', desc: 'חיפוש בינארי אחר הפסוק הארוך ביותר — ניסיון מספרי מילים שונה בכל צעד עד להתכנסות' },
@@ -41,19 +41,9 @@ const AgentTrace: React.FC<Props> = ({ trace, presentationMode, forceOpen }) => 
   // In presentation mode (or live) the trace is open by default and stays expanded.
   const [open, setOpen] = useState(presentationMode || !!forceOpen);
 
-  const timelineRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
     setOpen(presentationMode || !!forceOpen);
   }, [presentationMode, forceOpen]);
-
-  // While streaming live, keep the (fixed-height) steps container scrolled to the
-  // newest step instead of growing the page.
-  useEffect(() => {
-    if (forceOpen && timelineRef.current) {
-      timelineRef.current.scrollTop = timelineRef.current.scrollHeight;
-    }
-  }, [trace.length, forceOpen]);
 
   if (!trace || trace.length === 0) return null;
 
@@ -70,7 +60,7 @@ const AgentTrace: React.FC<Props> = ({ trace, presentationMode, forceOpen }) => 
       )}
 
       {open && (
-        <div className="trace-timeline" ref={timelineRef}>
+        <div className="trace-timeline">
           {trace.map((step, i) => (
             <div key={step.step} className={`trace-step conf-${step.confidence} type-${step.type}`}>
               <div className="trace-marker">

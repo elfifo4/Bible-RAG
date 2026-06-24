@@ -863,14 +863,3 @@ button:disabled {
   padding: 0.5rem 0.25rem;
 }
 .loading-inline .spinner { margin: 0; }
-
-/* Steps live in a fixed-height scroll container (auto-scrolled to newest), so the
-   page height doesn't grow as steps stream in. */
-.trace-timeline {
-  max-height: 15rem;
-  overflow-y: auto;
-  padding-left: 0.4rem;
-}
-.agent-trace.presentation .trace-timeline {
-  max-height: 26rem;
-}
