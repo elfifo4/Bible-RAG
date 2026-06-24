@@ -59,7 +59,7 @@ You answer questions by USING TOOLS — you never rely on outside knowledge or i
 You have these tools:
 - search_tanakh: semantic / lexical / hybrid search over the Tanakh verses. Use it for content questions ("who/what/where/when did...").
 - lookup_reference: fetch the exact text of a specific Book Chapter:Verse (or a small range). Use it to verify or quote a verse precisely.
-- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, total number of verses/words/letters, the most frequent word, the most frequent letter, how many times a given word appears (word_frequency), the longest WORD, the word with the highest GEMATRIA value, the longest VERSE by word count, and example verses with an exact number of words). Use this — do NOT search verses — for "how many books / how many verses / how many words / how many letters / what is the most common word / which letter is most frequent / how many times does the word X appear / which book is longest / what is the order / what is the longest word / which word has the highest gematria / what is the longest verse / give me a verse with N words" style questions.
+- bible_structure: answer STRUCTURAL and corpus-statistic questions about the Tanakh (longest/shortest book, number of chapters in a book, order of books, number of books, total chapters, total number of verses/words/letters, the most frequent word, the most frequent letter, how many times a given word appears (word_frequency), the longest WORD, the word with the highest GEMATRIA value, the longest VERSE by word count, and example verses with an exact number of words). Use this — do NOT search verses — for "how many books / how many verses / how many words / how many letters / what is the most common word / which letter is most frequent / how many times does the word X appear / what is the middle letter (or word/verse) of the Torah / which book is longest / what is the order / what is the longest word / which word has the highest gematria / what is the longest verse / give me a verse with N words" style questions.
 - compare_retrieval_strategies: run dense, lexical and hybrid retrieval on the same query and compare, when it is useful to understand which strategy fits.
 - find_longest_verse: find the verse with the most words via a binary search. Use it for "what is the longest verse in the Tanakh" questions.
 
@@ -141,6 +141,7 @@ class BibleAgent:
         self._highest_gematria: Optional[Dict[str, Any]] = None
         self._verses_by_word_count: Dict[int, List[str]] = {}  # word count -> verse keys (canonical order)
         self._longest_verse: Optional[Dict[str, Any]] = None
+        self._torah_middle: Optional[Dict[str, Any]] = None  # lazy-computed on first request
         self._word_freq: Counter = Counter()    # normalized word (letters only) -> occurrences
         self._letter_freq: Counter = Counter()  # Hebrew letter -> occurrences
         if not ALL_VERSES_JSONL.exists():
@@ -273,7 +274,7 @@ class BibleAgent:
                 "type": "function",
                 "function": {
                     "name": "bible_structure",
-                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, total number of verses, total number of words, total number of letters, the most frequent word, the most frequent letter, how many times a given word appears, the longest word, the word with the highest gematria value, and example verses that contain an exact number of words. (For the longest VERSE by word count, use the find_longest_verse tool instead.)",
+                    "description": "Answer structural and corpus-statistic questions about the Tanakh deterministically (no verse search): longest/shortest book, chapters in a book, book order, number of books, total chapters, total number of verses, total number of words, total number of letters, the most frequent word, the most frequent letter, how many times a given word appears, the middle of the Torah (middle letter/word/verse — query_type torah_middle), the longest word, the word with the highest gematria value, and example verses that contain an exact number of words. (For the longest VERSE by word count, use the find_longest_verse tool instead.)",
                     "parameters": {
                         "type": "object",
                         "properties": {
@@ -292,6 +293,7 @@ class BibleAgent:
                                     "most_frequent_word",
                                     "most_frequent_letter",
                                     "word_frequency",
+                                    "torah_middle",
                                     "longest_word",
                                     "highest_gematria",
                                     "verse_by_word_count",
@@ -420,6 +422,8 @@ class BibleAgent:
             if not w:
                 return {"error": "יש לציין מילה בעברית."}
             return {"word": w, "count": wf.get(w, 0), "queried": True}
+        if query_type == "torah_middle":
+            return self._compute_torah_middle()
         if query_type == "longest_book":
             b = max(catalog, key=lambda x: x["number_of_chapters"])
             return {"book": b["hebrew"], "book_en": b["english"], "chapters": b["number_of_chapters"]}
@@ -478,6 +482,52 @@ class BibleAgent:
 
     def _tool_search_number(self, number: str, size: int = 5) -> Dict[str, Any]:
         return dicta_search_number(number, size=size)
+
+    def _compute_torah_middle(self) -> Dict[str, Any]:
+        """The middle letter / word / verse of the Torah (first 5 books), computed
+        deterministically over the read (qere) text with ketiv/qere collapsed.
+        Cached after first use. NOTE: a literal count differs from the traditional
+        Masoretic markers (ו of גחון / דרש דרש) due to plene/defective spelling."""
+        if self._torah_middle is not None:
+            return self._torah_middle
+        if not self._verses_by_key:
+            return {"error": "נתוני הפסוקים אינם זמינים לחישוב אמצע התורה."}
+
+        torah_books = {b["hebrew"] for b in BIBLE_CATALOG[:5]}  # בראשית..דברים
+        rows = [v for v in self._verses_by_key.values() if v["book"] in torah_books]
+        rows.sort(key=lambda v: (BOOK_MAPPING[v["book"]]["index"], v["chapter"], v["verse"]))
+
+        verse_refs: List[str] = []
+        words: List[tuple] = []    # (display_word, ref)
+        letters: List[tuple] = []  # (letter, display_word, ref)
+        for v in rows:
+            verse_refs.append(v["ref"])
+            pt = _resolve_keri_ketiv(v["text_plain"]).split()
+            nt = _resolve_keri_ketiv(v["text_with_niqqud"]).split()
+            if len(pt) != len(nt):
+                nt = pt
+            for pw, nw in zip(pt, nt):
+                disp = _clean_display_word(nw)
+                words.append((disp, v["ref"]))
+                for ch in pw:
+                    if "א" <= ch <= "ת":
+                        letters.append((ch, disp, v["ref"]))
+
+        def middles(seq: list) -> list:
+            n = len(seq)
+            return [seq[n // 2]] if n % 2 else [seq[n // 2 - 1], seq[n // 2]]
+
+        self._torah_middle = {
+            "torah_middle": True,
+            "verses": [{"ref": r} for r in middles(verse_refs)],
+            "words": [{"word": w, "ref": r} for (w, r) in middles(words)],
+            "letters": [{"letter": l, "word": w, "ref": r} for (l, w, r) in middles(letters)],
+            "counts": {"verses": len(verse_refs), "words": len(words), "letters": len(letters)},
+            "note": ("ספירה ממוחשבת מדויקת על הטקסט. המסורת המקובלת מציינת את האות ו' של "
+                     "'גָּחוֹן' (ויקרא יא:מב) כאמצעית ואת 'דָּרֹשׁ דָּרַשׁ' (ויקרא י:טז) כמילים "
+                     "האמצעיות; ההבדל נובע מהבדלי כתיב מלא/חסר בספירה המסורתית."),
+        }
+        return self._torah_middle
 
     def _tool_find_longest_verse(self) -> Dict[str, Any]:
         """Find the longest verse by word count via a DETERMINISTIC binary search.
@@ -566,6 +616,13 @@ class BibleAgent:
                 k = len(result.get("words", []))
                 cnt = "מילה אחת" if k == 1 else f"{k} מילים"
                 return {"summary": f"הערך הגימטרי הגבוה ביותר: {result['value']} ({cnt}).", "confidence": "high"}
+            if result.get("torah_middle"):  # middle of the Torah
+                ltr = "/".join(x["letter"] for x in result.get("letters", []))
+                lref = result["letters"][0]["ref"] if result.get("letters") else "—"
+                wlist = "/".join(x["word"] for x in result.get("words", []))
+                vlist = "–".join(x["ref"] for x in result.get("verses", []))
+                return {"summary": f"אמצע התורה — אות: {ltr} ({lref}); מילים: {wlist}; פסוקים: {vlist}.",
+                        "confidence": "high"}
             if "letter" in result:  # most_frequent_letter
                 return {"summary": f"האות הנפוצה ביותר: '{result['letter']}' ({result['count']} פעמים).", "confidence": "high"}
             if "word" in result and "count" in result:  # most_frequent_word / word_frequency
